@@ -1454,10 +1454,6 @@ static void
 draw_llvm_generate(struct draw_llvm *llvm, struct draw_llvm_variant *variant,
                    boolean elts)
 {
-    FILE* fd = fopen("/home/alex/mesa.log", "a");
-    fprintf(fd, "draw_llvm_generate()\n");
-    fclose(fd);
-
    struct gallivm_state *gallivm = variant->gallivm;
    LLVMContextRef context = gallivm->context;
    LLVMTypeRef int32_type = LLVMInt32TypeInContext(context);

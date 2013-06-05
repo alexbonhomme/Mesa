@@ -387,7 +387,7 @@ struct draw_llvm_variant
    draw_jit_vert_func jit_func;
    draw_jit_vert_func_elts jit_func_elts;
 
-   struct llvm_vertex_shader *shader;
+   struct llvm_vertex_shader *shader; // == draw_vertex_shader
 
    struct draw_llvm *llvm;
    struct draw_llvm_variant_list_item list_item_global;

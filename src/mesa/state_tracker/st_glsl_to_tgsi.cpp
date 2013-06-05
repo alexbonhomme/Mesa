@@ -5110,7 +5110,7 @@ get_mesa_program(struct gl_context *ctx,
 
    if (ctx->Shader.Flags & GLSL_DUMP) {
       printf("\n");
-      printf("GLSL IR for linked %s program %d:\n", target_string,
+      printf(">>GLSL IR for linked %s program %d:\n", target_string,
              shader_program->Name);
       _mesa_print_ir(shader->ir, NULL);
       printf("\n");
@@ -5143,12 +5143,6 @@ get_mesa_program(struct gl_context *ctx,
    case GL_VERTEX_SHADER:
       stvp = (struct st_vertex_program *)prog;
       stvp->glsl_to_tgsi = v;
-
-      //DEBUG Alex
-      printf("\n\nGL_VERTEX_SHADER\n");
-      if(v->current_function != NULL) //TODO Pourquoi toujours null ??
-        printf("Function name : %s", v->current_function->sig->function_name());
-
        break;
    case GL_FRAGMENT_SHADER:
       stfp = (struct st_fragment_program *)prog;
