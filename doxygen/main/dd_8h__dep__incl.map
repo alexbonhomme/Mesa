@@ -1,0 +1,51 @@
+<map id="dd.h" name="dd.h">
+<area shape="rect" id="node3" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="2112,80,2187,107"/>
+<area shape="rect" id="node5" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="46,155,112,181"/>
+<area shape="rect" id="node7" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="2718,304,2803,331"/>
+<area shape="rect" id="node9" href="$errors_8c.html" title="Mesa debugging and error handling functions." alt="" coords="96,229,163,256"/>
+<area shape="rect" id="node11" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="1061,155,1136,181"/>
+<area shape="rect" id="node13" href="$accum_8c.html" title="accum.c" alt="" coords="1136,229,1208,256"/>
+<area shape="rect" id="node15" href="$api__arrayelt_8c.html" title="api_arrayelt.c" alt="" coords="1330,229,1430,256"/>
+<area shape="rect" id="node18" href="$api__loopback_8h.html" title="api_loopback.h" alt="" coords="851,229,960,256"/>
+<area shape="rect" id="node21" href="$api__loopback_8c.html" title="api_loopback.c" alt="" coords="708,304,818,331"/>
+<area shape="rect" id="node23" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="3416,304,3491,331"/>
+<area shape="rect" id="node25" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="3012,304,3068,331"/>
+<area shape="rect" id="node27" href="$es1__conversion_8c.html" title="es1_conversion.c" alt="" coords="844,304,967,331"/>
+<area shape="rect" id="node30" href="$api__validate_8c.html" title="api_validate.c" alt="" coords="2142,229,2244,256"/>
+<area shape="rect" id="node32" href="$arbprogram_8c.html" title="ARB_vertex/fragment_program state management functions." alt="" coords="238,229,336,256"/>
+<area shape="rect" id="node34" href="$arrayobj_8c.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="2772,229,2850,256"/>
+<area shape="rect" id="node36" href="$atifragshader_8c.html" title="atifragshader.c" alt="" coords="361,229,468,256"/>
+<area shape="rect" id="node38" href="$attrib_8c.html" title="attrib.c" alt="" coords="2532,229,2594,256"/>
+<area shape="rect" id="node40" href="$blend_8c.html" title="Blending operations." alt="" coords="494,229,558,256"/>
+<area shape="rect" id="node42" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="2035,229,2118,256"/>
+<area shape="rect" id="node44" href="$buffers_8c.html" title="glReadBuffer, DrawBuffer functions." alt="" coords="1233,229,1306,256"/>
+<area shape="rect" id="node46" href="$clear_8c.html" title="glClearColor, glClearIndex, glClear() functions." alt="" coords="1602,229,1663,256"/>
+<area shape="rect" id="node48" href="$clip_8c.html" title="clip.c" alt="" coords="582,229,635,256"/>
+<area shape="rect" id="node50" href="$colortab_8c.html" title="colortab.c" alt="" coords="3129,229,3207,256"/>
+<area shape="rect" id="node53" href="$depth_8c.html" title="depth.c" alt="" coords="660,229,724,256"/>
+<area shape="rect" id="node56" href="$enable_8c.html" title="Enable/disable/query GL capabilities." alt="" coords="1506,229,1576,256"/>
+<area shape="rect" id="node60" href="$state_8h.html" title="state.h" alt="" coords="1712,155,1774,181"/>
+<area shape="rect" id="node66" href="$drawtex_8c.html" title="drawtex.c" alt="" coords="1738,229,1816,256"/>
+<area shape="rect" id="node69" href="$api__arrayelt_8h.html" title="api_arrayelt.h" alt="" coords="1448,155,1547,181"/>
+<area shape="rect" id="node74" href="$bufferobj_8h.html" title="bufferobj.h" alt="" coords="2522,155,2604,181"/>
+<area shape="rect" id="node84" href="$convolve_8c.html" title="convolve.c" alt="" coords="2422,229,2507,256"/>
+<area shape="rect" id="node92" href="$transformfeedback_8h.html" title="transformfeedback.h" alt="" coords="2212,155,2354,181"/>
+<area shape="rect" id="node100" href="$arrayobj_8h.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="2788,155,2866,181"/>
+<area shape="rect" id="node109" href="$colormac_8h.html" title="Color&#45;related macros." alt="" coords="1854,155,1940,181"/>
+<area shape="rect" id="node115" href="$debug_8c.html" title="debug.c" alt="" coords="1841,229,1908,256"/>
+<area shape="rect" id="node117" href="$texobj_8h.html" title="Texture object management." alt="" coords="2018,155,2086,181"/>
+<area shape="rect" id="node124" href="$texstate_8h.html" title="Texture state management." alt="" coords="3034,155,3114,181"/>
+<area shape="rect" id="node138" href="$pack_8h.html" title="pack.h" alt="" coords="3188,155,3250,181"/>
+<area shape="rect" id="node142" href="$pbo_8h.html" title="pbo.h" alt="" coords="3274,155,3328,181"/>
+<area shape="rect" id="node146" href="$teximage_8h.html" title="Texture images manipulation functions." alt="" coords="2922,155,3008,181"/>
+<area shape="rect" id="node151" href="$condrender_8c.html" title="Conditional rendering functions." alt="" coords="3920,304,4016,331"/>
+<area shape="rect" id="node153" href="$queryobj_8h.html" title="queryobj.h" alt="" coords="3760,229,3843,256"/>
+<area shape="rect" id="node159" href="$dlist_8h.html" title="Display lists management." alt="" coords="3385,229,3442,256"/>
+<area shape="rect" id="node164" href="$eval_8h.html" title="Eval operations." alt="" coords="3466,229,3523,256"/>
+<area shape="rect" id="node169" href="$feedback_8h.html" title="feedback.h" alt="" coords="3548,229,3634,256"/>
+<area shape="rect" id="node173" href="$shaderobj_8h.html" title="shaderobj.h" alt="" coords="3760,155,3848,181"/>
+<area shape="rect" id="node176" href="$texstore_8h.html" title="Texture image storage routines." alt="" coords="4019,155,4099,181"/>
+<area shape="rect" id="node179" href="$vtxfmt_8h.html" title="vtxfmt.h" alt="" coords="3873,155,3943,181"/>
+<area shape="rect" id="node183" href="$core_8h.html" title="The public header of core mesa." alt="" coords="4174,155,4232,181"/>
+<area shape="rect" id="node190" href="$enums_8c.html" title="enums.c" alt="" coords="4256,155,4328,181"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="s_fragprog.h" name="s_fragprog.h">
+<area shape="rect" id="node3" href="$s__context_8h.html" title="Software rasterization context and private types." alt="" coords="1435,80,1525,107"/>
+<area shape="rect" id="node45" href="$s__fragprog_8c.html" title="s_fragprog.c" alt="" coords="3015,155,3109,181"/>
+<area shape="rect" id="node57" href="$s__span_8c.html" title="Span processing functions used by all rasterization functions." alt="" coords="3135,155,3209,181"/>
+<area shape="rect" id="node5" href="$s__aaline_8c.html" title="s_aaline.c" alt="" coords="2319,155,2400,181"/>
+<area shape="rect" id="node7" href="$s__aatriangle_8c.html" title="s_aatriangle.c" alt="" coords="2425,155,2527,181"/>
+<area shape="rect" id="node9" href="$s__alpha_8c.html" title="Functions to apply alpha test." alt="" coords="2551,155,2629,181"/>
+<area shape="rect" id="node11" href="$s__atifragshader_8c.html" title="s_atifragshader.c" alt="" coords="2655,155,2777,181"/>
+<area shape="rect" id="node13" href="$s__bitmap_8c.html" title="glBitmap rendering." alt="" coords="2802,155,2888,181"/>
+<area shape="rect" id="node15" href="$s__blend_8c.html" title="software blending." alt="" coords="2913,155,2991,181"/>
+<area shape="rect" id="node17" href="$s__blit_8c.html" title="s_blit.c" alt="" coords="5,155,69,181"/>
+<area shape="rect" id="node19" href="$s__clear_8c.html" title="s_clear.c" alt="" coords="93,155,168,181"/>
+<area shape="rect" id="node21" href="$s__context_8c.html" title="s_context.c" alt="" coords="403,229,493,256"/>
+<area shape="rect" id="node23" href="$s__texfetch_8h.html" title="s_texfetch.h" alt="" coords="243,155,337,181"/>
+<area shape="rect" id="node26" href="$s__texfetch_8c.html" title="Texel fetch/store functions." alt="" coords="158,229,252,256"/>
+<area shape="rect" id="node28" href="$s__texrender_8c.html" title="s_texrender.c" alt="" coords="277,229,379,256"/>
+<area shape="rect" id="node30" href="$s__texfilter_8h.html" title="s_texfilter.h" alt="" coords="464,155,555,181"/>
+<area shape="rect" id="node33" href="$s__texfilter_8c.html" title="s_texfilter.c" alt="" coords="532,229,623,256"/>
+<area shape="rect" id="node35" href="$s__copypix_8c.html" title="s_copypix.c" alt="" coords="630,155,721,181"/>
+<area shape="rect" id="node37" href="$s__depth_8c.html" title="s_depth.c" alt="" coords="746,155,824,181"/>
+<area shape="rect" id="node39" href="$s__drawpix_8c.html" title="s_drawpix.c" alt="" coords="849,155,940,181"/>
+<area shape="rect" id="node41" href="$s__feedback_8c.html" title="s_feedback.c" alt="" coords="965,155,1064,181"/>
+<area shape="rect" id="node43" href="$s__fog_8c.html" title="s_fog.c" alt="" coords="1089,155,1153,181"/>
+<area shape="rect" id="node47" href="$s__lines_8c.html" title="s_lines.c" alt="" coords="1179,155,1253,181"/>
+<area shape="rect" id="node49" href="$s__logic_8c.html" title="s_logic.c" alt="" coords="1277,155,1352,181"/>
+<area shape="rect" id="node51" href="$s__masking_8c.html" title="s_masking.c" alt="" coords="1376,155,1472,181"/>
+<area shape="rect" id="node53" href="$s__points_8c.html" title="s_points.c" alt="" coords="1496,155,1579,181"/>
+<area shape="rect" id="node55" href="$s__renderbuffer_8c.html" title="s_renderbuffer.c" alt="" coords="1603,155,1719,181"/>
+<area shape="rect" id="node59" href="$s__stencil_8c.html" title="s_stencil.c" alt="" coords="1744,155,1829,181"/>
+<area shape="rect" id="node61" href="$s__texcombine_8c.html" title="s_texcombine.c" alt="" coords="1853,155,1968,181"/>
+<area shape="rect" id="node66" href="$s__texture_8c.html" title="s_texture.c" alt="" coords="1993,155,2079,181"/>
+<area shape="rect" id="node68" href="$s__triangle_8c.html" title="s_triangle.c" alt="" coords="2103,155,2192,181"/>
+<area shape="rect" id="node70" href="$s__zoom_8c.html" title="s_zoom.c" alt="" coords="2217,155,2295,181"/>
+</map>

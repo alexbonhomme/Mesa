@@ -1,0 +1,7 @@
+<map id="lower_discard_visitor::visit_leave" name="lower_discard_visitor::visit_leave">
+<area shape="rect" id="node3" href="$lower__discard_8cpp.html#a0db04ba171ec458bcca754beed28e8f6" title="find_discard" alt="" coords="209,5,301,32"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="207,56,303,83"/>
+<area shape="rect" id="node11" href="$lower__discard_8cpp.html#a7694c5607a2fa89ed8baf379adfa2d6a" title="replace_discard" alt="" coords="198,107,311,133"/>
+<area shape="rect" id="node5" href="$classir__discard.html#ae8e42c20e0dbf15625b7ed7c744d2baa" title="ir_discard::as_discard" alt="" coords="360,5,509,32"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="391,56,478,83"/>
+</map>

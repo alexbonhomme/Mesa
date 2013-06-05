@@ -1,0 +1,5 @@
+<map id="emit_passthrough" name="emit_passthrough">
+<area shape="rect" id="node3" href="$ffvertex__prog_8c.html#a22176e2338cdb6b4004a2c62ed644559" title="register_input" alt="" coords="183,5,283,32"/>
+<area shape="rect" id="node7" href="$ffvertex__prog_8c.html#ade0aa77c442a33d2af223fcde5718fef" title="register_output" alt="" coords="179,56,287,83"/>
+<area shape="rect" id="node5" href="$ffvertex__prog_8c.html#a410b66cff3b6e9e97804daf7b3055c28" title="make_ureg" alt="" coords="337,31,423,57"/>
+</map>

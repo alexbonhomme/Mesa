@@ -1,0 +1,28 @@
+<map id="_save_upgrade_vertex" name="_save_upgrade_vertex">
+<area shape="rect" id="node3" href="$vbo__save__api_8c.html#adce6e0e358b094d881da39aafa69eebb" title="_save_copy_from_current" alt="" coords="415,5,587,32"/>
+<area shape="rect" id="node5" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="893,183,987,209"/>
+<area shape="rect" id="node7" href="$vbo__save__api_8c.html#a2c77d9f39799225f8af087c0891bcf4b" title="_save_copy_to_current" alt="" coords="208,107,365,133"/>
+<area shape="rect" id="node10" href="$vbo__save__api_8c.html#a3c05e2a9aa9beb2c7e143718d419d499" title="This is called when we fill a vertex buffer before we hit a glEnd()." alt="" coords="217,157,356,184"/>
+<area shape="rect" id="node13" href="$vbo__save__api_8c.html#a2b40dc19bbcdef6bc5e5cddfe9f67a4b" title="Insert the active immediate struct onto the display list currently being built." alt="" coords="413,411,589,437"/>
+<area shape="rect" id="node15" href="main.tag$dlist_8c.html#a668379ebc9169dbf9ed6929afc831966" title="_mesa_dlist_alloc" alt="" coords="659,259,786,285"/>
+<area shape="rect" id="node17" href="$vbo__save__api_8c.html#a02f2aa7a138d20a5c0d1947734bd5559" title="_save_copy_vertices" alt="" coords="650,309,795,336"/>
+<area shape="rect" id="node20" href="$vbo__save__api_8c.html#af383fbfc78a8c0331b4e9b3cf54f137a" title="_save_reset_counters" alt="" coords="647,360,798,387"/>
+<area shape="rect" id="node23" href="$vbo__save__api_8c.html#ac9e1bf68ddf1f7ebd885532b69a90041" title="alloc_prim_store" alt="" coords="664,411,781,437"/>
+<area shape="rect" id="node25" href="$vbo__save__api_8c.html#afa851e7f5dea5abd01509ba8b6ddc758" title="alloc_vertex_store" alt="" coords="659,461,787,488"/>
+<area shape="rect" id="node32" href="$vbo__save__api_8c.html#a1375d9aa39fa3570c66db217a0fc3c39" title="For a list of prims, try merging prims that can just be extensions of the previous prim..." alt="" coords="674,512,771,539"/>
+<area shape="rect" id="node42" href="$vbo__save_8h.html#a06f1a3a463a9df6d980ca6c464d3348a" title="vbo_loopback_vertex_list" alt="" coords="638,563,807,589"/>
+<area shape="rect" id="node58" href="$vbo__save_8h.html#a3e5addb57c6026a0e9370309f981b929" title="vbo_save_map_vertex\l_store" alt="" coords="646,614,799,655"/>
+<area shape="rect" id="node60" href="$vbo__save_8h.html#a4d783b9ffb8f48aa931c60543c4c150b" title="vbo_save_unmap_vertex\l_store" alt="" coords="639,679,806,721"/>
+<area shape="rect" id="node28" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="893,344,987,371"/>
+<area shape="rect" id="node30" href="main.tag$vtxfmt_8c.html#ae345e0f57720a7d8c8c3dc1f29ae45b8" title="_mesa_install_save\l_vtxfmt" alt="" coords="871,395,1009,437"/>
+<area shape="rect" id="node34" href="$vbo_8h.html#addb8a1c2d5d7fe7841f4bdebe6fba421" title="In some degenarate cases we can improve our ability to merge consecutive primitives." alt="" coords="857,461,1023,488"/>
+<area shape="rect" id="node36" href="$vbo_8h.html#a325466a9eb647c7863a670deb7d6d607" title="Helper function for determining if two subsequent glBegin/glEnd primitives can be combined..." alt="" coords="1085,537,1238,564"/>
+<area shape="rect" id="node38" href="$vbo_8h.html#a45956dc25d15d16e8a9ef07c057d3f29" title="If we&#39;ve determined that p0 and p1 can be merged, this function concatenates p1 onto p0..." alt="" coords="877,563,1003,589"/>
+<area shape="rect" id="node44" href="$vbo__save__loopback_8c.html#a0f9fc4855dbe23ce6c4e41ea835f2ee2" title="loopback_prim" alt="" coords="887,613,993,640"/>
+<area shape="rect" id="node56" href="$vbo__save__loopback_8c.html#a769dd86a08639a334646972c5443924d" title="loopback_weak_prim" alt="" coords="868,664,1012,691"/>
+<area shape="rect" id="node46" href="$vbo__split__copy_8c.html#aba57a432cbe3ed3871caeedfa6c6d4d0" title="Called at end of each primitive during replay." alt="" coords="1140,588,1183,615"/>
+<area shape="rect" id="node54" href="main.tag$enums_8c.html#add9a5aa9e4d85da047803266d7e66548" title="_mesa_lookup_prim_by_nr" alt="" coords="1073,639,1250,665"/>
+<area shape="rect" id="node48" href="$vbo__split__copy_8c.html#a5cc428dd7410f68a6017975b0d7e8406" title="Starts returning true slightly before the buffer fills, to ensure that there is sufficient room for a..." alt="" coords="1299,563,1391,589"/>
+<area shape="rect" id="node50" href="$vbo__split__copy_8c.html#aa233458bf6eba9cd4b88f8faf3532a6d" title="flush" alt="" coords="1320,613,1371,640"/>
+<area shape="rect" id="node52" href="$vbo__split__copy_8c.html#abcc36e536e4095f768301a9db88d00ea" title="Dump the parameters/info for a vbo&#45;&gt;draw() call." alt="" coords="1440,613,1557,640"/>
+</map>

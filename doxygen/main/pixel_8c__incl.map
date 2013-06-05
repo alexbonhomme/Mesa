@@ -1,0 +1,19 @@
+<map id="pixel.c" name="pixel.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="685,528,768,555"/>
+<area shape="rect" id="node9" href="$bufferobj_8h.html" title="bufferobj.h" alt="" coords="652,229,735,256"/>
+<area shape="rect" id="node11" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="501,379,576,405"/>
+<area shape="rect" id="node28" href="$colormac_8h.html" title="Color&#45;related macros." alt="" coords="439,80,525,107"/>
+<area shape="rect" id="node31" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="754,155,829,181"/>
+<area shape="rect" id="node66" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="602,155,677,181"/>
+<area shape="rect" id="node71" href="$pixel_8h.html" title="Pixel operations." alt="" coords="1223,304,1283,331"/>
+<area shape="rect" id="node75" href="$pbo_8h.html" title="pbo.h" alt="" coords="370,155,424,181"/>
+<area shape="rect" id="node79" href="$dispatch_8h.html" title="Macros for handling GL dispatch tables." alt="" coords="1933,80,2048,107"/>
+<area shape="rect" id="node14" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="5,453,104,480"/>
+<area shape="rect" id="node18" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="295,453,415,480"/>
+<area shape="rect" id="node20" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="439,453,565,480"/>
+<area shape="rect" id="node22" href="$formats_8h.html" title="main/formats.h" alt="" coords="320,528,429,555"/>
+<area shape="rect" id="node25" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="642,453,688,480"/>
+<area shape="rect" id="node33" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="759,229,835,256"/>
+<area shape="rect" id="node35" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="1212,379,1295,405"/>
+<area shape="rect" id="node60" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="764,304,831,331"/>
+</map>

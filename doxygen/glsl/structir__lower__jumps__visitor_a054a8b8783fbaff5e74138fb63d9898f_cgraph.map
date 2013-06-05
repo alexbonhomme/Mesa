@@ -1,0 +1,14 @@
+<map id="ir_lower_jumps_visitor::visit" name="ir_lower_jumps_visitor::visit">
+<area shape="rect" id="node3" href="$structir__lower__jumps__visitor.html#a573f9504d6213f992a5e747b9ff27317" title="ir_lower_jumps_visitor\l::get_jump_strength" alt="" coords="694,13,845,54"/>
+<area shape="rect" id="node7" href="$structir__lower__jumps__visitor.html#a161a0e4d95ef8fa09337fd51b0e735e0" title="If the block ends in a conditional or unconditional break, lower it, even though should_lower_jump() ..." alt="" coords="227,130,378,171"/>
+<area shape="rect" id="node18" href="$structir__lower__jumps__visitor.html#a72197db45a07e99fdfb9bfa995366e61" title="If the given instruction is a return, lower it to instructions that store the return value (if there ..." alt="" coords="205,65,400,106"/>
+<area shape="rect" id="node23" href="$structir__lower__jumps__visitor.html#a3c4d9ff772ae6ddb4e4ac58b3834d0ee" title="ir_lower_jumps_visitor\l::move_outer_block_inside" alt="" coords="214,195,391,237"/>
+<area shape="rect" id="node25" href="$structir__lower__jumps__visitor.html#a452428f7cf6b45505b0af7d809c1a377" title="ir_lower_jumps_visitor\l::visit_block" alt="" coords="227,261,378,302"/>
+<area shape="rect" id="node5" href="$loop__unroll_8cpp.html#ae56350583ca7c5cf46440b16c0f86632" title="is_break" alt="" coords="953,20,1023,47"/>
+<area shape="rect" id="node9" href="$classir__instruction.html#ab535e6cbf92548da00fdfe821bcceffb" title="ir_instruction::as_if" alt="" coords="479,137,611,164"/>
+<area shape="rect" id="node11" href="$structir__lower__jumps__visitor.html#a360f4a41b203c84e147f4df7cddcd049" title="If the given instruction is a break, lower it to an instruction that sets the break flag..." alt="" coords="449,189,642,230"/>
+<area shape="rect" id="node13" href="$structir__lower__jumps__visitor.html#a75f69bf501da4cc337feb13966e9feb5" title="Create the necessary instruction to replace a break instruction." alt="" coords="691,189,848,230"/>
+<area shape="rect" id="node15" href="$structloop__record.html#ad9f2aded1de5b6597069b352cf9bb6c9" title="loop_record::get_break_flag" alt="" coords="897,196,1079,223"/>
+<area shape="rect" id="node21" href="$structir__lower__jumps__visitor.html#ac58fd6af73a557cafa1b1852450a5a95" title="Insert the instructions necessary to lower a return statement, before the given return instruction..." alt="" coords="468,71,623,113"/>
+<area shape="rect" id="node27" href="$structblock__record.html#a303cfcafc236f49f516badf874185a2f" title="block_record::block\l_record" alt="" coords="478,261,613,302"/>
+</map>

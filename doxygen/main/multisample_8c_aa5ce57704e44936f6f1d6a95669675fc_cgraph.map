@@ -1,0 +1,6 @@
+<map id="_mesa_check_sample_count" name="_mesa_check_sample_count">
+<area shape="rect" id="node3" href="$glformats_8c.html#a1e151b5281ee629823f4e69e2f71f137" title="Test if the given image format is a depth or stencil format." alt="" coords="206,5,386,46"/>
+<area shape="rect" id="node5" href="$glformats_8c.html#afff83fe89a1a782a0a429094628de922" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="215,70,377,111"/>
+<area shape="rect" id="node7" href="$glformats_8c.html#ac1e084cf779e95616577d1025b746335" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="435,37,597,78"/>
+<area shape="rect" id="node9" href="$glformats_8c.html#a4cee69245a886dbf9ed7be8533ffcedf" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="435,102,597,143"/>
+</map>

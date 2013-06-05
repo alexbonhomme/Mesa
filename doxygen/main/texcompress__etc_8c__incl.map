@@ -1,0 +1,18 @@
+<map id="texcompress_etc.c" name="texcompress_etc.c">
+<area shape="rect" id="node5" href="$texcompress_8h.html" title="texcompress.h" alt="" coords="177,304,284,331"/>
+<area shape="rect" id="node16" href="$texcompress__etc_8h.html" title="texcompress_etc.h" alt="" coords="217,155,351,181"/>
+<area shape="rect" id="node22" href="$texstore_8h.html" title="Texture image storage routines." alt="" coords="360,229,440,256"/>
+<area shape="rect" id="node41" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="426,80,501,107"/>
+<area shape="rect" id="node75" href="$format__unpack_8h.html" title="format_unpack.h" alt="" coords="526,80,644,107"/>
+<area shape="rect" id="node77" href="$texcompress__etc__tmp_8h.html" title="texcompress_etc_tmp.h" alt="" coords="669,80,832,107"/>
+<area shape="rect" id="node7" href="$formats_8h.html" title="formats.h" alt="" coords="360,379,437,405"/>
+<area shape="rect" id="node11" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="595,453,677,480"/>
+<area shape="rect" id="node24" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="659,304,735,331"/>
+<area shape="rect" id="node27" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="735,379,835,405"/>
+<area shape="rect" id="node31" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="975,379,1095,405"/>
+<area shape="rect" id="node33" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="462,379,588,405"/>
+<area shape="rect" id="node36" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="613,379,659,405"/>
+<area shape="rect" id="node43" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="1417,155,1492,181"/>
+<area shape="rect" id="node45" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="1521,304,1604,331"/>
+<area shape="rect" id="node70" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1207,229,1273,256"/>
+</map>

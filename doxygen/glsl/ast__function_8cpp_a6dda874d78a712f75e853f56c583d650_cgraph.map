@@ -1,0 +1,8 @@
+<map id="emit_inline_record_constructor" name="emit_inline_record_constructor">
+<area shape="rect" id="node3" href="$classir__rvalue.html#a78420dac9552ddd9cde5fc5d0a89ad5e" title="ir_rvalue::as_rvalue" alt="" coords="193,5,327,32"/>
+<area shape="rect" id="node5" href="$namespaceir__builder.html#a888d3a1315316c1674017fbe3669a4c3" title="ir_builder::assign" alt="" coords="200,56,320,83"/>
+<area shape="rect" id="node11" href="$classir__dereference__variable.html#a370f67b3358604b90930687b99f3a71c" title="ir_dereference_variable\l::clone" alt="" coords="182,107,338,149"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="421,56,517,83"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="601,56,687,83"/>
+<area shape="rect" id="node13" href="$classir__dereference__variable.html#a52233a3c37127be3b81d1a0cc56ca7c6" title="ir_dereference_variable\l::ir_dereference_variable" alt="" coords="387,107,551,149"/>
+</map>

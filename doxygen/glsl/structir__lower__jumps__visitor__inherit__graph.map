@@ -1,0 +1,4 @@
+<map id="ir_lower_jumps_visitor" name="ir_lower_jumps_visitor">
+<area shape="rect" id="node2" href="$classir__control__flow__visitor.html" title="ir_control_flow_visitor" alt="" coords="6,80,153,107"/>
+<area shape="rect" id="node4" href="$classir__visitor.html" title="Abstract base class of visitors of IR instruction trees." alt="" coords="45,5,115,32"/>
+</map>

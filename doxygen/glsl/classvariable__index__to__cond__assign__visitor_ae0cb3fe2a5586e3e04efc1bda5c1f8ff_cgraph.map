@@ -1,0 +1,24 @@
+<map id="variable_index_to_cond_assign_visitor::handle_rvalue" name="variable_index_to_cond_assign_visitor::handle_rvalue">
+<area shape="rect" id="node3" href="$classir__dereference__array.html#a2b1d75da26d95d972dd6c347e5cd601a" title="ir_dereference_array\l::as_dereference_array" alt="" coords="216,5,371,46"/>
+<area shape="rect" id="node5" href="$classvariable__index__to__cond__assign__visitor.html#a677187a47d2c2127906d04d39d39c899" title="variable_index_to_cond\l_assign_visitor::convert\l_dereference_array" alt="" coords="213,183,373,239"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="1257,172,1353,199"/>
+<area shape="rect" id="node44" href="$classvariable__index__to__cond__assign__visitor.html#aa584bbf3c4622774cc75447d43bf37f1" title="variable_index_to_cond\l_assign_visitor::needs\l_lowering" alt="" coords="214,507,373,563"/>
+<area shape="rect" id="node7" href="$namespaceir__builder.html#a888d3a1315316c1674017fbe3669a4c3" title="ir_builder::assign" alt="" coords="671,172,791,199"/>
+<area shape="rect" id="node13" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="1062,433,1205,460"/>
+<area shape="rect" id="node15" href="$structswitch__generator.html#a9bb6aa97c1911922784c3ceb31b404d2" title="switch_generator::generate" alt="" coords="421,223,600,249"/>
+<area shape="rect" id="node41" href="$lower__variable__index__to__cond__assign_8cpp.html#afd4c817603882c7343f3167894c0e7f1" title="is_array_or_matrix" alt="" coords="446,492,575,519"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1406,172,1493,199"/>
+<area shape="rect" id="node17" href="$structswitch__generator.html#aa9a296578e681d53b4901b9cd9d6c66a" title="switch_generator::bisect" alt="" coords="649,223,813,249"/>
+<area shape="rect" id="node25" href="$structswitch__generator.html#af54c8478526a149dfbfd08f0ab2a9591" title="switch_generator::linear\l_sequence" alt="" coords="651,299,811,341"/>
+<area shape="rect" id="node20" href="$namespaceir__builder.html#aca2cf24ce2cd26412d12ba1f4813fbf8" title="ir_builder::less" alt="" coords="884,223,991,249"/>
+<area shape="rect" id="node22" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="1080,223,1187,249"/>
+<area shape="rect" id="node27" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="882,273,993,300"/>
+<area shape="rect" id="node31" href="$ir__optimization_8h.html#af256c0cd9e9e4b58685269c7e2a40963" title="Generate a comparison value for a block of indices." alt="" coords="863,391,1011,417"/>
+<area shape="rect" id="node33" href="$structassignment__generator.html#abe587e8aab81356136f1fffc281b4716" title="assignment_generator\l::generate" alt="" coords="862,325,1013,366"/>
+<area shape="rect" id="node29" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="1062,273,1205,300"/>
+<area shape="rect" id="node35" href="$classir__rvalue.html#aa7255bfef22661a246fb7aa71d5d8e0a" title="ir_rvalue::accept" alt="" coords="1074,375,1193,401"/>
+<area shape="rect" id="node37" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="1254,375,1357,401"/>
+<area shape="rect" id="node46" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="451,543,570,585"/>
+<area shape="rect" id="node49" href="$classvariable__index__to__cond__assign__visitor.html#a79c9ccc86641a3bf48c86574c69dfd77" title="variable_index_to_cond\l_assign_visitor::storage\l_type_needs_lowering" alt="" coords="431,609,591,665"/>
+<area shape="rect" id="node51" href="$classir__rvalue.html#a436c1224d5c546da6bc0622f8d504ee1" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="669,617,793,658"/>
+</map>

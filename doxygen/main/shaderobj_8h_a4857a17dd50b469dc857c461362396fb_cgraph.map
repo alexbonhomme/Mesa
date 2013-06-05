@@ -1,0 +1,22 @@
+<map id="_mesa_init_shader_object_functions" name="_mesa_init_shader_object_functions">
+<area shape="rect" id="node3" href="$shaderobj_8c.html#a41fea4e324af80036f89cc5052236e47" title="Delete a shader object." alt="" coords="248,19,397,45"/>
+<area shape="rect" id="node5" href="$shaderobj_8c.html#a7220a79685956bba0e27189474e236be" title="Free/delete a shader program object." alt="" coords="248,70,397,111"/>
+<area shape="rect" id="node35" href="$shaderobj_8c.html#a167d722df1056642076cfc949682c56b" title="Allocate a new gl_shader object, initialize it." alt="" coords="253,136,392,163"/>
+<area shape="rect" id="node39" href="$shaderobj_8c.html#ae460d35d1fafc2ce54935f0b40bcbadc" title="Allocate a new gl_shader_program object, initialize it." alt="" coords="227,187,419,213"/>
+<area shape="rect" id="node7" href="$shaderobj_8c.html#a2c10945e5d4ea2ed9301079757f3ddda" title="Free all the data that hangs off a shader program object, but not the object itself." alt="" coords="467,77,690,104"/>
+<area shape="rect" id="node9" href="$shaderobj_8c.html#a7eaaa1eb0be0c513bfb733335213f333" title="Clear (free) the shader program state that gets produced by linking." alt="" coords="751,41,894,82"/>
+<area shape="rect" id="node13" href="$shaderobj_8c.html#af6990c3b5263d3325e5db2882258d3e5" title="Set ptr to point to sh." alt="" coords="739,107,907,133"/>
+<area shape="rect" id="node11" href="$uniforms_8c.html#ab28609b080d04c21ee9539470bea4d52" title="Sever all connections with all pieces of driver storage for all uniforms." alt="" coords="955,41,1112,82"/>
+<area shape="rect" id="node15" href="$hash_8c.html#ace94fccc23fa2c949ddf18828bffc176" title="Remove an entry from the hash table." alt="" coords="959,107,1107,133"/>
+<area shape="rect" id="node17" href="$hash__table_8c.html#ab0f18848f5606303ab91b2b1ee762ecd" title="This function deletes the given hash table entry." alt="" coords="1160,5,1341,32"/>
+<area shape="rect" id="node19" href="$hash__table_8c.html#a29d49831f59c5682166c5796bb0482ae" title="Finds a hash table entry with the given key and hash of that key." alt="" coords="1162,56,1339,83"/>
+<area shape="rect" id="node25" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1193,107,1308,133"/>
+<area shape="rect" id="node31" href="$hash_8c.html#a9cc49de14d380e0a488b8807aedc9e49" title="uint_hash" alt="" coords="1211,157,1290,184"/>
+<area shape="rect" id="node33" href="$hash_8c.html#a74d0f9f21dc0f67829f9e9699fe88dc2" title="uint_key" alt="" coords="1215,208,1286,235"/>
+<area shape="rect" id="node21" href="$hash__table_8c.html#af73102fdaa8cb45f2a56c3bac210e162" title="entry_is_free" alt="" coords="1401,5,1498,32"/>
+<area shape="rect" id="node23" href="$hash__table_8c.html#a091be61d8da42898d8ac1683b60d6879" title="entry_is_present" alt="" coords="1390,56,1509,83"/>
+<area shape="rect" id="node27" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1390,107,1509,133"/>
+<area shape="rect" id="node29" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1426,157,1473,184"/>
+<area shape="rect" id="node37" href="$shaderobj_8c.html#a9c360550407ef1bcc9681c09901f2dfb" title="_mesa_init_shader" alt="" coords="513,136,644,163"/>
+<area shape="rect" id="node41" href="$shaderobj_8c.html#ae89c9546d90c67f821cba335cfb46dda" title="_mesa_init_shader_program" alt="" coords="486,187,671,213"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="teximage.h" name="teximage.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$colortab_8c.html" title="colortab.c" alt="" coords="115,80,193,107"/>
+<area shape="rect" id="node7" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="218,80,275,107"/>
+<area shape="rect" id="node9" href="$fbobject_8c.html" title="fbobject.c" alt="" coords="299,80,377,107"/>
+<area shape="rect" id="node11" href="$mipmap_8c.html" title="mipmap generation and teximage resizing functions." alt="" coords="402,80,480,107"/>
+<area shape="rect" id="node13" href="$texcompress__cpal_8c.html" title="texcompress_cpal.c" alt="" coords="505,80,644,107"/>
+<area shape="rect" id="node15" href="$texgetimage_8c.html" title="texgetimage.c" alt="" coords="668,80,772,107"/>
+<area shape="rect" id="node17" href="$teximage_8c.html" title="Texture image&#45;related functions." alt="" coords="797,80,883,107"/>
+<area shape="rect" id="node19" href="$texobj_8c.html" title="Texture object management." alt="" coords="907,80,975,107"/>
+<area shape="rect" id="node21" href="$texparam_8c.html" title="glTexParameter&#45;related functions" alt="" coords="999,80,1085,107"/>
+<area shape="rect" id="node23" href="$texstate_8c.html" title="Texture state handling." alt="" coords="1111,80,1191,107"/>
+<area shape="rect" id="node25" href="$texstorage_8c.html" title="GL_ARB_texture_storage functions." alt="" coords="1215,80,1309,107"/>
+<area shape="rect" id="node27" href="$texstore_8c.html" title="texstore.c" alt="" coords="1335,80,1415,107"/>
+</map>

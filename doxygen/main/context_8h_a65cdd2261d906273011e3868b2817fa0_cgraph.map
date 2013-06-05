@@ -1,0 +1,12 @@
+<map id="_mesa_copy_context" name="_mesa_copy_context">
+<area shape="rect" id="node3" href="math.tag$m__matrix_8c.html#ac401f4e4b18dfb9249ff41b8f54452d8" title="_math_matrix_copy" alt="" coords="204,12,340,39"/>
+<area shape="rect" id="node5" href="$texstate_8c.html#a900e9056ef6a68dff5e9b44aec3417b6" title="Used by glXCopyContext to copy texture state from one context to another." alt="" coords="201,63,343,105"/>
+<area shape="rect" id="node7" href="$texobj_8c.html#a93efb659001bc73219c7a3627c057d27" title="Simplest implementation of texture locking: grab the shared tex mutex." alt="" coords="403,5,546,46"/>
+<area shape="rect" id="node9" href="$texobj_8h.html#a8a6496e44427aa05c44fe1a5e2287059" title="_mesa_reference_texobj" alt="" coords="393,71,557,97"/>
+<area shape="rect" id="node23" href="$texobj_8c.html#ad49b18ca568a0b57afdf77ddd1b2ac57" title="_mesa_unlock_context\l_textures" alt="" coords="397,122,553,163"/>
+<area shape="rect" id="node11" href="$texobj_8c.html#a8ab948cb414b721b2ee44e4ca97db5aa" title="Reference (or unreference) a texture object." alt="" coords="605,71,776,97"/>
+<area shape="rect" id="node13" href="$texobj_8c.html#aeec6f9d2a6e060dd2ce76c5b0da941c1" title="Check if the given texture object is valid by examining its Target field." alt="" coords="824,20,963,47"/>
+<area shape="rect" id="node15" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1011,71,1125,97"/>
+<area shape="rect" id="node17" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1210,121,1257,148"/>
+<area shape="rect" id="node19" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1174,71,1293,97"/>
+</map>

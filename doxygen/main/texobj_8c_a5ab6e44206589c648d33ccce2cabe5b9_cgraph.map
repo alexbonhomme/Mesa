@@ -1,0 +1,5 @@
+<map id="texture_size" name="texture_size">
+<area shape="rect" id="node3" href="$formats_8c.html#aac2766d7a4190133b4b87ae7be599979" title="Return number of bytes needed to store an image of the given size in the given format." alt="" coords="147,5,325,32"/>
+<area shape="rect" id="node7" href="$texobj_8h.html#af04d60999c3609f5e128bdf8e36f5b28" title="Return number of faces for a texture target." alt="" coords="157,56,315,83"/>
+<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="374,5,533,32"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="init_attrib_groups" name="init_attrib_groups">
+<area shape="rect" id="node3" href="$accum_8c.html#a7f5c4f6a079d228f155c7d86ee7bc48b" title="_mesa_init_accum" alt="" coords="199,17,329,44"/>
+<area shape="rect" id="node5" href="$attrib_8c.html#a52c5c577d8ab38ed1217f4d5d701920b" title="_mesa_init_attrib" alt="" coords="203,68,325,95"/>
+<area shape="rect" id="node7" href="$bufferobj_8c.html#aa12781c11b0d448bcfe223ca3f7047ad" title="Initialize the state associated with buffer objects." alt="" coords="177,629,351,656"/>
+<area shape="rect" id="node11" href="$blend_8c.html#ab354dad090cb2a1eaa6981227f569fb6" title="Initialization of the context&#39;s Color attribute group." alt="" coords="204,173,324,200"/>
+<area shape="rect" id="node13" href="$context_8c.html#a298013711f8453a6f2bc01468c0c49cc" title="Initialize fields of gl_constants (aka ctx&#45;&gt;Const." alt="" coords="189,119,339,145"/>
+<area shape="rect" id="node21" href="$context_8c.html#abe602ef99d61d029926235173d0fc273" title="Initialize fields of gl_current_attrib (aka ctx&#45;&gt;Current." alt="" coords="198,275,330,301"/>
+<area shape="rect" id="node23" href="$debug_8c.html#a619dd3b990bf84c7664cf482369c69d7" title="Initialize debugging variables from env vars." alt="" coords="201,224,327,251"/>
+<area shape="rect" id="node31" href="$depth_8c.html#a308c75e27af4cf349a988db7b0a5bf00" title="Initialize the depth buffer attribute group in the given context." alt="" coords="202,376,326,403"/>
+<area shape="rect" id="node33" href="$dlist_8c.html#a9fadf0d76923f085379e537006124322" title="Initialize display list state for given context." alt="" coords="185,325,343,352"/>
+<area shape="rect" id="node37" href="$errors_8c.html#afe1b0ae80e5ab371952d6af93576be9f" title="_mesa_init_errors" alt="" coords="201,1760,327,1787"/>
+<area shape="rect" id="node41" href="$eval_8c.html#a75677f01756a2e5e4d8cd3fff3fca764" title="_mesa_init_eval" alt="" coords="206,427,322,453"/>
+<area shape="rect" id="node47" href="$extensions_8c.html#a89fddfecc5d2a0af2c63d38d5af4bf93" title="Initialize extension tables and enable default extensions." alt="" coords="187,579,341,605"/>
+<area shape="rect" id="node49" href="$fbobject_8c.html#a1291e7565024573781bf55a9d9516132" title="_mesa_init_fbobjects" alt="" coords="191,477,337,504"/>
+<area shape="rect" id="node55" href="$feedback_8c.html#a7cb95b74982e49064afd0fbad2e6cbcc" title="Initialize context feedback data." alt="" coords="191,680,337,707"/>
+<area shape="rect" id="node57" href="$fog_8c.html#ab7d1a0d6cd02fc8e4a511da4e948e873" title="_mesa_init_fog" alt="" coords="209,731,319,757"/>
+<area shape="rect" id="node59" href="$hint_8c.html#af69b1c02eeeb3faf7c5286121e2b2a61" title="_mesa_init_hint" alt="" coords="207,781,321,808"/>
+<area shape="rect" id="node61" href="$light_8c.html#aebb09ced63bc49daf35e1d482a4996ea" title="Initialize all lighting state for the given context." alt="" coords="197,832,331,859"/>
+<area shape="rect" id="node63" href="$lines_8c.html#a4d8e785d68bfcd046ad98bae5fb58592" title="Initialize the context line state." alt="" coords="208,883,320,909"/>
+<area shape="rect" id="node65" href="$matrix_8c.html#a3ec89287f21315c32d60107501887c99" title="Initialize the context matrix data." alt="" coords="200,933,328,960"/>
+<area shape="rect" id="node67" href="$multisample_8c.html#a712f6ad057425829524a2d0264258295" title="Initialize the context&#39;s multisample state." alt="" coords="183,984,345,1011"/>
+<area shape="rect" id="node69" href="$pixel_8c.html#acadc37f78ddc7013941686160499c7d2" title="Initialize the context&#39;s PIXEL attribute group." alt="" coords="205,1035,323,1061"/>
+<area shape="rect" id="node71" href="$pixelstore_8c.html#a12474abbd07687a1dd3f91723e42ebc7" title="Initialize the context&#39;s pixel store state." alt="" coords="190,528,338,555"/>
+<area shape="rect" id="node74" href="$points_8c.html#a7d9e379cf2bd07b2e4fa16c637e56b5c" title="Initialize the context point state." alt="" coords="204,1136,324,1163"/>
+<area shape="rect" id="node76" href="$polygon_8c.html#a98826255a14762def16f1f492bf3bd4e" title="Initialize the context polygon state." alt="" coords="195,1187,333,1213"/>
+<area shape="rect" id="node78" href="$queryobj_8c.html#ab06fc0630a306901e53a728e5cf23f35" title="Allocate/init the context state related to query objects." alt="" coords="193,1557,335,1584"/>
+<area shape="rect" id="node81" href="$rastpos_8c.html#a45edd4f1d2853433b26840a064347180" title="Initialize the context current raster position information." alt="" coords="197,1304,331,1331"/>
+<area shape="rect" id="node83" href="$scissor_8c.html#a2d1edbc656a8b53a6a3a15bae3bc88ed" title="Initialize the context&#39;s scissor state." alt="" coords="197,1355,331,1381"/>
+<area shape="rect" id="node85" href="$shaderapi_8c.html#a78712b1f78453e38b628c4bdaf3841e7" title="Initialize context&#39;s shader state." alt="" coords="181,1405,347,1432"/>
+<area shape="rect" id="node87" href="$stencil_8c.html#ab6f41f16de80971a8e488831f617cf91" title="Initialize the context stipple state." alt="" coords="199,1456,329,1483"/>
+<area shape="rect" id="node89" href="$syncobj_8c.html#ad64c3522d91613ea824c8b1b0c1a149e" title="Allocate/init the context state related to sync objects." alt="" coords="204,1507,324,1533"/>
+<area shape="rect" id="node91" href="$texstate_8c.html#a099b260f3b77caaac26a6a808a4c883d" title="Initialize texture state for the given context." alt="" coords="198,1085,330,1112"/>
+<area shape="rect" id="node94" href="$texcompress__s3tc_8c.html#a4e695085fc3dade03302d8fc1713f860" title="_mesa_init_texture_s3tc" alt="" coords="182,1608,346,1635"/>
+<area shape="rect" id="node96" href="$matrix_8c.html#a81e329a80bcd360312d264035438d3bb" title="Initialize the context transform attribute group." alt="" coords="191,1659,337,1685"/>
+<area shape="rect" id="node98" href="$transformfeedback_8c.html#a2fa353fc38b43c40bb7f56cfafac6a17" title="Per&#45;context init for transform feedback." alt="" coords="191,1238,337,1279"/>
+<area shape="rect" id="node102" href="$varray_8c.html#a3c713d9e972c580c33f9b66081af6681" title="Initialize vertex array state for given context." alt="" coords="200,1709,328,1736"/>
+<area shape="rect" id="node105" href="$viewport_8c.html#ad913595aeac68bdb6eccc7d89794fca0" title="Initialize the context viewport attribute group." alt="" coords="193,1811,335,1837"/>
+<area shape="rect" id="node9" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="411,850,573,891"/>
+<area shape="rect" id="node15" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="418,56,566,83"/>
+<area shape="rect" id="node17" href="$version_8c.html#a0c66443a57b62af26549e633ad8d0f2c" title="Override the context&#39;s GLSL version if the environment variable MESA_GLSL_VERSION_OVERRIDE is set..." alt="" coords="421,107,563,149"/>
+<area shape="rect" id="node19" href="$context_8c.html#aba3f96c8207a31cc9d2e9ca59b1acbc8" title="Init vertex/fragment/geometry program limits." alt="" coords="427,5,557,32"/>
+<area shape="rect" id="node25" href="$debug_8c.html#adbfa92e71b5eab0aa44604e1fd928042" title="Set debugging flags." alt="" coords="433,224,551,251"/>
+<area shape="rect" id="node27" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="439,275,545,301"/>
+<area shape="rect" id="node29" href="$debug_8c.html#a326cf2214040a614a295d94c2fadc9dd" title="Set verbose logging flags." alt="" coords="428,173,556,200"/>
+<area shape="rect" id="node35" href="$dlist_8c.html#a08653ceef77b8c763223db05ae486ec6" title="save_vtxfmt_init" alt="" coords="433,325,551,352"/>
+<area shape="rect" id="node39" href="$hash_8c.html#a8cd33e0da80ca5155d02868bf9bbd615" title="Create a new hash table." alt="" coords="413,1633,571,1660"/>
+<area shape="rect" id="node43" href="$eval_8c.html#a3e8e0db91e7404b3dc461c94243f5ab8" title="Initialize a 1&#45;D evaluator map." alt="" coords="446,427,538,453"/>
+<area shape="rect" id="node45" href="$eval_8c.html#afe998972f11a7a67b2d2cfbe5de8b4ef" title="Initialize a 2&#45;D evaluator map." alt="" coords="446,376,538,403"/>
+<area shape="rect" id="node51" href="$fbobject_8c.html#aded5bfb1fbfda7333e7c70e7a825f912" title="delete_dummy_framebuffer" alt="" coords="402,528,582,555"/>
+<area shape="rect" id="node53" href="$fbobject_8c.html#aa4bc01fe1aa7fe7d1fe26af9be4f3ba1" title="delete_dummy_renderbuffer" alt="" coords="401,477,583,504"/>
+</map>

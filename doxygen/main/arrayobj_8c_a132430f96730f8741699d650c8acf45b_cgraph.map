@@ -1,0 +1,5 @@
+<map id="compute_max_element" name="compute_max_element">
+<area shape="rect" id="node3" href="$varray_8h.html#a467039e6981b7d5084b3bf2d04968981" title="Compute the index of the last array element that can be safely accessed in a vertex array..." alt="" coords="211,5,354,46"/>
+<area shape="rect" id="node5" href="$imports_8c.html#ac0c482ce69d275a8d0244af38b3a5550" title="Find position of first bit set in given value." alt="" coords="261,71,304,97"/>
+<area shape="rect" id="node7" href="$imports_8c.html#a2385d975eddea296daa497e5d36febc9" title="Find the first bit set in a word." alt="" coords="403,71,442,97"/>
+</map>

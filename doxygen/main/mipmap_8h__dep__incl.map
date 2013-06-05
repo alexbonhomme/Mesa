@@ -1,0 +1,6 @@
+<map id="mipmap.h" name="mipmap.h">
+<area shape="rect" id="node3" href="$mipmap_8c.html" title="mipmap generation and teximage resizing functions." alt="" coords="5,80,83,107"/>
+<area shape="rect" id="node5" href="$texcompress__fxt1_8c.html" title="GL_3DFX_texture_compression_FXT1 support." alt="" coords="107,80,244,107"/>
+<area shape="rect" id="node7" href="$texcompress__rgtc_8c.html" title="GL_EXT_texture_compression_rgtc support." alt="" coords="269,80,405,107"/>
+<area shape="rect" id="node9" href="$texstore_8c.html" title="texstore.c" alt="" coords="431,80,511,107"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="_mesa_generate_mipmap_level" name="_mesa_generate_mipmap_level">
+<area shape="rect" id="node3" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="773,208,888,235"/>
+<area shape="rect" id="node9" href="$mipmap_8c.html#a56c63317b9e5abe7b2d3985ef4222cf0" title="make_1d_mipmap" alt="" coords="400,5,528,32"/>
+<area shape="rect" id="node28" href="$mipmap_8c.html#aae581c5ecebe481cf280765abaf2381b" title="make_2d_mipmap" alt="" coords="400,107,528,133"/>
+<area shape="rect" id="node32" href="$mipmap_8c.html#aa5ab92865c92fd9a9c16685c6432885b" title="make_3d_mipmap" alt="" coords="224,157,352,184"/>
+<area shape="rect" id="node5" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="989,208,1107,235"/>
+<area shape="rect" id="node7" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1025,259,1071,285"/>
+<area shape="rect" id="node11" href="$mipmap_8c.html#aa5d90447a8dad8289cacddbb0c98dd1f" title="bytes_per_pixel" alt="" coords="577,56,690,83"/>
+<area shape="rect" id="node17" href="$mipmap_8c.html#a450c6a86b7e1743fe61499dade227aa5" title="Average together two rows of a source image to produce a single new row in the dest image..." alt="" coords="601,132,665,159"/>
+<area shape="rect" id="node13" href="$glformats_8c.html#ac81b82fc7cf6fe0a47ae51278f917118" title="Same as _mesa_sizeof_type() but also accepting the packed pixel format data types." alt="" coords="739,5,923,32"/>
+<area shape="rect" id="node15" href="$glformats_8c.html#a3b4be71f46708425107d4c8e20024ce1" title="_mesa_type_is_packed" alt="" coords="751,56,910,83"/>
+<area shape="rect" id="node19" href="$imports_8c.html#a061acde1a3714ab2452ed34c02ebe70a" title="Convert a 2&#45;byte half float to a 4&#45;byte float." alt="" coords="761,157,900,184"/>
+<area shape="rect" id="node21" href="$imports_8c.html#a98ba06d3da86d8ca3cb0122fbc96de0b" title="Convert a 4&#45;byte float to a 2&#45;byte half float." alt="" coords="761,107,900,133"/>
+<area shape="rect" id="node23" href="$imports_8c.html#aee0063bcfc77c5f5f568f3174f211e1d" title="_mesa_round_to_even" alt="" coords="971,107,1125,133"/>
+<area shape="rect" id="node25" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="1174,107,1250,133"/>
+<area shape="rect" id="node36" href="$mipmap_8c.html#aaf3f8d0f84928f841ff69741394d3031" title="Average together four rows of a source image to produce a single new row in the dest image..." alt="" coords="589,208,677,235"/>
+</map>

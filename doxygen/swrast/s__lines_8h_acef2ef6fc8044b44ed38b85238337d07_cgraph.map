@@ -1,0 +1,10 @@
+<map id="_swrast_choose_line" name="_swrast_choose_line">
+<area shape="rect" id="node3" href="$s__aaline_8c.html#a5fcc981ee0136f2e586780ce68568f48" title="_swrast_choose_aa_line\l_function" alt="" coords="197,35,363,76"/>
+<area shape="rect" id="node5" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="411,5,565,47"/>
+<area shape="rect" id="node7" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="413,101,563,127"/>
+<area shape="rect" id="node9" href="$s__feedback_8c.html#a6076426905458d49927e7c8a865de7a3" title="_swrast_feedback_line" alt="" coords="203,151,357,178"/>
+<area shape="rect" id="node16" href="$s__feedback_8c.html#a4596bd364c750230d5fc1d6158ae0bd7" title="_swrast_select_line" alt="" coords="211,202,349,229"/>
+<area shape="rect" id="node11" href="$s__feedback_8c.html#ada14548359a7fb5f142dd438ceccf2fa" title="feedback_vertex" alt="" coords="429,151,547,178"/>
+<area shape="rect" id="node13" href="main.tag$feedback_8c.html#a55d6cc1cabd2e0550e584ef436e89d62" title="_mesa_feedback_vertex" alt="" coords="614,151,778,178"/>
+<area shape="rect" id="node18" href="main.tag$feedback_8c.html#aa6b638d2aaa5dba8ce3c86743187e00d" title="_mesa_update_hitflag" alt="" coords="413,202,563,229"/>
+</map>

@@ -1,0 +1,42 @@
+<map id="generate_call" name="generate_call">
+<area shape="rect" id="node3" href="$classir__dereference__variable.html#a370f67b3358604b90930687b99f3a71c" title="ir_dereference_variable\l::clone" alt="" coords="169,805,325,846"/>
+<area shape="rect" id="node7" href="$classir__function__signature.html#a2a9b27f70a7ad4d2e52c708b6f9c906f" title="Attempt to evaluate this function as a constant expression, given a list of the actual parameters and..." alt="" coords="153,911,341,953"/>
+<area shape="rect" id="node18" href="$ast__function_8cpp.html#a7866d831b46b6b755032d6138c9beed5" title="Perform automatic type conversion of constructor parameters." alt="" coords="404,999,540,1025"/>
+<area shape="rect" id="node64" href="$ast__function_8cpp.html#ab6f991be270d42a6685f6953f6cf45da" title="fix_parameter" alt="" coords="196,1049,297,1076"/>
+<area shape="rect" id="node76" href="$group__IR.html#ga23274dc074035d8faac3940802f4c088" title="Get the name of the function for which this is a signature." alt="" coords="175,1151,318,1193"/>
+<area shape="rect" id="node78" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="195,1100,298,1127"/>
+<area shape="rect" id="node5" href="$classir__dereference__variable.html#a52233a3c37127be3b81d1a0cc56ca7c6" title="ir_dereference_variable\l::ir_dereference_variable" alt="" coords="390,742,554,783"/>
+<area shape="rect" id="node9" href="$classir__constant.html#a6cece822566523cb37b6da951cd2250f" title="ir_constant::constant\l_expression_value" alt="" coords="400,807,544,849"/>
+<area shape="rect" id="node11" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="409,897,535,924"/>
+<area shape="rect" id="node14" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="837,1049,933,1076"/>
+<area shape="rect" id="node16" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1011,1104,1098,1131"/>
+<area shape="rect" id="node20" href="$classir__expression.html#aef40d8e9832c26af7d151495300d656b" title="Attempt to constant&#45;fold the expression." alt="" coords="603,557,760,598"/>
+<area shape="rect" id="node22" href="$classir__expression.html#abc7ed6c5f2e7c7a27d70142c5daf0737" title="Determine the number of operands used by an expression." alt="" coords="823,462,948,503"/>
+<area shape="rect" id="node24" href="$classir__rvalue.html#a85187845a3fde87f8951bc6b2dcf3c76" title="ir_rvalue::constant\l_expression_value" alt="" coords="820,527,951,569"/>
+<area shape="rect" id="node27" href="$ir__constant__expression_8cpp.html#a92377967b9c93c8b94236fcabd2bf573" title="bitcast_u2f" alt="" coords="842,593,929,620"/>
+<area shape="rect" id="node29" href="$ir__constant__expression_8cpp.html#af436e4fb3fd052eeffb4efad94f6eb85" title="bitcast_f2u" alt="" coords="842,644,929,671"/>
+<area shape="rect" id="node31" href="$ir__constant__expression_8cpp.html#aa1e0b21ec407e75f5c047efd2ab8e716" title="Evaluate a 2x16 floating&#45;point packing function." alt="" coords="843,695,928,721"/>
+<area shape="rect" id="node33" href="$ir__constant__expression_8cpp.html#a374a2a5045804c889407925dd9a2bde5" title="Evaluate one component of packSnorm2x16." alt="" coords="821,745,949,772"/>
+<area shape="rect" id="node35" href="$ir__constant__expression_8cpp.html#ad4afd8d63f4a096ce1030e4b29b7bb22" title="Evaluate a 4x8 floating&#45;point packing function." alt="" coords="846,796,925,823"/>
+<area shape="rect" id="node37" href="$ir__constant__expression_8cpp.html#ad90554d503c49a7de840f4fc35b61534" title="Evaluate one component of packSnorm4x8." alt="" coords="825,847,946,873"/>
+<area shape="rect" id="node39" href="$ir__constant__expression_8cpp.html#a5919f7def40971d9ab7bd8366956646f" title="Evaluate a 2x16 floating&#45;point unpacking function." alt="" coords="836,897,935,924"/>
+<area shape="rect" id="node41" href="$ir__constant__expression_8cpp.html#a503544575b990f74b2a49b8b28bfd581" title="Evaluate one component of unpackSnorm2x16." alt="" coords="814,948,957,975"/>
+<area shape="rect" id="node43" href="$ir__constant__expression_8cpp.html#a0cc5adcd4bec0e3acbcf20be74b1e124" title="Evaluate a 4x8 floating&#45;point unpacking function." alt="" coords="839,999,931,1025"/>
+<area shape="rect" id="node45" href="$ir__constant__expression_8cpp.html#aeac375ba5813d6e21d310290ca92050c" title="Evaluate one component of unpackSnorm4x8." alt="" coords="818,5,953,32"/>
+<area shape="rect" id="node47" href="$ir__constant__expression_8cpp.html#a126448fe5de7069f25beb440b5cef4de" title="Evaluate one component packUnorm2x16." alt="" coords="821,56,949,83"/>
+<area shape="rect" id="node49" href="$ir__constant__expression_8cpp.html#a1d8380df614141970b83dd4ba7402447" title="Evaluate one component packUnorm4x8." alt="" coords="825,107,946,133"/>
+<area shape="rect" id="node51" href="$ir__constant__expression_8cpp.html#a4430d4f042e27cf2ffa7e3b1f7ca8b74" title="Evaluate one component of unpackUnorm2x16." alt="" coords="814,157,957,184"/>
+<area shape="rect" id="node53" href="$ir__constant__expression_8cpp.html#a3a7251572b5de2aa1631c1850a3138a6" title="Evaluate one component of unpackUnorm4x8." alt="" coords="818,208,953,235"/>
+<area shape="rect" id="node55" href="$ir__constant__expression_8cpp.html#a82b030ef53a9e89b5bb5fb1d602dd33d" title="Evaluate one component of packHalf2x16." alt="" coords="829,259,942,285"/>
+<area shape="rect" id="node57" href="$ir__constant__expression_8cpp.html#a30997028c854ddf7b93427b4e5aaaafc" title="Evaluate one component of unpackHalf2x16." alt="" coords="822,309,949,336"/>
+<area shape="rect" id="node59" href="$ir__constant__expression_8cpp.html#a5aaccec6b614e026761cfe92be83b576" title="dot" alt="" coords="865,360,905,387"/>
+<area shape="rect" id="node61" href="$classir__constant.html#ac99936c4c7260369f2929910ae20e149" title="Determine whether a constant has the same value as another constant." alt="" coords="809,411,962,437"/>
+<area shape="rect" id="node66" href="$classir__instruction.html#a3bb172722273de2b95867300882e7498" title="ir_instruction::as\l_expression" alt="" coords="413,1101,531,1142"/>
+<area shape="rect" id="node68" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="417,1167,527,1193"/>
+<area shape="rect" id="node73" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="628,1049,735,1076"/>
+<area shape="rect" id="node70" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="610,1141,753,1168"/>
+<area shape="rect" id="node80" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="417,1217,527,1244"/>
+<area shape="rect" id="node82" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="635,1192,728,1219"/>
+<area shape="rect" id="node84" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="639,1243,723,1269"/>
+<area shape="rect" id="node87" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="847,1243,924,1269"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="vbo_primitive_restart.c" name="vbo_primitive_restart.c">
+<area shape="rect" id="node3" href="main.tag$imports_8h.html" title="main/imports.h" alt="" coords="90,155,197,181"/>
+<area shape="rect" id="node25" href="main.tag$bufferobj_8h.html" title="main/bufferobj.h" alt="" coords="289,155,404,181"/>
+<area shape="rect" id="node28" href="main.tag$macros_8h.html" title="main/macros.h" alt="" coords="241,80,348,107"/>
+<area shape="rect" id="node31" href="main.tag$varray_8h.html" title="main/varray.h" alt="" coords="685,80,787,107"/>
+<area shape="rect" id="node34" href="$vbo_8h.html" title="vbo.h" alt="" coords="610,304,664,331"/>
+<area shape="rect" id="node39" href="$vbo__context_8h.html" title="VBO builder module datatypes and definitions." alt="" coords="585,155,689,181"/>
+<area shape="rect" id="node5" href="main.tag$compiler_8h.html" title="compiler.h" alt="" coords="24,304,107,331"/>
+<area shape="rect" id="node7" href="main.tag$glheader_8h.html" title="glheader.h" alt="" coords="345,453,428,480"/>
+<area shape="rect" id="node9" href="main.tag$errors_8h.html" title="errors.h" alt="" coords="111,229,177,256"/>
+<area shape="rect" id="node13" href="main.tag$mtypes_8h.html" title="mtypes.h" alt="" coords="349,304,424,331"/>
+<area shape="rect" id="node16" href="main.tag$config_8h.html" title="main/config.h" alt="" coords="199,379,299,405"/>
+<area shape="rect" id="node18" href="main.tag$simple__list_8h.html" title="main/simple_list.h" alt="" coords="323,379,449,405"/>
+<area shape="rect" id="node20" href="main.tag$formats_8h.html" title="main/formats.h" alt="" coords="475,379,584,405"/>
+<area shape="rect" id="node22" href="main.tag$dd_8h.html" title="dd.h" alt="" coords="129,379,175,405"/>
+<area shape="rect" id="node42" href="$vbo__attrib_8h.html" title="vbo_attrib.h" alt="" coords="689,304,780,331"/>
+<area shape="rect" id="node44" href="$vbo__exec_8h.html" title="vbo_exec.h" alt="" coords="593,229,681,256"/>
+<area shape="rect" id="node49" href="$vbo__save_8h.html" title="vbo_save.h" alt="" coords="479,229,568,256"/>
+</map>

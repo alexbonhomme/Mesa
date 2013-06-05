@@ -1,0 +1,5 @@
+<map id="check_node_type" name="check_node_type">
+<area shape="rect" id="node3" href="$classir__instruction.html#a813b838ab61fd81ba50e75b67e98afe3" title="ir_instruction::as\l_rvalue" alt="" coords="185,5,303,46"/>
+<area shape="rect" id="node5" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="179,71,309,97"/>
+<area shape="rect" id="node7" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="358,71,501,97"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="_mesa_init_transform_feedback_functions" name="_mesa_init_transform_feedback_functions">
+<area shape="rect" id="node3" href="$transformfeedback_8c.html#ae153aaa0db7a221f736de9d9065ef508" title="Default fallback for ctx&#45;&gt;Driver.BeginTransformFeedback()" alt="" coords="206,5,381,32"/>
+<area shape="rect" id="node5" href="$transformfeedback_8c.html#ac89d34bac5d1403b627f8940b0af308b" title="Default fallback for ctx&#45;&gt;Driver.DeleteTransformFeedback()" alt="" coords="204,56,383,83"/>
+<area shape="rect" id="node17" href="$transformfeedback_8c.html#af6b72d97d0fb27f08bd7a0578dc2281f" title="Default fallback for ctx&#45;&gt;Driver.EndTransformFeedback()" alt="" coords="211,107,376,133"/>
+<area shape="rect" id="node19" href="$transformfeedback_8c.html#ad53785b1db08445ebc9feb2a169111e8" title="Default fallback for ctx&#45;&gt;Driver.NewTransformFeedback()" alt="" coords="209,157,377,184"/>
+<area shape="rect" id="node21" href="$transformfeedback_8c.html#ac4c2c57decf94434036c178b07ca26d0" title="Default fallback for ctx&#45;&gt;Driver.PauseTransformFeedback()" alt="" coords="204,208,383,235"/>
+<area shape="rect" id="node23" href="$transformfeedback_8c.html#a7c21c49e1d7c628ff0b8000263219338" title="Default fallback for ctx&#45;&gt;Driver.ResumeTransformFeedback()" alt="" coords="200,259,387,285"/>
+<area shape="rect" id="node7" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="435,49,597,90"/>
+<area shape="rect" id="node9" href="$bufferobj_8c.html#a7bf958a4212f187195e01a949aa400c0" title="Set ptr to bufObj w/ reference counting." alt="" coords="645,49,808,90"/>
+<area shape="rect" id="node11" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="856,56,971,83"/>
+<area shape="rect" id="node13" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1019,31,1138,57"/>
+<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1055,81,1102,108"/>
+</map>

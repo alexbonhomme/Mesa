@@ -1,0 +1,51 @@
+<map id="formats.h" name="formats.h">
+<area shape="rect" id="node3" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1787,80,1862,107"/>
+<area shape="rect" id="node21" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="2604,304,2680,331"/>
+<area shape="rect" id="node47" href="$fbobject_8c.html" title="fbobject.c" alt="" coords="863,229,941,256"/>
+<area shape="rect" id="node49" href="$framebuffer_8c.html" title="framebuffer.c" alt="" coords="1538,229,1637,256"/>
+<area shape="rect" id="node51" href="$readpix_8c.html" title="readpix.c" alt="" coords="341,229,416,256"/>
+<area shape="rect" id="node53" href="$renderbuffer_8c.html" title="renderbuffer.c" alt="" coords="3616,229,3718,256"/>
+<area shape="rect" id="node55" href="$texcompress_8c.html" title="Helper functions for texture compression." alt="" coords="551,229,658,256"/>
+<area shape="rect" id="node57" href="$texgetimage_8c.html" title="texgetimage.c" alt="" coords="684,229,788,256"/>
+<area shape="rect" id="node59" href="$texobj_8c.html" title="Texture object management." alt="" coords="2286,229,2353,256"/>
+<area shape="rect" id="node61" href="$texparam_8c.html" title="glTexParameter&#45;related functions" alt="" coords="440,229,526,256"/>
+<area shape="rect" id="node114" href="$debug_8c.html" title="debug.c" alt="" coords="2536,229,2604,256"/>
+<area shape="rect" id="node126" href="$mipmap_8c.html" title="mipmap generation and teximage resizing functions." alt="" coords="3514,229,3592,256"/>
+<area shape="rect" id="node155" href="$teximage_8h.html" title="Texture images manipulation functions." alt="" coords="1107,155,1193,181"/>
+<area shape="rect" id="node171" href="$texstore_8h.html" title="Texture image storage routines." alt="" coords="3394,155,3474,181"/>
+<area shape="rect" id="node185" href="$format__pack_8h.html" title="format_pack.h" alt="" coords="16,80,121,107"/>
+<area shape="rect" id="node188" href="$blend_8h.html" title="Blending functions operations." alt="" coords="228,155,292,181"/>
+<area shape="rect" id="node200" href="$texcompress_8h.html" title="texcompress.h" alt="" coords="504,155,612,181"/>
+<area shape="rect" id="node207" href="$formats_8c.html" title="formats.c" alt="" coords="3794,80,3872,107"/>
+<area shape="rect" id="node214" href="$texformat_8h.html" title="texformat.h" alt="" coords="3896,80,3984,107"/>
+<area shape="rect" id="node5" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="2093,155,2160,181"/>
+<area shape="rect" id="node7" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="2078,304,2164,331"/>
+<area shape="rect" id="node9" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="1584,155,1660,181"/>
+<area shape="rect" id="node11" href="$accum_8c.html" title="accum.c" alt="" coords="56,229,128,256"/>
+<area shape="rect" id="node13" href="$api__arrayelt_8c.html" title="api_arrayelt.c" alt="" coords="3063,229,3162,256"/>
+<area shape="rect" id="node16" href="$api__loopback_8h.html" title="api_loopback.h" alt="" coords="1304,229,1413,256"/>
+<area shape="rect" id="node19" href="$api__loopback_8c.html" title="api_loopback.c" alt="" coords="1212,304,1321,331"/>
+<area shape="rect" id="node24" href="$api__validate_8c.html" title="api_validate.c" alt="" coords="2783,229,2885,256"/>
+<area shape="rect" id="node26" href="$arbprogram_8c.html" title="ARB_vertex/fragment_program state management functions." alt="" coords="1661,229,1760,256"/>
+<area shape="rect" id="node28" href="$arrayobj_8c.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="2680,229,2758,256"/>
+<area shape="rect" id="node30" href="$atifragshader_8c.html" title="atifragshader.c" alt="" coords="1784,229,1892,256"/>
+<area shape="rect" id="node32" href="$attrib_8c.html" title="attrib.c" alt="" coords="1995,229,2057,256"/>
+<area shape="rect" id="node34" href="$blend_8c.html" title="Blending operations." alt="" coords="152,229,216,256"/>
+<area shape="rect" id="node36" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="2378,229,2461,256"/>
+<area shape="rect" id="node38" href="$buffers_8c.html" title="glReadBuffer, DrawBuffer functions." alt="" coords="1155,229,1228,256"/>
+<area shape="rect" id="node40" href="$clear_8c.html" title="glClearColor, glClearIndex, glClear() functions." alt="" coords="966,229,1028,256"/>
+<area shape="rect" id="node42" href="$clip_8c.html" title="clip.c" alt="" coords="1917,229,1970,256"/>
+<area shape="rect" id="node44" href="$colortab_8c.html" title="colortab.c" alt="" coords="1052,229,1130,256"/>
+<area shape="rect" id="node63" href="$state_8h.html" title="state.h" alt="" coords="418,155,480,181"/>
+<area shape="rect" id="node73" href="$api__arrayelt_8h.html" title="api_arrayelt.h" alt="" coords="2958,155,3057,181"/>
+<area shape="rect" id="node76" href="$bufferobj_8h.html" title="bufferobj.h" alt="" coords="2378,155,2461,181"/>
+<area shape="rect" id="node94" href="$transformfeedback_8h.html" title="transformfeedback.h" alt="" coords="2792,155,2933,181"/>
+<area shape="rect" id="node101" href="$arrayobj_8h.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="2688,155,2766,181"/>
+<area shape="rect" id="node109" href="$colormac_8h.html" title="Color&#45;related macros." alt="" coords="1320,155,1406,181"/>
+<area shape="rect" id="node118" href="$texobj_8h.html" title="Texture object management." alt="" coords="2184,155,2252,181"/>
+<area shape="rect" id="node130" href="$texstate_8h.html" title="Texture state management." alt="" coords="1989,155,2069,181"/>
+<area shape="rect" id="node145" href="$pack_8h.html" title="pack.h" alt="" coords="840,155,901,181"/>
+<area shape="rect" id="node150" href="$pbo_8h.html" title="pbo.h" alt="" coords="976,155,1030,181"/>
+<area shape="rect" id="node164" href="$condrender_8c.html" title="Conditional rendering functions." alt="" coords="3340,229,3437,256"/>
+<area shape="rect" id="node166" href="$queryobj_8h.html" title="queryobj.h" alt="" coords="3136,155,3218,181"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="_swrast_add_soft_renderbuffers" name="_swrast_add_soft_renderbuffers">
+<area shape="rect" id="node3" href="$s__renderbuffer_8c.html#a16bfce79c3fb9e388b5c5a0931238c23" title="Add a software&#45;based accumulation renderbuffer to the given framebuffer." alt="" coords="280,411,445,437"/>
+<area shape="rect" id="node30" href="$s__renderbuffer_8c.html#af03b89c01a81784c401d0ee2bbfdc326" title="Add a software&#45;based aux renderbuffer to the given framebuffer." alt="" coords="285,360,440,387"/>
+<area shape="rect" id="node37" href="$s__renderbuffer_8c.html#a7a904be18784f2a10c2e9930815f2eb7" title="Add software&#45;based color renderbuffers to the given framebuffer." alt="" coords="282,512,443,539"/>
+<area shape="rect" id="node43" href="$s__renderbuffer_8c.html#ae86f5400c17961ec54f1927270be5918" title="Add a software&#45;based depth renderbuffer to the given framebuffer." alt="" coords="283,461,442,488"/>
+<area shape="rect" id="node50" href="$s__renderbuffer_8c.html#aef5719550214e74a8c1c2fd2b72d7b38" title="add_depth_stencil_renderbuffer" alt="" coords="261,208,464,235"/>
+<area shape="rect" id="node56" href="$s__renderbuffer_8c.html#ad7e68b3f43d217da447a40b87a965ab7" title="Add a software&#45;based stencil renderbuffer to the given framebuffer." alt="" coords="281,284,445,311"/>
+<area shape="rect" id="node63" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="339,563,386,589"/>
+<area shape="rect" id="node5" href="main.tag$renderbuffer_8c.html#ac241301ef3d7e77603eb0aa05f2062f5" title="_mesa_add_renderbuffer" alt="" coords="532,411,697,437"/>
+<area shape="rect" id="node7" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="1026,360,1121,387"/>
+<area shape="rect" id="node9" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="557,512,672,539"/>
+<area shape="rect" id="node11" href="$s__renderbuffer_8c.html#aa520f2583ab84f42766ade662b7039d2" title="Allocate a software&#45;based renderbuffer." alt="" coords="513,208,717,235"/>
+<area shape="rect" id="node21" href="$s__renderbuffer_8c.html#a0b5598d7a4f7fbc42c9286cf8f0d153d" title="Functions for allocating/managing software&#45;based renderbuffers." alt="" coords="765,309,936,336"/>
+<area shape="rect" id="node13" href="main.tag$renderbuffer_8c.html#ae94d88af28c66712aa2aa78507e88ded" title="_mesa_init_renderbuffer" alt="" coords="770,208,931,235"/>
+<area shape="rect" id="node15" href="$s__renderbuffer_8c.html#a3fc4f080840fe66cff976d71f0384fb3" title="Called via gl_renderbuffer::Delete()" alt="" coords="769,5,932,32"/>
+<area shape="rect" id="node17" href="main.tag$renderbuffer_8c.html#a34fc0fdf9f978e864979eef7d525a22a" title="_mesa_delete_renderbuffer" alt="" coords="984,5,1163,32"/>
+<area shape="rect" id="node19" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="1005,132,1142,159"/>
+<area shape="rect" id="node23" href="main.tag$fbobject_8c.html#a48fd4cda3fda066413ca3184eb2eb3f2" title="_mesa_base_fbo_format" alt="" coords="991,259,1156,285"/>
+<area shape="rect" id="node26" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="989,309,1158,336"/>
+</map>

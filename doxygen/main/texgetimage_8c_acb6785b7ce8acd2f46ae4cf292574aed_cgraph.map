@@ -1,0 +1,49 @@
+<map id="_mesa_GetnCompressedTexImageARB" name="_mesa_GetnCompressedTexImageARB">
+<area shape="rect" id="node3" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="1033,274,1135,301"/>
+<area shape="rect" id="node15" href="$teximage_8c.html#ab9ba4f3758cb63af8ed533290a39ca25" title="Return pointer to texture object for given target on current texture unit." alt="" coords="549,267,707,308"/>
+<area shape="rect" id="node25" href="$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="Return string name of format (for debugging)" alt="" coords="310,536,479,562"/>
+<area shape="rect" id="node29" href="$bufferobj_8h.html#ab72eda6d90203d1498c1a56f04cdaec7" title="Is the given buffer object a user&#45;created buffer object? Mesa uses default buffer objects in several ..." alt="" coords="561,380,695,406"/>
+<area shape="rect" id="node31" href="$teximage_8h.html#ab6e3cca8bf629f1ae8f69f7bdead40cb" title="Is any of the dimensions of given texture equal to zero?" alt="" coords="324,587,465,628"/>
+<area shape="rect" id="node33" href="$teximage_8h.html#a1b6bffe8857ad56df279f715116a2f50" title="Lock a texture for updating." alt="" coords="325,72,464,98"/>
+<area shape="rect" id="node36" href="$teximage_8c.html#a77497b35a409eb24f32a5e955254fd0b" title="Get a texture image pointer from a texture object, given a texture target and mipmap level..." alt="" coords="543,122,713,149"/>
+<area shape="rect" id="node42" href="$teximage_8h.html#a8f4c531549dad496df7967b7d02f8aee" title="_mesa_unlock_texture" alt="" coords="318,21,471,48"/>
+<area shape="rect" id="node45" href="$texgetimage_8c.html#a49e5d8cf92fc8b36d7d66121938b436b" title="Do error checking for a glGetCompressedTexImage() call." alt="" coords="313,470,477,511"/>
+<area shape="rect" id="node5" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1238,274,1357,301"/>
+<area shape="rect" id="node7" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="1240,528,1355,554"/>
+<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1274,173,1321,200"/>
+<area shape="rect" id="node9" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="1484,502,1591,529"/>
+<area shape="rect" id="node11" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1482,578,1593,605"/>
+<area shape="rect" id="node17" href="$texstate_8h.html#a292b9f1a55d8fcd2faa1ef1971d7eed1" title="Return pointer to current texture unit." alt="" coords="776,274,963,301"/>
+<area shape="rect" id="node19" href="$teximage_8c.html#af2d8533d07e7e956d03b163c97fbccad" title="Get the texture object that corresponds to the target of the given texture unit." alt="" coords="784,224,955,250"/>
+<area shape="rect" id="node21" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1027,173,1141,200"/>
+<area shape="rect" id="node27" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="790,832,949,858"/>
+<area shape="rect" id="node38" href="$teximage_8c.html#abb9c94f3f8f473269c615d71ac8581ac" title="For cube map faces, return a face index in [0,5]." alt="" coords="781,122,957,149"/>
+<area shape="rect" id="node40" href="$teximage_8h.html#a19a4bdb6bf1f5789253f7d25f61986da" title="Is the given value one of the 6 cube faces?" alt="" coords="1011,122,1157,149"/>
+<area shape="rect" id="node47" href="$teximage_8c.html#a9b89c04c762aecfdbaa5fca4480119ea" title="Get the maximum number of allowed mipmap levels." alt="" coords="537,528,719,554"/>
+<area shape="rect" id="node51" href="$texgetimage_8c.html#a8ad4539fbca589c31c8b21ad88274528" title="Validate the texture target enum supplied to glTexImage or glCompressedTexImage." alt="" coords="545,680,711,706"/>
+<area shape="rect" id="node53" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="581,477,675,504"/>
+<area shape="rect" id="node113" href="$formats_8c.html#a94ab01c6f81ace5a82ceee735a13dd9d" title="Is the given format a compressed format?" alt="" coords="528,629,728,656"/>
+<area shape="rect" id="node116" href="$formats_8c.html#aac2766d7a4190133b4b87ae7be599979" title="Return number of bytes needed to store an image of the given size in the given format." alt="" coords="539,744,717,770"/>
+<area shape="rect" id="node120" href="$bufferobj_8h.html#a4e7902cd5fe928214b14ba8bfea23fa5" title="Is the given buffer object currently mapped?" alt="" coords="543,578,713,605"/>
+<area shape="rect" id="node49" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="795,781,943,808"/>
+<area shape="rect" id="node55" href="$errors_8c.html#aa95f5f16fa241ff98f972589c52e061b" title="&#39;buf&#39; is not necessarily a null&#45;terminated string." alt="" coords="811,376,928,402"/>
+<area shape="rect" id="node57" href="$errors_8c.html#a4ab11c429d6af9015d1fbd40497a0104" title="Handles generating a GL_ARB_debug_output message ID generated by the GL or GLSL compiler." alt="" coords="1035,401,1133,428"/>
+<area shape="rect" id="node59" href="$errors_8c.html#aadca580d213cbe06a31c233048e65c55" title="Returns the state of the given message source/type/ID tuple." alt="" coords="1042,730,1126,757"/>
+<area shape="rect" id="node89" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="1205,680,1389,706"/>
+<area shape="rect" id="node96" href="$context_8c.html#ad98d5d4fae70f1fea38eeab0dad268bc" title="Record an error." alt="" coords="801,578,938,605"/>
+<area shape="rect" id="node103" href="$errors_8c.html#a293b4f22a77d1f0f05733ff12d5747f5" title="should_output" alt="" coords="818,477,921,504"/>
+<area shape="rect" id="node61" href="$hash_8c.html#a7a7007f934852a3f4cfc04ddaeb94e3c" title="Insert a key/pointer pair into the hash table." alt="" coords="1471,781,1603,808"/>
+<area shape="rect" id="node81" href="$hash_8c.html#a1600921a3daee886e08a32ee938ecae6" title="Lookup an entry in the hash table." alt="" coords="1227,730,1368,757"/>
+<area shape="rect" id="node63" href="$hash__table_8c.html#abbc5dbcb81dd452fe3d70a5de3681940" title="Inserts the key with the given hash into the table." alt="" coords="1689,832,1860,858"/>
+<area shape="rect" id="node72" href="$hash__table_8c.html#a29d49831f59c5682166c5796bb0482ae" title="Finds a hash table entry with the given key and hash of that key." alt="" coords="1686,680,1863,706"/>
+<area shape="rect" id="node77" href="$hash_8c.html#a9cc49de14d380e0a488b8807aedc9e49" title="uint_hash" alt="" coords="1735,730,1814,757"/>
+<area shape="rect" id="node79" href="$hash_8c.html#a74d0f9f21dc0f67829f9e9699fe88dc2" title="uint_key" alt="" coords="1739,781,1810,808"/>
+<area shape="rect" id="node65" href="$hash__table_8c.html#a3f1c8ed7958f9954e51556b7bb5bcd18" title="_mesa_hash_table_rehash" alt="" coords="1913,832,2090,858"/>
+<area shape="rect" id="node68" href="$hash__table_8c.html#abb7769951a30597f46aba30568597a3e" title="entry_is_deleted" alt="" coords="1943,882,2060,909"/>
+<area shape="rect" id="node70" href="$hash__table_8c.html#a091be61d8da42898d8ac1683b60d6879" title="entry_is_present" alt="" coords="1942,756,2061,782"/>
+<area shape="rect" id="node74" href="$hash__table_8c.html#af73102fdaa8cb45f2a56c3bac210e162" title="entry_is_free" alt="" coords="1953,680,2050,706"/>
+<area shape="rect" id="node83" href="$hash_8c.html#aa7ce0ade51898f06b4b3304d8854dd11" title="Lookup an entry in the hash table, without locking." alt="" coords="1437,730,1637,757"/>
+<area shape="rect" id="node91" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="1480,629,1595,656"/>
+<area shape="rect" id="node94" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="1496,680,1579,706"/>
+<area shape="rect" id="node106" href="$errors_8c.html#a634227a0754c75445a4ae71cb4a86397" title="When a new type of error is recorded, print a message describing previous errors which were accumulat..." alt="" coords="1013,578,1155,605"/>
+</map>

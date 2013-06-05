@@ -1,0 +1,5 @@
+<map id="prepare_materials" name="prepare_materials">
+<area shape="rect" id="node3" href="main.tag$light_8c.html#a1f2fb690c9664825ec9db5dfc0dd6195" title="_mesa_update_material" alt="" coords="179,5,339,32"/>
+<area shape="rect" id="node5" href="$t__vb__light_8c.html#ae31c4157619f6b7e98560ea5b781c1be" title="_tnl_validate_shine\l_tables" alt="" coords="192,57,325,98"/>
+<area shape="rect" id="node7" href="$t__vb__light_8c.html#aed5a42b36c5f32cad49b981576fd67ab" title="validate_shine_table" alt="" coords="387,64,527,91"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="lower_vector_visitor::handle_rvalue" name="lower_vector_visitor::handle_rvalue">
+<area shape="rect" id="node3" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="467,154,586,195"/>
+<area shape="rect" id="node5" href="$classir__expression.html#a0b3b759c2da2ef7275b91da5fa2ef82c" title="ir_expression::as_expression" alt="" coords="193,56,383,83"/>
+<area shape="rect" id="node7" href="$namespaceir__builder.html#a888d3a1315316c1674017fbe3669a4c3" title="ir_builder::assign" alt="" coords="228,5,348,32"/>
+<area shape="rect" id="node13" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="235,107,341,133"/>
+<area shape="rect" id="node16" href="$classir__expression.html#a9947f70a76f450bc9ac68d54832d71ff" title="Determine the number of operands used by an expression." alt="" coords="225,209,351,250"/>
+<area shape="rect" id="node18" href="$lower__vector_8cpp.html#a55b04297245f1bce69cabee294a802fb" title="Determine if an IR expression tree looks like an extended swizzle." alt="" coords="217,275,359,301"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="479,56,575,83"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="670,56,757,83"/>
+<area shape="rect" id="node21" href="$classir__constant.html#a876fbbbff801667e7f0a7aad2187faf8" title="Determine if an r&#45;value has the value negative one." alt="" coords="433,325,621,352"/>
+<area shape="rect" id="node23" href="$classir__constant.html#a118812d0345965dbf33026ab82bf6d4d" title="Determine if an r&#45;value has the value one." alt="" coords="461,224,593,251"/>
+<area shape="rect" id="node25" href="$classir__constant.html#a882932d5d0aa9840a56b6f047f66ef7a" title="Determine if an r&#45;value has the value zero." alt="" coords="459,275,595,301"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="multisample.c" name="multisample.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1241,453,1356,480"/>
+<area shape="rect" id="node9" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="1030,80,1137,107"/>
+<area shape="rect" id="node42" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="478,304,553,331"/>
+<area shape="rect" id="node60" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="1162,80,1269,107"/>
+<area shape="rect" id="node63" href="$multisample_8h.html" title="main/multisample.h" alt="" coords="1973,229,2107,256"/>
+<area shape="rect" id="node67" href="$fbobject_8h.html" title="main/fbobject.h" alt="" coords="1786,229,1896,256"/>
+<area shape="rect" id="node71" href="$glformats_8h.html" title="main/glformats.h" alt="" coords="37,155,155,181"/>
+<area shape="rect" id="node74" href="$state_8h.html" title="main/state.h" alt="" coords="491,155,585,181"/>
+<area shape="rect" id="node11" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="1178,155,1253,181"/>
+<area shape="rect" id="node13" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="1244,304,1327,331"/>
+<area shape="rect" id="node38" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1051,229,1117,256"/>
+<area shape="rect" id="node45" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="43,379,143,405"/>
+<area shape="rect" id="node49" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="456,379,576,405"/>
+<area shape="rect" id="node51" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="601,379,727,405"/>
+<area shape="rect" id="node53" href="$formats_8h.html" title="main/formats.h" alt="" coords="241,453,351,480"/>
+<area shape="rect" id="node56" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="385,379,431,405"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="ir_rvalue_visitor.h" name="ir_rvalue_visitor.h">
+<area shape="rect" id="node3" href="$ir__expression__flattening_8cpp.html" title="Takes the leaves of expression trees and makes them dereferences of assignments of the leaves to temp..." alt="" coords="5,88,189,115"/>
+<area shape="rect" id="node5" href="$ir__rvalue__visitor_8cpp.html" title="Generic class to implement the common pattern we have of wanting to visit each ir_rvalue * and possib..." alt="" coords="213,88,352,115"/>
+<area shape="rect" id="node7" href="$lower__clip__distance_8cpp.html" title="This pass accounts for the difference between the way gl_ClipDistance is declared in standard GLSL (a..." alt="" coords="377,88,537,115"/>
+<area shape="rect" id="node9" href="$lower__named__interface__blocks_8cpp.html" title="This lowering pass converts all interface blocks with instance names into interface blocks without an..." alt="" coords="562,81,717,122"/>
+<area shape="rect" id="node11" href="$lower__noise_8cpp.html" title="IR lower pass to remove noise opcodes." alt="" coords="742,88,857,115"/>
+<area shape="rect" id="node13" href="$lower__packing__builtins_8cpp.html" title="lower_packing_builtins.cpp" alt="" coords="883,88,1061,115"/>
+<area shape="rect" id="node15" href="$lower__ubo__reference_8cpp.html" title="IR lower pass to replace dereferences of variables in a uniform buffer object with usage of ir_binop_..." alt="" coords="1086,88,1252,115"/>
+<area shape="rect" id="node17" href="$lower__variable__index__to__cond__assign_8cpp.html" title="Turns non&#45;constant indexing into array types to a series of conditional moves of each element into a ..." alt="" coords="1277,81,1421,122"/>
+<area shape="rect" id="node19" href="$lower__vector_8cpp.html" title="IR lowering pass to remove some types of ir_quadop_vector." alt="" coords="1446,88,1567,115"/>
+<area shape="rect" id="node21" href="$lower__vector__insert_8cpp.html" title="lower_vector_insert.cpp" alt="" coords="1592,88,1752,115"/>
+<area shape="rect" id="node23" href="$opt__algebraic_8cpp.html" title="Takes advantage of association, commutivity, and other algebraic properties to simplify expressions..." alt="" coords="1777,88,1900,115"/>
+<area shape="rect" id="node25" href="$opt__array__splitting_8cpp.html" title="If an array is always dereferenced with a constant index, then split it apart into its elements..." alt="" coords="1925,88,2077,115"/>
+<area shape="rect" id="node27" href="$opt__constant__folding_8cpp.html" title="Replace constant&#45;valued expressions with references to constant values." alt="" coords="2102,88,2268,115"/>
+<area shape="rect" id="node29" href="$opt__constant__propagation_8cpp.html" title="Tracks assignments of constants to channels of variables, and usage of those constant channels with d..." alt="" coords="2293,88,2488,115"/>
+<area shape="rect" id="node31" href="$opt__copy__propagation__elements_8cpp.html" title="Replaces usage of recently&#45;copied components of variables with the previous copy of the variable..." alt="" coords="2513,81,2663,122"/>
+<area shape="rect" id="node33" href="$opt__noop__swizzle_8cpp.html" title="If a swizzle doesn&#39;t change the order or count of components, then remove the swizzle so that other o..." alt="" coords="2687,88,2837,115"/>
+<area shape="rect" id="node35" href="$opt__structure__splitting_8cpp.html" title="If a structure is only ever referenced by its components, then split those components out to individu..." alt="" coords="2862,88,3036,115"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="vbo_save_loopback.c" name="vbo_save_loopback.c">
+<area shape="rect" id="node3" href="main.tag$context_8h.html" title="main/context.h" alt="" coords="231,80,338,107"/>
+<area shape="rect" id="node5" href="main.tag$imports_8h.html" title="imports.h" alt="" coords="107,155,182,181"/>
+<area shape="rect" id="node9" href="main.tag$glheader_8h.html" title="glheader.h" alt="" coords="384,453,466,480"/>
+<area shape="rect" id="node15" href="main.tag$mtypes_8h.html" title="mtypes.h" alt="" coords="363,304,438,331"/>
+<area shape="rect" id="node29" href="main.tag$enums_8h.html" title="main/enums.h" alt="" coords="465,80,569,107"/>
+<area shape="rect" id="node33" href="main.tag$dispatch_8h.html" title="main/dispatch.h" alt="" coords="593,80,708,107"/>
+<area shape="rect" id="node37" href="$vbo__context_8h.html" title="VBO builder module datatypes and definitions." alt="" coords="458,155,562,181"/>
+<area shape="rect" id="node7" href="main.tag$compiler_8h.html" title="compiler.h" alt="" coords="25,304,108,331"/>
+<area shape="rect" id="node11" href="main.tag$errors_8h.html" title="errors.h" alt="" coords="112,229,178,256"/>
+<area shape="rect" id="node18" href="main.tag$config_8h.html" title="main/config.h" alt="" coords="238,379,337,405"/>
+<area shape="rect" id="node20" href="main.tag$simple__list_8h.html" title="main/simple_list.h" alt="" coords="362,379,488,405"/>
+<area shape="rect" id="node22" href="main.tag$formats_8h.html" title="main/formats.h" alt="" coords="513,379,622,405"/>
+<area shape="rect" id="node24" href="main.tag$dd_8h.html" title="dd.h" alt="" coords="167,379,213,405"/>
+<area shape="rect" id="node39" href="$vbo_8h.html" title="vbo.h" alt="" coords="540,304,594,331"/>
+<area shape="rect" id="node44" href="$vbo__attrib_8h.html" title="vbo_attrib.h" alt="" coords="620,304,710,331"/>
+<area shape="rect" id="node46" href="$vbo__exec_8h.html" title="vbo_exec.h" alt="" coords="579,229,668,256"/>
+<area shape="rect" id="node51" href="$vbo__save_8h.html" title="vbo_save.h" alt="" coords="466,229,554,256"/>
+</map>

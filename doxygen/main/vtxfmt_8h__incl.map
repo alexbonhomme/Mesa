@@ -1,0 +1,10 @@
+<map id="vtxfmt.h" name="vtxfmt.h">
+<area shape="rect" id="node3" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="485,80,568,107"/>
+<area shape="rect" id="node27" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1270,80,1345,107"/>
+<area shape="rect" id="node29" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1500,229,1615,256"/>
+<area shape="rect" id="node35" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1074,155,1173,181"/>
+<area shape="rect" id="node39" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1313,155,1433,181"/>
+<area shape="rect" id="node41" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1458,155,1584,181"/>
+<area shape="rect" id="node43" href="$formats_8h.html" title="main/formats.h" alt="" coords="1639,229,1748,256"/>
+<area shape="rect" id="node46" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1609,155,1655,181"/>
+</map>

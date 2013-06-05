@@ -1,0 +1,51 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$builtin__function_8cpp.html#a832b79de8aac88f62a965aaabf0b739c" title="_mesa_glsl_release\l_functions" alt="" coords="105,367,242,409"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="540,636,623,663"/>
+<area shape="rect" id="node13" href="$glsl__types_8cpp.html#ad706d4cb66de3ccf06fdfd0d5ad446db" title="_mesa_glsl_release\l_types" alt="" coords="105,2151,242,2193"/>
+<area shape="rect" id="node15" href="$main_8cpp.html#af583b47bb85a98c84438a5623c75322e" title="compile_shader" alt="" coords="117,256,230,283"/>
+<area shape="rect" id="node38" href="$main_8cpp.html#a30da6051e1bc80907b6dd27c58798f98" title="initialize_context" alt="" coords="114,2217,233,2244"/>
+<area shape="rect" id="node44" href="$linker_8cpp.html#afc0379dac600d4977ea2e7ae44096f1a" title="link_shaders" alt="" coords="126,1283,221,1309"/>
+<area shape="rect" id="node55" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="533,2007,629,2033"/>
+<area shape="rect" id="node117" href="$main_8cpp.html#ac88d6df7128fd450a0a503e18b53ba3e" title="load_text_file" alt="" coords="124,2100,223,2127"/>
+<area shape="rect" id="node122" href="$main_8cpp.html#a896f9d8c3244bccfa344fcbe10d2d238" title="Print proper usage and exit with failure." alt="" coords="133,2268,214,2295"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="706,1397,793,1424"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="702,661,797,688"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="704,611,795,637"/>
+<area shape="rect" id="node17" href="$ast_8h.html#a13a9b8c3eda8d5a30843e02410e656db" title="_mesa_ast_to_hir" alt="" coords="313,12,439,39"/>
+<area shape="rect" id="node21" href="$ir__print__visitor_8cpp.html#a1b33948c1107e045bd6b3bc5874ca550" title="_mesa_print_ir" alt="" coords="323,113,429,140"/>
+<area shape="rect" id="node23" href="$standalone__scaffolding_8h.html#a100230cd3d426fb48df37b7ba86260a0" title="_mesa_shader_type_to\l_index" alt="" coords="297,165,455,206"/>
+<area shape="rect" id="node25" href="$glsl__parser__extras_8cpp.html#a225eedb7a8fad75e2a6e05212b7f70ce" title="Do the set of common optimizations passes." alt="" coords="291,535,461,561"/>
+<area shape="rect" id="node29" href="$glsl__parser__extras_8h.html#abc7537653897fa93bab2327972e37ccd" title="glcpp_preprocess" alt="" coords="314,231,438,257"/>
+<area shape="rect" id="node31" href="$classast__node.html#a447585e5c8768d4c395eae09e285494b" title="Print an AST node in something approximating the original GLSL code." alt="" coords="322,281,430,308"/>
+<area shape="rect" id="node34" href="$ir_8cpp.html#a60a731770eef2674ebd9e7ec933608f8" title="reparent_ir" alt="" coords="335,484,417,511"/>
+<area shape="rect" id="node36" href="$ir_8h.html#a0b3d86acf4cc762367e632a3348683bd" title="Validate invariants on each IR node in a list." alt="" coords="526,328,637,355"/>
+<area shape="rect" id="node19" href="$builtin__variables_8cpp.html#a887354644c372645afcf1a2c71bc38e7" title="_mesa_glsl_initialize\l_variables" alt="" coords="510,5,653,46"/>
+<area shape="rect" id="node27" href="$ir__optimization_8h.html#a2f8ef4f173ccfff8200132061cd202c0" title="Do a dead code pass over instructions and everything that instructions references." alt="" coords="528,888,635,915"/>
+<area shape="rect" id="node40" href="$builtin__function_8cpp.html#a167d722df1056642076cfc949682c56b" title="_mesa_new_shader" alt="" coords="307,2213,445,2240"/>
+<area shape="rect" id="node42" href="$standalone__scaffolding_8cpp.html#a8dc2928df05557a1956ee64d16a3df77" title="Initialize the given gl_context structure to a reasonable set of defaults representing the minimum ca..." alt="" coords="317,2265,435,2306"/>
+<area shape="rect" id="node46" href="$standalone__scaffolding_8cpp.html#af6990c3b5263d3325e5db2882258d3e5" title="_mesa_reference_shader" alt="" coords="292,804,460,831"/>
+<area shape="rect" id="node48" href="$linker_8cpp.html#a24b5e170042b8952a052a097584cf124" title="Assign locations for either VS inputs for FS outputs." alt="" coords="310,1307,442,1349"/>
+<area shape="rect" id="node50" href="$linker_8cpp.html#af2ae63b42d06c5aeeced547b1568e917" title="linker_error" alt="" coords="538,1540,625,1567"/>
+<area shape="rect" id="node52" href="$link__varyings_8cpp.html#afec41d0773ef307f2937b1e6c05e1c38" title="Assign locations for all variables that are produced in one pipeline stage (the &quot;producer&quot;) and consu..." alt="" coords="292,1956,460,1983"/>
+<area shape="rect" id="node57" href="$linker_8cpp.html#a65be720d67696cc939fd8325b0037a48" title="Validate the resources used by a program versus the implementation limits." alt="" coords="315,1569,437,1596"/>
+<area shape="rect" id="node60" href="$link__varyings_8cpp.html#a658d75315e6c9478a9a9f2bcee4a09c9" title="Validate that outputs from one stage match inputs of another." alt="" coords="298,1621,454,1662"/>
+<area shape="rect" id="node63" href="$linker_8cpp.html#a6f71c5bf8a108b3e2f13a94481abebbd" title="Perform validation of uniforms used across multiple shader stages." alt="" coords="295,855,457,881"/>
+<area shape="rect" id="node65" href="$linker_8cpp.html#a1f9f2b4072027516321c958639ad331f" title="Demote shader inputs and outputs that are not used in other stages." alt="" coords="299,906,453,947"/>
+<area shape="rect" id="node67" href="$ir_8h.html#ae9003a506720cfb369d463b1e3031e69" title="Detect whether a linked shader contains static recursion." alt="" coords="297,972,455,999"/>
+<area shape="rect" id="node71" href="$linker_8cpp.html#ae55bc18ea8ee02a56b7608b8e0f49a29" title="Accumulates the array of prog&#45;&gt;UniformBlocks and checks that all definitons of blocks agree on their ..." alt="" coords="291,1503,461,1545"/>
+<area shape="rect" id="node74" href="$link__uniforms_8cpp.html#a87697e0a9d37fa9b9fa1b54593defa87" title="link_assign_uniform\l_locations" alt="" coords="307,687,445,729"/>
+<area shape="rect" id="node77" href="$linker_8cpp.html#a41b744f04debfd01820b1c10f75e19d1" title="Combine a group of shaders for a single stage to generate a linked shader." alt="" coords="297,585,455,612"/>
+<area shape="rect" id="node82" href="$linker_8cpp.html#a9c40250c78e971ced6c9fd95c8cb2807" title="link_invalidate_variable\l_locations" alt="" coords="298,1023,454,1065"/>
+<area shape="rect" id="node85" href="$ir__optimization_8h.html#a01049cf41ac4379b25ab33446de19f73" title="lower_clip_distance" alt="" coords="308,1140,444,1167"/>
+<area shape="rect" id="node87" href="$ir__optimization_8h.html#a6231cea7abe0554649d3d0f72d3529db" title="lower_discard_flow" alt="" coords="309,1191,443,1217"/>
+<area shape="rect" id="node89" href="$ir__optimization_8h.html#ae507f6fd54e133ed2466e4bcf7730481" title="lower_named_interface\l_blocks" alt="" coords="298,1242,454,1283"/>
+<area shape="rect" id="node91" href="$link__varyings_8cpp.html#a63fcbc2bfeb922d3384e97ab71781b6e" title="Parse all the transform feedback declarations that were passed to glTransformFeedbackVaryings() and s..." alt="" coords="298,1687,454,1713"/>
+<area shape="rect" id="node94" href="$ralloc_8c.html#a38530c9f4ef437290b8acd706b858410" title="Allocate a new ralloc context." alt="" coords="325,2108,427,2135"/>
+<area shape="rect" id="node102" href="$linker_8cpp.html#afc57971e6d5079413e7946e75261560a" title="Store the gl_FragDepth layout in the gl_shader_program struct." alt="" coords="299,1737,453,1764"/>
+<area shape="rect" id="node104" href="$link__varyings_8cpp.html#a11f5c95a76eded682bdcbb5c571c4a67" title="Store transform feedback location assignments into prog&#45;&gt;LinkedTransformFeedback based on the data st..." alt="" coords="305,753,447,780"/>
+<area shape="rect" id="node107" href="$linker_8cpp.html#a6ead39cbc5dd51478e8042a4a90a7909" title="Update the sizes of linked shader uniform arrays to the maximum array index used." alt="" coords="309,1788,443,1815"/>
+<area shape="rect" id="node109" href="$linker_8cpp.html#ad5b971bab5991ff5d94e9f031d10994a" title="Verify that a fragment shader executable meets all semantic requirements." alt="" coords="291,1373,461,1414"/>
+<area shape="rect" id="node112" href="$link__interface__blocks_8cpp.html#a9a1a0efc659e275d8b8e0c8f46eeea7c" title="validate_interstage\l_interface_blocks" alt="" coords="311,1839,441,1881"/>
+<area shape="rect" id="node114" href="$linker_8cpp.html#ab3c53a9a2deb366d3e57f5c76937d6f9" title="Verify that a vertex shader executable meets all semantic requirements." alt="" coords="298,1438,454,1479"/>
+<area shape="rect" id="node96" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="539,2108,623,2135"/>
+</map>

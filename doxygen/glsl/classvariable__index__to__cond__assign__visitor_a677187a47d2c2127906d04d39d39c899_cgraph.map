@@ -1,0 +1,18 @@
+<map id="variable_index_to_cond_assign_visitor::convert_dereference_array" name="variable_index_to_cond_assign_visitor::convert_dereference_array">
+<area shape="rect" id="node3" href="$namespaceir__builder.html#a888d3a1315316c1674017fbe3669a4c3" title="ir_builder::assign" alt="" coords="463,43,583,69"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="1049,68,1145,95"/>
+<area shape="rect" id="node9" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="854,304,997,331"/>
+<area shape="rect" id="node11" href="$structswitch__generator.html#a9bb6aa97c1911922784c3ceb31b404d2" title="switch_generator::generate" alt="" coords="213,107,392,133"/>
+<area shape="rect" id="node37" href="$lower__variable__index__to__cond__assign_8cpp.html#afd4c817603882c7343f3167894c0e7f1" title="is_array_or_matrix" alt="" coords="238,363,367,389"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1198,68,1285,95"/>
+<area shape="rect" id="node13" href="$structswitch__generator.html#aa9a296578e681d53b4901b9cd9d6c66a" title="switch_generator::bisect" alt="" coords="441,107,605,133"/>
+<area shape="rect" id="node21" href="$structswitch__generator.html#af54c8478526a149dfbfd08f0ab2a9591" title="switch_generator::linear\l_sequence" alt="" coords="443,183,603,225"/>
+<area shape="rect" id="node16" href="$namespaceir__builder.html#aca2cf24ce2cd26412d12ba1f4813fbf8" title="ir_builder::less" alt="" coords="676,93,783,120"/>
+<area shape="rect" id="node18" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="872,93,979,120"/>
+<area shape="rect" id="node23" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="674,144,785,171"/>
+<area shape="rect" id="node27" href="$ir__optimization_8h.html#af256c0cd9e9e4b58685269c7e2a40963" title="Generate a comparison value for a block of indices." alt="" coords="655,261,803,288"/>
+<area shape="rect" id="node29" href="$structassignment__generator.html#abe587e8aab81356136f1fffc281b4716" title="assignment_generator\l::generate" alt="" coords="654,195,805,237"/>
+<area shape="rect" id="node25" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="854,144,997,171"/>
+<area shape="rect" id="node31" href="$classir__rvalue.html#aa7255bfef22661a246fb7aa71d5d8e0a" title="ir_rvalue::accept" alt="" coords="866,245,985,272"/>
+<area shape="rect" id="node33" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="1046,245,1149,272"/>
+</map>

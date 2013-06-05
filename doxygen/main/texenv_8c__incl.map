@@ -1,0 +1,19 @@
+<map id="texenv.c" name="texenv.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1149,453,1264,480"/>
+<area shape="rect" id="node9" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="1090,80,1197,107"/>
+<area shape="rect" id="node42" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1293,304,1368,331"/>
+<area shape="rect" id="node60" href="$blend_8h.html" title="Blending functions operations." alt="" coords="1827,304,1923,331"/>
+<area shape="rect" id="node64" href="$enums_8h.html" title="Enumeration name/number lookup functions." alt="" coords="1589,80,1693,107"/>
+<area shape="rect" id="node66" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="958,80,1065,107"/>
+<area shape="rect" id="node70" href="$state_8h.html" title="main/state.h" alt="" coords="1369,155,1463,181"/>
+<area shape="rect" id="node73" href="$texenv_8h.html" title="main/texenv.h" alt="" coords="1752,155,1856,181"/>
+<area shape="rect" id="node76" href="$texstate_8h.html" title="Texture state management." alt="" coords="1181,229,1293,256"/>
+<area shape="rect" id="node11" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="974,155,1049,181"/>
+<area shape="rect" id="node13" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="664,304,747,331"/>
+<area shape="rect" id="node38" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1009,229,1076,256"/>
+<area shape="rect" id="node45" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1695,379,1795,405"/>
+<area shape="rect" id="node49" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1400,379,1520,405"/>
+<area shape="rect" id="node51" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1545,379,1671,405"/>
+<area shape="rect" id="node53" href="$formats_8h.html" title="main/formats.h" alt="" coords="1820,379,1929,405"/>
+<area shape="rect" id="node56" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1214,379,1260,405"/>
+</map>

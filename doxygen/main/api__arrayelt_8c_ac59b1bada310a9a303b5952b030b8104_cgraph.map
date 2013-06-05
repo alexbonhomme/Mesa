@@ -1,0 +1,4 @@
+<map id="check_vbo" name="check_vbo">
+<area shape="rect" id="node3" href="$bufferobj_8h.html#a4e7902cd5fe928214b14ba8bfea23fa5" title="Is the given buffer object currently mapped?" alt="" coords="139,5,309,32"/>
+<area shape="rect" id="node5" href="$bufferobj_8h.html#ab72eda6d90203d1498c1a56f04cdaec7" title="Is the given buffer object a user&#45;created buffer object? Mesa uses default buffer objects in several ..." alt="" coords="157,56,291,83"/>
+</map>

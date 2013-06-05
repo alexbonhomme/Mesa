@@ -1,0 +1,9 @@
+<map id="remap_variables" name="remap_variables">
+<area shape="rect" id="node3" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="171,5,314,32"/>
+<area shape="rect" id="node5" href="$classir__variable.html#a7e051d333749b712caf01a880b1ea767" title="Duplicate an IR variable." alt="" coords="183,56,303,83"/>
+<area shape="rect" id="node14" href="$lower__output__reads_8cpp.html#a868ffcce37285cb21a04515725125d50" title="Create an assignment to copy a temporary value back to the actual output." alt="" coords="217,107,268,133"/>
+<area shape="rect" id="node16" href="$classir__hierarchical__visitor.html#a31095136d21248ceb262a7067f0e9696" title="ir_hierarchical_visitor\l::visit" alt="" coords="171,158,315,199"/>
+<area shape="rect" id="node7" href="$classir__variable.html#ad128688a9c892e6e06d67e2c1bb85530" title="ir_variable::ir_variable" alt="" coords="363,19,511,45"/>
+<area shape="rect" id="node11" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="375,93,500,120"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="560,19,656,45"/>
+</map>

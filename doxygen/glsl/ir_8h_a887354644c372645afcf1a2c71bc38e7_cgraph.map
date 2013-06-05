@@ -1,0 +1,33 @@
+<map id="_mesa_glsl_initialize_variables" name="_mesa_glsl_initialize_variables">
+<area shape="rect" id="node3" href="$builtin__variables_8cpp.html#a235ead855daf934869e7a1ed859638eb" title="initialize_fs_variables" alt="" coords="199,325,345,352"/>
+<area shape="rect" id="node77" href="$builtin__variables_8cpp.html#ab08d1ebc043f6546b961871165f5f4c6" title="initialize_vs_variables" alt="" coords="197,772,347,799"/>
+<area shape="rect" id="node5" href="$builtin__variables_8cpp.html#a6da6e621b767539d9d7da9c1997534b9" title="generate_100ES_fs_variables" alt="" coords="856,427,1051,453"/>
+<area shape="rect" id="node34" href="$builtin__variables_8cpp.html#a887ffe808fa7a6609039ccddd029c4ac" title="generate_110_fs_variables" alt="" coords="865,376,1042,403"/>
+<area shape="rect" id="node45" href="$builtin__variables_8cpp.html#afadcdc84e4eee1f21a00f041218805ca" title="generate_120_fs_variables" alt="" coords="626,325,803,352"/>
+<area shape="rect" id="node49" href="$builtin__variables_8cpp.html#a59c35a8ad915aaabdbb1cd55989cc931" title="generate_130_fs_variables" alt="" coords="397,224,574,251"/>
+<area shape="rect" id="node58" href="$builtin__variables_8cpp.html#a7689c6eea002952648a9922ae39fe11d" title="generate_140_fs_variables" alt="" coords="397,275,574,301"/>
+<area shape="rect" id="node63" href="$builtin__variables_8cpp.html#a29b9d62dbcf0eee6526e0d29308ddbb4" title="generate_300ES_fs_variables" alt="" coords="856,581,1051,608"/>
+<area shape="rect" id="node71" href="$builtin__variables_8cpp.html#a7bb4e5c2f369b1bfcec0163ce47a37c3" title="generate_AMD_shader\l_stencil_export_variables" alt="" coords="1593,6,1762,47"/>
+<area shape="rect" id="node74" href="$builtin__variables_8cpp.html#a3d5c47073efc904c23b12a095557f33d" title="generate_ARB_shader\l_stencil_export_variables" alt="" coords="401,115,570,157"/>
+<area shape="rect" id="node7" href="$builtin__variables_8cpp.html#af3f8ec4ad4def42858b4440a10ad6379" title="add_builtin_variable" alt="" coords="1373,653,1509,680"/>
+<area shape="rect" id="node20" href="$builtin__variables_8cpp.html#a83e9d252cd71b98e1854d8bc8a040c52" title="generate_100ES_uniforms" alt="" coords="1109,275,1283,301"/>
+<area shape="rect" id="node30" href="$builtin__variables_8cpp.html#acbeee2214852017532ee142cfb381e20" title="generate_ARB_draw_buffers\l_variables" alt="" coords="1101,478,1291,519"/>
+<area shape="rect" id="node9" href="$builtin__variables_8cpp.html#a340bb566cdd78f7491c7254aef47b194" title="add_uniform" alt="" coords="1631,653,1724,680"/>
+<area shape="rect" id="node11" href="$builtin__variables_8cpp.html#af4c824c8d43fbdf4db386acb0d595fc6" title="add_variable" alt="" coords="1811,595,1906,621"/>
+<area shape="rect" id="node18" href="$structglsl__symbol__table.html#a72e1bdd4c6530837cb3369ae4f3242fe" title="glsl_symbol_table::\lget_type" alt="" coords="1610,587,1745,629"/>
+<area shape="rect" id="node13" href="$structglsl__symbol__table.html#a4e6616fba10268abcdb8634522746c1f" title="glsl_symbol_table::\ladd_variable" alt="" coords="1955,587,2090,629"/>
+<area shape="rect" id="node15" href="$structglsl__symbol__table.html#a494ef5725a41f9e21fdb112005cda79a" title="Determine whether a name was declared at the current scope." alt="" coords="2139,587,2319,629"/>
+<area shape="rect" id="node22" href="$builtin__variables_8cpp.html#af4bfc94e32554169b3365d7cbc504c65" title="add_builtin_constant" alt="" coords="1607,536,1748,563"/>
+<area shape="rect" id="node25" href="$builtin__variables_8cpp.html#af517cd525f35e8053864192559b44429" title="Uniforms that are common to all GLSL ES implementations." alt="" coords="1364,587,1519,629"/>
+<area shape="rect" id="node38" href="$builtin__variables_8cpp.html#a75e3724ff64333c145b2cd038dd2a783" title="generate_110_uniforms" alt="" coords="1117,848,1275,875"/>
+<area shape="rect" id="node52" href="$builtin__variables_8cpp.html#a0c48e7855f1f8905d38bda82e4cf868f" title="generate_130_uniforms" alt="" coords="636,275,793,301"/>
+<area shape="rect" id="node55" href="$builtin__variables_8cpp.html#a842e0daf821606cd71386d51ac0fbbf7" title="generate_fs_clipdistance" alt="" coords="631,224,798,251"/>
+<area shape="rect" id="node66" href="$builtin__variables_8cpp.html#aaf14e54496223f95c9879d14902c332d" title="generate_300ES_uniforms" alt="" coords="1109,595,1283,621"/>
+<area shape="rect" id="node79" href="$builtin__variables_8cpp.html#a17c28a73c84396d9651fa03e2d0d146b" title="generate_100ES_vs_variables" alt="" coords="854,496,1053,523"/>
+<area shape="rect" id="node84" href="$builtin__variables_8cpp.html#a0931f3554858798eb2a5e25897ce8f5c" title="generate_110_vs_variables" alt="" coords="863,837,1043,864"/>
+<area shape="rect" id="node90" href="$builtin__variables_8cpp.html#a3163f558de5c6bfc3f868c14b02bca1f" title="generate_120_vs_variables" alt="" coords="625,823,805,849"/>
+<area shape="rect" id="node93" href="$builtin__variables_8cpp.html#ae609c6ebb41d9900040bffdc3b623edf" title="generate_130_vs_variables" alt="" coords="395,823,575,849"/>
+<area shape="rect" id="node102" href="$builtin__variables_8cpp.html#a94195fa1a86b4ef9081a93ae16924e21" title="generate_300ES_vs_variables" alt="" coords="854,664,1053,691"/>
+<area shape="rect" id="node107" href="$builtin__variables_8cpp.html#a97552b6f9c4e2693adf45982d6aea5f9" title="generate_ARB_draw_instanced\l_variables" alt="" coords="1339,1055,1544,1097"/>
+<area shape="rect" id="node99" href="$builtin__variables_8cpp.html#ab0a70665c82461be6f70074617c504c5" title="generate_AMD_vertex\l_shader_layer_variables" alt="" coords="1360,938,1523,979"/>
+</map>

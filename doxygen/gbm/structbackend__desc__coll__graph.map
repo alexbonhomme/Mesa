@@ -1,0 +1,7 @@
+<map id="backend_desc" name="backend_desc">
+<area shape="rect" id="node2" href="$structgbm__backend.html" title="gbm_backend" alt="" coords="7,139,109,165"/>
+<area shape="rect" id="node4" href="$structgbm__device.html" title="The device used for the memory allocation." alt="" coords="189,5,280,32"/>
+<area shape="rect" id="node7" href="$structgbm__surface.html" title="gbm_surface" alt="" coords="161,139,257,165"/>
+<area shape="rect" id="node10" href="$structgbm__bo.html" title="The allocated buffer object." alt="" coords="382,139,449,165"/>
+<area shape="rect" id="node13" href="$uniongbm__bo__handle.html" title="Abstraction representing the handle to a buffer allocated by the manager." alt="" coords="502,5,615,32"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="_swrast_BlitFramebuffer" name="_swrast_BlitFramebuffer">
+<area shape="rect" id="node3" href="main.tag$image_8c.html#a6c1b20914c5db5fa8d3abd750f31092a" title="_mesa_clip_blit" alt="" coords="248,5,360,32"/>
+<area shape="rect" id="node5" href="$s__context_8c.html#a580958d86d36e258042e52c621153de2" title="_swrast_validate_derived" alt="" coords="219,589,389,616"/>
+<area shape="rect" id="node17" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="1182,592,1333,619"/>
+<area shape="rect" id="node84" href="$s__blit_8c.html#a2b0aeb937e7fade0968fd1586c611eaa" title="Bilinear filtered blit (color only, non&#45;integer values)." alt="" coords="265,1856,343,1883"/>
+<area shape="rect" id="node111" href="$s__blit_8c.html#a4af7a1b728d6d7647e62de91a4478cdf" title="Resamplers for 1, 2, 4, 8 and 16&#45;byte pixels." alt="" coords="259,1383,349,1409"/>
+<area shape="rect" id="node132" href="$s__copypix_8c.html#ae353d031eb33c9e781e11ea23f270047" title="Try to do a fast 1:1 blit with memcpy." alt="" coords="221,1637,387,1664"/>
+<area shape="rect" id="node7" href="$s__context_8c.html#acaf458cd889f50b4fb7ea54b2e6940f0" title="_swrast_invalidate\l_state" alt="" coords="476,691,607,733"/>
+<area shape="rect" id="node40" href="$s__context_8c.html#ac59e331355907eb48bb44f7b17e7deca" title="Update swrast&#45;&gt;_ActiveAttribs, swrast&#45;&gt;_NumActiveAttribs, swrast&#45;&gt;_ActiveAtttribMask." alt="" coords="463,107,619,149"/>
+<area shape="rect" id="node45" href="$s__context_8c.html#ae9495142a144f8f05790ca823d96eed8" title="Determine if we can defer texturing/shading until after Z/stencil testing." alt="" coords="457,173,625,214"/>
+<area shape="rect" id="node49" href="$s__context_8c.html#aa9ed9ba752764e49a9a0784abf2afeb2" title="Update the _PreferPixelFog field to indicate if we need to compute fog blend factors (from the fog co..." alt="" coords="458,239,625,265"/>
+<area shape="rect" id="node53" href="$s__context_8c.html#a0a6ada5d854e23592529a5abb9399af3" title="Update swrast&#45;&gt;_FogColor and swrast&#45;&gt;_FogEnable values." alt="" coords="472,355,611,397"/>
+<area shape="rect" id="node57" href="$s__context_8c.html#a9c42c1b1685d1ec68e49cf9ecd7a1ed1" title="Update state for running fragment programs." alt="" coords="455,290,627,331"/>
+<area shape="rect" id="node60" href="$s__context_8c.html#a1f0c4db0dc921740d0e939a89fccac42" title="Examine polygon cull state to compute the _BackfaceCullSign field." alt="" coords="950,1013,1117,1040"/>
+<area shape="rect" id="node63" href="$s__context_8c.html#a03dbfaa86c68e063bf051ca0fef1b31b" title="Recompute the value of swrast&#45;&gt;_RasterMask, etc." alt="" coords="450,421,633,448"/>
+<area shape="rect" id="node67" href="$s__context_8c.html#a8d997228f0d9f37ed4a001c3f69c9919" title="See if we can do early diffuse+specular (primary+secondary) color add per vertex instead of per&#45;fragm..." alt="" coords="456,473,627,514"/>
+<area shape="rect" id="node71" href="$s__context_8c.html#a59b8bba4907cbc35632aa017b923590e" title="Update the swrast&#45;&gt;_TextureCombinePrimary flag." alt="" coords="939,1064,1128,1091"/>
+<area shape="rect" id="node74" href="$s__context_8c.html#adf428497b6aec4bfccb9ed99a91ddd24" title="_swrast_update_texture\l_samplers" alt="" coords="461,1023,622,1065"/>
+<area shape="rect" id="node9" href="$s__context_8c.html#a1b0682fe7f238df6917a1f51bdff930a" title="_swrast_sleep" alt="" coords="736,855,843,881"/>
+<area shape="rect" id="node13" href="$s__context_8c.html#acb2db154c8cbb9a65cd06faefbcfe85d" title="Called via swrast&#45;&gt;BlendFunc." alt="" coords="694,804,885,831"/>
+<area shape="rect" id="node21" href="$s__context_8c.html#acf458e7707550d647964622fd2b1a670" title="Called via swrast&#45;&gt;Line." alt="" coords="716,589,863,616"/>
+<area shape="rect" id="node28" href="$s__context_8c.html#ac9987d1f51f979a14d8f331eac989e11" title="Called via swrast&#45;&gt;Point." alt="" coords="712,652,867,679"/>
+<area shape="rect" id="node35" href="$s__context_8c.html#ae8352cccfe2dd1571bdba6d3d1326158" title="Stub for swrast&#45;&gt;Triangle to select a true triangle function after a state change." alt="" coords="705,753,874,780"/>
+<area shape="rect" id="node11" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="1010,963,1057,989"/>
+<area shape="rect" id="node15" href="$s__blend_8c.html#a51a5a76584a2ac8597e3c5cb4bd453f4" title="Analyze current blending parameters to pick fastest blending function." alt="" coords="940,912,1127,939"/>
+<area shape="rect" id="node23" href="$s__lines_8c.html#a26ade4db622f011e851aef0abafa9bf0" title="_swrast_add_spec_terms_line" alt="" coords="934,541,1133,568"/>
+<area shape="rect" id="node30" href="$s__points_8c.html#aae69562f2560db2f91f9a552c19970ff" title="Add specular color to primary color, draw point, restore original primary color." alt="" coords="948,643,1119,685"/>
+<area shape="rect" id="node42" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="712,273,867,314"/>
+<area shape="rect" id="node76" href="$s__texfetch_8c.html#a3dc9a6299f299b44f2cccf971cdca37c" title="_mesa_update_fetch\l_functions" alt="" coords="718,1007,861,1049"/>
+<area shape="rect" id="node78" href="$s__texfilter_8c.html#aeb7c30a41bf34d61e518e12c6ee8aede" title="Choose the texture sampling function for the given texture object." alt="" coords="707,1073,871,1114"/>
+<area shape="rect" id="node80" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="976,1397,1091,1424"/>
+<area shape="rect" id="node86" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="494,1776,589,1803"/>
+<area shape="rect" id="node88" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="457,1557,626,1584"/>
+<area shape="rect" id="node90" href="main.tag$formats_8c.html#a3ffef8fc5049d798ddfa4d6f2eb54753" title="_mesa_get_format_datatype" alt="" coords="448,2179,635,2205"/>
+<area shape="rect" id="node92" href="main.tag$formats_8c.html#a92865c5bd001bf9222166e14866f078c" title="_mesa_get_format_max_bits" alt="" coords="446,1827,637,1853"/>
+<area shape="rect" id="node94" href="main.tag$formats_8c.html#a8de37ddf1bdc6c7e29a67d5e67153e70" title="_mesa_get_srgb_format\l_linear" alt="" coords="460,1878,623,1919"/>
+<area shape="rect" id="node96" href="main.tag$format__pack_8c.html#a75b51651af9b771e179230f91e1e4b09" title="_mesa_pack_float_rgba_row" alt="" coords="447,1608,635,1635"/>
+<area shape="rect" id="node98" href="main.tag$format__pack_8c.html#a8144cfa938c088208708a1293d798f55" title="_mesa_pack_ubyte_rgba_row" alt="" coords="444,1944,639,1971"/>
+<area shape="rect" id="node100" href="main.tag$format__unpack_8c.html#a8ae0d2ee87539a6809b3ff8a5fe0b065" title="_mesa_unpack_rgba_row" alt="" coords="456,1659,627,1685"/>
+<area shape="rect" id="node102" href="main.tag$format__unpack_8c.html#a5d1fc5b8f58d664278624a1b96176625" title="_mesa_unpack_ubyte\l_rgba_row" alt="" coords="467,1995,616,2037"/>
+<area shape="rect" id="node104" href="$s__blit_8c.html#a77a34579f67c70e7beb8e37e4b3836cf" title="Bilinear interpolation of two source rows." alt="" coords="471,2113,612,2154"/>
+<area shape="rect" id="node108" href="$s__blit_8c.html#a1a38598c1aa6add164df7bae217e1763" title="Bilinear interpolation of two source rows." alt="" coords="460,2061,623,2088"/>
+<area shape="rect" id="node106" href="$s__blit_8c.html#a15eedbaa0188ce45b6b458c6aa567360" title="lerp_2d" alt="" coords="757,2091,821,2117"/>
+<area shape="rect" id="node116" href="main.tag$format__pack_8c.html#ab45f24a73021d2cc0c3ebb6f8e177f33" title="_mesa_pack_float_z_row" alt="" coords="456,1223,627,1249"/>
+<area shape="rect" id="node118" href="main.tag$format__pack_8c.html#af54efd09ac7b891c786caf1bea76ffc9" title="_mesa_pack_ubyte_stencil_row" alt="" coords="437,1273,645,1300"/>
+<area shape="rect" id="node120" href="main.tag$format__pack_8c.html#afceb4b78b66f55dda342ff3b906ca458" title="_mesa_pack_uint_z_row" alt="" coords="458,1324,625,1351"/>
+<area shape="rect" id="node123" href="main.tag$format__unpack_8c.html#a6ec86d4555ccd834dfd5364b898e5474" title="_mesa_unpack_float\l_z_row" alt="" coords="470,1375,613,1417"/>
+<area shape="rect" id="node126" href="main.tag$format__unpack_8c.html#a1e43d384d4630edeecc48e95b742e437" title="_mesa_unpack_ubyte\l_stencil_row" alt="" coords="467,1441,616,1482"/>
+<area shape="rect" id="node128" href="main.tag$format__unpack_8c.html#aa936324a446cb2898d160193f4085b06" title="_mesa_unpack_uint_z_row" alt="" coords="451,1172,631,1199"/>
+<area shape="rect" id="node136" href="main.tag$formats_8c.html#af95c2f2597bfa7684de426340766152d" title="_mesa_is_format_packed\l_depth_stencil" alt="" coords="456,1710,627,1751"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="_mesa_initialize_array_object" name="_mesa_initialize_array_object">
+<area shape="rect" id="node3" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="328,23,491,65"/>
+<area shape="rect" id="node13" href="$arrayobj_8c.html#af0d01d37dd2ddb5f866e59ec0ff99c73" title="init_array" alt="" coords="205,81,280,108"/>
+<area shape="rect" id="node5" href="$bufferobj_8c.html#a7bf958a4212f187195e01a949aa400c0" title="Set ptr to bufObj w/ reference counting." alt="" coords="539,23,701,65"/>
+<area shape="rect" id="node7" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="749,31,864,57"/>
+<area shape="rect" id="node9" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="949,5,995,32"/>
+<area shape="rect" id="node11" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="913,56,1031,83"/>
+<area shape="rect" id="node16" href="$glformats_8c.html#a1381682293b3078085e3521d618f66ec" title="Get the size of a GL data type." alt="" coords="342,89,477,116"/>
+</map>

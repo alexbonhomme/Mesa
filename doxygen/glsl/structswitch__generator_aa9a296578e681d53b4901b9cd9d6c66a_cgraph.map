@@ -1,0 +1,15 @@
+<map id="switch_generator::bisect" name="switch_generator::bisect">
+<area shape="rect" id="node3" href="$structswitch__generator.html#a9bb6aa97c1911922784c3ceb31b404d2" title="switch_generator::generate" alt="" coords="219,83,397,109"/>
+<area shape="rect" id="node26" href="$namespaceir__builder.html#aca2cf24ce2cd26412d12ba1f4813fbf8" title="ir_builder::less" alt="" coords="255,139,361,165"/>
+<area shape="rect" id="node5" href="$structswitch__generator.html#af54c8478526a149dfbfd08f0ab2a9591" title="switch_generator::linear\l_sequence" alt="" coords="445,70,605,111"/>
+<area shape="rect" id="node7" href="$structassignment__generator.html#abe587e8aab81356136f1fffc281b4716" title="assignment_generator\l::generate" alt="" coords="654,57,805,98"/>
+<area shape="rect" id="node19" href="$ir__optimization_8h.html#af256c0cd9e9e4b58685269c7e2a40963" title="Generate a comparison value for a block of indices." alt="" coords="655,123,803,149"/>
+<area shape="rect" id="node21" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="674,5,785,32"/>
+<area shape="rect" id="node9" href="$classir__rvalue.html#aa7255bfef22661a246fb7aa71d5d8e0a" title="ir_rvalue::accept" alt="" coords="866,111,985,137"/>
+<area shape="rect" id="node13" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="854,60,997,87"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="877,165,973,192"/>
+<area shape="rect" id="node11" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="1046,111,1149,137"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1054,165,1141,192"/>
+<area shape="rect" id="node23" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="854,5,997,32"/>
+<area shape="rect" id="node28" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="472,148,579,175"/>
+</map>

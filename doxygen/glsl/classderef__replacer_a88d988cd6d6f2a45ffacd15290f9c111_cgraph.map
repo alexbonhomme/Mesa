@@ -1,0 +1,7 @@
+<map id="deref_replacer::handle_rvalue" name="deref_replacer::handle_rvalue">
+<area shape="rect" id="node3" href="$classir__dereference__variable.html#ab71b634cc9b4c3d9fe2f4b31e01376d2" title="ir_dereference_variable\l::as_dereference_variable" alt="" coords="205,5,376,46"/>
+<area shape="rect" id="node5" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="235,71,346,97"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="243,121,339,148"/>
+<area shape="rect" id="node7" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="425,71,567,97"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="453,121,539,148"/>
+</map>

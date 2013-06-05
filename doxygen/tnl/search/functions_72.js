@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['render_5fline_5floop',['render_line_loop',['../t__vb__rendertmp_8h.html#ab56c10b38607770d6f9911556641ad16',1,'t_vb_rendertmp.h']]],
+  ['render_5fline_5fstrip',['render_line_strip',['../t__vb__rendertmp_8h.html#a15da04b6e71f2a772d43808f257ca726',1,'t_vb_rendertmp.h']]],
+  ['render_5flines',['render_lines',['../t__vb__rendertmp_8h.html#acb9640151fcd7456e125422c9c2c7b5b',1,'t_vb_rendertmp.h']]],
+  ['render_5fnoop',['render_noop',['../t__vb__rendertmp_8h.html#aa71de56e83adcb7964a8551a84e74a4b',1,'t_vb_rendertmp.h']]],
+  ['render_5fpoints',['render_points',['../t__vb__rendertmp_8h.html#a0436c51f2d3df71be09f59e42b1e3169',1,'t_vb_rendertmp.h']]],
+  ['render_5fpoly',['render_poly',['../t__vb__rendertmp_8h.html#a4403fd1cf385dedc6d437b9cdfd40db2',1,'t_vb_rendertmp.h']]],
+  ['render_5fquad_5fstrip',['render_quad_strip',['../t__vb__rendertmp_8h.html#aa9635b39c3de32ac5bff3249763bcb77',1,'t_vb_rendertmp.h']]],
+  ['render_5fquads',['render_quads',['../t__vb__rendertmp_8h.html#a4f10a1b6d12967e54705a04a2fcdbc7e',1,'t_vb_rendertmp.h']]],
+  ['render_5ftri_5ffan',['render_tri_fan',['../t__vb__rendertmp_8h.html#afc0271ec9652a5b3a74a01c2f9ebd798',1,'t_vb_rendertmp.h']]],
+  ['render_5ftri_5fstrip',['render_tri_strip',['../t__vb__rendertmp_8h.html#ad8922e3a813ba1f3c5668ea7991bc3a1',1,'t_vb_rendertmp.h']]],
+  ['render_5ftriangles',['render_triangles',['../t__vb__rendertmp_8h.html#a75889cb26533e98cb090942abead658a',1,'t_vb_rendertmp.h']]],
+  ['run_5ffog_5fstage',['run_fog_stage',['../t__vb__fog_8c.html#a4e6b946edc3aeb754b24658f1e2de1f4',1,'t_vb_fog.c']]],
+  ['run_5flighting',['run_lighting',['../t__vb__light_8c.html#ac607c5ec60dfa92a6778d7358d19a52a',1,'t_vb_light.c']]],
+  ['run_5fnormal_5fstage',['run_normal_stage',['../t__vb__normals_8c.html#a0526deb3dd8a44c7c3aa031782c56657',1,'t_vb_normals.c']]],
+  ['run_5fpoint_5fstage',['run_point_stage',['../t__vb__points_8c.html#a7fb850021a96aeacca69137d51312ba5',1,'t_vb_points.c']]],
+  ['run_5frender',['run_render',['../t__vb__render_8c.html#a613f12015837d40d1d75c42ca4c48f79',1,'t_vb_render.c']]],
+  ['run_5ftexgen_5fstage',['run_texgen_stage',['../t__vb__texgen_8c.html#a3ac86ef84db9dd59a90108a0b0a6f58b',1,'t_vb_texgen.c']]],
+  ['run_5ftexmat_5fstage',['run_texmat_stage',['../t__vb__texmat_8c.html#a6dbcf9d077b50d19e69ca03a7963a9b0',1,'t_vb_texmat.c']]],
+  ['run_5fvertex_5fstage',['run_vertex_stage',['../t__vb__vertex_8c.html#a4a1885291dd95cab38f56ddc16ec968c',1,'t_vb_vertex.c']]],
+  ['run_5fvp',['run_vp',['../t__vb__program_8c.html#a53d99d4322a81325db36d12679095cdd',1,'t_vb_program.c']]]
+];

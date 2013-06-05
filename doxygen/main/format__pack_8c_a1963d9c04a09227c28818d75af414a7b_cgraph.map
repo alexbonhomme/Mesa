@@ -1,0 +1,4 @@
+<map id="pack_float_XRGB4444_UNORM" name="pack_float_XRGB4444_UNORM">
+<area shape="rect" id="node3" href="$colormac_8h.html#a4de278245e572697e8793ae33afece0d" title="Convert four float values in [0,1] to ubytes in [0,255] with clamping." alt="" coords="208,5,371,46"/>
+<area shape="rect" id="node5" href="$format__pack_8c.html#ad47e4603358c7b4edf12be48acd82432" title="pack_ubyte_XRGB4444\l_UNORM" alt="" coords="208,70,371,111"/>
+</map>

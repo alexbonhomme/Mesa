@@ -1,0 +1,7 @@
+<map id="clear_color_buffers" name="clear_color_buffers">
+<area shape="rect" id="node3" href="$s__clear_8c.html#ae2019850a4cacd521d421f28f6cd5de6" title="Clear an rgba color buffer with masking if needed." alt="" coords="187,81,309,108"/>
+<area shape="rect" id="node5" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="358,5,527,32"/>
+<area shape="rect" id="node7" href="$s__aatritemp_8h.html#a86cef12525876deaa8816bee8acb49b1" title="if" alt="" coords="423,56,462,83"/>
+<area shape="rect" id="node9" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="395,107,490,133"/>
+<area shape="rect" id="node11" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="385,157,500,184"/>
+</map>

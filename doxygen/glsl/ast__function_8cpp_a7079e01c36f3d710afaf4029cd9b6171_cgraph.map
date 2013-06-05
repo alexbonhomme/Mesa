@@ -1,0 +1,48 @@
+<map id="match_function_by_name" name="match_function_by_name">
+<area shape="rect" id="node3" href="$builtin__function_8cpp.html#a20ffb48fa186b1ce33da2b4ab338c191" title="_mesa_glsl_initialize\l_functions" alt="" coords="238,570,381,611"/>
+<area shape="rect" id="node87" href="$classir__function.html#adb9d1349519cee76302f23215775016c" title="ir_function::add_signature" alt="" coords="224,687,395,713"/>
+<area shape="rect" id="node89" href="$classir__function__signature.html#a3b02391a2dc94f214996a963a2c0228c" title="ir_function_signature\l::clone_prototype" alt="" coords="790,629,933,670"/>
+<area shape="rect" id="node104" href="$ast_8h.html#a489ed0ab597407b3619093205c1f7eb4" title="emit_function" alt="" coords="259,737,359,764"/>
+<area shape="rect" id="node106" href="$classir__function.html#ab38adec5be0a59388cdbae1f2bd83096" title="Whether or not this function has a signature that isn&#39;t a built&#45;in." alt="" coords="238,789,381,830"/>
+<area shape="rect" id="node108" href="$classir__function.html#aad3488fedf41db3223307d91ea5eb557" title="Find a signature that matches a set of actual parameters, taking implicit conversions into account..." alt="" coords="238,854,381,895"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a38530c9f4ef437290b8acd706b858410" title="Allocate a new ralloc context." alt="" coords="1205,409,1307,436"/>
+<area shape="rect" id="node13" href="$builtin__function_8cpp.html#a30ea3b0ca8aaf434930e8b4dde90877f" title="_mesa_read_profile" alt="" coords="453,527,587,553"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1422,517,1506,544"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="2113,452,2199,479"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1624,613,1701,640"/>
+<area shape="rect" id="node15" href="$builtin__function_8cpp.html#a33f071334daae3bc6f103b6afd5712bd" title="read_builtins" alt="" coords="646,476,741,503"/>
+<area shape="rect" id="node81" href="$ralloc_8c.html#a8a5d6cd015f1bb09e1ffc6413ab4a326" title="&quot;Steal&quot; memory from one context, changing it to another." alt="" coords="1212,717,1300,744"/>
+<area shape="rect" id="node17" href="$builtin__function_8cpp.html#a167d722df1056642076cfc949682c56b" title="_mesa_new_shader" alt="" coords="792,527,931,553"/>
+<area shape="rect" id="node19" href="$glsl__types_8cpp.html#a3704fa2d0f2a70e257a0b088071a2732" title="_mesa_glsl_initialize\l_types" alt="" coords="790,410,933,451"/>
+<area shape="rect" id="node21" href="$ir__reader_8cpp.html#aa4725b3efeb01bbe5e132827cf629aca" title="_mesa_glsl_read_ir" alt="" coords="794,304,929,331"/>
+<area shape="rect" id="node46" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="1215,359,1297,385"/>
+<area shape="rect" id="node72" href="$ir_8cpp.html#a60a731770eef2674ebd9e7ec933608f8" title="reparent_ir" alt="" coords="820,476,903,503"/>
+<area shape="rect" id="node23" href="$classir__reader.html#abf53ac0c7a6e08b76bf6a8635ca5934d" title="ir_reader::read" alt="" coords="1005,301,1110,328"/>
+<area shape="rect" id="node26" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="1795,275,1901,301"/>
+<area shape="rect" id="node31" href="$classs__expression.html#add896f8db24b6cab521d06f7d2ed225c" title="Read an S&#45;Expression from the given string." alt="" coords="1190,293,1322,334"/>
+<area shape="rect" id="node53" href="$ir_8h.html#a0b3d86acf4cc762367e632a3348683bd" title="Validate invariants on each IR node in a list." alt="" coords="1201,119,1311,145"/>
+<area shape="rect" id="node28" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="1968,325,2064,352"/>
+<area shape="rect" id="node33" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="1416,467,1512,493"/>
+<area shape="rect" id="node35" href="$s__expression_8cpp.html#a14c2c66aec8a4af0aeb4a99b6318b5bc" title="__read_expression" alt="" coords="1399,304,1529,331"/>
+<area shape="rect" id="node37" href="$s__expression_8cpp.html#a89220867ecdd7be8378655ecc60506f1" title="read_atom" alt="" coords="1621,325,1704,352"/>
+<area shape="rect" id="node40" href="$s__expression_8cpp.html#a9ee15040079f3159df7b821fbb455a65" title="skip_whitespace" alt="" coords="1789,376,1907,403"/>
+<area shape="rect" id="node42" href="$strtod_8c.html#a2f5efd0ced7708d2fcbcf9cb5b7d34e7" title="Wrapper around strtof which uses the &quot;C&quot; locale so the decimal point is always &#39;." alt="" coords="1809,325,1887,352"/>
+<area shape="rect" id="node49" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="1417,581,1511,608"/>
+<area shape="rect" id="node51" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="1419,359,1509,385"/>
+<area shape="rect" id="node55" href="$classir__hierarchical__visitor.html#a730b38bc0e9081b22c31690bd7e39f3a" title="Utility function to process a linked list of instructions with a visitor." alt="" coords="1379,35,1549,61"/>
+<area shape="rect" id="node61" href="$ir__hierarchical__visitor_8cpp.html#ac4165ac8d556ba40cca9c10b7bdfa9ad" title="visit_tree" alt="" coords="1427,173,1501,200"/>
+<area shape="rect" id="node64" href="$ir__validate_8cpp.html#a51d049a4fd64bc8e1fc9acb4c36c42aa" title="check_node_type" alt="" coords="1402,115,1526,141"/>
+<area shape="rect" id="node57" href="$ir__hierarchical__visitor_8h.html#a3d916e3fe1319c5d975084a1c412aa37" title="Process a list of nodes using a hierarchical vistor." alt="" coords="1597,5,1728,32"/>
+<area shape="rect" id="node59" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="1777,56,1919,83"/>
+<area shape="rect" id="node66" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="1598,56,1727,83"/>
+<area shape="rect" id="node69" href="$classir__instruction.html#a813b838ab61fd81ba50e75b67e98afe3" title="ir_instruction::as\l_rvalue" alt="" coords="1603,107,1722,149"/>
+<area shape="rect" id="node75" href="$ir_8cpp.html#ae341e75c11b8868864fa8b7ab032e491" title="steal_memory" alt="" coords="1005,585,1109,612"/>
+<area shape="rect" id="node77" href="$classir__instruction.html#a142617682155660c72f57b637f5f580c" title="ir_instruction::as\l_variable" alt="" coords="1197,651,1315,693"/>
+<area shape="rect" id="node79" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="1197,586,1315,627"/>
+<area shape="rect" id="node91" href="$lower__output__reads_8cpp.html#a868ffcce37285cb21a04515725125d50" title="Create an assignment to copy a temporary value back to the actual output." alt="" coords="1032,687,1083,713"/>
+<area shape="rect" id="node93" href="$classir__function__signature.html#abe3b10885ab3cc377677463473cad940" title="ir_function_signature\l::ir_function_signature" alt="" coords="982,738,1133,779"/>
+<area shape="rect" id="node96" href="$classir__variable.html#a7e051d333749b712caf01a880b1ea767" title="Duplicate an IR variable." alt="" coords="997,535,1117,561"/>
+<area shape="rect" id="node98" href="$classir__variable.html#ad128688a9c892e6e06d67e2c1bb85530" title="ir_variable::ir_variable" alt="" coords="1182,460,1330,487"/>
+<area shape="rect" id="node101" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="1193,535,1319,561"/>
+<area shape="rect" id="node110" href="$ir__function_8cpp.html#a120753a4bcca226a83646e4552d98b2e" title="Check if two parameter lists match." alt="" coords="443,861,597,888"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="_mesa_texstore_can_use_memcpy" name="_mesa_texstore_can_use_memcpy">
+<area shape="rect" id="node3" href="$formats_8c.html#aae1aabec18095a6918a3d34b6fd253b0" title="Check if a gl_format exactly matches a GL format/type combination such that we can use memcpy() from ..." alt="" coords="197,5,360,46"/>
+<area shape="rect" id="node7" href="$formats_8c.html#a011458f3486ed545382e81a11d72cca6" title="Return the basic format for the given type." alt="" coords="419,63,584,105"/>
+<area shape="rect" id="node11" href="$texstore_8c.html#ac5246e69801804100a8b417b847f9c6c" title="_mesa_texstore_needs\l_transfer_ops" alt="" coords="200,122,357,163"/>
+<area shape="rect" id="node5" href="$imports_8h.html#aaf81e7d8a2cca130ab3161c80af243fe" title="Return 1 if this is a little endian machine, 0 if big endian." alt="" coords="433,12,570,39"/>
+<area shape="rect" id="node9" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="643,100,802,127"/>
+<area shape="rect" id="node13" href="$formats_8c.html#a3ffef8fc5049d798ddfa4d6f2eb54753" title="Return the data type (or more specifically, the data representation) for the given format..." alt="" coords="408,129,595,156"/>
+</map>

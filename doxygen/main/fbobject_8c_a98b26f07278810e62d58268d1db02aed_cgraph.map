@@ -1,0 +1,6 @@
+<map id="is_format_color_renderable" name="is_format_color_renderable">
+<area shape="rect" id="node3" href="$formats_8c.html#a011458f3486ed545382e81a11d72cca6" title="Return the basic format for the given type." alt="" coords="232,5,397,46"/>
+<area shape="rect" id="node7" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="241,71,389,97"/>
+<area shape="rect" id="node9" href="$fbobject_8c.html#a16c0dcbef8c92fecca3cc3ce9170a63c" title="Is the given base format a legal format for a color renderbuffer?" alt="" coords="241,122,388,163"/>
+<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="446,12,605,39"/>
+</map>

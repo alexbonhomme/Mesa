@@ -1,0 +1,21 @@
+<map id="_mesa_glsl_process_extension" name="_mesa_glsl_process_extension">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a939bd788b8a9f1a21c9f2ff0dd5b3aaa" title="_mesa_glsl_error" alt="" coords="241,31,362,57"/>
+<area shape="rect" id="node35" href="$glsl__parser__extras_8cpp.html#a22a5d9c1581649413170fe08528775e5" title="_mesa_glsl_shader_target_name" alt="" coords="195,81,408,108"/>
+<area shape="rect" id="node37" href="$glsl__parser__extras_8cpp.html#a74891ca02755401e5fe592b393531943" title="_mesa_glsl_warning" alt="" coords="231,132,371,159"/>
+<area shape="rect" id="node40" href="$struct__mesa__glsl__extension.html#aeec9e4bcb07283eb524ee144d3400471" title="Determine whether a given extension is compatible with the target, API, and extension information in ..." alt="" coords="221,183,381,225"/>
+<area shape="rect" id="node42" href="$glsl__parser__extras_8cpp.html#af5e03866f19c7847dfb71815baed4f11" title="Find an extension by name in _mesa_glsl_supported_extensions." alt="" coords="248,249,355,276"/>
+<area shape="rect" id="node44" href="$struct__mesa__glsl__extension.html#a420046e9588ecb2712987817fec00061" title="Set the appropriate flags in the parser state to establish the given behavior for this extension..." alt="" coords="226,301,377,342"/>
+<area shape="rect" id="node5" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="456,81,576,108"/>
+<area shape="rect" id="node7" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="625,5,775,32"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="624,56,776,83"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="825,107,983,133"/>
+<area shape="rect" id="node29" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="857,157,951,184"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="1033,107,1213,133"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="1262,107,1373,133"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="1421,56,1515,83"/>
+<area shape="rect" id="node26" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1289,157,1346,184"/>
+<area shape="rect" id="node19" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1426,107,1510,133"/>
+<area shape="rect" id="node21" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1563,157,1650,184"/>
+<area shape="rect" id="node23" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1568,107,1645,133"/>
+<area shape="rect" id="node31" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="1103,157,1143,184"/>
+</map>

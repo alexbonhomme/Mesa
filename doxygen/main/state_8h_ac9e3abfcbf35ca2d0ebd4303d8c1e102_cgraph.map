@@ -1,0 +1,51 @@
+<map id="_mesa_update_state_locked" name="_mesa_update_state_locked">
+<area shape="rect" id="node3" href="$debug_8c.html#a4e7e0588d95ed6587b71317734ee7472" title="_mesa_print_state" alt="" coords="223,31,353,57"/>
+<area shape="rect" id="node13" href="$arrayobj_8c.html#a61afb981ac11ba340d5ea01f49e51849" title="Examine vertex arrays to update the gl_array_object::_MaxElement field." alt="" coords="213,405,363,446"/>
+<area shape="rect" id="node25" href="$framebuffer_8c.html#a690bcf049472e5b8a9cec055f7ef10e6" title="Update the context&#39;s current drawing buffer&#39;s Xmin, Xmax, Ymin, Ymax fields." alt="" coords="427,493,610,534"/>
+<area shape="rect" id="node32" href="$framebuffer_8c.html#aabe748fcf971386bcae20e1cc898ad7b" title="Update state related to the current draw/read framebuffers." alt="" coords="198,651,378,677"/>
+<area shape="rect" id="node52" href="$light_8c.html#aba9fa93b7c01f4878a6fd683e2fdd49e" title="Examine current lighting parameters to determine if the optimized lighting function can be used..." alt="" coords="211,107,365,133"/>
+<area shape="rect" id="node57" href="$matrix_8c.html#a02918063689e317d555fafa34697e044" title="Updates the combined modelview&#45;projection matrix." alt="" coords="200,797,376,838"/>
+<area shape="rect" id="node67" href="$pixel_8c.html#a2479b8b49043fa4fafaec6e2c100a475" title="Update mesa pixel transfer derived state." alt="" coords="217,915,359,941"/>
+<area shape="rect" id="node71" href="$stencil_8c.html#a15a99e0840679fa9da759e80763a9976" title="Update derived stencil state." alt="" coords="212,965,364,992"/>
+<area shape="rect" id="node73" href="$texstate_8c.html#aa6d9b1ceca663d348998530dd12529db" title="Update texture&#45;related derived state." alt="" coords="211,864,365,891"/>
+<area shape="rect" id="node80" href="$light_8c.html#aef91bb995525f22c4639d7df829b45c6" title="Bring up to date any state that relies on _NeedEyeCoords." alt="" coords="199,208,377,235"/>
+<area shape="rect" id="node90" href="$state_8c.html#acea4ac218d7443b9c6fb571c892680e1" title="Update derived multisample state." alt="" coords="219,1016,357,1043"/>
+<area shape="rect" id="node92" href="$state_8c.html#ab2cefc4e6bb2434182ba7fafb9b7a1d6" title="Update the ctx&#45;&gt;Vertex/Geometry/FragmentProgram._Current pointers to point to the current/active prog..." alt="" coords="231,1067,345,1093"/>
+<area shape="rect" id="node100" href="$state_8c.html#abeeaf4caafa9f09724eb219ee7948710" title="Examine shader constants and return either _NEW_PROGRAM_CONSTANTS or 0." alt="" coords="199,1117,377,1144"/>
+<area shape="rect" id="node102" href="$state_8c.html#a45aaa007c7e7d1f4daf0fdde6697bd96" title="Update the following fields: ctx&#45;&gt;VertexProgram._Enabled ctx&#45;&gt;FragmentProgram._Enabled ctx&#45;&gt;ATIFragme..." alt="" coords="205,1168,371,1195"/>
+<area shape="rect" id="node104" href="$state_8c.html#aee79ba73a958b6825a9a0fd7b8239fea" title="Update the ctx&#45;&gt;VertexProgram._TwoSideEnabled flag." alt="" coords="231,1219,345,1245"/>
+<area shape="rect" id="node106" href="$state_8c.html#aeab3036f62fb8ca16ec6fc261872bbca" title="update_viewport_matrix" alt="" coords="208,1272,368,1299"/>
+<area shape="rect" id="node5" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="701,56,803,83"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="910,5,1029,32"/>
+<area shape="rect" id="node9" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="912,56,1027,83"/>
+<area shape="rect" id="node11" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="946,107,993,133"/>
+<area shape="rect" id="node15" href="$arrayobj_8h.html#a753f3d1515ec00096df1bf362ae46ff5" title="Returns the bitmask of all enabled arrays in arb/glsl shader mode." alt="" coords="449,310,588,351"/>
+<area shape="rect" id="node17" href="$arrayobj_8h.html#a38a19faf0e7309ee0e3ae3b6e3b8300d" title="Returns the bitmask of all enabled arrays in fixed function mode." alt="" coords="449,375,588,417"/>
+<area shape="rect" id="node19" href="$arrayobj_8c.html#a132430f96730f8741699d650c8acf45b" title="Helper for _mesa_update_array_object_max_element()." alt="" coords="440,441,597,468"/>
+<area shape="rect" id="node21" href="$varray_8h.html#a467039e6981b7d5084b3bf2d04968981" title="Compute the index of the last array element that can be safely accessed in a vertex array..." alt="" coords="681,333,823,374"/>
+<area shape="rect" id="node23" href="$imports_8c.html#ac0c482ce69d275a8d0244af38b3a5550" title="Find position of first bit set in given value." alt="" coords="731,399,773,425"/>
+<area shape="rect" id="node27" href="$fbobject_8h.html#a97df2933946ce460854b6bbcf50b997b" title="Is the given FBO a user&#45;created FBO?" alt="" coords="902,500,1037,527"/>
+<area shape="rect" id="node29" href="$framebuffer_8c.html#abb0b3f442ac3c14415894d523d81f52d" title="Examine all the framebuffer&#39;s renderbuffers to update the Width/Height fields of the framebuffer..." alt="" coords="669,500,835,527"/>
+<area shape="rect" id="node34" href="$blend_8c.html#ac6d33585b6d553883ed16bd410070116" title="Update the ctx&#45;&gt;Color._ClampFragmentColor field." alt="" coords="444,610,593,651"/>
+<area shape="rect" id="node38" href="$blend_8c.html#a60755b3f62e8988908faf6d550351ae7" title="Update the ctx&#45;&gt;Color._ClampVertexColor field." alt="" coords="444,675,593,717"/>
+<area shape="rect" id="node42" href="$framebuffer_8c.html#af0748cea50cb6b3a41453e598ad46ac0" title="Update a gl_framebuffer&#39;s derived state." alt="" coords="451,559,586,585"/>
+<area shape="rect" id="node36" href="$blend_8c.html#a19471b24cb2beba1e8977b6ce4b9d3c6" title="_mesa_get_clamp_fragment\l_color" alt="" coords="659,719,845,761"/>
+<area shape="rect" id="node40" href="$blend_8c.html#a4d06c487c9a0bcb72086e2b14576abe1" title="_mesa_get_clamp_vertex\l_color" alt="" coords="667,785,837,826"/>
+<area shape="rect" id="node44" href="$buffers_8c.html#abbec14624dd74f5fcae673329d60f9f3" title="Helper function to set the GL_DRAW_BUFFER state in the context and current FBO." alt="" coords="684,668,820,695"/>
+<area shape="rect" id="node46" href="$fbobject_8h.html#ae7473d56512fc5fbb05bfc40004f22cf" title="Is the given FBO a window system FBO (like an X window)?" alt="" coords="894,643,1045,669"/>
+<area shape="rect" id="node49" href="$fbobject_8c.html#a30883de5213e4b5a4adafb3835125686" title="Test if the given framebuffer object is complete and update its Status field with the results..." alt="" coords="671,551,833,593"/>
+<area shape="rect" id="node54" href="$light_8c.html#a1f2fb690c9664825ec9db5dfc0dd6195" title="_mesa_update_material" alt="" coords="439,56,599,83"/>
+<area shape="rect" id="node59" href="math.tag$m__matrix_8c.html#a2dbf9ed3e4980c01f46b5cd373e061c9" title="_math_matrix_analyse" alt="" coords="675,855,829,881"/>
+<area shape="rect" id="node61" href="$matrix_8c.html#af8c12f90796c2da00ee5ca2f6a2225ac" title="Calculate the combined modelview&#45;projection matrix." alt="" coords="437,793,600,834"/>
+<area shape="rect" id="node64" href="$matrix_8c.html#a816e124df62bff9cb9488d7b9e07f0b9" title="Update the projection matrix stack." alt="" coords="457,859,581,885"/>
+<area shape="rect" id="node69" href="$pixel_8c.html#ab10c37f65c03df424f7ae7e68d1ac7db" title="update_image_transfer\l_state" alt="" coords="441,1011,596,1053"/>
+<area shape="rect" id="node75" href="$texstate_8c.html#add13f9352bfae60f30c9d2c9dd863658" title="update_texture_matrices" alt="" coords="436,909,601,936"/>
+<area shape="rect" id="node78" href="$texstate_8c.html#a0924da0d2f0fdc84bdbf333625511a62" title="update_texture_state" alt="" coords="447,960,591,987"/>
+<area shape="rect" id="node82" href="math.tag$m__matrix_8c.html#a6540db69cb0fc02ba34be13a9e795f2b" title="_math_matrix_is_length\l_preserving" alt="" coords="672,179,832,221"/>
+<area shape="rect" id="node84" href="$light_8c.html#adfb1a18a851688e7e4fa6a1a53d17a70" title="Update state derived from light position, spot direction." alt="" coords="437,259,600,285"/>
+<area shape="rect" id="node86" href="$light_8c.html#a72518e70ed4bdcc58fea7faa0e40e18d" title="update_modelview_scale" alt="" coords="435,208,603,235"/>
+<area shape="rect" id="node94" href="$texenvprogram_8h.html#a453f03168b83615859150058a8e03a27" title="_mesa_get_fixed_func\l_fragment_program" alt="" coords="442,1077,595,1118"/>
+<area shape="rect" id="node96" href="$ffvertex__prog_8c.html#a104f09aa4b6fa2791c4323339361c75d" title="Return a vertex program which implements the current fixed&#45;function transform/lighting/texgen operati..." alt="" coords="442,1142,595,1183"/>
+<area shape="rect" id="node98" href="$shaderobj_8c.html#aadd19330a468f38f3e4b338067510f6a" title="Set ptr to point to shProg." alt="" coords="435,1207,603,1249"/>
+<area shape="rect" id="node108" href="math.tag$m__matrix_8c.html#a450a36764f9f45fcbff7dc016818af2b" title="_math_matrix_viewport" alt="" coords="440,1273,597,1300"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="get_component_mapping" name="get_component_mapping">
+<area shape="rect" id="node3" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="221,81,405,108"/>
+<area shape="rect" id="node11" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="256,157,371,184"/>
+<area shape="rect" id="node5" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="456,5,571,32"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="458,56,569,83"/>
+<area shape="rect" id="node9" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="472,107,555,133"/>
+<area shape="rect" id="node13" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="454,157,573,184"/>
+<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="490,208,537,235"/>
+</map>

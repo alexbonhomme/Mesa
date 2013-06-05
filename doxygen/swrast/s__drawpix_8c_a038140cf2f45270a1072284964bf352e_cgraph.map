@@ -1,0 +1,8 @@
+<map id="fast_draw_depth_stencil" name="fast_draw_depth_stencil">
+<area shape="rect" id="node3" href="main.tag$image_8c.html#a925a7d5fffe90ba250ba657a5cc8a074" title="_mesa_image_address2d" alt="" coords="216,5,387,32"/>
+<area shape="rect" id="node5" href="main.tag$image_8c.html#ad2d330332a6b455a0991656329bbe9b4" title="_mesa_image_row_stride" alt="" coords="216,56,387,83"/>
+<area shape="rect" id="node7" href="main.tag$format__pack_8c.html#a23f3ea80b41f982cd61c9e97e59dbbab" title="_mesa_pack_uint_24\l_8_depth_stencil_row" alt="" coords="227,107,375,149"/>
+<area shape="rect" id="node9" href="$s__context_8h.html#a52ee360f385598e7861b6a5bb45b532b" title="Return the address of a pixel value in a mapped renderbuffer." alt="" coords="224,173,379,200"/>
+<area shape="rect" id="node13" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="451,224,589,251"/>
+<area shape="rect" id="node11" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="435,173,605,200"/>
+</map>

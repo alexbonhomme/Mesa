@@ -1,0 +1,10 @@
+<map id="assign_attribute_or_color_locations" name="assign_attribute_or_color_locations">
+<area shape="rect" id="node3" href="$classir__variable.html#a8b15f216b2893038a7bf0812641f1762" title="ir_variable::as_variable" alt="" coords="195,5,349,32"/>
+<area shape="rect" id="node5" href="$linker_8cpp.html#abe16368bc7c57115e2346a6a887cea23" title="Determine the number of attribute slots required for a particular type." alt="" coords="201,80,343,107"/>
+<area shape="rect" id="node8" href="$linker_8cpp.html#afeed6801825e7e8a63d96d501f83d242" title="Find a contiguous set of available bits in a bitmask." alt="" coords="204,131,340,157"/>
+<area shape="rect" id="node10" href="$linker_8cpp.html#af2ae63b42d06c5aeeced547b1568e917" title="linker_error" alt="" coords="229,181,315,208"/>
+<area shape="rect" id="node12" href="$classir__hierarchical__visitor.html#a730b38bc0e9081b22c31690bd7e39f3a" title="Utility function to process a linked list of instructions with a visitor." alt="" coords="187,232,357,259"/>
+<area shape="rect" id="node18" href="$classfind__deref__visitor.html#a171d2ffd904b2b563f751292e0d93d84" title="find_deref_visitor\l::variable_found" alt="" coords="211,283,333,325"/>
+<area shape="rect" id="node14" href="$ir__hierarchical__visitor_8h.html#a3d916e3fe1319c5d975084a1c412aa37" title="Process a list of nodes using a hierarchical vistor." alt="" coords="405,232,536,259"/>
+<area shape="rect" id="node16" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="585,232,727,259"/>
+</map>

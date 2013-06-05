@@ -1,0 +1,51 @@
+<map id="_mesa_TexImage3DEXT" name="_mesa_TexImage3DEXT">
+<area shape="rect" id="node3" href="$teximage_8c.html#aeb0b7bc85cf0022e954e34826f5362b2" title="_mesa_TexImage3D" alt="" coords="225,857,367,884"/>
+<area shape="rect" id="node5" href="$teximage_8c.html#afdf346e3510f50cf6a815ab982dff6db" title="Common code to implement all the glTexImage1D/2D/3D functions as well as glCompressedTexImage1D/2D/3D..." alt="" coords="416,857,491,884"/>
+<area shape="rect" id="node7" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="815,301,918,328"/>
+<area shape="rect" id="node17" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="1028,875,1212,901"/>
+<area shape="rect" id="node24" href="$teximage_8c.html#ab1c525394e587b4efcb61cf8c1e698a9" title="Debug helper: override the user&#45;requested internal format." alt="" coords="547,1035,709,1061"/>
+<area shape="rect" id="node26" href="$teximage_8c.html#a5a06433faec795882016deb9eaed7fa2" title="Check if the given texture target value is legal for a glTexImage1/2/3D call." alt="" coords="553,557,703,584"/>
+<area shape="rect" id="node36" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="819,403,914,429"/>
+<area shape="rect" id="node55" href="$teximage_8c.html#ae5015524628c501e110a15f93ee60d28" title="Error checking for glCompressedTexImage[123]D()." alt="" coords="558,766,698,807"/>
+<area shape="rect" id="node71" href="$texcompress_8c.html#a13d1f1a96a724429124b7d4cd0a05b76" title="Convert a compressed MESA_FORMAT_x to a GLenum." alt="" coords="1017,1103,1223,1145"/>
+<area shape="rect" id="node80" href="$teximage_8c.html#a193916fbc52521417c2f49979f525296" title="Test the glTexImage[123]D() parameters for errors." alt="" coords="559,715,697,741"/>
+<area shape="rect" id="node91" href="$texcompress__cpal_8c.html#a685e93a409ad0aa3dc53f29fbfc01c4c" title="Convert a call to glCompressedTexImage2D() where internalFormat is a compressed palette format into a..." alt="" coords="543,1086,713,1127"/>
+<area shape="rect" id="node93" href="$teximage_8c.html#ab9ba4f3758cb63af8ed533290a39ca25" title="Return pointer to texture object for given target on current texture unit." alt="" coords="549,1151,707,1193"/>
+<area shape="rect" id="node96" href="$teximage_8c.html#a9ae7e4d05c8ce49d590afe9f7488a020" title="Choose the actual hardware format for a texture image." alt="" coords="788,1078,945,1119"/>
+<area shape="rect" id="node99" href="$teximage_8c.html#a806ecf060f7f14ed2e4a1abd207e1e45" title="Check the width, height, depth and border of a texture image are legal." alt="" coords="557,238,699,279"/>
+<area shape="rect" id="node102" href="$teximage_8c.html#addac97922155e1664773236d3291aaf8" title="Return the proxy target which corresponds to the given texture target." alt="" coords="545,304,711,331"/>
+<area shape="rect" id="node105" href="$teximage_8c.html#ab9e40efe8fbee7e05c429da16475dde6" title="Test if a target is a proxy target." alt="" coords="546,1217,710,1244"/>
+<area shape="rect" id="node107" href="$teximage_8c.html#af2dedf59ab7967c60662c2b85e89f91c" title="Return pointer to the specified proxy texture image." alt="" coords="555,405,701,432"/>
+<area shape="rect" id="node110" href="$teximage_8c.html#ad02f4d78c8e7d5d55e37129f15b9a5ed" title="Initialize basic fields of the gl_texture_image struct." alt="" coords="555,649,701,690"/>
+<area shape="rect" id="node114" href="$teximage_8c.html#a03f6cda68b7323d0136aa0b9c990c852" title="Set the size and format&#45;related fields of a gl_texture_image struct to zero." alt="" coords="554,1268,702,1295"/>
+<area shape="rect" id="node116" href="$teximage_8c.html#abb9c94f3f8f473269c615d71ac8581ac" title="For cube map faces, return a face index in [0,5]." alt="" coords="540,832,716,859"/>
+<area shape="rect" id="node119" href="$teximage_8c.html#ab7c31fc08d7b0c06a78eec1d26632836" title="Adjust pixel unpack params and image dimensions to strip off the one&#45;pixel texture border..." alt="" coords="559,1319,697,1345"/>
+<area shape="rect" id="node121" href="$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="557,1369,699,1396"/>
+<area shape="rect" id="node123" href="$teximage_8h.html#a1b6bffe8857ad56df279f715116a2f50" title="Lock a texture for updating." alt="" coords="1051,56,1189,83"/>
+<area shape="rect" id="node126" href="$teximage_8c.html#a46bb58bbf3802223e8b7fcb883eb12d1" title="Like _mesa_select_tex_image() but if the image doesn&#39;t exist, allocate it and install it..." alt="" coords="551,456,705,483"/>
+<area shape="rect" id="node129" href="$teximage_8c.html#a7cac3567c395a67391ca40be7625b3df" title="If the texture object&#39;s GenerateMipmap flag is set and we&#39;ve changed the texture base level image..." alt="" coords="559,1420,697,1447"/>
+<area shape="rect" id="node131" href="$teximage_8c.html#a72be5d4181b2f14e676417ec2dfa3e75" title="When a texture image is specified we have to check if it&#39;s bound to any framebuffer objects (render t..." alt="" coords="539,1471,717,1497"/>
+<area shape="rect" id="node133" href="$texobj_8c.html#af5a2fda82463a533169135295050db8c" title="Mark a texture object dirty." alt="" coords="561,1521,695,1548"/>
+<area shape="rect" id="node135" href="$teximage_8h.html#a8f4c531549dad496df7967b7d02f8aee" title="_mesa_unlock_texture" alt="" coords="1043,5,1197,32"/>
+<area shape="rect" id="node9" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1061,208,1179,235"/>
+<area shape="rect" id="node11" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="1063,309,1177,336"/>
+<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1306,132,1353,159"/>
+<area shape="rect" id="node13" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1274,588,1385,615"/>
+<area shape="rect" id="node19" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="1272,900,1387,927"/>
+<area shape="rect" id="node22" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="1288,849,1371,876"/>
+<area shape="rect" id="node28" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="1046,715,1194,741"/>
+<area shape="rect" id="node30" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="1062,664,1178,691"/>
+<area shape="rect" id="node32" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="809,249,924,276"/>
+<area shape="rect" id="node38" href="$errors_8c.html#aa95f5f16fa241ff98f972589c52e061b" title="&#39;buf&#39; is not necessarily a null&#45;terminated string." alt="" coords="1061,259,1179,285"/>
+<area shape="rect" id="node40" href="$errors_8c.html#a4ab11c429d6af9015d1fbd40497a0104" title="Handles generating a GL_ARB_debug_output message ID generated by the GL or GLSL compiler." alt="" coords="1280,360,1379,387"/>
+<area shape="rect" id="node42" href="$errors_8c.html#aadca580d213cbe06a31c233048e65c55" title="Returns the state of the given message source/type/ID tuple." alt="" coords="1287,461,1371,488"/>
+<area shape="rect" id="node46" href="$context_8c.html#ad98d5d4fae70f1fea38eeab0dad268bc" title="Record an error." alt="" coords="1051,411,1189,437"/>
+<area shape="rect" id="node53" href="$errors_8c.html#a293b4f22a77d1f0f05733ff12d5747f5" title="should_output" alt="" coords="1069,360,1171,387"/>
+<area shape="rect" id="node57" href="$teximage_8c.html#a9b89c04c762aecfdbaa5fca4480119ea" title="Get the maximum number of allowed mipmap levels." alt="" coords="776,773,957,800"/>
+<area shape="rect" id="node60" href="$teximage_8c.html#ad6f029dd2332cf69f9da1980bc46e4f8" title="Helper function to determine whether a target and specific compression format are supported..." alt="" coords="775,824,958,851"/>
+<area shape="rect" id="node63" href="$glformats_8c.html#a0a0a8e8d4936ffaef48e814a5cfb8b3a" title="Test if an image format is a supported compressed format." alt="" coords="789,707,945,749"/>
+<area shape="rect" id="node67" href="$texcompress__cpal_8c.html#ad6335696e3b2de12e150b11b42b3a375" title="_mesa_cpal_compressed_size" alt="" coords="766,925,967,952"/>
+<area shape="rect" id="node69" href="$teximage_8c.html#ac0fd0752fdde1e6b5076c458dd69aef9" title="Return expected size of a compressed texture." alt="" coords="792,1027,941,1053"/>
+<area shape="rect" id="node73" href="$teximage_8c.html#a5d62d6baab91d5ce7a62f99d674a0191" title="Return the simple base format for a given internal texture format." alt="" coords="784,656,949,683"/>
+<area shape="rect" id="node77" href="$teximage_8h.html#a19a4bdb6bf1f5789253f7d25f61986da" title="Is the given value one of the 6 cube faces?" alt="" coords="794,976,939,1003"/>
+</map>

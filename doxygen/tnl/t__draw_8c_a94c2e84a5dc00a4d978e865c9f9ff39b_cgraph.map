@@ -1,0 +1,20 @@
+<map id="_tnl_vbo_draw_prims" name="_tnl_vbo_draw_prims">
+<area shape="rect" id="node3" href="$t__draw_8c.html#a812ae31c5cca4949cbf8916c27dec91c" title="_tnl_draw_prims" alt="" coords="227,223,344,249"/>
+<area shape="rect" id="node40" href="vbo.tag$vbo_8h.html#abfebf1e9d6eeeaeb1fc32af4088dba90" title="vbo_get_minmax_indices" alt="" coords="201,273,370,300"/>
+<area shape="rect" id="node5" href="main.tag$condrender_8c.html#a79a7d1bc368ddaf5cb353a0a7024c24f" title="_mesa_check_conditional\l_render" alt="" coords="425,5,597,46"/>
+<area shape="rect" id="node7" href="main.tag$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="419,71,603,97"/>
+<area shape="rect" id="node10" href="$t__draw_8c.html#ad9c5aee926352f33b20f8e3b8a60aa3a" title="bind_indices" alt="" coords="675,121,770,148"/>
+<area shape="rect" id="node14" href="$t__draw_8c.html#a482dce0cd1ec8ef7f0302cb6120ef266" title="bind_inputs" alt="" coords="467,172,555,199"/>
+<area shape="rect" id="node30" href="$t__draw_8c.html#ac71ac9bb84069c4cdb89d3dada99e3d2" title="bind_prims" alt="" coords="468,223,553,249"/>
+<area shape="rect" id="node32" href="$t__draw_8c.html#ae4acc1ddb6b289867ed3a942f6cd2d0c" title="free_space" alt="" coords="467,273,554,300"/>
+<area shape="rect" id="node34" href="$t__draw_8c.html#a924b2ee3d869f9049d40c68de5108271" title="unmap_vbos" alt="" coords="463,324,559,351"/>
+<area shape="rect" id="node36" href="vbo.tag$vbo_8h.html#abe90b2c9d24640ab4096557b981ecc09" title="vbo_rebase_prims" alt="" coords="447,375,575,401"/>
+<area shape="rect" id="node38" href="vbo.tag$vbo_8h.html#a75b40c015ea0c82a8c2c8954ff23cefc" title="vbo_split_prims" alt="" coords="454,425,567,452"/>
+<area shape="rect" id="node12" href="$t__draw_8c.html#a1ef67458a3f58ae5eff743ad91b168ff" title="get_space" alt="" coords="877,147,960,173"/>
+<area shape="rect" id="node16" href="$t__draw_8c.html#ac80256bbe48a1156d27548587d8ae401" title="_tnl_import_array" alt="" coords="661,223,784,249"/>
+<area shape="rect" id="node27" href="$t__draw_8c.html#a14d28fcab54f578e733a3fd6b4242d92" title="_tnl_import_edgeflag" alt="" coords="651,172,794,199"/>
+<area shape="rect" id="node18" href="$t__draw_8c.html#ae5d173c7bdbf0282e7c44c1c6c836b67" title="Convert array of BGRA/GLubyte[4] values to RGBA/float[4]." alt="" coords="845,197,992,224"/>
+<area shape="rect" id="node20" href="$t__draw_8c.html#ac16d83788f916d0d76d4fb9d5be251a4" title="Convert fixed&#45;point to floating&#45;point." alt="" coords="843,248,994,275"/>
+<area shape="rect" id="node22" href="$t__draw_8c.html#ace010378850928f8c1d43cf05b611e16" title="convert_half_to_float" alt="" coords="847,299,990,325"/>
+<area shape="rect" id="node24" href="main.tag$imports_8c.html#a061acde1a3714ab2452ed34c02ebe70a" title="_mesa_half_to_float" alt="" coords="1043,299,1181,325"/>
+</map>

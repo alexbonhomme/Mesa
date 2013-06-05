@@ -1,0 +1,4 @@
+<map id="_swrast_update_fog_state" name="_swrast_update_fog_state">
+<area shape="rect" id="node3" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="192,5,347,46"/>
+<area shape="rect" id="node5" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="194,71,345,97"/>
+</map>

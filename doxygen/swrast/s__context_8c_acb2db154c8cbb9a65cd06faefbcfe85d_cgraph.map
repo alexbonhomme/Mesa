@@ -1,0 +1,51 @@
+<map id="_swrast_validate_blend_func" name="_swrast_validate_blend_func">
+<area shape="rect" id="node3" href="$s__blend_8c.html#a51a5a76584a2ac8597e3c5cb4bd453f4" title="Analyze current blending parameters to pick fastest blending function." alt="" coords="697,313,884,340"/>
+<area shape="rect" id="node41" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="962,1416,1113,1443"/>
+<area shape="rect" id="node43" href="$s__context_8c.html#a580958d86d36e258042e52c621153de2" title="_swrast_validate_derived" alt="" coords="246,1445,415,1472"/>
+<area shape="rect" id="node5" href="$s__blend_8c.html#acf1b37cd55a99d5a890be5c57bc862f6" title="Add src and dest: glBlendFunc(GL_ONE, GL_ONE)." alt="" coords="1235,133,1317,160"/>
+<area shape="rect" id="node9" href="$s__blend_8c.html#aa185a37314e9cbeecede564645cae7b6" title="Do any blending operation, any chanType." alt="" coords="986,504,1089,531"/>
+<area shape="rect" id="node17" href="$s__blend_8c.html#a49f0403cbf234919d0bb104f5200e3ac" title="Blend max function." alt="" coords="1233,184,1319,211"/>
+<area shape="rect" id="node20" href="$s__blend_8c.html#ac789c328412cfd1b4d91024b6fdfaa30" title="Blend min function." alt="" coords="1235,235,1317,261"/>
+<area shape="rect" id="node23" href="$s__blend_8c.html#a736176d2bb8709a95555db9aaf6c9546" title="Modulate: result = src * dest Any chanType ok." alt="" coords="1219,285,1333,312"/>
+<area shape="rect" id="node26" href="$s__blend_8c.html#a8919b00bee669542fe66a0fa6035d38c" title="Special case for glBlendFunc(GL_ZERO, GL_ONE)." alt="" coords="1232,336,1320,363"/>
+<area shape="rect" id="node29" href="$s__blend_8c.html#a9cbe03a7ba1f1ce7fb0772153cad65ba" title="Special case for glBlendFunc(GL_ONE, GL_ZERO) Any chanType ok." alt="" coords="1225,387,1327,413"/>
+<area shape="rect" id="node32" href="$s__blend_8c.html#a95aa994e654ebaafc705160111db0824" title="blend_transparency\l_float" alt="" coords="1209,438,1343,479"/>
+<area shape="rect" id="node35" href="$s__blend_8c.html#ac33a269c8f9261badee7b6d9cc2a1797" title="Common transparency blending mode: glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)." alt="" coords="970,5,1105,46"/>
+<area shape="rect" id="node38" href="$s__blend_8c.html#aa69cafa63e9945c77bf383d938f5c6a1" title="blend_transparency\l_ushort" alt="" coords="970,70,1105,111"/>
+<area shape="rect" id="node7" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="1463,416,1510,443"/>
+<area shape="rect" id="node11" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="1229,504,1323,531"/>
+<area shape="rect" id="node13" href="$s__blend_8c.html#a691cd433b780f86e2f1cc51fd064706e" title="Do any blending operation, using floating point." alt="" coords="1209,909,1343,936"/>
+<area shape="rect" id="node15" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="1429,1091,1544,1117"/>
+<area shape="rect" id="node46" href="$s__context_8c.html#a1f0c4db0dc921740d0e939a89fccac42" title="Examine polygon cull state to compute the _BackfaceCullSign field." alt="" coords="707,1824,874,1851"/>
+<area shape="rect" id="node49" href="$s__context_8c.html#aa9ed9ba752764e49a9a0784abf2afeb2" title="Update the _PreferPixelFog field to indicate if we need to compute fog blend factors (from the fog co..." alt="" coords="473,1723,639,1749"/>
+<area shape="rect" id="node54" href="$s__context_8c.html#a59b8bba4907cbc35632aa017b923590e" title="Update the swrast&#45;&gt;_TextureCombinePrimary flag." alt="" coords="696,1875,885,1901"/>
+<area shape="rect" id="node57" href="$s__context_8c.html#a0a6ada5d854e23592529a5abb9399af3" title="Update swrast&#45;&gt;_FogColor and swrast&#45;&gt;_FogEnable values." alt="" coords="487,1343,625,1385"/>
+<area shape="rect" id="node61" href="$s__context_8c.html#a9c42c1b1685d1ec68e49cf9ecd7a1ed1" title="Update state for running fragment programs." alt="" coords="470,1526,642,1567"/>
+<area shape="rect" id="node64" href="$s__context_8c.html#adf428497b6aec4bfccb9ed99a91ddd24" title="_swrast_update_texture\l_samplers" alt="" coords="475,990,637,1031"/>
+<area shape="rect" id="node114" href="$s__context_8c.html#ae9495142a144f8f05790ca823d96eed8" title="Determine if we can defer texturing/shading until after Z/stencil testing." alt="" coords="472,1409,640,1450"/>
+<area shape="rect" id="node118" href="$s__context_8c.html#a03dbfaa86c68e063bf051ca0fef1b31b" title="Recompute the value of swrast&#45;&gt;_RasterMask, etc." alt="" coords="465,1475,647,1501"/>
+<area shape="rect" id="node122" href="$s__context_8c.html#ac59e331355907eb48bb44f7b17e7deca" title="Update swrast&#45;&gt;_ActiveAttribs, swrast&#45;&gt;_NumActiveAttribs, swrast&#45;&gt;_ActiveAtttribMask." alt="" coords="478,1591,634,1633"/>
+<area shape="rect" id="node126" href="$s__context_8c.html#a8d997228f0d9f37ed4a001c3f69c9919" title="See if we can do early diffuse+specular (primary+secondary) color add per vertex instead of per&#45;fragm..." alt="" coords="471,1657,641,1698"/>
+<area shape="rect" id="node130" href="$s__context_8c.html#acaf458cd889f50b4fb7ea54b2e6940f0" title="_swrast_invalidate\l_state" alt="" coords="491,1125,621,1166"/>
+<area shape="rect" id="node51" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="713,1526,868,1567"/>
+<area shape="rect" id="node66" href="$s__texfetch_8c.html#a3dc9a6299f299b44f2cccf971cdca37c" title="_mesa_update_fetch\l_functions" alt="" coords="719,973,862,1014"/>
+<area shape="rect" id="node74" href="$s__texfilter_8c.html#aeb7c30a41bf34d61e518e12c6ee8aede" title="Choose the texture sampling function for the given texture object." alt="" coords="709,907,873,949"/>
+<area shape="rect" id="node68" href="main.tag$teximage_8c.html#a3ff240d6e223fa125174b21ee4c18f69" title="_mesa_get_texture_dimensions" alt="" coords="934,1264,1141,1291"/>
+<area shape="rect" id="node70" href="$s__texfetch_8c.html#aa024d85827481ead23a3cd7df4711372" title="Initialize the texture image&#39;s FetchTexel methods." alt="" coords="969,1315,1105,1341"/>
+<area shape="rect" id="node72" href="$s__context_8h.html#aaa0ef1d5da815b257ef77066ed9b3572" title="cast wrapper" alt="" coords="962,1365,1113,1392"/>
+<area shape="rect" id="node76" href="$s__texfilter_8c.html#a2393ab9aaca69f37f16febb54ab6675b" title="We use this function when a texture object is in an &quot;incomplete&quot; state." alt="" coords="976,605,1099,632"/>
+<area shape="rect" id="node79" href="$s__texfilter_8c.html#a82aaae63b775faa999dbfc1e6ae63b6b" title="Is the given texture a depth (or depth/stencil) texture?" alt="" coords="978,1112,1097,1139"/>
+<area shape="rect" id="node81" href="$s__texfilter_8c.html#aa3599fefc9243371e496200151497c88" title="Sample a shadow/depth texture." alt="" coords="1201,1112,1351,1139"/>
+<area shape="rect" id="node83" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="1411,953,1562,994"/>
+<area shape="rect" id="node85" href="$s__texfilter_8c.html#a1eeec4a03a53c17245dcb3a3e042a76a" title="Sample 1D texture, using lambda to choose between min/magnification." alt="" coords="970,1163,1105,1189"/>
+<area shape="rect" id="node88" href="$s__texfilter_8c.html#a7d3aa1b9c8cb06e44a944a076cc1a559" title="Sample 1D texture, linear filtering for both min/magnification." alt="" coords="976,656,1099,683"/>
+<area shape="rect" id="node91" href="$s__texfilter_8c.html#a1340fff7c76ca1c6a82ef507568ecf48" title="Sample 1D texture, nearest filtering for both min/magnification." alt="" coords="970,707,1105,733"/>
+<area shape="rect" id="node94" href="$s__texfilter_8c.html#a026b9889596656e2904a04b7540c4a93" title="Sample 2D texture using an anisotropic filter." alt="" coords="1190,808,1362,835"/>
+<area shape="rect" id="node98" href="$s__texfilter_8c.html#a295f137c3fdd857c6b18381de4d1c088" title="Sample 2D texture, using lambda to choose between min/magnification." alt="" coords="970,915,1105,941"/>
+<area shape="rect" id="node101" href="$s__texfilter_8c.html#ac748730b9af56808e4eed313a9704c03" title="Sample 2D texture, nearest filtering for both min/magnification." alt="" coords="1209,757,1343,784"/>
+<area shape="rect" id="node104" href="$s__texfilter_8c.html#a9f8430235d1d5f0157ecba730fa072e4" title="Sample 2D texture, linear filtering for both min/magnification." alt="" coords="1215,859,1337,885"/>
+<area shape="rect" id="node132" href="$s__context_8c.html#a1b0682fe7f238df6917a1f51bdff930a" title="_swrast_sleep" alt="" coords="737,705,844,732"/>
+<area shape="rect" id="node136" href="$s__context_8c.html#acf458e7707550d647964622fd2b1a670" title="Called via swrast&#45;&gt;Line." alt="" coords="717,1292,864,1319"/>
+<area shape="rect" id="node140" href="$s__context_8c.html#ac9987d1f51f979a14d8f331eac989e11" title="Called via swrast&#45;&gt;Point." alt="" coords="713,1191,868,1217"/>
+<area shape="rect" id="node144" href="$s__context_8c.html#ae8352cccfe2dd1571bdba6d3d1326158" title="Stub for swrast&#45;&gt;Triangle to select a true triangle function after a state change." alt="" coords="706,1241,875,1268"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="do_stencil_test" name="do_stencil_test">
+<area shape="rect" id="node3" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="365,5,480,32"/>
+<area shape="rect" id="node5" href="$s__stencil_8c.html#a0976db295f34ab6b9ca8bc66fec4715f" title="Apply the given stencil operator to the array of stencil values." alt="" coords="182,56,301,83"/>
+<area shape="rect" id="node10" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="166,107,317,133"/>
+<area shape="rect" id="node8" href="$s__stencil_8c.html#ac3909afdb7a47b78dfc2c931ba15c263" title="Clamp the stencil value to [0, 255]." alt="" coords="394,56,451,83"/>
+</map>

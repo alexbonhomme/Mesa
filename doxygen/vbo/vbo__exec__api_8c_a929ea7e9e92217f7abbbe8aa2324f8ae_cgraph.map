@@ -1,0 +1,18 @@
+<map id="vbo_exec_wrap_buffers" name="vbo_exec_wrap_buffers">
+<area shape="rect" id="node3" href="$vbo__exec_8h.html#a311f46a75f32516d98bbc596632687ad" title="Execute the buffer and save copied verts." alt="" coords="213,157,352,184"/>
+<area shape="rect" id="node5" href="main.tag$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="407,5,550,32"/>
+<area shape="rect" id="node7" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="652,27,745,53"/>
+<area shape="rect" id="node9" href="$vbo__exec__draw_8c.html#aa42a0ad017d769c879ec15cdd10bb1f0" title="vbo_copy_vertices" alt="" coords="413,107,544,133"/>
+<area shape="rect" id="node11" href="$vbo__exec__draw_8c.html#abfb8c86e1c73d8b78399dc585c47a5c2" title="vbo_exec_bind_arrays" alt="" coords="403,157,555,184"/>
+<area shape="rect" id="node20" href="$vbo__exec__draw_8c.html#a5d2c6526a1b2d7b7731fddcebb6c98ce" title="vbo_exec_debug_verts" alt="" coords="401,212,557,239"/>
+<area shape="rect" id="node24" href="$vbo__exec_8h.html#a5156ff396b59e14a648a32c712eeb7fe" title="Map the vertex buffer to begin storing glVertex, glColor, etc data." alt="" coords="411,296,546,323"/>
+<area shape="rect" id="node34" href="$vbo__exec__draw_8c.html#af77226a4ba55cb463ba2f93e2e9c4c92" title="Unmap the VBO." alt="" coords="404,347,553,373"/>
+<area shape="rect" id="node14" href="$vbo__context_8h.html#aaf664a10bf7bc6ab5ffc7325c30b80d2" title="Return VP_x token to indicate whether we&#39;re running fixed&#45;function vertex transformation, an NV vertex program or ARB vertex program/shader." alt="" coords="632,77,765,104"/>
+<area shape="rect" id="node16" href="$vbo__context_8h.html#af16a8c0e5eee63aa492af19a60168d7c" title="Return if format is integer." alt="" coords="605,128,792,155"/>
+<area shape="rect" id="node18" href="main.tag$state_8c.html#a5effa322de7d372e8ed298d8d3ca441d" title="_mesa_set_varying_vp\l_inputs" alt="" coords="621,179,777,221"/>
+<area shape="rect" id="node22" href="main.tag$enums_8c.html#add9a5aa9e4d85da047803266d7e66548" title="_mesa_lookup_prim_by_nr" alt="" coords="610,245,787,272"/>
+<area shape="rect" id="node26" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="651,296,746,323"/>
+<area shape="rect" id="node28" href="main.tag$vtxfmt_8c.html#ada919957d13ab359106779b35155dd64" title="_mesa_install_exec\l_vtxfmt" alt="" coords="630,347,767,389"/>
+<area shape="rect" id="node30" href="$vbo__noop_8c.html#aada96e4881ad5e498548f2b084b419a2" title="Is the given dispatch table using the no&#45;op functions?" alt="" coords="609,413,788,440"/>
+<area shape="rect" id="node32" href="$vbo__noop_8c.html#a42c4221fb3cb8f106ce9300f9208002c" title="_mesa_noop_Begin" alt="" coords="840,413,976,440"/>
+</map>

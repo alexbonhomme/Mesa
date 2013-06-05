@@ -1,0 +1,51 @@
+<map id="vbo_exec_vtxfmt_init" name="vbo_exec_vtxfmt_init">
+<area shape="rect" id="node3" href="main.tag$api__arrayelt_8c.html#a66a0b8e3b0f41571a3c52dec25e9cb9d" title="_ae_ArrayElement" alt="" coords="235,5,365,32"/>
+<area shape="rect" id="node5" href="$vbo_8h.html#a2870593e7d4468510256dca29583ca50" title="_es_VertexAttrib1f" alt="" coords="235,411,365,437"/>
+<area shape="rect" id="node9" href="$vbo_8h.html#a3abc2cb337150c6f18f9ceeaf55f638f" title="_es_VertexAttrib1fv" alt="" coords="231,56,369,83"/>
+<area shape="rect" id="node12" href="$vbo_8h.html#a8e292b9cd796bb68afa5799ebbd88b1d" title="_es_VertexAttrib2f" alt="" coords="235,107,365,133"/>
+<area shape="rect" id="node15" href="$vbo_8h.html#ad801eb581564bb014d7755fc76fe4022" title="_es_VertexAttrib2fv" alt="" coords="231,157,369,184"/>
+<area shape="rect" id="node18" href="$vbo_8h.html#a527abddd39f8aad3c6867642dbe5e1ce" title="_es_VertexAttrib3f" alt="" coords="235,208,365,235"/>
+<area shape="rect" id="node21" href="$vbo_8h.html#a371ecda9419ea728e3d46e970a1de4fb" title="_es_VertexAttrib3fv" alt="" coords="231,259,369,285"/>
+<area shape="rect" id="node24" href="$vbo_8h.html#abb4472f5ab9834208e8f53e7c3a3f7fd" title="_es_VertexAttrib4f" alt="" coords="235,309,365,336"/>
+<area shape="rect" id="node27" href="$vbo_8h.html#acc738e5a977270b19091d6040d435f38" title="_es_VertexAttrib4fv" alt="" coords="231,360,369,387"/>
+<area shape="rect" id="node30" href="main.tag$dlist_8c.html#a511d88e464629389a5b1275726278f4f" title="_mesa_CallList" alt="" coords="244,461,356,488"/>
+<area shape="rect" id="node32" href="main.tag$dlist_8c.html#a5f802094227c555d2157559a834b9d9b" title="_mesa_CallLists" alt="" coords="241,512,359,539"/>
+<area shape="rect" id="node34" href="$vbo__exec__api_8c.html#a88d85f664ba78f10161f6c6bc32ca743" title="Called via glBegin." alt="" coords="467,715,586,741"/>
+<area shape="rect" id="node71" href="$vbo__exec__api_8c.html#ad0fc3698ae48d0c6d236aaf34113c9c9" title="Called via glEnd." alt="" coords="689,516,797,543"/>
+<area shape="rect" id="node87" href="$vbo__exec__api_8c.html#ae0765e984e438c29e6f6d16e9913d73b" title="vbo_exec_EvalCoord1f" alt="" coords="448,955,605,981"/>
+<area shape="rect" id="node103" href="$vbo__exec__api_8c.html#abf41a509afe48c9d56fd60bca6c61faf" title="vbo_exec_EvalCoord1fv" alt="" coords="218,816,382,843"/>
+<area shape="rect" id="node106" href="$vbo__exec__api_8c.html#a404be9b65aad375aeb07e679179124e6" title="vbo_exec_EvalCoord2f" alt="" coords="448,1065,605,1092"/>
+<area shape="rect" id="node113" href="$vbo__exec__api_8c.html#ab8269bb37f89613d3336e91996780667" title="vbo_exec_EvalCoord2fv" alt="" coords="218,976,382,1003"/>
+<area shape="rect" id="node116" href="$vbo__exec__api_8c.html#a4ad2476bb88f13189fe1e59b2c10f188" title="vbo_exec_EvalPoint1" alt="" coords="226,868,374,895"/>
+<area shape="rect" id="node119" href="$vbo__exec__api_8c.html#ad67b17a6e35f9af2597e42245a553b9c" title="vbo_exec_EvalPoint2" alt="" coords="226,1035,374,1061"/>
+<area shape="rect" id="node122" href="$vbo__exec__api_8c.html#ad6968f9a2f743b5b2daf4ad2963a239c" title="Called via glPrimitiveRestartNV()" alt="" coords="201,613,399,640"/>
+<area shape="rect" id="node127" href="$vbo__exec__api_8c.html#ab8cb5ce4ee0bc92647d870790dd1ef90" title="Execute a glMaterial call." alt="" coords="473,208,580,235"/>
+<area shape="rect" id="node7" href="$vbo__exec__api_8c.html#a40e8696ccc0bd8d6a6c5906666afd0ed" title="A special version of glVertexAttrib4f that does not treat index 0 as VBO_ATTRIB_POS." alt="" coords="455,157,599,184"/>
+<area shape="rect" id="node36" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="1353,212,1447,239"/>
+<area shape="rect" id="node38" href="main.tag$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="1119,820,1262,847"/>
+<area shape="rect" id="node40" href="main.tag$api__validate_8c.html#ab39ef3b663fba520daeead5e6be957f6" title="_mesa_valid_prim_mode" alt="" coords="659,803,826,829"/>
+<area shape="rect" id="node42" href="main.tag$context_8c.html#ad951603a4d33d18b15d0eeafc4ad5e1d" title="_mesa_valid_to_render" alt="" coords="665,853,821,880"/>
+<area shape="rect" id="node44" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="1353,896,1447,923"/>
+<area shape="rect" id="node46" href="$vbo__context_8h.html#a9b5d7d49acd805180833d1939d486688" title="This is called by glBegin, glDrawArrays and glDrawElements (and variations of those calls)..." alt="" coords="679,635,807,661"/>
+<area shape="rect" id="node48" href="$vbo__exec__api_8c.html#a59df19afd3a180740794ecc0b0a8af19" title="Flush (draw) vertices." alt="" coords="660,737,825,778"/>
+<area shape="rect" id="node50" href="$vbo__exec__api_8c.html#ad72d9cdd52060408bf21bd7ba2029d2a" title="reset_attrfv" alt="" coords="925,744,1013,771"/>
+<area shape="rect" id="node52" href="$vbo__exec__api_8c.html#af21ae15c1b2e2a0cc6d4ce80092583cf" title="Copy the active vertex&#39;s values to the ctx&#45;&gt;Current fields." alt="" coords="880,824,1059,851"/>
+<area shape="rect" id="node55" href="$vbo__exec_8h.html#a311f46a75f32516d98bbc596632687ad" title="Execute the buffer and save copied verts." alt="" coords="900,635,1039,661"/>
+<area shape="rect" id="node59" href="$vbo__exec__draw_8c.html#aa42a0ad017d769c879ec15cdd10bb1f0" title="vbo_copy_vertices" alt="" coords="1125,567,1256,593"/>
+<area shape="rect" id="node61" href="$vbo__exec__draw_8c.html#abfb8c86e1c73d8b78399dc585c47a5c2" title="vbo_exec_bind_arrays" alt="" coords="1115,719,1267,745"/>
+<area shape="rect" id="node64" href="$vbo__exec__draw_8c.html#a5d2c6526a1b2d7b7731fddcebb6c98ce" title="vbo_exec_debug_verts" alt="" coords="1113,617,1269,644"/>
+<area shape="rect" id="node66" href="$vbo__exec_8h.html#a5156ff396b59e14a648a32c712eeb7fe" title="Map the vertex buffer to begin storing glVertex, glColor, etc data." alt="" coords="1123,465,1258,492"/>
+<area shape="rect" id="node69" href="$vbo__exec__draw_8c.html#af77226a4ba55cb463ba2f93e2e9c4c92" title="Unmap the VBO." alt="" coords="1116,668,1265,695"/>
+<area shape="rect" id="node74" href="main.tag$context_8c.html#a1534c85a80d793eaa3b893b891e0a35d" title="_mesa_flush" alt="" coords="921,364,1017,391"/>
+<area shape="rect" id="node76" href="$vbo__exec__api_8c.html#a49dd4b62f970dcfc2f6b4403b8182b2f" title="Try to merge / concatenate the two most recent VBO primitives." alt="" coords="915,415,1023,441"/>
+<area shape="rect" id="node78" href="$vbo_8h.html#a325466a9eb647c7863a670deb7d6d607" title="Helper function for determining if two subsequent glBegin/glEnd primitives can be combined..." alt="" coords="1323,389,1477,416"/>
+<area shape="rect" id="node80" href="$vbo_8h.html#a45956dc25d15d16e8a9ef07c057d3f29" title="If we&#39;ve determined that p0 and p1 can be merged, this function concatenates p1 onto p0..." alt="" coords="1128,364,1253,391"/>
+<area shape="rect" id="node83" href="$vbo_8h.html#addb8a1c2d5d7fe7841f4bdebe6fba421" title="In some degenarate cases we can improve our ability to merge consecutive primitives." alt="" coords="1107,313,1274,340"/>
+<area shape="rect" id="node90" href="$vbo__exec_8h.html#a37dc82f5efdc06c665afeb487027cb66" title="vbo_exec_do_EvalCoord1f" alt="" coords="653,1009,832,1036"/>
+<area shape="rect" id="node94" href="$vbo__exec_8h.html#ac6b07e28991c8e570ea9fe141483acfd" title="vbo_exec_eval_update" alt="" coords="665,1120,820,1147"/>
+<area shape="rect" id="node100" href="$vbo__exec__api_8c.html#acd8589338c6e7d1fc3c6a17c3fbbf230" title="This is when a vertex attribute transitions to a different size." alt="" coords="665,1065,821,1092"/>
+<area shape="rect" id="node92" href="math.tag$m__eval_8c.html#aabb4922b45e2b3aedca370c94e29bceb" title="_math_horner_bezier\l_curve" alt="" coords="898,1006,1041,1047"/>
+<area shape="rect" id="node96" href="$vbo__exec__eval_8c.html#afdc1f4ba6d0eba6de446dc8b19971491" title="clear_active_eval1" alt="" coords="904,1123,1035,1149"/>
+<area shape="rect" id="node98" href="$vbo__exec__eval_8c.html#afc292b2335eaf358c8e711d58d425c67" title="clear_active_eval2" alt="" coords="904,1173,1035,1200"/>
+<area shape="rect" id="node109" href="$vbo__exec_8h.html#acaa9615e6c1a854a6bb3d2d3cde6759b" title="vbo_exec_do_EvalCoord2f" alt="" coords="653,1275,832,1301"/>
+</map>

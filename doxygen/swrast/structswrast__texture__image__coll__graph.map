@@ -1,0 +1,7 @@
+<map id="swrast_texture_image" name="swrast_texture_image">
+<area shape="rect" id="node3" href="main.tag$structgl__texture__image.html" title="gl_texture_image" alt="" coords="105,96,225,123"/>
+<area shape="rect" id="node5" href="main.tag$structgl__texture__object.html" title="gl_texture_object" alt="" coords="273,187,393,213"/>
+<area shape="rect" id="node7" href="main.tag$structgl__buffer__object.html" title="gl_buffer_object" alt="" coords="276,96,391,123"/>
+<area shape="rect" id="node10" href="main.tag$structgl__sampler__object.html" title="gl_sampler_object" alt="" coords="415,96,541,123"/>
+<area shape="rect" id="node12" href="main.tag$uniongl__color__union.html" title="gl_color_union" alt="" coords="426,5,531,32"/>
+</map>

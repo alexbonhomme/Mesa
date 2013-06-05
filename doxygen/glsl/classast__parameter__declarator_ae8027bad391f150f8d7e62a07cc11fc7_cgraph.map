@@ -1,0 +1,26 @@
+<map id="ast_parameter_declarator::hir" name="ast_parameter_declarator::hir">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a939bd788b8a9f1a21c9f2ff0dd5b3aaa" title="_mesa_glsl_error" alt="" coords="703,278,825,305"/>
+<area shape="rect" id="node35" href="$ast__to__hir_8cpp.html#a2455ee026a32a737abab15d55006ff9b" title="apply_type_qualifier\l_to_variable" alt="" coords="246,161,383,203"/>
+<area shape="rect" id="node51" href="$classast__node.html#a4449b76bda85828e09c78f2aba19f16d" title="Retrieve the source location of an AST node." alt="" coords="462,379,615,406"/>
+<area shape="rect" id="node53" href="$ast__to__hir_8cpp.html#a7694f88b8a652fc815fe68182db4fbf3" title="process_array_type" alt="" coords="247,438,383,465"/>
+<area shape="rect" id="node5" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="883,191,1003,218"/>
+<area shape="rect" id="node7" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="1052,115,1201,142"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="1051,166,1203,193"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="1251,217,1410,243"/>
+<area shape="rect" id="node29" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="1284,267,1377,294"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="1459,217,1639,243"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="1848,217,1941,243"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="1689,166,1799,193"/>
+<area shape="rect" id="node26" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1715,267,1773,294"/>
+<area shape="rect" id="node20" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1853,166,1937,193"/>
+<area shape="rect" id="node22" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1995,166,2072,193"/>
+<area shape="rect" id="node24" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1990,242,2077,269"/>
+<area shape="rect" id="node31" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="1529,267,1569,294"/>
+<area shape="rect" id="node38" href="$glsl__parser__extras_8cpp.html#a22a5d9c1581649413170fe08528775e5" title="_mesa_glsl_shader_target_name" alt="" coords="432,45,645,71"/>
+<area shape="rect" id="node40" href="$glsl__parser__extras_8cpp.html#a74891ca02755401e5fe592b393531943" title="_mesa_glsl_warning" alt="" coords="694,103,834,130"/>
+<area shape="rect" id="node43" href="$classir__variable.html#a207a481c9ff8510ba52065acec05f122" title="Get the string value for the interpolation qualifier." alt="" coords="459,161,618,203"/>
+<area shape="rect" id="node45" href="$ast__to__hir_8cpp.html#a52f4df6e85d4535c4e17bba8b5c7f15f" title="Determine whether a toplevel variable declaration declares a varying." alt="" coords="485,227,592,254"/>
+<area shape="rect" id="node47" href="$ast__to__hir_8cpp.html#a70147494517b1e7ea96ce67e2d417224" title="Matrix layout qualifiers are only allowed on certain types." alt="" coords="463,96,615,137"/>
+<area shape="rect" id="node56" href="$classir__rvalue.html#a85187845a3fde87f8951bc6b2dcf3c76" title="ir_rvalue::constant\l_expression_value" alt="" coords="473,431,604,472"/>
+<area shape="rect" id="node59" href="$classast__node.html#a46c3547246d08e8a37e5668b1f273f1e" title="Convert the AST node to the high&#45;level intermediate representation." alt="" coords="490,497,587,523"/>
+</map>

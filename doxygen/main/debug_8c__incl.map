@@ -1,0 +1,23 @@
+<map id="debug.c" name="debug.c">
+<area shape="rect" id="node3" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="523,379,599,405"/>
+<area shape="rect" id="node19" href="$formats_8h.html" title="main/formats.h" alt="" coords="5,453,115,480"/>
+<area shape="rect" id="node25" href="$attrib_8h.html" title="attrib.h" alt="" coords="1781,304,1843,331"/>
+<area shape="rect" id="node52" href="$colormac_8h.html" title="Color&#45;related macros." alt="" coords="609,80,695,107"/>
+<area shape="rect" id="node57" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="843,229,919,256"/>
+<area shape="rect" id="node67" href="$enums_8h.html" title="Enumeration name/number lookup functions." alt="" coords="1831,80,1903,107"/>
+<area shape="rect" id="node70" href="$hash_8h.html" title="Generic hash table." alt="" coords="2059,155,2120,181"/>
+<area shape="rect" id="node74" href="$debug_8h.html" title="Debugging functions." alt="" coords="2119,229,2187,256"/>
+<area shape="rect" id="node77" href="$get_8h.html" title="State query functions." alt="" coords="2197,155,2248,181"/>
+<area shape="rect" id="node80" href="$pixelstore_8h.html" title="glPixelStore functions." alt="" coords="2263,229,2352,256"/>
+<area shape="rect" id="node83" href="$readpix_8h.html" title="readpix.h" alt="" coords="1977,80,2052,107"/>
+<area shape="rect" id="node86" href="$texobj_8h.html" title="Texture object management." alt="" coords="1689,304,1756,331"/>
+<area shape="rect" id="node5" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1897,528,2012,555"/>
+<area shape="rect" id="node11" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="139,453,239,480"/>
+<area shape="rect" id="node15" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="501,453,621,480"/>
+<area shape="rect" id="node17" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="646,453,772,480"/>
+<area shape="rect" id="node22" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="379,453,425,480"/>
+<area shape="rect" id="node27" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="1349,379,1432,405"/>
+<area shape="rect" id="node55" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="617,155,692,181"/>
+<area shape="rect" id="node61" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="848,304,915,331"/>
+<area shape="rect" id="node91" href="$samplerobj_8h.html" title="samplerobj.h" alt="" coords="1847,379,1943,405"/>
+</map>

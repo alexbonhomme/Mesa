@@ -1,0 +1,16 @@
+<map id="link_set_uniform_initializers" name="link_set_uniform_initializers">
+<area shape="rect" id="node3" href="$classir__variable.html#a8b15f216b2893038a7bf0812641f1762" title="ir_variable::as_variable" alt="" coords="237,54,392,80"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a38530c9f4ef437290b8acd706b858410" title="Allocate a new ralloc context." alt="" coords="639,155,742,182"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="273,104,356,131"/>
+<area shape="rect" id="node20" href="$namespacelinker.html#a97def26309acc4103c13ec42bcacc615" title="linker::set_uniform\l_initializer" alt="" coords="250,228,379,269"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="799,155,883,182"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="937,54,1023,80"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="941,155,1019,182"/>
+<area shape="rect" id="node16" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="466,104,561,131"/>
+<area shape="rect" id="node18" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="468,54,559,80"/>
+<area shape="rect" id="node22" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="462,256,565,283"/>
+<area shape="rect" id="node29" href="$namespacelinker.html#aba643b1397ac0146d08d38d2e38e0005" title="linker::get_storage" alt="" coords="449,206,578,232"/>
+<area shape="rect" id="node31" href="$namespacelinker.html#a9683d9a59c7926e249fe9699c0381d04" title="linker::copy_constant\l_to_storage" alt="" coords="440,308,587,349"/>
+<area shape="rect" id="node24" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="635,231,746,258"/>
+<area shape="rect" id="node26" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="795,231,888,258"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="s_blend.h" name="s_blend.h">
+<area shape="rect" id="node3" href="$s__blend_8c.html" title="software blending." alt="" coords="5,80,83,107"/>
+<area shape="rect" id="node5" href="$s__context_8c.html" title="s_context.c" alt="" coords="108,80,199,107"/>
+<area shape="rect" id="node7" href="$s__span_8c.html" title="Span processing functions used by all rasterization functions." alt="" coords="223,80,297,107"/>
+</map>

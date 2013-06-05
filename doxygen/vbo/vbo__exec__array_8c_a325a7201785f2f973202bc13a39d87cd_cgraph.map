@@ -1,0 +1,25 @@
+<map id="_mesa_DrawRangeElementsBaseVertex" name="_mesa_DrawRangeElementsBaseVertex">
+<area shape="rect" id="node3" href="$vbo__exec__array_8c.html#af836cf2868264288516c5b96c149be2a" title="Called by glDrawRangeElementsBaseVertex() in immediate mode." alt="" coords="278,137,487,178"/>
+<area shape="rect" id="node5" href="main.tag$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="_mesa_debug" alt="" coords="597,5,699,32"/>
+<area shape="rect" id="node7" href="main.tag$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="556,56,740,83"/>
+<area shape="rect" id="node9" href="main.tag$api__validate_8c.html#a883007ffd253eaa092ac7175cf84f559" title="_mesa_validate_DrawRange\lElements" alt="" coords="553,107,743,149"/>
+<area shape="rect" id="node11" href="main.tag$errors_8c.html#abf6b2d27cc17bae887812e7012fc31f9" title="_mesa_warning" alt="" coords="591,173,705,200"/>
+<area shape="rect" id="node13" href="$vbo__exec__array_8c.html#ae35bef55d2899a667fc12a992ef7800a" title="Examine the array&#39;s data for NaNs, etc." alt="" coords="556,224,740,251"/>
+<area shape="rect" id="node19" href="$vbo__exec__array_8c.html#ac50340984fa5a006bb1647a12666b9e4" title="Map GL_ELEMENT_ARRAY_BUFFER and print contents." alt="" coords="537,367,759,393"/>
+<area shape="rect" id="node15" href="$vbo__exec__array_8c.html#a6b385aca7a311a2f4424fc96a2dce8fd" title="Check that element &#39;j&#39; of the array has reasonable data." alt="" coords="844,224,969,251"/>
+<area shape="rect" id="node17" href="$vbo__exec__array_8c.html#af1205f7654f0b3385135eb95ce67115b" title="Unmap the buffer object referenced by given array, if mapped." alt="" coords="838,173,975,200"/>
+<area shape="rect" id="node21" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="1312,391,1405,417"/>
+<area shape="rect" id="node23" href="$vbo_8h.html#ade9fa9f2a9f4afedf52280db72884959" title="Examine the enabled vertex arrays to set the exec&#45;&gt;array.inputs[] values." alt="" coords="848,468,965,495"/>
+<area shape="rect" id="node37" href="$vbo__exec__array_8c.html#ae4f0719822a43bb937b8416bf5daf316" title="All vertex buffers should be in an unmapped state when we&#39;re about to draw." alt="" coords="809,519,1005,545"/>
+<area shape="rect" id="node39" href="$vbo__exec__array_8c.html#ada2a59079132f4da61e2355929ca59fb" title="Handle a draw case that potentially has primitive restart enabled." alt="" coords="835,275,979,317"/>
+<area shape="rect" id="node51" href="main.tag$context_8c.html#a1534c85a80d793eaa3b893b891e0a35d" title="_mesa_flush" alt="" coords="859,341,955,368"/>
+<area shape="rect" id="node25" href="main.tag$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="1070,543,1213,569"/>
+<area shape="rect" id="node27" href="$vbo__exec__array_8c.html#a6231460e523ca7dab1db53af9252a736" title="Set the vbo&#45;&gt;exec&#45;&gt;inputs[] pointers to point to the enabled vertex arrays." alt="" coords="1054,593,1229,620"/>
+<area shape="rect" id="node35" href="$vbo__context_8h.html#a9b5d7d49acd805180833d1939d486688" title="This is called by glBegin, glDrawArrays and glDrawElements (and variations of those calls)..." alt="" coords="1077,441,1205,468"/>
+<area shape="rect" id="node30" href="$vbo__context_8h.html#aaf664a10bf7bc6ab5ffc7325c30b80d2" title="Return VP_x token to indicate whether we&#39;re running fixed&#45;function vertex transformation, an NV vertex program or ARB vertex program/shader." alt="" coords="1292,623,1425,649"/>
+<area shape="rect" id="node32" href="main.tag$state_8c.html#a5effa322de7d372e8ed298d8d3ca441d" title="_mesa_set_varying_vp\l_inputs" alt="" coords="1281,557,1437,598"/>
+<area shape="rect" id="node42" href="$vbo_8h.html#a1e9940dbca64de41ae9c116ff4e564a8" title="Handle primitive restart in software." alt="" coords="1058,284,1225,311"/>
+<area shape="rect" id="node44" href="main.tag$varray_8c.html#a79f982b5c961f5df7a849c3234676da6" title="_mesa_primitive_restart\l_index" alt="" coords="1278,218,1439,259"/>
+<area shape="rect" id="node46" href="$vbo__primitive__restart_8c.html#a8601068e0d45ec84857cf83eebee7ca0" title="Scan the elements array to find restart indexes." alt="" coords="1291,284,1426,311"/>
+<area shape="rect" id="node49" href="$vbo_8h.html#a2b210ac8168d440371a8dd6186444b83" title="vbo_sizeof_ib_type" alt="" coords="1291,335,1426,361"/>
+</map>

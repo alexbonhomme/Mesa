@@ -1,0 +1,21 @@
+<map id="emit_errors_unlinked" name="emit_errors_unlinked">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a939bd788b8a9f1a21c9f2ff0dd5b3aaa" title="_mesa_glsl_error" alt="" coords="198,107,319,133"/>
+<area shape="rect" id="node35" href="$ast__function_8cpp.html#a201de0e9a762b67e9b6d313add6c8cee" title="Generate a source prototype for a function signature." alt="" coords="371,157,485,184"/>
+<area shape="rect" id="node42" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="217,284,300,311"/>
+<area shape="rect" id="node5" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="368,107,488,133"/>
+<area shape="rect" id="node7" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="537,5,687,32"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="536,107,688,133"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="737,107,895,133"/>
+<area shape="rect" id="node29" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="565,157,659,184"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="945,107,1125,133"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="1174,132,1285,159"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="1333,81,1427,108"/>
+<area shape="rect" id="node26" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1201,183,1258,209"/>
+<area shape="rect" id="node19" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1338,132,1422,159"/>
+<area shape="rect" id="node21" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1475,183,1562,209"/>
+<area shape="rect" id="node23" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1480,132,1557,159"/>
+<area shape="rect" id="node31" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="1015,157,1055,184"/>
+<area shape="rect" id="node37" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="765,208,867,235"/>
+<area shape="rect" id="node45" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="381,309,475,336"/>
+<area shape="rect" id="node47" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="383,360,473,387"/>
+</map>

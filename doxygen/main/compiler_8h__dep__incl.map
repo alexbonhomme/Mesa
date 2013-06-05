@@ -1,0 +1,51 @@
+<map id="compiler.h" name="compiler.h">
+<area shape="rect" id="node3" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="2371,155,2447,181"/>
+<area shape="rect" id="node13" href="$api__loopback_8h.html" title="api_loopback.h" alt="" coords="2252,304,2361,331"/>
+<area shape="rect" id="node45" href="$texcompress__cpal_8c.html" title="texcompress_cpal.c" alt="" coords="3473,304,3612,331"/>
+<area shape="rect" id="node58" href="$core_8h.html" title="The public header of core mesa." alt="" coords="3391,304,3449,331"/>
+<area shape="rect" id="node90" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1677,80,1744,107"/>
+<area shape="rect" id="node96" href="$transformfeedback_8h.html" title="transformfeedback.h" alt="" coords="1472,229,1613,256"/>
+<area shape="rect" id="node103" href="$atifragshader_8h.html" title="atifragshader.h" alt="" coords="1638,229,1745,256"/>
+<area shape="rect" id="node108" href="$attrib_8h.html" title="attrib.h" alt="" coords="562,229,624,256"/>
+<area shape="rect" id="node114" href="$texgen_8h.html" title="texgen.h" alt="" coords="417,229,489,256"/>
+<area shape="rect" id="node119" href="$texobj_8h.html" title="Texture object management." alt="" coords="909,229,976,256"/>
+<area shape="rect" id="node126" href="$texstate_8h.html" title="Texture state management." alt="" coords="649,229,729,256"/>
+<area shape="rect" id="node131" href="$fbobject_8h.html" title="fbobject.h" alt="" coords="1217,229,1295,256"/>
+<area shape="rect" id="node138" href="$colortab_8h.html" title="colortab.h" alt="" coords="86,155,164,181"/>
+<area shape="rect" id="node141" href="$pixel_8h.html" title="Pixel operations." alt="" coords="1079,304,1139,331"/>
+<area shape="rect" id="node145" href="$rastpos_8h.html" title="Raster position operations." alt="" coords="979,304,1055,331"/>
+<area shape="rect" id="node149" href="$remap_8h.html" title="remap.h" alt="" coords="3663,155,3732,181"/>
+<area shape="rect" id="node152" href="$shaderobj_8h.html" title="shaderobj.h" alt="" coords="3757,155,3845,181"/>
+<area shape="rect" id="node155" href="$texcompress__s3tc_8h.html" title="texcompress_s3tc.h" alt="" coords="3403,155,3543,181"/>
+<area shape="rect" id="node158" href="$vtxfmt_8h.html" title="vtxfmt.h" alt="" coords="3567,155,3637,181"/>
+<area shape="rect" id="node161" href="$convolve_8h.html" title="convolve.h" alt="" coords="345,80,431,107"/>
+<area shape="rect" id="node165" href="$cpuinfo_8c.html" title="cpuinfo.c" alt="" coords="3605,80,3680,107"/>
+<area shape="rect" id="node167" href="$drawpix_8h.html" title="drawpix.h" alt="" coords="754,229,832,256"/>
+<area shape="rect" id="node171" href="$hash__table_8h.html" title="hash_table.h" alt="" coords="1573,155,1669,181"/>
+<area shape="rect" id="node174" href="$formatquery_8h.html" title="formatquery.h" alt="" coords="485,80,587,107"/>
+<area shape="rect" id="node177" href="$histogram_8h.html" title="Histogram." alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node180" href="$mm_8c.html" title="mm.c" alt="" coords="3705,80,3759,107"/>
+<area shape="rect" id="node5" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="2530,229,2605,256"/>
+<area shape="rect" id="node7" href="$accum_8c.html" title="accum.c" alt="" coords="2744,304,2816,331"/>
+<area shape="rect" id="node9" href="$api__arrayelt_8c.html" title="api_arrayelt.c" alt="" coords="2619,304,2719,331"/>
+<area shape="rect" id="node11" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="779,379,864,405"/>
+<area shape="rect" id="node16" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="2339,379,2415,405"/>
+<area shape="rect" id="node18" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="1989,379,2045,405"/>
+<area shape="rect" id="node20" href="$es1__conversion_8c.html" title="es1_conversion.c" alt="" coords="1841,379,1964,405"/>
+<area shape="rect" id="node22" href="$api__validate_8c.html" title="api_validate.c" alt="" coords="2023,304,2125,331"/>
+<area shape="rect" id="node24" href="$arbprogram_8c.html" title="ARB_vertex/fragment_program state management functions." alt="" coords="3217,304,3316,331"/>
+<area shape="rect" id="node26" href="$arrayobj_8c.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="2841,304,2919,331"/>
+<area shape="rect" id="node28" href="$atifragshader_8c.html" title="atifragshader.c" alt="" coords="2487,304,2595,331"/>
+<area shape="rect" id="node30" href="$attrib_8c.html" title="attrib.c" alt="" coords="790,304,852,331"/>
+<area shape="rect" id="node32" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="1420,304,1503,331"/>
+<area shape="rect" id="node35" href="$depth_8c.html" title="depth.c" alt="" coords="2943,304,3008,331"/>
+<area shape="rect" id="node38" href="$drawpix_8c.html" title="drawpix.c" alt="" coords="1317,304,1395,331"/>
+<area shape="rect" id="node40" href="$errors_8c.html" title="Mesa debugging and error handling functions." alt="" coords="1831,304,1897,331"/>
+<area shape="rect" id="node43" href="$eval_8c.html" title="eval.c" alt="" coords="3135,304,3192,331"/>
+<area shape="rect" id="node48" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="2842,229,2917,256"/>
+<area shape="rect" id="node70" href="$bitset_8h.html" title="Bitset of arbitrary size definitions." alt="" coords="2075,229,2140,256"/>
+<area shape="rect" id="node75" href="$debug_8c.html" title="debug.c" alt="" coords="646,304,713,331"/>
+<area shape="rect" id="node80" href="$drawtex_8c.html" title="drawtex.c" alt="" coords="2165,229,2243,256"/>
+<area shape="rect" id="node82" href="$enums_8c.html" title="enums.c" alt="" coords="2268,229,2340,256"/>
+<area shape="rect" id="node87" href="$execmem_8c.html" title="Functions for allocating executable memory." alt="" coords="2364,229,2455,256"/>
+</map>

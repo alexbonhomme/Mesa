@@ -1,0 +1,12 @@
+<map id="_mesa_dump_textures" name="_mesa_dump_textures">
+<area shape="rect" id="node3" href="$hash_8c.html#ac1bdad8d2699172748a47f240ab357e2" title="Walk over all entries in a hash table, calling callback function for each." alt="" coords="209,5,338,32"/>
+<area shape="rect" id="node5" href="$debug_8c.html#a4a01b17fadfbea475717cdb6a383263f" title="dump_texture_cb" alt="" coords="212,56,335,83"/>
+<area shape="rect" id="node7" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="414,31,461,57"/>
+<area shape="rect" id="node9" href="$debug_8c.html#a516711563c7cc13a07269f662a66af77" title="dump_texture" alt="" coords="387,81,488,108"/>
+<area shape="rect" id="node11" href="$debug_8c.html#ad06f2cb2e050150dd4720f02ec56d47e" title="tex_target_name" alt="" coords="562,31,681,57"/>
+<area shape="rect" id="node13" href="$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="Return string name of format (for debugging)" alt="" coords="537,81,706,108"/>
+<area shape="rect" id="node17" href="$debug_8c.html#a6bbae33a9309a1e584991d75b6de4fc3" title="Write a texture image to a ppm file." alt="" coords="552,132,691,159"/>
+<area shape="rect" id="node15" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="755,81,914,108"/>
+<area shape="rect" id="node19" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="779,132,890,159"/>
+<area shape="rect" id="node21" href="$debug_8c.html#a5b5055e3e22beceabe9f0fc4d960c0f6" title="write_ppm" alt="" coords="793,183,876,209"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="shared.c" name="shared.c">
+<area shape="rect" id="node3" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="669,80,744,107"/>
+<area shape="rect" id="node39" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1550,229,1625,256"/>
+<area shape="rect" id="node57" href="$hash_8h.html" title="Generic hash table." alt="" coords="5,229,67,256"/>
+<area shape="rect" id="node60" href="$hash__table_8h.html" title="hash_table.h" alt="" coords="1259,80,1355,107"/>
+<area shape="rect" id="node67" href="$atifragshader_8h.html" title="atifragshader.h" alt="" coords="62,155,169,181"/>
+<area shape="rect" id="node71" href="$bufferobj_8h.html" title="bufferobj.h" alt="" coords="1249,155,1332,181"/>
+<area shape="rect" id="node74" href="$shared_8h.html" title="shared.h" alt="" coords="1008,80,1080,107"/>
+<area shape="rect" id="node78" href="$dlist_8h.html" title="Display lists management." alt="" coords="1558,155,1615,181"/>
+<area shape="rect" id="node81" href="$samplerobj_8h.html" title="samplerobj.h" alt="" coords="1379,80,1475,107"/>
+<area shape="rect" id="node83" href="$set_8h.html" title="set.h" alt="" coords="1499,80,1549,107"/>
+<area shape="rect" id="node87" href="$shaderobj_8h.html" title="shaderobj.h" alt="" coords="1135,155,1224,181"/>
+<area shape="rect" id="node94" href="$syncobj_8h.html" title="Sync object management." alt="" coords="1022,229,1100,256"/>
+<area shape="rect" id="node5" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="699,229,781,256"/>
+<area shape="rect" id="node29" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1237,379,1320,405"/>
+<area shape="rect" id="node35" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="708,155,775,181"/>
+<area shape="rect" id="node42" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1418,304,1517,331"/>
+<area shape="rect" id="node46" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1657,304,1777,331"/>
+<area shape="rect" id="node48" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1802,304,1928,331"/>
+<area shape="rect" id="node50" href="$formats_8h.html" title="main/formats.h" alt="" coords="1663,379,1772,405"/>
+<area shape="rect" id="node53" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1953,304,1999,331"/>
+</map>

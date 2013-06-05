@@ -1,0 +1,26 @@
+<map id="s_triangle.c" name="s_triangle.c">
+<area shape="rect" id="node3" href="main.tag$glheader_8h.html" title="main/glheader.h" alt="" coords="207,528,321,555"/>
+<area shape="rect" id="node5" href="main.tag$context_8h.html" title="main/context.h" alt="" coords="102,155,209,181"/>
+<area shape="rect" id="node7" href="main.tag$imports_8h.html" title="imports.h" alt="" coords="126,229,201,256"/>
+<area shape="rect" id="node16" href="main.tag$mtypes_8h.html" title="mtypes.h" alt="" coords="314,379,389,405"/>
+<area shape="rect" id="node29" href="main.tag$colormac_8h.html" title="main/colormac.h" alt="" coords="337,80,455,107"/>
+<area shape="rect" id="node32" href="main.tag$macros_8h.html" title="macros.h" alt="" coords="438,155,513,181"/>
+<area shape="rect" id="node39" href="main.tag$state_8h.html" title="main/state.h" alt="" coords="467,304,561,331"/>
+<area shape="rect" id="node42" href="main.tag$samplerobj_8h.html" title="main/samplerobj.h" alt="" coords="581,80,709,107"/>
+<area shape="rect" id="node46" href="$s__aatriangle_8h.html" title="s_aatriangle.h" alt="" coords="934,80,1036,107"/>
+<area shape="rect" id="node48" href="$s__context_8h.html" title="Software rasterization context and private types." alt="" coords="1061,80,1152,107"/>
+<area shape="rect" id="node66" href="$s__span_8h.html" title="s_span.h" alt="" coords="1127,229,1201,256"/>
+<area shape="rect" id="node74" href="$s__feedback_8h.html" title="s_feedback.h" alt="" coords="889,229,988,256"/>
+<area shape="rect" id="node78" href="$s__triangle_8h.html" title="s_triangle.h" alt="" coords="1013,229,1101,256"/>
+<area shape="rect" id="node81" href="$s__tritemp_8h.html" title="s_tritemp.h" alt="" coords="1329,80,1415,107"/>
+<area shape="rect" id="node9" href="main.tag$compiler_8h.html" title="compiler.h" alt="" coords="93,379,176,405"/>
+<area shape="rect" id="node12" href="main.tag$errors_8h.html" title="errors.h" alt="" coords="144,304,211,331"/>
+<area shape="rect" id="node19" href="main.tag$config_8h.html" title="main/config.h" alt="" coords="658,453,757,480"/>
+<area shape="rect" id="node21" href="main.tag$simple__list_8h.html" title="main/simple_list.h" alt="" coords="302,453,428,480"/>
+<area shape="rect" id="node23" href="main.tag$formats_8h.html" title="main/formats.h" alt="" coords="524,453,633,480"/>
+<area shape="rect" id="node25" href="main.tag$dd_8h.html" title="dd.h" alt="" coords="453,453,499,480"/>
+<area shape="rect" id="node52" href="main.tag$texcompress_8h.html" title="main/texcompress.h" alt="" coords="634,379,773,405"/>
+<area shape="rect" id="node58" href="$swrast_8h.html" title="Public interface to the software rasterization functions." alt="" coords="903,304,975,331"/>
+<area shape="rect" id="node64" href="$s__fragprog_8h.html" title="s_fragprog.h" alt="" coords="1006,155,1100,181"/>
+<area shape="rect" id="node61" href="$s__chan_8h.html" title="swrast/s_chan.h" alt="" coords="879,379,997,405"/>
+</map>

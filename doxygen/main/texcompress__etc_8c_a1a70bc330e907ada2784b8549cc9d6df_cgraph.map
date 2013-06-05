@@ -1,0 +1,41 @@
+<map id="_mesa_get_etc_fetch_func" name="_mesa_get_etc_fetch_func">
+<area shape="rect" id="node3" href="$texcompress__etc_8c.html#aa84c1541e3cbb94c9f70fbfcb559dfc9" title="fetch_etc1_rgb8" alt="" coords="521,132,636,159"/>
+<area shape="rect" id="node19" href="$texcompress__etc_8c.html#a2fcdd679ed4c992553defd68982eb63d" title="fetch_etc2_r11_eac" alt="" coords="261,729,397,756"/>
+<area shape="rect" id="node31" href="$texcompress__etc_8c.html#a14ac82164ce99cd3be6a5127090c6ac3" title="fetch_etc2_rg11_eac" alt="" coords="258,780,401,807"/>
+<area shape="rect" id="node35" href="$texcompress__etc_8c.html#a400403148e49c04692fc935544589490" title="fetch_etc2_rgb8" alt="" coords="521,344,636,371"/>
+<area shape="rect" id="node62" href="$texcompress__etc_8c.html#ac91d26316c70d6a0c1a54c39dad6fedc" title="fetch_etc2_rgb8_punchthrough\l_alpha1" alt="" coords="479,278,679,319"/>
+<area shape="rect" id="node66" href="$texcompress__etc_8c.html#aa8ed8d890d6f01939abfd5d492da5f92" title="fetch_etc2_rgba8_eac" alt="" coords="254,568,405,595"/>
+<area shape="rect" id="node79" href="$texcompress__etc_8c.html#a5e5f7db6cbc6d4ec9fba88103f5c7af7" title="fetch_etc2_signed_r11_eac" alt="" coords="239,624,420,651"/>
+<area shape="rect" id="node87" href="$texcompress__etc_8c.html#a1abdbc5723fd07447f2da2040bf55232" title="fetch_etc2_signed_rg11_eac" alt="" coords="235,675,423,701"/>
+<area shape="rect" id="node91" href="$texcompress__etc_8c.html#a377458bb168827a350ec8d68135a208b" title="fetch_etc2_srgb8" alt="" coords="517,461,640,488"/>
+<area shape="rect" id="node97" href="$texcompress__etc_8c.html#a7131fca77bc96a9b8fb7f00f01c60482" title="fetch_etc2_srgb8_alpha8_eac" alt="" coords="232,517,427,544"/>
+<area shape="rect" id="node102" href="$texcompress__etc_8c.html#a0121a43b44b83f9de87513ddea9e5988" title="fetch_etc2_srgb8_punchthrough\l_alpha1" alt="" coords="475,395,682,437"/>
+<area shape="rect" id="node5" href="$texcompress__etc__tmp_8h.html#a399446f9bed4a85f2cd9e3a912e8010a" title="etc1_parse_block" alt="" coords="754,132,878,159"/>
+<area shape="rect" id="node15" href="$texcompress__etc__tmp_8h.html#a23f52bcf2a0fef2396f0d517195ba393" title="etc1_fetch_texel" alt="" coords="757,31,875,57"/>
+<area shape="rect" id="node7" href="$texcompress__etc__tmp_8h.html#af5733f43a0ad0c51ba31853607d5909e" title="etc1_base_color_diff_hi" alt="" coords="959,157,1118,184"/>
+<area shape="rect" id="node9" href="$texcompress__etc__tmp_8h.html#aaf24bc4d410f236db5cdd5e1662df240" title="etc1_base_color_diff_lo" alt="" coords="959,208,1118,235"/>
+<area shape="rect" id="node11" href="$texcompress__etc__tmp_8h.html#aa40caad577a097c065b526fcedb75741" title="etc1_base_color_ind_hi" alt="" coords="959,56,1118,83"/>
+<area shape="rect" id="node13" href="$texcompress__etc__tmp_8h.html#af9626af0112c2277f019f0fc78ef279e" title="etc1_base_color_ind_lo" alt="" coords="959,107,1118,133"/>
+<area shape="rect" id="node17" href="$texcompress__etc__tmp_8h.html#ade74ca5c6725e998d1ffccc48e25deb5" title="etc1_clamp" alt="" coords="994,5,1083,32"/>
+<area shape="rect" id="node21" href="$texcompress__etc_8c.html#a1069ab5376d93a873f91569878853d81" title="etc2_r11_parse_block" alt="" coords="504,731,653,757"/>
+<area shape="rect" id="node25" href="$texcompress__etc_8c.html#a17198807d4f8a31d5e4c952826eb4e80" title="etc2_r11_fetch_texel" alt="" coords="507,781,650,808"/>
+<area shape="rect" id="node23" href="$texcompress__etc_8c.html#abe57ffd64d8594f8cb367ed33bd42096" title="etc2_alpha8_parse_block" alt="" coords="731,563,901,589"/>
+<area shape="rect" id="node27" href="$texcompress__etc_8c.html#afd5fa403fb435c2879304ee9a72ba4e4" title="etc2_get_pixel_index" alt="" coords="967,664,1111,691"/>
+<area shape="rect" id="node29" href="$texcompress__etc_8c.html#ac811f0813e6e8fcdd1aedaa0d91dca0c" title="etc2_clamp2" alt="" coords="768,765,864,792"/>
+<area shape="rect" id="node37" href="$texcompress__etc_8c.html#a6a22da4a1983275a4b4604794229bbee" title="etc2_rgb8_parse_block" alt="" coords="738,356,894,383"/>
+<area shape="rect" id="node59" href="$texcompress__etc_8c.html#a17a126fe5a3dcf201ca0a028e127deda" title="etc2_rgb8_fetch_texel" alt="" coords="741,407,891,433"/>
+<area shape="rect" id="node41" href="$texcompress__etc_8c.html#a14455c8c6b5e7cf841a1bfdc3ef7a3df" title="etc2_base_color1_t_mode" alt="" coords="951,360,1126,387"/>
+<area shape="rect" id="node43" href="$texcompress__etc_8c.html#a7a54eb7f6e0ebe5bbd03516cecbf3790" title="etc2_base_color2_t_mode" alt="" coords="951,411,1126,437"/>
+<area shape="rect" id="node45" href="$texcompress__etc_8c.html#a8760b43eeb3dac9ea9480dc14dbbcb2a" title="etc2_clamp" alt="" coords="994,613,1083,640"/>
+<area shape="rect" id="node47" href="$texcompress__etc_8c.html#aa5ba996bff0606c20ffb05fa0391d670" title="etc2_base_color1_h_mode" alt="" coords="950,461,1127,488"/>
+<area shape="rect" id="node49" href="$texcompress__etc_8c.html#a5d4ee446366b47b4d745cb72ec970f68" title="etc2_base_color2_h_mode" alt="" coords="950,512,1127,539"/>
+<area shape="rect" id="node51" href="$texcompress__etc_8c.html#a41bb67d117b68261e1047b67159c6dc6" title="etc2_base_color_o_planar" alt="" coords="952,563,1125,589"/>
+<area shape="rect" id="node53" href="$texcompress__etc_8c.html#aa0048428836dd4b0a6fc89fd53bb59fa" title="etc2_base_color_h_planar" alt="" coords="952,259,1125,285"/>
+<area shape="rect" id="node55" href="$texcompress__etc_8c.html#abe1d20428e9456cac68decd5eddf9aa1" title="etc2_base_color_v_planar" alt="" coords="952,309,1125,336"/>
+<area shape="rect" id="node68" href="$texcompress__etc_8c.html#a5076bf09a9b10e632c9bc97315a4a62c" title="etc2_rgba8_parse_block" alt="" coords="497,563,660,589"/>
+<area shape="rect" id="node72" href="$texcompress__etc_8c.html#a4bb291815e0a43e6d368d72b35b40539" title="etc2_rgba8_fetch_texel" alt="" coords="500,613,657,640"/>
+<area shape="rect" id="node75" href="$texcompress__etc_8c.html#a29871576344add23bf6a41da97d24716" title="etc2_alpha8_fetch_texel" alt="" coords="735,613,897,640"/>
+<area shape="rect" id="node82" href="$texcompress__etc_8c.html#a0c45ba7252051cc2828a61143673d04d" title="etc2_signed_r11_fetch\l_texel" alt="" coords="502,665,655,706"/>
+<area shape="rect" id="node85" href="$texcompress__etc_8c.html#a4fec87b53a1ec2611c0bfd871cd6319d" title="etc2_clamp3" alt="" coords="768,715,864,741"/>
+<area shape="rect" id="node95" href="$format__unpack_8c.html#a54ae37ee37674d78262ed023dbf96358" title="Convert an 8&#45;bit sRGB value from non&#45;linear space to a linear RGB value in [0, 1]." alt="" coords="747,458,885,499"/>
+</map>

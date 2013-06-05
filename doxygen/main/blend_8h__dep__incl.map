@@ -1,0 +1,13 @@
+<map id="blend.h" name="blend.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$attrib_8c.html" title="attrib.c" alt="" coords="115,80,177,107"/>
+<area shape="rect" id="node7" href="$blend_8c.html" title="Blending operations." alt="" coords="203,80,267,107"/>
+<area shape="rect" id="node9" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="291,80,367,107"/>
+<area shape="rect" id="node11" href="$es1__conversion_8c.html" title="es1_conversion.c" alt="" coords="391,80,515,107"/>
+<area shape="rect" id="node13" href="$framebuffer_8c.html" title="framebuffer.c" alt="" coords="540,80,639,107"/>
+<area shape="rect" id="node15" href="$get_8c.html" title="get.c" alt="" coords="663,80,713,107"/>
+<area shape="rect" id="node17" href="$readpix_8c.html" title="readpix.c" alt="" coords="737,80,812,107"/>
+<area shape="rect" id="node19" href="$state_8c.html" title="State management." alt="" coords="837,80,899,107"/>
+<area shape="rect" id="node21" href="$texenv_8c.html" title="glTexEnv&#45;related functions" alt="" coords="924,80,996,107"/>
+<area shape="rect" id="node23" href="$texparam_8c.html" title="glTexParameter&#45;related functions" alt="" coords="1021,80,1107,107"/>
+</map>

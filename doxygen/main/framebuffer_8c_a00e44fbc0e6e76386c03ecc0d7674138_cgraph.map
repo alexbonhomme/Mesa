@@ -1,0 +1,14 @@
+<map id="_mesa_create_framebuffer" name="_mesa_create_framebuffer">
+<area shape="rect" id="node3" href="$framebuffer_8c.html#a090987c4c0d8051b71e6141c326cfe4f" title="Initialize a gl_framebuffer object." alt="" coords="233,49,399,90"/>
+<area shape="rect" id="node5" href="$framebuffer_8c.html#a932a2991e40b7cdc998642920fab754e" title="Deallocate buffer and everything attached to it." alt="" coords="448,31,632,57"/>
+<area shape="rect" id="node27" href="$framebuffer_8c.html#ac3226699648201dc1e151e9562102131" title="Functions for allocating/managing framebuffers and renderbuffers." alt="" coords="469,81,611,108"/>
+<area shape="rect" id="node7" href="$framebuffer_8c.html#a262c9ee1c788feb5ed90cbb4b158e6b6" title="Free all the data hanging off the given gl_framebuffer, but don&#39;t free the gl_framebuffer object itse..." alt="" coords="680,31,875,57"/>
+<area shape="rect" id="node9" href="$renderbuffer_8h.html#af3b5b421d4be4b46b08d366247030bc8" title="_mesa_reference_renderbuffer" alt="" coords="923,5,1122,32"/>
+<area shape="rect" id="node13" href="$texobj_8h.html#a8a6496e44427aa05c44fe1a5e2287059" title="_mesa_reference_texobj" alt="" coords="941,56,1105,83"/>
+<area shape="rect" id="node11" href="$renderbuffer_8c.html#a60e1a31525785fbd87b23d75ce6c23f7" title="Set *ptr to point to rb." alt="" coords="1171,5,1376,32"/>
+<area shape="rect" id="node15" href="$texobj_8c.html#a8ab948cb414b721b2ee44e4ca97db5aa" title="Reference (or unreference) a texture object." alt="" coords="1188,56,1359,83"/>
+<area shape="rect" id="node17" href="$texobj_8c.html#aeec6f9d2a6e060dd2ce76c5b0da941c1" title="Check if the given texture object is valid by examining its Target field." alt="" coords="1424,5,1563,32"/>
+<area shape="rect" id="node19" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1611,56,1725,83"/>
+<area shape="rect" id="node23" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1810,107,1857,133"/>
+<area shape="rect" id="node21" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1774,56,1893,83"/>
+</map>

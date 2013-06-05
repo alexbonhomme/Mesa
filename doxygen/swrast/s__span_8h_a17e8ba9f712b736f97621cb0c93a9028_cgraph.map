@@ -1,0 +1,6 @@
+<map id="_swrast_span_default_attribs" name="_swrast_span_default_attribs">
+<area shape="rect" id="node3" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="205,5,360,46"/>
+<area shape="rect" id="node5" href="$s__fog_8c.html#a444a092f8aac9293899618fc0a9d5361" title="Used to convert current raster distance to a fog factor in [0,1]." alt="" coords="203,71,362,97"/>
+<area shape="rect" id="node9" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="207,121,358,148"/>
+<area shape="rect" id="node7" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="411,71,525,97"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="ast_switch_body" name="ast_switch_body">
+<area shape="rect" id="node2" href="$classast__node.html" title="Base class of all abstract syntax tree nodes." alt="" coords="9,128,84,155"/>
+<area shape="rect" id="node7" href="$classast__case__statement__list.html" title="ast_case_statement_list" alt="" coords="63,219,227,245"/>
+<area shape="rect" id="node4" href="$structexec__node.html" title="exec_node" alt="" coords="59,7,144,33"/>
+<area shape="rect" id="node10" href="$structexec__list.html" title="exec_list" alt="" coords="108,128,183,155"/>
+</map>

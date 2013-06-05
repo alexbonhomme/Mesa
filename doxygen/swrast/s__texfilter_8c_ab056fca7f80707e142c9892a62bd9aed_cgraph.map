@@ -1,0 +1,20 @@
+<map id="sample_lambda_3d" name="sample_lambda_3d">
+<area shape="rect" id="node3" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="845,143,960,170"/>
+<area shape="rect" id="node5" href="$s__texfilter_8c.html#a1c06e01dc093d56e83a074078fdfbeea" title="The lambda[] array values are always monotonic." alt="" coords="195,455,373,482"/>
+<area shape="rect" id="node7" href="$s__texfilter_8c.html#a06d1c93f4cbe8c979bb9b678b6f9847d" title="Return the texture sample for coordinate (s,t,r) using GL_LINEAR filter." alt="" coords="441,143,564,170"/>
+<area shape="rect" id="node21" href="$s__texfilter_8c.html#a2fa135934748618f44c172a36917e84e" title="sample_3d_linear_mipmap\l_linear" alt="" coords="196,143,372,184"/>
+<area shape="rect" id="node28" href="$s__texfilter_8c.html#ab7beaa698e2b7fb8c067d048d1a0d859" title="sample_3d_linear_mipmap\l_nearest" alt="" coords="196,208,372,249"/>
+<area shape="rect" id="node33" href="$s__texfilter_8c.html#aab6ce6b56cd66e3818d320338ec1b4b7" title="Return the texture sample for coordinate (s,t,r) using GL_NEAREST filter." alt="" coords="435,346,570,373"/>
+<area shape="rect" id="node43" href="$s__texfilter_8c.html#a12b0e09693064f63d83fda849e00f3f3" title="sample_3d_nearest_mipmap\l_linear" alt="" coords="190,273,378,315"/>
+<area shape="rect" id="node48" href="$s__texfilter_8c.html#a4160661e4194388b884919296decfc14" title="sample_3d_nearest_mipmap\l_nearest" alt="" coords="190,339,378,380"/>
+<area shape="rect" id="node9" href="$s__texfilter_8c.html#aaee001ef378582d01d8e2f363c908f05" title="When we sample the border color, it must be interpreted according to the base texture format..." alt="" coords="643,245,762,271"/>
+<area shape="rect" id="node11" href="$s__texfilter_8c.html#a84830e2f4671d7d7535206e9339141fa" title="Do trilinear interpolation of colors." alt="" coords="655,93,751,119"/>
+<area shape="rect" id="node15" href="$s__texfilter_8c.html#aa022549dccc19395103fc5c063b6ca74" title="Used to compute texel locations for linear sampling." alt="" coords="629,143,776,170"/>
+<area shape="rect" id="node18" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="827,241,978,283"/>
+<area shape="rect" id="node13" href="$s__texfilter_8c.html#a6803e994162fe597dbb14ef8d98eb6aa" title="Do 3D/trilinear interpolation of float values." alt="" coords="871,93,935,119"/>
+<area shape="rect" id="node23" href="$s__texfilter_8c.html#a130fec6eff973cc98bdc0b9ce9e48f08" title="Do linear interpolation of colors." alt="" coords="465,194,540,221"/>
+<area shape="rect" id="node25" href="$s__texfilter_8c.html#a84747cb7b8f613da9556ce298aaab991" title="For linear interpolation between mipmap levels N and N+1, this function computes N." alt="" coords="433,245,573,271"/>
+<area shape="rect" id="node30" href="$s__texfilter_8c.html#a9f4c9a7708d060fda656652873d38e32" title="Compute the nearest mipmap level to take texels from." alt="" coords="427,295,579,322"/>
+<area shape="rect" id="node36" href="$s__texfilter_8c.html#a39698b8d3f582dbd637c1ba529fbf808" title="Used to compute texel location for nearest sampling." alt="" coords="627,295,779,322"/>
+<area shape="rect" id="node41" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="679,346,726,373"/>
+</map>

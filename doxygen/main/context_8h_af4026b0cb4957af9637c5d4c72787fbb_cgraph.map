@@ -1,0 +1,51 @@
+<map id="_mesa_share_state" name="_mesa_share_state">
+<area shape="rect" id="node3" href="$shared_8c.html#ae1dcf2de0c481044a72935faff44c9dd" title="gl_shared_state objects are ref counted." alt="" coords="189,661,357,702"/>
+<area shape="rect" id="node84" href="$context_8c.html#aef33856aae0e692c8ef69a97a7930c36" title="Update default objects in a GL context with respect to shared state." alt="" coords="195,924,351,951"/>
+<area shape="rect" id="node5" href="$shared_8c.html#ac906ff027194321420cc05c23d8dd4de" title="Deallocate a shared state object and all children structures." alt="" coords="422,469,549,496"/>
+<area shape="rect" id="node7" href="$hash_8c.html#aad938bbfe74727edea6339fb405e9238" title="Delete all entries in a hash table, but don&#39;t delete the table itself." alt="" coords="625,241,777,268"/>
+<area shape="rect" id="node11" href="$shared_8c.html#ae05cdedd123e8f1d9be0dce11f0d5495" title="Callback for deleting a display list." alt="" coords="630,292,773,319"/>
+<area shape="rect" id="node19" href="$hash_8c.html#a18575aef4780001ea3ef0b7510015dc0" title="Delete a hash table." alt="" coords="617,393,786,420"/>
+<area shape="rect" id="node33" href="$hash_8c.html#ac1bdad8d2699172748a47f240ab357e2" title="Walk over all entries in a hash table, calling callback function for each." alt="" coords="637,343,766,369"/>
+<area shape="rect" id="node35" href="$shared_8c.html#a1b8fb56efe3102085048fb1e8c6d07cc" title="Callback for freeing shader program data." alt="" coords="629,647,773,689"/>
+<area shape="rect" id="node43" href="$shared_8c.html#ac580dddd3437846905a41a260c452492" title="Callback for deleting shader and shader programs objects." alt="" coords="639,444,763,471"/>
+<area shape="rect" id="node45" href="$shared_8c.html#aeb1de2a9df082fb98477a0c3ce4e9d9e" title="Callback for deleting a program object." alt="" coords="635,495,767,521"/>
+<area shape="rect" id="node47" href="$shared_8c.html#a2c01fd6f687bd360d560e205ab7921df" title="Callback for deleting an ATI fragment shader object." alt="" coords="628,596,775,623"/>
+<area shape="rect" id="node49" href="$atifragshader_8c.html#ab3da429ac93134152a7b9dfffa9c1518" title="Delete the given ati fragment shader." alt="" coords="858,563,1041,605"/>
+<area shape="rect" id="node52" href="$shared_8c.html#a5efa1ff2a9414e058ae6192234ade4a4" title="Callback for deleting a buffer object." alt="" coords="634,815,769,841"/>
+<area shape="rect" id="node56" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="868,807,1031,849"/>
+<area shape="rect" id="node61" href="$shared_8c.html#a7ca069ee79806d641ea7733b6b034205" title="Callback for deleting a framebuffer object." alt="" coords="626,713,777,740"/>
+<area shape="rect" id="node63" href="$shared_8c.html#aafc88d35b9d2124474e24253ba6089bb" title="Callback for deleting a renderbuffer object." alt="" coords="624,764,779,791"/>
+<area shape="rect" id="node66" href="$syncobj_8c.html#a9355cb976cd22f901a4bd58e4918ebad" title="_mesa_unref_sync_object" alt="" coords="614,89,789,116"/>
+<area shape="rect" id="node76" href="$set_8c.html#a5144bca287177f249c953f7b5edffa29" title="Frees the given set." alt="" coords="633,39,769,65"/>
+<area shape="rect" id="node78" href="$shared_8c.html#a89c5e7f6c5652cc53f2e97748d88f130" title="Callback for deleting a sampler object." alt="" coords="615,140,788,167"/>
+<area shape="rect" id="node82" href="$shared_8c.html#abed19f84af20181e7000f4c0efdcb7c7" title="Callback for deleting a texture object." alt="" coords="639,191,764,217"/>
+<area shape="rect" id="node9" href="$hash__table_8c.html#ab0f18848f5606303ab91b2b1ee762ecd" title="This function deletes the given hash table entry." alt="" coords="859,241,1040,268"/>
+<area shape="rect" id="node13" href="$dlist_8c.html#ab319f7fd55d653655c84a2ec016bf806" title="Delete the named display list, but don&#39;t remove from hash table." alt="" coords="886,292,1013,319"/>
+<area shape="rect" id="node15" href="$dlist_8c.html#afa78c9111d15aa8657992199431145e1" title="Is the given opcode an extension code?" alt="" coords="1141,317,1248,344"/>
+<area shape="rect" id="node17" href="$dlist_8c.html#a746b12c8d54a8444f957a7839fdc33d4" title="Destroy an extended opcode instruction." alt="" coords="1125,267,1264,293"/>
+<area shape="rect" id="node21" href="$hash__table_8c.html#ad229f21049f68d0323326f041a5cc40c" title="This function is an iterator over the hash table." alt="" coords="868,407,1031,449"/>
+<area shape="rect" id="node25" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1328,899,1443,925"/>
+<area shape="rect" id="node31" href="$hash__table_8c.html#a9d02b69b66dc4fbafaab6c6a5d861452" title="Frees the given hash table." alt="" coords="859,356,1040,383"/>
+<area shape="rect" id="node23" href="$hash__table_8c.html#a091be61d8da42898d8ac1683b60d6879" title="entry_is_present" alt="" coords="1135,415,1254,441"/>
+<area shape="rect" id="node27" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1527,937,1574,964"/>
+<area shape="rect" id="node29" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1491,861,1610,888"/>
+<area shape="rect" id="node37" href="$shaderobj_8c.html#a2c10945e5d4ea2ed9301079757f3ddda" title="Free all the data that hangs off a shader program object, but not the object itself." alt="" coords="838,655,1061,681"/>
+<area shape="rect" id="node39" href="$shaderobj_8c.html#a7eaaa1eb0be0c513bfb733335213f333" title="Clear (free) the shader program state that gets produced by linking." alt="" coords="1123,677,1266,718"/>
+<area shape="rect" id="node41" href="$shaderobj_8c.html#af6990c3b5263d3325e5db2882258d3e5" title="Set ptr to point to sh." alt="" coords="1111,625,1279,652"/>
+<area shape="rect" id="node54" href="$bufferobj_8h.html#a4e7902cd5fe928214b14ba8bfea23fa5" title="Is the given buffer object currently mapped?" alt="" coords="864,756,1035,783"/>
+<area shape="rect" id="node58" href="$bufferobj_8c.html#a7bf958a4212f187195e01a949aa400c0" title="Set ptr to bufObj w/ reference counting." alt="" coords="1113,807,1276,849"/>
+<area shape="rect" id="node68" href="$set_8c.html#a8068be9d424969b8b7599382c9627b0b" title="Finds a set entry with the given key and hash of that key." alt="" coords="883,107,1015,133"/>
+<area shape="rect" id="node72" href="$hash__table_8h.html#a04635d634590af3029afc0bbf00832f0" title="_mesa_hash_pointer" alt="" coords="878,5,1021,32"/>
+<area shape="rect" id="node74" href="$set_8c.html#a41ff91dd681ccffa20674bd2dc007d33" title="This function deletes the given hash table entry." alt="" coords="881,56,1017,83"/>
+<area shape="rect" id="node70" href="$set_8c.html#a73b0aee0f56ab8ad543195b6f28fcd06" title="entry_is_free" alt="" coords="1146,107,1243,133"/>
+<area shape="rect" id="node80" href="$samplerobj_8h.html#ac8ced71742bbedefe926819e9f441d74" title="_mesa_reference_sampler\l_object" alt="" coords="862,158,1037,199"/>
+<area shape="rect" id="node86" href="$bufferobj_8c.html#ab337f2eecb21e18b59b9d3c814b8219f" title="Update the default buffer objects in the given context to reference those specified in the shared sta..." alt="" coords="405,917,565,958"/>
+<area shape="rect" id="node101" href="$texstate_8c.html#abb21052cf962b7e083f972a0ed480a9f" title="Update the default texture objects in the given context to reference those specified in the shared st..." alt="" coords="409,1003,562,1045"/>
+<area shape="rect" id="node88" href="$bufferobj_8c.html#ad222a04e36cb6a34c833554df6f1ccd1" title="Bind the specified target to buffer for the specified context." alt="" coords="637,924,765,951"/>
+<area shape="rect" id="node90" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="1147,873,1242,900"/>
+<area shape="rect" id="node93" href="$bufferobj_8c.html#a5064c3412d9f5fc51aa7cf40a39fea92" title="Return the gl_buffer_object for the given ID." alt="" coords="868,975,1031,1001"/>
+<area shape="rect" id="node96" href="$bufferobj_8c.html#a5c7cb3f64a00110adda8a066fca38958" title="Return pointer to address of a buffer object target." alt="" coords="889,1025,1009,1052"/>
+<area shape="rect" id="node98" href="$bufferobj_8c.html#a3770249c681bac0cbeab43c03f162fbf" title="handle_bind_buffer_gen" alt="" coords="870,873,1029,900"/>
+<area shape="rect" id="node103" href="$texobj_8h.html#a8a6496e44427aa05c44fe1a5e2287059" title="_mesa_reference_texobj" alt="" coords="867,1076,1031,1103"/>
+<area shape="rect" id="node105" href="$texobj_8c.html#a8ab948cb414b721b2ee44e4ca97db5aa" title="Reference (or unreference) a texture object." alt="" coords="1109,949,1280,976"/>
+</map>

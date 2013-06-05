@@ -1,0 +1,16 @@
+<map id="texcompress.h" name="texcompress.h">
+<area shape="rect" id="node3" href="$texcompress__s3tc_8h.html" title="texcompress_s3tc.h" alt="" coords="105,80,244,107"/>
+<area shape="rect" id="node7" href="$texcompress_8c.html" title="Helper functions for texture compression." alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node9" href="$texcompress__s3tc_8c.html" title="GL_EXT_texture_compression_s3tc support." alt="" coords="237,155,376,181"/>
+<area shape="rect" id="node11" href="$texstore_8c.html" title="texstore.c" alt="" coords="401,155,481,181"/>
+<area shape="rect" id="node13" href="$get_8c.html" title="get.c" alt="" coords="477,80,528,107"/>
+<area shape="rect" id="node16" href="$texcompress__etc_8h.html" title="texcompress_etc.h" alt="" coords="320,80,453,107"/>
+<area shape="rect" id="node19" href="$texcompress__etc_8c.html" title="GL_OES_compressed_ETC1_RGB8_texture support." alt="" coords="527,155,660,181"/>
+<area shape="rect" id="node23" href="$texcompress__fxt1_8c.html" title="GL_3DFX_texture_compression_FXT1 support." alt="" coords="654,80,791,107"/>
+<area shape="rect" id="node25" href="$texcompress__rgtc_8c.html" title="GL_EXT_texture_compression_rgtc support." alt="" coords="815,80,952,107"/>
+<area shape="rect" id="node28" href="$texformat_8c.html" title="Texture formats." alt="" coords="977,80,1065,107"/>
+<area shape="rect" id="node30" href="$texgetimage_8c.html" title="texgetimage.c" alt="" coords="1089,80,1193,107"/>
+<area shape="rect" id="node32" href="$teximage_8c.html" title="Texture image&#45;related functions." alt="" coords="1218,80,1304,107"/>
+<area shape="rect" id="node34" href="$texparam_8c.html" title="glTexParameter&#45;related functions" alt="" coords="1329,80,1415,107"/>
+<area shape="rect" id="node5" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="137,155,212,181"/>
+</map>

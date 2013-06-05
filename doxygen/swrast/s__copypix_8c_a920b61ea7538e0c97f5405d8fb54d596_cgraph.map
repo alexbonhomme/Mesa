@@ -1,0 +1,16 @@
+<map id="copy_stencil_pixels" name="copy_stencil_pixels">
+<area shape="rect" id="node3" href="main.tag$pixeltransfer_8c.html#a54c54cf92fcd1221de4c8ad894c55eb0" title="_mesa_apply_stencil\l_transfer_ops" alt="" coords="196,5,340,46"/>
+<area shape="rect" id="node5" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="221,71,315,97"/>
+<area shape="rect" id="node7" href="$s__stencil_8c.html#a24dc5f593d870c8edee0fa5de718fcb3" title="Return a span of stencil values from the stencil buffer." alt="" coords="397,121,577,148"/>
+<area shape="rect" id="node17" href="$s__stencil_8c.html#ae9fe80b3d7e6a4a3981bcdb5fe1dabd2" title="Write a span of stencil values to the stencil buffer." alt="" coords="395,176,578,203"/>
+<area shape="rect" id="node25" href="$s__zoom_8c.html#ad8d022f26ed19f1588eaa54318c211d8" title="Zoom/write stencil values." alt="" coords="190,223,346,265"/>
+<area shape="rect" id="node32" href="$s__copypix_8c.html#a98f2a796718bbf5d7cb09aca4828d098" title="Determine if there&#39;s overlap in an image copy." alt="" coords="211,289,325,316"/>
+<area shape="rect" id="node9" href="$s__context_8h.html#a52ee360f385598e7861b6a5bb45b532b" title="Return the address of a pixel value in a mapped renderbuffer." alt="" coords="653,63,808,89"/>
+<area shape="rect" id="node15" href="main.tag$format__unpack_8c.html#a1e43d384d4630edeecc48e95b742e437" title="_mesa_unpack_ubyte\l_stencil_row" alt="" coords="656,114,805,155"/>
+<area shape="rect" id="node11" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="883,37,1053,64"/>
+<area shape="rect" id="node13" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="899,88,1037,115"/>
+<area shape="rect" id="node19" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="655,180,806,207"/>
+<area shape="rect" id="node23" href="main.tag$format__pack_8c.html#af54efd09ac7b891c786caf1bea76ffc9" title="_mesa_pack_ubyte_stencil_row" alt="" coords="627,231,835,257"/>
+<area shape="rect" id="node27" href="$s__zoom_8c.html#a2ea17815874aa3f12086c148ab02e7a9" title="Compute the bounds of the region resulting from zooming a pixel span." alt="" coords="399,229,574,256"/>
+<area shape="rect" id="node29" href="$s__zoom_8c.html#a549cacfb10128a35885ec4276df0f881" title="Convert a zoomed x image coordinate back to an unzoomed x coord." alt="" coords="445,280,528,307"/>
+</map>

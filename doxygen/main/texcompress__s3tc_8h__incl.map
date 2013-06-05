@@ -1,0 +1,12 @@
+<map id="texcompress_s3tc.h" name="texcompress_s3tc.h">
+<area shape="rect" id="node3" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="535,80,617,107"/>
+<area shape="rect" id="node27" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1401,304,1484,331"/>
+<area shape="rect" id="node33" href="$texstore_8h.html" title="Texture image storage routines." alt="" coords="1403,80,1483,107"/>
+<area shape="rect" id="node53" href="$texcompress_8h.html" title="texcompress.h" alt="" coords="1730,155,1837,181"/>
+<area shape="rect" id="node35" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1405,155,1480,181"/>
+<area shape="rect" id="node46" href="$formats_8h.html" title="main/formats.h" alt="" coords="1729,229,1839,256"/>
+<area shape="rect" id="node38" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1490,229,1589,256"/>
+<area shape="rect" id="node42" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1124,229,1244,256"/>
+<area shape="rect" id="node44" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1269,229,1395,256"/>
+<area shape="rect" id="node49" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1419,229,1465,256"/>
+</map>

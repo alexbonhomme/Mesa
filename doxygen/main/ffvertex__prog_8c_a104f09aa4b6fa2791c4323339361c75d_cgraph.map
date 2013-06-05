@@ -1,0 +1,51 @@
+<map id="_mesa_get_fixed_func_vertex_program" name="_mesa_get_fixed_func_vertex_program">
+<area shape="rect" id="node3" href="$ffvertex__prog_8c.html#a2847abdc9d504194b09a0ab193290f31" title="create_new_program" alt="" coords="209,600,351,626"/>
+<area shape="rect" id="node177" href="$ffvertex__prog_8c.html#a28dd14109f4450c2c6cbc792fccf8a9b" title="make_state_key" alt="" coords="221,662,339,689"/>
+<area shape="rect" id="node5" href="$ffvertex__prog_8c.html#ae001c903c47a466eb4270461efca9ef5" title="build_tnl_program" alt="" coords="434,586,558,613"/>
+<area shape="rect" id="node7" href="$ffvertex__prog_8c.html#a264bcdb1448b0752f4800bc9e05167c6" title="build_hpos" alt="" coords="1091,536,1175,562"/>
+<area shape="rect" id="node40" href="$ffvertex__prog_8c.html#a5620cbee22976d38213220eba59486fa" title="build_lighting" alt="" coords="870,1600,967,1626"/>
+<area shape="rect" id="node119" href="$ffvertex__prog_8c.html#a6f988c0e1e129df1b295a7fc59304685" title="emit_passthrough" alt="" coords="856,232,981,258"/>
+<area shape="rect" id="node123" href="$ffvertex__prog_8c.html#a097e0736f5cf38cbeef1b4e79fc36ac8" title="build_fog" alt="" coords="1096,688,1171,714"/>
+<area shape="rect" id="node137" href="$ffvertex__prog_8c.html#a65dced6830e31da60003cb8c263730d1" title="build_texture_transform" alt="" coords="641,814,799,841"/>
+<area shape="rect" id="node166" href="$ffvertex__prog_8c.html#ae68f2a89cc8242229f8da8cbfde5df36" title="Point size attenuation computation." alt="" coords="1061,586,1205,613"/>
+<area shape="rect" id="node173" href="$ffvertex__prog_8c.html#a90c0853329bd0837488c7852216339e4" title="Pass&#45;though per&#45;vertex point size, from user&#39;s point size array." alt="" coords="1061,181,1205,208"/>
+<area shape="rect" id="node9" href="$ffvertex__prog_8c.html#a22176e2338cdb6b4004a2c62ed644559" title="register_input" alt="" coords="1545,485,1645,512"/>
+<area shape="rect" id="node13" href="$ffvertex__prog_8c.html#ade0aa77c442a33d2af223fcde5718fef" title="register_output" alt="" coords="1311,333,1419,360"/>
+<area shape="rect" id="node16" href="$ffvertex__prog_8c.html#ac1a41b6dbb476c6e4b0d87ad3d3f345c" title="register_matrix_param5" alt="" coords="1515,789,1674,816"/>
+<area shape="rect" id="node21" href="$ffvertex__prog_8c.html#a1ce15d6f12bcc74c7956063ffa101ff3" title="emit_matrix_transform_vec4" alt="" coords="1501,941,1688,968"/>
+<area shape="rect" id="node23" href="$ffvertex__prog_8c.html#ab8a26846207a5a5d0f6e70fe573d3269" title="emit_transpose_matrix\l_transform_vec4" alt="" coords="1517,1010,1672,1051"/>
+<area shape="rect" id="node11" href="$ffvertex__prog_8c.html#a410b66cff3b6e9e97804daf7b3055c28" title="make_ureg" alt="" coords="1913,789,1999,816"/>
+<area shape="rect" id="node18" href="$ffvertex__prog_8c.html#a659428f84b145fc502135cb3b96ea4fe" title="register_param5" alt="" coords="1736,789,1851,816"/>
+<area shape="rect" id="node25" href="$ffvertex__prog_8c.html#aa8434349162ae310e66a5fded3c8e10f" title="get_temp" alt="" coords="1755,1676,1831,1702"/>
+<area shape="rect" id="node34" href="$ffvertex__prog_8c.html#a2172f1229c102818373d3610c60f7b8c" title="swizzle1" alt="" coords="1757,1194,1830,1221"/>
+<area shape="rect" id="node38" href="$ffvertex__prog_8c.html#a48cf94379fec6995df92dceea1a5ecd5" title="release_temp" alt="" coords="1743,434,1843,461"/>
+<area shape="rect" id="node27" href="$imports_8c.html#a2385d975eddea296daa497e5d36febc9" title="Find the first bit set in a word." alt="" coords="1937,1701,1975,1728"/>
+<area shape="rect" id="node29" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1899,1650,2013,1677"/>
+<area shape="rect" id="node31" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="2062,1650,2181,1677"/>
+<area shape="rect" id="node36" href="$ffvertex__prog_8c.html#a2111246f8a618571f75908d2352e15fc" title="swizzle" alt="" coords="1923,1498,1989,1525"/>
+<area shape="rect" id="node42" href="$ffvertex__prog_8c.html#aceef15265b251e476972b41eb60114ba" title="get_transformed_normal" alt="" coords="1284,1093,1447,1120"/>
+<area shape="rect" id="node44" href="$ffvertex__prog_8c.html#a149fe5f21d74617c34372cff42ec8cde" title="is_undef" alt="" coords="1559,1245,1630,1272"/>
+<area shape="rect" id="node53" href="$ffvertex__prog_8c.html#a0b05a1bc9f0508891dc2fce993ee0a7c" title="emit_normalize_vec3" alt="" coords="1522,1194,1667,1221"/>
+<area shape="rect" id="node59" href="$ffvertex__prog_8c.html#a04bb32ac4ecf3d1fd0ae1cbe2082a30f" title="Get a bitmask of which material values vary on a per&#45;vertex basis." alt="" coords="1069,1954,1197,1981"/>
+<area shape="rect" id="node61" href="$ffvertex__prog_8c.html#a5e2b686ba63b3eef144f75d594b6017c" title="get_material" alt="" coords="1319,1802,1412,1829"/>
+<area shape="rect" id="node68" href="$ffvertex__prog_8c.html#a4bbbe7575a3965abf57f66fc1e31daa1" title="make_temp" alt="" coords="1320,1904,1411,1930"/>
+<area shape="rect" id="node71" href="$ffvertex__prog_8c.html#a04fa58987cc8de065b9446127ca7dc0d" title="Either return a precalculated constant value or emit code to calculate these values dynamically in th..." alt="" coords="1078,1853,1189,1880"/>
+<area shape="rect" id="node75" href="$ffvertex__prog_8c.html#a3f76679e45d14b30f10989e282ec050e" title="get_identity_param" alt="" coords="1299,1296,1431,1322"/>
+<area shape="rect" id="node82" href="$ffvertex__prog_8c.html#a07d814ecfd4fe7c8400430a1ff07436d" title="negate" alt="" coords="1103,992,1164,1018"/>
+<area shape="rect" id="node85" href="$ffvertex__prog_8c.html#acf8682bac7c31765da1435addbd87bb9" title="release_temps" alt="" coords="1080,1549,1187,1576"/>
+<area shape="rect" id="node87" href="$ffvertex__prog_8c.html#a4f6fcc68536fd9f7f5373002d2d8826c" title="get_eye_position" alt="" coords="1305,992,1425,1018"/>
+<area shape="rect" id="node95" href="$ffvertex__prog_8c.html#a6ca368b00fdf5c67d741862c9cb8d41e" title="calculate_light_attenuation" alt="" coords="1277,1549,1453,1576"/>
+<area shape="rect" id="node101" href="$ffvertex__prog_8c.html#a9b2be3044afacfa706b61bc47b031091" title="get_eye_position_normalized" alt="" coords="1038,1194,1229,1221"/>
+<area shape="rect" id="node109" href="$ffvertex__prog_8c.html#a6f8fee4e5728057d3af07a4e4a22bcca" title="get_lightprod" alt="" coords="1085,2005,1181,2032"/>
+<area shape="rect" id="node115" href="$ffvertex__prog_8c.html#aad5d0da403905ebea175965bfb88fb36" title="Compute: lit.y = MAX(0, dots.x) lit.z = SLT(0, dots.x)" alt="" coords="1066,1346,1201,1373"/>
+<area shape="rect" id="node47" href="$ffvertex__prog_8c.html#ac057473251ae032348eed07d22c07e8f" title="reserve_temp" alt="" coords="1544,1085,1645,1112"/>
+<area shape="rect" id="node51" href="$ffvertex__prog_8c.html#ae09927b98053d4a16f84bde25cf6af03" title="emit_matrix_transform_vec3" alt="" coords="1501,1136,1688,1162"/>
+<area shape="rect" id="node63" href="$ffvertex__prog_8c.html#ae50a7fe518d86299a6db110ba25c08dd" title="material_attrib" alt="" coords="1543,1814,1647,1841"/>
+<area shape="rect" id="node78" href="$ffvertex__prog_8c.html#aecb9cb99b98ce90842ed89fe0c26ba18" title="register_const4f" alt="" coords="1736,1397,1851,1424"/>
+<area shape="rect" id="node127" href="$ffvertex__prog_8c.html#a3e7dcd5f9ccddaa47847367fabfbf598" title="get_eye_position_z" alt="" coords="1298,840,1433,866"/>
+<area shape="rect" id="node143" href="$ffvertex__prog_8c.html#ad715e7fbce0add77c1981dce42f6749c" title="build_sphere_texgen" alt="" coords="848,1118,989,1145"/>
+<area shape="rect" id="node152" href="$ffvertex__prog_8c.html#a11b47d9252c7318d59e815c8f5dcd668" title="build_reflect_texgen" alt="" coords="849,966,988,993"/>
+<area shape="rect" id="node179" href="$ffvertex__prog_8c.html#acb1a20938841fa4360253f5382d6a102" title="check_active_shininess" alt="" coords="415,738,577,765"/>
+<area shape="rect" id="node181" href="$ffvertex__prog_8c.html#a24d38762495381b7b1fa5148b2637a1e" title="translate_fog_distance_mode" alt="" coords="400,637,592,664"/>
+<area shape="rect" id="node183" href="$ffvertex__prog_8c.html#ab5f6a982d6473c4c78a19827f5528094" title="translate_texgen" alt="" coords="437,688,555,714"/>
+</map>

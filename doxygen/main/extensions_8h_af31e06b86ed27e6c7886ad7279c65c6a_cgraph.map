@@ -1,0 +1,14 @@
+<map id="_mesa_make_extension_string" name="_mesa_make_extension_string">
+<area shape="rect" id="node3" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="243,48,346,74"/>
+<area shape="rect" id="node15" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="237,174,353,201"/>
+<area shape="rect" id="node17" href="$extensions_8c.html#a529fc029c062f7e8c15211880de39e72" title="Compare two entries of the extensions table." alt="" coords="227,225,362,252"/>
+<area shape="rect" id="node19" href="$extensions_8c.html#ab0225fb7843fc4a998e9d2fcd8b9e21e" title="Apply the MESA_EXTENSION_OVERRIDE environment variable." alt="" coords="217,124,373,150"/>
+<area shape="rect" id="node5" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="747,137,866,164"/>
+<area shape="rect" id="node7" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="421,73,536,100"/>
+<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="783,10,830,37"/>
+<area shape="rect" id="node9" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="588,124,695,150"/>
+<area shape="rect" id="node11" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="586,73,697,100"/>
+<area shape="rect" id="node22" href="$extensions_8c.html#a95f2c91eb8ed9c9348f6c27b8fcc421c" title="Either enable or disable the named extension." alt="" coords="427,174,530,201"/>
+<area shape="rect" id="node24" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="584,174,699,201"/>
+<area shape="rect" id="node28" href="$extensions_8c.html#a648b5b8042bfa26bf6a07a6eff32d740" title="Given an extension name, lookup up the corresponding member of struct gl_extensions and return that m..." alt="" coords="585,225,697,252"/>
+</map>

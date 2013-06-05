@@ -1,0 +1,7 @@
+<map id="fetch_etc2_r11_eac" name="fetch_etc2_r11_eac">
+<area shape="rect" id="node3" href="$texcompress__etc_8c.html#a17198807d4f8a31d5e4c952826eb4e80" title="etc2_r11_fetch_texel" alt="" coords="193,56,335,83"/>
+<area shape="rect" id="node9" href="$texcompress__etc_8c.html#a1069ab5376d93a873f91569878853d81" title="etc2_r11_parse_block" alt="" coords="189,107,339,133"/>
+<area shape="rect" id="node5" href="$texcompress__etc_8c.html#ac811f0813e6e8fcdd1aedaa0d91dca0c" title="etc2_clamp2" alt="" coords="424,5,520,32"/>
+<area shape="rect" id="node7" href="$texcompress__etc_8c.html#afd5fa403fb435c2879304ee9a72ba4e4" title="etc2_get_pixel_index" alt="" coords="400,56,544,83"/>
+<area shape="rect" id="node11" href="$texcompress__etc_8c.html#abe57ffd64d8594f8cb367ed33bd42096" title="etc2_alpha8_parse_block" alt="" coords="387,107,557,133"/>
+</map>

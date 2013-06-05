@@ -1,0 +1,11 @@
+<map id="ir_dereference_variable" name="ir_dereference_variable">
+<area shape="rect" id="node2" href="$classir__dereference.html" title="ir_dereference" alt="" coords="344,372,448,399"/>
+<area shape="rect" id="node4" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="327,229,397,256"/>
+<area shape="rect" id="node14" href="$classir__constant.html" title="ir_constant" alt="" coords="179,320,265,347"/>
+<area shape="rect" id="node6" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="315,128,411,155"/>
+<area shape="rect" id="node11" href="$classir__variable.html" title="ir_variable" alt="" coords="131,424,212,451"/>
+<area shape="rect" id="node8" href="$structexec__node.html" title="exec_node" alt="" coords="373,7,459,33"/>
+<area shape="rect" id="node20" href="$structexec__list.html" title="exec_list" alt="" coords="415,179,489,205"/>
+<area shape="rect" id="node18" href="$unionir__constant__data.html" title="Data stored in an ir_constant." alt="" coords="179,229,297,256"/>
+<area shape="rect" id="node23" href="$structir__state__slot.html" title="Description of built&#45;in state associated with a uniform." alt="" coords="5,320,99,347"/>
+</map>

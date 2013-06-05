@@ -1,0 +1,34 @@
+<map id="ast_function_definition::hir" name="ast_function_definition::hir">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a939bd788b8a9f1a21c9f2ff0dd5b3aaa" title="_mesa_glsl_error" alt="" coords="926,106,1047,133"/>
+<area shape="rect" id="node35" href="$group__IR.html#ga23274dc074035d8faac3940802f4c088" title="Get the name of the function for which this is a signature." alt="" coords="255,199,398,240"/>
+<area shape="rect" id="node37" href="$classast__node.html#a4449b76bda85828e09c78f2aba19f16d" title="Retrieve the source location of an AST node." alt="" coords="910,364,1063,390"/>
+<area shape="rect" id="node39" href="$classast__compound__statement.html#ac9bcc8d7fa8c3071d55c6e815d64b794" title="Convert the AST node to the high&#45;level intermediate representation." alt="" coords="229,316,424,342"/>
+<area shape="rect" id="node41" href="$classast__function.html#a2cdda5ce0b571586e5da46021af60cab" title="Convert the AST node to the high&#45;level intermediate representation." alt="" coords="269,265,384,292"/>
+<area shape="rect" id="node5" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="1112,106,1232,133"/>
+<area shape="rect" id="node7" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="1281,30,1431,57"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="1280,81,1432,108"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="1481,132,1639,158"/>
+<area shape="rect" id="node29" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="1513,182,1607,209"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="1689,132,1869,158"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="2077,81,2171,108"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="1918,132,2029,158"/>
+<area shape="rect" id="node26" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1945,182,2002,209"/>
+<area shape="rect" id="node20" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="2082,132,2166,158"/>
+<area shape="rect" id="node22" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="2224,132,2301,158"/>
+<area shape="rect" id="node24" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="2219,182,2306,209"/>
+<area shape="rect" id="node31" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="1759,182,1799,209"/>
+<area shape="rect" id="node44" href="$classir__function.html#adb9d1349519cee76302f23215775016c" title="ir_function::add_signature" alt="" coords="472,68,643,94"/>
+<area shape="rect" id="node46" href="$ast_8h.html#a489ed0ab597407b3619093205c1f7eb4" title="emit_function" alt="" coords="507,118,607,145"/>
+<area shape="rect" id="node48" href="$classir__function.html#af18aef96148acad18294e8fc778af8ac" title="Find a signature that exactly matches a set of actual parameters without any implicit type conversion..." alt="" coords="486,170,629,211"/>
+<area shape="rect" id="node53" href="$classast__type__specifier.html#aadef6ba12dfe0a58e930160534234c77" title="ast_type_specifier\l::glsl_type" alt="" coords="493,352,621,394"/>
+<area shape="rect" id="node64" href="$classir__function.html#ab38adec5be0a59388cdbae1f2bd83096" title="Whether or not this function has a signature that isn&#39;t a built&#45;in." alt="" coords="486,287,629,328"/>
+<area shape="rect" id="node66" href="$classast__parameter__declarator.html#afa907354ac1ea6b05856cf2ce770f15b" title="ast_parameter_declarator\l::parameters_to_hir" alt="" coords="691,231,861,272"/>
+<area shape="rect" id="node70" href="$classir__function__signature.html#afe67e013f8b6a8d737bb15791b17fe24" title="Check whether the qualifiers match between this signature&#39;s parameters and the supplied parameter lis..." alt="" coords="486,470,629,511"/>
+<area shape="rect" id="node74" href="$classir__function__signature.html#a8241f1ab65a4975ca08ef83b14c7f361" title="Replace the current parameter list with the given one." alt="" coords="485,535,629,576"/>
+<area shape="rect" id="node50" href="$ir__function_8cpp.html#a36ebddbdff6aa8b0888ee328eaeffafa" title="parameter_lists_match\l_exact" alt="" coords="699,166,853,207"/>
+<area shape="rect" id="node56" href="$ast__to__hir_8cpp.html#a7694f88b8a652fc815fe68182db4fbf3" title="process_array_type" alt="" coords="708,313,844,340"/>
+<area shape="rect" id="node59" href="$classir__rvalue.html#a85187845a3fde87f8951bc6b2dcf3c76" title="ir_rvalue::constant\l_expression_value" alt="" coords="921,247,1052,288"/>
+<area shape="rect" id="node62" href="$classast__node.html#a46c3547246d08e8a37e5668b1f273f1e" title="Convert the AST node to the high&#45;level intermediate representation." alt="" coords="938,313,1035,340"/>
+<area shape="rect" id="node72" href="$ir_8cpp.html#af84b9476c37c8eb033e3b9dd966e938e" title="modes_match" alt="" coords="724,477,828,504"/>
+<area shape="rect" id="node76" href="$classir__instruction.html#a142617682155660c72f57b637f5f580c" title="ir_instruction::as\l_variable" alt="" coords="717,535,835,576"/>
+</map>

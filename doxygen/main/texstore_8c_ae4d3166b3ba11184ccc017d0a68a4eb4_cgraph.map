@@ -1,0 +1,51 @@
+<map id="_mesa_texstore" name="_mesa_texstore">
+<area shape="rect" id="node3" href="$texstore_8c.html#a5e70d4ce80dd6c99bcdd9080dd9b8001" title="Return the StoreTexImageFunc pointer to store an image in the given format." alt="" coords="169,1351,341,1377"/>
+<area shape="rect" id="node100" href="$texstore_8c.html#a59cdf089904fce197d85066fd9851195" title="_mesa_texstore_memcpy" alt="" coords="169,1401,341,1428"/>
+<area shape="rect" id="node5" href="$texstore_8c.html#aa6f41e05ac2b3baa628892634803ed0c" title="_mesa_texstore_abgr2101010_uint" alt="" coords="389,5,613,32"/>
+<area shape="rect" id="node7" href="$texstore_8c.html#aa7bb9bcafe0ce92109b399e9d58c2644" title="_mesa_texstore_argb2101010" alt="" coords="403,56,599,83"/>
+<area shape="rect" id="node9" href="$texstore_8c.html#a8939dbd3b3f2b04d42d02a41796d791b" title="_mesa_texstore_argb2101010_uint" alt="" coords="389,107,613,133"/>
+<area shape="rect" id="node11" href="$texstore_8c.html#aad7d3b74e546334742f84847aa81dc5b" title="_mesa_texstore_argb8888" alt="" coords="662,1289,837,1316"/>
+<area shape="rect" id="node13" href="$texstore_8c.html#a1343312773d6155c09e9de7e5dccf6fa" title="_mesa_texstore_bgr888" alt="" coords="421,208,582,235"/>
+<area shape="rect" id="node15" href="$texstore_8c.html#a0eec8ac1cc84ac655643124dc8a86fad" title="_mesa_texstore_dudv8" alt="" coords="423,259,580,285"/>
+<area shape="rect" id="node17" href="$texcompress__etc_8c.html#a36375f4913cf3884c4f91207960209d0" title="_mesa_texstore_etc1_rgb8" alt="" coords="412,309,591,336"/>
+<area shape="rect" id="node19" href="$texcompress__etc_8c.html#a7790308a0035baa366319390c41369f7" title="_mesa_texstore_etc2\l_r11_eac" alt="" coords="428,361,575,402"/>
+<area shape="rect" id="node21" href="$texcompress__etc_8c.html#ab6fc8f618c7aef6ceca204861d1bc8d2" title="_mesa_texstore_etc2\l_rg11_eac" alt="" coords="428,426,575,467"/>
+<area shape="rect" id="node23" href="$texcompress__etc_8c.html#ac1038ee80f30441747a7a12840d514c6" title="_mesa_texstore_etc2_rgb8" alt="" coords="412,492,591,519"/>
+<area shape="rect" id="node25" href="$texcompress__etc_8c.html#a68907a37c99cf6c644b7e7489259c083" title="_mesa_texstore_etc2\l_rgb8_punchthrough_alpha1" alt="" coords="409,543,593,585"/>
+<area shape="rect" id="node27" href="$texcompress__etc_8c.html#ab29896c9615ff10e645b75a121234346" title="_mesa_texstore_etc2\l_rgba8_eac" alt="" coords="428,609,575,650"/>
+<area shape="rect" id="node29" href="$texcompress__etc_8c.html#a2a9e85dbb22ea495702bb02b0b727169" title="_mesa_texstore_etc2\l_signed_r11_eac" alt="" coords="428,674,575,715"/>
+<area shape="rect" id="node31" href="$texcompress__etc_8c.html#a78ce241bdc761798f5387b2660d9f902" title="_mesa_texstore_etc2\l_signed_rg11_eac" alt="" coords="428,739,575,781"/>
+<area shape="rect" id="node33" href="$texcompress__etc_8c.html#aeac3014babe89c406cd282c3d40d3f1a" title="_mesa_texstore_etc2\l_srgb8" alt="" coords="428,805,575,846"/>
+<area shape="rect" id="node35" href="$texcompress__etc_8c.html#a305a1c520d0317b38ede71dc39b4d8c4" title="_mesa_texstore_etc2\l_srgb8_alpha8_eac" alt="" coords="428,870,575,911"/>
+<area shape="rect" id="node37" href="$texcompress__etc_8c.html#a305d9233652081d2b8ab021e66ede479" title="_mesa_texstore_etc2\l_srgb8_punchthrough\l_alpha1" alt="" coords="428,936,575,992"/>
+<area shape="rect" id="node39" href="$texstore_8c.html#ad543543a1eadb2314131f1dee90bab8d" title="_mesa_texstore_null" alt="" coords="430,1016,573,1043"/>
+<area shape="rect" id="node41" href="$texstore_8c.html#aa1067098c09da344a565874150aaf1b0" title="_mesa_texstore_r11\l_g11_b10f" alt="" coords="431,1067,571,1109"/>
+<area shape="rect" id="node43" href="$texcompress__rgtc_8c.html#ae08452c2ff3bfb878567f31c4da1d65a" title="_mesa_texstore_red\l_rgtc1" alt="" coords="431,1133,571,1174"/>
+<area shape="rect" id="node45" href="$texcompress__rgtc_8c.html#a95bcaa7b666181c2dce9973c91787fbc" title="_mesa_texstore_rg_rgtc2" alt="" coords="417,1199,586,1225"/>
+<area shape="rect" id="node47" href="$texstore_8c.html#ad0367cd32cb99c21bfacf200e1cfcce3" title="Store an rgb565 or rgb565_rev texture image." alt="" coords="421,1249,582,1276"/>
+<area shape="rect" id="node49" href="$texstore_8c.html#a878e6042751dd1da03a2f256189ab777" title="_mesa_texstore_rgb888" alt="" coords="421,1300,582,1327"/>
+<area shape="rect" id="node51" href="$texstore_8c.html#a3a2bd8dafd34eab8a718142743aa0df5" title="_mesa_texstore_rgb9_e5" alt="" coords="417,1351,585,1377"/>
+<area shape="rect" id="node53" href="$texcompress__s3tc_8c.html#a389d4c23ca5f1b8e1408a9c004956fff" title="Store user&#39;s image in rgb_dxt1 format." alt="" coords="415,1401,587,1428"/>
+<area shape="rect" id="node55" href="$texcompress__fxt1_8c.html#a5c38e055e697be5ea94daa50e64c2f47" title="Store user&#39;s image in rgb_fxt1 format." alt="" coords="417,1452,586,1479"/>
+<area shape="rect" id="node57" href="$texstore_8c.html#affd21c86d10405b6e64c71f16984bdcd" title="Store a texture in MESA_FORMAT_RGBA8888 or MESA_FORMAT_RGBA8888_REV." alt="" coords="414,1503,589,1529"/>
+<area shape="rect" id="node59" href="$texstore_8c.html#acde0c04c6380a201a2172d491f515048" title="_mesa_texstore_rgba_16" alt="" coords="417,1553,585,1580"/>
+<area shape="rect" id="node61" href="$texcompress__s3tc_8c.html#a79c9fd1d707a8a740a2d2d7670a0e627" title="Store user&#39;s image in rgba_dxt1 format." alt="" coords="412,1604,591,1631"/>
+<area shape="rect" id="node63" href="$texcompress__s3tc_8c.html#aa8718fc8a01184a96aee9d781301a3bd" title="Store user&#39;s image in rgba_dxt3 format." alt="" coords="412,1655,591,1681"/>
+<area shape="rect" id="node65" href="$texcompress__s3tc_8c.html#a0cf63d55066d8c4933fbc4785df637e6" title="Store user&#39;s image in rgba_dxt5 format." alt="" coords="412,1705,591,1732"/>
+<area shape="rect" id="node67" href="$texstore_8c.html#a2c92a71a76395e8221b19eaaf9324899" title="As above, but store 16&#45;bit floats." alt="" coords="428,1757,575,1798"/>
+<area shape="rect" id="node69" href="$texstore_8c.html#a5aa6acbb4f3641be2f1513d33075c790" title="Store an image in any of the formats: _mesa_texformat_rgba_float32 _mesa_texformat_rgb_float32 _mesa_..." alt="" coords="428,1822,575,1863"/>
+<area shape="rect" id="node71" href="$texcompress__fxt1_8c.html#a88d32a2a1f295dc04ba59f576f3dd637" title="Store user&#39;s image in rgba_fxt1 format." alt="" coords="413,1888,589,1915"/>
+<area shape="rect" id="node73" href="$texstore_8c.html#aa55c29bf2c1be0f8b391af960e0e8acb" title="_mesa_texstore_rgba\l_int16" alt="" coords="428,1939,575,1981"/>
+<area shape="rect" id="node75" href="$texstore_8c.html#ab13d53ec2ea41d5c17dfba40dd84e0ff" title="_mesa_texstore_rgba\l_int32" alt="" coords="428,2005,575,2046"/>
+<area shape="rect" id="node77" href="$texstore_8c.html#a2ddea7e9aeda6deeb6d0ff0c023e5648" title="_mesa_texstore_rgba_int8" alt="" coords="414,2071,589,2097"/>
+<area shape="rect" id="node79" href="$texstore_8c.html#ab09a2b6e6e4975b902165ace9fe0d2ab" title="_mesa_texstore_rgba\l_uint16" alt="" coords="428,2122,575,2163"/>
+<area shape="rect" id="node81" href="$texstore_8c.html#a0f72e98eeccf2d5ad33048a64a5a7f9a" title="_mesa_texstore_rgba\l_uint32" alt="" coords="428,2187,575,2229"/>
+<area shape="rect" id="node83" href="$texstore_8c.html#a879300b6966baf9d60f4599c062d63d3" title="_mesa_texstore_rgba\l_uint8" alt="" coords="428,2253,575,2294"/>
+<area shape="rect" id="node85" href="$texstore_8c.html#a00a38a6ff04998b9213becf8865fe286" title="Store simple 8&#45;bit/value stencil texture data." alt="" coords="433,2319,569,2345"/>
+<area shape="rect" id="node87" href="$texstore_8c.html#afeac00b07eb9801b64b35af7c8b15222" title="Store a combined depth/stencil texture image." alt="" coords="419,2369,583,2396"/>
+<area shape="rect" id="node89" href="$texstore_8c.html#a2ea3914a1501a1f6edb03d186cbf3177" title="_mesa_texstore_sargb8" alt="" coords="421,2420,582,2447"/>
+<area shape="rect" id="node92" href="$texcompress__rgtc_8c.html#a5c15f558f48d28eb13107e25d4ce3715" title="_mesa_texstore_signed\l_red_rgtc1" alt="" coords="421,2471,581,2513"/>
+<area shape="rect" id="node94" href="$texcompress__rgtc_8c.html#a809ea03de48b73d11bbb005d43942032" title="_mesa_texstore_signed\l_rg_rgtc2" alt="" coords="421,2537,581,2578"/>
+<area shape="rect" id="node96" href="$texstore_8c.html#a54af600c2151d6584dfa1f5f1a9a4e0c" title="Store a texture in MESA_FORMAT_SIGNED_RGBA8888 or MESA_FORMAT_SIGNED_RGBA8888_REV." alt="" coords="421,2602,581,2643"/>
+<area shape="rect" id="node98" href="$texstore_8c.html#a463e88b15cb557acc1e3ed0ce1533172" title="_mesa_texstore_signed\l_rgba_16" alt="" coords="421,2667,581,2709"/>
+</map>

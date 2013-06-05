@@ -1,0 +1,12 @@
+<map id="_mesa_unpack_image" name="_mesa_unpack_image">
+<area shape="rect" id="node3" href="$glformats_8c.html#a436296728b4475da0aa5ef287cb3c4eb" title="Get the bytes per pixel of pixel format type pair." alt="" coords="603,62,762,88"/>
+<area shape="rect" id="node5" href="$glformats_8c.html#a14f0df64971e5ece81cb7c04a4e2f09d" title="Get the number of components in a pixel format." alt="" coords="825,25,981,66"/>
+<area shape="rect" id="node8" href="$image_8c.html#ab59d92ff8fdf9a1c1af9555cad91b197" title="Return the address of a specific pixel in an image (1D, 2D or 3D)." alt="" coords="206,112,362,139"/>
+<area shape="rect" id="node17" href="$glformats_8c.html#a3b4be71f46708425107d4c8e20024ce1" title="_mesa_type_is_packed" alt="" coords="823,163,982,190"/>
+<area shape="rect" id="node19" href="$image_8c.html#ad23e0a778d4141f9217fe4db641b12ac" title="Flip the order of the 2 bytes in each word in the given array." alt="" coords="231,214,337,240"/>
+<area shape="rect" id="node21" href="$image_8c.html#a5c7da4e67e3d5d20605ae978114c05e2" title="_mesa_swap4" alt="" coords="231,264,337,291"/>
+<area shape="rect" id="node24" href="$pack_8c.html#a6659da859449b66dbe32f72f9835f61f" title="Flip the 8 bits in each byte of the given array." alt="" coords="245,315,323,342"/>
+<area shape="rect" id="node10" href="$image_8c.html#a349c7efa0b2a44e2e4de1f995bd60a56" title="Return the byte offset of a specific pixel in an image (1D, 2D or 3D)." alt="" coords="411,112,554,139"/>
+<area shape="rect" id="node13" href="$mipmap_8c.html#aa5d90447a8dad8289cacddbb0c98dd1f" title="bytes_per_pixel" alt="" coords="626,112,739,139"/>
+<area shape="rect" id="node15" href="$glformats_8c.html#ac81b82fc7cf6fe0a47ae51278f917118" title="Same as _mesa_sizeof_type() but also accepting the packed pixel format data types." alt="" coords="811,112,995,139"/>
+</map>

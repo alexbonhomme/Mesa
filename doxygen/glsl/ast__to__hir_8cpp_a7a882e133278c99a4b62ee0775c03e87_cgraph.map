@@ -1,0 +1,29 @@
+<map id="do_assignment" name="do_assignment">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a939bd788b8a9f1a21c9f2ff0dd5b3aaa" title="_mesa_glsl_error" alt="" coords="194,35,315,61"/>
+<area shape="rect" id="node35" href="$classir__instruction.html#a8a801e831b211df2714a86f344d092c0" title="ir_instruction::as\l_dereference" alt="" coords="195,86,314,127"/>
+<area shape="rect" id="node37" href="$classir__instruction.html#a3bb172722273de2b95867300882e7498" title="ir_instruction::as\l_expression" alt="" coords="195,151,314,193"/>
+<area shape="rect" id="node39" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="199,217,310,244"/>
+<area shape="rect" id="node43" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="424,268,531,295"/>
+<area shape="rect" id="node48" href="$classir__rvalue.html#a0dba70a20fff220bec0d555de5931df7" title="ir_rvalue::is_lvalue" alt="" coords="189,319,320,345"/>
+<area shape="rect" id="node50" href="$ast__to__hir_8cpp.html#af59315ba19aa94a3e0e81205682c7e05" title="mark_whole_array_access" alt="" coords="166,369,343,396"/>
+<area shape="rect" id="node54" href="$ast__to__hir_8cpp.html#a047b956a3c696d6d83e6e0a180d61547" title="Validates that a value can be assigned to a location with a specified type." alt="" coords="184,420,325,447"/>
+<area shape="rect" id="node58" href="$classir__rvalue.html#a436c1224d5c546da6bc0622f8d504ee1" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="193,471,317,513"/>
+<area shape="rect" id="node60" href="$classir__dereference.html#a6e7d1a6d61675f85f95c5bb5631d82d3" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="176,537,333,578"/>
+<area shape="rect" id="node5" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="417,56,537,83"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="611,5,763,32"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="811,56,970,83"/>
+<area shape="rect" id="node28" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="612,107,761,133"/>
+<area shape="rect" id="node30" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="844,157,937,184"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="1019,81,1199,108"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="1249,107,1359,133"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="1408,56,1501,83"/>
+<area shape="rect" id="node24" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1275,157,1333,184"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1413,107,1497,133"/>
+<area shape="rect" id="node19" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1550,157,1637,184"/>
+<area shape="rect" id="node21" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1555,107,1632,133"/>
+<area shape="rect" id="node32" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="1089,157,1129,184"/>
+<area shape="rect" id="node41" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="406,217,549,244"/>
+<area shape="rect" id="node45" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="639,248,735,275"/>
+<area shape="rect" id="node52" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="403,358,552,399"/>
+<area shape="rect" id="node56" href="$ast__function_8cpp.html#ab6d8a9744122b749be1770c624ab2d67" title="If a conversion is available, convert one operand to a different type." alt="" coords="392,424,563,451"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="vbo_save_NewList" name="vbo_save_NewList">
+<area shape="rect" id="node3" href="$vbo__save__api_8c.html#af383fbfc78a8c0331b4e9b3cf54f137a" title="_save_reset_counters" alt="" coords="189,5,339,32"/>
+<area shape="rect" id="node5" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="412,80,505,107"/>
+<area shape="rect" id="node7" href="$vbo__save__api_8c.html#a77976e6cafb8f73a31633b9672255e07" title="Reset the current size of all vertex attributes to the default value of 0." alt="" coords="196,107,332,133"/>
+<area shape="rect" id="node10" href="$vbo__save__api_8c.html#ac9e1bf68ddf1f7ebd885532b69a90041" title="alloc_prim_store" alt="" coords="205,157,323,184"/>
+<area shape="rect" id="node12" href="$vbo__save__api_8c.html#afa851e7f5dea5abd01509ba8b6ddc758" title="alloc_vertex_store" alt="" coords="200,208,328,235"/>
+<area shape="rect" id="node20" href="$vbo__save_8h.html#a3e5addb57c6026a0e9370309f981b929" title="vbo_save_map_vertex\l_store" alt="" coords="187,259,341,301"/>
+<area shape="rect" id="node15" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="411,153,506,180"/>
+<area shape="rect" id="node17" href="main.tag$vtxfmt_8c.html#ae345e0f57720a7d8c8c3dc1f29ae45b8" title="_mesa_install_save\l_vtxfmt" alt="" coords="390,205,527,246"/>
+</map>

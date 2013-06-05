@@ -1,0 +1,8 @@
+<map id="ir_builder.h" name="ir_builder.h">
+<area shape="rect" id="node3" href="$ir__builder_8cpp.html" title="ir_builder.cpp" alt="" coords="5,88,104,115"/>
+<area shape="rect" id="node5" href="$lower__instructions_8cpp.html" title="Many GPUs lack native instructions for certain expression operations, and must replace them with some..." alt="" coords="128,88,280,115"/>
+<area shape="rect" id="node7" href="$lower__packing__builtins_8cpp.html" title="lower_packing_builtins.cpp" alt="" coords="304,88,483,115"/>
+<area shape="rect" id="node9" href="$lower__ubo__reference_8cpp.html" title="IR lower pass to replace dereferences of variables in a uniform buffer object with usage of ir_binop_..." alt="" coords="507,88,673,115"/>
+<area shape="rect" id="node11" href="$lower__vector__insert_8cpp.html" title="lower_vector_insert.cpp" alt="" coords="699,88,859,115"/>
+<area shape="rect" id="node13" href="$opt__flatten__nested__if__blocks_8cpp.html" title="Flattens nested if blocks such as:" alt="" coords="883,81,1012,122"/>
+</map>

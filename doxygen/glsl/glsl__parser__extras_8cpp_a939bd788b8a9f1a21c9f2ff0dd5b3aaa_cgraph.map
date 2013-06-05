@@ -1,0 +1,15 @@
+<map id="_mesa_glsl_error" name="_mesa_glsl_error">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="176,81,296,108"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="344,5,496,32"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="545,56,703,83"/>
+<area shape="rect" id="node26" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="345,107,495,133"/>
+<area shape="rect" id="node28" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="577,155,671,181"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="753,81,933,108"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="982,93,1093,120"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="1141,43,1235,69"/>
+<area shape="rect" id="node22" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1009,144,1066,171"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1146,93,1230,120"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1283,144,1370,171"/>
+<area shape="rect" id="node19" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1288,93,1365,120"/>
+<area shape="rect" id="node30" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="823,151,863,177"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="gl_debug_state" name="gl_debug_state">
+<area shape="rect" id="node2" href="$structgl__debug__msg.html" title="An error, warning, or other piece of debug information for an application to consume via GL_ARB_debug..." alt="" coords="5,280,112,307"/>
+<area shape="rect" id="node4" href="$structgl__debug__namespace.html" title="gl_debug_namespace" alt="" coords="137,280,284,307"/>
+<area shape="rect" id="node6" href="$structsimple__node.html" title="simple_node" alt="" coords="54,188,148,215"/>
+<area shape="rect" id="node9" href="$struct__mesa__HashTable.html" title="The hash table data structure." alt="" coords="227,188,357,215"/>
+<area shape="rect" id="node11" href="$structhash__table.html" title="hash_table" alt="" coords="249,96,335,123"/>
+<area shape="rect" id="node13" href="$structhash__entry.html" title="hash_entry" alt="" coords="249,5,335,32"/>
+</map>

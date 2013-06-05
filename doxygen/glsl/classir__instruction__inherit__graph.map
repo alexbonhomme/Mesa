@@ -1,0 +1,23 @@
+<map id="ir_instruction" name="ir_instruction">
+<area shape="rect" id="node5" href="$classir__assignment.html" title="ir_assignment" alt="" coords="303,5,406,32"/>
+<area shape="rect" id="node7" href="$classir__call.html" title="HIR instruction representing a high&#45;level function call, containing a list of parameters and returnin..." alt="" coords="327,56,383,83"/>
+<area shape="rect" id="node9" href="$classir__function.html" title="Header for tracking multiple overloaded functions with the same name." alt="" coords="313,107,396,133"/>
+<area shape="rect" id="node11" href="$classir__function__signature.html" title="The representation of a function instance; may be the full definition or simply a prototype..." alt="" coords="283,157,426,184"/>
+<area shape="rect" id="node13" href="$classir__if.html" title="IR instruction representing high&#45;level if&#45;statements." alt="" coords="333,208,376,235"/>
+<area shape="rect" id="node15" href="$classir__jump.html" title="ir_jump" alt="" coords="323,259,387,285"/>
+<area shape="rect" id="node23" href="$classir__loop.html" title="IR instruction representing a high&#45;level loop structure." alt="" coords="325,309,385,336"/>
+<area shape="rect" id="node25" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="319,360,390,387"/>
+<area shape="rect" id="node43" href="$classir__variable.html" title="ir_variable" alt="" coords="314,411,395,437"/>
+<area shape="rect" id="node2" href="$structexec__node.html" title="exec_node" alt="" coords="5,208,91,235"/>
+<area shape="rect" id="node17" href="$classir__discard.html" title="IR instruction representing discard statements." alt="" coords="487,157,566,184"/>
+<area shape="rect" id="node19" href="$classir__loop__jump.html" title="Jump instructions used inside loops." alt="" coords="479,208,574,235"/>
+<area shape="rect" id="node21" href="$classir__return.html" title="ir_return" alt="" coords="492,259,561,285"/>
+<area shape="rect" id="node27" href="$classir__constant.html" title="ir_constant" alt="" coords="483,309,570,336"/>
+<area shape="rect" id="node29" href="$classir__dereference.html" title="ir_dereference" alt="" coords="475,360,579,387"/>
+<area shape="rect" id="node37" href="$classir__expression.html" title="ir_expression" alt="" coords="477,411,576,437"/>
+<area shape="rect" id="node39" href="$classir__swizzle.html" title="ir_swizzle" alt="" coords="487,461,567,488"/>
+<area shape="rect" id="node41" href="$classir__texture.html" title="IR instruction to sample a texture." alt="" coords="489,512,565,539"/>
+<area shape="rect" id="node31" href="$classir__dereference__array.html" title="ir_dereference_array" alt="" coords="635,309,775,336"/>
+<area shape="rect" id="node33" href="$classir__dereference__record.html" title="ir_dereference_record" alt="" coords="632,360,779,387"/>
+<area shape="rect" id="node35" href="$classir__dereference__variable.html" title="ir_dereference_variable" alt="" coords="627,411,783,437"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="lower_clip_distance_visitor::visit_leave" name="lower_clip_distance_visitor::visit_leave">
+<area shape="rect" id="node3" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="393,5,543,46"/>
+<area shape="rect" id="node5" href="$namespaceir__builder.html#a888d3a1315316c1674017fbe3669a4c3" title="ir_builder::assign" alt="" coords="205,303,325,329"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="616,268,712,295"/>
+<area shape="rect" id="node11" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="210,533,321,560"/>
+<area shape="rect" id="node15" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="397,505,539,532"/>
+<area shape="rect" id="node17" href="$classlower__clip__distance__visitor.html#a860b08a3af0445bcd2e45ac10743e597" title="lower_clip_distance\l_visitor::fix_lhs" alt="" coords="197,405,333,446"/>
+<area shape="rect" id="node32" href="$classlower__clip__distance__visitor.html#a6d400f13328096e60e060cb79ffa95a8" title="lower_clip_distance\l_visitor::handle_rvalue" alt="" coords="189,165,341,206"/>
+<area shape="rect" id="node47" href="$classir__rvalue__base__visitor.html#a19c12d9aebbafbef937cccb0003eb3bc" title="ir_rvalue_base_visitor\l::rvalue_visit" alt="" coords="191,602,339,643"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="782,268,869,295"/>
+<area shape="rect" id="node13" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="397,556,539,583"/>
+<area shape="rect" id="node20" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="415,252,521,279"/>
+<area shape="rect" id="node24" href="$classir__assignment.html#ac3e2d17a85fb4e8e112e6ce50cfbd28e" title="Set the LHS of an assignment." alt="" coords="391,455,545,481"/>
+<area shape="rect" id="node26" href="$classir__instruction.html#a8a801e831b211df2714a86f344d092c0" title="ir_instruction::as\l_dereference" alt="" coords="605,382,723,423"/>
+<area shape="rect" id="node28" href="$classir__instruction.html#abfc61f081e506819dde374e80c8658a5" title="ir_instruction::as\l_swizzle" alt="" coords="605,447,723,489"/>
+<area shape="rect" id="node30" href="$ir_8cpp.html#ad9db89f09faed45063573d2dbd4abf18" title="Modify the swizzle make to move one component to another." alt="" coords="595,513,733,540"/>
+<area shape="rect" id="node34" href="$classir__dereference__array.html#a2b1d75da26d95d972dd6c347e5cd601a" title="ir_dereference_array\l::as_dereference_array" alt="" coords="391,70,545,111"/>
+<area shape="rect" id="node37" href="$classlower__clip__distance__visitor.html#aaf833a7a1727c3d616080e188eb44a5c" title="Create the necessary GLSL rvalues to index into gl_ClipDistanceMESA based on the rvalue previously us..." alt="" coords="390,135,546,177"/>
+<area shape="rect" id="node39" href="$classir__rvalue.html#a85187845a3fde87f8951bc6b2dcf3c76" title="ir_rvalue::constant\l_expression_value" alt="" coords="599,119,729,161"/>
+<area shape="rect" id="node41" href="$classir__constant.html#a8527a836b37d506b01907a6514f2315a" title="ir_constant::get_int\l_component" alt="" coords="597,185,731,226"/>
+<area shape="rect" id="node49" href="$classir__rvalue__base__visitor.html#ae031446257051c21504d1c1e2ef31646" title="ir_rvalue_base_visitor\l::handle_rvalue" alt="" coords="394,607,542,649"/>
+</map>

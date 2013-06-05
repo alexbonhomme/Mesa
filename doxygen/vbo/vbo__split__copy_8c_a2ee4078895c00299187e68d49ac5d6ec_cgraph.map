@@ -1,0 +1,14 @@
+<map id="vbo_split_copy" name="vbo_split_copy">
+<area shape="rect" id="node3" href="$vbo__split__copy_8c.html#a5db3422f67a9ed4efd61b169e35b7a98" title="replay_elts" alt="" coords="168,113,253,140"/>
+<area shape="rect" id="node21" href="$vbo__split__copy_8c.html#afbd76258d1b04cd91f9894fd45ff04cf" title="Free up everything allocated during split/replay." alt="" coords="163,189,258,216"/>
+<area shape="rect" id="node23" href="$vbo__split__copy_8c.html#a27bd59b7367d789e71f024047666f85d" title="replay_init" alt="" coords="170,252,251,279"/>
+<area shape="rect" id="node5" href="$vbo__split__copy_8c.html#ae611cb2b2d40451a53a0903b6b587638" title="Called at begin of each primitive during replay." alt="" coords="344,5,397,32"/>
+<area shape="rect" id="node7" href="$vbo__split__copy_8c.html#a909a281954e4f3301edc26c54a946062" title="Use a hashtable to attempt to identify recently&#45;emitted vertices and avoid re&#45;emitting them..." alt="" coords="351,56,390,83"/>
+<area shape="rect" id="node11" href="$vbo__split__copy_8c.html#aba57a432cbe3ed3871caeedfa6c6d4d0" title="Called at end of each primitive during replay." alt="" coords="349,107,392,133"/>
+<area shape="rect" id="node14" href="$vbo__split__copy_8c.html#aa233458bf6eba9cd4b88f8faf3532a6d" title="flush" alt="" coords="525,145,576,172"/>
+<area shape="rect" id="node19" href="$vbo__split_8c.html#a47aa07192db9fc1c3a8cba0232be6e41" title="split_prim_inplace" alt="" coords="307,208,434,235"/>
+<area shape="rect" id="node9" href="$vbo__split__copy_8c.html#a5cc428dd7410f68a6017975b0d7e8406" title="Starts returning true slightly before the buffer fills, to ensure that there is sufficient room for a..." alt="" coords="505,69,597,96"/>
+<area shape="rect" id="node16" href="$vbo__split__copy_8c.html#abcc36e536e4095f768301a9db88d00ea" title="Dump the parameters/info for a vbo&#45;&gt;draw() call." alt="" coords="667,145,784,172"/>
+<area shape="rect" id="node25" href="$vbo__split__copy_8c.html#ac590a6ef6114a3b6e1475924e14524b0" title="attr_size" alt="" coords="335,259,407,285"/>
+<area shape="rect" id="node27" href="main.tag$glformats_8c.html#a1381682293b3078085e3521d618f66ec" title="_mesa_sizeof_type" alt="" coords="483,259,618,285"/>
+</map>

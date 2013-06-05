@@ -1,0 +1,10 @@
+<map id="tfeedback_candidate" name="tfeedback_candidate">
+<area shape="rect" id="node2" href="$classir__variable.html" title="ir_variable" alt="" coords="78,424,159,451"/>
+<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="8,128,104,155"/>
+<area shape="rect" id="node11" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="21,229,91,256"/>
+<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="92,7,177,33"/>
+<area shape="rect" id="node17" href="$structexec__list.html" title="exec_list" alt="" coords="209,179,284,205"/>
+<area shape="rect" id="node9" href="$classir__constant.html" title="ir_constant" alt="" coords="75,320,161,347"/>
+<area shape="rect" id="node15" href="$unionir__constant__data.html" title="Data stored in an ir_constant." alt="" coords="115,229,233,256"/>
+<area shape="rect" id="node20" href="$structir__state__slot.html" title="Description of built&#45;in state associated with a uniform." alt="" coords="304,320,397,347"/>
+</map>

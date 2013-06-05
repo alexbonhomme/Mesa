@@ -1,0 +1,8 @@
+<map id="_swrast_render_texture" name="_swrast_render_texture">
+<area shape="rect" id="node3" href="$s__texrender_8c.html#a7ea56511b8640a4aee501ab62fa4dc68" title="delete_texture_wrapper" alt="" coords="213,71,371,97"/>
+<area shape="rect" id="node5" href="$s__texrender_8c.html#a5cbf3b9738d6278b1040ca521e792ba2" title="Update the renderbuffer wrapper for rendering to a texture." alt="" coords="235,121,349,148"/>
+<area shape="rect" id="node13" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="477,172,523,199"/>
+<area shape="rect" id="node7" href="main.tag$formats_8c.html#a8de37ddf1bdc6c7e29a67d5e67153e70" title="_mesa_get_srgb_format\l_linear" alt="" coords="419,5,581,46"/>
+<area shape="rect" id="node9" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="431,71,569,97"/>
+<area shape="rect" id="node11" href="$s__context_8h.html#aaa0ef1d5da815b257ef77066ed9b3572" title="cast wrapper" alt="" coords="425,121,575,148"/>
+</map>

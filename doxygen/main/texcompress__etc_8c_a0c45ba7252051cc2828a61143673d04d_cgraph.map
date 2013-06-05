@@ -1,0 +1,4 @@
+<map id="etc2_signed_r11_fetch_texel" name="etc2_signed_r11_fetch_texel">
+<area shape="rect" id="node3" href="$texcompress__etc_8c.html#a4fec87b53a1ec2611c0bfd871cd6319d" title="etc2_clamp3" alt="" coords="232,5,328,32"/>
+<area shape="rect" id="node5" href="$texcompress__etc_8c.html#afd5fa403fb435c2879304ee9a72ba4e4" title="etc2_get_pixel_index" alt="" coords="208,56,352,83"/>
+</map>

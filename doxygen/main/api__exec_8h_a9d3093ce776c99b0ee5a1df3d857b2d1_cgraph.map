@@ -1,0 +1,51 @@
+<map id="_mesa_initialize_dispatch_tables" name="_mesa_initialize_dispatch_tables">
+<area shape="rect" id="node3" href="$api__exec_8c.html#a11f27a082edaced1ef9c985df72b107a" title="Initialize a context&#39;s exec table with pointers to Mesa&#39;s supported GL functions." alt="" coords="225,1171,375,1213"/>
+<area shape="rect" id="node103" href="$dlist_8c.html#a2176e7d7375805c71f350fb126770377" title="Setup the given dispatch table to point to Mesa&#39;s display list building functions." alt="" coords="225,1237,375,1278"/>
+<area shape="rect" id="node5" href="$accum_8c.html#a5460b6764b4196a2ad276fe5997b99c3" title="_mesa_Accum" alt="" coords="487,5,596,32"/>
+<area shape="rect" id="node7" href="$shaderapi_8c.html#a7dc198870ca4add4802eba939340d7b4" title="For GL_EXT_separate_shader_objects." alt="" coords="451,56,631,83"/>
+<area shape="rect" id="node9" href="$stencil_8c.html#a8efb92f08a8babece76a85f09d4a7cfd" title="_mesa_ActiveStencilFaceEXT" alt="" coords="441,107,641,133"/>
+<area shape="rect" id="node11" href="$texstate_8c.html#a615a93abffe77a2ab7131146c4b55dfb" title="_mesa_ActiveTexture" alt="" coords="467,157,616,184"/>
+<area shape="rect" id="node13" href="$atifragshader_8c.html#a0c7acb978250bf1511fff19f041bbe74" title="_mesa_AlphaFragmentOp1ATI" alt="" coords="441,208,642,235"/>
+<area shape="rect" id="node15" href="$atifragshader_8c.html#a103cb0d80804f328a8113c3a19f81c95" title="_mesa_AlphaFragmentOp2ATI" alt="" coords="441,259,642,285"/>
+<area shape="rect" id="node17" href="$atifragshader_8c.html#a34266958398f5d25f2426095cd99f00d" title="_mesa_AlphaFragmentOp3ATI" alt="" coords="441,309,642,336"/>
+<area shape="rect" id="node19" href="$blend_8c.html#ac395d6413bf4459d52b2531c7fb319c6" title="Specify the alpha test function." alt="" coords="748,385,879,412"/>
+<area shape="rect" id="node21" href="$es1__conversion_8c.html#acb49256c9965f7523b21e982875a8368" title="_mesa_AlphaFuncx" alt="" coords="473,411,610,437"/>
+<area shape="rect" id="node24" href="$texobj_8c.html#ab9063af89c391e2bf01db5b568474609" title="See if textures are loaded in texture memory." alt="" coords="446,461,637,488"/>
+<area shape="rect" id="node26" href="$shaderapi_8c.html#a69e9ce4ef30f00d9776e045d6e2fcd1a" title="_mesa_AttachObjectARB" alt="" coords="455,512,627,539"/>
+<area shape="rect" id="node28" href="$shaderapi_8c.html#ac5d61763936412b8fb530b1d97754c4e" title="_mesa_AttachShader" alt="" coords="468,563,615,589"/>
+<area shape="rect" id="node30" href="$condrender_8c.html#af19b93aaa843651c1d267ad6037f33a2" title="_mesa_BeginConditionalRender" alt="" coords="437,613,645,640"/>
+<area shape="rect" id="node32" href="$atifragshader_8c.html#af617fce7d06b31243d3104c3c604b0e7" title="_mesa_BeginFragmentShaderATI" alt="" coords="432,664,651,691"/>
+<area shape="rect" id="node34" href="$queryobj_8c.html#a80b3a2a21ed53c03c12ccb6c11c77dff" title="_mesa_BeginQuery" alt="" coords="473,715,609,741"/>
+<area shape="rect" id="node36" href="$queryobj_8c.html#a25530a22211282009249cfb0b3991af3" title="_mesa_BeginQueryIndexed" alt="" coords="722,740,905,767"/>
+<area shape="rect" id="node39" href="$transformfeedback_8c.html#ac0bebda8938407fe8c5274ef18db3f8e" title="Begin API functions." alt="" coords="433,816,650,843"/>
+<area shape="rect" id="node41" href="$shaderapi_8h.html#a803db2eee0287dcfed627a867a83ee54" title="_mesa_BindAttribLocation" alt="" coords="454,867,629,893"/>
+<area shape="rect" id="node43" href="$bufferobj_8c.html#a2dc53edb1f892ebaae0084fb1d803a13" title="_mesa_BindBuffer" alt="" coords="477,917,606,944"/>
+<area shape="rect" id="node45" href="$bufferobj_8c.html#ade0a2047a284004fa2f6af79fa8dca1b" title="_mesa_BindBufferBase" alt="" coords="462,968,621,995"/>
+<area shape="rect" id="node47" href="$transformfeedback_8c.html#a9c12d5b8708eb5da1de3cad4fbbdbfc6" title="Specify a buffer object to receive vertex shader results, plus the offset in the buffer to start plac..." alt="" coords="446,1019,637,1045"/>
+<area shape="rect" id="node49" href="$bufferobj_8c.html#aa33fb0d1e5d65edc5a42d0bfe90029f8" title="_mesa_BindBufferRange" alt="" coords="458,1069,625,1096"/>
+<area shape="rect" id="node51" href="$shaderapi_8h.html#a3f1624bbaa94872fd04282d80aa3b60e" title="_mesa_BindFragDataLocation" alt="" coords="443,1120,640,1147"/>
+<area shape="rect" id="node53" href="$shaderapi_8h.html#a286d4769df2220157120f003cfc05e10" title="_mesa_BindFragDataLocation\lIndexed" alt="" coords="443,1171,640,1213"/>
+<area shape="rect" id="node55" href="$atifragshader_8c.html#a0e54e9ab0ea85de68fff00f68b7a54a9" title="_mesa_BindFragmentShaderATI" alt="" coords="436,1237,647,1264"/>
+<area shape="rect" id="node57" href="$fbobject_8c.html#a75170f0c883195f1efbeab8b6cb5df05" title="_mesa_BindFramebuffer" alt="" coords="459,1288,623,1315"/>
+<area shape="rect" id="node59" href="$arbprogram_8c.html#a8efdeaef4595887a421c8b239fd1f9d3" title="Bind a program (make it current)" alt="" coords="456,1339,627,1365"/>
+<area shape="rect" id="node61" href="$fbobject_8c.html#aede4d8189d2b2c36f3c85aa381d6430e" title="_mesa_BindRenderbuffer" alt="" coords="457,1389,626,1416"/>
+<area shape="rect" id="node63" href="$samplerobj_8c.html#a36cd4018a9d476372ecd4f79d17af3ed" title="_mesa_BindSampler" alt="" coords="470,1440,613,1467"/>
+<area shape="rect" id="node65" href="$texobj_8c.html#ac89806599e0bff7f3130d0c001040d43" title="Bind a named texture to a texturing target." alt="" coords="472,1491,611,1517"/>
+<area shape="rect" id="node67" href="$transformfeedback_8c.html#a29c372ffc9aa071d7e668b8bce7d2ba7" title="Bind the given transform feedback object." alt="" coords="436,1541,647,1568"/>
+<area shape="rect" id="node69" href="$arrayobj_8c.html#a7945db9abc8efae7ab85696c4dfde9bb" title="ARB version of glBindVertexArray() This function behaves differently from glBindVertexArrayAPPLE() in..." alt="" coords="460,1592,623,1619"/>
+<area shape="rect" id="node71" href="$arrayobj_8c.html#a87c221fbb6918dab8a2146ee6fc6d744" title="Bind a new array." alt="" coords="438,1643,645,1669"/>
+<area shape="rect" id="node73" href="$drawpix_8c.html#a5917a71b3fe420c75e436c2ad30e3882" title="_mesa_Bitmap" alt="" coords="487,1693,596,1720"/>
+<area shape="rect" id="node75" href="$blend_8c.html#a4545ae10e6a102d787088891bae2ebd1" title="Set the blending color." alt="" coords="475,1744,607,1771"/>
+<area shape="rect" id="node77" href="$blend_8c.html#afedc160044fc31a1dfa2c11530801e67" title="_mesa_BlendEquation" alt="" coords="465,1795,617,1821"/>
+<area shape="rect" id="node79" href="$blend_8c.html#aaee227b58a819eace74034e29f7de665" title="Set blend equation for one color buffer/target." alt="" coords="450,1845,633,1872"/>
+<area shape="rect" id="node81" href="$blend_8c.html#ac8e39f572fb3717770044814928e9166" title="_mesa_BlendEquationSeparate" alt="" coords="439,1896,643,1923"/>
+<area shape="rect" id="node83" href="$blend_8c.html#a15b5262e420676a6667dc3d5e3f9da19" title="Set separate blend equations for one color buffer/target." alt="" coords="424,1947,659,1973"/>
+<area shape="rect" id="node85" href="$blend_8c.html#a997c333567c7864699112b072d11aea2" title="Specify the blending operation." alt="" coords="476,1997,607,2024"/>
+<area shape="rect" id="node87" href="$blend_8c.html#ac634555cda084fa7772c63ff2a23cc19" title="Set the separate blend source/dest factors for all draw buffers." alt="" coords="722,2036,905,2063"/>
+<area shape="rect" id="node89" href="$blend_8c.html#ac92a37028a8a28a8522189c63abb5c8b" title="Set blend source/dest factors for one color buffer/target." alt="" coords="461,2099,622,2125"/>
+<area shape="rect" id="node91" href="$blend_8c.html#acb1611b7b744bed83544319b5d128bb2" title="Set separate blend source/dest factors for one color buffer/target." alt="" coords="707,2112,920,2139"/>
+<area shape="rect" id="node95" href="$fbobject_8c.html#a809e68d4b60aa7fd12c02e59ada579bc" title="Blit rectangular region, optionally from one framebuffer to another." alt="" coords="463,2200,620,2227"/>
+<area shape="rect" id="node97" href="$bufferobj_8c.html#a14dc76d1312a145c78da99e7ea007591" title="_mesa_BufferData" alt="" coords="476,2251,607,2277"/>
+<area shape="rect" id="node99" href="$bufferobj_8c.html#ae568644dc2d8f36b64e97c9605930979" title="_mesa_BufferSubData" alt="" coords="464,2301,619,2328"/>
+<area shape="rect" id="node101" href="$dlist_8c.html#a511d88e464629389a5b1275726278f4f" title="_mesa_CallList" alt="" coords="485,2352,597,2379"/>
+</map>

@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['r_5fbit',['R_BIT',['../mtypes_8h.html#a32058e947273e1f3ded05448cc2c7e1c',1,'mtypes.h']]],
+  ['rcomp',['RCOMP',['../config_8h.html#a43dd91ba755212aa295213c9129d8726',1,'config.h']]],
+  ['readnpixelsarb_5fremap_5findex',['ReadnPixelsARB_remap_index',['../dispatch_8h.html#a75ace7ae73f7995d8f4d76700ca3cc5a',1,'dispatch.h']]],
+  ['rectf',['RECTF',['../api__loopback_8c.html#a3598e6f30e6c50ace5f66ad6804a2d01',1,'api_loopback.c']]],
+  ['register_5fconst1f',['register_const1f',['../ffvertex__prog_8c.html#ab1889815108e5d62c435708344e8bd84',1,'ffvertex_prog.c']]],
+  ['register_5fconst2f',['register_const2f',['../ffvertex__prog_8c.html#ab0ca03e9898f356e72657969ef156fed',1,'ffvertex_prog.c']]],
+  ['register_5fconst3f',['register_const3f',['../ffvertex__prog_8c.html#aa8ba32af7d59f42a81bab083a05476ec',1,'ffvertex_prog.c']]],
+  ['register_5fparam1',['register_param1',['../ffvertex__prog_8c.html#ae50af705b22e7690e923744e67c9b05e',1,'ffvertex_prog.c']]],
+  ['register_5fparam2',['register_param2',['../ffvertex__prog_8c.html#a892125225c29ec3491f5388ded885285',1,'ffvertex_prog.c']]],
+  ['register_5fparam3',['register_param3',['../ffvertex__prog_8c.html#a5523b2e9145a488789297f8ba48ef0b6',1,'ffvertex_prog.c']]],
+  ['register_5fparam4',['register_param4',['../ffvertex__prog_8c.html#acc55f32254299cb162f5604c9b68ed5a',1,'ffvertex_prog.c']]],
+  ['register_5fscalar_5fconst',['register_scalar_const',['../ffvertex__prog_8c.html#a28bcff4558714918688aab9d8e211d14',1,'ffvertex_prog.c']]],
+  ['releaseshadercompiler_5fremap_5findex',['ReleaseShaderCompiler_remap_index',['../dispatch_8h.html#ab2df1ac63b01f1b624e7ed2940ffd76e',1,'dispatch.h']]],
+  ['remove_5ffrom_5flist',['remove_from_list',['../simple__list_8h.html#a9eef5543e07db72f8d4d4706764ba0f8',1,'simple_list.h']]],
+  ['renderbufferstorage_5fremap_5findex',['RenderbufferStorage_remap_index',['../dispatch_8h.html#a9fa14bc98e427af66ff64b726191352e',1,'dispatch.h']]],
+  ['renderbufferstoragemultisample_5fremap_5findex',['RenderbufferStorageMultisample_remap_index',['../dispatch_8h.html#ad32d10b1585ad2dea9de62b0ee20760b',1,'dispatch.h']]],
+  ['requestresidentprogramsnv_5fremap_5findex',['RequestResidentProgramsNV_remap_index',['../dispatch_8h.html#a052f04135d2481d7f735f817e8524843',1,'dispatch.h']]],
+  ['resizebuffersmesa_5fremap_5findex',['ResizeBuffersMESA_remap_index',['../dispatch_8h.html#a4b17b15a854fab438884c660484d2bc7',1,'dispatch.h']]],
+  ['resumetransformfeedback_5fremap_5findex',['ResumeTransformFeedback_remap_index',['../dispatch_8h.html#aa3888c22cd3c781162edc8c62c99d5fe',1,'dispatch.h']]],
+  ['return_5fif_5fsupported',['RETURN_IF_SUPPORTED',['../texformat_8c.html#a68628ddee429b950306587daec0e62e3',1,'texformat.c']]],
+  ['rgtc_5fdebug',['RGTC_DEBUG',['../texcompress__rgtc_8c.html#a1d534a82f8409c34e7d843dcf0e56a2c',1,'texcompress_rgtc.c']]],
+  ['rotatex_5fremap_5findex',['Rotatex_remap_index',['../dispatch_8h.html#a0d7f535efd9f1d5a17dbc6d93e9fec00',1,'dispatch.h']]]
+];

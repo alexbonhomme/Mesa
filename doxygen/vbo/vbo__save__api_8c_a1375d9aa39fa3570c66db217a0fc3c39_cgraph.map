@@ -1,0 +1,5 @@
+<map id="merge_prims" name="merge_prims">
+<area shape="rect" id="node3" href="$vbo_8h.html#a325466a9eb647c7863a670deb7d6d607" title="Helper function for determining if two subsequent glBegin/glEnd primitives can be combined..." alt="" coords="369,5,522,32"/>
+<area shape="rect" id="node5" href="$vbo_8h.html#a45956dc25d15d16e8a9ef07c057d3f29" title="If we&#39;ve determined that p0 and p1 can be merged, this function concatenates p1 onto p0..." alt="" coords="173,31,299,57"/>
+<area shape="rect" id="node8" href="$vbo_8h.html#addb8a1c2d5d7fe7841f4bdebe6fba421" title="In some degenarate cases we can improve our ability to merge consecutive primitives." alt="" coords="153,81,319,108"/>
+</map>

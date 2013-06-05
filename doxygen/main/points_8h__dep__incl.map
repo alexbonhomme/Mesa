@@ -1,0 +1,7 @@
+<map id="points.h" name="points.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$attrib_8c.html" title="attrib.c" alt="" coords="115,80,177,107"/>
+<area shape="rect" id="node7" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="202,80,277,107"/>
+<area shape="rect" id="node9" href="$es1__conversion_8c.html" title="es1_conversion.c" alt="" coords="302,80,425,107"/>
+<area shape="rect" id="node11" href="$points_8c.html" title="Point operations." alt="" coords="450,80,517,107"/>
+</map>

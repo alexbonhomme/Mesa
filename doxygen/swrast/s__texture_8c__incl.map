@@ -1,0 +1,22 @@
+<map id="s_texture.c" name="s_texture.c">
+<area shape="rect" id="node3" href="main.tag$context_8h.html" title="main/context.h" alt="" coords="466,155,573,181"/>
+<area shape="rect" id="node28" href="main.tag$fbobject_8h.html" title="main/fbobject.h" alt="" coords="5,304,115,331"/>
+<area shape="rect" id="node32" href="main.tag$teximage_8h.html" title="main/teximage.h" alt="" coords="609,304,727,331"/>
+<area shape="rect" id="node36" href="main.tag$texobj_8h.html" title="main/texobj.h" alt="" coords="139,304,239,331"/>
+<area shape="rect" id="node43" href="$swrast_8h.html" title="Public interface to the software rasterization functions." alt="" coords="803,304,917,331"/>
+<area shape="rect" id="node49" href="$s__context_8h.html" title="Software rasterization context and private types." alt="" coords="724,80,857,107"/>
+<area shape="rect" id="node5" href="main.tag$imports_8h.html" title="imports.h" alt="" coords="383,229,459,256"/>
+<area shape="rect" id="node15" href="main.tag$mtypes_8h.html" title="mtypes.h" alt="" coords="554,379,629,405"/>
+<area shape="rect" id="node7" href="main.tag$compiler_8h.html" title="compiler.h" alt="" coords="276,379,359,405"/>
+<area shape="rect" id="node9" href="main.tag$glheader_8h.html" title="glheader.h" alt="" coords="439,528,521,555"/>
+<area shape="rect" id="node11" href="main.tag$errors_8h.html" title="errors.h" alt="" coords="365,304,432,331"/>
+<area shape="rect" id="node18" href="main.tag$config_8h.html" title="main/config.h" alt="" coords="1006,453,1105,480"/>
+<area shape="rect" id="node20" href="main.tag$simple__list_8h.html" title="main/simple_list.h" alt="" coords="610,453,736,480"/>
+<area shape="rect" id="node22" href="main.tag$formats_8h.html" title="main/formats.h" alt="" coords="761,453,871,480"/>
+<area shape="rect" id="node24" href="main.tag$dd_8h.html" title="dd.h" alt="" coords="487,453,533,480"/>
+<area shape="rect" id="node41" href="main.tag$samplerobj_8h.html" title="samplerobj.h" alt="" coords="105,379,201,405"/>
+<area shape="rect" id="node46" href="$s__chan_8h.html" title="swrast/s_chan.h" alt="" coords="997,379,1115,405"/>
+<area shape="rect" id="node53" href="main.tag$texcompress_8h.html" title="main/texcompress.h" alt="" coords="746,379,885,405"/>
+<area shape="rect" id="node60" href="$s__fragprog_8h.html" title="s_fragprog.h" alt="" coords="1115,155,1209,181"/>
+<area shape="rect" id="node62" href="$s__span_8h.html" title="s_span.h" alt="" coords="968,229,1043,256"/>
+</map>

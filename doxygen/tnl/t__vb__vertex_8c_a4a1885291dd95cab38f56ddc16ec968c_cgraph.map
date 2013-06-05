@@ -1,0 +1,6 @@
+<map id="run_vertex_stage" name="run_vertex_stage">
+<area shape="rect" id="node3" href="math.tag$m__vector_8c.html#a259b6290b5d106719c8f1d4c0ca4a9ae" title="_mesa_vector4f_clean_elem" alt="" coords="177,5,365,32"/>
+<area shape="rect" id="node5" href="$t__context_8h.html#a3e70381663fac89d879cad7675056b27" title="tnl_clip_prepare" alt="" coords="214,56,327,83"/>
+<area shape="rect" id="node9" href="$t__vb__vertex_8c.html#a660151eef017346d6e571944c5db11b3" title="usercliptab" alt="" coords="228,107,313,133"/>
+<area shape="rect" id="node7" href="math.tag$m__clip__tmp_8h.html#ac490d8e88908e0104ff7783052bd5b8e" title="init_c_cliptest" alt="" coords="414,56,517,83"/>
+</map>

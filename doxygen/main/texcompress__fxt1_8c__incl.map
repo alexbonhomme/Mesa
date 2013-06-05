@@ -1,0 +1,19 @@
+<map id="texcompress_fxt1.c" name="texcompress_fxt1.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1732,528,1815,555"/>
+<area shape="rect" id="node9" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="1088,229,1163,256"/>
+<area shape="rect" id="node57" href="$colormac_8h.html" title="Color&#45;related macros." alt="" coords="1425,80,1511,107"/>
+<area shape="rect" id="node60" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="1318,155,1394,181"/>
+<area shape="rect" id="node64" href="$image_8h.html" title="image.h" alt="" coords="446,80,514,107"/>
+<area shape="rect" id="node68" href="$mipmap_8h.html" title="mipmap.h" alt="" coords="1521,155,1599,181"/>
+<area shape="rect" id="node71" href="$texcompress_8h.html" title="texcompress.h" alt="" coords="1781,379,1888,405"/>
+<area shape="rect" id="node75" href="$texcompress__fxt1_8h.html" title="texcompress_fxt1.h" alt="" coords="1726,229,1863,256"/>
+<area shape="rect" id="node78" href="$texstore_8h.html" title="Texture image storage routines." alt="" coords="1715,304,1795,331"/>
+<area shape="rect" id="node11" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="604,379,687,405"/>
+<area shape="rect" id="node36" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1022,304,1088,331"/>
+<area shape="rect" id="node40" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1522,379,1598,405"/>
+<area shape="rect" id="node43" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1164,453,1263,480"/>
+<area shape="rect" id="node47" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1403,453,1523,480"/>
+<area shape="rect" id="node49" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1548,453,1674,480"/>
+<area shape="rect" id="node51" href="$formats_8h.html" title="main/formats.h" alt="" coords="1872,453,1982,480"/>
+<area shape="rect" id="node54" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1750,453,1796,480"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="_mesa_init_sync_object_functions" name="_mesa_init_sync_object_functions">
+<area shape="rect" id="node3" href="$syncobj_8c.html#a89a655886679a57ada46a4daabe13905" title="_mesa_check_sync" alt="" coords="237,5,376,32"/>
+<area shape="rect" id="node7" href="$syncobj_8c.html#a1c212e638f7dfcddcc39efe97fb93e3a" title="_mesa_delete_sync_object" alt="" coords="217,56,397,83"/>
+<area shape="rect" id="node10" href="$syncobj_8c.html#a161e997768f21c048c115e1b275a0759" title="_mesa_fence_sync" alt="" coords="239,107,374,133"/>
+<area shape="rect" id="node13" href="$syncobj_8c.html#acd47f9a829740b9983e0914f2d11aa7c" title="_mesa_new_sync_object" alt="" coords="222,157,391,184"/>
+<area shape="rect" id="node16" href="$syncobj_8c.html#a5da8856c4d41009968645574170b0128" title="_mesa_wait_sync" alt="" coords="243,208,370,235"/>
+<area shape="rect" id="node5" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="446,107,493,133"/>
+</map>

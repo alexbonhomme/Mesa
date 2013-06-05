@@ -1,0 +1,8 @@
+<map id="_mesa_enable_sw_extensions" name="_mesa_enable_sw_extensions">
+<area shape="rect" id="node3" href="$extensions_8c.html#a42022094e282afbece535e45f657f98b" title="Enable the named extension." alt="" coords="254,56,423,83"/>
+<area shape="rect" id="node5" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="624,31,739,57"/>
+<area shape="rect" id="node11" href="$extensions_8c.html#a95f2c91eb8ed9c9348f6c27b8fcc421c" title="Either enable or disable the named extension." alt="" coords="473,81,575,108"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="787,5,906,32"/>
+<area shape="rect" id="node9" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="823,56,870,83"/>
+<area shape="rect" id="node14" href="$extensions_8c.html#a648b5b8042bfa26bf6a07a6eff32d740" title="Given an extension name, lookup up the corresponding member of struct gl_extensions and return that m..." alt="" coords="625,81,737,108"/>
+</map>

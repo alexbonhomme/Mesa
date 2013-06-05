@@ -1,0 +1,6 @@
+<map id="_mesa_apply_rgba_transfer_ops" name="_mesa_apply_rgba_transfer_ops">
+<area shape="rect" id="node3" href="$pixeltransfer_8c.html#a695a4ccc5027137ad0b543c2308aa835" title="_mesa_map_rgba" alt="" coords="297,5,423,32"/>
+<area shape="rect" id="node9" href="$pixeltransfer_8c.html#afd4b63098a07c7155b78cc1fe1ec40bd" title="_mesa_scale_and_bias_rgba" alt="" coords="265,56,455,83"/>
+<area shape="rect" id="node5" href="$imports_8h.html#aad7b5069338c9d8111ef042e60e5c9bc" title="Convert float to int using a fast method." alt="" coords="504,5,571,32"/>
+<area shape="rect" id="node7" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="619,5,695,32"/>
+</map>

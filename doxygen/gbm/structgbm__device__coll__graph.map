@@ -1,0 +1,5 @@
+<map id="gbm_device" name="gbm_device">
+<area shape="rect" id="node3" href="$structgbm__surface.html" title="gbm_surface" alt="" coords="5,139,101,165"/>
+<area shape="rect" id="node6" href="$structgbm__bo.html" title="The allocated buffer object." alt="" coords="230,139,297,165"/>
+<area shape="rect" id="node9" href="$uniongbm__bo__handle.html" title="Abstraction representing the handle to a buffer allocated by the manager." alt="" coords="350,5,463,32"/>
+</map>

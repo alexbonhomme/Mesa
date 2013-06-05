@@ -1,0 +1,4 @@
+<map id="_mesa_get_fb0_attachment" name="_mesa_get_fb0_attachment">
+<area shape="rect" id="node3" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="255,5,371,32"/>
+<area shape="rect" id="node5" href="$fbobject_8h.html#ae7473d56512fc5fbb05bfc40004f22cf" title="Is the given FBO a window system FBO (like an X window)?" alt="" coords="238,56,389,83"/>
+</map>

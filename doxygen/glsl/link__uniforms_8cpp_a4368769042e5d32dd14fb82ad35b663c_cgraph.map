@@ -1,0 +1,5 @@
+<map id="link_update_uniform_buffer_variables" name="link_update_uniform_buffer_variables">
+<area shape="rect" id="node3" href="$classir__variable.html#a8b15f216b2893038a7bf0812641f1762" title="ir_variable::as_variable" alt="" coords="193,5,348,32"/>
+<area shape="rect" id="node5" href="$classir__variable.html#ac8b51bfcdfb9fa232adee5cbe9816089" title="Determine whether or not a variable is part of a uniform block." alt="" coords="213,57,329,98"/>
+<area shape="rect" id="node7" href="$classir__variable.html#a01193dbe271559cdbe2f951ed17de8eb" title="Determine whether or not a variable is the declaration of an interface block." alt="" coords="193,122,349,163"/>
+</map>

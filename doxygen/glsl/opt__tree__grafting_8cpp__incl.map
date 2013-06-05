@@ -1,0 +1,11 @@
+<map id="opt_tree_grafting.cpp" name="opt_tree_grafting.cpp">
+<area shape="rect" id="node3" href="$ir_8h.html" title="ir.h" alt="" coords="313,155,353,181"/>
+<area shape="rect" id="node19" href="$glsl__types_8h.html" title="glsl_types.h" alt="" coords="5,229,96,256"/>
+<area shape="rect" id="node32" href="$ir__visitor_8h.html" title="ir_visitor.h" alt="" coords="649,229,732,256"/>
+<area shape="rect" id="node38" href="$ir__variable__refcount_8h.html" title="Provides a visitor which produces a list of variables referenced, how many times they were referenced..." alt="" coords="287,80,433,107"/>
+<area shape="rect" id="node43" href="$ir__basic__block_8h.html" title="ir_basic_block.h" alt="" coords="509,80,624,107"/>
+<area shape="rect" id="node45" href="$ir__optimization_8h.html" title="Prototypes for optimization passes to be called by the compiler and drivers." alt="" coords="649,80,767,107"/>
+<area shape="rect" id="node9" href="$ralloc_8h.html" title="ralloc: a recursive memory allocator" alt="" coords="331,304,395,331"/>
+<area shape="rect" id="node27" href="$list_8h.html" title="Doubly&#45;linked list abstract container type." alt="" coords="396,229,447,256"/>
+<area shape="rect" id="node34" href="$ir__hierarchical__visitor_8h.html" title="ir_hierarchical_visitor.h" alt="" coords="471,229,625,256"/>
+</map>
