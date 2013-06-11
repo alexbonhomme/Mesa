@@ -1,0 +1,51 @@
+<map id="_mesa_install_save_vtxfmt" name="_mesa_install_save_vtxfmt">
+<area shape="rect" id="node3" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="363,5,511,32"/>
+<area shape="rect" id="node5" href="$vtxfmt_8c.html#a77f0c853e3d25a5f75b625c54097344b" title="Copy the functions found in the GLvertexformat object into the dispatch table." alt="" coords="193,1216,293,1243"/>
+<area shape="rect" id="node7" href="$api__arrayelt_8c.html#ac0b8bac74ba9650bf73fb32f5901c490" title="_mesa_install_arrayelt\l_vtxfmt" alt="" coords="361,57,513,98"/>
+<area shape="rect" id="node9" href="$dlist_8c.html#a37719524cc596e7985bffe66b04948bb" title="_mesa_install_dlist\l_vtxfmt" alt="" coords="371,122,504,163"/>
+<area shape="rect" id="node11" href="$eval_8c.html#afe13bbd5f5cc23ee2ff4091a07a3f288" title="_mesa_install_eval\l_vtxfmt" alt="" coords="371,187,504,229"/>
+<area shape="rect" id="node14" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="379,253,495,280"/>
+<area shape="rect" id="node16" href="$dispatch_8h.html#a97b1094553cda6f0344fb340f73e8a75" title="SET_Begin" alt="" coords="393,304,481,331"/>
+<area shape="rect" id="node18" href="$dispatch_8h.html#af0633428bb1e396b5ecb7ae2a62c4dd4" title="SET_Color3f" alt="" coords="389,355,486,381"/>
+<area shape="rect" id="node20" href="$dispatch_8h.html#a9515e20a40e5c4c48bfdde3eb81de802" title="SET_Color3fv" alt="" coords="385,405,489,432"/>
+<area shape="rect" id="node22" href="$dispatch_8h.html#a6ab074d118a88cea70e2b689170e1740" title="SET_Color4f" alt="" coords="389,456,486,483"/>
+<area shape="rect" id="node24" href="$dispatch_8h.html#ab0a25efc161c8c697326a8feae640490" title="SET_Color4fv" alt="" coords="385,507,489,533"/>
+<area shape="rect" id="node26" href="$dispatch_8h.html#a44a9f1706ca27a11ec7b50eeb1d5d702" title="SET_ColorP3ui" alt="" coords="381,557,493,584"/>
+<area shape="rect" id="node28" href="$dispatch_8h.html#a23b877701a288be3daee3131b6be9d44" title="SET_ColorP3uiv" alt="" coords="378,608,497,635"/>
+<area shape="rect" id="node30" href="$dispatch_8h.html#aabb7009e3e1859d22ddd62b970818bcf" title="SET_ColorP4ui" alt="" coords="381,659,493,685"/>
+<area shape="rect" id="node32" href="$dispatch_8h.html#a5a707a58c425846fb6fa495eacce6bc9" title="SET_ColorP4uiv" alt="" coords="378,709,497,736"/>
+<area shape="rect" id="node34" href="$dispatch_8h.html#a24883a60c321ce43132e536e1d875dbd" title="SET_EdgeFlag" alt="" coords="382,760,493,787"/>
+<area shape="rect" id="node36" href="$dispatch_8h.html#a32973a7f34f4c7ece5a687e27492dbe7" title="SET_End" alt="" coords="398,811,477,837"/>
+<area shape="rect" id="node38" href="$dispatch_8h.html#ab61013348f35026c642245e6048330d6" title="SET_FogCoordfEXT" alt="" coords="366,861,509,888"/>
+<area shape="rect" id="node40" href="$dispatch_8h.html#ad87690ac27e1584a5c38c5af299015d9" title="SET_FogCoordfvEXT" alt="" coords="363,912,512,939"/>
+<area shape="rect" id="node42" href="$dispatch_8h.html#af8b73b2efb36d5bb25eee9af1a273424" title="SET_Indexf" alt="" coords="392,963,483,989"/>
+<area shape="rect" id="node44" href="$dispatch_8h.html#a0f4c65426b287a17c5738242c2076462" title="SET_Indexfv" alt="" coords="388,1013,487,1040"/>
+<area shape="rect" id="node46" href="$dispatch_8h.html#afe5777d6dcecd71cbcaf0c00f23e6fa9" title="SET_Materialfv" alt="" coords="381,1064,493,1091"/>
+<area shape="rect" id="node48" href="$dispatch_8h.html#a1e578ee2de24cd1a94d15ddc252dd111" title="SET_MultiTexCoord1fARB" alt="" coords="348,1115,527,1141"/>
+<area shape="rect" id="node50" href="$dispatch_8h.html#a871c2f6831a6a03e0599511039ebd29e" title="SET_MultiTexCoord1fvARB" alt="" coords="344,1165,531,1192"/>
+<area shape="rect" id="node52" href="$dispatch_8h.html#a1f2b778175a14ba3ea23ace71973a25f" title="SET_MultiTexCoord2fARB" alt="" coords="348,1216,527,1243"/>
+<area shape="rect" id="node54" href="$dispatch_8h.html#acc89af8a55906ced34995e05597cced8" title="SET_MultiTexCoord2fvARB" alt="" coords="344,1267,531,1293"/>
+<area shape="rect" id="node56" href="$dispatch_8h.html#a07ec3d78c522b6105457fe29e3a8a264" title="SET_MultiTexCoord3fARB" alt="" coords="348,1317,527,1344"/>
+<area shape="rect" id="node58" href="$dispatch_8h.html#a1339b0df84fbee8c75f9b19628791b83" title="SET_MultiTexCoord3fvARB" alt="" coords="344,1368,531,1395"/>
+<area shape="rect" id="node60" href="$dispatch_8h.html#a05b86e950f7c30e7c1e30a41dd039fc4" title="SET_MultiTexCoord4fARB" alt="" coords="348,1419,527,1445"/>
+<area shape="rect" id="node62" href="$dispatch_8h.html#ab870675ed1d6bc5a49b6c721e0faf804" title="SET_MultiTexCoord4fvARB" alt="" coords="344,1469,531,1496"/>
+<area shape="rect" id="node64" href="$dispatch_8h.html#a8e085efab719110d737dee3e94265c61" title="SET_MultiTexCoordP1ui" alt="" coords="354,1520,521,1547"/>
+<area shape="rect" id="node66" href="$dispatch_8h.html#a46bc7221a25420ee6536cc3dbffd123d" title="SET_MultiTexCoordP1uiv" alt="" coords="351,1571,524,1597"/>
+<area shape="rect" id="node68" href="$dispatch_8h.html#a0b92cbc512a228cf79460ad562958991" title="SET_MultiTexCoordP2ui" alt="" coords="354,1621,521,1648"/>
+<area shape="rect" id="node70" href="$dispatch_8h.html#a163233b811ae22066dd575b076311fa6" title="SET_MultiTexCoordP2uiv" alt="" coords="351,1672,524,1699"/>
+<area shape="rect" id="node72" href="$dispatch_8h.html#a5e8403e0f51f3c6cd9af004145683948" title="SET_MultiTexCoordP3ui" alt="" coords="354,1723,521,1749"/>
+<area shape="rect" id="node74" href="$dispatch_8h.html#a4481900476f048604de434236902ec0c" title="SET_MultiTexCoordP3uiv" alt="" coords="351,1773,524,1800"/>
+<area shape="rect" id="node76" href="$dispatch_8h.html#ab2af82696df9831bfe2fa6eb070705de" title="SET_MultiTexCoordP4ui" alt="" coords="354,1824,521,1851"/>
+<area shape="rect" id="node78" href="$dispatch_8h.html#a94599b7c1364a8fd76db8243c6d86194" title="SET_MultiTexCoordP4uiv" alt="" coords="351,1875,524,1901"/>
+<area shape="rect" id="node80" href="$dispatch_8h.html#a045260bc3bb594d2111929a7b49b0c72" title="SET_Normal3f" alt="" coords="383,1925,491,1952"/>
+<area shape="rect" id="node82" href="$dispatch_8h.html#a78891bc5710cb9423229034892b0e73d" title="SET_Normal3fv" alt="" coords="380,1976,495,2003"/>
+<area shape="rect" id="node84" href="$dispatch_8h.html#ae2597294254591758838e2143e98c9e9" title="SET_NormalP3ui" alt="" coords="376,2027,499,2053"/>
+<area shape="rect" id="node86" href="$dispatch_8h.html#ae6284dc4f0c0865438669a73c3ec5275" title="SET_NormalP3uiv" alt="" coords="372,2077,503,2104"/>
+<area shape="rect" id="node88" href="$dispatch_8h.html#a850d32b18a7b2fcb1b8cf9bbbcb00f0a" title="SET_PrimitiveRestartNV" alt="" coords="353,2128,521,2155"/>
+<area shape="rect" id="node90" href="$dispatch_8h.html#a0af865d16d0bc45fa3c812574a7a7451" title="SET_SecondaryColor3fEXT" alt="" coords="345,2179,530,2205"/>
+<area shape="rect" id="node92" href="$dispatch_8h.html#abb061925f9d45b8eee13f76f37eea38c" title="SET_SecondaryColor3fvEXT" alt="" coords="341,2229,533,2256"/>
+<area shape="rect" id="node94" href="$dispatch_8h.html#a76fdc645c5dd3e40d1508d3a914c997a" title="SET_SecondaryColorP3ui" alt="" coords="350,2280,525,2307"/>
+<area shape="rect" id="node96" href="$dispatch_8h.html#a057daded21ec0af2596326d75b85671f" title="SET_SecondaryColorP3uiv" alt="" coords="347,2331,528,2357"/>
+<area shape="rect" id="node98" href="$dispatch_8h.html#ab40871b7f9743b0bb4a0fee01388fc38" title="SET_TexCoord1f" alt="" coords="376,2381,499,2408"/>
+<area shape="rect" id="node100" href="$dispatch_8h.html#a6c14f54bcbe4c543f3d1d992b88acf82" title="SET_TexCoord1fv" alt="" coords="372,2432,503,2459"/>
+</map>

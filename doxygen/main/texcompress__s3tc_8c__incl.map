@@ -1,0 +1,20 @@
+<map id="texcompress_s3tc.c" name="texcompress_s3tc.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1345,528,1428,555"/>
+<area shape="rect" id="node9" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="757,229,832,256"/>
+<area shape="rect" id="node40" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1538,379,1613,405"/>
+<area shape="rect" id="node57" href="$colormac_8h.html" title="Color&#45;related macros." alt="" coords="1625,80,1711,107"/>
+<area shape="rect" id="node60" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="1462,155,1537,181"/>
+<area shape="rect" id="node64" href="$dlopen_8h.html" title="dlopen.h" alt="" coords="2073,80,2143,107"/>
+<area shape="rect" id="node66" href="$image_8h.html" title="image.h" alt="" coords="1907,155,1975,181"/>
+<area shape="rect" id="node71" href="$texcompress_8h.html" title="texcompress.h" alt="" coords="1921,379,2028,405"/>
+<area shape="rect" id="node75" href="$texcompress__s3tc_8h.html" title="texcompress_s3tc.h" alt="" coords="1797,229,1936,256"/>
+<area shape="rect" id="node79" href="$texstore_8h.html" title="Texture image storage routines." alt="" coords="1765,304,1845,331"/>
+<area shape="rect" id="node85" href="$format__unpack_8h.html" title="format_unpack.h" alt="" coords="2167,80,2285,107"/>
+<area shape="rect" id="node11" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="683,379,765,405"/>
+<area shape="rect" id="node36" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="761,304,828,331"/>
+<area shape="rect" id="node43" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1694,453,1793,480"/>
+<area shape="rect" id="node47" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1549,453,1669,480"/>
+<area shape="rect" id="node49" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1161,453,1287,480"/>
+<area shape="rect" id="node51" href="$formats_8h.html" title="main/formats.h" alt="" coords="1819,453,1928,480"/>
+<area shape="rect" id="node54" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1363,453,1409,480"/>
+</map>

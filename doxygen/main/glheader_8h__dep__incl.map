@@ -1,0 +1,51 @@
+<map id="glheader.h" name="glheader.h">
+<area shape="rect" id="node3" href="$accum_8c.html" title="accum.c" alt="" coords="135,379,207,405"/>
+<area shape="rect" id="node5" href="$accum_8h.html" title="Accumulation buffer operations." alt="" coords="462,304,534,331"/>
+<area shape="rect" id="node8" href="$attrib_8c.html" title="attrib.c" alt="" coords="2628,379,2690,405"/>
+<area shape="rect" id="node10" href="$condrender_8h.html" title="condrender.h" alt="" coords="45,80,142,107"/>
+<area shape="rect" id="node13" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="742,304,818,331"/>
+<area shape="rect" id="node16" href="$api__arrayelt_8c.html" title="api_arrayelt.c" alt="" coords="529,379,628,405"/>
+<area shape="rect" id="node18" href="$api__validate_8c.html" title="api_validate.c" alt="" coords="653,379,755,405"/>
+<area shape="rect" id="node20" href="$arbprogram_8c.html" title="ARB_vertex/fragment_program state management functions." alt="" coords="780,379,879,405"/>
+<area shape="rect" id="node22" href="$arrayobj_8c.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="1678,379,1756,405"/>
+<area shape="rect" id="node24" href="$atifragshader_8c.html" title="atifragshader.c" alt="" coords="986,379,1094,405"/>
+<area shape="rect" id="node27" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="1402,379,1484,405"/>
+<area shape="rect" id="node29" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="664,229,731,256"/>
+<area shape="rect" id="node32" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1269,155,1344,181"/>
+<area shape="rect" id="node37" href="$api__loopback_8h.html" title="api_loopback.h" alt="" coords="806,229,915,256"/>
+<area shape="rect" id="node39" href="$api__loopback_8c.html" title="api_loopback.c" alt="" coords="843,304,952,331"/>
+<area shape="rect" id="node43" href="$transformfeedback_8h.html" title="transformfeedback.h" alt="" coords="1078,304,1219,331"/>
+<area shape="rect" id="node48" href="$arrayobj_8h.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="2166,229,2244,256"/>
+<area shape="rect" id="node54" href="$texobj_8h.html" title="Texture object management." alt="" coords="1649,229,1716,256"/>
+<area shape="rect" id="node59" href="$blend_8c.html" title="Blending operations." alt="" coords="1843,229,1907,256"/>
+<area shape="rect" id="node62" href="$buffers_8c.html" title="glReadBuffer, DrawBuffer functions." alt="" coords="1932,229,2004,256"/>
+<area shape="rect" id="node64" href="$clear_8c.html" title="glClearColor, glClearIndex, glClear() functions." alt="" coords="2030,229,2091,256"/>
+<area shape="rect" id="node66" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1273,80,1319,107"/>
+<area shape="rect" id="node73" href="$api__validate_8h.html" title="api_validate.h" alt="" coords="182,155,284,181"/>
+<area shape="rect" id="node78" href="$arbprogram_8h.html" title="arbprogram.h" alt="" coords="411,155,510,181"/>
+<area shape="rect" id="node82" href="$hash_8h.html" title="Generic hash table." alt="" coords="1446,304,1507,331"/>
+<area shape="rect" id="node89" href="$image_8h.html" title="image.h" alt="" coords="1684,304,1751,331"/>
+<area shape="rect" id="node94" href="$varray_8h.html" title="varray.h" alt="" coords="2075,304,2144,331"/>
+<area shape="rect" id="node99" href="$atifragshader_8h.html" title="atifragshader.h" alt="" coords="1041,155,1148,181"/>
+<area shape="rect" id="node103" href="$attrib_8h.html" title="attrib.h" alt="" coords="2422,229,2484,256"/>
+<area shape="rect" id="node106" href="$blend_8h.html" title="Blending functions operations." alt="" coords="2006,155,2070,181"/>
+<area shape="rect" id="node110" href="$buffers_8h.html" title="Frame buffer management functions declarations." alt="" coords="2230,155,2303,181"/>
+<area shape="rect" id="node114" href="$clear_8h.html" title="clear.h" alt="" coords="2144,155,2206,181"/>
+<area shape="rect" id="node118" href="$depth_8h.html" title="Depth buffer operations." alt="" coords="2473,304,2538,331"/>
+<area shape="rect" id="node121" href="$enable_8h.html" title="Enable/disable/query GL capabilities." alt="" coords="2481,155,2551,181"/>
+<area shape="rect" id="node124" href="$fog_8h.html" title="Fog operations." alt="" coords="2611,229,2662,256"/>
+<area shape="rect" id="node127" href="$hint_8h.html" title="Hints operations." alt="" coords="2665,304,2719,331"/>
+<area shape="rect" id="node130" href="$light_8h.html" title="light.h" alt="" coords="2678,155,2735,181"/>
+<area shape="rect" id="node133" href="$lines_8h.html" title="Line operations." alt="" coords="2788,229,2847,256"/>
+<area shape="rect" id="node136" href="$matrix_8h.html" title="matrix.h" alt="" coords="2846,304,2915,331"/>
+<area shape="rect" id="node139" href="$multisample_8h.html" title="multisample.h" alt="" coords="2862,155,2964,181"/>
+<area shape="rect" id="node142" href="$points_8h.html" title="Point operations." alt="" coords="2858,80,2926,107"/>
+<area shape="rect" id="node145" href="$polygon_8h.html" title="Polygon operations." alt="" coords="2950,80,3028,107"/>
+<area shape="rect" id="node148" href="$scissor_8h.html" title="scissor.h" alt="" coords="3054,80,3128,107"/>
+<area shape="rect" id="node151" href="$stencil_8h.html" title="Stencil operations." alt="" coords="3153,80,3223,107"/>
+<area shape="rect" id="node154" href="$texenv_8h.html" title="texenv.h" alt="" coords="3248,80,3320,107"/>
+<area shape="rect" id="node157" href="$texgen_8h.html" title="texgen.h" alt="" coords="3344,80,3416,107"/>
+<area shape="rect" id="node161" href="$texparam_8h.html" title="texparam.h" alt="" coords="3441,80,3527,107"/>
+<area shape="rect" id="node164" href="$viewport_8h.html" title="viewport.h" alt="" coords="3552,80,3635,107"/>
+<area shape="rect" id="node169" href="$fbobject_8h.html" title="fbobject.h" alt="" coords="1649,155,1727,181"/>
+</map>

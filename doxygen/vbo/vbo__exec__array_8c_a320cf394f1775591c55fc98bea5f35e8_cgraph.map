@@ -1,0 +1,51 @@
+<map id="vbo_initialize_exec_dispatch" name="vbo_initialize_exec_dispatch">
+<area shape="rect" id="node3" href="$vbo__exec__array_8c.html#a68c7ae61446cf5dcd888115525580f75" title="Called from glDrawArrays when in immediate mode (not display list mode)." alt="" coords="484,48,639,75"/>
+<area shape="rect" id="node32" href="$vbo__exec__array_8c.html#a650fc8201ecf22d3121dd90024fb7669" title="Called from glDrawArraysInstanced when in immediate mode (not display list mode)." alt="" coords="456,99,667,125"/>
+<area shape="rect" id="node41" href="$vbo__exec__array_8c.html#a2d235cee7f3fd4f5714ede9ca6a71330" title="Called from glDrawArraysInstancedBaseInstance when in immediate mode." alt="" coords="456,150,667,191"/>
+<area shape="rect" id="node49" href="$vbo__exec__array_8c.html#acfc956660015b8fa81f1a7968c7106cd" title="Called by glDrawElements() in immediate mode." alt="" coords="476,216,647,243"/>
+<area shape="rect" id="node64" href="$vbo__exec__array_8c.html#ab75834a3146dbd0231a9d9124333eeac" title="Called by glDrawElementsBaseVertex() in immediate mode." alt="" coords="461,267,662,309"/>
+<area shape="rect" id="node70" href="$vbo__exec__array_8c.html#a30175144b931d163fb14b14508c51e58" title="Called by glDrawElementsInstanced() in immediate mode." alt="" coords="447,333,675,360"/>
+<area shape="rect" id="node77" href="$vbo__exec__array_8c.html#a5c541fcc9f12a65a39b57e48159d8b6c" title="Called by glDrawElementsInstancedBaseInstance() in immediate mode." alt="" coords="447,385,675,426"/>
+<area shape="rect" id="node83" href="$vbo__exec__array_8c.html#acafb4ebcf62c9cdbe0abcefcc37fcad1" title="Called by glDrawElementsInstancedBaseVertex() in immediate mode." alt="" coords="447,450,675,491"/>
+<area shape="rect" id="node89" href="$vbo__exec__array_8c.html#a092c7e6f789bb398c0dfaaa4080e6e98" title="Called by glDrawElementsInstancedBaseVertexBaseInstance() in immediate mode." alt="" coords="447,515,675,557"/>
+<area shape="rect" id="node95" href="$vbo__exec__array_8c.html#aac9458b720a9c1d9f59ed90d39b18311" title="Called by glDrawRangeElements() in immediate mode." alt="" coords="187,632,397,659"/>
+<area shape="rect" id="node99" href="$vbo__exec__array_8c.html#af836cf2868264288516c5b96c149be2a" title="Called by glDrawRangeElementsBaseVertex() in immediate mode." alt="" coords="457,683,666,725"/>
+<area shape="rect" id="node115" href="$vbo__exec__array_8c.html#adbb1b5a0a8ddc3e809f1e61dd8844e8f" title="Like DrawArrays, but take the count from a transform feedback object." alt="" coords="445,749,677,776"/>
+<area shape="rect" id="node129" href="$vbo__exec__array_8c.html#a3802aab5662944fd8fa21711fd80b22f" title="vbo_exec_DrawTransformFeedback\lInstanced" alt="" coords="445,801,677,842"/>
+<area shape="rect" id="node135" href="$vbo__exec__array_8c.html#a3e9be2217d094cd05d4f566888b4f72e" title="vbo_exec_DrawTransformFeedback\lStream" alt="" coords="445,866,677,907"/>
+<area shape="rect" id="node141" href="$vbo__exec__array_8c.html#a9302ac937ed125b80549870036ebb0e7" title="vbo_exec_DrawTransformFeedback\lStreamInstanced" alt="" coords="445,931,677,973"/>
+<area shape="rect" id="node147" href="$vbo__exec__array_8c.html#a7ff5be5d6efdffcb6fe11ea5d6545b06" title="vbo_exec_EvalMesh1" alt="" coords="217,1088,367,1115"/>
+<area shape="rect" id="node151" href="$vbo__exec__array_8c.html#a5af146b5faa85e9e30067d443da3f833" title="vbo_exec_EvalMesh2" alt="" coords="217,1037,367,1064"/>
+<area shape="rect" id="node154" href="$vbo__exec__array_8c.html#ad24b51057fe27ac26e0d7d71076f14ac" title="vbo_exec_MultiDrawElements" alt="" coords="462,997,661,1024"/>
+<area shape="rect" id="node168" href="$vbo__exec__array_8c.html#a05d691e2ab83f0ec278d5d56e18fceea" title="vbo_exec_MultiDrawElements\lBaseVertex" alt="" coords="462,1049,661,1090"/>
+<area shape="rect" id="node172" href="$vbo__exec__array_8c.html#a02f887a987896f2bc8eb9c7c240509bb" title="Execute a glRectf() function." alt="" coords="233,1139,351,1165"/>
+<area shape="rect" id="node5" href="main.tag$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="_mesa_debug" alt="" coords="786,523,889,549"/>
+<area shape="rect" id="node7" href="main.tag$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="745,472,929,499"/>
+<area shape="rect" id="node9" href="main.tag$api__validate_8c.html#a47e0c6feecff3f6a0f53e747817c4c87" title="_mesa_validate_DrawArrays" alt="" coords="743,5,932,32"/>
+<area shape="rect" id="node11" href="$vbo__exec__array_8c.html#a77b3e06873c66ff84b68dffb95abaa20" title="Check array data, looking for NaNs, etc." alt="" coords="754,56,921,83"/>
+<area shape="rect" id="node13" href="$vbo__exec__array_8c.html#adee1df854a2f4d2323b2facf8807272e" title="Print info/data for glDrawArrays(), for debugging." alt="" coords="775,107,900,133"/>
+<area shape="rect" id="node17" href="$vbo__exec__array_8c.html#a4ac27859e4196b62bf1286e1d12d1683" title="Helper function called by the other DrawArrays() functions below." alt="" coords="777,157,898,184"/>
+<area shape="rect" id="node15" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="1480,472,1573,499"/>
+<area shape="rect" id="node19" href="main.tag$context_8c.html#a1534c85a80d793eaa3b893b891e0a35d" title="_mesa_flush" alt="" coords="1055,355,1151,381"/>
+<area shape="rect" id="node21" href="$vbo__exec__array_8c.html#ae4f0719822a43bb937b8416bf5daf316" title="All vertex buffers should be in an unmapped state when we&#39;re about to draw." alt="" coords="1005,405,1201,432"/>
+<area shape="rect" id="node23" href="$vbo_8h.html#ade9fa9f2a9f4afedf52280db72884959" title="Examine the enabled vertex arrays to set the exec&#45;&gt;array.inputs[] values." alt="" coords="1044,523,1161,549"/>
+<area shape="rect" id="node25" href="main.tag$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="1273,472,1415,499"/>
+<area shape="rect" id="node27" href="$vbo__exec__array_8c.html#a6231460e523ca7dab1db53af9252a736" title="Set the vbo&#45;&gt;exec&#45;&gt;inputs[] pointers to point to the enabled vertex arrays." alt="" coords="1257,573,1431,600"/>
+<area shape="rect" id="node36" href="main.tag$api__validate_8c.html#a163f033429ce95344e226902ebac034d" title="_mesa_validate_DrawArrays\lInstanced" alt="" coords="743,209,932,250"/>
+<area shape="rect" id="node53" href="main.tag$api__validate_8c.html#a0a00744605f92343fbcc61fff852b1f6" title="_mesa_validate_DrawElements" alt="" coords="734,275,941,301"/>
+<area shape="rect" id="node55" href="$vbo__exec__array_8c.html#ac50340984fa5a006bb1647a12666b9e4" title="Map GL_ELEMENT_ARRAY_BUFFER and print contents." alt="" coords="726,355,949,381"/>
+<area shape="rect" id="node60" href="$vbo__exec__array_8c.html#ada2a59079132f4da61e2355929ca59fb" title="Handle a draw case that potentially has primitive restart enabled." alt="" coords="1031,457,1175,498"/>
+<area shape="rect" id="node74" href="main.tag$api__validate_8c.html#a0ab1b39942701703985d08a0eb0605ed" title="_mesa_validate_DrawElements\lInstanced" alt="" coords="734,406,941,447"/>
+<area shape="rect" id="node103" href="main.tag$api__validate_8c.html#a883007ffd253eaa092ac7175cf84f559" title="_mesa_validate_DrawRange\lElements" alt="" coords="743,625,932,666"/>
+<area shape="rect" id="node105" href="main.tag$errors_8c.html#abf6b2d27cc17bae887812e7012fc31f9" title="_mesa_warning" alt="" coords="781,691,894,717"/>
+<area shape="rect" id="node107" href="$vbo__exec__array_8c.html#ae35bef55d2899a667fc12a992ef7800a" title="Examine the array&#39;s data for NaNs, etc." alt="" coords="745,573,929,600"/>
+<area shape="rect" id="node109" href="$vbo__exec__array_8c.html#a6b385aca7a311a2f4424fc96a2dce8fd" title="Check that element &#39;j&#39; of the array has reasonable data." alt="" coords="1040,573,1165,600"/>
+<area shape="rect" id="node111" href="$vbo__exec__array_8c.html#af1205f7654f0b3385135eb95ce67115b" title="Unmap the buffer object referenced by given array, if mapped." alt="" coords="1034,624,1171,651"/>
+<area shape="rect" id="node119" href="main.tag$transformfeedback_8c.html#a733407d2896a56c530c250a453d14b8b" title="_mesa_lookup_transform\l_feedback_object" alt="" coords="753,742,921,783"/>
+<area shape="rect" id="node121" href="$vbo__exec__array_8c.html#aeec442239e775689b3cef56c65ab5883" title="vbo_draw_transform\l_feedback" alt="" coords="767,807,907,849"/>
+<area shape="rect" id="node124" href="main.tag$api__validate_8c.html#ad51a6c34d9e4234509b109a9b4cc3d6c" title="_mesa_validate_DrawTransform\lFeedback" alt="" coords="997,727,1208,769"/>
+<area shape="rect" id="node149" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="1055,1115,1150,1141"/>
+<area shape="rect" id="node156" href="main.tag$api__validate_8c.html#afdff0a464c8f39d9d0be20d1047e58ee" title="_mesa_validate_MultiDraw\lElements" alt="" coords="748,1019,927,1061"/>
+<area shape="rect" id="node158" href="$vbo__exec__array_8c.html#a53466163c55b0580fe71cb596a6e6c70" title="Inner support for both _mesa_MultiDrawElements() and _mesa_MultiDrawRangeElements()." alt="" coords="728,873,947,900"/>
+<area shape="rect" id="node161" href="$vbo_8h.html#a2b210ac8168d440371a8dd6186444b83" title="vbo_sizeof_ib_type" alt="" coords="1035,895,1170,921"/>
+</map>

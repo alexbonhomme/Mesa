@@ -1,0 +1,6 @@
+<map id="get_stencil_offset" name="get_stencil_offset">
+<area shape="rect" id="node3" href="main.tag$formats_8c.html#ae2c7110b16bdbb90dc5c36b123db9f0a" title="_mesa_get_format_bits" alt="" coords="203,5,362,32"/>
+<area shape="rect" id="node5" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="198,56,367,83"/>
+<area shape="rect" id="node7" href="main.tag$format__pack_8c.html#af54efd09ac7b891c786caf1bea76ffc9" title="_mesa_pack_ubyte_stencil_row" alt="" coords="179,107,387,133"/>
+<area shape="rect" id="node9" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="225,157,340,184"/>
+</map>

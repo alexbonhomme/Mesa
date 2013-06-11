@@ -1,0 +1,16 @@
+<map id="_mesa_dump_renderbuffers" name="_mesa_dump_renderbuffers">
+<area shape="rect" id="node3" href="$hash_8c.html#ac1bdad8d2699172748a47f240ab357e2" title="Walk over all entries in a hash table, calling callback function for each." alt="" coords="249,5,378,32"/>
+<area shape="rect" id="node5" href="$debug_8c.html#ab287f24d5fe7570ea59470c2588a26ef" title="dump_renderbuffer_cb" alt="" coords="238,56,389,83"/>
+<area shape="rect" id="node7" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1047,5,1094,32"/>
+<area shape="rect" id="node9" href="$debug_8c.html#a65b3921968cc28ed030ff117e6995b6f" title="dump_renderbuffer" alt="" coords="437,107,568,133"/>
+<area shape="rect" id="node11" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="616,233,800,260"/>
+<area shape="rect" id="node19" href="$debug_8c.html#a09fd5ec92b8bd622cb20540d776b0874" title="Write renderbuffer image to a ppm file." alt="" coords="622,99,794,141"/>
+<area shape="rect" id="node13" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="848,259,963,285"/>
+<area shape="rect" id="node15" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="864,309,947,336"/>
+<area shape="rect" id="node17" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1179,157,1290,184"/>
+<area shape="rect" id="node21" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="854,107,957,133"/>
+<area shape="rect" id="node32" href="$debug_8c.html#a5b5055e3e22beceabe9f0fc4d960c0f6" title="write_ppm" alt="" coords="864,56,947,83"/>
+<area shape="rect" id="node23" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1011,107,1130,133"/>
+<area shape="rect" id="node25" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="1013,56,1128,83"/>
+<area shape="rect" id="node27" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="1181,56,1288,83"/>
+</map>

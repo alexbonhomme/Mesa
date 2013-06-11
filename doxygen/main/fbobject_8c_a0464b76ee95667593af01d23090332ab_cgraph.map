@@ -1,0 +1,12 @@
+<map id="detach_renderbuffer" name="detach_renderbuffer">
+<area shape="rect" id="node3" href="$fbobject_8c.html#ae92cd93c968ccfc400a22ab58c7628e2" title="Remove any texture or renderbuffer attached to the given attachment point." alt="" coords="193,31,375,57"/>
+<area shape="rect" id="node23" href="$fbobject_8c.html#af9d0ea941fd4ef5fad711e22664f9bfe" title="Mark the given framebuffer as invalid." alt="" coords="209,81,359,108"/>
+<area shape="rect" id="node5" href="$renderbuffer_8h.html#af3b5b421d4be4b46b08d366247030bc8" title="_mesa_reference_renderbuffer" alt="" coords="425,5,623,32"/>
+<area shape="rect" id="node9" href="$texobj_8h.html#a8a6496e44427aa05c44fe1a5e2287059" title="_mesa_reference_texobj" alt="" coords="442,56,606,83"/>
+<area shape="rect" id="node7" href="$renderbuffer_8c.html#a60e1a31525785fbd87b23d75ce6c23f7" title="Set *ptr to point to rb." alt="" coords="672,5,877,32"/>
+<area shape="rect" id="node11" href="$texobj_8c.html#a8ab948cb414b721b2ee44e4ca97db5aa" title="Reference (or unreference) a texture object." alt="" coords="689,56,860,83"/>
+<area shape="rect" id="node13" href="$texobj_8c.html#aeec6f9d2a6e060dd2ce76c5b0da941c1" title="Check if the given texture object is valid by examining its Target field." alt="" coords="925,5,1064,32"/>
+<area shape="rect" id="node15" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1112,56,1227,83"/>
+<area shape="rect" id="node19" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1311,107,1358,133"/>
+<area shape="rect" id="node17" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1275,56,1394,83"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="extract_uint_rgba" name="extract_uint_rgba">
+<area shape="rect" id="node3" href="$glformats_8c.html#a14f0df64971e5ece81cb7c04a4e2f09d" title="Get the number of components in a pixel format." alt="" coords="182,29,338,70"/>
+<area shape="rect" id="node5" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="427,95,541,121"/>
+<area shape="rect" id="node11" href="$pack_8c.html#af99dbdcce9a3ce95d8418e559146c3ff" title="clamp_float_to_uint" alt="" coords="193,196,327,223"/>
+<area shape="rect" id="node17" href="$pack_8c.html#abace0b1cc0162ef908ff861954265cc3" title="clamp_half_to_uint" alt="" coords="195,247,325,273"/>
+<area shape="rect" id="node22" href="$pack_8c.html#a355991071e3b8ac97783e7888da7e272" title="Return source/dest RGBA indexes for unpacking pixels." alt="" coords="177,145,343,172"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="625,5,743,32"/>
+<area shape="rect" id="node9" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="661,56,707,83"/>
+<area shape="rect" id="node13" href="$imports_8h.html#aad7b5069338c9d8111ef042e60e5c9bc" title="Convert float to int using a fast method." alt="" coords="451,233,517,260"/>
+<area shape="rect" id="node15" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="646,259,722,285"/>
+<area shape="rect" id="node19" href="$imports_8c.html#a061acde1a3714ab2452ed34c02ebe70a" title="Convert a 2&#45;byte half float to a 4&#45;byte float." alt="" coords="415,284,553,311"/>
+<area shape="rect" id="node25" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="392,145,576,172"/>
+<area shape="rect" id="node27" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="627,107,741,133"/>
+<area shape="rect" id="node29" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="629,157,739,184"/>
+<area shape="rect" id="node31" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="643,208,725,235"/>
+</map>

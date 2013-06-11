@@ -1,0 +1,6 @@
+<map id="validate_texbuffer_format" name="validate_texbuffer_format">
+<area shape="rect" id="node3" href="$formats_8c.html#a011458f3486ed545382e81a11d72cca6" title="Return the basic format for the given type." alt="" coords="189,5,355,46"/>
+<area shape="rect" id="node7" href="$formats_8c.html#a3ffef8fc5049d798ddfa4d6f2eb54753" title="Return the data type (or more specifically, the data representation) for the given format..." alt="" coords="179,71,365,97"/>
+<area shape="rect" id="node10" href="$teximage_8c.html#ac3ddbac29fb291693852fb92ef9e8e83" title="get_texbuffer_format" alt="" coords="201,121,343,148"/>
+<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="414,41,573,68"/>
+</map>

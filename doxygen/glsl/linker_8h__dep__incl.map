@@ -1,0 +1,10 @@
+<map id="linker.h" name="linker.h">
+<area shape="rect" id="node3" href="$ir__function__detect__recursion_8cpp.html" title="Determine whether a shader contains static recursion." alt="" coords="5,81,131,122"/>
+<area shape="rect" id="node5" href="$link__functions_8cpp.html" title="link_functions.cpp" alt="" coords="155,88,281,115"/>
+<area shape="rect" id="node7" href="$link__interface__blocks_8cpp.html" title="Linker support for GLSL&#39;s interface blocks." alt="" coords="306,88,475,115"/>
+<area shape="rect" id="node9" href="$link__uniform__blocks_8cpp.html" title="link_uniform_blocks.cpp" alt="" coords="500,88,663,115"/>
+<area shape="rect" id="node11" href="$link__uniform__initializers_8cpp.html" title="link_uniform_initializers.cpp" alt="" coords="687,88,869,115"/>
+<area shape="rect" id="node13" href="$link__uniforms_8cpp.html" title="Assign locations for GLSL uniforms." alt="" coords="894,88,1017,115"/>
+<area shape="rect" id="node15" href="$link__varyings_8cpp.html" title="Linker functions related specifically to linking varyings between shader stages." alt="" coords="1043,88,1165,115"/>
+<area shape="rect" id="node17" href="$linker_8cpp.html" title="GLSL linker implementation." alt="" coords="1190,88,1268,115"/>
+</map>

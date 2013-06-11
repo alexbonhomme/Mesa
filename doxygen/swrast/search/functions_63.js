@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['choose_5fcube_5fface',['choose_cube_face',['../s__texfilter_8c.html#a8e790211f84b4968d902c98d7f44834c',1,'s_texfilter.c']]],
+  ['choose_5fdepth_5ftexture_5flevel',['choose_depth_texture_level',['../s__texfilter_8c.html#aa7b02d1e7463ce3b57697d5c0b91c3a5',1,'s_texfilter.c']]],
+  ['clamp',['clamp',['../s__stencil_8c.html#ac3909afdb7a47b78dfc2c931ba15c263',1,'s_stencil.c']]],
+  ['clamp_5fcolors',['clamp_colors',['../s__span_8c.html#a2b94b8dff677d5c9e0f3deb83fa2bdda',1,'s_span.c']]],
+  ['clamp_5frect_5fcoord_5flinear',['clamp_rect_coord_linear',['../s__texfilter_8c.html#a55ff0a5a6a7201481f3531716364fe61',1,'s_texfilter.c']]],
+  ['clamp_5frect_5fcoord_5fnearest',['clamp_rect_coord_nearest',['../s__texfilter_8c.html#aec6d956b99a3722447e6bdbf2ecb4b77',1,'s_texfilter.c']]],
+  ['clear_5fcolor_5fbuffers',['clear_color_buffers',['../s__clear_8c.html#a30e2537b1df5d406db5daaa19642c412',1,'s_clear.c']]],
+  ['clear_5frgba_5fbuffer',['clear_rgba_buffer',['../s__clear_8c.html#ae2019850a4cacd521d421f28f6cd5de6',1,'s_clear.c']]],
+  ['clip_5fspan',['clip_span',['../s__span_8c.html#ac511a4739a3c31702f69c9642003ee20',1,'s_span.c']]],
+  ['compute_5fcoveragef',['compute_coveragef',['../s__aaline_8c.html#adf20a79d6da1296f14ab38a242f9b8ec',1,'compute_coveragef(const struct LineInfo *info, GLint winx, GLint winy):&#160;s_aaline.c'],['../s__aatriangle_8c.html#a50ae6efc63a968d4b20bd5bd5f12d403',1,'compute_coveragef(const GLfloat v0[3], const GLfloat v1[3], const GLfloat v2[3], GLint winx, GLint winy):&#160;s_aatriangle.c']]],
+  ['compute_5flambda',['compute_lambda',['../s__aaline_8c.html#a620f318c7c0ef9fed920215ebb7d8e97',1,'s_aaline.c']]],
+  ['compute_5fmin_5fmag_5franges',['compute_min_mag_ranges',['../s__texfilter_8c.html#a1c06e01dc093d56e83a074078fdfbeea',1,'s_texfilter.c']]],
+  ['compute_5fpass_5ffail_5fmasks',['compute_pass_fail_masks',['../s__stencil_8c.html#a2d3fe28efc587dde19323c71ab2673f6',1,'s_stencil.c']]],
+  ['compute_5fplane',['compute_plane',['../s__aaline_8c.html#a6a55706dcf986d947c1f74ca9d8a7c7a',1,'compute_plane(GLfloat x0, GLfloat y0, GLfloat x1, GLfloat y1, GLfloat z0, GLfloat z1, GLfloat plane[4]):&#160;s_aaline.c'],['../s__aatriangle_8c.html#a1432a290c97ef629e0f7ca37b2ed06f0',1,'compute_plane(const GLfloat v0[], const GLfloat v1[], const GLfloat v2[], GLfloat z0, GLfloat z1, GLfloat z2, GLfloat plane[4]):&#160;s_aatriangle.c']]],
+  ['compute_5fstipple_5fmask',['compute_stipple_mask',['../s__lines_8c.html#a22d9f82b9378538e7430c6a8fe2ac542',1,'s_lines.c']]],
+  ['compute_5fzoomed_5fbounds',['compute_zoomed_bounds',['../s__zoom_8c.html#a2ea17815874aa3f12086c148ab02e7a9',1,'s_zoom.c']]],
+  ['const_5fswrast_5fcontext',['CONST_SWRAST_CONTEXT',['../s__context_8h.html#a4b1f4274f246df74c5c43ce393b988d0',1,'s_context.h']]],
+  ['constant_5fplane',['constant_plane',['../s__aaline_8c.html#ad5ed7e4d972e1e55560bc408f98a9c72',1,'constant_plane(GLfloat value, GLfloat plane[4]):&#160;s_aaline.c'],['../s__aatriangle_8c.html#ad5ed7e4d972e1e55560bc408f98a9c72',1,'constant_plane(GLfloat value, GLfloat plane[4]):&#160;s_aatriangle.c'],['../s__aatritemp_8h.html#a4de90086d1bd02f91f6de3d713074897',1,'constant_plane(v2-&gt;color[GCOMP], gPlane):&#160;s_aatritemp.h'],['../s__aatritemp_8h.html#a5d6159b0cc2b4c419eea33d84e2238c3',1,'constant_plane(v2-&gt;color[BCOMP], bPlane):&#160;s_aatritemp.h'],['../s__aatritemp_8h.html#aaceb14d6a81df3f7fb61caf86dfe450a',1,'constant_plane(v2-&gt;color[ACOMP], aPlane):&#160;s_aatritemp.h']]],
+  ['convert_5fcolor_5ftype',['convert_color_type',['../s__span_8c.html#a0c886b68165751ef1edb6fc60402dc06',1,'s_span.c']]],
+  ['copy_5fdepth_5fpixels',['copy_depth_pixels',['../s__copypix_8c.html#a29d2f409660efc3f636dc701129cc85f',1,'s_copypix.c']]],
+  ['copy_5frgba_5fpixels',['copy_rgba_pixels',['../s__copypix_8c.html#a6d301691ff0b72dce406bd5104551c7d',1,'s_copypix.c']]],
+  ['copy_5fstencil_5fpixels',['copy_stencil_pixels',['../s__copypix_8c.html#a920b61ea7538e0c97f5405d8fb54d596',1,'s_copypix.c']]],
+  ['create_5ffilter_5ftable',['create_filter_table',['../s__texfilter_8c.html#aff27a52e1b59a0394404a00045df538b',1,'s_texfilter.c']]]
+];

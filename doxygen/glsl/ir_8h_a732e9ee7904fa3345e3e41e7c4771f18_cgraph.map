@@ -1,0 +1,36 @@
+<map id="_mesa_glsl_initialize_functions" name="_mesa_glsl_initialize_functions">
+<area shape="rect" id="node3" href="$builtin__function_8cpp.html#a30ea3b0ca8aaf434930e8b4dde90877f" title="_mesa_read_profile" alt="" coords="198,492,333,519"/>
+<area shape="rect" id="node21" href="$ralloc_8c.html#a38530c9f4ef437290b8acd706b858410" title="Allocate a new ralloc context." alt="" coords="887,543,990,569"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a8a5d6cd015f1bb09e1ffc6413ab4a326" title="&quot;Steal&quot; memory from one context, changing it to another." alt="" coords="895,492,983,519"/>
+<area shape="rect" id="node13" href="$builtin__function_8cpp.html#a33f071334daae3bc6f103b6afd5712bd" title="read_builtins" alt="" coords="382,283,477,309"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1787,492,1874,519"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="1091,492,1186,519"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1299,593,1376,620"/>
+<area shape="rect" id="node15" href="$glsl__types_8cpp.html#a3704fa2d0f2a70e257a0b088071a2732" title="_mesa_glsl_initialize\l_types" alt="" coords="526,141,669,182"/>
+<area shape="rect" id="node17" href="$ir__reader_8cpp.html#aa4725b3efeb01bbe5e132827cf629aca" title="_mesa_glsl_read_ir" alt="" coords="530,308,665,335"/>
+<area shape="rect" id="node47" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="897,391,980,417"/>
+<area shape="rect" id="node71" href="$builtin__function_8cpp.html#a167d722df1056642076cfc949682c56b" title="_mesa_new_shader" alt="" coords="528,207,667,233"/>
+<area shape="rect" id="node74" href="$ir_8cpp.html#a60a731770eef2674ebd9e7ec933608f8" title="reparent_ir" alt="" coords="556,257,639,284"/>
+<area shape="rect" id="node19" href="$classir__reader.html#abf53ac0c7a6e08b76bf6a8635ca5934d" title="ir_reader::read" alt="" coords="718,308,823,335"/>
+<area shape="rect" id="node27" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="1469,289,1576,316"/>
+<area shape="rect" id="node32" href="$classs__expression.html#add896f8db24b6cab521d06f7d2ed225c" title="Read an S&#45;Expression from the given string." alt="" coords="873,301,1005,342"/>
+<area shape="rect" id="node53" href="$ir_8h.html#a0b3d86acf4cc762367e632a3348683bd" title="Validate invariants on each IR node in a list." alt="" coords="883,188,994,215"/>
+<area shape="rect" id="node23" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1097,644,1181,671"/>
+<area shape="rect" id="node29" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="1643,340,1739,367"/>
+<area shape="rect" id="node34" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="1091,340,1187,367"/>
+<area shape="rect" id="node36" href="$s__expression_8cpp.html#a14c2c66aec8a4af0aeb4a99b6318b5bc" title="__read_expression" alt="" coords="1073,289,1204,316"/>
+<area shape="rect" id="node38" href="$s__expression_8cpp.html#a89220867ecdd7be8378655ecc60506f1" title="read_atom" alt="" coords="1296,340,1379,367"/>
+<area shape="rect" id="node41" href="$s__expression_8cpp.html#a9ee15040079f3159df7b821fbb455a65" title="skip_whitespace" alt="" coords="1463,391,1582,417"/>
+<area shape="rect" id="node43" href="$strtod_8c.html#a2f5efd0ced7708d2fcbcf9cb5b7d34e7" title="Wrapper around strtof which uses the &quot;C&quot; locale so the decimal point is always &#39;." alt="" coords="1483,340,1562,367"/>
+<area shape="rect" id="node51" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="1093,441,1184,468"/>
+<area shape="rect" id="node55" href="$classir__hierarchical__visitor.html#a730b38bc0e9081b22c31690bd7e39f3a" title="Utility function to process a linked list of instructions with a visitor." alt="" coords="1053,188,1224,215"/>
+<area shape="rect" id="node61" href="$ir__hierarchical__visitor_8cpp.html#ac4165ac8d556ba40cca9c10b7bdfa9ad" title="visit_tree" alt="" coords="1101,83,1176,109"/>
+<area shape="rect" id="node64" href="$ir__validate_8cpp.html#a51d049a4fd64bc8e1fc9acb4c36c42aa" title="check_node_type" alt="" coords="1077,133,1201,160"/>
+<area shape="rect" id="node57" href="$ir__hierarchical__visitor_8h.html#a3d916e3fe1319c5d975084a1c412aa37" title="Process a list of nodes using a hierarchical vistor." alt="" coords="1272,188,1403,215"/>
+<area shape="rect" id="node59" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="1451,71,1594,97"/>
+<area shape="rect" id="node66" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="1273,71,1402,97"/>
+<area shape="rect" id="node69" href="$classir__instruction.html#a813b838ab61fd81ba50e75b67e98afe3" title="ir_instruction::as\l_rvalue" alt="" coords="1278,122,1397,163"/>
+<area shape="rect" id="node76" href="$ir_8cpp.html#ae341e75c11b8868864fa8b7ab032e491" title="steal_memory" alt="" coords="719,83,823,109"/>
+<area shape="rect" id="node78" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="879,71,998,113"/>
+<area shape="rect" id="node80" href="$classir__instruction.html#a142617682155660c72f57b637f5f580c" title="ir_instruction::as\l_variable" alt="" coords="879,6,998,47"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="fbobject.h" name="fbobject.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="115,80,197,107"/>
+<area shape="rect" id="node7" href="$buffers_8c.html" title="glReadBuffer, DrawBuffer functions." alt="" coords="222,80,295,107"/>
+<area shape="rect" id="node9" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="319,80,395,107"/>
+<area shape="rect" id="node11" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="419,80,476,107"/>
+<area shape="rect" id="node13" href="$drawpix_8c.html" title="drawpix.c" alt="" coords="501,80,579,107"/>
+<area shape="rect" id="node15" href="$fbobject_8c.html" title="fbobject.c" alt="" coords="603,80,681,107"/>
+<area shape="rect" id="node17" href="$formatquery_8c.html" title="formatquery.c" alt="" coords="706,80,808,107"/>
+<area shape="rect" id="node19" href="$framebuffer_8c.html" title="framebuffer.c" alt="" coords="833,80,932,107"/>
+<area shape="rect" id="node21" href="$multisample_8c.html" title="multisample.c" alt="" coords="957,80,1059,107"/>
+<area shape="rect" id="node23" href="$readpix_8c.html" title="readpix.c" alt="" coords="1084,80,1159,107"/>
+<area shape="rect" id="node25" href="$renderbuffer_8c.html" title="renderbuffer.c" alt="" coords="1183,80,1285,107"/>
+<area shape="rect" id="node27" href="$teximage_8c.html" title="Texture image&#45;related functions." alt="" coords="1310,80,1396,107"/>
+<area shape="rect" id="node29" href="$texobj_8c.html" title="Texture object management." alt="" coords="1421,80,1488,107"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="vbo_save.c" name="vbo_save.c">
+<area shape="rect" id="node3" href="main.tag$mtypes_8h.html" title="main/mtypes.h" alt="" coords="300,229,407,256"/>
+<area shape="rect" id="node16" href="main.tag$bufferobj_8h.html" title="main/bufferobj.h" alt="" coords="297,80,411,107"/>
+<area shape="rect" id="node19" href="main.tag$imports_8h.html" title="main/imports.h" alt="" coords="49,80,157,107"/>
+<area shape="rect" id="node29" href="$vbo__context_8h.html" title="VBO builder module datatypes and definitions." alt="" coords="435,80,539,107"/>
+<area shape="rect" id="node5" href="main.tag$glheader_8h.html" title="main/glheader.h" alt="" coords="138,379,253,405"/>
+<area shape="rect" id="node7" href="main.tag$config_8h.html" title="main/config.h" alt="" coords="304,304,403,331"/>
+<area shape="rect" id="node9" href="main.tag$simple__list_8h.html" title="main/simple_list.h" alt="" coords="428,304,554,331"/>
+<area shape="rect" id="node11" href="main.tag$formats_8h.html" title="main/formats.h" alt="" coords="579,304,689,331"/>
+<area shape="rect" id="node13" href="main.tag$dd_8h.html" title="dd.h" alt="" coords="233,304,279,331"/>
+<area shape="rect" id="node21" href="main.tag$compiler_8h.html" title="compiler.h" alt="" coords="25,229,107,256"/>
+<area shape="rect" id="node24" href="main.tag$errors_8h.html" title="errors.h" alt="" coords="107,155,174,181"/>
+<area shape="rect" id="node31" href="$vbo_8h.html" title="vbo.h" alt="" coords="517,229,571,256"/>
+<area shape="rect" id="node36" href="$vbo__attrib_8h.html" title="vbo_attrib.h" alt="" coords="597,229,687,256"/>
+<area shape="rect" id="node38" href="$vbo__exec_8h.html" title="vbo_exec.h" alt="" coords="556,155,645,181"/>
+<area shape="rect" id="node43" href="$vbo__save_8h.html" title="vbo_save.h" alt="" coords="443,155,531,181"/>
+</map>

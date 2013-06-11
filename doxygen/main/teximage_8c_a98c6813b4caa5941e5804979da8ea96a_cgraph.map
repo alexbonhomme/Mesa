@@ -1,0 +1,51 @@
+<map id="copytexture_error_check" name="copytexture_error_check">
+<area shape="rect" id="node3" href="$glformats_8c.html#ad640bab246168873c764cf0aee9b209b" title="Returns the number of channels/components for a base format." alt="" coords="219,5,429,46"/>
+<area shape="rect" id="node5" href="$teximage_8c.html#a5d62d6baab91d5ce7a62f99d674a0191" title="Return the simple base format for a given internal texture format." alt="" coords="961,172,1127,199"/>
+<area shape="rect" id="node9" href="$context_8h.html#a1981837f60254d23442c54c89565b3f4" title="Checks if the context is for any GLES version." alt="" coords="1233,172,1343,199"/>
+<area shape="rect" id="node11" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="1230,231,1346,257"/>
+<area shape="rect" id="node13" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="277,1167,371,1193"/>
+<area shape="rect" id="node23" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="477,1445,661,1472"/>
+<area shape="rect" id="node46" href="$formats_8c.html#a888ff5083e9e654a6e9895f204596246" title="Return color encoding for given format." alt="" coords="1205,1019,1371,1061"/>
+<area shape="rect" id="node48" href="$glformats_8c.html#abb00c571e03074238f54bb3f51d16be6" title="Convert an sRGB internal format to linear." alt="" coords="219,1417,429,1444"/>
+<area shape="rect" id="node50" href="$framebuffer_8c.html#a576d8a7a934e3f481d032a362254198b" title="Returns the read renderbuffer for the specified format." alt="" coords="227,1519,421,1561"/>
+<area shape="rect" id="node52" href="$glformats_8c.html#a7665bd788fd157a5b098b9c71cd46e7b" title="Test if the given image format is a color/RGBA format (i.e., not color index, depth, stencil, etc)." alt="" coords="491,1496,648,1523"/>
+<area shape="rect" id="node59" href="$glformats_8c.html#a0a0a8e8d4936ffaef48e814a5cfb8b3a" title="Test if an image format is a supported compressed format." alt="" coords="966,223,1122,265"/>
+<area shape="rect" id="node64" href="$teximage_8h.html#a19a4bdb6bf1f5789253f7d25f61986da" title="Is the given value one of the 6 cube faces?" alt="" coords="251,1585,397,1612"/>
+<area shape="rect" id="node66" href="$glformats_8c.html#afff83fe89a1a782a0a429094628de922" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="243,1637,405,1678"/>
+<area shape="rect" id="node70" href="$glformats_8c.html#a4cee69245a886dbf9ed7be8533ffcedf" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="489,1729,650,1770"/>
+<area shape="rect" id="node75" href="$fbobject_8h.html#a97df2933946ce460854b6bbcf50b997b" title="Is the given FBO a user&#45;created FBO?" alt="" coords="1221,812,1355,839"/>
+<area shape="rect" id="node78" href="$teximage_8c.html#a9b89c04c762aecfdbaa5fca4480119ea" title="Get the maximum number of allowed mipmap levels." alt="" coords="711,753,892,780"/>
+<area shape="rect" id="node81" href="$framebuffer_8c.html#abdff94963afedb8ee5fb6e1ebb2dbea1" title="Check if the renderbuffer for a read operation (glReadPixels, glCopyPixels, glCopyTex[Sub]Image, etc) exists." alt="" coords="251,801,397,842"/>
+<area shape="rect" id="node89" href="$fbobject_8c.html#a30883de5213e4b5a4adafb3835125686" title="Test if the given framebuffer object is complete and update its Status field with the results..." alt="" coords="720,683,883,725"/>
+<area shape="rect" id="node116" href="$teximage_8c.html#a58b6c04b815287d42c69c9129b3fc065" title="Return true if the format is only valid for glCompressedTexImage." alt="" coords="251,1754,397,1795"/>
+<area shape="rect" id="node118" href="$teximage_8c.html#a1aa853ffe39d85e650d600fbc42512bf" title="Check if the given texture target value is legal for a glTexSubImage, glCopyTexSubImage or glCopyTexI..." alt="" coords="484,413,655,440"/>
+<area shape="rect" id="node123" href="$teximage_8c.html#a5e67a23a7ce94ddf6dd7356f4c18fe3d" title="Helper function to determine if a texture object is mutable (in terms of GL_ARB_texture_storage)." alt="" coords="257,1820,391,1847"/>
+<area shape="rect" id="node127" href="$teximage_8c.html#ad6f029dd2332cf69f9da1980bc46e4f8" title="Helper function to determine whether a target and specific compression format are supported..." alt="" coords="710,1395,893,1421"/>
+<area shape="rect" id="node7" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="1214,391,1362,417"/>
+<area shape="rect" id="node15" href="$errors_8c.html#aa95f5f16fa241ff98f972589c52e061b" title="&#39;buf&#39; is not necessarily a null&#45;terminated string." alt="" coords="511,1091,628,1117"/>
+<area shape="rect" id="node17" href="$errors_8c.html#a4ab11c429d6af9015d1fbd40497a0104" title="Handles generating a GL_ARB_debug_output message ID generated by the GL or GLSL compiler." alt="" coords="752,1065,851,1092"/>
+<area shape="rect" id="node19" href="$errors_8c.html#aadca580d213cbe06a31c233048e65c55" title="Returns the state of the given message source/type/ID tuple." alt="" coords="759,1167,843,1193"/>
+<area shape="rect" id="node27" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="746,1344,857,1371"/>
+<area shape="rect" id="node31" href="$context_8c.html#ad98d5d4fae70f1fea38eeab0dad268bc" title="Record an error." alt="" coords="501,1192,638,1219"/>
+<area shape="rect" id="node34" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="985,1031,1103,1057"/>
+<area shape="rect" id="node37" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="512,1293,627,1320"/>
+<area shape="rect" id="node43" href="$errors_8c.html#a293b4f22a77d1f0f05733ff12d5747f5" title="should_output" alt="" coords="518,1243,621,1269"/>
+<area shape="rect" id="node21" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1021,1132,1067,1159"/>
+<area shape="rect" id="node25" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="744,1496,859,1523"/>
+<area shape="rect" id="node29" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="760,1445,843,1472"/>
+<area shape="rect" id="node39" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="748,1268,855,1295"/>
+<area shape="rect" id="node54" href="$glformats_8c.html#a6e677e7f062f6c2ab33b0f6dba3613cb" title="Test if the given image format is a depth component format." alt="" coords="489,1547,650,1573"/>
+<area shape="rect" id="node56" href="$glformats_8c.html#a62a10ba7f6b8193098c14c69f95592bb" title="Test if the given image format is a depth+stencil format." alt="" coords="492,1598,647,1639"/>
+<area shape="rect" id="node68" href="$glformats_8c.html#ac1e084cf779e95616577d1025b746335" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="489,1663,650,1705"/>
+<area shape="rect" id="node83" href="$framebuffer_8c.html#a4494172508c03f3b82f66d87c3fbd542" title="Check if the renderbuffer for a read/draw operation exists." alt="" coords="503,808,636,835"/>
+<area shape="rect" id="node85" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="744,913,859,940"/>
+<area shape="rect" id="node91" href="$fbobject_8c.html#a4d7d1d03dd88538f10d7df9b9c31ff71" title="Given a GL_*_ATTACHMENTn token, return a pointer to the corresponding gl_renderbuffer_attachment obje..." alt="" coords="965,441,1123,468"/>
+<area shape="rect" id="node96" href="$formats_8c.html#a3ffef8fc5049d798ddfa4d6f2eb54753" title="Return the data type (or more specifically, the data representation) for the given format..." alt="" coords="1195,943,1381,969"/>
+<area shape="rect" id="node99" href="$formats_8c.html#a756503ff731a7ff639ffba6d3c34f930" title="Is the given format a signed/unsigned integer color format?" alt="" coords="960,695,1128,737"/>
+<area shape="rect" id="node102" href="$framebuffer_8c.html#a95ff7aed0905e0aa42608ae4f5bcface" title="The glGet queries of the framebuffer red/green/blue size, stencil size, etc." alt="" coords="954,965,1134,1006"/>
+<area shape="rect" id="node106" href="$fbobject_8c.html#a8a0c5440198e4d78060fc0466f0ca3fe" title="For debug only." alt="" coords="989,543,1099,569"/>
+<area shape="rect" id="node108" href="$fbobject_8c.html#a98b26f07278810e62d58268d1db02aed" title="Is the given base format a legal format for a color renderbuffer?" alt="" coords="955,492,1133,519"/>
+<area shape="rect" id="node111" href="$fbobject_8c.html#ac0ce25c2ac5c3b778fb6b27f5a8df03e" title="Is the given base format a legal format for a depth/stencil renderbuffer?" alt="" coords="969,593,1119,620"/>
+<area shape="rect" id="node113" href="$fbobject_8c.html#afe80fa12d683dffb11884cb82267dcba" title="Test if an attachment point is complete and update its Complete field." alt="" coords="942,644,1146,671"/>
+<area shape="rect" id="node125" href="$teximage_8c.html#ab9ba4f3758cb63af8ed533290a39ca25" title="Return pointer to texture object for given target on current texture unit." alt="" coords="490,1813,649,1854"/>
+</map>

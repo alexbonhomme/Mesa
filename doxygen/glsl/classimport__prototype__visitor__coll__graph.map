@@ -1,0 +1,5 @@
+<map id="import_prototype_visitor" name="import_prototype_visitor">
+<area shape="rect" id="node2" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="13,176,157,203"/>
+<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="37,85,133,112"/>
+<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="43,7,128,33"/>
+</map>

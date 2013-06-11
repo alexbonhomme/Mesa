@@ -1,0 +1,51 @@
+<map id="check_valid_to_render" name="check_valid_to_render">
+<area shape="rect" id="node3" href="$context_8c.html#ad951603a4d33d18b15d0eeafc4ad5e1d" title="Prior to drawing anything with glBegin, glDrawArrays, etc." alt="" coords="206,1032,362,1059"/>
+<area shape="rect" id="node5" href="$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="426,476,569,503"/>
+<area shape="rect" id="node23" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1365,880,1411,907"/>
+<area shape="rect" id="node77" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="663,1235,758,1261"/>
+<area shape="rect" id="node112" href="$errors_8c.html#abf6b2d27cc17bae887812e7012fc31f9" title="Report a warning (a recoverable error condition) to stderr if either DEBUG is defined or the MESA_DEB..." alt="" coords="873,1032,986,1059"/>
+<area shape="rect" id="node119" href="$context_8c.html#ab8aed6d82cfde4ccba43298ddf84504f" title="_mesa_check_blend_func\l_error" alt="" coords="411,1105,584,1146"/>
+<area shape="rect" id="node7" href="$texobj_8c.html#a93efb659001bc73219c7a3627c057d27" title="Simplest implementation of texture locking: grab the shared tex mutex." alt="" coords="639,370,782,411"/>
+<area shape="rect" id="node9" href="$state_8c.html#ac9e3abfcbf35ca2d0ebd4303d8c1e102" title="Compute derived GL state." alt="" coords="639,435,782,477"/>
+<area shape="rect" id="node75" href="$texobj_8c.html#ad49b18ca568a0b57afdf77ddd1b2ac57" title="_mesa_unlock_context\l_textures" alt="" coords="633,501,789,542"/>
+<area shape="rect" id="node11" href="$debug_8c.html#a4e7e0588d95ed6587b71317734ee7472" title="_mesa_print_state" alt="" coords="865,813,994,840"/>
+<area shape="rect" id="node25" href="$state_8c.html#a45aaa007c7e7d1f4daf0fdde6697bd96" title="Update the following fields: ctx&#45;&gt;VertexProgram._Enabled ctx&#45;&gt;FragmentProgram._Enabled ctx&#45;&gt;ATIFragme..." alt="" coords="846,392,1013,419"/>
+<area shape="rect" id="node27" href="$matrix_8c.html#a02918063689e317d555fafa34697e044" title="Updates the combined modelview&#45;projection matrix." alt="" coords="841,326,1017,367"/>
+<area shape="rect" id="node37" href="$texstate_8c.html#aa6d9b1ceca663d348998530dd12529db" title="Update texture&#45;related derived state." alt="" coords="852,443,1007,469"/>
+<area shape="rect" id="node44" href="$framebuffer_8c.html#aabe748fcf971386bcae20e1cc898ad7b" title="Update state related to the current draw/read framebuffers." alt="" coords="839,493,1019,520"/>
+<area shape="rect" id="node52" href="$framebuffer_8c.html#a690bcf049472e5b8a9cec055f7ef10e6" title="Update the context&#39;s current drawing buffer&#39;s Xmin, Xmax, Ymin, Ymax fields." alt="" coords="838,595,1021,637"/>
+<area shape="rect" id="node54" href="$light_8c.html#aba9fa93b7c01f4878a6fd683e2fdd49e" title="Examine current lighting parameters to determine if the optimized lighting function can be used..." alt="" coords="852,661,1007,688"/>
+<area shape="rect" id="node56" href="$state_8c.html#aee79ba73a958b6825a9a0fd7b8239fea" title="Update the ctx&#45;&gt;VertexProgram._TwoSideEnabled flag." alt="" coords="873,712,986,739"/>
+<area shape="rect" id="node58" href="$stencil_8c.html#a15a99e0840679fa9da759e80763a9976" title="Update derived stencil state." alt="" coords="853,763,1005,789"/>
+<area shape="rect" id="node60" href="$pixel_8c.html#a2479b8b49043fa4fafaec6e2c100a475" title="Update mesa pixel transfer derived state." alt="" coords="859,5,1000,32"/>
+<area shape="rect" id="node62" href="$state_8c.html#aeab3036f62fb8ca16ec6fc261872bbca" title="update_viewport_matrix" alt="" coords="849,56,1009,83"/>
+<area shape="rect" id="node64" href="$state_8c.html#acea4ac218d7443b9c6fb571c892680e1" title="Update derived multisample state." alt="" coords="860,107,999,133"/>
+<area shape="rect" id="node66" href="$light_8c.html#aef91bb995525f22c4639d7df829b45c6" title="Bring up to date any state that relies on _NeedEyeCoords." alt="" coords="1070,744,1247,771"/>
+<area shape="rect" id="node69" href="$state_8c.html#ab2cefc4e6bb2434182ba7fafb9b7a1d6" title="Update the ctx&#45;&gt;Vertex/Geometry/FragmentProgram._Current pointers to point to the current/active prog..." alt="" coords="872,157,987,184"/>
+<area shape="rect" id="node71" href="$arrayobj_8c.html#a61afb981ac11ba340d5ea01f49e51849" title="Examine vertex arrays to update the gl_array_object::_MaxElement field." alt="" coords="855,209,1004,250"/>
+<area shape="rect" id="node73" href="$state_8c.html#abeeaf4caafa9f09724eb219ee7948710" title="Examine shader constants and return either _NEW_PROGRAM_CONSTANTS or 0." alt="" coords="840,275,1019,301"/>
+<area shape="rect" id="node13" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="1107,981,1210,1008"/>
+<area shape="rect" id="node15" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1329,1032,1447,1059"/>
+<area shape="rect" id="node17" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="1331,1223,1445,1249"/>
+<area shape="rect" id="node19" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="1532,1179,1639,1205"/>
+<area shape="rect" id="node21" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1530,1331,1641,1357"/>
+<area shape="rect" id="node29" href="math.tag$m__matrix_8c.html#a2dbf9ed3e4980c01f46b5cd373e061c9" title="_math_matrix_analyse" alt="" coords="1311,312,1465,339"/>
+<area shape="rect" id="node31" href="$matrix_8c.html#a816e124df62bff9cb9488d7b9e07f0b9" title="Update the projection matrix stack." alt="" coords="1097,224,1221,251"/>
+<area shape="rect" id="node34" href="$matrix_8c.html#af8c12f90796c2da00ee5ca2f6a2225ac" title="Calculate the combined modelview&#45;projection matrix." alt="" coords="1077,275,1240,317"/>
+<area shape="rect" id="node39" href="$texstate_8c.html#add13f9352bfae60f30c9d2c9dd863658" title="update_texture_matrices" alt="" coords="1076,392,1241,419"/>
+<area shape="rect" id="node42" href="$texstate_8c.html#a0924da0d2f0fdc84bdbf333625511a62" title="update_texture_state" alt="" coords="1087,443,1231,469"/>
+<area shape="rect" id="node46" href="$framebuffer_8c.html#af0748cea50cb6b3a41453e598ad46ac0" title="Update a gl_framebuffer&#39;s derived state." alt="" coords="1091,493,1226,520"/>
+<area shape="rect" id="node48" href="$blend_8c.html#a60755b3f62e8988908faf6d550351ae7" title="Update the ctx&#45;&gt;Color._ClampVertexColor field." alt="" coords="1084,545,1233,586"/>
+<area shape="rect" id="node50" href="$blend_8c.html#ac6d33585b6d553883ed16bd410070116" title="Update the ctx&#45;&gt;Color._ClampFragmentColor field." alt="" coords="1084,610,1233,651"/>
+<area shape="rect" id="node79" href="$errors_8c.html#a4ab11c429d6af9015d1fbd40497a0104" title="Handles generating a GL_ARB_debug_output message ID generated by the GL or GLSL compiler." alt="" coords="1109,1336,1208,1363"/>
+<area shape="rect" id="node81" href="$errors_8c.html#a293b4f22a77d1f0f05733ff12d5747f5" title="should_output" alt="" coords="878,1184,981,1211"/>
+<area shape="rect" id="node87" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="1296,1437,1480,1464"/>
+<area shape="rect" id="node95" href="$errors_8c.html#aadca580d213cbe06a31c233048e65c55" title="Returns the state of the given message source/type/ID tuple." alt="" coords="1117,1488,1201,1515"/>
+<area shape="rect" id="node105" href="$errors_8c.html#aa95f5f16fa241ff98f972589c52e061b" title="&#39;buf&#39; is not necessarily a null&#45;terminated string." alt="" coords="871,1336,988,1363"/>
+<area shape="rect" id="node110" href="$context_8c.html#ad98d5d4fae70f1fea38eeab0dad268bc" title="Record an error." alt="" coords="861,1133,998,1160"/>
+<area shape="rect" id="node84" href="$errors_8c.html#a634227a0754c75445a4ae71cb4a86397" title="When a new type of error is recorded, print a message describing previous errors which were accumulat..." alt="" coords="1087,1285,1230,1312"/>
+<area shape="rect" id="node89" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="1528,1412,1643,1439"/>
+<area shape="rect" id="node91" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="1544,1463,1627,1489"/>
+<area shape="rect" id="node97" href="$hash_8c.html#a1600921a3daee886e08a32ee938ecae6" title="Lookup an entry in the hash table." alt="" coords="1317,1539,1459,1565"/>
+<area shape="rect" id="node99" href="$hash_8c.html#a7a7007f934852a3f4cfc04ddaeb94e3c" title="Insert a key/pointer pair into the hash table." alt="" coords="1322,1488,1454,1515"/>
+</map>

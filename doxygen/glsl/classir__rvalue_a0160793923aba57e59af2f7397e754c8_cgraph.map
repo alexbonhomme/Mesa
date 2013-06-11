@@ -1,0 +1,10 @@
+<map id="ir_rvalue::as_rvalue_to_saturate" name="ir_rvalue::as_rvalue_to_saturate">
+<area shape="rect" id="node3" href="$classir__instruction.html#a3bb172722273de2b95867300882e7498" title="ir_instruction::as\l_expression" alt="" coords="341,5,459,46"/>
+<area shape="rect" id="node5" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="347,121,453,148"/>
+<area shape="rect" id="node11" href="$ir_8cpp.html#a80c4174398bda352b24f2d9363914d4b" title="try_max_zero" alt="" coords="189,119,291,145"/>
+<area shape="rect" id="node17" href="$ir_8cpp.html#adeebf9776e29d9fcbcacbea83a8c7a28" title="try_min_one" alt="" coords="193,68,287,95"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="509,121,605,148"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="654,121,741,148"/>
+<area shape="rect" id="node15" href="$classir__rvalue.html#adafe7846de3a8508c8b47d8001a3355d" title="Determine if an r&#45;value has the value zero." alt="" coords="339,172,461,199"/>
+<area shape="rect" id="node21" href="$classir__rvalue.html#a713ad6af6c8e4cf76009c640892a60cb" title="Determine if an r&#45;value has the value one." alt="" coords="341,71,459,97"/>
+</map>

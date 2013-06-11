@@ -1,0 +1,13 @@
+<map id="_mesa_init_transform_feedback" name="_mesa_init_transform_feedback">
+<area shape="rect" id="node3" href="$hash_8c.html#a8cd33e0da80ca5155d02868bf9bbd615" title="Create a new hash table." alt="" coords="202,123,361,149"/>
+<area shape="rect" id="node13" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="200,218,363,259"/>
+<area shape="rect" id="node23" href="$transformfeedback_8c.html#a750b57eabb139a63e7305d9198009607" title="Do reference counting of transform feedback buffers." alt="" coords="212,283,351,325"/>
+<area shape="rect" id="node5" href="$hash__table_8c.html#ab3018b5a56654eb0bff2dee80890dbd7" title="_mesa_hash_table_create" alt="" coords="411,5,586,32"/>
+<area shape="rect" id="node7" href="$hash__table_8c.html#a865c5b0053360794104bcd6bacfcbe49" title="Sets the value of the key pointer used for deleted entries in the table." alt="" coords="421,57,577,98"/>
+<area shape="rect" id="node9" href="$hash_8c.html#a74d0f9f21dc0f67829f9e9699fe88dc2" title="uint_key" alt="" coords="463,123,534,149"/>
+<area shape="rect" id="node11" href="$hash_8c.html#a5249fec81e8642d249fbd5f77f7588ee" title="uint_key_compare" alt="" coords="435,173,563,200"/>
+<area shape="rect" id="node15" href="$bufferobj_8c.html#a7bf958a4212f187195e01a949aa400c0" title="Set ptr to bufObj w/ reference counting." alt="" coords="417,225,580,266"/>
+<area shape="rect" id="node17" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="635,261,749,288"/>
+<area shape="rect" id="node19" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="798,236,917,263"/>
+<area shape="rect" id="node21" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="834,287,881,313"/>
+</map>

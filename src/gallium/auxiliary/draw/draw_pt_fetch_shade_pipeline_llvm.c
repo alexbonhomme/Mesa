@@ -392,6 +392,7 @@ llvm_pipeline_generic( struct draw_pt_middle_end *middle,
    fetch_info = NULL;
    vert_info = &llvm_vert_info;
 
+
    if ((opt & PT_SHADE) && gshader) {
       struct draw_vertex_shader *vshader = draw->vs.vertex_shader;
       draw_geometry_shader_run(gshader,

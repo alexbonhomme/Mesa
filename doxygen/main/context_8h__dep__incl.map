@@ -1,0 +1,51 @@
+<map id="context.h" name="context.h">
+<area shape="rect" id="node3" href="$condrender_8h.html" title="condrender.h" alt="" coords="79,80,176,107"/>
+<area shape="rect" id="node5" href="$accum_8c.html" title="accum.c" alt="" coords="5,155,77,181"/>
+<area shape="rect" id="node7" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="101,155,187,181"/>
+<area shape="rect" id="node10" href="$api__arrayelt_8c.html" title="api_arrayelt.c" alt="" coords="589,80,688,107"/>
+<area shape="rect" id="node13" href="$api__loopback_8h.html" title="api_loopback.h" alt="" coords="353,80,463,107"/>
+<area shape="rect" id="node16" href="$api__loopback_8c.html" title="api_loopback.c" alt="" coords="211,155,320,181"/>
+<area shape="rect" id="node18" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="345,155,420,181"/>
+<area shape="rect" id="node20" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="445,155,501,181"/>
+<area shape="rect" id="node22" href="$es1__conversion_8c.html" title="es1_conversion.c" alt="" coords="526,155,649,181"/>
+<area shape="rect" id="node25" href="$api__validate_8c.html" title="api_validate.c" alt="" coords="713,80,815,107"/>
+<area shape="rect" id="node27" href="$arbprogram_8c.html" title="ARB_vertex/fragment_program state management functions." alt="" coords="840,80,939,107"/>
+<area shape="rect" id="node29" href="$arrayobj_8c.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="963,80,1041,107"/>
+<area shape="rect" id="node31" href="$atifragshader_8c.html" title="atifragshader.c" alt="" coords="1066,80,1173,107"/>
+<area shape="rect" id="node33" href="$attrib_8c.html" title="attrib.c" alt="" coords="1198,80,1260,107"/>
+<area shape="rect" id="node35" href="$blend_8c.html" title="Blending operations." alt="" coords="1285,80,1349,107"/>
+<area shape="rect" id="node37" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="1373,80,1456,107"/>
+<area shape="rect" id="node39" href="$buffers_8c.html" title="glReadBuffer, DrawBuffer functions." alt="" coords="1481,80,1553,107"/>
+<area shape="rect" id="node41" href="$clear_8c.html" title="glClearColor, glClearIndex, glClear() functions." alt="" coords="1579,80,1640,107"/>
+<area shape="rect" id="node43" href="$clip_8c.html" title="clip.c" alt="" coords="1664,80,1717,107"/>
+<area shape="rect" id="node45" href="$colortab_8c.html" title="colortab.c" alt="" coords="1742,80,1820,107"/>
+<area shape="rect" id="node48" href="$depth_8c.html" title="depth.c" alt="" coords="1845,80,1909,107"/>
+<area shape="rect" id="node51" href="$drawpix_8c.html" title="drawpix.c" alt="" coords="1934,80,2012,107"/>
+<area shape="rect" id="node53" href="$enable_8c.html" title="Enable/disable/query GL capabilities." alt="" coords="2037,80,2107,107"/>
+<area shape="rect" id="node55" href="$errors_8c.html" title="Mesa debugging and error handling functions." alt="" coords="2132,80,2199,107"/>
+<area shape="rect" id="node58" href="$eval_8c.html" title="eval.c" alt="" coords="2223,80,2280,107"/>
+<area shape="rect" id="node60" href="$extensions_8c.html" title="Extension handling." alt="" coords="2305,80,2401,107"/>
+<area shape="rect" id="node62" href="$fbobject_8c.html" title="fbobject.c" alt="" coords="2426,80,2504,107"/>
+<area shape="rect" id="node64" href="$feedback_8c.html" title="Selection and feedback modes functions." alt="" coords="2529,80,2615,107"/>
+<area shape="rect" id="node66" href="$fog_8c.html" title="fog.c" alt="" coords="2640,80,2691,107"/>
+<area shape="rect" id="node68" href="$formatquery_8c.html" title="formatquery.c" alt="" coords="2715,80,2817,107"/>
+<area shape="rect" id="node70" href="$framebuffer_8c.html" title="framebuffer.c" alt="" coords="2843,80,2941,107"/>
+<area shape="rect" id="node72" href="$get_8c.html" title="get.c" alt="" coords="2965,80,3016,107"/>
+<area shape="rect" id="node74" href="$getstring_8c.html" title="getstring.c" alt="" coords="3040,80,3123,107"/>
+<area shape="rect" id="node76" href="$glformats_8c.html" title="glformats.c" alt="" coords="3147,80,3233,107"/>
+<area shape="rect" id="node78" href="$hint_8c.html" title="hint.c" alt="" coords="3258,80,3312,107"/>
+<area shape="rect" id="node80" href="$imports_8c.html" title="Standard C library function wrappers." alt="" coords="3337,80,3412,107"/>
+<area shape="rect" id="node82" href="$light_8c.html" title="light.c" alt="" coords="3437,80,3493,107"/>
+<area shape="rect" id="node84" href="$lines_8c.html" title="lines.c" alt="" coords="3518,80,3577,107"/>
+<area shape="rect" id="node86" href="$matrix_8c.html" title="Matrix operations." alt="" coords="3603,80,3672,107"/>
+<area shape="rect" id="node88" href="$multisample_8c.html" title="multisample.c" alt="" coords="3697,80,3799,107"/>
+<area shape="rect" id="node90" href="$pixel_8c.html" title="Pixel transfer functions (glPixelZoom, glPixelMap, glPixelTransfer)" alt="" coords="3823,80,3883,107"/>
+<area shape="rect" id="node92" href="$pixelstore_8c.html" title="glPixelStore functions." alt="" coords="3907,80,3996,107"/>
+<area shape="rect" id="node94" href="$points_8c.html" title="Point operations." alt="" coords="4021,80,4088,107"/>
+<area shape="rect" id="node96" href="$polygon_8c.html" title="Polygon operations." alt="" coords="4113,80,4191,107"/>
+<area shape="rect" id="node98" href="$queryobj_8c.html" title="queryobj.c" alt="" coords="4216,80,4299,107"/>
+<area shape="rect" id="node100" href="$rastpos_8c.html" title="Raster position operations." alt="" coords="4323,80,4399,107"/>
+<area shape="rect" id="node102" href="$readpix_8c.html" title="readpix.c" alt="" coords="4424,80,4499,107"/>
+<area shape="rect" id="node104" href="$renderbuffer_8c.html" title="renderbuffer.c" alt="" coords="4523,80,4625,107"/>
+<area shape="rect" id="node106" href="$samplerobj_8c.html" title="Functions for the GL_ARB_sampler_objects extension." alt="" coords="4651,80,4747,107"/>
+</map>

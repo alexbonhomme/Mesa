@@ -1,0 +1,7 @@
+<map id="ir_jump" name="ir_jump">
+<area shape="rect" id="node7" href="$classir__discard.html" title="IR instruction representing discard statements." alt="" coords="5,229,83,256"/>
+<area shape="rect" id="node9" href="$classir__loop__jump.html" title="Jump instructions used inside loops." alt="" coords="107,229,201,256"/>
+<area shape="rect" id="node11" href="$classir__return.html" title="ir_return" alt="" coords="227,229,296,256"/>
+<area shape="rect" id="node2" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="107,80,203,107"/>
+<area shape="rect" id="node4" href="$structexec__node.html" title="exec_node" alt="" coords="112,5,197,32"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="TNLcontext" name="TNLcontext">
+<area shape="rect" id="node2" href="$structtnl__clipspace.html" title="Used to describe conversion of vertex arrays to vertex structures." alt="" coords="1195,1072,1293,1099"/>
+<area shape="rect" id="node4" href="$structtnl__clipspace__attr.html" title="Describes how to convert/move a vertex attribute from a vertex array to a vertex structure." alt="" coords="859,973,983,1000"/>
+<area shape="rect" id="node7" href="main.tag$structgl__context.html" title="gl_context" alt="" coords="637,1089,720,1116"/>
+<area shape="rect" id="node94" href="$structtnl__clipspace__fastpath.html" title="tnl_clipspace_fastpath" alt="" coords="845,1155,997,1181"/>
+<area shape="rect" id="node105" href="$structtnl__device__driver.html" title="tnl_device_driver" alt="" coords="1036,1195,1156,1221"/>
+<area shape="rect" id="node9" href="main.tag$structgl__buffer__object.html" title="gl_buffer_object" alt="" coords="5,264,120,291"/>
+<area shape="rect" id="node11" href="main.tag$structgl__transform__feedback__state.html" title="gl_transform_feedback\l_state" alt="" coords="283,147,437,189"/>
+<area shape="rect" id="node16" href="main.tag$structgl__pixelstore__attrib.html" title="gl_pixelstore_attrib" alt="" coords="295,213,425,240"/>
+<area shape="rect" id="node23" href="main.tag$structdd__function__table.html" title="dd_function_table" alt="" coords="298,264,422,291"/>
+<area shape="rect" id="node47" href="main.tag$structgl__shared__state.html" title="gl_shared_state" alt="" coords="303,315,417,341"/>
+<area shape="rect" id="node50" href="main.tag$structgl__uniform__buffer__binding.html" title="gl_uniform_buffer_binding" alt="" coords="275,365,445,392"/>
+<area shape="rect" id="node91" href="main.tag$structgl__array__attrib.html" title="gl_array_attrib" alt="" coords="308,416,412,443"/>
+<area shape="rect" id="node14" href="main.tag$structgl__feedback.html" title="gl_feedback" alt="" coords="314,467,406,493"/>
+<area shape="rect" id="node19" href="main.tag$structgl__viewport__attrib.html" title="gl_viewport_attrib" alt="" coords="298,580,422,607"/>
+<area shape="rect" id="node21" href="math.tag$structGLmatrix.html" title="GLmatrix" alt="" coords="25,571,100,597"/>
+<area shape="rect" id="node34" href="main.tag$structgl__matrix__stack.html" title="gl_matrix_stack" alt="" coords="303,631,417,657"/>
+<area shape="rect" id="node26" href="main.tag$structgl__list__extensions.html" title="gl_list_extensions" alt="" coords="297,681,423,708"/>
+<area shape="rect" id="node28" href="main.tag$structgl__pixel__attrib.html" title="gl_pixel_attrib" alt="" coords="309,732,411,759"/>
+<area shape="rect" id="node30" href="main.tag$structgl__transform__attrib.html" title="gl_transform_attrib" alt="" coords="295,783,425,809"/>
+<area shape="rect" id="node32" href="main.tag$structgl__scissor__attrib.html" title="gl_scissor_attrib" alt="" coords="301,833,419,860"/>
+<area shape="rect" id="node37" href="main.tag$structgl__ati__fragment__shader__state.html" title="gl_ati_fragment_shader\l_state" alt="" coords="281,885,439,926"/>
+<area shape="rect" id="node39" href="main.tag$structgl__point__attrib.html" title="gl_point_attrib" alt="" coords="309,951,411,977"/>
+<area shape="rect" id="node41" href="main.tag$structgl__fog__attrib.html" title="gl_fog_attrib" alt="" coords="313,1001,407,1028"/>
+<area shape="rect" id="node43" href="main.tag$structgl__shader__compiler__options.html" title="gl_shader_compiler\l_options" alt="" coords="293,1053,427,1094"/>
+<area shape="rect" id="node45" href="main.tag$structgl__depthbuffer__attrib.html" title="gl_depthbuffer_attrib" alt="" coords="290,1119,430,1145"/>
+<area shape="rect" id="node53" href="main.tag$structgl__geometry__program__state.html" title="gl_geometry_program\l_state" alt="" coords="287,1170,433,1211"/>
+<area shape="rect" id="node55" href="main.tag$structgl__light__attrib.html" title="gl_light_attrib" alt="" coords="311,1236,409,1263"/>
+<area shape="rect" id="node57" href="main.tag$structgl__program__state.html" title="gl_program_state" alt="" coords="299,1287,421,1313"/>
+<area shape="rect" id="node59" href="main.tag$structgl__list__attrib.html" title="gl_list_attrib" alt="" coords="314,1337,406,1364"/>
+<area shape="rect" id="node61" href="main.tag$structgl__dlist__state.html" title="gl_dlist_state" alt="" coords="311,1388,409,1415"/>
+<area shape="rect" id="node64" href="main.tag$structgl__selection.html" title="gl_selection" alt="" coords="315,1439,405,1465"/>
+<area shape="rect" id="node66" href="main.tag$structgl__query__state.html" title="gl_query_state" alt="" coords="307,1489,413,1516"/>
+<area shape="rect" id="node68" href="main.tag$structgl__fragment__program__state.html" title="gl_fragment_program\l_state" alt="" coords="288,1541,432,1582"/>
+<area shape="rect" id="node70" href="main.tag$structgl__debug__state.html" title="gl_debug_state" alt="" coords="305,1607,415,1633"/>
+<area shape="rect" id="node72" href="main.tag$structgl__pixelmaps.html" title="gl_pixelmaps" alt="" coords="311,1657,409,1684"/>
+<area shape="rect" id="node74" href="main.tag$structgl__polygon__attrib.html" title="gl_polygon_attrib" alt="" coords="300,1708,420,1735"/>
+<area shape="rect" id="node76" href="main.tag$structgl__line__attrib.html" title="gl_line_attrib" alt="" coords="313,1759,407,1785"/>
+<area shape="rect" id="node78" href="main.tag$structgl__eval__attrib.html" title="gl_eval_attrib" alt="" coords="311,1809,409,1836"/>
+<area shape="rect" id="node80" href="main.tag$structgl__attrib__node.html" title="gl_attrib_node" alt="" coords="309,1899,411,1925"/>
+<area shape="rect" id="node83" href="main.tag$structgl__constants.html" title="gl_constants" alt="" coords="312,1949,408,1976"/>
+<area shape="rect" id="node85" href="main.tag$structgl__shader__state.html" title="gl_shader_state" alt="" coords="303,2000,417,2027"/>
+<area shape="rect" id="node87" href="main.tag$structgl__vertex__program__state.html" title="gl_vertex_program_state" alt="" coords="277,2051,443,2077"/>
+<area shape="rect" id="node89" href="main.tag$structgl__hint__attrib.html" title="gl_hint_attrib" alt="" coords="312,2101,408,2128"/>
+<area shape="rect" id="node98" href="$structtnl__shine__tab.html" title="Material shininess lookup table." alt="" coords="1195,1256,1293,1283"/>
+<area shape="rect" id="node101" href="$structtnl__pipeline.html" title="Contains the array of all pipeline stages." alt="" coords="1201,1307,1287,1333"/>
+<area shape="rect" id="node103" href="$structtnl__pipeline__stage.html" title="Describes an individual operation on the pipeline." alt="" coords="858,1307,985,1333"/>
+<area shape="rect" id="node108" href="math.tag$structGLvector4f.html" title="GLvector4f" alt="" coords="878,1424,965,1451"/>
+<area shape="rect" id="node110" href="$structvertex__buffer.html" title="Contains the current state of a running pipeline." alt="" coords="1195,1496,1293,1523"/>
+<area shape="rect" id="node112" href="vbo.tag$struct__mesa__prim.html" title="_mesa_prim" alt="" coords="875,1541,968,1568"/>
+</map>

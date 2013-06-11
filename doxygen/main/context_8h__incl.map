@@ -1,0 +1,12 @@
+<map id="context.h" name="context.h">
+<area shape="rect" id="node3" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="812,80,888,107"/>
+<area shape="rect" id="node39" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1383,229,1458,256"/>
+<area shape="rect" id="node5" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="601,229,684,256"/>
+<area shape="rect" id="node29" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1481,379,1564,405"/>
+<area shape="rect" id="node35" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="940,155,1006,181"/>
+<area shape="rect" id="node42" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1631,304,1730,331"/>
+<area shape="rect" id="node46" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1213,304,1333,331"/>
+<area shape="rect" id="node48" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1358,304,1484,331"/>
+<area shape="rect" id="node50" href="$formats_8h.html" title="main/formats.h" alt="" coords="1650,379,1760,405"/>
+<area shape="rect" id="node53" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1560,304,1606,331"/>
+</map>

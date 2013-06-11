@@ -1,0 +1,12 @@
+<map id="generate_300ES_vs_variables" name="generate_300ES_vs_variables">
+<area shape="rect" id="node3" href="$builtin__variables_8cpp.html#af3f8ec4ad4def42858b4440a10ad6379" title="add_builtin_variable" alt="" coords="504,35,640,62"/>
+<area shape="rect" id="node16" href="$builtin__variables_8cpp.html#aaf14e54496223f95c9879d14902c332d" title="generate_300ES_uniforms" alt="" coords="254,137,429,163"/>
+<area shape="rect" id="node26" href="$builtin__variables_8cpp.html#acbeee2214852017532ee142cfb381e20" title="generate_ARB_draw_buffers\l_variables" alt="" coords="477,204,667,245"/>
+<area shape="rect" id="node5" href="$builtin__variables_8cpp.html#a340bb566cdd78f7491c7254aef47b194" title="add_uniform" alt="" coords="739,102,832,129"/>
+<area shape="rect" id="node7" href="$builtin__variables_8cpp.html#af4c824c8d43fbdf4db386acb0d595fc6" title="add_variable" alt="" coords="905,127,999,154"/>
+<area shape="rect" id="node14" href="$structglsl__symbol__table.html#a72e1bdd4c6530837cb3369ae4f3242fe" title="glsl_symbol_table::\lget_type" alt="" coords="718,36,853,77"/>
+<area shape="rect" id="node9" href="$structglsl__symbol__table.html#a4e6616fba10268abcdb8634522746c1f" title="glsl_symbol_table::\ladd_variable" alt="" coords="1049,120,1183,161"/>
+<area shape="rect" id="node11" href="$structglsl__symbol__table.html#a494ef5725a41f9e21fdb112005cda79a" title="Determine whether a name was declared at the current scope." alt="" coords="1233,120,1413,161"/>
+<area shape="rect" id="node18" href="$builtin__variables_8cpp.html#af4bfc94e32554169b3365d7cbc504c65" title="add_builtin_constant" alt="" coords="715,153,856,179"/>
+<area shape="rect" id="node21" href="$builtin__variables_8cpp.html#af517cd525f35e8053864192559b44429" title="Uniforms that are common to all GLSL ES implementations." alt="" coords="495,87,649,128"/>
+</map>

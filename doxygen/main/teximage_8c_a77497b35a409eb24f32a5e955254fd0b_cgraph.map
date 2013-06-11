@@ -1,0 +1,4 @@
+<map id="_mesa_select_tex_image" name="_mesa_select_tex_image">
+<area shape="rect" id="node3" href="$teximage_8c.html#abb9c94f3f8f473269c615d71ac8581ac" title="For cube map faces, return a face index in [0,5]." alt="" coords="224,5,400,32"/>
+<area shape="rect" id="node5" href="$teximage_8h.html#a19a4bdb6bf1f5789253f7d25f61986da" title="Is the given value one of the 6 cube faces?" alt="" coords="449,5,594,32"/>
+</map>

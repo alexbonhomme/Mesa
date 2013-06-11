@@ -1,0 +1,15 @@
+<map id="make_3d_mipmap" name="make_3d_mipmap">
+<area shape="rect" id="node3" href="$mipmap_8c.html#aa5d90447a8dad8289cacddbb0c98dd1f" title="bytes_per_pixel" alt="" coords="358,56,471,83"/>
+<area shape="rect" id="node9" href="$mipmap_8c.html#a450c6a86b7e1743fe61499dade227aa5" title="Average together two rows of a source image to produce a single new row in the dest image..." alt="" coords="383,157,447,184"/>
+<area shape="rect" id="node23" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="806,259,853,285"/>
+<area shape="rect" id="node25" href="$mipmap_8c.html#aaf3f8d0f84928f841ff69741394d3031" title="Average together four rows of a source image to produce a single new row in the dest image..." alt="" coords="201,208,289,235"/>
+<area shape="rect" id="node28" href="$mipmap_8c.html#aae581c5ecebe481cf280765abaf2381b" title="make_2d_mipmap" alt="" coords="181,107,309,133"/>
+<area shape="rect" id="node5" href="$glformats_8c.html#ac81b82fc7cf6fe0a47ae51278f917118" title="Same as _mesa_sizeof_type() but also accepting the packed pixel format data types." alt="" coords="520,5,704,32"/>
+<area shape="rect" id="node7" href="$glformats_8c.html#a3b4be71f46708425107d4c8e20024ce1" title="_mesa_type_is_packed" alt="" coords="533,56,691,83"/>
+<area shape="rect" id="node11" href="$imports_8c.html#a98ba06d3da86d8ca3cb0122fbc96de0b" title="Convert a 4&#45;byte float to a 2&#45;byte half float." alt="" coords="543,107,681,133"/>
+<area shape="rect" id="node17" href="$imports_8c.html#a061acde1a3714ab2452ed34c02ebe70a" title="Convert a 2&#45;byte half float to a 4&#45;byte float." alt="" coords="543,157,681,184"/>
+<area shape="rect" id="node19" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="555,208,669,235"/>
+<area shape="rect" id="node13" href="$imports_8c.html#aee0063bcfc77c5f5f568f3174f211e1d" title="_mesa_round_to_even" alt="" coords="753,107,906,133"/>
+<area shape="rect" id="node15" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="955,107,1031,133"/>
+<area shape="rect" id="node21" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="770,208,889,235"/>
+</map>

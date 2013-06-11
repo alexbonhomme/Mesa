@@ -1,0 +1,5 @@
+<map id="_math_trans_4chan" name="_math_trans_4chan">
+<area shape="rect" id="node3" href="$m__translate_8c.html#a5eb3a6cb98fbab8eaf8152e333682fa2" title="Translate vector of values to GLfloat[4], normalized to [&#45;1, 1]." alt="" coords="191,5,310,32"/>
+<area shape="rect" id="node5" href="$m__translate_8c.html#a6abf9462df9c8a7b3e919287cd808deb" title="Translate vector of values to GLubyte [4]." alt="" coords="189,56,312,83"/>
+<area shape="rect" id="node7" href="$m__translate_8c.html#a4f474442ce3f658d5993b4efff7d2a9f" title="Translate vector of values to GLushort [4]." alt="" coords="189,107,312,133"/>
+</map>

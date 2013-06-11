@@ -1,0 +1,12 @@
+<map id="ir_sampler_replacement_visitor" name="ir_sampler_replacement_visitor">
+<area shape="rect" id="node2" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="5,280,149,307"/>
+<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="165,128,261,155"/>
+<area shape="rect" id="node11" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="131,229,201,256"/>
+<area shape="rect" id="node14" href="$classir__variable.html" title="ir_variable" alt="" coords="243,435,324,461"/>
+<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="247,7,332,33"/>
+<area shape="rect" id="node23" href="$structexec__list.html" title="exec_list" alt="" coords="333,179,408,205"/>
+<area shape="rect" id="node9" href="$classir__dereference.html" title="ir_dereference" alt="" coords="116,383,220,409"/>
+<area shape="rect" id="node17" href="$classir__constant.html" title="ir_constant" alt="" coords="278,331,364,357"/>
+<area shape="rect" id="node21" href="$unionir__constant__data.html" title="Data stored in an ir_constant." alt="" coords="278,229,396,256"/>
+<area shape="rect" id="node26" href="$structir__state__slot.html" title="Description of built&#45;in state associated with a uniform." alt="" coords="507,331,600,357"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="memcpy_texture" name="memcpy_texture">
+<area shape="rect" id="node3" href="$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="Return bytes needed to store a block of pixels in the given format." alt="" coords="174,56,343,83"/>
+<area shape="rect" id="node10" href="$image_8c.html#ab59d92ff8fdf9a1c1af9555cad91b197" title="Return the address of a specific pixel in an image (1D, 2D or 3D)." alt="" coords="181,107,337,133"/>
+<area shape="rect" id="node24" href="$image_8c.html#a1fdeb48e1bc5c6fe0b3aeaec865a839d" title="_mesa_image_image_stride" alt="" coords="400,157,584,184"/>
+<area shape="rect" id="node27" href="$image_8c.html#ad2d330332a6b455a0991656329bbe9b4" title="Compute the stride (in bytes) between image rows." alt="" coords="173,208,344,235"/>
+<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="641,31,799,57"/>
+<area shape="rect" id="node7" href="$formats_8c.html#a94ab01c6f81ace5a82ceee735a13dd9d" title="Is the given format a compressed format?" alt="" coords="392,5,592,32"/>
+<area shape="rect" id="node12" href="$image_8c.html#a349c7efa0b2a44e2e4de1f995bd60a56" title="Return the byte offset of a specific pixel in an image (1D, 2D or 3D)." alt="" coords="421,107,563,133"/>
+<area shape="rect" id="node14" href="$glformats_8c.html#a436296728b4475da0aa5ef287cb3c4eb" title="Get the bytes per pixel of pixel format type pair." alt="" coords="641,160,799,187"/>
+<area shape="rect" id="node18" href="$mipmap_8c.html#aa5d90447a8dad8289cacddbb0c98dd1f" title="bytes_per_pixel" alt="" coords="663,105,777,132"/>
+<area shape="rect" id="node16" href="$glformats_8c.html#a14f0df64971e5ece81cb7c04a4e2f09d" title="Get the number of components in a pixel format." alt="" coords="862,157,1018,198"/>
+<area shape="rect" id="node20" href="$glformats_8c.html#ac81b82fc7cf6fe0a47ae51278f917118" title="Same as _mesa_sizeof_type() but also accepting the packed pixel format data types." alt="" coords="848,105,1032,132"/>
+<area shape="rect" id="node22" href="$glformats_8c.html#a3b4be71f46708425107d4c8e20024ce1" title="_mesa_type_is_packed" alt="" coords="861,55,1019,81"/>
+</map>

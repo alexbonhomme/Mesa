@@ -1,0 +1,51 @@
+<map id="_swrast_choose_texture_sample_func" name="_swrast_choose_texture_sample_func">
+<area shape="rect" id="node3" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="920,581,1035,607"/>
+<area shape="rect" id="node5" href="$s__texfilter_8c.html#a82aaae63b775faa999dbfc1e6ae63b6b" title="Is the given texture a depth (or depth/stencil) texture?" alt="" coords="705,167,823,194"/>
+<area shape="rect" id="node7" href="$s__texfilter_8c.html#a2393ab9aaca69f37f16febb54ab6675b" title="We use this function when a texture object is in an &quot;incomplete&quot; state." alt="" coords="243,2405,365,2431"/>
+<area shape="rect" id="node11" href="$s__texfilter_8c.html#a92f273d7be61ee12d4b4b31f0a1c9a26" title="Optimized 2&#45;D texture sampling: S and T wrap mode == GL_REPEAT GL_NEAREST min/mag filter No border..." alt="" coords="697,1949,831,1975"/>
+<area shape="rect" id="node13" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="902,1637,1053,1679"/>
+<area shape="rect" id="node16" href="$s__texfilter_8c.html#a080ba24cf842af9b17ea7d9b2353e952" title="Optimized 2&#45;D texture sampling: S and T wrap mode == GL_REPEAT GL_NEAREST min/mag filter No border Ro..." alt="" coords="693,1746,835,1773"/>
+<area shape="rect" id="node20" href="$s__texfilter_8c.html#aa3599fefc9243371e496200151497c88" title="Sample a shadow/depth texture." alt="" coords="457,522,607,549"/>
+<area shape="rect" id="node40" href="$s__texfilter_8c.html#a1eeec4a03a53c17245dcb3a3e042a76a" title="Sample 1D texture, using lambda to choose between min/magnification." alt="" coords="237,1053,371,1079"/>
+<area shape="rect" id="node63" href="$s__texfilter_8c.html#a1f7570abf8d6045001fe3eded6aaacf9" title="Sample 1D Array texture, using lambda to choose between min/magnification." alt="" coords="219,1441,389,1467"/>
+<area shape="rect" id="node83" href="$s__texfilter_8c.html#a295f137c3fdd857c6b18381de4d1c088" title="Sample 2D texture, using lambda to choose between min/magnification." alt="" coords="465,1949,599,1975"/>
+<area shape="rect" id="node89" href="$s__texfilter_8c.html#a9f8430235d1d5f0157ecba730fa072e4" title="Sample 2D texture, linear filtering for both min/magnification." alt="" coords="703,2050,825,2077"/>
+<area shape="rect" id="node93" href="$s__texfilter_8c.html#ac748730b9af56808e4eed313a9704c03" title="Sample 2D texture, nearest filtering for both min/magnification." alt="" coords="697,2101,831,2127"/>
+<area shape="rect" id="node97" href="$s__texfilter_8c.html#a026b9889596656e2904a04b7540c4a93" title="Sample 2D texture using an anisotropic filter." alt="" coords="678,1999,850,2026"/>
+<area shape="rect" id="node101" href="$s__texfilter_8c.html#a188fd3c4957f94b8bd5829db6d624cc4" title="Sample 2D Array texture, using lambda to choose between min/magnification." alt="" coords="447,573,617,599"/>
+<area shape="rect" id="node105" href="$s__texfilter_8c.html#ab056fca7f80707e142c9892a62bd9aed" title="Sample 3D texture, using lambda to choose between min/magnification." alt="" coords="465,623,599,650"/>
+<area shape="rect" id="node109" href="$s__texfilter_8c.html#abcd76f5e8ec893f9ab73105bc9ffa16b" title="Sample cube texture, using lambda to choose between min/magnification." alt="" coords="230,319,378,346"/>
+<area shape="rect" id="node113" href="$s__texfilter_8c.html#ac52a0d6de9b7a3c13a56bea4f3995d3f" title="sample_linear_cube" alt="" coords="463,319,601,346"/>
+<area shape="rect" id="node118" href="$s__texfilter_8c.html#a357dab108a2b7880135d79d6e19f0db0" title="sample_nearest_cube" alt="" coords="457,269,607,295"/>
+<area shape="rect" id="node123" href="$s__texfilter_8c.html#aa1e3a9549dff5d05b1382b45d51633fd" title="Sample Rect texture, using lambda to choose between min/magnification." alt="" coords="461,1695,603,1722"/>
+<area shape="rect" id="node126" href="$s__texfilter_8c.html#a7dd4828ab261c34ad9eafc98bdd10e65" title="sample_linear_rect" alt="" coords="699,1645,829,1671"/>
+<area shape="rect" id="node130" href="$s__texfilter_8c.html#a1b92aeab8441d0ecba1df4b689421852" title="sample_nearest_rect" alt="" coords="693,1695,835,1722"/>
+<area shape="rect" id="node134" href="$s__texfilter_8c.html#a7d3aa1b9c8cb06e44a944a076cc1a559" title="Sample 1D texture, linear filtering for both min/magnification." alt="" coords="471,2101,593,2127"/>
+<area shape="rect" id="node138" href="$s__texfilter_8c.html#adc83cbc07f0c7e4c2f6908f605ecef6a" title="Sample 1D Array texture, linear filtering for both min/magnification." alt="" coords="453,1797,611,1823"/>
+<area shape="rect" id="node143" href="$s__texfilter_8c.html#abac8a58a751db33364867762e09cfa02" title="Sample 2D Array texture, linear filtering for both min/magnification." alt="" coords="225,2455,383,2482"/>
+<area shape="rect" id="node146" href="$s__texfilter_8c.html#a12ed9e456b075487e4ce8364c6c08580" title="Sample 3D texture, linear filtering for both min/magnification." alt="" coords="243,2506,365,2533"/>
+<area shape="rect" id="node151" href="$s__texfilter_8c.html#a1340fff7c76ca1c6a82ef507568ecf48" title="Sample 1D texture, nearest filtering for both min/magnification." alt="" coords="465,1847,599,1874"/>
+<area shape="rect" id="node155" href="$s__texfilter_8c.html#aefdae5ef7b567755bc4405ff1602bdf1" title="Sample 1D Array texture, nearest filtering for both min/magnification." alt="" coords="447,2202,617,2229"/>
+<area shape="rect" id="node160" href="$s__texfilter_8c.html#ad132a325ef402760872269c1428ce844" title="Sample 2D Array texture, nearest filtering for both min/magnification." alt="" coords="219,2303,389,2330"/>
+<area shape="rect" id="node163" href="$s__texfilter_8c.html#a941208546745fc59566f3f99d91dcfeb" title="Sample 3D texture, nearest filtering for both min/magnification." alt="" coords="237,2354,371,2381"/>
+<area shape="rect" id="node9" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="954,1999,1001,2026"/>
+<area shape="rect" id="node22" href="$s__texfilter_8c.html#ad2ca6eebe31de1348f8f5cfbad6bff20" title="Put z into texel according to GL_DEPTH_MODE." alt="" coords="699,269,829,295"/>
+<area shape="rect" id="node25" href="$s__texfilter_8c.html#aa7b02d1e7463ce3b57697d5c0b91c3a5" title="Choose the mipmap level to use when sampling from a depth texture." alt="" coords="689,573,839,615"/>
+<area shape="rect" id="node27" href="$s__aatritemp_8h.html#a86cef12525876deaa8816bee8acb49b1" title="if" alt="" coords="745,639,783,666"/>
+<area shape="rect" id="node29" href="$s__texfilter_8c.html#a8773e1b4cf96cc8348f24aec769243e2" title="Compute linear integer texcoords for given texobj and coordinate." alt="" coords="709,471,819,498"/>
+<area shape="rect" id="node31" href="$s__texfilter_8c.html#a7a67bfcbd46852dbfc9dc4409e3e2430" title="Compute nearest integer texcoords for given texobj and coordinate." alt="" coords="703,522,825,549"/>
+<area shape="rect" id="node33" href="$s__texfilter_8c.html#a9072e1900baf3911c88ed19d3670024f" title="Compare texcoord against depth sample." alt="" coords="702,370,826,397"/>
+<area shape="rect" id="node36" href="$s__texfilter_8c.html#a1b329937a0697cddfa953fd84cb67152" title="Compare texcoord against four depth samples." alt="" coords="699,421,829,447"/>
+<area shape="rect" id="node43" href="$s__texfilter_8c.html#a1c06e01dc093d56e83a074078fdfbeea" title="The lambda[] array values are always monotonic." alt="" coords="675,943,853,970"/>
+<area shape="rect" id="node45" href="$s__texfilter_8c.html#ac154f777ea49e95396e307dd1ad2fdc3" title="Return the texture sample for coordinate (s) using GL_LINEAR filter." alt="" coords="703,1235,825,1262"/>
+<area shape="rect" id="node48" href="$s__texfilter_8c.html#a68357c4376173fb8ed30b377ec9ca84d" title="sample_1d_linear_mipmap\l_linear" alt="" coords="444,1163,620,1204"/>
+<area shape="rect" id="node51" href="$s__texfilter_8c.html#ace290c4271928bc47b5e55ad4a2034e6" title="sample_1d_linear_mipmap\l_nearest" alt="" coords="444,1228,620,1269"/>
+<area shape="rect" id="node54" href="$s__texfilter_8c.html#a6e2ba15b11ecd9639931821a4a87b0f1" title="Return the texture sample for coordinate (s) using GL_NEAREST filter." alt="" coords="697,1053,831,1079"/>
+<area shape="rect" id="node57" href="$s__texfilter_8c.html#a0913a28e424ddd2cb3e2512c1d987ea7" title="sample_1d_nearest_mipmap\l_linear" alt="" coords="438,1045,626,1087"/>
+<area shape="rect" id="node60" href="$s__texfilter_8c.html#aa6e3b261cba557cf3cb7c035e77302cb" title="sample_1d_nearest_mipmap\l_nearest" alt="" coords="438,877,626,919"/>
+<area shape="rect" id="node67" href="$s__texfilter_8c.html#a4ac2bc5268792bcca881c3c547506874" title="Return the texture sample for coordinate (s,t,r) using GL_LINEAR filter." alt="" coords="685,1470,843,1497"/>
+<area shape="rect" id="node70" href="$s__texfilter_8c.html#a2a107a6f2034761920e0d1e74b743b8e" title="sample_1d_array_linear\l_mipmap_linear" alt="" coords="453,1463,611,1504"/>
+<area shape="rect" id="node73" href="$s__texfilter_8c.html#a4709a7eeda05f38aa8b4fb094b396c35" title="sample_1d_array_linear\l_mipmap_nearest" alt="" coords="453,1345,611,1387"/>
+<area shape="rect" id="node76" href="$s__texfilter_8c.html#af68b47161b119f11c4913858663fe8a3" title="Return the texture sample for coordinate (s,t,r) using GL_NEAREST filter." alt="" coords="679,1594,849,1621"/>
+<area shape="rect" id="node80" href="$s__texfilter_8c.html#a8f8174cc8bfa59e8b9e84ba78c47e65c" title="sample_1d_array_nearest\l_mipmap_linear" alt="" coords="447,1528,617,1569"/>
+</map>

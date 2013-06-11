@@ -1,0 +1,5 @@
+<map id="gl_dlist_state" name="gl_dlist_state">
+<area shape="rect" id="node2" href="$structgl__display__list.html" title="Provide a location where information about a display list can be collected." alt="" coords="111,96,215,123"/>
+<area shape="rect" id="node4" href="$uniongl__dlist__node.html" title="Display list node." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node7" href="$structGLvertexformat.html" title="Per&#45;vertex functions." alt="" coords="239,96,351,123"/>
+</map>

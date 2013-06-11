@@ -1,0 +1,16 @@
+<map id="vbo_exec_DrawTransformFeedbackStream" name="vbo_exec_DrawTransformFeedbackStream">
+<area shape="rect" id="node3" href="main.tag$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="_mesa_debug" alt="" coords="326,5,429,32"/>
+<area shape="rect" id="node5" href="main.tag$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="285,56,469,83"/>
+<area shape="rect" id="node7" href="main.tag$transformfeedback_8c.html#a733407d2896a56c530c250a453d14b8b" title="_mesa_lookup_transform\l_feedback_object" alt="" coords="293,107,461,149"/>
+<area shape="rect" id="node9" href="$vbo__exec__array_8c.html#aeec442239e775689b3cef56c65ab5883" title="vbo_draw_transform\l_feedback" alt="" coords="307,173,447,214"/>
+<area shape="rect" id="node11" href="main.tag$context_8c.html#a1534c85a80d793eaa3b893b891e0a35d" title="_mesa_flush" alt="" coords="575,63,671,89"/>
+<area shape="rect" id="node13" href="main.tag$api__validate_8c.html#ad51a6c34d9e4234509b109a9b4cc3d6c" title="_mesa_validate_DrawTransform\lFeedback" alt="" coords="517,114,728,155"/>
+<area shape="rect" id="node15" href="$vbo__exec__array_8c.html#ae4f0719822a43bb937b8416bf5daf316" title="All vertex buffers should be in an unmapped state when we&#39;re about to draw." alt="" coords="525,180,721,207"/>
+<area shape="rect" id="node17" href="$vbo_8h.html#ade9fa9f2a9f4afedf52280db72884959" title="Examine the enabled vertex arrays to set the exec&#45;&gt;array.inputs[] values." alt="" coords="564,231,681,257"/>
+<area shape="rect" id="node27" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="1032,231,1125,257"/>
+<area shape="rect" id="node19" href="main.tag$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="793,129,935,156"/>
+<area shape="rect" id="node21" href="$vbo__exec__array_8c.html#a6231460e523ca7dab1db53af9252a736" title="Set the vbo&#45;&gt;exec&#45;&gt;inputs[] pointers to point to the enabled vertex arrays." alt="" coords="777,180,951,207"/>
+<area shape="rect" id="node30" href="$vbo__context_8h.html#a9b5d7d49acd805180833d1939d486688" title="This is called by glBegin, glDrawArrays and glDrawElements (and variations of those calls)..." alt="" coords="800,281,928,308"/>
+<area shape="rect" id="node23" href="main.tag$state_8c.html#a5effa322de7d372e8ed298d8d3ca441d" title="_mesa_set_varying_vp\l_inputs" alt="" coords="1001,114,1157,155"/>
+<area shape="rect" id="node25" href="$vbo__context_8h.html#aaf664a10bf7bc6ab5ffc7325c30b80d2" title="Return VP_x token to indicate whether we&#39;re running fixed&#45;function vertex transformation, an NV vertex program or ARB vertex program/shader." alt="" coords="1012,180,1145,207"/>
+</map>

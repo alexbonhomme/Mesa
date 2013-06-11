@@ -1,0 +1,20 @@
+<map id="accum.c" name="accum.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="353,544,436,571"/>
+<area shape="rect" id="node15" href="$accum_8h.html" title="Accumulation buffer operations." alt="" coords="43,171,115,197"/>
+<area shape="rect" id="node18" href="$condrender_8h.html" title="condrender.h" alt="" coords="479,88,576,115"/>
+<area shape="rect" id="node21" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="521,171,596,197"/>
+<area shape="rect" id="node23" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="629,245,704,272"/>
+<area shape="rect" id="node54" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1413,395,1488,421"/>
+<area shape="rect" id="node73" href="$format__unpack_8h.html" title="format_unpack.h" alt="" coords="1345,88,1463,115"/>
+<area shape="rect" id="node75" href="$format__pack_8h.html" title="format_pack.h" alt="" coords="1363,320,1468,347"/>
+<area shape="rect" id="node79" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="703,171,779,197"/>
+<area shape="rect" id="node82" href="$state_8h.html" title="state.h" alt="" coords="855,245,917,272"/>
+<area shape="rect" id="node86" href="$dispatch_8h.html" title="Macros for handling GL dispatch tables." alt="" coords="1488,88,1603,115"/>
+<area shape="rect" id="node25" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="668,395,751,421"/>
+<area shape="rect" id="node50" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="712,320,779,347"/>
+<area shape="rect" id="node57" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1559,469,1659,496"/>
+<area shape="rect" id="node61" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1799,469,1919,496"/>
+<area shape="rect" id="node63" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1286,469,1412,496"/>
+<area shape="rect" id="node65" href="$formats_8h.html" title="main/formats.h" alt="" coords="1943,469,2052,496"/>
+<area shape="rect" id="node68" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1489,469,1535,496"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="_tnl_build_vertices" name="_tnl_build_vertices">
+<area shape="rect" id="node3" href="$t__vertex_8c.html#aaddfc4eb1a2cd64710741b26859a1352" title="update_input_ptrs" alt="" coords="184,56,309,83"/>
+<area shape="rect" id="node5" href="$t__vertex_8c.html#aced672c0a2c31556cf5b0c27391acc24" title="choose_emit_func" alt="" coords="357,56,485,83"/>
+<area shape="rect" id="node7" href="$t__vertex_8c.html#a156c6b6d7a95eec47de3f3392774ad5f" title="search_fastpath_emit" alt="" coords="557,5,704,32"/>
+<area shape="rect" id="node11" href="$t__vertex_8h.html#a9c4c29ce7ff248fd8e861a8d8a027c99" title="_tnl_generate_hardwired_emit" alt="" coords="533,56,728,83"/>
+<area shape="rect" id="node13" href="$t__vertex_8h.html#ab2cbdbdeb80e85d0617e6fe9765fd760" title="_tnl_generic_emit" alt="" coords="569,107,693,133"/>
+<area shape="rect" id="node9" href="$t__vertex_8c.html#a0b2b3c5e568c1912a6eb1ec989133be9" title="match_fastpath" alt="" coords="776,5,888,32"/>
+</map>

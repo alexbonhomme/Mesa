@@ -1,0 +1,10 @@
+<map id="sample_linear_3d" name="sample_linear_3d">
+<area shape="rect" id="node3" href="$s__texfilter_8c.html#a06d1c93f4cbe8c979bb9b678b6f9847d" title="Return the texture sample for coordinate (s,t,r) using GL_LINEAR filter." alt="" coords="176,81,299,108"/>
+<area shape="rect" id="node18" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="214,132,261,159"/>
+<area shape="rect" id="node5" href="$s__texfilter_8c.html#aaee001ef378582d01d8e2f363c908f05" title="When we sample the border color, it must be interpreted according to the base texture format..." alt="" coords="361,5,479,32"/>
+<area shape="rect" id="node7" href="$s__texfilter_8c.html#a84830e2f4671d7d7535206e9339141fa" title="Do trilinear interpolation of colors." alt="" coords="372,56,468,83"/>
+<area shape="rect" id="node11" href="$s__texfilter_8c.html#aa022549dccc19395103fc5c063b6ca74" title="Used to compute texel locations for linear sampling." alt="" coords="347,107,493,133"/>
+<area shape="rect" id="node15" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="542,155,693,197"/>
+<area shape="rect" id="node9" href="$s__texfilter_8c.html#a6803e994162fe597dbb14ef8d98eb6aa" title="Do 3D/trilinear interpolation of float values." alt="" coords="585,53,649,80"/>
+<area shape="rect" id="node13" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="560,104,675,131"/>
+</map>

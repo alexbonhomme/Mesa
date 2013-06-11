@@ -1,0 +1,9 @@
+<map id="gl_texture_unit" name="gl_texture_unit">
+<area shape="rect" id="node2" href="$structgl__texgen.html" title="Texture coord generation state." alt="" coords="5,195,83,221"/>
+<area shape="rect" id="node4" href="$structgl__sampler__object.html" title="Sampler object state." alt="" coords="149,96,275,123"/>
+<area shape="rect" id="node10" href="$structgl__texture__object.html" title="Texture object state." alt="" coords="375,195,496,221"/>
+<area shape="rect" id="node6" href="$uniongl__color__union.html" title="Used for storing clear color, texture border color, etc." alt="" coords="159,5,264,32"/>
+<area shape="rect" id="node8" href="$structgl__tex__env__combine__state.html" title="Texture combine environment state." alt="" coords="209,187,351,229"/>
+<area shape="rect" id="node14" href="$structgl__texture__image.html" title="Texture image state." alt="" coords="423,336,544,363"/>
+<area shape="rect" id="node12" href="$structgl__buffer__object.html" title="GL_ARB_vertex/pixel_buffer_object buffer object." alt="" coords="379,96,493,123"/>
+</map>

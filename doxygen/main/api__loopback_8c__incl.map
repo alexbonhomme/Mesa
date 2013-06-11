@@ -1,0 +1,16 @@
+<map id="api_loopback.c" name="api_loopback.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1203,528,1285,555"/>
+<area shape="rect" id="node9" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="1263,155,1339,181"/>
+<area shape="rect" id="node42" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1379,379,1455,405"/>
+<area shape="rect" id="node59" href="$api__loopback_8h.html" title="api_loopback.h" alt="" coords="1505,80,1615,107"/>
+<area shape="rect" id="node68" href="$dispatch_8h.html" title="Macros for handling GL dispatch tables." alt="" coords="1835,155,1949,181"/>
+<area shape="rect" id="node70" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="1363,155,1471,181"/>
+<area shape="rect" id="node11" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="1131,229,1207,256"/>
+<area shape="rect" id="node13" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="655,379,737,405"/>
+<area shape="rect" id="node38" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1141,304,1208,331"/>
+<area shape="rect" id="node45" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1213,453,1312,480"/>
+<area shape="rect" id="node49" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1337,453,1457,480"/>
+<area shape="rect" id="node51" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1482,453,1608,480"/>
+<area shape="rect" id="node53" href="$formats_8h.html" title="main/formats.h" alt="" coords="1069,528,1179,555"/>
+<area shape="rect" id="node56" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1685,453,1731,480"/>
+</map>

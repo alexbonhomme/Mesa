@@ -1,0 +1,26 @@
+<map id="bufferobj.h" name="bufferobj.h">
+<area shape="rect" id="node3" href="$api__arrayelt_8c.html" title="api_arrayelt.c" alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node5" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="129,80,215,107"/>
+<area shape="rect" id="node7" href="$api__validate_8c.html" title="api_validate.c" alt="" coords="239,80,341,107"/>
+<area shape="rect" id="node9" href="$arrayobj_8c.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="366,80,444,107"/>
+<area shape="rect" id="node11" href="$attrib_8c.html" title="attrib.c" alt="" coords="469,80,531,107"/>
+<area shape="rect" id="node13" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="556,80,639,107"/>
+<area shape="rect" id="node15" href="$colortab_8c.html" title="colortab.c" alt="" coords="663,80,741,107"/>
+<area shape="rect" id="node17" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="766,80,841,107"/>
+<area shape="rect" id="node19" href="$convolve_8c.html" title="convolve.c" alt="" coords="867,80,952,107"/>
+<area shape="rect" id="node21" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="977,80,1033,107"/>
+<area shape="rect" id="node23" href="$drawpix_8c.html" title="drawpix.c" alt="" coords="1058,80,1136,107"/>
+<area shape="rect" id="node25" href="$histogram_8c.html" title="histogram.c" alt="" coords="1161,80,1252,107"/>
+<area shape="rect" id="node27" href="$pbo_8c.html" title="Functions related to Pixel Buffer Objects." alt="" coords="1277,80,1331,107"/>
+<area shape="rect" id="node29" href="$pixel_8c.html" title="Pixel transfer functions (glPixelZoom, glPixelMap, glPixelTransfer)" alt="" coords="1355,80,1415,107"/>
+<area shape="rect" id="node31" href="$pixelstore_8c.html" title="glPixelStore functions." alt="" coords="1439,80,1528,107"/>
+<area shape="rect" id="node33" href="$readpix_8c.html" title="readpix.c" alt="" coords="1553,80,1628,107"/>
+<area shape="rect" id="node35" href="$shared_8c.html" title="Shared&#45;context state." alt="" coords="1652,80,1724,107"/>
+<area shape="rect" id="node37" href="$texgetimage_8c.html" title="texgetimage.c" alt="" coords="1748,80,1852,107"/>
+<area shape="rect" id="node39" href="$teximage_8c.html" title="Texture image&#45;related functions." alt="" coords="1877,80,1963,107"/>
+<area shape="rect" id="node41" href="$texobj_8c.html" title="Texture object management." alt="" coords="1987,80,2055,107"/>
+<area shape="rect" id="node43" href="$texstate_8c.html" title="Texture state handling." alt="" coords="2080,80,2160,107"/>
+<area shape="rect" id="node45" href="$texstore_8c.html" title="texstore.c" alt="" coords="2184,80,2264,107"/>
+<area shape="rect" id="node47" href="$transformfeedback_8c.html" title="transformfeedback.c" alt="" coords="2288,80,2429,107"/>
+<area shape="rect" id="node49" href="$varray_8c.html" title="varray.c" alt="" coords="2453,80,2523,107"/>
+</map>

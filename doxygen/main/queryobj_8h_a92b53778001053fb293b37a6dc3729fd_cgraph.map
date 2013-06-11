@@ -1,0 +1,9 @@
+<map id="_mesa_init_query_object_functions" name="_mesa_init_query_object_functions">
+<area shape="rect" id="node3" href="$queryobj_8c.html#a9ab5ce633206b1ceaf78221024c9ace4" title="Begin a query." alt="" coords="239,5,377,32"/>
+<area shape="rect" id="node5" href="$queryobj_8c.html#a0714a9bbf57eae5dcac4f5e45bf4a871" title="Check if a query results are ready." alt="" coords="237,56,379,83"/>
+<area shape="rect" id="node7" href="$queryobj_8c.html#a7069f7f9246197d6ccfe3efd09e4bde9" title="Delete a query object." alt="" coords="237,107,379,133"/>
+<area shape="rect" id="node9" href="$queryobj_8c.html#a16e1ec94c4edbc141cb775e02551b821" title="End a query." alt="" coords="244,157,372,184"/>
+<area shape="rect" id="node11" href="$queryobj_8c.html#abfef22f0961c4c1344f60393026ad270" title="Allocate a new query object." alt="" coords="221,208,395,235"/>
+<area shape="rect" id="node15" href="$queryobj_8c.html#a1d2d35fe21b4e4afd4d1e95c9cf1bb0b" title="Wait for query to complete." alt="" coords="243,259,373,285"/>
+<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="443,208,490,235"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="ir_sampler_replacement_visitor::replace_deref" name="ir_sampler_replacement_visitor::replace_deref">
+<area shape="rect" id="node3" href="$classir__dereference__variable.html#ab71b634cc9b4c3d9fe2f4b31e01376d2" title="ir_dereference_variable\l::as_dereference_variable" alt="" coords="213,5,384,46"/>
+<area shape="rect" id="node5" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="227,71,370,97"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="251,121,347,148"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="433,121,519,148"/>
+</map>

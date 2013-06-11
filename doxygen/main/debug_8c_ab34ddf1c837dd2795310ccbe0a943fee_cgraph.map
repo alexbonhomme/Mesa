@@ -1,0 +1,17 @@
+<map id="_mesa_dump_texture" name="_mesa_dump_texture">
+<area shape="rect" id="node3" href="$texobj_8c.html#a17fb56ce79c53c21b33f04e193ba2c97" title="Return the gl_texture_object for a given ID." alt="" coords="201,95,354,121"/>
+<area shape="rect" id="node19" href="$debug_8c.html#a516711563c7cc13a07269f662a66af77" title="dump_texture" alt="" coords="227,171,328,197"/>
+<area shape="rect" id="node5" href="$hash_8c.html#a1600921a3daee886e08a32ee938ecae6" title="Lookup an entry in the hash table." alt="" coords="417,81,559,108"/>
+<area shape="rect" id="node7" href="$hash_8c.html#aa7ce0ade51898f06b4b3304d8854dd11" title="Lookup an entry in the hash table, without locking." alt="" coords="621,81,821,108"/>
+<area shape="rect" id="node9" href="$hash__table_8c.html#a29d49831f59c5682166c5796bb0482ae" title="Finds a hash table entry with the given key and hash of that key." alt="" coords="870,31,1047,57"/>
+<area shape="rect" id="node15" href="$hash_8c.html#a9cc49de14d380e0a488b8807aedc9e49" title="uint_hash" alt="" coords="919,81,998,108"/>
+<area shape="rect" id="node17" href="$hash_8c.html#a74d0f9f21dc0f67829f9e9699fe88dc2" title="uint_key" alt="" coords="923,132,994,159"/>
+<area shape="rect" id="node11" href="$hash__table_8c.html#af73102fdaa8cb45f2a56c3bac210e162" title="entry_is_free" alt="" coords="1107,5,1205,32"/>
+<area shape="rect" id="node13" href="$hash__table_8c.html#a091be61d8da42898d8ac1683b60d6879" title="entry_is_present" alt="" coords="1097,56,1215,83"/>
+<area shape="rect" id="node21" href="$debug_8c.html#ad06f2cb2e050150dd4720f02ec56d47e" title="tex_target_name" alt="" coords="429,132,547,159"/>
+<area shape="rect" id="node23" href="$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="Return string name of format (for debugging)" alt="" coords="403,183,573,209"/>
+<area shape="rect" id="node27" href="$debug_8c.html#a6bbae33a9309a1e584991d75b6de4fc3" title="Write a texture image to a ppm file." alt="" coords="419,233,557,260"/>
+<area shape="rect" id="node25" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="642,183,801,209"/>
+<area shape="rect" id="node29" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="666,233,777,260"/>
+<area shape="rect" id="node31" href="$debug_8c.html#a5b5055e3e22beceabe9f0fc4d960c0f6" title="write_ppm" alt="" coords="680,284,763,311"/>
+</map>

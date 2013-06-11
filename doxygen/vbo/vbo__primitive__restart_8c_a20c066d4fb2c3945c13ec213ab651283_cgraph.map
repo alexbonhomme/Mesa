@@ -1,0 +1,6 @@
+<map id="vbo_sw_primitive_restart" name="vbo_sw_primitive_restart">
+<area shape="rect" id="node3" href="main.tag$varray_8c.html#a79f982b5c961f5df7a849c3234676da6" title="_mesa_primitive_restart\l_index" alt="" coords="222,5,383,46"/>
+<area shape="rect" id="node5" href="$vbo__primitive__restart_8c.html#a8601068e0d45ec84857cf83eebee7ca0" title="Scan the elements array to find restart indexes." alt="" coords="235,71,370,97"/>
+<area shape="rect" id="node7" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="256,121,349,148"/>
+<area shape="rect" id="node9" href="$vbo_8h.html#a2b210ac8168d440371a8dd6186444b83" title="vbo_sizeof_ib_type" alt="" coords="235,172,370,199"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="lower_clip_distance_visitor::fix_lhs" name="lower_clip_distance_visitor::fix_lhs">
+<area shape="rect" id="node3" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="195,5,338,32"/>
+<area shape="rect" id="node5" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="213,56,320,83"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="413,56,509,83"/>
+<area shape="rect" id="node12" href="$classir__assignment.html#ac3e2d17a85fb4e8e112e6ce50cfbd28e" title="Set the LHS of an assignment." alt="" coords="190,169,343,196"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="579,56,666,83"/>
+<area shape="rect" id="node14" href="$classir__instruction.html#a8a801e831b211df2714a86f344d092c0" title="ir_instruction::as\l_dereference" alt="" coords="402,107,521,149"/>
+<area shape="rect" id="node16" href="$classir__instruction.html#abfc61f081e506819dde374e80c8658a5" title="ir_instruction::as\l_swizzle" alt="" coords="402,173,521,214"/>
+<area shape="rect" id="node18" href="$ir_8cpp.html#ad9db89f09faed45063573d2dbd4abf18" title="Modify the swizzle make to move one component to another." alt="" coords="393,239,530,265"/>
+</map>

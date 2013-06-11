@@ -1,0 +1,51 @@
+<map id="do_common_optimization" name="do_common_optimization">
+<area shape="rect" id="node3" href="$loop__analysis_8cpp.html#a161caf1d3dc07d7f90927d3a1e4b3b93" title="Analyze and classify all variables used in all loops in the instruction list." alt="" coords="448,1432,605,1459"/>
+<area shape="rect" id="node11" href="$ir__optimization_8h.html#a46690d9c8b00dfa2c61df7574e5a87b7" title="do_algebraic" alt="" coords="479,1534,574,1560"/>
+<area shape="rect" id="node14" href="$ir__optimization_8h.html#ab51b0cd08e59a8b820480be28df48ab7" title="do_constant_folding" alt="" coords="457,1584,596,1611"/>
+<area shape="rect" id="node17" href="$ir__optimization_8h.html#a6f20ff3e13f7e92ef586a30a791be344" title="Does a constant propagation pass on the code present in the instruction stream." alt="" coords="443,1635,610,1662"/>
+<area shape="rect" id="node20" href="$ir__optimization_8h.html#acc78e89f83fda8a3c7cf4b5ef6f922dd" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="454,1280,599,1307"/>
+<area shape="rect" id="node22" href="$ir__optimization_8h.html#a997e75d8f8c69288ce900c5274ac1a16" title="do_constant_variable\l_unlinked" alt="" coords="237,1214,382,1256"/>
+<area shape="rect" id="node27" href="$ir__optimization_8h.html#a043744d1271a8cd5a050512e8106f4a0" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="454,1686,599,1712"/>
+<area shape="rect" id="node30" href="$ir__optimization_8h.html#adf365262526816611e09e109c070635b" title="do_copy_propagation\l_elements" alt="" coords="454,1737,599,1778"/>
+<area shape="rect" id="node33" href="$ir__optimization_8h.html#a2f8ef4f173ccfff8200132061cd202c0" title="Do a dead code pass over instructions and everything that instructions references." alt="" coords="473,1179,580,1206"/>
+<area shape="rect" id="node36" href="$ir__optimization_8h.html#a23547b6ed13680a9049406850c7c1286" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="239,699,379,726"/>
+<area shape="rect" id="node68" href="$ir__optimization_8h.html#a2184effa56f97b2c84978cd57e5756c5" title="Does a dead code pass on the functions present in the instruction stream." alt="" coords="229,1112,390,1139"/>
+<area shape="rect" id="node72" href="$ir__optimization_8h.html#a44d28708de43ed002036f4c7fbd9d48a" title="do_dead_functions" alt="" coords="461,1078,592,1104"/>
+<area shape="rect" id="node76" href="$ir__optimization_8h.html#a47477b5edf8cb5e2682abaf69924d10c" title="do_function_inlining" alt="" coords="241,1787,377,1814"/>
+<area shape="rect" id="node78" href="$ir__optimization_8h.html#ad7879530b127a4fe8fd4ab408fc58097" title="do_if_simplification" alt="" coords="243,1838,376,1864"/>
+<area shape="rect" id="node80" href="$ir__optimization_8h.html#a5200d5101ba5d166aef0ecaf8ee6406c" title="do_lower_jumps" alt="" coords="251,1888,367,1915"/>
+<area shape="rect" id="node84" href="$ir__optimization_8h.html#a806bb6d7d8f78595c36f65ea276918e4" title="do_noop_swizzle" alt="" coords="683,672,805,699"/>
+<area shape="rect" id="node87" href="$ir__optimization_8h.html#a613d55aa3cfd58ddeadcb5bfaa92e46a" title="do_structure_splitting" alt="" coords="453,134,600,160"/>
+<area shape="rect" id="node95" href="$ir__optimization_8h.html#a297e68ceb90963e5ed9cdf6cce90f589" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="240,1939,379,1966"/>
+<area shape="rect" id="node97" href="$ir__optimization_8h.html#a5ba989ad06353da096de1ef6f6484a03" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="252,910,367,936"/>
+<area shape="rect" id="node101" href="$ir__optimization_8h.html#ae8de0755bb73d49fd4163a8b858726ab" title="do_vec_index_to_swizzle" alt="" coords="224,1331,395,1358"/>
+<area shape="rect" id="node104" href="$ir__optimization_8h.html#a609742f45a0fc3f1f96f435972707aca" title="lower_instructions" alt="" coords="463,800,590,827"/>
+<area shape="rect" id="node107" href="$ir__optimization_8h.html#a879a70183d79e147188cbe26679b71e9" title="lower_vector_insert" alt="" coords="677,1027,811,1054"/>
+<area shape="rect" id="node110" href="$ir__optimization_8h.html#a740f7d47ab9a47f21358b357aaf357de" title="opt_flatten_nested\l_if_blocks" alt="" coords="245,1990,374,2032"/>
+<area shape="rect" id="node112" href="$ir__optimization_8h.html#ae9775896cebbb159e3add62a3f0e26f4" title="opt_flip_matrices" alt="" coords="249,1011,370,1038"/>
+<area shape="rect" id="node115" href="$ir__optimization_8h.html#ae5ef67bb4afea78bebed08d35d729184" title="optimize_redundant\l_jumps" alt="" coords="242,2056,377,2097"/>
+<area shape="rect" id="node117" href="$ir__optimization_8h.html#a9afe02479db22138e42085ec00a32685" title="optimize_split_arrays" alt="" coords="454,260,599,287"/>
+<area shape="rect" id="node130" href="$loop__analysis_8h.html#a449b5881d24e8089407b518d5e6a9e86" title="Fill in loop control fields." alt="" coords="247,1382,371,1408"/>
+<area shape="rect" id="node133" href="$loop__analysis_8h.html#a8643768badb9dbe7390c603de96e180d" title="unroll_loops" alt="" coords="264,1483,355,1510"/>
+<area shape="rect" id="node5" href="$classir__hierarchical__visitor.html#a730b38bc0e9081b22c31690bd7e39f3a" title="Utility function to process a linked list of instructions with a visitor." alt="" coords="659,1356,829,1383"/>
+<area shape="rect" id="node7" href="$ir__hierarchical__visitor_8h.html#a3d916e3fe1319c5d975084a1c412aa37" title="Process a list of nodes using a hierarchical vistor." alt="" coords="877,1052,1008,1079"/>
+<area shape="rect" id="node9" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="1057,555,1199,582"/>
+<area shape="rect" id="node24" href="$classir__instruction.html#a8ad7b88149bc9f028f7bf7f52f48e7c3" title="ir_instruction::as\l_function" alt="" coords="685,1180,803,1221"/>
+<area shape="rect" id="node38" href="$ir__basic__block_8cpp.html#a3f98f9cf58c30c2edcb7c02149fa8821" title="Calls a user function for every basic block in the instruction stream." alt="" coords="453,875,600,902"/>
+<area shape="rect" id="node50" href="$opt__dead__code__local_8cpp.html#a6752a72dc50bd6b06ea83470714c3e3f" title="dead_code_local_basic\l_block" alt="" coords="448,380,605,421"/>
+<area shape="rect" id="node40" href="$classir__instruction.html#ab9b5054185adf8b60331bdc919462633" title="ir_instruction::as_call" alt="" coords="671,875,817,902"/>
+<area shape="rect" id="node43" href="$classir__instruction.html#ab535e6cbf92548da00fdfe821bcceffb" title="ir_instruction::as_if" alt="" coords="678,926,810,952"/>
+<area shape="rect" id="node45" href="$classir__instruction.html#af63dce16af60db5d94f764428b7d8a28" title="ir_instruction::as_jump" alt="" coords="667,774,821,800"/>
+<area shape="rect" id="node47" href="$classir__instruction.html#a052b6aadaec22eaa9bd32db993f3dd9f" title="ir_instruction::as_loop" alt="" coords="669,824,819,851"/>
+<area shape="rect" id="node52" href="$ralloc_8c.html#a38530c9f4ef437290b8acd706b858410" title="Allocate a new ralloc context." alt="" coords="693,235,795,262"/>
+<area shape="rect" id="node56" href="$classir__instruction.html#ae2222d77e4a0c2262181cdd661a7b049" title="ir_instruction::as\l_assignment" alt="" coords="685,606,803,648"/>
+<area shape="rect" id="node58" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="878,387,1007,414"/>
+<area shape="rect" id="node61" href="$opt__dead__code__local_8cpp.html#a6d52bb1f02a1522b3ea84e42dfa5b0c4" title="Adds an entry to the available copy list if it&#39;s a plain assignment of a variable to a variable..." alt="" coords="673,336,815,363"/>
+<area shape="rect" id="node66" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="703,184,785,211"/>
+<area shape="rect" id="node54" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="901,235,985,262"/>
+<area shape="rect" id="node63" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="895,134,991,160"/>
+<area shape="rect" id="node82" href="$ir_8cpp.html#a9cac841ae8e15e35da2a524415495c17" title="Apply a visitor to each IR node in a list." alt="" coords="474,1888,579,1915"/>
+<area shape="rect" id="node92" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="693,83,795,110"/>
+<area shape="rect" id="node119" href="$classir__array__reference__visitor.html#a0154917be51f2e662b1ccd8d7a000c38" title="ir_array_reference\l_visitor::get_split_list" alt="" coords="671,489,817,530"/>
+<area shape="rect" id="node126" href="$ir__print__visitor_8cpp.html#a1b33948c1107e045bd6b3bc5874ca550" title="_mesa_print_ir" alt="" coords="691,286,797,312"/>
+</map>

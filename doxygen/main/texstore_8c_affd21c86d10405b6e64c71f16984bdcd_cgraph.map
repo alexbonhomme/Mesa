@@ -1,0 +1,51 @@
+<map id="_mesa_texstore_rgba8888" name="_mesa_texstore_rgba8888">
+<area shape="rect" id="node3" href="$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="Return bytes needed to store a block of pixels in the given format." alt="" coords="930,1337,1099,1364"/>
+<area shape="rect" id="node10" href="$imports_8h.html#aaf81e7d8a2cca130ab3161c80af243fe" title="Return 1 if this is a little endian machine, 0 if big endian." alt="" coords="946,14,1083,41"/>
+<area shape="rect" id="node12" href="$texstore_8c.html#a4a4dcfa02958ee0062fd532beadf03ac" title="Transfer a GLubyte texture image with component swizzling." alt="" coords="439,260,590,302"/>
+<area shape="rect" id="node55" href="$texstore_8c.html#a7c397d8b9f3bb9a849c2564751839aa0" title="Return GL_TRUE if the given image format is one that be converted to another format by swizzling..." alt="" coords="251,496,346,522"/>
+<area shape="rect" id="node57" href="$texstore_8c.html#a553c31bec5369e05ac680bcc8d838791" title="General&#45;case function for storing a color texture images with components that can be represented with..." alt="" coords="230,445,367,472"/>
+<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="1443,1424,1602,1450"/>
+<area shape="rect" id="node7" href="$formats_8c.html#a94ab01c6f81ace5a82ceee735a13dd9d" title="Is the given format a compressed format?" alt="" coords="1181,1424,1381,1450"/>
+<area shape="rect" id="node14" href="$glformats_8c.html#a14f0df64971e5ece81cb7c04a4e2f09d" title="Get the number of components in a pixel format." alt="" coords="1445,438,1601,479"/>
+<area shape="rect" id="node16" href="$image_8c.html#ab59d92ff8fdf9a1c1af9555cad91b197" title="Return the address of a specific pixel in an image (1D, 2D or 3D)." alt="" coords="683,344,839,370"/>
+<area shape="rect" id="node25" href="$image_8c.html#a1fdeb48e1bc5c6fe0b3aeaec865a839d" title="_mesa_image_image_stride" alt="" coords="669,293,853,320"/>
+<area shape="rect" id="node28" href="$image_8c.html#ad2d330332a6b455a0991656329bbe9b4" title="Compute the stride (in bytes) between image rows." alt="" coords="676,394,847,421"/>
+<area shape="rect" id="node31" href="$texstore_8c.html#acca3ef653fbd54c331d4ad0941a3ab7e" title="For 1&#45;byte/pixel formats (or 8_8_8_8 packed formats), return a mapping array depending on pixelstore ..." alt="" coords="694,90,829,117"/>
+<area shape="rect" id="node33" href="$texstore_8c.html#af389e4030e935764dbfb15e8b8ba102f" title="When promoting texture formats (see below) we need to compute the mapping of dest components back to ..." alt="" coords="662,496,861,522"/>
+<area shape="rect" id="node39" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1499,314,1546,341"/>
+<area shape="rect" id="node49" href="$texstore_8c.html#a50aebbcce658c4b301cf60d6deb58015" title="Copy GLubyte pixels from &lt;src&gt; to &lt;dst&gt; with swizzling." alt="" coords="711,141,812,168"/>
+<area shape="rect" id="node51" href="$texstore_8c.html#a921cc6312629bde9cc7ab8d6e91c0832" title="For 1&#45;byte/pixel formats (or 8_8_8_8 packed formats), return a mapping array depending on endianness..." alt="" coords="710,40,813,66"/>
+<area shape="rect" id="node18" href="$image_8c.html#a349c7efa0b2a44e2e4de1f995bd60a56" title="Return the byte offset of a specific pixel in an image (1D, 2D or 3D)." alt="" coords="943,344,1086,370"/>
+<area shape="rect" id="node20" href="$glformats_8c.html#a436296728b4475da0aa5ef287cb3c4eb" title="Get the bytes per pixel of pixel format type pair." alt="" coords="1202,344,1361,370"/>
+<area shape="rect" id="node23" href="$mipmap_8c.html#aa5d90447a8dad8289cacddbb0c98dd1f" title="bytes_per_pixel" alt="" coords="1225,394,1338,421"/>
+<area shape="rect" id="node35" href="$texstore_8c.html#a0c675fa67d9ab14e4efe2bad23359fb6" title="Convert a GL image format enum to an IDX_* value (see above)." alt="" coords="967,496,1063,522"/>
+<area shape="rect" id="node41" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="1189,749,1373,776"/>
+<area shape="rect" id="node37" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1224,546,1339,573"/>
+<area shape="rect" id="node43" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="1465,749,1580,776"/>
+<area shape="rect" id="node45" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1467,800,1578,826"/>
+<area shape="rect" id="node47" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="1481,698,1564,725"/>
+<area shape="rect" id="node59" href="$texstore_8c.html#aa9fdcede143515b5191615da50d747e0" title="Make a temporary (color) texture image with GLubyte components." alt="" coords="427,438,602,479"/>
+<area shape="rect" id="node90" href="$format__pack_8c.html#ad90ca29fb15d68039720045479e043f8" title="Pack a 2D image of ubyte RGBA pixels in the given format." alt="" coords="417,1170,613,1197"/>
+<area shape="rect" id="node64" href="$pack_8c.html#a3f9b88f3c4a94633c1053c06479dfa7c" title="_mesa_unpack_color\l_span_ubyte" alt="" coords="689,767,834,808"/>
+<area shape="rect" id="node66" href="$pixeltransfer_8c.html#ae45d602902206f7af78a81db87c5920e" title="Apply various pixel transfer operations to an array of RGBA pixels as indicated by the transferOps bi..." alt="" coords="909,749,1120,776"/>
+<area shape="rect" id="node69" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="967,901,1062,928"/>
+<area shape="rect" id="node73" href="$glformats_8c.html#afff83fe89a1a782a0a429094628de922" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="1201,851,1362,892"/>
+<area shape="rect" id="node75" href="$pixeltransfer_8c.html#a6e46814f8e48fa0ab176a87d2b135a78" title="_mesa_map_ci_to_rgba" alt="" coords="935,800,1095,826"/>
+<area shape="rect" id="node77" href="$pixeltransfer_8c.html#a86b2e65af4a3427566b3330670b65d34" title="_mesa_shift_and_offset_ci" alt="" coords="925,850,1104,877"/>
+<area shape="rect" id="node79" href="$pack_8c.html#a8e0ba751fefcfa3acf5dc9689db66b60" title="extract_float_rgba" alt="" coords="951,698,1078,725"/>
+<area shape="rect" id="node84" href="$pack_8c.html#acba84872ce055584797d3a143f96b79d" title="extract_uint_indexes" alt="" coords="943,597,1086,624"/>
+<area shape="rect" id="node87" href="$pack_8c.html#ab003bf66a4588f830f286b206e811196" title="Get indexes of color components for a basic color format, such as GL_RGBA, GL_RED, GL_LUMINANCE_ALPHA, etc." alt="" coords="933,1002,1096,1029"/>
+<area shape="rect" id="node92" href="$formats_8c.html#a5a683c691d0eb768f27c83fd69913861" title="_mesa_format_row_stride" alt="" coords="675,1413,847,1440"/>
+<area shape="rect" id="node95" href="$format__pack_8c.html#a8144cfa938c088208708a1293d798f55" title="Pack a row of GLubyte rgba[4] values to the destination." alt="" coords="664,1200,859,1226"/>
+<area shape="rect" id="node100" href="$format__pack_8c.html#acef2e02dfc144e793e51ceb61fb2201a" title="get_pack_ubyte_rgba\l_row_function" alt="" coords="941,1131,1088,1172"/>
+<area shape="rect" id="node98" href="$format__pack_8c.html#ae6cb76d9f812e8eade58ded3248c3ab5" title="Return a function that can pack a GLubyte rgba[4] color." alt="" coords="935,1196,1095,1238"/>
+<area shape="rect" id="node102" href="$format__pack_8c.html#a7817d569b29bfa01becd7c9804549db7" title="pack_row_ubyte_ARGB8888" alt="" coords="1186,1272,1377,1298"/>
+<area shape="rect" id="node104" href="$format__pack_8c.html#af5e84f6b48aa260fbcc0b61e3f5c17dd" title="pack_row_ubyte_ARGB8888_REV" alt="" coords="1169,1322,1394,1349"/>
+<area shape="rect" id="node106" href="$format__pack_8c.html#adfee789e1fa52376a0cc4166103b95d5" title="pack_row_ubyte_BGR888" alt="" coords="1194,917,1369,944"/>
+<area shape="rect" id="node108" href="$format__pack_8c.html#ac75a2c44c8b028beef405c2c1b4ce83e" title="pack_row_ubyte_RGB565" alt="" coords="1194,968,1369,994"/>
+<area shape="rect" id="node110" href="$format__pack_8c.html#a805415fa96131ed3e396393effe3a0d2" title="pack_row_ubyte_RGB565_REV" alt="" coords="1177,1018,1386,1045"/>
+<area shape="rect" id="node112" href="$format__pack_8c.html#aab25f83d926782cc64166f8862e2b0a8" title="pack_row_ubyte_RGB888" alt="" coords="1194,1069,1369,1096"/>
+<area shape="rect" id="node114" href="$format__pack_8c.html#a8512586b40d5992b912f8a7c4465f4f5" title="pack_row_ubyte_RGBA8888" alt="" coords="1186,1120,1377,1146"/>
+<area shape="rect" id="node116" href="$format__pack_8c.html#a0c6c6d7f25013b841ca95ef9726b004d" title="pack_row_ubyte_RGBA8888_REV" alt="" coords="1169,1170,1394,1197"/>
+<area shape="rect" id="node118" href="$format__pack_8c.html#aa5ee9844d555591823152bbf4edb28fa" title="pack_row_ubyte_XRGB8888" alt="" coords="1186,1221,1377,1248"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="copy_array_attrib" name="copy_array_attrib">
+<area shape="rect" id="node3" href="$attrib_8c.html#acec095d13377daf871f623959085e59e" title="Copy gl_array_object from src to dest." alt="" coords="176,31,304,57"/>
+<area shape="rect" id="node5" href="$varray_8c.html#a9b9276010f33b8cc6d908cbdebdecf0e" title="Copy one client vertex array to another." alt="" coords="352,31,523,57"/>
+<area shape="rect" id="node7" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="571,23,733,65"/>
+<area shape="rect" id="node9" href="$bufferobj_8c.html#a7bf958a4212f187195e01a949aa400c0" title="Set ptr to bufObj w/ reference counting." alt="" coords="781,23,944,65"/>
+<area shape="rect" id="node11" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="992,31,1107,57"/>
+<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1191,5,1238,32"/>
+<area shape="rect" id="node15" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1155,56,1274,83"/>
+</map>

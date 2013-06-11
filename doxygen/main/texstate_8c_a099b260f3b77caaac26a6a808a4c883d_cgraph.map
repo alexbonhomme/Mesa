@@ -1,0 +1,12 @@
+<map id="_mesa_init_texture" name="_mesa_init_texture">
+<area shape="rect" id="node3" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="187,5,349,46"/>
+<area shape="rect" id="node13" href="$texstate_8c.html#a75dff805e48c81d5794c85266e512ec6" title="Allocate the proxy textures for the given context." alt="" coords="197,71,339,97"/>
+<area shape="rect" id="node15" href="$texstate_8c.html#a2969b37a5910719633dcbe007c3b2070" title="Initialize a texture unit." alt="" coords="211,121,325,148"/>
+<area shape="rect" id="node5" href="$bufferobj_8c.html#a7bf958a4212f187195e01a949aa400c0" title="Set ptr to bufObj w/ reference counting." alt="" coords="615,6,777,47"/>
+<area shape="rect" id="node7" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1016,89,1131,116"/>
+<area shape="rect" id="node9" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1179,89,1298,116"/>
+<area shape="rect" id="node11" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1215,152,1262,179"/>
+<area shape="rect" id="node17" href="$texobj_8h.html#a8a6496e44427aa05c44fe1a5e2287059" title="_mesa_reference_texobj" alt="" coords="398,117,562,144"/>
+<area shape="rect" id="node19" href="$texobj_8c.html#a8ab948cb414b721b2ee44e4ca97db5aa" title="Reference (or unreference) a texture object." alt="" coords="611,116,781,143"/>
+<area shape="rect" id="node22" href="$texobj_8c.html#aeec6f9d2a6e060dd2ce76c5b0da941c1" title="Check if the given texture object is valid by examining its Target field." alt="" coords="829,115,968,141"/>
+</map>

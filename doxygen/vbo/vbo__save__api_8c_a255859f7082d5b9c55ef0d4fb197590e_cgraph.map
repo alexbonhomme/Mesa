@@ -1,0 +1,30 @@
+<map id="save_fixup_vertex" name="save_fixup_vertex">
+<area shape="rect" id="node3" href="$vbo__save__api_8c.html#a9f2fa3a49e8382e86dd192d6ac9ed45f" title="Called when we increase the size of a vertex attribute." alt="" coords="182,94,335,120"/>
+<area shape="rect" id="node7" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="1069,195,1163,222"/>
+<area shape="rect" id="node66" href="$vbo__context_8h.html#aa00b1df45f5844fe3ead3eb3b1925454" title="Return default component values for the given format." alt="" coords="186,145,331,186"/>
+<area shape="rect" id="node5" href="$vbo__save__api_8c.html#adce6e0e358b094d881da39aafa69eebb" title="_save_copy_from_current" alt="" coords="591,94,763,120"/>
+<area shape="rect" id="node9" href="$vbo__save__api_8c.html#a2c77d9f39799225f8af087c0891bcf4b" title="_save_copy_to_current" alt="" coords="384,144,541,171"/>
+<area shape="rect" id="node12" href="$vbo__save__api_8c.html#a3c05e2a9aa9beb2c7e143718d419d499" title="This is called when we fill a vertex buffer before we hit a glEnd()." alt="" coords="393,195,532,222"/>
+<area shape="rect" id="node14" href="$vbo__save__api_8c.html#a2b40dc19bbcdef6bc5e5cddfe9f67a4b" title="Insert the active immediate struct onto the display list currently being built." alt="" coords="589,448,765,475"/>
+<area shape="rect" id="node16" href="main.tag$dlist_8c.html#a668379ebc9169dbf9ed6929afc831966" title="_mesa_dlist_alloc" alt="" coords="835,448,962,475"/>
+<area shape="rect" id="node18" href="$vbo__save__api_8c.html#a02f2aa7a138d20a5c0d1947734bd5559" title="_save_copy_vertices" alt="" coords="826,296,971,323"/>
+<area shape="rect" id="node21" href="$vbo__save__api_8c.html#af383fbfc78a8c0331b4e9b3cf54f137a" title="_save_reset_counters" alt="" coords="823,347,974,374"/>
+<area shape="rect" id="node24" href="$vbo__save__api_8c.html#ac9e1bf68ddf1f7ebd885532b69a90041" title="alloc_prim_store" alt="" coords="840,499,957,526"/>
+<area shape="rect" id="node26" href="$vbo__save__api_8c.html#afa851e7f5dea5abd01509ba8b6ddc758" title="alloc_vertex_store" alt="" coords="835,398,963,424"/>
+<area shape="rect" id="node33" href="$vbo__save__api_8c.html#a1375d9aa39fa3570c66db217a0fc3c39" title="For a list of prims, try merging prims that can just be extensions of the previous prim..." alt="" coords="850,550,947,576"/>
+<area shape="rect" id="node43" href="$vbo__save_8h.html#a06f1a3a463a9df6d980ca6c464d3348a" title="vbo_loopback_vertex_list" alt="" coords="814,600,983,627"/>
+<area shape="rect" id="node59" href="$vbo__save_8h.html#a3e5addb57c6026a0e9370309f981b929" title="vbo_save_map_vertex\l_store" alt="" coords="822,652,975,693"/>
+<area shape="rect" id="node61" href="$vbo__save_8h.html#a4d783b9ffb8f48aa931c60543c4c150b" title="vbo_save_unmap_vertex\l_store" alt="" coords="815,717,982,758"/>
+<area shape="rect" id="node28" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="1069,339,1163,366"/>
+<area shape="rect" id="node30" href="main.tag$vtxfmt_8c.html#ae345e0f57720a7d8c8c3dc1f29ae45b8" title="_mesa_install_save\l_vtxfmt" alt="" coords="1047,390,1185,432"/>
+<area shape="rect" id="node35" href="$vbo_8h.html#a325466a9eb647c7863a670deb7d6d607" title="Helper function for determining if two subsequent glBegin/glEnd primitives can be combined..." alt="" coords="1261,482,1414,508"/>
+<area shape="rect" id="node37" href="$vbo_8h.html#a45956dc25d15d16e8a9ef07c057d3f29" title="If we&#39;ve determined that p0 and p1 can be merged, this function concatenates p1 onto p0..." alt="" coords="1053,507,1179,534"/>
+<area shape="rect" id="node40" href="$vbo_8h.html#addb8a1c2d5d7fe7841f4bdebe6fba421" title="In some degenarate cases we can improve our ability to merge consecutive primitives." alt="" coords="1033,558,1199,584"/>
+<area shape="rect" id="node45" href="$vbo__save__loopback_8c.html#a0f9fc4855dbe23ce6c4e41ea835f2ee2" title="loopback_prim" alt="" coords="1063,608,1169,635"/>
+<area shape="rect" id="node57" href="$vbo__save__loopback_8c.html#a769dd86a08639a334646972c5443924d" title="loopback_weak_prim" alt="" coords="1044,659,1188,686"/>
+<area shape="rect" id="node47" href="$vbo__split__copy_8c.html#aba57a432cbe3ed3871caeedfa6c6d4d0" title="Called at end of each primitive during replay." alt="" coords="1316,583,1359,610"/>
+<area shape="rect" id="node55" href="main.tag$enums_8c.html#add9a5aa9e4d85da047803266d7e66548" title="_mesa_lookup_prim_by_nr" alt="" coords="1249,634,1426,660"/>
+<area shape="rect" id="node49" href="$vbo__split__copy_8c.html#a5cc428dd7410f68a6017975b0d7e8406" title="Starts returning true slightly before the buffer fills, to ensure that there is sufficient room for a..." alt="" coords="1475,558,1567,584"/>
+<area shape="rect" id="node51" href="$vbo__split__copy_8c.html#aa233458bf6eba9cd4b88f8faf3532a6d" title="flush" alt="" coords="1496,608,1547,635"/>
+<area shape="rect" id="node53" href="$vbo__split__copy_8c.html#abcc36e536e4095f768301a9db88d00ea" title="Dump the parameters/info for a vbo&#45;&gt;draw() call." alt="" coords="1616,608,1733,635"/>
+</map>

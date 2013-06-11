@@ -1,0 +1,5 @@
+<map id="gl_light_attrib" name="gl_light_attrib">
+<area shape="rect" id="node2" href="$structgl__material.html" title="Material state." alt="" coords="5,7,91,33"/>
+<area shape="rect" id="node4" href="$structgl__lightmodel.html" title="Light model state." alt="" coords="115,7,213,33"/>
+<area shape="rect" id="node6" href="$structgl__light.html" title="Light source state." alt="" coords="238,7,300,33"/>
+</map>

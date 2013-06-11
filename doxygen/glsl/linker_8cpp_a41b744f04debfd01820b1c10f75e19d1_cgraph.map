@@ -1,0 +1,51 @@
+<map id="link_intrastage_shaders" name="link_intrastage_shaders">
+<area shape="rect" id="node3" href="$classir__function.html#ae015dcc830ad77b1247e5a8c5cefccb3" title="ir_function::as_function" alt="" coords="229,56,387,83"/>
+<area shape="rect" id="node5" href="$ir_8h.html#af5d70e4ea6a3294e8f6eb3f8528d7d02" title="Make a clone of each IR instruction in a list." alt="" coords="263,431,353,457"/>
+<area shape="rect" id="node13" href="$classir__hierarchical__visitor.html#a730b38bc0e9081b22c31690bd7e39f3a" title="Utility function to process a linked list of instructions with a visitor." alt="" coords="869,557,1040,584"/>
+<area shape="rect" id="node17" href="$linker_8cpp.html#ae4df43e246838a5cc8bbdd02f24a5615" title="Perform validation of global variables used across multiple shaders." alt="" coords="231,1587,385,1613"/>
+<area shape="rect" id="node30" href="$linker_8cpp.html#af2ae63b42d06c5aeeced547b1568e917" title="linker_error" alt="" coords="694,1587,781,1613"/>
+<area shape="rect" id="node38" href="$classir__function.html#af18aef96148acad18294e8fc778af8ac" title="Find a signature that exactly matches a set of actual parameters without any implicit type conversion..." alt="" coords="237,1947,379,1989"/>
+<area shape="rect" id="node42" href="$linker_8cpp.html#a8111be7f3c2fb1fa0ec91ea0601ca774" title="Get the function signature for main from a shader." alt="" coords="214,2016,402,2043"/>
+<area shape="rect" id="node46" href="$link__functions_8cpp.html#a2208350d5dc8a53ca92a7e806c5413a2" title="link_function_calls" alt="" coords="673,557,802,584"/>
+<area shape="rect" id="node49" href="$link__uniform__blocks_8cpp.html#aef3e3e62d7cadff0e6d9b295965137f1" title="link_uniform_blocks" alt="" coords="239,785,377,812"/>
+<area shape="rect" id="node68" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="283,1089,333,1116"/>
+<area shape="rect" id="node79" href="$ir_8h.html#a0b3d86acf4cc762367e632a3348683bd" title="Validate invariants on each IR node in a list." alt="" coords="682,608,793,635"/>
+<area shape="rect" id="node95" href="$linker_8cpp.html#a32661a5632ce09c88d49ba418e3674e8" title="Move non&#45;declarations from one instruction stream to another." alt="" coords="229,216,387,243"/>
+<area shape="rect" id="node111" href="$linker_8cpp.html#a839ab49f8baa77f8a098c355c8f4f27f" title="Populates a shaders symbol table with all global declarations." alt="" coords="231,107,385,133"/>
+<area shape="rect" id="node115" href="$ralloc_8c.html#a8a5d6cd015f1bb09e1ffc6413ab4a326" title="&quot;Steal&quot; memory from one context, changing it to another." alt="" coords="911,1376,999,1403"/>
+<area shape="rect" id="node122" href="$link__interface__blocks_8cpp.html#a8e4a8c898152cf745bf13ae419424623" title="validate_intrastage\l_interface_blocks" alt="" coords="243,1435,373,1477"/>
+<area shape="rect" id="node7" href="$classir__instruction.html#a315bec609dd390e1c6e35335af7f1e81" title="ir_instruction::clone" alt="" coords="461,355,595,381"/>
+<area shape="rect" id="node9" href="$lower__output__reads_8cpp.html#a868ffcce37285cb21a04515725125d50" title="Create an assignment to copy a temporary value back to the actual output." alt="" coords="712,296,763,323"/>
+<area shape="rect" id="node11" href="$ir__clone_8cpp.html#ae121dd0288d3fb969ce5e778f73cd17e" title="fixup_function_calls" alt="" coords="669,456,806,483"/>
+<area shape="rect" id="node15" href="$ir__hierarchical__visitor_8h.html#a3d916e3fe1319c5d975084a1c412aa37" title="Process a list of nodes using a hierarchical vistor." alt="" coords="1088,633,1219,660"/>
+<area shape="rect" id="node19" href="$structglsl__symbol__table.html#a4e6616fba10268abcdb8634522746c1f" title="glsl_symbol_table::\ladd_variable" alt="" coords="461,1689,595,1730"/>
+<area shape="rect" id="node21" href="$classir__variable.html#a8b15f216b2893038a7bf0812641f1762" title="ir_variable::as_variable" alt="" coords="451,1435,605,1461"/>
+<area shape="rect" id="node23" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="465,1779,591,1805"/>
+<area shape="rect" id="node26" href="$structglsl__symbol__table.html#ae5c4d0d619be8114f45fdbac29072042" title="glsl_symbol_table::\lget_variable" alt="" coords="461,1830,595,1871"/>
+<area shape="rect" id="node28" href="$classir__constant.html#ac99936c4c7260369f2929910ae20e149" title="Determine whether a constant has the same value as another constant." alt="" coords="451,1485,605,1512"/>
+<area shape="rect" id="node32" href="$linker_8cpp.html#af3fc017183e8c303a12ecb202ee4b4ec" title="Generate a string describing the mode of a variable." alt="" coords="481,1637,575,1664"/>
+<area shape="rect" id="node34" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="907,1507,1003,1533"/>
+<area shape="rect" id="node36" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1110,1420,1197,1447"/>
+<area shape="rect" id="node40" href="$ir__function_8cpp.html#a36ebddbdff6aa8b0888ee328eaeffafa" title="parameter_lists_match\l_exact" alt="" coords="451,1947,605,1989"/>
+<area shape="rect" id="node44" href="$classir__function.html#aad3488fedf41db3223307d91ea5eb557" title="Find a signature that matches a set of actual parameters, taking implicit conversions into account..." alt="" coords="457,2013,599,2054"/>
+<area shape="rect" id="node51" href="$classubo__visitor.html#abc9dd1159841953c4b3d719faafe75f0" title="ubo_visitor::process" alt="" coords="459,811,597,837"/>
+<area shape="rect" id="node53" href="$classprogram__resource__visitor.html#aad94aa68248077ec74df085aadbd0a13" title="Begin processing a variable." alt="" coords="653,846,821,887"/>
+<area shape="rect" id="node55" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="907,883,1003,909"/>
+<area shape="rect" id="node63" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="477,659,579,685"/>
+<area shape="rect" id="node57" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="913,1275,996,1301"/>
+<area shape="rect" id="node60" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="1106,1304,1201,1331"/>
+<area shape="rect" id="node70" href="$main_8cpp.html#a896f9d8c3244bccfa344fcbe10d2d238" title="Print proper usage and exit with failure." alt="" coords="487,1064,569,1091"/>
+<area shape="rect" id="node72" href="$main_8cpp.html#a30da6051e1bc80907b6dd27c58798f98" title="initialize_context" alt="" coords="469,1115,587,1141"/>
+<area shape="rect" id="node75" href="$main_8cpp.html#ac88d6df7128fd450a0a503e18b53ba3e" title="load_text_file" alt="" coords="479,1165,577,1192"/>
+<area shape="rect" id="node77" href="$main_8cpp.html#af583b47bb85a98c84438a5623c75322e" title="compile_shader" alt="" coords="471,963,585,989"/>
+<area shape="rect" id="node83" href="$linker_8cpp.html#afc0379dac600d4977ea2e7ae44096f1a" title="link_shaders" alt="" coords="481,1333,575,1360"/>
+<area shape="rect" id="node90" href="$glsl__types_8cpp.html#ad706d4cb66de3ccf06fdfd0d5ad446db" title="_mesa_glsl_release\l_types" alt="" coords="459,1217,597,1258"/>
+<area shape="rect" id="node92" href="$builtin__function_8cpp.html#a832b79de8aac88f62a965aaabf0b739c" title="_mesa_glsl_release\l_functions" alt="" coords="669,1267,806,1309"/>
+<area shape="rect" id="node97" href="$classir__instruction.html#a8ad7b88149bc9f028f7bf7f52f48e7c3" title="ir_instruction::as\l_function" alt="" coords="469,5,587,46"/>
+<area shape="rect" id="node99" href="$classir__instruction.html#a142617682155660c72f57b637f5f580c" title="ir_instruction::as\l_variable" alt="" coords="469,70,587,111"/>
+<area shape="rect" id="node101" href="$classir__instruction.html#ae2222d77e4a0c2262181cdd661a7b049" title="ir_instruction::as\l_assignment" alt="" coords="469,238,587,279"/>
+<area shape="rect" id="node103" href="$classir__instruction.html#ab9b5054185adf8b60331bdc919462633" title="ir_instruction::as_call" alt="" coords="455,304,601,331"/>
+<area shape="rect" id="node105" href="$classir__instruction.html#ab535e6cbf92548da00fdfe821bcceffb" title="ir_instruction::as_if" alt="" coords="462,136,594,163"/>
+<area shape="rect" id="node108" href="$linker_8cpp.html#acfd9442163b6f204fc863853857542aa" title="Remap variables referenced in an instruction tree." alt="" coords="469,187,587,213"/>
+<area shape="rect" id="node119" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1115,1369,1192,1396"/>
+</map>

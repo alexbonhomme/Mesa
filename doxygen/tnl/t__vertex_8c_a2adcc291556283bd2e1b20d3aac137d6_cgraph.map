@@ -1,0 +1,21 @@
+<map id="_tnl_init_vertices" name="_tnl_init_vertices">
+<area shape="rect" id="node3" href="main.tag$imports_8c.html#af89d48a32af7bdae3004952009d73ce7" title="_mesa_align_calloc" alt="" coords="185,5,321,32"/>
+<area shape="rect" id="node5" href="main.tag$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="_mesa_getenv" alt="" coords="200,56,307,83"/>
+<area shape="rect" id="node7" href="$t__vertex_8c.html#a75be9415f01588c76bf6e1661c95f8ff" title="_tnl_free_vertices" alt="" coords="191,107,316,133"/>
+<area shape="rect" id="node13" href="$t__vertex_8h.html#a9589a1915447332abf2034f503e4e30a" title="_tnl_generate_sse_emit" alt="" coords="173,157,333,184"/>
+<area shape="rect" id="node15" href="$t__vertex_8c.html#aa2cb95bd487212465fc6b12a28b2157a" title="_tnl_install_attrs" alt="" coords="195,208,312,235"/>
+<area shape="rect" id="node17" href="$t__vertex_8c.html#ac4e1f8db5ae3e035bd775fc269f80deb" title="invalidate_funcs" alt="" coords="386,221,502,248"/>
+<area shape="rect" id="node9" href="main.tag$imports_8c.html#abdb17f722da04091adffe547f2f45485" title="_mesa_align_free" alt="" coords="382,95,506,121"/>
+<area shape="rect" id="node11" href="main.tag$execmem_8c.html#ab69a099fe4d09791fd7dc4f55db3dc2c" title="_mesa_exec_free" alt="" coords="381,145,507,172"/>
+<area shape="rect" id="node19" href="$t__vertex_8c.html#aced672c0a2c31556cf5b0c27391acc24" title="choose_emit_func" alt="" coords="567,108,695,135"/>
+<area shape="rect" id="node29" href="$t__vertex_8c.html#a2ea76981fd7e9524255d9b6624f06a9f" title="choose_interp_func" alt="" coords="563,221,698,248"/>
+<area shape="rect" id="node36" href="$t__vertex_8c.html#a1ec23eb1e7ba4f40d4674e51a84c8c86" title="choose_copy_pv_func" alt="" coords="555,309,707,336"/>
+<area shape="rect" id="node21" href="$t__vertex_8c.html#a156c6b6d7a95eec47de3f3392774ad5f" title="search_fastpath_emit" alt="" coords="779,32,925,59"/>
+<area shape="rect" id="node25" href="$t__vertex_8h.html#a9c4c29ce7ff248fd8e861a8d8a027c99" title="_tnl_generate_hardwired_emit" alt="" coords="755,83,949,109"/>
+<area shape="rect" id="node27" href="$t__vertex_8h.html#ab2cbdbdeb80e85d0617e6fe9765fd760" title="_tnl_generic_emit" alt="" coords="790,133,914,160"/>
+<area shape="rect" id="node23" href="$t__vertex_8c.html#a0b2b3c5e568c1912a6eb1ec989133be9" title="match_fastpath" alt="" coords="1016,32,1128,59"/>
+<area shape="rect" id="node31" href="$t__vertex_8h.html#a77e1d973b59017e62400abe14f4aed00" title="_tnl_generic_interp\l_extras" alt="" coords="787,185,917,226"/>
+<area shape="rect" id="node33" href="$t__vertex_8h.html#a32887d46a4d59878d5be52959361a84b" title="_tnl_generic_interp" alt="" coords="1007,221,1137,248"/>
+<area shape="rect" id="node38" href="$t__vertex_8h.html#a2637ea2e4ee04ccafaec657da663b412" title="_tnl_generic_copy_pv\l_extras" alt="" coords="778,302,926,343"/>
+<area shape="rect" id="node40" href="$t__vertex_8h.html#a471a95381e7cbf812328351fe6a5aff3" title="_tnl_generic_copy_pv" alt="" coords="998,339,1146,365"/>
+</map>

@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['opt_5falgebraic_2ecpp',['opt_algebraic.cpp',['../opt__algebraic_8cpp.html',1,'']]],
+  ['opt_5farray_5fsplitting_2ecpp',['opt_array_splitting.cpp',['../opt__array__splitting_8cpp.html',1,'']]],
+  ['opt_5fconstant_5ffolding_2ecpp',['opt_constant_folding.cpp',['../opt__constant__folding_8cpp.html',1,'']]],
+  ['opt_5fconstant_5fpropagation_2ecpp',['opt_constant_propagation.cpp',['../opt__constant__propagation_8cpp.html',1,'']]],
+  ['opt_5fconstant_5fvariable_2ecpp',['opt_constant_variable.cpp',['../opt__constant__variable_8cpp.html',1,'']]],
+  ['opt_5fcopy_5fpropagation_2ecpp',['opt_copy_propagation.cpp',['../opt__copy__propagation_8cpp.html',1,'']]],
+  ['opt_5fcopy_5fpropagation_5felements_2ecpp',['opt_copy_propagation_elements.cpp',['../opt__copy__propagation__elements_8cpp.html',1,'']]],
+  ['opt_5fdead_5fcode_2ecpp',['opt_dead_code.cpp',['../opt__dead__code_8cpp.html',1,'']]],
+  ['opt_5fdead_5fcode_5flocal_2ecpp',['opt_dead_code_local.cpp',['../opt__dead__code__local_8cpp.html',1,'']]],
+  ['opt_5fdead_5ffunctions_2ecpp',['opt_dead_functions.cpp',['../opt__dead__functions_8cpp.html',1,'']]],
+  ['opt_5fflatten_5fnested_5fif_5fblocks_2ecpp',['opt_flatten_nested_if_blocks.cpp',['../opt__flatten__nested__if__blocks_8cpp.html',1,'']]],
+  ['opt_5fflip_5fmatrices_2ecpp',['opt_flip_matrices.cpp',['../opt__flip__matrices_8cpp.html',1,'']]],
+  ['opt_5ffunction_5finlining_2ecpp',['opt_function_inlining.cpp',['../opt__function__inlining_8cpp.html',1,'']]],
+  ['opt_5fif_5fsimplification_2ecpp',['opt_if_simplification.cpp',['../opt__if__simplification_8cpp.html',1,'']]],
+  ['opt_5fnoop_5fswizzle_2ecpp',['opt_noop_swizzle.cpp',['../opt__noop__swizzle_8cpp.html',1,'']]],
+  ['opt_5fredundant_5fjumps_2ecpp',['opt_redundant_jumps.cpp',['../opt__redundant__jumps_8cpp.html',1,'']]],
+  ['opt_5fstructure_5fsplitting_2ecpp',['opt_structure_splitting.cpp',['../opt__structure__splitting_8cpp.html',1,'']]],
+  ['opt_5fswizzle_5fswizzle_2ecpp',['opt_swizzle_swizzle.cpp',['../opt__swizzle__swizzle_8cpp.html',1,'']]],
+  ['opt_5ftree_5fgrafting_2ecpp',['opt_tree_grafting.cpp',['../opt__tree__grafting_8cpp.html',1,'']]]
+];

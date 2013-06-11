@@ -1,0 +1,10 @@
+<map id="lower_clip_distance_visitor::visit_leave" name="lower_clip_distance_visitor::visit_leave">
+<area shape="rect" id="node3" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="189,5,339,46"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="216,71,312,97"/>
+<area shape="rect" id="node9" href="$classir__rvalue__base__visitor.html#a19c12d9aebbafbef937cccb0003eb3bc" title="ir_rvalue_base_visitor\l::rvalue_visit" alt="" coords="190,122,338,163"/>
+<area shape="rect" id="node13" href="$classlower__clip__distance__visitor.html#a4665918f216c73dbcfd7a91cd1a8f675" title="Set up base_ir properly and call visit_leave() on a newly created ir_assignment node." alt="" coords="196,188,332,244"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="419,71,506,97"/>
+<area shape="rect" id="node11" href="$classir__rvalue__base__visitor.html#ae031446257051c21504d1c1e2ef31646" title="ir_rvalue_base_visitor\l::handle_rvalue" alt="" coords="389,122,537,163"/>
+<area shape="rect" id="node15" href="$classir__assignment.html#a89d7d1f444cd619aac0d28b58a9f3178" title="ir_assignment::accept" alt="" coords="387,203,538,229"/>
+<area shape="rect" id="node17" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="587,203,690,229"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="teximage.c" name="teximage.c">
+<area shape="rect" id="node5" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1705,453,1788,480"/>
+<area shape="rect" id="node11" href="$bufferobj_8h.html" title="bufferobj.h" alt="" coords="1620,155,1703,181"/>
+<area shape="rect" id="node13" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1623,304,1699,331"/>
+<area shape="rect" id="node30" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="1483,80,1559,107"/>
+<area shape="rect" id="node32" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="1073,155,1148,181"/>
+<area shape="rect" id="node65" href="$enums_8h.html" title="Enumeration name/number lookup functions." alt="" coords="1387,80,1459,107"/>
+<area shape="rect" id="node67" href="$fbobject_8h.html" title="fbobject.h" alt="" coords="155,229,233,256"/>
+<area shape="rect" id="node71" href="$framebuffer_8h.html" title="framebuffer.h" alt="" coords="1865,155,1964,181"/>
+<area shape="rect" id="node74" href="$hash_8h.html" title="Generic hash table." alt="" coords="2064,155,2125,181"/>
+<area shape="rect" id="node77" href="$image_8h.html" title="image.h" alt="" coords="2235,304,2303,331"/>
+<area shape="rect" id="node81" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="1107,80,1183,107"/>
+<area shape="rect" id="node84" href="$multisample_8h.html" title="multisample.h" alt="" coords="2397,155,2499,181"/>
+<area shape="rect" id="node87" href="$state_8h.html" title="state.h" alt="" coords="1778,155,1840,181"/>
+<area shape="rect" id="node90" href="$texcompress_8h.html" title="texcompress.h" alt="" coords="2327,304,2435,331"/>
+<area shape="rect" id="node94" href="$texcompress__cpal_8h.html" title="texcompress_cpal.h" alt="" coords="1948,229,2087,256"/>
+<area shape="rect" id="node97" href="$teximage_8h.html" title="Texture images manipulation functions." alt="" coords="2162,229,2248,256"/>
+<area shape="rect" id="node101" href="$texobj_8h.html" title="Texture object management." alt="" coords="1315,229,1383,256"/>
+<area shape="rect" id="node108" href="$texstate_8h.html" title="Texture state management." alt="" coords="1415,229,1495,256"/>
+<area shape="rect" id="node112" href="$texstorage_8h.html" title="texstorage.h" alt="" coords="2426,80,2520,107"/>
+<area shape="rect" id="node115" href="$glformats_8h.html" title="glformats.h" alt="" coords="2395,453,2481,480"/>
+<area shape="rect" id="node16" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1497,379,1596,405"/>
+<area shape="rect" id="node20" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1736,379,1856,405"/>
+<area shape="rect" id="node22" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1881,379,2007,405"/>
+<area shape="rect" id="node24" href="$formats_8h.html" title="main/formats.h" alt="" coords="2184,379,2293,405"/>
+<area shape="rect" id="node27" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1426,379,1472,405"/>
+<area shape="rect" id="node34" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="836,304,919,331"/>
+<area shape="rect" id="node59" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="937,229,1004,256"/>
+<area shape="rect" id="node106" href="$samplerobj_8h.html" title="samplerobj.h" alt="" coords="1375,304,1471,331"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="_mesa_drawbuffers" name="_mesa_drawbuffers">
+<area shape="rect" id="node3" href="$imports_8c.html#adf854cc2a6c2ebdd509c8ca80917bce5" title="Return number of bits set in given GLuint." alt="" coords="219,5,333,32"/>
+<area shape="rect" id="node5" href="$fbobject_8h.html#ae7473d56512fc5fbb05bfc40004f22cf" title="Is the given FBO a window system FBO (like an X window)?" alt="" coords="201,56,351,83"/>
+<area shape="rect" id="node7" href="$buffers_8c.html#a8d7b874b3cde4fd7dfd18ab0393db6e8" title="Helper routine used by glDrawBuffer and glDrawBuffersARB." alt="" coords="203,107,349,149"/>
+<area shape="rect" id="node11" href="$imports_8c.html#a2385d975eddea296daa497e5d36febc9" title="Find the first bit set in a word." alt="" coords="257,173,295,200"/>
+<area shape="rect" id="node13" href="$buffers_8c.html#a8176b40bf40be34bf4bb4fd45996ff27" title="Return bitmask of BUFFER_BIT_* flags indicating which color buffers are available to the rendering co..." alt="" coords="190,224,362,251"/>
+<area shape="rect" id="node17" href="$buffers_8c.html#aa977341782630c010e9e90621a618a67" title="Performs necessary state updates when _mesa_drawbuffers makes an actual change." alt="" coords="205,275,347,301"/>
+<area shape="rect" id="node9" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="421,115,537,141"/>
+<area shape="rect" id="node15" href="$fbobject_8h.html#a97df2933946ce460854b6bbcf50b997b" title="Is the given FBO a user&#45;created FBO?" alt="" coords="411,249,546,276"/>
+</map>

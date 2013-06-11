@@ -1,0 +1,5 @@
+<map id="do_dead_functions" name="do_dead_functions">
+<area shape="rect" id="node3" href="$classir__instruction.html#a8ad7b88149bc9f028f7bf7f52f48e7c3" title="ir_instruction::as\l_function" alt="" coords="190,5,309,46"/>
+<area shape="rect" id="node5" href="$ir__hierarchical__visitor_8h.html#a3d916e3fe1319c5d975084a1c412aa37" title="Process a list of nodes using a hierarchical vistor." alt="" coords="184,71,315,97"/>
+<area shape="rect" id="node7" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="363,71,506,97"/>
+</map>

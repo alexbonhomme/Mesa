@@ -1,0 +1,6 @@
+<map id="gl_query_state" name="gl_query_state">
+<area shape="rect" id="node2" href="$struct__mesa__HashTable.html" title="The hash table data structure." alt="" coords="5,187,136,213"/>
+<area shape="rect" id="node4" href="$structhash__table.html" title="hash_table" alt="" coords="28,96,113,123"/>
+<area shape="rect" id="node6" href="$structhash__entry.html" title="hash_entry" alt="" coords="27,5,113,32"/>
+<area shape="rect" id="node8" href="$structgl__query__object.html" title="Occlusion/timer query object." alt="" coords="161,187,273,213"/>
+</map>

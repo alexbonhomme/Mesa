@@ -1,0 +1,6 @@
+<map id="scissor.h" name="scissor.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$attrib_8c.html" title="attrib.c" alt="" coords="115,80,177,107"/>
+<area shape="rect" id="node7" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="202,80,277,107"/>
+<area shape="rect" id="node9" href="$scissor_8c.html" title="scissor.c" alt="" coords="303,80,377,107"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="compile_shader" name="compile_shader">
+<area shape="rect" id="node3" href="$ast_8h.html#a13a9b8c3eda8d5a30843e02410e656db" title="_mesa_ast_to_hir" alt="" coords="191,107,316,133"/>
+<area shape="rect" id="node13" href="$ir__print__visitor_8cpp.html#a1b33948c1107e045bd6b3bc5874ca550" title="_mesa_print_ir" alt="" coords="636,1669,743,1696"/>
+<area shape="rect" id="node19" href="$standalone__scaffolding_8h.html#a100230cd3d426fb48df37b7ba86260a0" title="_mesa_shader_type_to\l_index" alt="" coords="175,1502,332,1543"/>
+<area shape="rect" id="node21" href="$glsl__parser__extras_8cpp.html#a225eedb7a8fad75e2a6e05212b7f70ce" title="Do the set of common optimizations passes." alt="" coords="168,944,339,971"/>
+<area shape="rect" id="node61" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="648,1783,731,1809"/>
+<area shape="rect" id="node96" href="$glsl__parser__extras_8h.html#abc7537653897fa93bab2327972e37ccd" title="glcpp_preprocess" alt="" coords="191,1669,315,1696"/>
+<area shape="rect" id="node98" href="$classast__node.html#a447585e5c8768d4c395eae09e285494b" title="Print an AST node in something approximating the original GLSL code." alt="" coords="199,1720,307,1747"/>
+<area shape="rect" id="node101" href="$ir_8cpp.html#a60a731770eef2674ebd9e7ec933608f8" title="reparent_ir" alt="" coords="212,1821,295,1848"/>
+<area shape="rect" id="node107" href="$ir_8h.html#a0b3d86acf4cc762367e632a3348683bd" title="Validate invariants on each IR node in a list." alt="" coords="198,1619,309,1645"/>
+<area shape="rect" id="node5" href="$builtin__variables_8cpp.html#a887354644c372645afcf1a2c71bc38e7" title="_mesa_glsl_initialize\l_variables" alt="" coords="399,5,542,46"/>
+<area shape="rect" id="node7" href="$ast__to__hir_8cpp.html#a06bcf6c587e4ac58b2967d35e95e073c" title="detect_conflicting\l_assignments" alt="" coords="409,70,533,111"/>
+<area shape="rect" id="node9" href="$ir_8h.html#ae739a048fdf6237296e7d702dec24a25" title="Detect whether an unlinked shader contains static recursion." alt="" coords="603,149,776,176"/>
+<area shape="rect" id="node11" href="$classir__hierarchical__visitor.html#a730b38bc0e9081b22c31690bd7e39f3a" title="Utility function to process a linked list of instructions with a visitor." alt="" coords="824,339,995,365"/>
+<area shape="rect" id="node15" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="845,1695,974,1721"/>
+<area shape="rect" id="node17" href="$ir__print__visitor_8cpp.html#ad77016797b270992d2c6428003dd4d72" title="print_type" alt="" coords="870,1644,949,1671"/>
+<area shape="rect" id="node23" href="$loop__analysis_8cpp.html#a161caf1d3dc07d7f90927d3a1e4b3b93" title="Analyze and classify all variables used in all loops in the instruction list." alt="" coords="611,212,768,239"/>
+<area shape="rect" id="node26" href="$ir__optimization_8h.html#a46690d9c8b00dfa2c61df7574e5a87b7" title="do_algebraic" alt="" coords="423,725,518,752"/>
+<area shape="rect" id="node28" href="$ir__optimization_8h.html#ab51b0cd08e59a8b820480be28df48ab7" title="do_constant_folding" alt="" coords="401,776,540,803"/>
+<area shape="rect" id="node30" href="$ir__optimization_8h.html#a6f20ff3e13f7e92ef586a30a791be344" title="Does a constant propagation pass on the code present in the instruction stream." alt="" coords="387,827,554,853"/>
+<area shape="rect" id="node32" href="$ir__optimization_8h.html#acc78e89f83fda8a3c7cf4b5ef6f922dd" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="617,729,762,756"/>
+<area shape="rect" id="node34" href="$ir__optimization_8h.html#a997e75d8f8c69288ce900c5274ac1a16" title="do_constant_variable\l_unlinked" alt="" coords="398,878,543,919"/>
+<area shape="rect" id="node37" href="$ir__optimization_8h.html#a043744d1271a8cd5a050512e8106f4a0" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="398,995,543,1021"/>
+<area shape="rect" id="node39" href="$ir__optimization_8h.html#adf365262526816611e09e109c070635b" title="do_copy_propagation\l_elements" alt="" coords="398,1046,543,1087"/>
+<area shape="rect" id="node41" href="$ir__optimization_8h.html#a2f8ef4f173ccfff8200132061cd202c0" title="Do a dead code pass over instructions and everything that instructions references." alt="" coords="636,288,743,315"/>
+<area shape="rect" id="node44" href="$ir__optimization_8h.html#a23547b6ed13680a9049406850c7c1286" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="401,1163,541,1189"/>
+<area shape="rect" id="node46" href="$ir__optimization_8h.html#a2184effa56f97b2c84978cd57e5756c5" title="Does a dead code pass on the functions present in the instruction stream." alt="" coords="390,237,551,264"/>
+<area shape="rect" id="node49" href="$ir__optimization_8h.html#a44d28708de43ed002036f4c7fbd9d48a" title="do_dead_functions" alt="" coords="405,1213,536,1240"/>
+<area shape="rect" id="node51" href="$ir__optimization_8h.html#a47477b5edf8cb5e2682abaf69924d10c" title="do_function_inlining" alt="" coords="403,1264,539,1291"/>
+<area shape="rect" id="node53" href="$ir__optimization_8h.html#ad7879530b127a4fe8fd4ab408fc58097" title="do_if_simplification" alt="" coords="404,1315,537,1341"/>
+<area shape="rect" id="node55" href="$ir__optimization_8h.html#a5200d5101ba5d166aef0ecaf8ee6406c" title="do_lower_jumps" alt="" coords="413,1365,529,1392"/>
+<area shape="rect" id="node57" href="$ir__optimization_8h.html#a806bb6d7d8f78595c36f65ea276918e4" title="do_noop_swizzle" alt="" coords="409,1416,532,1443"/>
+<area shape="rect" id="node59" href="$ir__optimization_8h.html#a613d55aa3cfd58ddeadcb5bfaa92e46a" title="do_structure_splitting" alt="" coords="397,1771,544,1797"/>
+<area shape="rect" id="node69" href="$ir__optimization_8h.html#a297e68ceb90963e5ed9cdf6cce90f589" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="401,1467,540,1493"/>
+<area shape="rect" id="node71" href="$ir__optimization_8h.html#a5ba989ad06353da096de1ef6f6484a03" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="413,1517,528,1544"/>
+<area shape="rect" id="node73" href="$ir__optimization_8h.html#ae8de0755bb73d49fd4163a8b858726ab" title="do_vec_index_to_swizzle" alt="" coords="604,339,775,365"/>
+<area shape="rect" id="node76" href="$ir__optimization_8h.html#a609742f45a0fc3f1f96f435972707aca" title="lower_instructions" alt="" coords="407,389,534,416"/>
+<area shape="rect" id="node78" href="$ir__optimization_8h.html#a879a70183d79e147188cbe26679b71e9" title="lower_vector_insert" alt="" coords="403,440,538,467"/>
+<area shape="rect" id="node80" href="$ir__optimization_8h.html#a740f7d47ab9a47f21358b357aaf357de" title="opt_flatten_nested\l_if_blocks" alt="" coords="406,491,535,533"/>
+<area shape="rect" id="node82" href="$ir__optimization_8h.html#ae9775896cebbb159e3add62a3f0e26f4" title="opt_flip_matrices" alt="" coords="410,557,531,584"/>
+<area shape="rect" id="node84" href="$ir__optimization_8h.html#ae5ef67bb4afea78bebed08d35d729184" title="optimize_redundant\l_jumps" alt="" coords="403,609,538,650"/>
+<area shape="rect" id="node86" href="$ir__optimization_8h.html#a9afe02479db22138e42085ec00a32685" title="optimize_split_arrays" alt="" coords="398,1669,543,1696"/>
+<area shape="rect" id="node90" href="$loop__analysis_8h.html#a449b5881d24e8089407b518d5e6a9e86" title="Fill in loop control fields." alt="" coords="627,889,751,916"/>
+<area shape="rect" id="node93" href="$loop__analysis_8h.html#a8643768badb9dbe7390c603de96e180d" title="unroll_loops" alt="" coords="644,1027,735,1053"/>
+<area shape="rect" id="node63" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="866,1745,953,1772"/>
+<area shape="rect" id="node65" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="862,1796,957,1823"/>
+<area shape="rect" id="node67" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="864,1847,955,1873"/>
+<area shape="rect" id="node103" href="$ir_8cpp.html#ae341e75c11b8868864fa8b7ab032e491" title="steal_memory" alt="" coords="419,1872,523,1899"/>
+<area shape="rect" id="node105" href="$ir__hierarchical__visitor_8cpp.html#ac4165ac8d556ba40cca9c10b7bdfa9ad" title="visit_tree" alt="" coords="433,1821,508,1848"/>
+<area shape="rect" id="node109" href="$ir__validate_8cpp.html#a51d049a4fd64bc8e1fc9acb4c36c42aa" title="check_node_type" alt="" coords="627,1720,751,1747"/>
+</map>

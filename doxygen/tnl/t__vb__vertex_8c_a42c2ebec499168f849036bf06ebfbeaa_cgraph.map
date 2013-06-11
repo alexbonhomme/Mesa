@@ -1,0 +1,7 @@
+<map id="dtr" name="dtr">
+<area shape="rect" id="node3" href="main.tag$imports_8c.html#abdb17f722da04091adffe547f2f45485" title="_mesa_align_free" alt="" coords="103,5,227,32"/>
+<area shape="rect" id="node5" href="math.tag$m__vector_8c.html#a7e5919b843a039297851c6fc6caa32a3" title="_mesa_vector4f_free" alt="" coords="93,56,237,83"/>
+<area shape="rect" id="node7" href="$t__vb__vertex_8c.html#a30b0aeaed500ec5724332d684775bb43" title="init_vertex_stage" alt="" coords="105,107,226,133"/>
+<area shape="rect" id="node9" href="math.tag$m__vector_8c.html#a83ae2db5719939521bc19e5ae4a6133a" title="_mesa_vector4f_alloc" alt="" coords="285,81,435,108"/>
+<area shape="rect" id="node11" href="main.tag$imports_8c.html#a4aeeec2342e0d371c407e6577a139db9" title="_mesa_align_malloc" alt="" coords="290,132,430,159"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="light.h" name="light.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$attrib_8c.html" title="attrib.c" alt="" coords="115,80,177,107"/>
+<area shape="rect" id="node7" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="202,80,277,107"/>
+<area shape="rect" id="node9" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="302,80,359,107"/>
+<area shape="rect" id="node11" href="$enable_8c.html" title="Enable/disable/query GL capabilities." alt="" coords="383,80,453,107"/>
+<area shape="rect" id="node13" href="$es1__conversion_8c.html" title="es1_conversion.c" alt="" coords="478,80,601,107"/>
+<area shape="rect" id="node15" href="$light_8c.html" title="light.c" alt="" coords="626,80,683,107"/>
+<area shape="rect" id="node17" href="$state_8c.html" title="State management." alt="" coords="707,80,769,107"/>
+</map>

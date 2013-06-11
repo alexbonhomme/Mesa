@@ -1,0 +1,23 @@
+<map id="vtxfmt.c" name="vtxfmt.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="630,453,713,480"/>
+<area shape="rect" id="node9" href="$api__arrayelt_8h.html" title="api_arrayelt.h" alt="" coords="364,155,463,181"/>
+<area shape="rect" id="node11" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="369,304,477,331"/>
+<area shape="rect" id="node28" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="588,80,663,107"/>
+<area shape="rect" id="node30" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="831,155,906,181"/>
+<area shape="rect" id="node65" href="$vtxfmt_8h.html" title="vtxfmt.h" alt="" coords="740,229,810,256"/>
+<area shape="rect" id="node69" href="$eval_8h.html" title="Eval operations." alt="" coords="507,80,563,107"/>
+<area shape="rect" id="node74" href="$dlist_8h.html" title="Display lists management." alt="" coords="319,229,375,256"/>
+<area shape="rect" id="node77" href="$dispatch_8h.html" title="Macros for handling GL dispatch tables." alt="" coords="841,80,955,107"/>
+<area shape="rect" id="node79" href="vbo.tag$vbo__context_8h.html" title="vbo/vbo_context.h" alt="" coords="1813,80,1942,107"/>
+<area shape="rect" id="node14" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="377,379,477,405"/>
+<area shape="rect" id="node18" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="30,379,150,405"/>
+<area shape="rect" id="node20" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="175,379,301,405"/>
+<area shape="rect" id="node22" href="$formats_8h.html" title="main/formats.h" alt="" coords="233,453,342,480"/>
+<area shape="rect" id="node25" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="617,379,663,405"/>
+<area shape="rect" id="node32" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="1098,304,1181,331"/>
+<area shape="rect" id="node57" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="835,229,902,256"/>
+<area shape="rect" id="node81" href="vbo.tag$vbo_8h.html" title="vbo.h" alt="" coords="1859,229,1913,256"/>
+<area shape="rect" id="node83" href="vbo.tag$vbo__attrib_8h.html" title="vbo_attrib.h" alt="" coords="1946,229,2037,256"/>
+<area shape="rect" id="node85" href="vbo.tag$vbo__exec_8h.html" title="vbo_exec.h" alt="" coords="1833,155,1922,181"/>
+<area shape="rect" id="node89" href="vbo.tag$vbo__save_8h.html" title="vbo_save.h" alt="" coords="1947,155,2035,181"/>
+</map>

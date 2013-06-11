@@ -1,0 +1,4 @@
+<map id="compute_version" name="compute_version">
+<area shape="rect" id="node3" href="$version_8c.html#abaffb2ac3c739ca4789e64833e97a24d" title="Builds the MESA version string." alt="" coords="176,5,323,32"/>
+<area shape="rect" id="node5" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="371,5,482,32"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="_mesa_free_queryobj_data" name="_mesa_free_queryobj_data">
+<area shape="rect" id="node3" href="$hash_8c.html#a18575aef4780001ea3ef0b7510015dc0" title="Delete a hash table." alt="" coords="233,79,402,105"/>
+<area shape="rect" id="node17" href="$hash_8c.html#aad938bbfe74727edea6339fb405e9238" title="Delete all entries in a hash table, but don&#39;t delete the table itself." alt="" coords="241,144,393,171"/>
+<area shape="rect" id="node21" href="$queryobj_8c.html#a15dc9e7bb41d3396627e6804bfac4d20" title="Callback for deleting a query object." alt="" coords="250,195,385,221"/>
+<area shape="rect" id="node5" href="$hash__table_8c.html#a9d02b69b66dc4fbafaab6c6a5d861452" title="Frees the given hash table." alt="" coords="451,5,632,32"/>
+<area shape="rect" id="node7" href="$hash__table_8c.html#ad229f21049f68d0323326f041a5cc40c" title="This function is an iterator over the hash table." alt="" coords="460,57,623,98"/>
+<area shape="rect" id="node11" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="484,123,599,149"/>
+<area shape="rect" id="node9" href="$hash__table_8c.html#a091be61d8da42898d8ac1683b60d6879" title="entry_is_present" alt="" coords="681,64,799,91"/>
+<area shape="rect" id="node13" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="681,119,799,145"/>
+<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="717,169,763,196"/>
+<area shape="rect" id="node19" href="$hash__table_8c.html#ab0f18848f5606303ab91b2b1ee762ecd" title="This function deletes the given hash table entry." alt="" coords="451,173,632,200"/>
+</map>

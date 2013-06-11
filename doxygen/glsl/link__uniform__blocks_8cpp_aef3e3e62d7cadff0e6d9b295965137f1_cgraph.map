@@ -1,0 +1,17 @@
+<map id="link_uniform_blocks" name="link_uniform_blocks">
+<area shape="rect" id="node3" href="$classubo__visitor.html#abc9dd1159841953c4b3d719faafe75f0" title="ubo_visitor::process" alt="" coords="192,47,331,73"/>
+<area shape="rect" id="node5" href="$classprogram__resource__visitor.html#aad94aa68248077ec74df085aadbd0a13" title="Begin processing a variable." alt="" coords="379,82,547,123"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="631,148,727,175"/>
+<area shape="rect" id="node20" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="210,199,313,225"/>
+<area shape="rect" id="node32" href="$ir__hierarchical__visitor_8h.html#a3d916e3fe1319c5d975084a1c412aa37" title="Process a list of nodes using a hierarchical vistor." alt="" coords="196,249,327,276"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="637,31,720,57"/>
+<area shape="rect" id="node17" href="$classprogram__resource__visitor.html#abb1ff14993a4a7f48e7a748642a5c240" title="Method invoked for each leaf of the variable." alt="" coords="595,82,763,123"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="815,140,902,167"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="811,5,906,32"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="813,56,904,83"/>
+<area shape="rect" id="node22" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="407,199,518,225"/>
+<area shape="rect" id="node24" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="632,199,725,225"/>
+<area shape="rect" id="node26" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="637,249,721,276"/>
+<area shape="rect" id="node29" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="820,249,897,276"/>
+<area shape="rect" id="node34" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="391,249,534,276"/>
+</map>

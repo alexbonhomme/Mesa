@@ -1,0 +1,51 @@
+<map id="_mesa_create_context" name="_mesa_create_context">
+<area shape="rect" id="node3" href="$context_8c.html#a6b5f20ad17c6886506205e5e4847d272" title="Initialize a struct gl_context struct (rendering context)." alt="" coords="208,1140,373,1167"/>
+<area shape="rect" id="node5" href="$api__exec_8h.html#af97578e3b30527d1d83e4b12008b3ac5" title="Allocate and initialize a new dispatch table." alt="" coords="663,5,814,46"/>
+<area shape="rect" id="node9" href="$shared_8c.html#a9f62674d0c4af48a31d5352c941eea60" title="Allocate and initialize a shared context state structure." alt="" coords="441,297,583,338"/>
+<area shape="rect" id="node19" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="901,1900,1008,1927"/>
+<area shape="rect" id="node21" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="881,136,1029,163"/>
+<area shape="rect" id="node23" href="$version_8c.html#aa9c64ece62f2e4db8629f943dfbe50e3" title="Override the context&#39;s version and/or API type if the environment variable MESA_GL_VERSION_OVERRIDE i..." alt="" coords="422,1976,602,2003"/>
+<area shape="rect" id="node29" href="$shared_8c.html#ae1dcf2de0c481044a72935faff44c9dd" title="gl_shared_state objects are ref counted." alt="" coords="428,2027,596,2069"/>
+<area shape="rect" id="node33" href="$context_8c.html#ab08dd82878c8eba2d347108935fce73c" title="Creates a minimal dispatch table for use within glBegin()/glEnd()." alt="" coords="436,77,588,104"/>
+<area shape="rect" id="node39" href="$context_8c.html#acc40a41b172cd4ef5fcd33281cb8d2a1" title="Initialize the attribute groups in a GL context." alt="" coords="451,1140,573,1167"/>
+<area shape="rect" id="node105" href="$context_8c.html#afca9b3fede2cb35f3a62bca3ae4e06c2" title="Calls all the various one&#45;time&#45;init functions in Mesa." alt="" coords="463,2093,561,2120"/>
+<area shape="rect" id="node7" href="$context_8c.html#a71f3a4b36d4d81e7f033a9c604e80852" title="This is the default function we plug into all dispatch table slots This helps prevents a segfault whe..." alt="" coords="885,12,1024,39"/>
+<area shape="rect" id="node11" href="$hash_8c.html#a8cd33e0da80ca5155d02868bf9bbd615" title="Create a new hash table." alt="" coords="875,963,1034,989"/>
+<area shape="rect" id="node13" href="$atifragshader_8c.html#a7200510b2261012e0bf5232309bcb026" title="Allocate and initialize a new ATI fragment shader object." alt="" coords="653,238,824,279"/>
+<area shape="rect" id="node15" href="$set_8c.html#ad97b255f2b138f46744c245459cba7c0" title="_mesa_set_create" alt="" coords="674,304,803,331"/>
+<area shape="rect" id="node17" href="$hash__table_8c.html#a8cbaf65b972668ddc3df9550d5c4c0c1" title="_mesa_key_pointer_equal" alt="" coords="652,187,825,213"/>
+<area shape="rect" id="node25" href="$version_8c.html#a68f34f38c1e4373ab5a7af6f587c9e66" title="Returns the gl override data." alt="" coords="683,1976,794,2003"/>
+<area shape="rect" id="node27" href="$version_8c.html#abaffb2ac3c739ca4789e64833e97a24d" title="Builds the MESA version string." alt="" coords="665,2027,812,2053"/>
+<area shape="rect" id="node31" href="$shared_8c.html#ac906ff027194321420cc05c23d8dd4de" title="Deallocate a shared state object and all children structures." alt="" coords="675,2077,802,2104"/>
+<area shape="rect" id="node36" href="$api__loopback_8c.html#a0584e0a50c508d21baf50c96c149cc4a" title="_mesa_loopback_init\l_api_table" alt="" coords="667,70,811,111"/>
+<area shape="rect" id="node41" href="$accum_8c.html#a7f5c4f6a079d228f155c7d86ee7bc48b" title="_mesa_init_accum" alt="" coords="673,1064,804,1091"/>
+<area shape="rect" id="node43" href="$attrib_8c.html#a52c5c577d8ab38ed1217f4d5d701920b" title="_mesa_init_attrib" alt="" coords="678,1115,799,1141"/>
+<area shape="rect" id="node45" href="$bufferobj_8c.html#aa12781c11b0d448bcfe223ca3f7047ad" title="Initialize the state associated with buffer objects." alt="" coords="651,1165,826,1192"/>
+<area shape="rect" id="node47" href="$blend_8c.html#ab354dad090cb2a1eaa6981227f569fb6" title="Initialization of the context&#39;s Color attribute group." alt="" coords="679,1216,799,1243"/>
+<area shape="rect" id="node49" href="$context_8c.html#a298013711f8453a6f2bc01468c0c49cc" title="Initialize fields of gl_constants (aka ctx&#45;&gt;Const." alt="" coords="664,405,813,432"/>
+<area shape="rect" id="node52" href="$context_8c.html#abe602ef99d61d029926235173d0fc273" title="Initialize fields of gl_current_attrib (aka ctx&#45;&gt;Current." alt="" coords="673,1267,805,1293"/>
+<area shape="rect" id="node54" href="$debug_8c.html#a619dd3b990bf84c7664cf482369c69d7" title="Initialize debugging variables from env vars." alt="" coords="675,1875,802,1901"/>
+<area shape="rect" id="node57" href="$depth_8c.html#a308c75e27af4cf349a988db7b0a5bf00" title="Initialize the depth buffer attribute group in the given context." alt="" coords="677,1520,801,1547"/>
+<area shape="rect" id="node59" href="$dlist_8c.html#a9fadf0d76923f085379e537006124322" title="Initialize display list state for given context." alt="" coords="660,1621,817,1648"/>
+<area shape="rect" id="node61" href="$errors_8c.html#afe1b0ae80e5ab371952d6af93576be9f" title="_mesa_init_errors" alt="" coords="676,1571,801,1597"/>
+<area shape="rect" id="node64" href="$eval_8c.html#a75677f01756a2e5e4d8cd3fff3fca764" title="_mesa_init_eval" alt="" coords="681,1672,797,1699"/>
+<area shape="rect" id="node66" href="$extensions_8c.html#a89fddfecc5d2a0af2c63d38d5af4bf93" title="Initialize extension tables and enable default extensions." alt="" coords="661,1723,816,1749"/>
+<area shape="rect" id="node68" href="$fbobject_8c.html#a1291e7565024573781bf55a9d9516132" title="_mesa_init_fbobjects" alt="" coords="666,1773,811,1800"/>
+<area shape="rect" id="node70" href="$feedback_8c.html#a7cb95b74982e49064afd0fbad2e6cbcc" title="Initialize context feedback data." alt="" coords="666,1824,811,1851"/>
+<area shape="rect" id="node72" href="$fog_8c.html#ab7d1a0d6cd02fc8e4a511da4e948e873" title="_mesa_init_fog" alt="" coords="683,456,794,483"/>
+<area shape="rect" id="node74" href="$hint_8c.html#af69b1c02eeeb3faf7c5286121e2b2a61" title="_mesa_init_hint" alt="" coords="682,507,795,533"/>
+<area shape="rect" id="node76" href="$light_8c.html#aebb09ced63bc49daf35e1d482a4996ea" title="Initialize all lighting state for the given context." alt="" coords="672,557,805,584"/>
+<area shape="rect" id="node78" href="$lines_8c.html#a4d8e785d68bfcd046ad98bae5fb58592" title="Initialize the context line state." alt="" coords="683,608,795,635"/>
+<area shape="rect" id="node80" href="$matrix_8c.html#a3ec89287f21315c32d60107501887c99" title="Initialize the context matrix data." alt="" coords="675,659,803,685"/>
+<area shape="rect" id="node82" href="$multisample_8c.html#a712f6ad057425829524a2d0264258295" title="Initialize the context&#39;s multisample state." alt="" coords="657,709,820,736"/>
+<area shape="rect" id="node84" href="$pixel_8c.html#acadc37f78ddc7013941686160499c7d2" title="Initialize the context&#39;s PIXEL attribute group." alt="" coords="679,760,798,787"/>
+<area shape="rect" id="node86" href="$pixelstore_8c.html#a12474abbd07687a1dd3f91723e42ebc7" title="Initialize the context&#39;s pixel store state." alt="" coords="665,811,813,837"/>
+<area shape="rect" id="node88" href="$points_8c.html#a7d9e379cf2bd07b2e4fa16c637e56b5c" title="Initialize the context point state." alt="" coords="679,861,799,888"/>
+<area shape="rect" id="node90" href="$polygon_8c.html#a98826255a14762def16f1f492bf3bd4e" title="Initialize the context polygon state." alt="" coords="670,912,807,939"/>
+<area shape="rect" id="node92" href="$queryobj_8c.html#ab06fc0630a306901e53a728e5cf23f35" title="Allocate/init the context state related to query objects." alt="" coords="668,963,809,989"/>
+<area shape="rect" id="node95" href="$rastpos_8c.html#a45edd4f1d2853433b26840a064347180" title="Initialize the context current raster position information." alt="" coords="671,1013,806,1040"/>
+<area shape="rect" id="node97" href="$scissor_8c.html#a2d1edbc656a8b53a6a3a15bae3bc88ed" title="Initialize the context&#39;s scissor state." alt="" coords="671,1317,806,1344"/>
+<area shape="rect" id="node99" href="$shaderapi_8c.html#a78712b1f78453e38b628c4bdaf3841e7" title="Initialize context&#39;s shader state." alt="" coords="655,1368,822,1395"/>
+<area shape="rect" id="node101" href="$stencil_8c.html#ab6f41f16de80971a8e488831f617cf91" title="Initialize the context stipple state." alt="" coords="673,1419,804,1445"/>
+<area shape="rect" id="node103" href="$syncobj_8c.html#ad64c3522d91613ea824c8b1b0c1a149e" title="Allocate/init the context state related to sync objects." alt="" coords="679,1469,799,1496"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="end" name="end">
+<area shape="rect" id="node3" href="$vbo__split__copy_8c.html#a5cc428dd7410f68a6017975b0d7e8406" title="Starts returning true slightly before the buffer fills, to ensure that there is sufficient room for a..." alt="" coords="97,5,189,32"/>
+<area shape="rect" id="node5" href="$vbo__split__copy_8c.html#aa233458bf6eba9cd4b88f8faf3532a6d" title="flush" alt="" coords="117,56,168,83"/>
+<area shape="rect" id="node7" href="$vbo__split__copy_8c.html#abcc36e536e4095f768301a9db88d00ea" title="Dump the parameters/info for a vbo&#45;&gt;draw() call." alt="" coords="237,56,355,83"/>
+</map>

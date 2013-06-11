@@ -1,0 +1,6 @@
+<map id="run_render" name="run_render">
+<area shape="rect" id="node3" href="main.tag$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="_mesa_debug" alt="" coords="177,5,279,32"/>
+<area shape="rect" id="node5" href="main.tag$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="136,56,320,83"/>
+<area shape="rect" id="node7" href="$t__context_8h.html#ac460f2a989a4d88863a13a8dd334003c" title="_tnl_translate_prim" alt="" coords="162,107,294,133"/>
+<area shape="rect" id="node9" href="$t__vb__render_8c.html#a69681c4e93d4d1f86c60275f3121f7f0" title="clip_elt_triangles" alt="" coords="169,157,287,184"/>
+</map>

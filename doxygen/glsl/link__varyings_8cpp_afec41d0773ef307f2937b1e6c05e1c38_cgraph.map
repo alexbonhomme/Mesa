@@ -1,0 +1,29 @@
+<map id="assign_varying_locations" name="assign_varying_locations">
+<area shape="rect" id="node3" href="$classir__variable.html#a8b15f216b2893038a7bf0812641f1762" title="ir_variable::as_variable" alt="" coords="660,139,815,165"/>
+<area shape="rect" id="node5" href="$classvarying__matches.html#a3bf9f01bb033842e5dbbdac180c789bb" title="Choose locations for all of the variable matches that were previously passed to varying_matches::reco..." alt="" coords="222,57,389,98"/>
+<area shape="rect" id="node7" href="$linker_8cpp.html#abe16368bc7c57115e2346a6a887cea23" title="Determine the number of attribute slots required for a particular type." alt="" coords="234,147,377,173"/>
+<area shape="rect" id="node10" href="$classtfeedback__decl.html#a3e60061a8eb70c28b3827b1adad5c2c1" title="tfeedback_decl::find\l_candidate" alt="" coords="236,198,375,239"/>
+<area shape="rect" id="node12" href="$linker_8cpp.html#af2ae63b42d06c5aeeced547b1568e917" title="linker_error" alt="" coords="478,209,565,236"/>
+<area shape="rect" id="node14" href="$link__varyings_8cpp.html#a0f220084ec1b671d3746b8795eccee86" title="Is the given variable a varying variable to be counted against the limit in ctx&#45;&gt;Const.MaxVarying? This includes variables such as texcoords, colors and generic varyings, but excludes variables such as gl_FrontFacing and gl_FragCoord." alt="" coords="252,315,359,341"/>
+<area shape="rect" id="node17" href="$linker_8cpp.html#a3a384e743d873a24b04bc2e649dd568e" title="linker_warning" alt="" coords="253,365,358,392"/>
+<area shape="rect" id="node19" href="$ir__optimization_8h.html#a11bde2b7b39b71757f57b62ea20c02b2" title="lower_packed_varyings" alt="" coords="226,416,385,443"/>
+<area shape="rect" id="node28" href="$classtfeedback__candidate__generator.html#aede4fb59f2d75c55322aa17bec45701c" title="tfeedback_candidate\l_generator::process" alt="" coords="234,467,377,509"/>
+<area shape="rect" id="node34" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="689,529,785,556"/>
+<area shape="rect" id="node46" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="254,584,357,611"/>
+<area shape="rect" id="node58" href="$classvarying__matches.html#a42a4a402449930b26b457e7b2bb8dec1" title="Record the given producer/consumer variable pair in the list of variables that should later be assign..." alt="" coords="223,635,388,661"/>
+<area shape="rect" id="node60" href="$classvarying__matches.html#a60a12c496475fa6f2bef6f27e5fd6991" title="Update the producer and consumer shaders to reflect the locations assignments that were made by varyi..." alt="" coords="226,686,385,727"/>
+<area shape="rect" id="node21" href="$classir__function.html#aad3488fedf41db3223307d91ea5eb557" title="Find a signature that matches a set of actual parameters, taking implicit conversions into account..." alt="" coords="450,337,593,378"/>
+<area shape="rect" id="node25" href="$classlower__packed__varyings__visitor.html#a87d23b9a0f7561694edd7bc27fa44141" title="lower_packed_varyings\l_visitor::run" alt="" coords="442,265,601,306"/>
+<area shape="rect" id="node23" href="$ir__function_8cpp.html#a120753a4bcca226a83646e4552d98b2e" title="Check if two parameter lists match." alt="" coords="660,344,815,371"/>
+<area shape="rect" id="node30" href="$classir__variable.html#a01193dbe271559cdbe2f951ed17de8eb" title="Determine whether or not a variable is the declaration of an interface block." alt="" coords="443,402,599,443"/>
+<area shape="rect" id="node32" href="$classprogram__resource__visitor.html#aad94aa68248077ec74df085aadbd0a13" title="Begin processing a variable." alt="" coords="437,467,605,509"/>
+<area shape="rect" id="node36" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="696,479,779,505"/>
+<area shape="rect" id="node44" href="$classprogram__resource__visitor.html#abb1ff14993a4a7f48e7a748642a5c240" title="Method invoked for each leaf of the variable." alt="" coords="653,413,821,454"/>
+<area shape="rect" id="node38" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="874,529,961,556"/>
+<area shape="rect" id="node40" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="870,428,965,455"/>
+<area shape="rect" id="node42" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="872,479,963,505"/>
+<area shape="rect" id="node48" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="466,584,577,611"/>
+<area shape="rect" id="node50" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="691,631,784,657"/>
+<area shape="rect" id="node52" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="695,580,779,607"/>
+<area shape="rect" id="node55" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="879,580,956,607"/>
+</map>

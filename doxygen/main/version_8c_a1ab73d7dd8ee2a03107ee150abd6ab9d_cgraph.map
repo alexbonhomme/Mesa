@@ -1,0 +1,10 @@
+<map id="_mesa_compute_version" name="_mesa_compute_version">
+<area shape="rect" id="node3" href="$version_8c.html#ab56e94ffd858412754afd1c32afc7bb3" title="Examine enabled GL extensions to determine GL version." alt="" coords="235,5,357,32"/>
+<area shape="rect" id="node9" href="$version_8c.html#aadd31d85412c0711b1cd2ce416fed161" title="compute_version_es1" alt="" coords="221,107,371,133"/>
+<area shape="rect" id="node18" href="$version_8c.html#aa2be8f5800ab062469db20a87b6ba5a0" title="compute_version_es2" alt="" coords="221,56,371,83"/>
+<area shape="rect" id="node5" href="$version_8c.html#abaffb2ac3c739ca4789e64833e97a24d" title="Builds the MESA version string." alt="" coords="419,56,565,83"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="618,56,729,83"/>
+<area shape="rect" id="node11" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="435,107,549,133"/>
+<area shape="rect" id="node13" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="614,157,733,184"/>
+<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="650,107,697,133"/>
+</map>

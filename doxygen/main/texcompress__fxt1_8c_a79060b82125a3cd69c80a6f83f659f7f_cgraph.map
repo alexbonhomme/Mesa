@@ -1,0 +1,15 @@
+<map id="fxt1_quantize" name="fxt1_quantize">
+<area shape="rect" id="node3" href="$macros_8h.html#a71135f4b9992b27085dc1fa14f07b90d" title="Copy a 4&#45;element unsigned byte vector." alt="" coords="187,5,290,32"/>
+<area shape="rect" id="node5" href="$texcompress__fxt1_8c.html#a241ad54dc26f3e1827aa744ac3154e1a" title="fxt1_quantize_ALPHA0" alt="" coords="159,107,318,133"/>
+<area shape="rect" id="node16" href="$texcompress__fxt1_8c.html#a1c85b43da539e54d0d97228d4b7bf79f" title="fxt1_quantize_ALPHA1" alt="" coords="159,157,318,184"/>
+<area shape="rect" id="node18" href="$texcompress__fxt1_8c.html#a827b3d92cdff7f3725eacafb7f989957" title="fxt1_quantize_CHROMA" alt="" coords="155,56,322,83"/>
+<area shape="rect" id="node23" href="$texcompress__fxt1_8c.html#a54ecef485267776823be1a89ef1e3ea7" title="fxt1_quantize_HI" alt="" coords="178,208,299,235"/>
+<area shape="rect" id="node25" href="$texcompress__fxt1_8c.html#a2db36071be04be9ea7bcf28f91d0fd2d" title="fxt1_quantize_MIXED0" alt="" coords="160,259,317,285"/>
+<area shape="rect" id="node29" href="$texcompress__fxt1_8c.html#a6b4cc4343bce33c981b028b3c2a63958" title="fxt1_quantize_MIXED1" alt="" coords="160,309,317,336"/>
+<area shape="rect" id="node31" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="215,360,262,387"/>
+<area shape="rect" id="node7" href="$texcompress__fxt1_8c.html#a43be7d0cbcd01741c534d0be50110a54" title="fxt1_choose" alt="" coords="375,107,468,133"/>
+<area shape="rect" id="node9" href="$texcompress__fxt1_8c.html#a29e5399c5b7109b9de50a870e1eab2f2" title="fxt1_lloyd" alt="" coords="382,56,461,83"/>
+<area shape="rect" id="node11" href="$texcompress__fxt1_8c.html#abcb0edf2d66d557950e7334118fa8899" title="fxt1_bestcol" alt="" coords="520,81,613,108"/>
+<area shape="rect" id="node13" href="$texcompress__fxt1_8c.html#ab1836ecb36b73701390da63724447b1e" title="fxt1_worst" alt="" coords="525,31,608,57"/>
+<area shape="rect" id="node27" href="$texcompress__fxt1_8c.html#a4decfeb9d43fbf38523ec25f9d938c58" title="fxt1_variance" alt="" coords="371,259,471,285"/>
+</map>

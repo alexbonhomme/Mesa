@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['tag',['TAG',['../texcompress__etc__tmp_8h.html#ab4af8f70f788ad59db915f02fd621794',1,'TAG(etc1_block):&#160;texcompress_etc_tmp.h'],['../texcompress__etc__tmp_8h.html#a5564f50db1fdb7376ee01a35b68a4759',1,'TAG(etc1_modifier_tables)[8][4]:&#160;texcompress_etc_tmp.h']]],
+  ['target_5fallows_5fsetting_5fsampler_5fparameters',['target_allows_setting_sampler_parameters',['../texparam_8c.html#ad091f6a1043b7039671d687a5018ca21',1,'texparam.c']]],
+  ['target_5fcan_5fbe_5fcompressed',['target_can_be_compressed',['../teximage_8c.html#ad6f029dd2332cf69f9da1980bc46e4f8',1,'teximage.c']]],
+  ['target_5fenum_5fto_5findex',['target_enum_to_index',['../texobj_8c.html#a6702db711183a0dc309b08fdd558c589',1,'texobj.c']]],
+  ['test_5fattachment_5fcompleteness',['test_attachment_completeness',['../fbobject_8c.html#afe80fa12d683dffb11884cb82267dcba',1,'fbobject.c']]],
+  ['test_5feq_5f4ubv',['TEST_EQ_4UBV',['../macros_8h.html#a03394c5a2add2757f05b708b044dcddb',1,'macros.h']]],
+  ['tex_5fstorage_5ferror_5fcheck',['tex_storage_error_check',['../texstorage_8c.html#acd2dbc7cc2a2b278bb87d534cc77e669',1,'texstorage.c']]],
+  ['tex_5ftarget_5fname',['tex_target_name',['../debug_8c.html#ad06f2cb2e050150dd4720f02ec56d47e',1,'debug.c']]],
+  ['texbufferrange',['texbufferrange',['../teximage_8c.html#afd4d5127128a0fbe9c05c4b49297930f',1,'teximage.c']]],
+  ['teximage',['teximage',['../teximage_8c.html#afdf346e3510f50cf6a815ab982dff6db',1,'teximage.c']]],
+  ['teximagemultisample',['teximagemultisample',['../teximage_8c.html#aa6a4fbe560eec296c10c2c6c5540e6e1',1,'teximage.c']]],
+  ['texstorage',['texstorage',['../texstorage_8c.html#a96fa8821de60ada99c930de1d20b9932',1,'texstorage.c']]],
+  ['texsubimage',['texsubimage',['../teximage_8c.html#a3d9a1cc2dd5ebe5659c33c2d72e350ab',1,'teximage.c']]],
+  ['texsubimage_5ferror_5fcheck',['texsubimage_error_check',['../teximage_8c.html#ad78bc1e3c5cc50c080945391f5ffece4',1,'teximage.c']]],
+  ['texture_5ferror_5fcheck',['texture_error_check',['../teximage_8c.html#a193916fbc52521417c2f49979f525296',1,'teximage.c']]],
+  ['texture_5fobject_5fpurgeable',['texture_object_purgeable',['../bufferobj_8c.html#a8244c5dd161623e2ac02c3f86a240591',1,'bufferobj.c']]],
+  ['texture_5fobject_5funpurgeable',['texture_object_unpurgeable',['../bufferobj_8c.html#a1e2a6c2b635eef1d6ea6277ca99bd391',1,'bufferobj.c']]],
+  ['texture_5fsize',['texture_size',['../texobj_8c.html#a5ab6e44206589c648d33ccce2cabe5b9',1,'texobj.c']]],
+  ['translate_5ffog_5fdistance_5fmode',['translate_fog_distance_mode',['../ffvertex__prog_8c.html#a24d38762495381b7b1fa5148b2637a1e',1,'ffvertex_prog.c']]],
+  ['translate_5fid',['translate_id',['../dlist_8c.html#a7dcee8bbbc5acc9b9a713f1b7968ff21',1,'dlist.c']]],
+  ['translate_5ftexgen',['translate_texgen',['../ffvertex__prog_8c.html#ab5f6a982d6473c4c78a19827f5528094',1,'ffvertex_prog.c']]],
+  ['type_5fidx',['TYPE_IDX',['../api__arrayelt_8c.html#a28e07f129a6701240ee09031095468e0',1,'api_arrayelt.c']]],
+  ['type_5fmapping',['type_mapping',['../texstore_8c.html#a921cc6312629bde9cc7ab8d6e91c0832',1,'texstore.c']]],
+  ['type_5fneeds_5fclamping',['type_needs_clamping',['../texgetimage_8c.html#af970c01a09c09370c70bb924a02585d4',1,'texgetimage.c']]],
+  ['type_5fto_5fbit',['type_to_bit',['../varray_8c.html#a9ae46f4a4405e57147e5e8789e4644c0',1,'varray.c']]]
+];

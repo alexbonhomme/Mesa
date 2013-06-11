@@ -1,0 +1,51 @@
+<map id="ir_hierarchical_visitor.h" name="ir_hierarchical_visitor.h">
+<area shape="rect" id="node3" href="$ir_8h.html" title="ir.h" alt="" coords="2881,80,2921,107"/>
+<area shape="rect" id="node40" href="$loop__analysis_8cpp.html" title="loop_analysis.cpp" alt="" coords="5,253,131,280"/>
+<area shape="rect" id="node42" href="$loop__controls_8cpp.html" title="loop_controls.cpp" alt="" coords="155,253,279,280"/>
+<area shape="rect" id="node44" href="$loop__unroll_8cpp.html" title="loop_unroll.cpp" alt="" coords="304,253,413,280"/>
+<area shape="rect" id="node70" href="$ir__hierarchical__visitor_8cpp.html" title="ir_hierarchical_visitor.cpp" alt="" coords="5679,163,5848,189"/>
+<area shape="rect" id="node82" href="$ir__validate_8cpp.html" title="Attempts to verify that various invariants of the IR tree are true." alt="" coords="5873,163,5980,189"/>
+<area shape="rect" id="node5" href="$ast__array__index_8cpp.html" title="ast_array_index.cpp" alt="" coords="5089,163,5228,189"/>
+<area shape="rect" id="node7" href="$glsl__symbol__table_8h.html" title="glsl_symbol_table.h" alt="" coords="1135,163,1272,189"/>
+<area shape="rect" id="node9" href="$ast__function_8cpp.html" title="ast_function.cpp" alt="" coords="1811,253,1929,280"/>
+<area shape="rect" id="node11" href="$ast__to__hir_8cpp.html" title="ast_to_hir.cpp" alt="" coords="1955,253,2059,280"/>
+<area shape="rect" id="node13" href="$builtin__variables_8cpp.html" title="builtin_variables.cpp" alt="" coords="2083,253,2223,280"/>
+<area shape="rect" id="node15" href="$ir__import__prototypes_8cpp.html" title="Import function prototypes from one IR tree into another." alt="" coords="2620,253,2785,280"/>
+<area shape="rect" id="node17" href="$link__functions_8cpp.html" title="link_functions.cpp" alt="" coords="438,253,564,280"/>
+<area shape="rect" id="node19" href="$link__interface__blocks_8cpp.html" title="Linker support for GLSL&#39;s interface blocks." alt="" coords="589,253,757,280"/>
+<area shape="rect" id="node21" href="$link__uniform__initializers_8cpp.html" title="link_uniform_initializers.cpp" alt="" coords="782,253,964,280"/>
+<area shape="rect" id="node23" href="$link__uniforms_8cpp.html" title="Assign locations for GLSL uniforms." alt="" coords="989,253,1112,280"/>
+<area shape="rect" id="node25" href="$linker_8cpp.html" title="GLSL linker implementation." alt="" coords="1137,253,1215,280"/>
+<area shape="rect" id="node27" href="$lower__clip__distance_8cpp.html" title="This pass accounts for the difference between the way gl_ClipDistance is declared in standard GLSL (a..." alt="" coords="1239,253,1400,280"/>
+<area shape="rect" id="node29" href="$lower__named__interface__blocks_8cpp.html" title="This lowering pass converts all interface blocks with instance names into interface blocks without an..." alt="" coords="1425,246,1580,287"/>
+<area shape="rect" id="node31" href="$lower__packed__varyings_8cpp.html" title="lower_packed_varyings.cpp" alt="" coords="1605,253,1787,280"/>
+<area shape="rect" id="node35" href="$ir__reader_8h.html" title="ir_reader.h" alt="" coords="1348,163,1431,189"/>
+<area shape="rect" id="node38" href="$loop__analysis_8h.html" title="loop_analysis.h" alt="" coords="289,163,401,189"/>
+<area shape="rect" id="node46" href="$hir__field__selection_8cpp.html" title="hir_field_selection.cpp" alt="" coords="1506,163,1656,189"/>
+<area shape="rect" id="node48" href="$ir_8cpp.html" title="ir.cpp" alt="" coords="1681,163,1735,189"/>
+<area shape="rect" id="node50" href="$ir__basic__block_8cpp.html" title="Basic block analysis of instruction streams." alt="" coords="1760,163,1891,189"/>
+<area shape="rect" id="node52" href="$ir__builder_8h.html" title="ir_builder.h" alt="" coords="3523,163,3608,189"/>
+<area shape="rect" id="node54" href="$lower__instructions_8cpp.html" title="Many GPUs lack native instructions for certain expression operations, and must replace them with some..." alt="" coords="3255,253,3407,280"/>
+<area shape="rect" id="node56" href="$lower__packing__builtins_8cpp.html" title="lower_packing_builtins.cpp" alt="" coords="3487,253,3665,280"/>
+<area shape="rect" id="node58" href="$ir__clone_8cpp.html" title="ir_clone.cpp" alt="" coords="2067,163,2159,189"/>
+<area shape="rect" id="node60" href="$ir__constant__expression_8cpp.html" title="Evaluate and process constant valued expressions." alt="" coords="2184,163,2365,189"/>
+<area shape="rect" id="node62" href="$ir__expression__flattening_8cpp.html" title="Takes the leaves of expression trees and makes them dereferences of assignments of the leaves to temp..." alt="" coords="2389,163,2573,189"/>
+<area shape="rect" id="node64" href="$ir__function_8cpp.html" title="ir_function.cpp" alt="" coords="2597,163,2704,189"/>
+<area shape="rect" id="node66" href="$ir__function__can__inline_8cpp.html" title="Determines if we can inline a function call using ir_function_inlining.cpp." alt="" coords="2729,163,2900,189"/>
+<area shape="rect" id="node68" href="$ir__function__detect__recursion_8cpp.html" title="Determine whether a shader contains static recursion." alt="" coords="2925,155,3051,197"/>
+<area shape="rect" id="node72" href="$ir__hv__accept_8cpp.html" title="Implementations of all hierarchical visitor accept methods for IR instructions." alt="" coords="3075,163,3196,189"/>
+<area shape="rect" id="node75" href="$ir__print__visitor_8h.html" title="ir_print_visitor.h" alt="" coords="3733,163,3848,189"/>
+<area shape="rect" id="node77" href="$ir__rvalue__visitor_8cpp.html" title="Generic class to implement the common pattern we have of wanting to visit each ir_rvalue * and possib..." alt="" coords="3711,253,3849,280"/>
+<area shape="rect" id="node80" href="$ir__set__program__inouts_8cpp.html" title="Sets the InputsRead and OutputsWritten of Mesa programs." alt="" coords="3323,163,3497,189"/>
+<area shape="rect" id="node84" href="$ir__variable__refcount_8cpp.html" title="Provides a visitor which produces a list of variables referenced, how many times they were referenced..." alt="" coords="5228,253,5388,280"/>
+<area shape="rect" id="node86" href="$ir__variable__refcount_8h.html" title="Provides a visitor which produces a list of variables referenced, how many times they were referenced..." alt="" coords="5303,163,5449,189"/>
+<area shape="rect" id="node91" href="$link__uniform__block__active__visitor_8h.html" title="link_uniform_block\l_active_visitor.h" alt="" coords="5524,155,5655,197"/>
+<area shape="rect" id="node93" href="$link__uniform__blocks_8cpp.html" title="link_uniform_blocks.cpp" alt="" coords="5456,253,5619,280"/>
+<area shape="rect" id="node100" href="$lower__discard_8cpp.html" title="This pass moves discards out of if&#45;statements." alt="" coords="3873,163,3999,189"/>
+<area shape="rect" id="node102" href="$lower__discard__flow_8cpp.html" title="Implements the GLSL 1.30 revision 9 rule for fragment shader discard handling:" alt="" coords="4023,163,4181,189"/>
+<area shape="rect" id="node104" href="$lower__if__to__cond__assign_8cpp.html" title="This attempts to flatten if&#45;statements to conditional assignments for GPUs with limited or no flow co..." alt="" coords="4206,163,4396,189"/>
+<area shape="rect" id="node107" href="$lower__jumps_8cpp.html" title="This pass lowers jumps (break, continue, and return) to if/else structures." alt="" coords="4421,163,4541,189"/>
+<area shape="rect" id="node109" href="$lower__mat__op__to__vec_8cpp.html" title="Breaks matrix operation expressions down to a series of vector operations." alt="" coords="4566,163,4740,189"/>
+<area shape="rect" id="node112" href="$lower__noise_8cpp.html" title="IR lower pass to remove noise opcodes." alt="" coords="4765,163,4880,189"/>
+<area shape="rect" id="node114" href="$lower__output__reads_8cpp.html" title="In GLSL, shader output variables (such as varyings) can be both read and written." alt="" coords="4905,163,5065,189"/>
+</map>

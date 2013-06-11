@@ -1,0 +1,51 @@
+<map id="_swrast_CopyPixels" name="_swrast_CopyPixels">
+<area shape="rect" id="node3" href="main.tag$condrender_8c.html#a79a7d1bc368ddaf5cb353a0a7024c24f" title="_mesa_check_conditional\l_render" alt="" coords="198,6,370,47"/>
+<area shape="rect" id="node5" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="936,1559,1051,1585"/>
+<area shape="rect" id="node7" href="$s__context_8c.html#a580958d86d36e258042e52c621153de2" title="_swrast_validate_derived" alt="" coords="199,688,369,715"/>
+<area shape="rect" id="node16" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="918,629,1069,656"/>
+<area shape="rect" id="node74" href="$s__copypix_8c.html#a29d2f409660efc3f636dc701129cc85f" title="copy_depth_pixels" alt="" coords="219,1411,349,1437"/>
+<area shape="rect" id="node99" href="$s__copypix_8c.html#a6d301691ff0b72dce406bd5104551c7d" title="RGBA copypixels." alt="" coords="223,1535,345,1561"/>
+<area shape="rect" id="node107" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="705,2199,842,2225"/>
+<area shape="rect" id="node115" href="$s__copypix_8c.html#a920b61ea7538e0c97f5405d8fb54d596" title="copy_stencil_pixels" alt="" coords="216,1804,352,1831"/>
+<area shape="rect" id="node129" href="$s__copypix_8c.html#a2446eaaf41e9faa4c05040b95b4749c7" title="Find/map the renderbuffer that we&#39;ll be reading from." alt="" coords="228,2168,340,2195"/>
+<area shape="rect" id="node133" href="$s__copypix_8c.html#ae353d031eb33c9e781e11ea23f270047" title="Try to do a fast 1:1 blit with memcpy." alt="" coords="201,2085,367,2112"/>
+<area shape="rect" id="node140" href="$s__context_8h.html#a0ed690f559c3c04aeafe75161a308420" title="Called after framebuffer reading/writing." alt="" coords="213,72,355,99"/>
+<area shape="rect" id="node143" href="$s__context_8h.html#ae0ae490de414ace36ba3f9e803750f58" title="Called prior to framebuffer reading/writing." alt="" coords="215,123,353,149"/>
+<area shape="rect" id="node9" href="$s__context_8c.html#acaf458cd889f50b4fb7ea54b2e6940f0" title="_swrast_invalidate\l_state" alt="" coords="459,361,589,402"/>
+<area shape="rect" id="node31" href="$s__context_8c.html#ac59e331355907eb48bb44f7b17e7deca" title="Update swrast&#45;&gt;_ActiveAttribs, swrast&#45;&gt;_NumActiveAttribs, swrast&#45;&gt;_ActiveAtttribMask." alt="" coords="446,863,602,905"/>
+<area shape="rect" id="node36" href="$s__context_8c.html#ae9495142a144f8f05790ca823d96eed8" title="Determine if we can defer texturing/shading until after Z/stencil testing." alt="" coords="440,929,608,970"/>
+<area shape="rect" id="node40" href="$s__context_8c.html#aa9ed9ba752764e49a9a0784abf2afeb2" title="Update the _PreferPixelFog field to indicate if we need to compute fog blend factors (from the fog co..." alt="" coords="441,1060,607,1087"/>
+<area shape="rect" id="node44" href="$s__context_8c.html#a0a6ada5d854e23592529a5abb9399af3" title="Update swrast&#45;&gt;_FogColor and swrast&#45;&gt;_FogEnable values." alt="" coords="455,1111,593,1153"/>
+<area shape="rect" id="node48" href="$s__context_8c.html#a9c42c1b1685d1ec68e49cf9ecd7a1ed1" title="Update state for running fragment programs." alt="" coords="438,994,610,1035"/>
+<area shape="rect" id="node51" href="$s__context_8c.html#a1f0c4db0dc921740d0e939a89fccac42" title="Examine polygon cull state to compute the _BackfaceCullSign field." alt="" coords="690,579,857,605"/>
+<area shape="rect" id="node54" href="$s__context_8c.html#a03dbfaa86c68e063bf051ca0fef1b31b" title="Recompute the value of swrast&#45;&gt;_RasterMask, etc." alt="" coords="433,747,615,773"/>
+<area shape="rect" id="node58" href="$s__context_8c.html#a8d997228f0d9f37ed4a001c3f69c9919" title="See if we can do early diffuse+specular (primary+secondary) color add per vertex instead of per&#45;fragm..." alt="" coords="439,798,609,839"/>
+<area shape="rect" id="node62" href="$s__context_8c.html#a59b8bba4907cbc35632aa017b923590e" title="Update the swrast&#45;&gt;_TextureCombinePrimary flag." alt="" coords="679,629,868,656"/>
+<area shape="rect" id="node65" href="$s__context_8c.html#adf428497b6aec4bfccb9ed99a91ddd24" title="_swrast_update_texture\l_samplers" alt="" coords="443,681,605,722"/>
+<area shape="rect" id="node11" href="$s__context_8c.html#a1b0682fe7f238df6917a1f51bdff930a" title="_swrast_sleep" alt="" coords="720,325,827,352"/>
+<area shape="rect" id="node13" href="$s__context_8c.html#acb2db154c8cbb9a65cd06faefbcfe85d" title="Called via swrast&#45;&gt;BlendFunc." alt="" coords="678,275,869,301"/>
+<area shape="rect" id="node18" href="$s__context_8c.html#acf458e7707550d647964622fd2b1a670" title="Called via swrast&#45;&gt;Line." alt="" coords="700,427,847,453"/>
+<area shape="rect" id="node22" href="$s__context_8c.html#ac9987d1f51f979a14d8f331eac989e11" title="Called via swrast&#45;&gt;Point." alt="" coords="696,477,851,504"/>
+<area shape="rect" id="node26" href="$s__context_8c.html#ae8352cccfe2dd1571bdba6d3d1326158" title="Stub for swrast&#45;&gt;Triangle to select a true triangle function after a state change." alt="" coords="689,528,858,555"/>
+<area shape="rect" id="node33" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="696,1067,851,1109"/>
+<area shape="rect" id="node67" href="$s__texfetch_8c.html#a3dc9a6299f299b44f2cccf971cdca37c" title="_mesa_update_fetch\l_functions" alt="" coords="702,681,845,722"/>
+<area shape="rect" id="node69" href="$s__texfilter_8c.html#aeb7c30a41bf34d61e518e12c6ee8aede" title="Choose the texture sampling function for the given texture object." alt="" coords="691,798,855,839"/>
+<area shape="rect" id="node76" href="$s__aatritemp_8h.html#aaa423f841f0387055ae093f07ebc2403" title="INIT_SPAN" alt="" coords="478,1360,570,1387"/>
+<area shape="rect" id="node78" href="$s__span_8c.html#a17e8ba9f712b736f97621cb0c93a9028" title="Set default fragment attributes for the span using the current raster values." alt="" coords="449,1462,599,1503"/>
+<area shape="rect" id="node85" href="$s__copypix_8c.html#a98f2a796718bbf5d7cb09aca4828d098" title="Determine if there&#39;s overlap in an image copy." alt="" coords="467,1593,581,1620"/>
+<area shape="rect" id="node87" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="477,1745,571,1772"/>
+<area shape="rect" id="node89" href="$s__depth_8c.html#a7135b390c95377a406a20d5aee92f946" title="Read a span of depth values from the given depth renderbuffer, returning the values as GLfloats..." alt="" coords="455,1177,593,1218"/>
+<area shape="rect" id="node91" href="$s__copypix_8c.html#afa441b69fa46a01333c60c746bfe8b71" title="Convert floating point Z values to integer Z values with pixel transfer&#39;s Z scale and bias..." alt="" coords="461,1243,587,1269"/>
+<area shape="rect" id="node93" href="$s__zoom_8c.html#a835d8ec78b442a10af2783a55fd0967b" title="_swrast_write_zoomed\l_depth_span" alt="" coords="446,1294,602,1335"/>
+<area shape="rect" id="node95" href="$s__span_8c.html#a603e074d040f6b722fe225153574c2e9" title="Apply all the per&#45;fragment operations to a span." alt="" coords="439,1411,609,1437"/>
+<area shape="rect" id="node81" href="$s__fog_8c.html#a444a092f8aac9293899618fc0a9d5361" title="Used to convert current raster distance to a fog factor in [0,1]." alt="" coords="694,1503,853,1529"/>
+<area shape="rect" id="node105" href="$s__span_8c.html#a29022e97c35e01b5af0bc40ed4799502" title="Read float RGBA pixels from a renderbuffer." alt="" coords="441,1644,607,1671"/>
+<area shape="rect" id="node110" href="main.tag$pixeltransfer_8c.html#ae45d602902206f7af78a81db87c5920e" title="_mesa_apply_rgba_transfer_ops" alt="" coords="419,1695,629,1721"/>
+<area shape="rect" id="node112" href="$s__zoom_8c.html#a6cbffd24cba1b9de8a44b02d4948fd7f" title="_swrast_write_zoomed\l_rgba_span" alt="" coords="446,1527,602,1569"/>
+<area shape="rect" id="node119" href="$s__stencil_8c.html#a24dc5f593d870c8edee0fa5de718fcb3" title="Return a span of stencil values from the stencil buffer." alt="" coords="434,1863,614,1889"/>
+<area shape="rect" id="node121" href="main.tag$pixeltransfer_8c.html#a54c54cf92fcd1221de4c8ad894c55eb0" title="_mesa_apply_stencil\l_transfer_ops" alt="" coords="452,1797,596,1838"/>
+<area shape="rect" id="node123" href="$s__zoom_8c.html#ad8d022f26ed19f1588eaa54318c211d8" title="Zoom/write stencil values." alt="" coords="446,1965,602,2006"/>
+<area shape="rect" id="node125" href="$s__stencil_8c.html#ae9fe80b3d7e6a4a3981bcdb5fe1dabd2" title="Write a span of stencil values to the stencil buffer." alt="" coords="682,1913,865,1940"/>
+<area shape="rect" id="node135" href="main.tag$formats_8c.html#af95c2f2597bfa7684de426340766152d" title="_mesa_is_format_packed\l_depth_stencil" alt="" coords="439,2082,609,2123"/>
+<area shape="rect" id="node137" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="439,2148,609,2175"/>
+</map>

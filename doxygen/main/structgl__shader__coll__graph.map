@@ -1,0 +1,6 @@
+<map id="gl_shader" name="gl_shader">
+<area shape="rect" id="node3" href="$structgl__uniform__block.html" title="gl_uniform_block" alt="" coords="32,96,152,123"/>
+<area shape="rect" id="node5" href="$structgl__uniform__buffer__variable.html" title="gl_uniform_buffer_variable" alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node7" href="$structgl__sl__pragmas.html" title="Set by #pragma directives." alt="" coords="176,96,283,123"/>
+<area shape="rect" id="node9" href="$structgl__program.html" title="Base class for any kind of program object." alt="" coords="307,96,393,123"/>
+</map>

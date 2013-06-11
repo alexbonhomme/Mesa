@@ -1,0 +1,22 @@
+<map id="ss_context.c" name="ss_context.c">
+<area shape="rect" id="node3" href="main.tag$glheader_8h.html" title="main/glheader.h" alt="" coords="302,528,417,555"/>
+<area shape="rect" id="node5" href="main.tag$imports_8h.html" title="main/imports.h" alt="" coords="543,229,650,256"/>
+<area shape="rect" id="node26" href="main.tag$colormac_8h.html" title="main/colormac.h" alt="" coords="414,80,532,107"/>
+<area shape="rect" id="node33" href="tnl.tag$tnl_8h.html" title="tnl/tnl.h" alt="" coords="1195,80,1260,107"/>
+<area shape="rect" id="node35" href="tnl.tag$t__context_8h.html" title="tnl/t_context.h" alt="" coords="779,155,884,181"/>
+<area shape="rect" id="node37" href="tnl.tag$t__pipeline_8h.html" title="tnl/t_pipeline.h" alt="" coords="634,80,741,107"/>
+<area shape="rect" id="node40" href="tnl.tag$t__vertex_8h.html" title="tnl/t_vertex.h" alt="" coords="765,80,864,107"/>
+<area shape="rect" id="node43" href="$swrast__setup_8h.html" title="swrast_setup.h" alt="" coords="1060,80,1170,107"/>
+<area shape="rect" id="node49" href="$ss__context_8h.html" title="ss_context.h" alt="" coords="939,80,1036,107"/>
+<area shape="rect" id="node54" href="$ss__triangle_8h.html" title="ss_triangle.h" alt="" coords="1285,80,1381,107"/>
+<area shape="rect" id="node7" href="main.tag$compiler_8h.html" title="compiler.h" alt="" coords="628,379,710,405"/>
+<area shape="rect" id="node10" href="main.tag$errors_8h.html" title="errors.h" alt="" coords="558,304,625,331"/>
+<area shape="rect" id="node14" href="main.tag$mtypes_8h.html" title="mtypes.h" alt="" coords="331,379,406,405"/>
+<area shape="rect" id="node17" href="main.tag$config_8h.html" title="main/config.h" alt="" coords="452,453,552,480"/>
+<area shape="rect" id="node19" href="main.tag$simple__list_8h.html" title="main/simple_list.h" alt="" coords="167,453,293,480"/>
+<area shape="rect" id="node21" href="main.tag$formats_8h.html" title="main/formats.h" alt="" coords="318,453,428,480"/>
+<area shape="rect" id="node23" href="main.tag$dd_8h.html" title="dd.h" alt="" coords="44,453,90,480"/>
+<area shape="rect" id="node29" href="main.tag$macros_8h.html" title="macros.h" alt="" coords="483,155,558,181"/>
+<area shape="rect" id="node45" href="swrast.tag$swrast_8h.html" title="swrast/swrast.h" alt="" coords="1040,155,1154,181"/>
+<area shape="rect" id="node47" href="swrast.tag$s__chan_8h.html" title="swrast/s_chan.h" alt="" coords="1038,229,1156,256"/>
+</map>

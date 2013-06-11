@@ -1,0 +1,14 @@
+<map id="etc2_rgb8_parse_block" name="etc2_rgb8_parse_block">
+<area shape="rect" id="node3" href="$texcompress__etc__tmp_8h.html#af5733f43a0ad0c51ba31853607d5909e" title="etc1_base_color_diff_hi" alt="" coords="221,5,379,32"/>
+<area shape="rect" id="node5" href="$texcompress__etc__tmp_8h.html#aaf24bc4d410f236db5cdd5e1662df240" title="etc1_base_color_diff_lo" alt="" coords="221,56,379,83"/>
+<area shape="rect" id="node7" href="$texcompress__etc__tmp_8h.html#aa40caad577a097c065b526fcedb75741" title="etc1_base_color_ind_hi" alt="" coords="221,107,379,133"/>
+<area shape="rect" id="node9" href="$texcompress__etc__tmp_8h.html#af9626af0112c2277f019f0fc78ef279e" title="etc1_base_color_ind_lo" alt="" coords="221,157,379,184"/>
+<area shape="rect" id="node11" href="$texcompress__etc_8c.html#aa5ba996bff0606c20ffb05fa0391d670" title="etc2_base_color1_h_mode" alt="" coords="211,208,389,235"/>
+<area shape="rect" id="node13" href="$texcompress__etc_8c.html#a14455c8c6b5e7cf841a1bfdc3ef7a3df" title="etc2_base_color1_t_mode" alt="" coords="213,259,387,285"/>
+<area shape="rect" id="node15" href="$texcompress__etc_8c.html#a5d4ee446366b47b4d745cb72ec970f68" title="etc2_base_color2_h_mode" alt="" coords="211,309,389,336"/>
+<area shape="rect" id="node17" href="$texcompress__etc_8c.html#a7a54eb7f6e0ebe5bbd03516cecbf3790" title="etc2_base_color2_t_mode" alt="" coords="213,360,387,387"/>
+<area shape="rect" id="node19" href="$texcompress__etc_8c.html#aa0048428836dd4b0a6fc89fd53bb59fa" title="etc2_base_color_h_planar" alt="" coords="213,411,387,437"/>
+<area shape="rect" id="node21" href="$texcompress__etc_8c.html#a41bb67d117b68261e1047b67159c6dc6" title="etc2_base_color_o_planar" alt="" coords="213,461,387,488"/>
+<area shape="rect" id="node23" href="$texcompress__etc_8c.html#abe1d20428e9456cac68decd5eddf9aa1" title="etc2_base_color_v_planar" alt="" coords="213,512,387,539"/>
+<area shape="rect" id="node25" href="$texcompress__etc_8c.html#a8760b43eeb3dac9ea9480dc14dbbcb2a" title="etc2_clamp" alt="" coords="255,563,345,589"/>
+</map>

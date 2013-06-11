@@ -1,0 +1,20 @@
+<map id="mipmap.c" name="mipmap.c">
+<area shape="rect" id="node3" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="1027,171,1102,197"/>
+<area shape="rect" id="node39" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1488,320,1564,347"/>
+<area shape="rect" id="node50" href="$formats_8h.html" title="main/formats.h" alt="" coords="1860,395,1969,421"/>
+<area shape="rect" id="node57" href="$glformats_8h.html" title="glformats.h" alt="" coords="1958,469,2044,496"/>
+<area shape="rect" id="node60" href="$mipmap_8h.html" title="mipmap.h" alt="" coords="1440,171,1518,197"/>
+<area shape="rect" id="node64" href="$teximage_8h.html" title="Texture images manipulation functions." alt="" coords="1699,245,1785,272"/>
+<area shape="rect" id="node68" href="$texobj_8h.html" title="Texture object management." alt="" coords="1167,245,1234,272"/>
+<area shape="rect" id="node75" href="$texstore_8h.html" title="Texture image storage routines." alt="" coords="1594,245,1674,272"/>
+<area shape="rect" id="node79" href="$image_8h.html" title="image.h" alt="" coords="1328,171,1396,197"/>
+<area shape="rect" id="node82" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="1138,88,1213,115"/>
+<area shape="rect" id="node5" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="604,320,686,347"/>
+<area shape="rect" id="node29" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1125,469,1208,496"/>
+<area shape="rect" id="node35" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1032,245,1098,272"/>
+<area shape="rect" id="node42" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1476,395,1576,421"/>
+<area shape="rect" id="node46" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1716,395,1836,421"/>
+<area shape="rect" id="node48" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1255,395,1381,421"/>
+<area shape="rect" id="node53" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1406,395,1452,421"/>
+<area shape="rect" id="node73" href="$samplerobj_8h.html" title="samplerobj.h" alt="" coords="1153,320,1249,347"/>
+</map>

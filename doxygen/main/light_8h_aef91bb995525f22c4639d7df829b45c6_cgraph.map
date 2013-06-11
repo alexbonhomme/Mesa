@@ -1,0 +1,11 @@
+<map id="_mesa_update_tnl_spaces" name="_mesa_update_tnl_spaces">
+<area shape="rect" id="node3" href="math.tag$m__matrix_8c.html#a6540db69cb0fc02ba34be13a9e795f2b" title="_math_matrix_is_length\l_preserving" alt="" coords="448,127,608,168"/>
+<area shape="rect" id="node5" href="$light_8c.html#adfb1a18a851688e7e4fa6a1a53d17a70" title="Update state derived from light position, spot direction." alt="" coords="235,29,397,55"/>
+<area shape="rect" id="node18" href="$light_8c.html#a72518e70ed4bdcc58fea7faa0e40e18d" title="update_modelview_scale" alt="" coords="232,159,400,186"/>
+<area shape="rect" id="node22" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="293,210,339,237"/>
+<area shape="rect" id="node7" href="$macros_8h.html#ab026e58126c71e24a89c9f50413d3da7" title="Copy a 4&#45;element float vector." alt="" coords="483,25,573,51"/>
+<area shape="rect" id="node9" href="$macros_8h.html#ad76fb71b2d3e8d72eabe008147c47cd7" title="DOT3" alt="" coords="859,13,917,39"/>
+<area shape="rect" id="node11" href="$macros_8h.html#a910b51f13b8403d7180922c92e9444dd" title="NORMALIZE_3FV" alt="" coords="463,75,593,102"/>
+<area shape="rect" id="node13" href="$macros_8h.html#a7292bcc8022e489deacb638525a1a7e9" title="LEN_SQUARED_3FV" alt="" coords="657,50,810,77"/>
+<area shape="rect" id="node16" href="$imports_8h.html#acc4451ed5e0702b54be09252414e675f" title="single&#45;precision inverse square root" alt="" coords="685,134,782,161"/>
+</map>

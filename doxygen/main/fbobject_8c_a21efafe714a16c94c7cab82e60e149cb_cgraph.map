@@ -1,0 +1,16 @@
+<map id="get_component_bits" name="get_component_bits">
+<area shape="rect" id="node3" href="$glformats_8c.html#a0807060ef5713961d82d0935e9b7fbf3" title="Does the given base texture/renderbuffer format have the channel named by &#39;pname&#39;?" alt="" coords="192,171,360,213"/>
+<area shape="rect" id="node28" href="$formats_8c.html#ae2c7110b16bdbb90dc5c36b123db9f0a" title="Return bits per component for the given format." alt="" coords="197,237,355,264"/>
+<area shape="rect" id="node5" href="$errors_8c.html#abf6b2d27cc17bae887812e7012fc31f9" title="Report a warning (a recoverable error condition) to stderr if either DEBUG is defined or the MESA_DEB..." alt="" coords="431,179,545,205"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="629,259,747,285"/>
+<area shape="rect" id="node9" href="$errors_8c.html#a634227a0754c75445a4ae71cb4a86397" title="When a new type of error is recorded, print a message describing previous errors which were accumulat..." alt="" coords="617,107,759,133"/>
+<area shape="rect" id="node20" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="843,157,957,184"/>
+<area shape="rect" id="node26" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="665,208,711,235"/>
+<area shape="rect" id="node11" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="808,56,992,83"/>
+<area shape="rect" id="node15" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1042,107,1153,133"/>
+<area shape="rect" id="node13" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="1040,5,1155,32"/>
+<area shape="rect" id="node17" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="1056,56,1139,83"/>
+<area shape="rect" id="node22" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="1044,157,1151,184"/>
+<area shape="rect" id="node30" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="409,284,567,311"/>
+<area shape="rect" id="node32" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="431,233,545,260"/>
+</map>

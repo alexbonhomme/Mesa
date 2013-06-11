@@ -1,0 +1,11 @@
+<map id="_swrast_write_zoomed_stencil_span" name="_swrast_write_zoomed_stencil_span">
+<area shape="rect" id="node3" href="$s__stencil_8c.html#ae9fe80b3d7e6a4a3981bcdb5fe1dabd2" title="Write a span of stencil values to the stencil buffer." alt="" coords="211,93,394,120"/>
+<area shape="rect" id="node17" href="$s__zoom_8c.html#a2ea17815874aa3f12086c148ab02e7a9" title="Compute the bounds of the region resulting from zooming a pixel span." alt="" coords="215,144,390,171"/>
+<area shape="rect" id="node19" href="$s__zoom_8c.html#a549cacfb10128a35885ec4276df0f881" title="Convert a zoomed x image coordinate back to an unzoomed x coord." alt="" coords="261,195,344,221"/>
+<area shape="rect" id="node5" href="main.tag$format__pack_8c.html#af54efd09ac7b891c786caf1bea76ffc9" title="_mesa_pack_ubyte_stencil_row" alt="" coords="443,5,651,32"/>
+<area shape="rect" id="node7" href="main.tag$format__unpack_8c.html#a1e43d384d4630edeecc48e95b742e437" title="_mesa_unpack_ubyte\l_stencil_row" alt="" coords="472,57,621,98"/>
+<area shape="rect" id="node9" href="$s__context_8h.html#a52ee360f385598e7861b6a5bb45b532b" title="Return the address of a pixel value in a mapped renderbuffer." alt="" coords="469,123,624,149"/>
+<area shape="rect" id="node15" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="471,173,622,200"/>
+<area shape="rect" id="node11" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="699,97,869,124"/>
+<area shape="rect" id="node13" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="715,148,853,175"/>
+</map>

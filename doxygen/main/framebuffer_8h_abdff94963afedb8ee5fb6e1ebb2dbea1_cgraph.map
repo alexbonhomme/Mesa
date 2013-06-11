@@ -1,0 +1,30 @@
+<map id="_mesa_source_buffer_exists" name="_mesa_source_buffer_exists">
+<area shape="rect" id="node3" href="$framebuffer_8c.html#a4494172508c03f3b82f66d87c3fbd542" title="Check if the renderbuffer for a read/draw operation exists." alt="" coords="200,84,333,111"/>
+<area shape="rect" id="node5" href="$formats_8c.html#ae2c7110b16bdbb90dc5c36b123db9f0a" title="Return bits per component for the given format." alt="" coords="866,84,1025,111"/>
+<area shape="rect" id="node9" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1116,248,1231,275"/>
+<area shape="rect" id="node16" href="$fbobject_8c.html#a30883de5213e4b5a4adafb3835125686" title="Test if the given framebuffer object is complete and update its Status field with the results..." alt="" coords="381,330,544,371"/>
+<area shape="rect" id="node7" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="1094,461,1253,488"/>
+<area shape="rect" id="node11" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1302,509,1421,536"/>
+<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1338,291,1385,317"/>
+<area shape="rect" id="node18" href="$fbobject_8c.html#a4d7d1d03dd88538f10d7df9b9c31ff71" title="Given a GL_*_ATTACHMENTn token, return a pointer to the corresponding gl_renderbuffer_attachment obje..." alt="" coords="615,236,774,263"/>
+<area shape="rect" id="node20" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="871,236,1019,263"/>
+<area shape="rect" id="node24" href="$fbobject_8h.html#a97df2933946ce460854b6bbcf50b997b" title="Is the given FBO a user&#45;created FBO?" alt="" coords="878,135,1013,161"/>
+<area shape="rect" id="node26" href="$formats_8c.html#a3ffef8fc5049d798ddfa4d6f2eb54753" title="Return the data type (or more specifically, the data representation) for the given format..." alt="" coords="852,287,1039,313"/>
+<area shape="rect" id="node30" href="$formats_8c.html#a756503ff731a7ff639ffba6d3c34f930" title="Is the given format a signed/unsigned integer color format?" alt="" coords="611,601,779,642"/>
+<area shape="rect" id="node34" href="$framebuffer_8c.html#a95ff7aed0905e0aa42608ae4f5bcface" title="The glGet queries of the framebuffer red/green/blue size, stencil size, etc." alt="" coords="605,389,785,430"/>
+<area shape="rect" id="node47" href="$fbobject_8c.html#a8a0c5440198e4d78060fc0466f0ca3fe" title="For debug only." alt="" coords="639,713,750,740"/>
+<area shape="rect" id="node59" href="$fbobject_8c.html#a98b26f07278810e62d58268d1db02aed" title="Is the given base format a legal format for a color renderbuffer?" alt="" coords="605,459,784,485"/>
+<area shape="rect" id="node64" href="$fbobject_8c.html#ac0ce25c2ac5c3b778fb6b27f5a8df03e" title="Is the given base format a legal format for a depth/stencil renderbuffer?" alt="" coords="620,135,769,161"/>
+<area shape="rect" id="node66" href="$fbobject_8c.html#afe80fa12d683dffb11884cb82267dcba" title="Test if an attachment point is complete and update its Complete field." alt="" coords="593,527,797,553"/>
+<area shape="rect" id="node22" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="887,185,1003,212"/>
+<area shape="rect" id="node36" href="$formats_8c.html#a011458f3486ed545382e81a11d72cca6" title="Return the basic format for the given type." alt="" coords="863,454,1028,495"/>
+<area shape="rect" id="node40" href="$formats_8c.html#a888ff5083e9e654a6e9895f204596246" title="Return color encoding for given format." alt="" coords="863,389,1028,430"/>
+<area shape="rect" id="node43" href="$fbobject_8c.html#a16c0dcbef8c92fecca3cc3ce9170a63c" title="Is the given base format a legal format for a color renderbuffer?" alt="" coords="872,519,1019,561"/>
+<area shape="rect" id="node45" href="$framebuffer_8c.html#ac3226699648201dc1e151e9562102131" title="Functions for allocating/managing framebuffers and renderbuffers." alt="" coords="874,337,1017,364"/>
+<area shape="rect" id="node49" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="1122,644,1225,671"/>
+<area shape="rect" id="node52" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="1304,644,1419,671"/>
+<area shape="rect" id="node54" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="1472,619,1579,645"/>
+<area shape="rect" id="node56" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1470,669,1581,696"/>
+<area shape="rect" id="node69" href="$formats_8c.html#a94ab01c6f81ace5a82ceee735a13dd9d" title="Is the given format a compressed format?" alt="" coords="845,585,1045,612"/>
+<area shape="rect" id="node73" href="$fbobject_8c.html#a74c068dedfe915772dbd3c70aa466615" title="For debug only." alt="" coords="892,687,999,713"/>
+</map>

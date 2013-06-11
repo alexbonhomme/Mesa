@@ -1,0 +1,51 @@
+<map id="copy_depth_pixels" name="copy_depth_pixels">
+<area shape="rect" id="node3" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="1297,686,1391,712"/>
+<area shape="rect" id="node5" href="$s__depth_8c.html#a7135b390c95377a406a20d5aee92f946" title="Read a span of depth values from the given depth renderbuffer, returning the values as GLfloats..." alt="" coords="193,646,332,688"/>
+<area shape="rect" id="node9" href="$s__span_8c.html#a603e074d040f6b722fe225153574c2e9" title="Apply all the per&#45;fragment operations to a span." alt="" coords="581,1055,752,1082"/>
+<area shape="rect" id="node121" href="$s__span_8c.html#a17e8ba9f712b736f97621cb0c93a9028" title="Set default fragment attributes for the span using the current raster values." alt="" coords="817,1638,967,1680"/>
+<area shape="rect" id="node129" href="$s__zoom_8c.html#a835d8ec78b442a10af2783a55fd0967b" title="_swrast_write_zoomed\l_depth_span" alt="" coords="185,1693,341,1734"/>
+<area shape="rect" id="node134" href="$s__aatritemp_8h.html#aaa423f841f0387055ae093f07ebc2403" title="INIT_SPAN" alt="" coords="621,1806,713,1832"/>
+<area shape="rect" id="node139" href="$s__copypix_8c.html#a98f2a796718bbf5d7cb09aca4828d098" title="Determine if there&#39;s overlap in an image copy." alt="" coords="206,1810,319,1836"/>
+<area shape="rect" id="node141" href="$s__copypix_8c.html#afa441b69fa46a01333c60c746bfe8b71" title="Convert floating point Z values to integer Z values with pixel transfer&#39;s Z scale and bias..." alt="" coords="199,1860,326,1887"/>
+<area shape="rect" id="node7" href="$s__aatritemp_8h.html#a6a7f3388e983283d96ef4d919f416b30" title="for" alt="" coords="442,624,481,651"/>
+<area shape="rect" id="node19" href="$s__context_8h.html#a52ee360f385598e7861b6a5bb45b532b" title="Return the address of a pixel value in a mapped renderbuffer." alt="" coords="1483,179,1637,206"/>
+<area shape="rect" id="node118" href="main.tag$format__unpack_8c.html#a6ec86d4555ccd834dfd5364b898e5474" title="_mesa_unpack_float\l_z_row" alt="" coords="390,676,533,717"/>
+<area shape="rect" id="node11" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="1485,1295,1635,1322"/>
+<area shape="rect" id="node111" href="$s__aaline_8c.html#adf20a79d6da1296f14ab38a242f9b8ec" title="compute_coveragef" alt="" coords="599,574,735,600"/>
+<area shape="rect" id="node113" href="$s__aaline_8c.html#aa012fa5118bfbc25babe803195ffd0e9" title="solve_plane" alt="" coords="621,624,712,651"/>
+<area shape="rect" id="node115" href="$s__aaline_8c.html#a5da7810b9cbb864df83a690d62a5e983" title="solve_plane_chan" alt="" coords="603,675,730,702"/>
+<area shape="rect" id="node13" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="1267,957,1421,998"/>
+<area shape="rect" id="node15" href="$s__span_8c.html#ac511a4739a3c31702f69c9642003ee20" title="Clip a pixel span to the current buffer/window boundaries: DrawBuffer&#45;&gt;_Xmin, _Xmax, _Ymin, _Ymax." alt="" coords="853,928,931,955"/>
+<area shape="rect" id="node17" href="$s__depth_8c.html#a020fe659032e5520dedc916a2da1b378" title="GL_EXT_depth_bounds_test extension." alt="" coords="1033,278,1218,304"/>
+<area shape="rect" id="node33" href="$s__span_8c.html#a625c5499b932d622b396c9fc4943f2a1" title="Apply the current polygon stipple pattern to a span of pixels." alt="" coords="819,1030,965,1056"/>
+<area shape="rect" id="node35" href="$s__span_8c.html#a09632b1519537a9f3deb107e38e313d6" title="Apply fragment shader, fragment program or normal texturing to span." alt="" coords="823,1080,961,1107"/>
+<area shape="rect" id="node38" href="$s__span_8c.html#a0c886b68165751ef1edb6fc60402dc06" title="Convert the span&#39;s color arrays to the given type." alt="" coords="1059,863,1191,890"/>
+<area shape="rect" id="node40" href="$s__span_8c.html#afa7a24f86a2bf7ced5b36f28488becb5" title="Interpolate the active attributes (and&#39;d with attrMask) to fill in span&#45;&gt;array&#45;&gt;attribs[]." alt="" coords="1282,1346,1406,1388"/>
+<area shape="rect" id="node43" href="$s__span_8c.html#a1d983a0d1fcc0e9bd124667b7dd77278" title="Fill in the span.zArray array from the span&#45;&gt;z, zStep values." alt="" coords="1033,914,1217,940"/>
+<area shape="rect" id="node51" href="$s__span_8c.html#a2d8331cafa2c61770353bbbd9c87d3f4" title="Interpolate primary colors to fill in the span&#45;&gt;array&#45;&gt;rgba8 (or rgb16) color array." alt="" coords="1053,1451,1198,1478"/>
+<area shape="rect" id="node64" href="$s__alpha_8c.html#a9dfa2bbe5cc10ad206ef47bdb2a6c4a9" title="Perform the alpha test for an array of pixels." alt="" coords="825,1232,959,1259"/>
+<area shape="rect" id="node67" href="$s__depth_8c.html#aaf5817486260503303f5cce99cba7c0a" title="Clamp fragment Z values to the depth near/far range (glDepthRange())." alt="" coords="800,1283,984,1310"/>
+<area shape="rect" id="node69" href="$s__stencil_8c.html#a0a2653ba9508ca6e774aeb3cd799b385" title="/return GL_TRUE = one or more fragments passed, GL_FALSE = all fragments failed." alt="" coords="821,450,963,492"/>
+<area shape="rect" id="node74" href="$s__depth_8c.html#a06f699eaee7d90f71613282f46369a45" title="Apply depth (Z) buffer testing to the span." alt="" coords="1040,367,1211,394"/>
+<area shape="rect" id="node83" href="$s__span_8c.html#a774ed98402b71c8ffb0a681476b10bc3" title="Add specular colors to primary colors." alt="" coords="1076,1299,1175,1326"/>
+<area shape="rect" id="node88" href="$s__fog_8c.html#a235143db12f5e753420a5664c3678d3d" title="Apply fog to a span of RGBA pixels." alt="" coords="1045,1552,1205,1579"/>
+<area shape="rect" id="node91" href="$s__span_8c.html#a6285aa63ca0f31b346548604f40e74ae" title="Apply antialiasing coverage value to alpha values." alt="" coords="825,1486,959,1512"/>
+<area shape="rect" id="node93" href="$s__span_8c.html#a2b94b8dff677d5c9e0f3deb83fa2bdda" title="Clamp span&#39;s float colors to [0,1]." alt="" coords="843,1536,941,1563"/>
+<area shape="rect" id="node96" href="$s__logic_8c.html#a2a50dc077fd24ebd0cef10eb70bf9ae1" title="Apply the current logic operator to a span of RGBA pixels." alt="" coords="801,776,983,803"/>
+<area shape="rect" id="node98" href="$s__blend_8c.html#ac072e587c40ca52b6483e171c83eced4" title="Apply the blending operator to a span of pixels." alt="" coords="1273,1459,1415,1486"/>
+<area shape="rect" id="node101" href="$s__masking_8c.html#a637e5d9d6650c9a0914f6470350678da" title="Apply the color mask to a span of rgba values." alt="" coords="805,52,979,79"/>
+<area shape="rect" id="node104" href="$s__span_8c.html#a6cbe56ec2348739d188a253970fc7914" title="Put colors at x/y locations into a renderbuffer." alt="" coords="1301,52,1387,79"/>
+<area shape="rect" id="node107" href="$s__span_8c.html#a3d869d6f91d5490cbb4f67fea9f0b7f5" title="Put row of colors into renderbuffer." alt="" coords="1283,458,1405,484"/>
+<area shape="rect" id="node25" href="$s__depth_8c.html#ab84a2df6373c50c22b3b88275faaa2eb" title="Get array of 32&#45;bit z values from the depth buffer." alt="" coords="1287,255,1401,282"/>
+<area shape="rect" id="node30" href="main.tag$format__unpack_8c.html#aa936324a446cb2898d160193f4085b06" title="_mesa_unpack_uint_z_row" alt="" coords="1470,331,1650,358"/>
+<area shape="rect" id="node21" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="1699,407,1869,434"/>
+<area shape="rect" id="node23" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="1715,204,1853,231"/>
+<area shape="rect" id="node45" href="$s__span_8c.html#a102bca1ad53203c25f99fd25c59e4d86" title="Fill in the arrays&#45;&gt;attribs[VARYING_SLOT_POS] array." alt="" coords="1065,1015,1185,1042"/>
+<area shape="rect" id="node47" href="$s__fragprog_8c.html#ab894838f54a3934814d4ad77b375d22c" title="Execute the current fragment program for all the fragments in the given span." alt="" coords="1045,1066,1206,1108"/>
+<area shape="rect" id="node49" href="$s__atifragshader_8c.html#aba106ab9f141bc0095dddf363baa4f99" title="Execute the current ATI shader program, operating on the given span." alt="" coords="1045,1132,1206,1173"/>
+<area shape="rect" id="node56" href="$s__span_8c.html#af0eb7e82c8b80a3c7ddbfa1e54b61f08" title="Compute mipmap LOD from partial derivatives." alt="" coords="1052,812,1199,839"/>
+<area shape="rect" id="node60" href="$s__texcombine_8c.html#abe8d234bde65b24941c93e571560c1f0" title="Apply texture mapping to a span of fragments." alt="" coords="1050,711,1201,738"/>
+<area shape="rect" id="node54" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="1287,1578,1401,1604"/>
+<area shape="rect" id="node124" href="$s__fog_8c.html#a444a092f8aac9293899618fc0a9d5361" title="Used to convert current raster distance to a fog factor in [0,1]." alt="" coords="1046,1603,1205,1630"/>
+<area shape="rect" id="node131" href="$s__zoom_8c.html#a0519e43e71859e26ccd89e8cd9e5eae5" title="Helper function called from _swrast_write_zoomed_rgba/rgb/ index/depth_span()." alt="" coords="417,1704,506,1731"/>
+</map>

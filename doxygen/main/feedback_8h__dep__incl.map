@@ -1,0 +1,7 @@
+<map id="feedback.h" name="feedback.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="115,80,191,107"/>
+<area shape="rect" id="node7" href="$drawpix_8c.html" title="drawpix.c" alt="" coords="215,80,293,107"/>
+<area shape="rect" id="node9" href="$feedback_8c.html" title="Selection and feedback modes functions." alt="" coords="318,80,404,107"/>
+<area shape="rect" id="node11" href="$rastpos_8c.html" title="Raster position operations." alt="" coords="429,80,504,107"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="ast_function_definition" name="ast_function_definition">
+<area shape="rect" id="node2" href="$classast__node.html" title="Base class of all abstract syntax tree nodes." alt="" coords="152,128,227,155"/>
+<area shape="rect" id="node7" href="$classast__function.html" title="ast_function" alt="" coords="183,491,276,517"/>
+<area shape="rect" id="node10" href="$classast__fully__specified__type.html" title="ast_fully_specified_type" alt="" coords="148,400,311,427"/>
+<area shape="rect" id="node13" href="$classast__type__specifier.html" title="ast_type_specifier" alt="" coords="165,309,293,336"/>
+<area shape="rect" id="node16" href="$classast__expression.html" title="Representation of any sort of expression." alt="" coords="195,219,305,245"/>
+<area shape="rect" id="node23" href="$classast__struct__specifier.html" title="ast_struct_specifier" alt="" coords="451,219,587,245"/>
+<area shape="rect" id="node30" href="$classast__compound__statement.html" title="ast_compound_statement" alt="" coords="662,219,833,245"/>
+<area shape="rect" id="node4" href="$structexec__node.html" title="exec_node" alt="" coords="331,7,416,33"/>
+<area shape="rect" id="node20" href="$structexec__list.html" title="exec_list" alt="" coords="459,128,533,155"/>
+<area shape="rect" id="node27" href="$structast__type__qualifier.html" title="ast_type_qualifier" alt="" coords="318,309,441,336"/>
+</map>

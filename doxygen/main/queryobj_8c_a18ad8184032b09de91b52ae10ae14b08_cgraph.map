@@ -1,0 +1,16 @@
+<map id="_mesa_IsQuery" name="_mesa_IsQuery">
+<area shape="rect" id="node3" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="190,67,293,93"/>
+<area shape="rect" id="node15" href="$queryobj_8h.html#abf9ad478fee4aa22a482cfebd0cd97bd" title="_mesa_lookup_query\l_object" alt="" coords="169,129,314,170"/>
+<area shape="rect" id="node5" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="374,5,493,32"/>
+<area shape="rect" id="node7" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="376,56,491,83"/>
+<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="410,107,457,133"/>
+<area shape="rect" id="node9" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="599,31,705,57"/>
+<area shape="rect" id="node11" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="597,81,707,108"/>
+<area shape="rect" id="node17" href="$hash_8c.html#a1600921a3daee886e08a32ee938ecae6" title="Lookup an entry in the hash table." alt="" coords="363,157,504,184"/>
+<area shape="rect" id="node19" href="$hash_8c.html#aa7ce0ade51898f06b4b3304d8854dd11" title="Lookup an entry in the hash table, without locking." alt="" coords="552,157,752,184"/>
+<area shape="rect" id="node21" href="$hash__table_8c.html#a29d49831f59c5682166c5796bb0482ae" title="Finds a hash table entry with the given key and hash of that key." alt="" coords="801,107,978,133"/>
+<area shape="rect" id="node27" href="$hash_8c.html#a9cc49de14d380e0a488b8807aedc9e49" title="uint_hash" alt="" coords="850,157,929,184"/>
+<area shape="rect" id="node29" href="$hash_8c.html#a74d0f9f21dc0f67829f9e9699fe88dc2" title="uint_key" alt="" coords="854,208,925,235"/>
+<area shape="rect" id="node23" href="$hash__table_8c.html#af73102fdaa8cb45f2a56c3bac210e162" title="entry_is_free" alt="" coords="1038,81,1135,108"/>
+<area shape="rect" id="node25" href="$hash__table_8c.html#a091be61d8da42898d8ac1683b60d6879" title="entry_is_present" alt="" coords="1027,132,1146,159"/>
+</map>

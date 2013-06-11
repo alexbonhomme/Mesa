@@ -1,0 +1,5 @@
+<map id="ir_variable::clone" name="ir_variable::clone">
+<area shape="rect" id="node3" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="185,29,311,56"/>
+<area shape="rect" id="node6" href="$classir__variable.html#ad128688a9c892e6e06d67e2c1bb85530" title="ir_variable::ir_variable" alt="" coords="174,80,322,107"/>
+<area shape="rect" id="node8" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="371,80,467,107"/>
+</map>

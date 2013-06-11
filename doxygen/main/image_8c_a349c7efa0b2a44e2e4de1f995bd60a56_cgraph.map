@@ -1,0 +1,7 @@
+<map id="_mesa_image_offset" name="_mesa_image_offset">
+<area shape="rect" id="node3" href="$glformats_8c.html#a436296728b4475da0aa5ef287cb3c4eb" title="Get the bytes per pixel of pixel format type pair." alt="" coords="198,16,357,43"/>
+<area shape="rect" id="node7" href="$mipmap_8c.html#aa5d90447a8dad8289cacddbb0c98dd1f" title="bytes_per_pixel" alt="" coords="221,71,334,97"/>
+<area shape="rect" id="node5" href="$glformats_8c.html#a14f0df64971e5ece81cb7c04a4e2f09d" title="Get the number of components in a pixel format." alt="" coords="419,5,575,46"/>
+<area shape="rect" id="node9" href="$glformats_8c.html#ac81b82fc7cf6fe0a47ae51278f917118" title="Same as _mesa_sizeof_type() but also accepting the packed pixel format data types." alt="" coords="405,71,589,97"/>
+<area shape="rect" id="node11" href="$glformats_8c.html#a3b4be71f46708425107d4c8e20024ce1" title="_mesa_type_is_packed" alt="" coords="418,121,577,148"/>
+</map>

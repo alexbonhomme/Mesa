@@ -1,0 +1,9 @@
+<map id="replay_elts" name="replay_elts">
+<area shape="rect" id="node3" href="$vbo__split__copy_8c.html#ae611cb2b2d40451a53a0903b6b587638" title="Called at begin of each primitive during replay." alt="" coords="176,5,229,32"/>
+<area shape="rect" id="node5" href="$vbo__split__copy_8c.html#a909a281954e4f3301edc26c54a946062" title="Use a hashtable to attempt to identify recently&#45;emitted vertices and avoid re&#45;emitting them..." alt="" coords="183,56,222,83"/>
+<area shape="rect" id="node9" href="$vbo__split__copy_8c.html#aba57a432cbe3ed3871caeedfa6c6d4d0" title="Called at end of each primitive during replay." alt="" coords="181,107,224,133"/>
+<area shape="rect" id="node12" href="$vbo__split__copy_8c.html#aa233458bf6eba9cd4b88f8faf3532a6d" title="flush" alt="" coords="336,144,387,171"/>
+<area shape="rect" id="node17" href="$vbo__split_8c.html#a47aa07192db9fc1c3a8cba0232be6e41" title="split_prim_inplace" alt="" coords="139,208,266,235"/>
+<area shape="rect" id="node7" href="$vbo__split__copy_8c.html#a5cc428dd7410f68a6017975b0d7e8406" title="Starts returning true slightly before the buffer fills, to ensure that there is sufficient room for a..." alt="" coords="315,81,407,108"/>
+<area shape="rect" id="node14" href="$vbo__split__copy_8c.html#abcc36e536e4095f768301a9db88d00ea" title="Dump the parameters/info for a vbo&#45;&gt;draw() call." alt="" coords="456,144,573,171"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="ir_function_signature::clone_prototype" name="ir_function_signature::clone_prototype">
+<area shape="rect" id="node3" href="$classir__instruction.html#a142617682155660c72f57b637f5f580c" title="ir_instruction::as\l_variable" alt="" coords="214,5,333,46"/>
+<area shape="rect" id="node5" href="$classir__variable.html#a7e051d333749b712caf01a880b1ea767" title="Duplicate an IR variable." alt="" coords="213,71,333,97"/>
+<area shape="rect" id="node14" href="$lower__output__reads_8cpp.html#a868ffcce37285cb21a04515725125d50" title="Create an assignment to copy a temporary value back to the actual output." alt="" coords="248,121,299,148"/>
+<area shape="rect" id="node16" href="$classir__function__signature.html#abe3b10885ab3cc377677463473cad940" title="ir_function_signature\l::ir_function_signature" alt="" coords="198,173,349,214"/>
+<area shape="rect" id="node7" href="$classir__variable.html#ad128688a9c892e6e06d67e2c1bb85530" title="ir_variable::ir_variable" alt="" coords="398,33,546,60"/>
+<area shape="rect" id="node11" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="409,108,535,135"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="595,33,691,60"/>
+</map>

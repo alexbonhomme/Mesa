@@ -1,0 +1,15 @@
+<map id="generate_130_fs_variables" name="generate_130_fs_variables">
+<area shape="rect" id="node3" href="$builtin__variables_8cpp.html#afadcdc84e4eee1f21a00f041218805ca" title="generate_120_fs_variables" alt="" coords="233,224,410,251"/>
+<area shape="rect" id="node34" href="$builtin__variables_8cpp.html#a0c48e7855f1f8905d38bda82e4cf868f" title="generate_130_uniforms" alt="" coords="469,73,627,100"/>
+<area shape="rect" id="node37" href="$builtin__variables_8cpp.html#a842e0daf821606cd71386d51ac0fbbf7" title="generate_fs_clipdistance" alt="" coords="238,5,405,32"/>
+<area shape="rect" id="node5" href="$builtin__variables_8cpp.html#af3f8ec4ad4def42858b4440a10ad6379" title="add_builtin_variable" alt="" coords="925,249,1061,276"/>
+<area shape="rect" id="node18" href="$builtin__variables_8cpp.html#a887ffe808fa7a6609039ccddd029c4ac" title="generate_110_fs_variables" alt="" coords="459,224,637,251"/>
+<area shape="rect" id="node7" href="$builtin__variables_8cpp.html#a340bb566cdd78f7491c7254aef47b194" title="add_uniform" alt="" coords="1133,148,1227,175"/>
+<area shape="rect" id="node9" href="$builtin__variables_8cpp.html#af4c824c8d43fbdf4db386acb0d595fc6" title="add_variable" alt="" coords="1297,123,1391,149"/>
+<area shape="rect" id="node16" href="$structglsl__symbol__table.html#a72e1bdd4c6530837cb3369ae4f3242fe" title="glsl_symbol_table::\lget_type" alt="" coords="1113,199,1247,241"/>
+<area shape="rect" id="node11" href="$structglsl__symbol__table.html#a4e6616fba10268abcdb8634522746c1f" title="glsl_symbol_table::\ladd_variable" alt="" coords="1441,115,1575,157"/>
+<area shape="rect" id="node13" href="$structglsl__symbol__table.html#a494ef5725a41f9e21fdb112005cda79a" title="Determine whether a name was declared at the current scope." alt="" coords="1625,115,1805,157"/>
+<area shape="rect" id="node22" href="$builtin__variables_8cpp.html#a75e3724ff64333c145b2cd038dd2a783" title="generate_110_uniforms" alt="" coords="701,199,859,225"/>
+<area shape="rect" id="node30" href="$builtin__variables_8cpp.html#acbeee2214852017532ee142cfb381e20" title="generate_ARB_draw_buffers\l_variables" alt="" coords="685,125,875,166"/>
+<area shape="rect" id="node24" href="$builtin__variables_8cpp.html#af4bfc94e32554169b3365d7cbc504c65" title="add_builtin_constant" alt="" coords="923,97,1064,124"/>
+</map>

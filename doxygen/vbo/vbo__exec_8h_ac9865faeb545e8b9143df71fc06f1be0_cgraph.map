@@ -1,0 +1,51 @@
+<map id="vbo_exec_init" name="vbo_exec_init">
+<area shape="rect" id="node3" href="main.tag$api__arrayelt_8c.html#a1afc8450a1d3b7b4cd9b1e89bc6463d1" title="_ae_create_context" alt="" coords="160,5,296,32"/>
+<area shape="rect" id="node5" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="1499,360,1592,387"/>
+<area shape="rect" id="node7" href="$vbo__exec_8h.html#a53a5cafda8f801ba3f044a0e981a716f" title="Called upon first glVertex, glColor, glTexCoord, etc." alt="" coords="1257,107,1423,133"/>
+<area shape="rect" id="node20" href="$vbo__exec_8h.html#aaf357194707fc48d231be7c660c8345c" title="Called via ctx&#45;&gt;Driver.FlushVertices()" alt="" coords="824,157,989,184"/>
+<area shape="rect" id="node34" href="$vbo__exec_8c.html#a97ec1c55baf3ef5e19a2d7303260299e" title="Really want to install these callbacks to a central facility to be invoked according to the state fla..." alt="" coords="158,309,298,350"/>
+<area shape="rect" id="node39" href="$vbo__exec_8h.html#af18f9ca7c7acab671be46f168f2d7256" title="vbo_exec_vtx_init" alt="" coords="165,696,291,723"/>
+<area shape="rect" id="node10" href="$vbo__exec_8h.html#a5156ff396b59e14a648a32c712eeb7fe" title="Map the vertex buffer to begin storing glVertex, glColor, etc data." alt="" coords="1478,309,1613,336"/>
+<area shape="rect" id="node12" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="1703,613,1798,640"/>
+<area shape="rect" id="node14" href="main.tag$vtxfmt_8c.html#ada919957d13ab359106779b35155dd64" title="_mesa_install_exec\l_vtxfmt" alt="" coords="1682,302,1819,343"/>
+<area shape="rect" id="node16" href="$vbo__noop_8c.html#aada96e4881ad5e498548f2b084b419a2" title="Is the given dispatch table using the no&#45;op functions?" alt="" coords="1661,465,1840,492"/>
+<area shape="rect" id="node18" href="$vbo__noop_8c.html#a42c4221fb3cb8f106ce9300f9208002c" title="_mesa_noop_Begin" alt="" coords="1888,996,2024,1023"/>
+<area shape="rect" id="node23" href="$vbo__exec__api_8c.html#a59df19afd3a180740794ecc0b0a8af19" title="Flush (draw) vertices." alt="" coords="1037,251,1203,293"/>
+<area shape="rect" id="node25" href="$vbo__exec_8h.html#a311f46a75f32516d98bbc596632687ad" title="Execute the buffer and save copied verts." alt="" coords="1271,309,1409,336"/>
+<area shape="rect" id="node29" href="$vbo__exec__api_8c.html#af21ae15c1b2e2a0cc6d4ce80092583cf" title="Copy the active vertex&#39;s values to the ctx&#45;&gt;Current fields." alt="" coords="1251,208,1429,235"/>
+<area shape="rect" id="node32" href="$vbo__exec__api_8c.html#ad72d9cdd52060408bf21bd7ba2029d2a" title="reset_attrfv" alt="" coords="1296,259,1384,285"/>
+<area shape="rect" id="node36" href="main.tag$api__arrayelt_8c.html#a33c97885d5cbea90d878fd769a0fc7ee" title="_ae_invalidate_state" alt="" coords="359,367,500,393"/>
+<area shape="rect" id="node42" href="main.tag$imports_8c.html#a4aeeec2342e0d371c407e6577a139db9" title="_mesa_align_malloc" alt="" coords="359,696,499,723"/>
+<area shape="rect" id="node44" href="$vbo__exec__api_8c.html#a6d33d774f790feedda8d2b5d5ab5eb20" title="vbo_exec_vtxfmt_init" alt="" coords="356,943,503,969"/>
+<area shape="rect" id="node104" href="$vbo__noop_8c.html#afbb00d8b301e2ca05c1630a59a28a256" title="Build a vertexformat of functions that are no&#45;ops." alt="" coords="347,1677,511,1704"/>
+<area shape="rect" id="node46" href="main.tag$api__arrayelt_8c.html#a66a0b8e3b0f41571a3c52dec25e9cb9d" title="_ae_ArrayElement" alt="" coords="603,461,733,488"/>
+<area shape="rect" id="node48" href="$vbo__exec__api_8c.html#a88d85f664ba78f10161f6c6bc32ca743" title="Called via glBegin." alt="" coords="847,512,966,539"/>
+<area shape="rect" id="node53" href="$vbo__exec__api_8c.html#ad0fc3698ae48d0c6d236aaf34113c9c9" title="Called via glEnd." alt="" coords="1066,563,1174,589"/>
+<area shape="rect" id="node58" href="$vbo__exec__api_8c.html#ad6968f9a2f743b5b2daf4ad2963a239c" title="Called via glPrimitiveRestartNV()" alt="" coords="569,613,767,640"/>
+<area shape="rect" id="node63" href="main.tag$dlist_8c.html#a511d88e464629389a5b1275726278f4f" title="_mesa_CallList" alt="" coords="612,1424,724,1451"/>
+<area shape="rect" id="node65" href="main.tag$dlist_8c.html#a5f802094227c555d2157559a834b9d9b" title="_mesa_CallLists" alt="" coords="609,1475,727,1501"/>
+<area shape="rect" id="node67" href="$vbo__exec__api_8c.html#ae0765e984e438c29e6f6d16e9913d73b" title="vbo_exec_EvalCoord1f" alt="" coords="828,715,985,741"/>
+<area shape="rect" id="node70" href="$vbo__exec__api_8c.html#abf41a509afe48c9d56fd60bca6c61faf" title="vbo_exec_EvalCoord1fv" alt="" coords="586,715,750,741"/>
+<area shape="rect" id="node73" href="$vbo__exec__api_8c.html#a404be9b65aad375aeb07e679179124e6" title="vbo_exec_EvalCoord2f" alt="" coords="828,841,985,868"/>
+<area shape="rect" id="node76" href="$vbo__exec__api_8c.html#ab8269bb37f89613d3336e91996780667" title="vbo_exec_EvalCoord2fv" alt="" coords="586,867,750,893"/>
+<area shape="rect" id="node79" href="$vbo__exec__api_8c.html#a4ad2476bb88f13189fe1e59b2c10f188" title="vbo_exec_EvalPoint1" alt="" coords="594,765,742,792"/>
+<area shape="rect" id="node82" href="$vbo__exec__api_8c.html#ad67b17a6e35f9af2597e42245a553b9c" title="vbo_exec_EvalPoint2" alt="" coords="594,917,742,944"/>
+<area shape="rect" id="node85" href="$vbo_8h.html#a2870593e7d4468510256dca29583ca50" title="_es_VertexAttrib1f" alt="" coords="603,968,733,995"/>
+<area shape="rect" id="node87" href="$vbo_8h.html#a3abc2cb337150c6f18f9ceeaf55f638f" title="_es_VertexAttrib1fv" alt="" coords="599,1019,737,1045"/>
+<area shape="rect" id="node89" href="$vbo_8h.html#a8e292b9cd796bb68afa5799ebbd88b1d" title="_es_VertexAttrib2f" alt="" coords="603,1069,733,1096"/>
+<area shape="rect" id="node91" href="$vbo_8h.html#ad801eb581564bb014d7755fc76fe4022" title="_es_VertexAttrib2fv" alt="" coords="599,1120,737,1147"/>
+<area shape="rect" id="node93" href="$vbo_8h.html#a527abddd39f8aad3c6867642dbe5e1ce" title="_es_VertexAttrib3f" alt="" coords="603,1171,733,1197"/>
+<area shape="rect" id="node95" href="$vbo_8h.html#a371ecda9419ea728e3d46e970a1de4fb" title="_es_VertexAttrib3fv" alt="" coords="599,1221,737,1248"/>
+<area shape="rect" id="node97" href="$vbo_8h.html#abb4472f5ab9834208e8f53e7c3a3f7fd" title="_es_VertexAttrib4f" alt="" coords="603,1272,733,1299"/>
+<area shape="rect" id="node99" href="$vbo_8h.html#acc738e5a977270b19091d6040d435f38" title="_es_VertexAttrib4fv" alt="" coords="599,1323,737,1349"/>
+<area shape="rect" id="node101" href="$vbo__exec__api_8c.html#ab8cb5ce4ee0bc92647d870790dd1ef90" title="Execute a glMaterial call." alt="" coords="1067,1095,1173,1121"/>
+<area shape="rect" id="node106" href="$vbo__noop_8c.html#aade8f5853814bd084aa0f11f297b7b21" title="_mesa_noop_ArrayElement" alt="" coords="577,1576,759,1603"/>
+<area shape="rect" id="node111" href="$vbo__noop_8c.html#af77e3f044a2338086ac05c4fa676eb23" title="_mesa_noop_Color3f" alt="" coords="595,1627,741,1653"/>
+<area shape="rect" id="node113" href="$vbo__noop_8c.html#a2b159ba89389897091619cb1e2107f63" title="_mesa_noop_Color3fv" alt="" coords="592,1677,744,1704"/>
+<area shape="rect" id="node115" href="$vbo__noop_8c.html#abd5e6064e3b9488206af3a2584a7434d" title="_mesa_noop_Color4f" alt="" coords="595,1728,741,1755"/>
+<area shape="rect" id="node117" href="$vbo__noop_8c.html#af2c028fbd2a9260a1fd7af6f56effb1b" title="_mesa_noop_Color4fv" alt="" coords="592,1779,744,1805"/>
+<area shape="rect" id="node119" href="$vbo__noop_8c.html#ada82add74c07dae8572f47db2aff5d56" title="GLvertexformat no&#45;op functions." alt="" coords="589,1829,747,1856"/>
+<area shape="rect" id="node121" href="$vbo__noop_8c.html#aa3441ecb2b972a220fe6034871b32693" title="_mesa_noop_End" alt="" coords="605,1880,731,1907"/>
+<area shape="rect" id="node123" href="$vbo__noop_8c.html#aa9ae354ac43a69190805f391ee9c966c" title="_mesa_noop_PrimitiveRestartNV" alt="" coords="560,1931,776,1957"/>
+<area shape="rect" id="node125" href="$vbo__noop_8c.html#a49bf54c119403cf7af34d66f40b9a102" title="_mesa_noop_EvalCoord1f" alt="" coords="581,1981,755,2008"/>
+</map>

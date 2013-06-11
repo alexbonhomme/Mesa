@@ -1,0 +1,18 @@
+<map id="atifragshader.c" name="atifragshader.c">
+<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="1755,453,1869,480"/>
+<area shape="rect" id="node9" href="$context_8h.html" title="Mesa context and visual&#45;related functions." alt="" coords="1527,80,1635,107"/>
+<area shape="rect" id="node11" href="$imports_8h.html" title="Standard C library function wrappers." alt="" coords="1211,155,1287,181"/>
+<area shape="rect" id="node42" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="1601,304,1676,331"/>
+<area shape="rect" id="node60" href="$hash_8h.html" title="Generic hash table." alt="" coords="1991,155,2084,181"/>
+<area shape="rect" id="node64" href="$macros_8h.html" title="A collection of useful macros." alt="" coords="1283,80,1391,107"/>
+<area shape="rect" id="node67" href="$enums_8h.html" title="Enumeration name/number lookup functions." alt="" coords="2041,80,2145,107"/>
+<area shape="rect" id="node70" href="$dispatch_8h.html" title="Macros for handling GL dispatch tables." alt="" coords="2169,80,2284,107"/>
+<area shape="rect" id="node72" href="$atifragshader_8h.html" title="main/atifragshader.h" alt="" coords="5,229,144,256"/>
+<area shape="rect" id="node13" href="$compiler_8h.html" title="Compiler&#45;related stuff." alt="" coords="703,304,785,331"/>
+<area shape="rect" id="node38" href="$errors_8h.html" title="Mesa debugging and error handling functions." alt="" coords="1205,229,1272,256"/>
+<area shape="rect" id="node45" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="1266,379,1365,405"/>
+<area shape="rect" id="node49" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="1505,379,1625,405"/>
+<area shape="rect" id="node51" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="1650,379,1776,405"/>
+<area shape="rect" id="node53" href="$formats_8h.html" title="main/formats.h" alt="" coords="1893,453,2003,480"/>
+<area shape="rect" id="node56" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="1801,379,1847,405"/>
+</map>

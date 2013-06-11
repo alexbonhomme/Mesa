@@ -1,0 +1,51 @@
+<map id="_swrast_Clear" name="_swrast_Clear">
+<area shape="rect" id="node3" href="main.tag$condrender_8c.html#a79a7d1bc368ddaf5cb353a0a7024c24f" title="_mesa_check_conditional\l_render" alt="" coords="166,516,338,557"/>
+<area shape="rect" id="node5" href="main.tag$accum_8c.html#acec2910a5b0b6269cc3e3387e89fa495" title="_mesa_clear_accum_buffer" alt="" coords="161,582,343,609"/>
+<area shape="rect" id="node7" href="$s__depth_8c.html#ab22656021774b325db7fe1587fb7035f" title="Clear the given z/depth renderbuffer." alt="" coords="181,684,323,725"/>
+<area shape="rect" id="node19" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="1105,1530,1255,1557"/>
+<area shape="rect" id="node63" href="$s__depth_8c.html#aa5fa8f8b63b19055757e65cf420ba767" title="Clear both depth and stencil values in a combined depth+stencil buffer." alt="" coords="406,743,549,784"/>
+<area shape="rect" id="node69" href="$s__stencil_8c.html#aee853f2de54d22c5d74a99b45f7a8e51" title="Clear the stencil buffer." alt="" coords="403,860,551,901"/>
+<area shape="rect" id="node75" href="$s__context_8c.html#a580958d86d36e258042e52c621153de2" title="_swrast_validate_derived" alt="" coords="393,1471,562,1498"/>
+<area shape="rect" id="node140" href="$s__clear_8c.html#a30e2537b1df5d406db5daaa19642c412" title="Clear the front/back/left/right/aux color buffers." alt="" coords="186,633,318,659"/>
+<area shape="rect" id="node9" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="658,695,753,722"/>
+<area shape="rect" id="node11" href="main.tag$format__pack_8c.html#ab45f24a73021d2cc0c3ebb6f8e177f33" title="_mesa_pack_float_z_row" alt="" coords="620,645,791,671"/>
+<area shape="rect" id="node13" href="$s__aatritemp_8h.html#a86cef12525876deaa8816bee8acb49b1" title="if" alt="" coords="1161,81,1199,107"/>
+<area shape="rect" id="node15" href="$s__aatritemp_8h.html#a6a7f3388e983283d96ef4d919f416b30" title="for" alt="" coords="458,467,497,494"/>
+<area shape="rect" id="node59" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="1123,679,1237,706"/>
+<area shape="rect" id="node61" href="main.tag$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="_mesa_get_format_name" alt="" coords="621,797,790,823"/>
+<area shape="rect" id="node17" href="$s__span_8c.html#a603e074d040f6b722fe225153574c2e9" title="Apply all the per&#45;fragment operations to a span." alt="" coords="620,341,791,367"/>
+<area shape="rect" id="node52" href="$s__aaline_8c.html#adf20a79d6da1296f14ab38a242f9b8ec" title="compute_coveragef" alt="" coords="637,442,773,469"/>
+<area shape="rect" id="node54" href="$s__aaline_8c.html#aa012fa5118bfbc25babe803195ffd0e9" title="solve_plane" alt="" coords="660,493,751,519"/>
+<area shape="rect" id="node56" href="$s__aaline_8c.html#a5da7810b9cbb864df83a690d62a5e983" title="solve_plane_chan" alt="" coords="642,391,769,418"/>
+<area shape="rect" id="node21" href="$s__fragprog_8c.html#a85a0485feb2f074a047679f12a09aa1a" title="Should swrast use a fragment program?" alt="" coords="1103,1093,1257,1135"/>
+<area shape="rect" id="node23" href="$s__span_8c.html#ac511a4739a3c31702f69c9642003ee20" title="Clip a pixel span to the current buffer/window boundaries: DrawBuffer&#45;&gt;_Xmin, _Xmax, _Ymin, _Ymax." alt="" coords="905,477,983,503"/>
+<area shape="rect" id="node25" href="$s__depth_8c.html#a020fe659032e5520dedc916a2da1b378" title="GL_EXT_depth_bounds_test extension." alt="" coords="851,527,1037,554"/>
+<area shape="rect" id="node27" href="$s__span_8c.html#a625c5499b932d622b396c9fc4943f2a1" title="Apply the current polygon stipple pattern to a span of pixels." alt="" coords="871,375,1017,402"/>
+<area shape="rect" id="node29" href="$s__span_8c.html#a09632b1519537a9f3deb107e38e313d6" title="Apply fragment shader, fragment program or normal texturing to span." alt="" coords="875,578,1013,605"/>
+<area shape="rect" id="node32" href="$s__span_8c.html#a1d983a0d1fcc0e9bd124667b7dd77278" title="Fill in the span.zArray array from the span&#45;&gt;z, zStep values." alt="" coords="1088,451,1272,478"/>
+<area shape="rect" id="node34" href="$s__alpha_8c.html#a9dfa2bbe5cc10ad206ef47bdb2a6c4a9" title="Perform the alpha test for an array of pixels." alt="" coords="877,426,1011,453"/>
+<area shape="rect" id="node37" href="$s__depth_8c.html#aaf5817486260503303f5cce99cba7c0a" title="Clamp fragment Z values to the depth near/far range (glDepthRange())." alt="" coords="852,106,1036,133"/>
+<area shape="rect" id="node40" href="$s__stencil_8c.html#a0a2653ba9508ca6e774aeb3cd799b385" title="/return GL_TRUE = one or more fragments passed, GL_FALSE = all fragments failed." alt="" coords="873,157,1015,199"/>
+<area shape="rect" id="node46" href="$s__depth_8c.html#a06f699eaee7d90f71613282f46369a45" title="Apply depth (Z) buffer testing to the span." alt="" coords="1095,219,1265,246"/>
+<area shape="rect" id="node43" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="1321,165,1490,191"/>
+<area shape="rect" id="node49" href="main.tag$formats_8c.html#ae2c7110b16bdbb90dc5c36b123db9f0a" title="_mesa_get_format_bits" alt="" coords="1326,558,1485,585"/>
+<area shape="rect" id="node78" href="$s__context_8c.html#a1f0c4db0dc921740d0e939a89fccac42" title="Examine polygon cull state to compute the _BackfaceCullSign field." alt="" coords="622,1935,789,1962"/>
+<area shape="rect" id="node81" href="$s__context_8c.html#aa9ed9ba752764e49a9a0784abf2afeb2" title="Update the _PreferPixelFog field to indicate if we need to compute fog blend factors (from the fog co..." alt="" coords="861,1101,1027,1127"/>
+<area shape="rect" id="node85" href="$s__context_8c.html#a59b8bba4907cbc35632aa017b923590e" title="Update the swrast&#45;&gt;_TextureCombinePrimary flag." alt="" coords="611,1986,800,2013"/>
+<area shape="rect" id="node88" href="$s__context_8c.html#a0a6ada5d854e23592529a5abb9399af3" title="Update swrast&#45;&gt;_FogColor and swrast&#45;&gt;_FogEnable values." alt="" coords="875,1203,1013,1244"/>
+<area shape="rect" id="node92" href="$s__context_8c.html#a9c42c1b1685d1ec68e49cf9ecd7a1ed1" title="Update state for running fragment programs." alt="" coords="619,957,791,999"/>
+<area shape="rect" id="node95" href="$s__context_8c.html#adf428497b6aec4bfccb9ed99a91ddd24" title="_swrast_update_texture\l_samplers" alt="" coords="625,1464,786,1505"/>
+<area shape="rect" id="node103" href="$s__context_8c.html#ae9495142a144f8f05790ca823d96eed8" title="Determine if we can defer texturing/shading until after Z/stencil testing." alt="" coords="860,1399,1028,1440"/>
+<area shape="rect" id="node107" href="$s__context_8c.html#a03dbfaa86c68e063bf051ca0fef1b31b" title="Recompute the value of swrast&#45;&gt;_RasterMask, etc." alt="" coords="853,999,1035,1026"/>
+<area shape="rect" id="node111" href="$s__context_8c.html#ac59e331355907eb48bb44f7b17e7deca" title="Update swrast&#45;&gt;_ActiveAttribs, swrast&#45;&gt;_NumActiveAttribs, swrast&#45;&gt;_ActiveAtttribMask." alt="" coords="866,1268,1022,1309"/>
+<area shape="rect" id="node115" href="$s__context_8c.html#a8d997228f0d9f37ed4a001c3f69c9919" title="See if we can do early diffuse+specular (primary+secondary) color add per vertex instead of per&#45;fragm..." alt="" coords="859,1333,1029,1375"/>
+<area shape="rect" id="node119" href="$s__context_8c.html#acaf458cd889f50b4fb7ea54b2e6940f0" title="_swrast_invalidate\l_state" alt="" coords="640,1675,771,1716"/>
+<area shape="rect" id="node98" href="$s__texfetch_8c.html#a3dc9a6299f299b44f2cccf971cdca37c" title="_mesa_update_fetch\l_functions" alt="" coords="873,1464,1015,1505"/>
+<area shape="rect" id="node100" href="$s__texfilter_8c.html#aeb7c30a41bf34d61e518e12c6ee8aede" title="Choose the texture sampling function for the given texture object." alt="" coords="862,832,1026,873"/>
+<area shape="rect" id="node122" href="$s__context_8c.html#a1b0682fe7f238df6917a1f51bdff930a" title="_swrast_sleep" alt="" coords="891,1733,997,1759"/>
+<area shape="rect" id="node124" href="$s__context_8c.html#ae8352cccfe2dd1571bdba6d3d1326158" title="Stub for swrast&#45;&gt;Triangle to select a true triangle function after a state change." alt="" coords="859,1631,1029,1658"/>
+<area shape="rect" id="node128" href="$s__context_8c.html#acf458e7707550d647964622fd2b1a670" title="Called via swrast&#45;&gt;Line." alt="" coords="871,1783,1017,1810"/>
+<area shape="rect" id="node132" href="$s__context_8c.html#ac9987d1f51f979a14d8f331eac989e11" title="Called via swrast&#45;&gt;Point." alt="" coords="867,1581,1021,1607"/>
+<area shape="rect" id="node136" href="$s__context_8c.html#acb2db154c8cbb9a65cd06faefbcfe85d" title="Called via swrast&#45;&gt;BlendFunc." alt="" coords="849,1834,1039,1861"/>
+<area shape="rect" id="node142" href="$s__clear_8c.html#ae2019850a4cacd521d421f28f6cd5de6" title="Clear an rgba color buffer with masking if needed." alt="" coords="416,239,539,266"/>
+</map>

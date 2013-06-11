@@ -1,0 +1,47 @@
+<map id="create_new_program" name="create_new_program">
+<area shape="rect" id="node3" href="$ffvertex__prog_8c.html#ae001c903c47a466eb4270461efca9ef5" title="build_tnl_program" alt="" coords="198,641,322,668"/>
+<area shape="rect" id="node5" href="$ffvertex__prog_8c.html#a90c0853329bd0837488c7852216339e4" title="Pass&#45;though per&#45;vertex point size, from user&#39;s point size array." alt="" coords="792,236,936,262"/>
+<area shape="rect" id="node14" href="$ffvertex__prog_8c.html#ae68f2a89cc8242229f8da8cbfde5df36" title="Point size attenuation computation." alt="" coords="792,692,936,718"/>
+<area shape="rect" id="node48" href="$ffvertex__prog_8c.html#a097e0736f5cf38cbeef1b4e79fc36ac8" title="build_fog" alt="" coords="827,641,901,668"/>
+<area shape="rect" id="node74" href="$ffvertex__prog_8c.html#a264bcdb1448b0752f4800bc9e05167c6" title="build_hpos" alt="" coords="822,590,906,617"/>
+<area shape="rect" id="node81" href="$ffvertex__prog_8c.html#a5620cbee22976d38213220eba59486fa" title="build_lighting" alt="" coords="601,1604,698,1630"/>
+<area shape="rect" id="node144" href="$ffvertex__prog_8c.html#a65dced6830e31da60003cb8c263730d1" title="build_texture_transform" alt="" coords="371,932,530,958"/>
+<area shape="rect" id="node163" href="$ffvertex__prog_8c.html#a6f988c0e1e129df1b295a7fc59304685" title="emit_passthrough" alt="" coords="587,286,712,313"/>
+<area shape="rect" id="node7" href="$ffvertex__prog_8c.html#a22176e2338cdb6b4004a2c62ed644559" title="register_input" alt="" coords="1275,590,1375,617"/>
+<area shape="rect" id="node11" href="$ffvertex__prog_8c.html#ade0aa77c442a33d2af223fcde5718fef" title="register_output" alt="" coords="1042,438,1150,465"/>
+<area shape="rect" id="node9" href="$ffvertex__prog_8c.html#a410b66cff3b6e9e97804daf7b3055c28" title="make_ureg" alt="" coords="1643,945,1730,972"/>
+<area shape="rect" id="node16" href="$ffvertex__prog_8c.html#a3e7dcd5f9ccddaa47847367fabfbf598" title="get_eye_position_z" alt="" coords="1029,894,1163,921"/>
+<area shape="rect" id="node20" href="$ffvertex__prog_8c.html#a2172f1229c102818373d3610c60f7b8c" title="swizzle1" alt="" coords="1487,1376,1561,1402"/>
+<area shape="rect" id="node27" href="$ffvertex__prog_8c.html#aa8434349162ae310e66a5fded3c8e10f" title="get_temp" alt="" coords="1486,1730,1562,1757"/>
+<area shape="rect" id="node45" href="$ffvertex__prog_8c.html#a48cf94379fec6995df92dceea1a5ecd5" title="release_temp" alt="" coords="1474,641,1574,668"/>
+<area shape="rect" id="node18" href="$ffvertex__prog_8c.html#a149fe5f21d74617c34372cff42ec8cde" title="is_undef" alt="" coords="1290,1266,1361,1293"/>
+<area shape="rect" id="node25" href="$ffvertex__prog_8c.html#ac057473251ae032348eed07d22c07e8f" title="reserve_temp" alt="" coords="1275,1097,1376,1124"/>
+<area shape="rect" id="node38" href="$ffvertex__prog_8c.html#ac1a41b6dbb476c6e4b0d87ad3d3f345c" title="register_matrix_param5" alt="" coords="1246,945,1405,972"/>
+<area shape="rect" id="node22" href="$ffvertex__prog_8c.html#a2111246f8a618571f75908d2352e15fc" title="swizzle" alt="" coords="1653,1296,1720,1322"/>
+<area shape="rect" id="node29" href="$imports_8c.html#a2385d975eddea296daa497e5d36febc9" title="Find the first bit set in a word." alt="" coords="1667,1756,1706,1782"/>
+<area shape="rect" id="node31" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1629,1705,1744,1732"/>
+<area shape="rect" id="node33" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1793,1680,1911,1706"/>
+<area shape="rect" id="node35" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1829,1730,1875,1757"/>
+<area shape="rect" id="node40" href="$ffvertex__prog_8c.html#a659428f84b145fc502135cb3b96ea4fe" title="register_param5" alt="" coords="1467,945,1581,972"/>
+<area shape="rect" id="node50" href="$ffvertex__prog_8c.html#a4f6fcc68536fd9f7f5373002d2d8826c" title="get_eye_position" alt="" coords="1036,1097,1156,1124"/>
+<area shape="rect" id="node64" href="$ffvertex__prog_8c.html#a3f76679e45d14b30f10989e282ec050e" title="get_identity_param" alt="" coords="1030,1249,1162,1276"/>
+<area shape="rect" id="node56" href="$ffvertex__prog_8c.html#a1ce15d6f12bcc74c7956063ffa101ff3" title="emit_matrix_transform_vec4" alt="" coords="1232,1046,1419,1073"/>
+<area shape="rect" id="node58" href="$ffvertex__prog_8c.html#ab8a26846207a5a5d0f6e70fe573d3269" title="emit_transpose_matrix\l_transform_vec4" alt="" coords="1248,1368,1403,1410"/>
+<area shape="rect" id="node67" href="$ffvertex__prog_8c.html#aecb9cb99b98ce90842ed89fe0c26ba18" title="register_const4f" alt="" coords="1467,1216,1581,1242"/>
+<area shape="rect" id="node83" href="$ffvertex__prog_8c.html#a6ca368b00fdf5c67d741862c9cb8d41e" title="calculate_light_attenuation" alt="" coords="1008,1502,1184,1529"/>
+<area shape="rect" id="node89" href="$ffvertex__prog_8c.html#aad5d0da403905ebea175965bfb88fb36" title="Compute: lit.y = MAX(0, dots.x) lit.z = SLT(0, dots.x)" alt="" coords="797,1401,931,1428"/>
+<area shape="rect" id="node93" href="$ffvertex__prog_8c.html#a0b05a1bc9f0508891dc2fce993ee0a7c" title="emit_normalize_vec3" alt="" coords="1253,1553,1398,1580"/>
+<area shape="rect" id="node99" href="$ffvertex__prog_8c.html#a9b2be3044afacfa706b61bc47b031091" title="get_eye_position_normalized" alt="" coords="769,1249,959,1276"/>
+<area shape="rect" id="node106" href="$ffvertex__prog_8c.html#a6f8fee4e5728057d3af07a4e4a22bcca" title="get_lightprod" alt="" coords="816,2060,912,2086"/>
+<area shape="rect" id="node110" href="$ffvertex__prog_8c.html#a5e2b686ba63b3eef144f75d594b6017c" title="get_material" alt="" coords="1049,1908,1143,1934"/>
+<area shape="rect" id="node116" href="$ffvertex__prog_8c.html#a04fa58987cc8de065b9446127ca7dc0d" title="Either return a precalculated constant value or emit code to calculate these values dynamically in th..." alt="" coords="809,1958,919,1985"/>
+<area shape="rect" id="node119" href="$ffvertex__prog_8c.html#a4bbbe7575a3965abf57f66fc1e31daa1" title="make_temp" alt="" coords="1051,1958,1141,1985"/>
+<area shape="rect" id="node123" href="$ffvertex__prog_8c.html#aceef15265b251e476972b41eb60114ba" title="get_transformed_normal" alt="" coords="1015,996,1177,1022"/>
+<area shape="rect" id="node134" href="$ffvertex__prog_8c.html#a07d814ecfd4fe7c8400430a1ff07436d" title="negate" alt="" coords="833,996,895,1022"/>
+<area shape="rect" id="node138" href="$ffvertex__prog_8c.html#acf8682bac7c31765da1435addbd87bb9" title="release_temps" alt="" coords="811,1553,917,1580"/>
+<area shape="rect" id="node140" href="$ffvertex__prog_8c.html#a04bb32ac4ecf3d1fd0ae1cbe2082a30f" title="Get a bitmask of which material values vary on a per&#45;vertex basis." alt="" coords="800,1705,928,1732"/>
+<area shape="rect" id="node108" href="$ffvertex__prog_8c.html#ae50a7fe518d86299a6db110ba25c08dd" title="material_attrib" alt="" coords="1273,1908,1377,1934"/>
+<area shape="rect" id="node129" href="$ffvertex__prog_8c.html#ae09927b98053d4a16f84bde25cf6af03" title="emit_matrix_transform_vec3" alt="" coords="1232,996,1419,1022"/>
+<area shape="rect" id="node146" href="$ffvertex__prog_8c.html#a11b47d9252c7318d59e815c8f5dcd668" title="build_reflect_texgen" alt="" coords="580,970,719,997"/>
+<area shape="rect" id="node153" href="$ffvertex__prog_8c.html#ad715e7fbce0add77c1981dce42f6749c" title="build_sphere_texgen" alt="" coords="579,894,720,921"/>
+</map>

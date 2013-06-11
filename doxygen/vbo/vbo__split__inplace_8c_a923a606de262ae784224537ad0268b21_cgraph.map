@@ -1,0 +1,20 @@
+<map id="vbo_split_inplace" name="vbo_split_inplace">
+<area shape="rect" id="node3" href="$vbo__split__inplace_8c.html#afd431b1d1dca2d1089bdee4167f10447" title="split_prims" alt="" coords="176,259,261,285"/>
+<area shape="rect" id="node5" href="$vbo__split__inplace_8c.html#a761f167e7bc81ccdcdcd2e04610039cd" title="flush_vertex" alt="" coords="508,284,601,311"/>
+<area shape="rect" id="node9" href="$vbo__split__inplace_8c.html#af522bb01f938764b5137820f819ed73a" title="get_max_vertices" alt="" coords="321,335,447,361"/>
+<area shape="rect" id="node11" href="$vbo__split__inplace_8c.html#ac7cf972c7fb453be43cbaabdea93f9fd" title="next_outprim" alt="" coords="335,233,433,260"/>
+<area shape="rect" id="node14" href="$vbo__split_8c.html#a47aa07192db9fc1c3a8cba0232be6e41" title="split_prim_inplace" alt="" coords="651,5,778,32"/>
+<area shape="rect" id="node16" href="$vbo__split__inplace_8c.html#accb6a1545f9f057f8d3b3ce24ca18d4b" title="update_index_bounds" alt="" coords="310,385,458,412"/>
+<area shape="rect" id="node18" href="$vbo__split_8h.html#a2ee4078895c00299187e68d49ac5d6ec" title="Split VBO into smaller pieces, draw the pieces." alt="" coords="329,183,439,209"/>
+<area shape="rect" id="node7" href="main.tag$glformats_8c.html#a1381682293b3078085e3521d618f66ec" title="_mesa_sizeof_type" alt="" coords="827,284,962,311"/>
+<area shape="rect" id="node20" href="$vbo__split__copy_8c.html#a5db3422f67a9ed4efd61b169e35b7a98" title="replay_elts" alt="" coords="512,120,597,147"/>
+<area shape="rect" id="node37" href="$vbo__split__copy_8c.html#afbd76258d1b04cd91f9894fd45ff04cf" title="Free up everything allocated during split/replay." alt="" coords="507,183,602,209"/>
+<area shape="rect" id="node39" href="$vbo__split__copy_8c.html#a27bd59b7367d789e71f024047666f85d" title="replay_init" alt="" coords="514,233,595,260"/>
+<area shape="rect" id="node22" href="$vbo__split__copy_8c.html#ae611cb2b2d40451a53a0903b6b587638" title="Called at begin of each primitive during replay." alt="" coords="688,208,741,235"/>
+<area shape="rect" id="node24" href="$vbo__split__copy_8c.html#a909a281954e4f3301edc26c54a946062" title="Use a hashtable to attempt to identify recently&#45;emitted vertices and avoid re&#45;emitting them..." alt="" coords="695,56,734,83"/>
+<area shape="rect" id="node28" href="$vbo__split__copy_8c.html#aba57a432cbe3ed3871caeedfa6c6d4d0" title="Called at end of each primitive during replay." alt="" coords="693,107,736,133"/>
+<area shape="rect" id="node31" href="$vbo__split__copy_8c.html#aa233458bf6eba9cd4b88f8faf3532a6d" title="flush" alt="" coords="869,145,920,172"/>
+<area shape="rect" id="node26" href="$vbo__split__copy_8c.html#a5cc428dd7410f68a6017975b0d7e8406" title="Starts returning true slightly before the buffer fills, to ensure that there is sufficient room for a..." alt="" coords="849,69,941,96"/>
+<area shape="rect" id="node33" href="$vbo__split__copy_8c.html#abcc36e536e4095f768301a9db88d00ea" title="Dump the parameters/info for a vbo&#45;&gt;draw() call." alt="" coords="1011,145,1128,172"/>
+<area shape="rect" id="node41" href="$vbo__split__copy_8c.html#ac590a6ef6114a3b6e1475924e14524b0" title="attr_size" alt="" coords="679,259,751,285"/>
+</map>

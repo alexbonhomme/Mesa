@@ -1,0 +1,51 @@
+<map id="ast_jump_statement::hir" name="ast_jump_statement::hir">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a939bd788b8a9f1a21c9f2ff0dd5b3aaa" title="_mesa_glsl_error" alt="" coords="886,1204,1007,1231"/>
+<area shape="rect" id="node35" href="$classast__node.html#a4449b76bda85828e09c78f2aba19f16d" title="Retrieve the source location of an AST node." alt="" coords="647,631,801,657"/>
+<area shape="rect" id="node37" href="$classast__expression.html#ae658a8e42929bddd795497cb054e7f48" title="Convert the AST node to the high&#45;level intermediate representation." alt="" coords="217,993,349,1020"/>
+<area shape="rect" id="node5" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="1080,1204,1200,1231"/>
+<area shape="rect" id="node7" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="1249,1204,1399,1231"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="1248,1255,1400,1281"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="1449,1153,1607,1180"/>
+<area shape="rect" id="node29" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="1481,1103,1575,1129"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="1657,1153,1837,1180"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="2045,1204,2139,1231"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="1886,1153,1997,1180"/>
+<area shape="rect" id="node26" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1913,1103,1970,1129"/>
+<area shape="rect" id="node20" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="2050,1153,2134,1180"/>
+<area shape="rect" id="node22" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="2192,1153,2269,1180"/>
+<area shape="rect" id="node24" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="2187,1103,2274,1129"/>
+<area shape="rect" id="node31" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="1727,1103,1767,1129"/>
+<area shape="rect" id="node39" href="$ast_8h.html#a04a7c4753084ffa5d479fc1bf9e60582" title="_mesa_ast_array_index\l_to_hir" alt="" coords="412,1506,572,1547"/>
+<area shape="rect" id="node42" href="$glsl__parser__extras_8cpp.html#a74891ca02755401e5fe592b393531943" title="_mesa_glsl_warning" alt="" coords="654,1656,794,1683"/>
+<area shape="rect" id="node48" href="$classir__rvalue.html#a85187845a3fde87f8951bc6b2dcf3c76" title="ir_rvalue::constant\l_expression_value" alt="" coords="659,1357,789,1398"/>
+<area shape="rect" id="node52" href="$ast_8h.html#adbed44d3b2c63177a6aea85244dd9770" title="_mesa_ast_field_selection\l_to_hir" alt="" coords="404,801,580,842"/>
+<area shape="rect" id="node62" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="875,428,1018,455"/>
+<area shape="rect" id="node68" href="$ast__function_8cpp.html#ab6d8a9744122b749be1770c624ab2d67" title="If a conversion is available, convert one operand to a different type." alt="" coords="861,909,1032,936"/>
+<area shape="rect" id="node70" href="$ast__to__hir_8cpp.html#a6ddf4fb441029df00a5d4378c9a37ec0" title="arithmetic_result_type" alt="" coords="649,935,799,961"/>
+<area shape="rect" id="node74" href="$ast__to__hir_8cpp.html#aa70bdb5679aa2805859e1f0abb8f748d" title="Return the result type of a bit&#45;logic operation." alt="" coords="421,1153,563,1180"/>
+<area shape="rect" id="node80" href="$ast__to__hir_8cpp.html#a97af78f5a686af6590c1ee3b90f1cfbc" title="Create the constant 1, of a which is appropriate for incrementing and decrementing values of the give..." alt="" coords="405,1356,579,1383"/>
+<area shape="rect" id="node82" href="$ast__to__hir_8cpp.html#a7a882e133278c99a4b62ee0775c03e87" title="do_assignment" alt="" coords="437,311,547,337"/>
+<area shape="rect" id="node108" href="$ast__to__hir_8cpp.html#a6b877825eae55a8dd0c768eeaf2ca1d8" title="do_comparison" alt="" coords="437,63,547,89"/>
+<area shape="rect" id="node114" href="$ast__to__hir_8cpp.html#a0f986767af0b81aaa78291f8f137f4b5" title="get_lvalue_copy" alt="" coords="434,687,550,713"/>
+<area shape="rect" id="node117" href="$ast__to__hir_8cpp.html#aa714b4133ac3132a03e4c427df154297" title="get_scalar_boolean\l_operand" alt="" coords="425,986,559,1027"/>
+<area shape="rect" id="node125" href="$ast__to__hir_8cpp.html#af72beee9a7952d692aa576d1680b6584" title="modulus_result_type" alt="" coords="421,1204,563,1231"/>
+<area shape="rect" id="node128" href="$ast__to__hir_8cpp.html#a09f8fc8520ec68b1dd10f36c30952963" title="relational_result_type" alt="" coords="651,985,797,1012"/>
+<area shape="rect" id="node132" href="$ast__to__hir_8cpp.html#a4a88be6c4952c8b0c08b499dcb5f931c" title="Return the result type of a bit&#45;shift operation." alt="" coords="433,1103,551,1129"/>
+<area shape="rect" id="node136" href="$ast__to__hir_8cpp.html#a8a78b2140716777bb155c91840a372ae" title="unary_arithmetic_result_type" alt="" coords="397,1255,587,1281"/>
+<area shape="rect" id="node45" href="$ast_8h.html#a873000b3e927133e179feda3933a9852" title="If name refers to a builtin array whose maximum allowed size is less than size, report an error and r..." alt="" coords="657,1474,791,1515"/>
+<area shape="rect" id="node50" href="$classir__rvalue.html#a6e52066e78fcf0ac2d01f3e1bbf4201c" title="If an r&#45;value is a reference to a whole variable, get that variable." alt="" coords="641,1539,807,1581"/>
+<area shape="rect" id="node55" href="$classir__swizzle.html#aa4465f5adef28044c78521571db739a1" title="Construct an ir_swizzle from the textual representation." alt="" coords="662,681,786,708"/>
+<area shape="rect" id="node57" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="899,605,995,632"/>
+<area shape="rect" id="node60" href="$classir__swizzle.html#ae65b8b2f324fee29f61fbeec8faa8b82" title="ir_swizzle::ir_swizzle" alt="" coords="873,681,1020,708"/>
+<area shape="rect" id="node77" href="$classast__expression.html#afd10e8c4b45f74e57eb6f4670d778ae5" title="ast_expression::operator\l_string" alt="" coords="641,1138,807,1179"/>
+<area shape="rect" id="node85" href="$classir__instruction.html#a8a801e831b211df2714a86f344d092c0" title="ir_instruction::as\l_dereference" alt="" coords="665,179,783,221"/>
+<area shape="rect" id="node87" href="$classir__instruction.html#a3bb172722273de2b95867300882e7498" title="ir_instruction::as\l_expression" alt="" coords="665,245,783,286"/>
+<area shape="rect" id="node89" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="669,63,779,89"/>
+<area shape="rect" id="node92" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="671,580,777,607"/>
+<area shape="rect" id="node95" href="$classir__rvalue.html#a0dba70a20fff220bec0d555de5931df7" title="ir_rvalue::is_lvalue" alt="" coords="659,311,789,337"/>
+<area shape="rect" id="node97" href="$ast__to__hir_8cpp.html#af59315ba19aa94a3e0e81205682c7e05" title="mark_whole_array_access" alt="" coords="635,12,813,39"/>
+<area shape="rect" id="node101" href="$ast__to__hir_8cpp.html#a047b956a3c696d6d83e6e0a180d61547" title="Validates that a value can be assigned to a location with a specified type." alt="" coords="653,732,795,759"/>
+<area shape="rect" id="node104" href="$classir__rvalue.html#a436c1224d5c546da6bc0622f8d504ee1" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="662,362,786,403"/>
+<area shape="rect" id="node106" href="$classir__dereference.html#a6e7d1a6d61675f85f95c5bb5631d82d3" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="645,114,803,155"/>
+<area shape="rect" id="node99" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="872,5,1021,46"/>
+</map>

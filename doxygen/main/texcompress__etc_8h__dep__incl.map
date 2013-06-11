@@ -1,0 +1,5 @@
+<map id="texcompress_etc.h" name="texcompress_etc.h">
+<area shape="rect" id="node3" href="$texcompress_8c.html" title="Helper functions for texture compression." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node5" href="$texcompress__etc_8c.html" title="GL_OES_compressed_ETC1_RGB8_texture support." alt="" coords="137,80,271,107"/>
+<area shape="rect" id="node7" href="$texstore_8c.html" title="texstore.c" alt="" coords="295,80,375,107"/>
+</map>

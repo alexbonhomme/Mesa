@@ -1,0 +1,21 @@
+<map id="vbo_save_draw.c" name="vbo_save_draw.c">
+<area shape="rect" id="node3" href="main.tag$glheader_8h.html" title="main/glheader.h" alt="" coords="659,453,773,480"/>
+<area shape="rect" id="node5" href="main.tag$bufferobj_8h.html" title="main/bufferobj.h" alt="" coords="453,155,568,181"/>
+<area shape="rect" id="node7" href="main.tag$mtypes_8h.html" title="mtypes.h" alt="" coords="523,304,599,331"/>
+<area shape="rect" id="node19" href="main.tag$context_8h.html" title="main/context.h" alt="" coords="306,80,413,107"/>
+<area shape="rect" id="node21" href="main.tag$imports_8h.html" title="imports.h" alt="" coords="145,155,220,181"/>
+<area shape="rect" id="node34" href="main.tag$macros_8h.html" title="main/macros.h" alt="" coords="122,80,229,107"/>
+<area shape="rect" id="node37" href="main.tag$light_8h.html" title="main/light.h" alt="" coords="5,80,93,107"/>
+<area shape="rect" id="node40" href="main.tag$state_8h.html" title="main/state.h" alt="" coords="334,155,428,181"/>
+<area shape="rect" id="node43" href="$vbo__context_8h.html" title="VBO builder module datatypes and definitions." alt="" coords="713,155,817,181"/>
+<area shape="rect" id="node10" href="main.tag$config_8h.html" title="main/config.h" alt="" coords="283,379,383,405"/>
+<area shape="rect" id="node12" href="main.tag$simple__list_8h.html" title="main/simple_list.h" alt="" coords="407,379,533,405"/>
+<area shape="rect" id="node14" href="main.tag$formats_8h.html" title="main/formats.h" alt="" coords="559,379,668,405"/>
+<area shape="rect" id="node16" href="main.tag$dd_8h.html" title="dd.h" alt="" coords="693,379,739,405"/>
+<area shape="rect" id="node23" href="main.tag$compiler_8h.html" title="compiler.h" alt="" coords="75,304,157,331"/>
+<area shape="rect" id="node26" href="main.tag$errors_8h.html" title="errors.h" alt="" coords="141,229,208,256"/>
+<area shape="rect" id="node45" href="$vbo_8h.html" title="vbo.h" alt="" coords="755,304,809,331"/>
+<area shape="rect" id="node50" href="$vbo__attrib_8h.html" title="vbo_attrib.h" alt="" coords="835,304,925,331"/>
+<area shape="rect" id="node52" href="$vbo__exec_8h.html" title="vbo_exec.h" alt="" coords="803,229,892,256"/>
+<area shape="rect" id="node57" href="$vbo__save_8h.html" title="vbo_save.h" alt="" coords="638,229,727,256"/>
+</map>

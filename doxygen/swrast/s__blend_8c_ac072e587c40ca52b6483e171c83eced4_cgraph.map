@@ -1,0 +1,12 @@
+<map id="_swrast_blend_span" name="_swrast_blend_span">
+<area shape="rect" id="node3" href="$s__span_8c.html#af20c2bc2cf50e64f96fdecedce33b9bf" title="Get RGBA pixels from the given renderbuffer." alt="" coords="195,81,352,108"/>
+<area shape="rect" id="node25" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="198,132,349,159"/>
+<area shape="rect" id="node5" href="$s__span_8c.html#a2181a4216cbfd03b47416c04ed65697f" title="Get colors at x/y positions with clipping." alt="" coords="400,56,485,83"/>
+<area shape="rect" id="node19" href="$s__span_8c.html#a6a36e48c48b248e82c93e31994018ecf" title="Get row of colors with clipping." alt="" coords="409,107,477,133"/>
+<area shape="rect" id="node7" href="$s__context_8h.html#a52ee360f385598e7861b6a5bb45b532b" title="Return the address of a pixel value in a mapped renderbuffer." alt="" coords="541,107,696,133"/>
+<area shape="rect" id="node13" href="main.tag$format__unpack_8c.html#a5d1fc5b8f58d664278624a1b96176625" title="_mesa_unpack_ubyte\l_rgba_row" alt="" coords="544,158,693,199"/>
+<area shape="rect" id="node15" href="main.tag$format__unpack_8c.html#a8ae0d2ee87539a6809b3ff8a5fe0b065" title="_mesa_unpack_rgba_row" alt="" coords="533,5,704,32"/>
+<area shape="rect" id="node17" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="561,56,676,83"/>
+<area shape="rect" id="node9" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="769,81,906,108"/>
+<area shape="rect" id="node11" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="753,132,922,159"/>
+</map>

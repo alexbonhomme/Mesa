@@ -1,0 +1,7 @@
+<map id="ir_variable_refcount_visitor::~ir_variable_refcount_visitor" name="ir_variable_refcount_visitor::~ir_variable_refcount_visitor">
+<area shape="rect" id="node3" href="$ir__variable__refcount_8cpp.html#acc68bdf589d6cf377b0615ac8c7cc292" title="free_entry" alt="" coords="193,5,273,32"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="192,56,275,83"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="327,5,414,32"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="323,56,418,83"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="325,107,416,133"/>
+</map>

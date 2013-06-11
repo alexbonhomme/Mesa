@@ -1,0 +1,9 @@
+<map id="vbo_loopback_vertex_list" name="vbo_loopback_vertex_list">
+<area shape="rect" id="node3" href="$vbo__save__loopback_8c.html#a0f9fc4855dbe23ce6c4e41ea835f2ee2" title="loopback_prim" alt="" coords="243,31,349,57"/>
+<area shape="rect" id="node15" href="$vbo__save__loopback_8c.html#a769dd86a08639a334646972c5443924d" title="loopback_weak_prim" alt="" coords="224,81,368,108"/>
+<area shape="rect" id="node5" href="main.tag$enums_8c.html#add9a5aa9e4d85da047803266d7e66548" title="_mesa_lookup_prim_by_nr" alt="" coords="417,5,594,32"/>
+<area shape="rect" id="node7" href="$vbo__split__copy_8c.html#aba57a432cbe3ed3871caeedfa6c6d4d0" title="Called at end of each primitive during replay." alt="" coords="484,56,527,83"/>
+<area shape="rect" id="node9" href="$vbo__split__copy_8c.html#a5cc428dd7410f68a6017975b0d7e8406" title="Starts returning true slightly before the buffer fills, to ensure that there is sufficient room for a..." alt="" coords="643,31,735,57"/>
+<area shape="rect" id="node11" href="$vbo__split__copy_8c.html#aa233458bf6eba9cd4b88f8faf3532a6d" title="flush" alt="" coords="664,81,715,108"/>
+<area shape="rect" id="node13" href="$vbo__split__copy_8c.html#abcc36e536e4095f768301a9db88d00ea" title="Dump the parameters/info for a vbo&#45;&gt;draw() call." alt="" coords="784,81,901,108"/>
+</map>

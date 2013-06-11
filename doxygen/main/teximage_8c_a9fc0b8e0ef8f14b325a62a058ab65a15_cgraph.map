@@ -1,0 +1,51 @@
+<map id="copyteximage" name="copyteximage">
+<area shape="rect" id="node3" href="$teximage_8c.html#a9ae7e4d05c8ce49d590afe9f7488a020" title="Choose the actual hardware format for a texture image." alt="" coords="177,547,335,589"/>
+<area shape="rect" id="node5" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="637,588,821,615"/>
+<area shape="rect" id="node15" href="$teximage_8c.html#abb9c94f3f8f473269c615d71ac8581ac" title="For cube map faces, return a face index in [0,5]." alt="" coords="641,1044,817,1071"/>
+<area shape="rect" id="node28" href="$image_8c.html#a7ba743515b859cd6839bcab8bebd8a6a" title="Do clipping for a glCopyTexSubImage call." alt="" coords="157,1069,355,1096"/>
+<area shape="rect" id="node32" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="445,360,547,387"/>
+<area shape="rect" id="node37" href="$texobj_8c.html#af5a2fda82463a533169135295050db8c" title="Mark a texture object dirty." alt="" coords="189,1120,323,1147"/>
+<area shape="rect" id="node39" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="449,765,543,792"/>
+<area shape="rect" id="node58" href="$teximage_8c.html#ab9ba4f3758cb63af8ed533290a39ca25" title="Return pointer to texture object for given target on current texture unit." alt="" coords="177,49,335,90"/>
+<area shape="rect" id="node68" href="$teximage_8c.html#addac97922155e1664773236d3291aaf8" title="Return the proxy target which corresponds to the given texture target." alt="" coords="173,263,339,289"/>
+<area shape="rect" id="node71" href="$teximage_8c.html#a46bb58bbf3802223e8b7fcb883eb12d1" title="Like _mesa_select_tex_image() but if the image doesn&#39;t exist, allocate it and install it..." alt="" coords="179,837,333,864"/>
+<area shape="rect" id="node78" href="$teximage_8c.html#ad02f4d78c8e7d5d55e37129f15b9a5ed" title="Initialize basic fields of the gl_texture_image struct." alt="" coords="183,910,329,951"/>
+<area shape="rect" id="node88" href="$teximage_8c.html#a806ecf060f7f14ed2e4a1abd207e1e45" title="Check the width, height, depth and border of a texture image are legal." alt="" coords="185,150,327,191"/>
+<area shape="rect" id="node93" href="$teximage_8h.html#a1b6bffe8857ad56df279f715116a2f50" title="Lock a texture for updating." alt="" coords="660,335,799,361"/>
+<area shape="rect" id="node98" href="$teximage_8h.html#a8f4c531549dad496df7967b7d02f8aee" title="_mesa_unlock_texture" alt="" coords="653,436,806,463"/>
+<area shape="rect" id="node101" href="$teximage_8c.html#a72be5d4181b2f14e676417ec2dfa3e75" title="When a texture image is specified we have to check if it&#39;s bound to any framebuffer objects (render t..." alt="" coords="167,1237,345,1264"/>
+<area shape="rect" id="node107" href="$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="185,1317,327,1344"/>
+<area shape="rect" id="node115" href="$teximage_8c.html#a7cac3567c395a67391ca40be7625b3df" title="If the texture object&#39;s GenerateMipmap flag is set and we&#39;ve changed the texture base level image..." alt="" coords="187,1368,325,1395"/>
+<area shape="rect" id="node117" href="$teximage_8c.html#a98c6813b4caa5941e5804979da8ea96a" title="Test glCopyTexImage[12]D() parameters for errors." alt="" coords="173,725,339,752"/>
+<area shape="rect" id="node128" href="$teximage_8c.html#ae7e8d95d0d51d7d55164494a756823a2" title="For glCopyTexSubImage, return the source renderbuffer to copy texel data from." alt="" coords="185,1419,327,1461"/>
+<area shape="rect" id="node13" href="$teximage_8c.html#a77497b35a409eb24f32a5e955254fd0b" title="Get a texture image pointer from a texture object, given a texture target and mipmap level..." alt="" coords="411,867,581,893"/>
+<area shape="rect" id="node19" href="$errors_8c.html#abf6b2d27cc17bae887812e7012fc31f9" title="Report a warning (a recoverable error condition) to stderr if either DEBUG is defined or the MESA_DEB..." alt="" coords="439,512,553,539"/>
+<area shape="rect" id="node7" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="885,537,1000,564"/>
+<area shape="rect" id="node9" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="887,588,998,615"/>
+<area shape="rect" id="node11" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="901,639,984,665"/>
+<area shape="rect" id="node17" href="$teximage_8h.html#a19a4bdb6bf1f5789253f7d25f61986da" title="Is the given value one of the 6 cube faces?" alt="" coords="870,1019,1015,1045"/>
+<area shape="rect" id="node21" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="883,272,1002,299"/>
+<area shape="rect" id="node23" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="672,537,787,564"/>
+<area shape="rect" id="node26" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="919,399,966,425"/>
+<area shape="rect" id="node30" href="$image_8c.html#af5afa7ed6798f949712f421deb186684" title="Clip the rectangle defined by (x, y, width, height) against the bounds specified by [xmin..." alt="" coords="422,1187,570,1213"/>
+<area shape="rect" id="node41" href="$errors_8c.html#aa95f5f16fa241ff98f972589c52e061b" title="&#39;buf&#39; is not necessarily a null&#45;terminated string." alt="" coords="671,740,788,767"/>
+<area shape="rect" id="node43" href="$errors_8c.html#a4ab11c429d6af9015d1fbd40497a0104" title="Handles generating a GL_ARB_debug_output message ID generated by the GL or GLSL compiler." alt="" coords="893,765,992,792"/>
+<area shape="rect" id="node45" href="$errors_8c.html#aadca580d213cbe06a31c233048e65c55" title="Returns the state of the given message source/type/ID tuple." alt="" coords="901,892,985,919"/>
+<area shape="rect" id="node49" href="$context_8c.html#ad98d5d4fae70f1fea38eeab0dad268bc" title="Record an error." alt="" coords="661,841,798,868"/>
+<area shape="rect" id="node56" href="$errors_8c.html#a293b4f22a77d1f0f05733ff12d5747f5" title="should_output" alt="" coords="678,892,781,919"/>
+<area shape="rect" id="node60" href="$texstate_8h.html#a292b9f1a55d8fcd2faa1ef1971d7eed1" title="Return pointer to current texture unit." alt="" coords="403,56,589,83"/>
+<area shape="rect" id="node62" href="$teximage_8c.html#af2d8533d07e7e956d03b163c97fbccad" title="Get the texture object that corresponds to the target of the given texture unit." alt="" coords="411,5,581,32"/>
+<area shape="rect" id="node64" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="672,183,787,209"/>
+<area shape="rect" id="node75" href="$teximage_8c.html#a89f735f6cd4270a7ac2c146d7b07c1ac" title="Install gl_texture_image in a gl_texture_object according to the target and level parameters..." alt="" coords="443,968,549,995"/>
+<area shape="rect" id="node80" href="$teximage_8c.html#a5d62d6baab91d5ce7a62f99d674a0191" title="Return the simple base format for a given internal texture format." alt="" coords="413,917,579,944"/>
+<area shape="rect" id="node82" href="$teximage_8c.html#a25fac429a03a142137a2f02f607173b5" title="Return the maximum number of mipmap levels for the given target and the dimensions." alt="" coords="409,1121,583,1162"/>
+<area shape="rect" id="node84" href="$imports_8h.html#a6b88030db1d04eb34b356ee7044caf91" title="_mesa_logbase2" alt="" coords="669,1099,789,1125"/>
+<area shape="rect" id="node90" href="$imports_8h.html#a26de26ffecf79ad5fe3e8ce63201ed31" title="Is x a power of two?" alt="" coords="427,157,565,184"/>
+<area shape="rect" id="node103" href="$hash_8c.html#ac1bdad8d2699172748a47f240ab357e2" title="Walk over all entries in a hash table, calling callback function for each." alt="" coords="431,1237,561,1264"/>
+<area shape="rect" id="node105" href="$teximage_8c.html#a58d4cdaff1c560f2d219a115d1f97ecc" title="Check render to texture callback." alt="" coords="447,1288,545,1315"/>
+<area shape="rect" id="node109" href="$texobj_8c.html#a93efb659001bc73219c7a3627c057d27" title="Simplest implementation of texture locking: grab the shared tex mutex." alt="" coords="425,1470,567,1511"/>
+<area shape="rect" id="node111" href="$texobj_8c.html#ad49b18ca568a0b57afdf77ddd1b2ac57" title="_mesa_unlock_context\l_textures" alt="" coords="418,1339,574,1381"/>
+<area shape="rect" id="node113" href="$state_8c.html#ac9e3abfcbf35ca2d0ebd4303d8c1e102" title="Compute derived GL state." alt="" coords="425,1405,567,1446"/>
+<area shape="rect" id="node119" href="$teximage_8c.html#a1aa853ffe39d85e650d600fbc42512bf" title="Check if the given texture target value is legal for a glTexSubImage, glCopyTexSubImage or glCopyTexI..." alt="" coords="411,259,581,285"/>
+<area shape="rect" id="node124" href="$teximage_8c.html#a9b89c04c762aecfdbaa5fca4480119ea" title="Get the maximum number of allowed mipmap levels." alt="" coords="405,664,587,691"/>
+</map>

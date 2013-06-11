@@ -1,0 +1,20 @@
+<map id="dead_code_local_basic_block" name="dead_code_local_basic_block">
+<area shape="rect" id="node3" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="410,5,553,32"/>
+<area shape="rect" id="node5" href="$classir__instruction.html#ae2222d77e4a0c2262181cdd661a7b049" title="ir_instruction::as\l_assignment" alt="" coords="223,63,342,105"/>
+<area shape="rect" id="node7" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="218,129,347,156"/>
+<area shape="rect" id="node10" href="$opt__dead__code__local_8cpp.html#a6d52bb1f02a1522b3ea84e42dfa5b0c4" title="Adds an entry to the available copy list if it&#39;s a plain assignment of a variable to a variable..." alt="" coords="211,180,354,207"/>
+<area shape="rect" id="node28" href="$ralloc_8c.html#a38530c9f4ef437290b8acd706b858410" title="Allocate a new ralloc context." alt="" coords="231,468,334,495"/>
+<area shape="rect" id="node35" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="241,380,324,407"/>
+<area shape="rect" id="node12" href="$classir__rvalue.html#aa7255bfef22661a246fb7aa71d5d8e0a" title="ir_rvalue::accept" alt="" coords="422,56,541,83"/>
+<area shape="rect" id="node16" href="$classir__dereference.html#a6e7d1a6d61675f85f95c5bb5631d82d3" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="403,107,560,149"/>
+<area shape="rect" id="node18" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="407,173,556,214"/>
+<area shape="rect" id="node20" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="433,304,529,331"/>
+<area shape="rect" id="node24" href="$classir__assignment.html#a4347733fd87b6478eb7cb21917fc2a3f" title="Get a whole variable written by an assignment." alt="" coords="409,238,554,279"/>
+<area shape="rect" id="node14" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="639,56,742,83"/>
+<area shape="rect" id="node22" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="647,355,734,381"/>
+<area shape="rect" id="node26" href="$classir__rvalue.html#a6e52066e78fcf0ac2d01f3e1bbf4201c" title="If an r&#45;value is a reference to a whole variable, get that variable." alt="" coords="608,238,773,279"/>
+<area shape="rect" id="node30" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="439,507,523,533"/>
+<area shape="rect" id="node33" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="652,507,729,533"/>
+<area shape="rect" id="node38" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="434,456,529,483"/>
+<area shape="rect" id="node40" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="436,405,527,432"/>
+</map>

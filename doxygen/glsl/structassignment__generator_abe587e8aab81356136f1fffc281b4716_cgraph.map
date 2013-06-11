@@ -1,0 +1,7 @@
+<map id="assignment_generator::generate" name="assignment_generator::generate">
+<area shape="rect" id="node3" href="$classir__rvalue.html#aa7255bfef22661a246fb7aa71d5d8e0a" title="ir_rvalue::accept" alt="" coords="218,5,337,32"/>
+<area shape="rect" id="node7" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="206,56,349,83"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="229,107,325,133"/>
+<area shape="rect" id="node5" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="398,5,501,32"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="406,107,493,133"/>
+</map>

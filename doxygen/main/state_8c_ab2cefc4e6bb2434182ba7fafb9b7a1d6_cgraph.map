@@ -1,0 +1,51 @@
+<map id="update_program" name="update_program">
+<area shape="rect" id="node3" href="$texenvprogram_8h.html#a453f03168b83615859150058a8e03a27" title="_mesa_get_fixed_func\l_fragment_program" alt="" coords="175,1217,329,1258"/>
+<area shape="rect" id="node5" href="$ffvertex__prog_8c.html#a104f09aa4b6fa2791c4323339361c75d" title="Return a vertex program which implements the current fixed&#45;function transform/lighting/texgen operati..." alt="" coords="175,1282,329,1324"/>
+<area shape="rect" id="node146" href="$shaderobj_8c.html#aadd19330a468f38f3e4b338067510f6a" title="Set ptr to point to shProg." alt="" coords="168,1644,336,1685"/>
+<area shape="rect" id="node7" href="$ffvertex__prog_8c.html#a2847abdc9d504194b09a0ab193290f31" title="create_new_program" alt="" coords="387,1290,530,1316"/>
+<area shape="rect" id="node138" href="$ffvertex__prog_8c.html#a28dd14109f4450c2c6cbc792fccf8a9b" title="make_state_key" alt="" coords="399,1214,518,1240"/>
+<area shape="rect" id="node9" href="$ffvertex__prog_8c.html#ae001c903c47a466eb4270461efca9ef5" title="build_tnl_program" alt="" coords="615,1290,739,1316"/>
+<area shape="rect" id="node11" href="$ffvertex__prog_8c.html#a90c0853329bd0837488c7852216339e4" title="Pass&#45;though per&#45;vertex point size, from user&#39;s point size array." alt="" coords="1245,1366,1389,1392"/>
+<area shape="rect" id="node17" href="$ffvertex__prog_8c.html#ae68f2a89cc8242229f8da8cbfde5df36" title="Point size attenuation computation." alt="" coords="1013,1720,1157,1747"/>
+<area shape="rect" id="node40" href="$ffvertex__prog_8c.html#a097e0736f5cf38cbeef1b4e79fc36ac8" title="build_fog" alt="" coords="1048,1264,1123,1291"/>
+<area shape="rect" id="node61" href="$ffvertex__prog_8c.html#a264bcdb1448b0752f4800bc9e05167c6" title="build_hpos" alt="" coords="1275,1112,1359,1139"/>
+<area shape="rect" id="node68" href="$ffvertex__prog_8c.html#a5620cbee22976d38213220eba59486fa" title="build_lighting" alt="" coords="833,504,930,531"/>
+<area shape="rect" id="node121" href="$ffvertex__prog_8c.html#a65dced6830e31da60003cb8c263730d1" title="build_texture_transform" alt="" coords="1006,986,1165,1012"/>
+<area shape="rect" id="node124" href="$ffvertex__prog_8c.html#a6f988c0e1e129df1b295a7fc59304685" title="emit_passthrough" alt="" coords="1255,1315,1380,1342"/>
+<area shape="rect" id="node13" href="$ffvertex__prog_8c.html#a22176e2338cdb6b4004a2c62ed644559" title="register_input" alt="" coords="1497,1163,1597,1190"/>
+<area shape="rect" id="node15" href="$ffvertex__prog_8c.html#ade0aa77c442a33d2af223fcde5718fef" title="register_output" alt="" coords="1493,1416,1601,1443"/>
+<area shape="rect" id="node19" href="$ffvertex__prog_8c.html#a3e7dcd5f9ccddaa47847367fabfbf598" title="get_eye_position_z" alt="" coords="1250,1264,1385,1291"/>
+<area shape="rect" id="node26" href="$ffvertex__prog_8c.html#a2172f1229c102818373d3610c60f7b8c" title="swizzle1" alt="" coords="1702,1087,1775,1114"/>
+<area shape="rect" id="node28" href="$ffvertex__prog_8c.html#aa8434349162ae310e66a5fded3c8e10f" title="get_temp" alt="" coords="1701,352,1777,379"/>
+<area shape="rect" id="node37" href="$ffvertex__prog_8c.html#a48cf94379fec6995df92dceea1a5ecd5" title="release_temp" alt="" coords="1689,454,1789,480"/>
+<area shape="rect" id="node21" href="$ffvertex__prog_8c.html#a149fe5f21d74617c34372cff42ec8cde" title="is_undef" alt="" coords="1511,707,1582,734"/>
+<area shape="rect" id="node24" href="$ffvertex__prog_8c.html#ac1a41b6dbb476c6e4b0d87ad3d3f345c" title="register_matrix_param5" alt="" coords="1467,1062,1626,1088"/>
+<area shape="rect" id="node30" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1837,1112,1952,1139"/>
+<area shape="rect" id="node32" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="2001,1087,2119,1114"/>
+<area shape="rect" id="node34" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="2037,1138,2083,1164"/>
+<area shape="rect" id="node42" href="$ffvertex__prog_8c.html#a4f6fcc68536fd9f7f5373002d2d8826c" title="get_eye_position" alt="" coords="1257,960,1377,987"/>
+<area shape="rect" id="node55" href="$ffvertex__prog_8c.html#a3f76679e45d14b30f10989e282ec050e" title="get_identity_param" alt="" coords="1251,656,1383,683"/>
+<area shape="rect" id="node44" href="$ffvertex__prog_8c.html#a1ce15d6f12bcc74c7956063ffa101ff3" title="emit_matrix_transform_vec4" alt="" coords="1453,1011,1640,1038"/>
+<area shape="rect" id="node46" href="$ffvertex__prog_8c.html#ab8a26846207a5a5d0f6e70fe573d3269" title="emit_transpose_matrix\l_transform_vec4" alt="" coords="1469,928,1624,969"/>
+<area shape="rect" id="node70" href="$ffvertex__prog_8c.html#a6ca368b00fdf5c67d741862c9cb8d41e" title="calculate_light_attenuation" alt="" coords="1229,352,1405,379"/>
+<area shape="rect" id="node76" href="$ffvertex__prog_8c.html#aad5d0da403905ebea175965bfb88fb36" title="Compute: lit.y = MAX(0, dots.x) lit.z = SLT(0, dots.x)" alt="" coords="1018,606,1153,632"/>
+<area shape="rect" id="node80" href="$ffvertex__prog_8c.html#a0b05a1bc9f0508891dc2fce993ee0a7c" title="emit_normalize_vec3" alt="" coords="1474,352,1619,379"/>
+<area shape="rect" id="node86" href="$ffvertex__prog_8c.html#a9b2be3044afacfa706b61bc47b031091" title="get_eye_position_normalized" alt="" coords="990,504,1181,531"/>
+<area shape="rect" id="node92" href="$ffvertex__prog_8c.html#a6f8fee4e5728057d3af07a4e4a22bcca" title="get_lightprod" alt="" coords="1037,352,1133,379"/>
+<area shape="rect" id="node94" href="$ffvertex__prog_8c.html#a5e2b686ba63b3eef144f75d594b6017c" title="get_material" alt="" coords="1271,403,1364,430"/>
+<area shape="rect" id="node99" href="$ffvertex__prog_8c.html#a04fa58987cc8de065b9446127ca7dc0d" title="Either return a precalculated constant value or emit code to calculate these values dynamically in th..." alt="" coords="1030,251,1141,278"/>
+<area shape="rect" id="node102" href="$ffvertex__prog_8c.html#a4bbbe7575a3965abf57f66fc1e31daa1" title="make_temp" alt="" coords="1272,150,1363,176"/>
+<area shape="rect" id="node106" href="$ffvertex__prog_8c.html#aceef15265b251e476972b41eb60114ba" title="get_transformed_normal" alt="" coords="1236,758,1399,784"/>
+<area shape="rect" id="node114" href="$ffvertex__prog_8c.html#a07d814ecfd4fe7c8400430a1ff07436d" title="negate" alt="" coords="1055,150,1116,176"/>
+<area shape="rect" id="node118" href="$ffvertex__prog_8c.html#acf8682bac7c31765da1435addbd87bb9" title="release_temps" alt="" coords="1264,707,1371,734"/>
+<area shape="rect" id="node140" href="$ffvertex__prog_8c.html#acb1a20938841fa4360253f5382d6a102" title="check_active_shininess" alt="" coords="597,1188,758,1215"/>
+<area shape="rect" id="node142" href="$ffvertex__prog_8c.html#a24d38762495381b7b1fa5148b2637a1e" title="translate_fog_distance_mode" alt="" coords="581,1239,773,1266"/>
+<area shape="rect" id="node144" href="$ffvertex__prog_8c.html#ab5f6a982d6473c4c78a19827f5528094" title="translate_texgen" alt="" coords="618,1138,737,1164"/>
+<area shape="rect" id="node148" href="$hash_8c.html#ace94fccc23fa2c949ddf18828bffc176" title="Remove an entry from the hash table." alt="" coords="385,1948,533,1975"/>
+<area shape="rect" id="node150" href="$hash__table_8c.html#ab0f18848f5606303ab91b2b1ee762ecd" title="This function deletes the given hash table entry." alt="" coords="587,1923,768,1950"/>
+<area shape="rect" id="node152" href="$hash__table_8c.html#a29d49831f59c5682166c5796bb0482ae" title="Finds a hash table entry with the given key and hash of that key." alt="" coords="589,1974,766,2000"/>
+<area shape="rect" id="node159" href="$hash_8c.html#a9cc49de14d380e0a488b8807aedc9e49" title="uint_hash" alt="" coords="638,2024,717,2051"/>
+<area shape="rect" id="node161" href="$hash_8c.html#a74d0f9f21dc0f67829f9e9699fe88dc2" title="uint_key" alt="" coords="642,2075,713,2102"/>
+<area shape="rect" id="node154" href="$hash__table_8c.html#af73102fdaa8cb45f2a56c3bac210e162" title="entry_is_free" alt="" coords="833,1999,930,2026"/>
+<area shape="rect" id="node156" href="$hash__table_8c.html#a091be61d8da42898d8ac1683b60d6879" title="entry_is_present" alt="" coords="822,1948,941,1975"/>
+</map>

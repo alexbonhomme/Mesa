@@ -1,0 +1,51 @@
+<map id="_mesa_GetTexImage" name="_mesa_GetTexImage">
+<area shape="rect" id="node3" href="$texgetimage_8c.html#a3672d43fc9055a6dfdffe95d4990aa4b" title="Get texture image." alt="" coords="201,244,383,271"/>
+<area shape="rect" id="node5" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="1143,269,1246,296"/>
+<area shape="rect" id="node17" href="$teximage_8c.html#ab9ba4f3758cb63af8ed533290a39ca25" title="Return pointer to texture object for given target on current texture unit." alt="" coords="662,127,821,169"/>
+<area shape="rect" id="node27" href="$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="Return string name of format (for debugging)" alt="" coords="433,729,602,756"/>
+<area shape="rect" id="node31" href="$bufferobj_8h.html#ab72eda6d90203d1498c1a56f04cdaec7" title="Is the given buffer object a user&#45;created buffer object? Mesa uses default buffer objects in several ..." alt="" coords="906,801,1041,828"/>
+<area shape="rect" id="node33" href="$teximage_8h.html#ab6e3cca8bf629f1ae8f69f7bdead40cb" title="Is any of the dimensions of given texture equal to zero?" alt="" coords="447,781,588,822"/>
+<area shape="rect" id="node35" href="$teximage_8h.html#a1b6bffe8857ad56df279f715116a2f50" title="Lock a texture for updating." alt="" coords="448,67,587,93"/>
+<area shape="rect" id="node38" href="$teximage_8c.html#a77497b35a409eb24f32a5e955254fd0b" title="Get a texture image pointer from a texture object, given a texture target and mipmap level..." alt="" coords="656,193,827,220"/>
+<area shape="rect" id="node44" href="$teximage_8h.html#a8f4c531549dad496df7967b7d02f8aee" title="_mesa_unlock_texture" alt="" coords="441,5,594,32"/>
+<area shape="rect" id="node47" href="$texgetimage_8c.html#a26f05e68305f651370233b7685bc06fb" title="Do error checking for a glGetTexImage() call." alt="" coords="433,679,601,705"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1355,269,1474,296"/>
+<area shape="rect" id="node9" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="1357,599,1472,625"/>
+<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1391,105,1438,132"/>
+<area shape="rect" id="node11" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="1559,599,1665,625"/>
+<area shape="rect" id="node13" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="1557,675,1667,701"/>
+<area shape="rect" id="node19" href="$texstate_8h.html#a292b9f1a55d8fcd2faa1ef1971d7eed1" title="Return pointer to current texture unit." alt="" coords="880,143,1067,169"/>
+<area shape="rect" id="node21" href="$teximage_8c.html#af2d8533d07e7e956d03b163c97fbccad" title="Get the texture object that corresponds to the target of the given texture unit." alt="" coords="888,92,1059,119"/>
+<area shape="rect" id="node23" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1137,105,1252,132"/>
+<area shape="rect" id="node29" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="894,1183,1053,1209"/>
+<area shape="rect" id="node40" href="$teximage_8c.html#abb9c94f3f8f473269c615d71ac8581ac" title="For cube map faces, return a face index in [0,5]." alt="" coords="885,193,1061,220"/>
+<area shape="rect" id="node42" href="$teximage_8h.html#a19a4bdb6bf1f5789253f7d25f61986da" title="Is the given value one of the 6 cube faces?" alt="" coords="1122,168,1267,195"/>
+<area shape="rect" id="node49" href="$teximage_8c.html#a9b89c04c762aecfdbaa5fca4480119ea" title="Get the maximum number of allowed mipmap levels." alt="" coords="651,1132,832,1159"/>
+<area shape="rect" id="node53" href="$texgetimage_8c.html#a8ad4539fbca589c31c8b21ad88274528" title="Validate the texture target enum supplied to glTexImage or glCompressedTexImage." alt="" coords="658,1015,825,1041"/>
+<area shape="rect" id="node55" href="$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="Record an OpenGL state error." alt="" coords="694,409,789,436"/>
+<area shape="rect" id="node90" href="$glformats_8c.html#a4e5b2ba3574902ee5868cee1cadb9af8" title="Do error checking of format/type combinations for glReadPixels, glDrawPixels and glTex[Sub]Image." alt="" coords="651,1066,831,1107"/>
+<area shape="rect" id="node94" href="$formats_8c.html#a011458f3486ed545382e81a11d72cca6" title="Return the basic format for the given type." alt="" coords="659,949,824,990"/>
+<area shape="rect" id="node97" href="$glformats_8c.html#a7665bd788fd157a5b098b9c71cd46e7b" title="Test if the given image format is a color/RGBA format (i.e., not color index, depth, stencil, etc)." alt="" coords="663,511,820,537"/>
+<area shape="rect" id="node99" href="$glformats_8c.html#a6e677e7f062f6c2ab33b0f6dba3613cb" title="Test if the given image format is a depth component format." alt="" coords="661,561,822,588"/>
+<area shape="rect" id="node101" href="$glformats_8c.html#a62a10ba7f6b8193098c14c69f95592bb" title="Test if the given image format is a depth+stencil format." alt="" coords="664,613,819,654"/>
+<area shape="rect" id="node103" href="$glformats_8c.html#ad438c0fec3fd3321f60bb525943d9921" title="Test if the given image format is a YCbCr format." alt="" coords="661,679,822,705"/>
+<area shape="rect" id="node105" href="$glformats_8c.html#a8940c703216d62239ca132522f97d22b" title="Test if the given image format is a dudv format." alt="" coords="663,780,820,807"/>
+<area shape="rect" id="node107" href="$pbo_8c.html#a4642d0300a715b2593a8d61d4268b130" title="When we&#39;re about to read pixel data out of a PBO (via glDrawPixels, glTexImage, etc) or write data in..." alt="" coords="671,831,812,873"/>
+<area shape="rect" id="node120" href="$bufferobj_8h.html#a4e7902cd5fe928214b14ba8bfea23fa5" title="Is the given buffer object currently mapped?" alt="" coords="656,897,827,924"/>
+<area shape="rect" id="node51" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="899,1132,1047,1159"/>
+<area shape="rect" id="node57" href="$errors_8c.html#aa95f5f16fa241ff98f972589c52e061b" title="&#39;buf&#39; is not necessarily a null&#45;terminated string." alt="" coords="915,396,1032,423"/>
+<area shape="rect" id="node59" href="$errors_8c.html#a4ab11c429d6af9015d1fbd40497a0104" title="Handles generating a GL_ARB_debug_output message ID generated by the GL or GLSL compiler." alt="" coords="1145,359,1244,385"/>
+<area shape="rect" id="node61" href="$errors_8c.html#aadca580d213cbe06a31c233048e65c55" title="Returns the state of the given message source/type/ID tuple." alt="" coords="1153,497,1237,524"/>
+<area shape="rect" id="node68" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="1323,751,1507,777"/>
+<area shape="rect" id="node75" href="$context_8c.html#ad98d5d4fae70f1fea38eeab0dad268bc" title="Record an error." alt="" coords="905,345,1042,372"/>
+<area shape="rect" id="node82" href="$errors_8c.html#a293b4f22a77d1f0f05733ff12d5747f5" title="should_output" alt="" coords="922,599,1025,625"/>
+<area shape="rect" id="node63" href="$hash_8c.html#a7a7007f934852a3f4cfc04ddaeb94e3c" title="Insert a key/pointer pair into the hash table." alt="" coords="1349,447,1481,473"/>
+<area shape="rect" id="node65" href="$hash_8c.html#a1600921a3daee886e08a32ee938ecae6" title="Lookup an entry in the hash table." alt="" coords="1344,497,1485,524"/>
+<area shape="rect" id="node70" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="1555,737,1669,764"/>
+<area shape="rect" id="node73" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="1571,788,1653,815"/>
+<area shape="rect" id="node85" href="$errors_8c.html#a634227a0754c75445a4ae71cb4a86397" title="When a new type of error is recorded, print a message describing previous errors which were accumulat..." alt="" coords="1123,649,1266,676"/>
+<area shape="rect" id="node109" href="$image_8c.html#a349c7efa0b2a44e2e4de1f995bd60a56" title="Return the byte offset of a specific pixel in an image (1D, 2D or 3D)." alt="" coords="902,852,1045,879"/>
+<area shape="rect" id="node115" href="$glformats_8c.html#ac81b82fc7cf6fe0a47ae51278f917118" title="Same as _mesa_sizeof_type() but also accepting the packed pixel format data types." alt="" coords="1323,877,1507,904"/>
+<area shape="rect" id="node111" href="$glformats_8c.html#a436296728b4475da0aa5ef287cb3c4eb" title="Get the bytes per pixel of pixel format type pair." alt="" coords="1115,801,1274,828"/>
+<area shape="rect" id="node113" href="$mipmap_8c.html#aa5d90447a8dad8289cacddbb0c98dd1f" title="bytes_per_pixel" alt="" coords="1138,852,1251,879"/>
+</map>

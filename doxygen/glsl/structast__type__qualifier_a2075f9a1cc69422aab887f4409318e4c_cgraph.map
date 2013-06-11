@@ -1,0 +1,6 @@
+<map id="ast_type_qualifier::operator delete" name="ast_type_qualifier::operator delete">
+<area shape="rect" id="node3" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="179,56,261,83"/>
+<area shape="rect" id="node5" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="314,5,401,32"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="310,56,405,83"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="312,107,403,133"/>
+</map>

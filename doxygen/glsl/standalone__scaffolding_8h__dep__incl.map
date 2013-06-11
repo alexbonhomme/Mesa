@@ -1,0 +1,5 @@
+<map id="standalone_scaffolding.h" name="standalone_scaffolding.h">
+<area shape="rect" id="node3" href="$main_8cpp.html" title="This file is the main() routine and scaffolding for producing builtin_compiler (which doesn&#39;t include..." alt="" coords="5,80,80,107"/>
+<area shape="rect" id="node5" href="$standalone__scaffolding_8cpp.html" title="standalone_scaffolding.cpp" alt="" coords="105,80,284,107"/>
+<area shape="rect" id="node7" href="$test__optpass_8cpp.html" title="Standalone test for optimization passes." alt="" coords="309,80,432,107"/>
+</map>

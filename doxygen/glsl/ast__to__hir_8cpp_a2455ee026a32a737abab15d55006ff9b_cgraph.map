@@ -1,0 +1,21 @@
+<map id="apply_type_qualifier_to_variable" name="apply_type_qualifier_to_variable">
+<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a939bd788b8a9f1a21c9f2ff0dd5b3aaa" title="_mesa_glsl_error" alt="" coords="463,73,585,100"/>
+<area shape="rect" id="node35" href="$glsl__parser__extras_8cpp.html#a22a5d9c1581649413170fe08528775e5" title="_mesa_glsl_shader_target_name" alt="" coords="192,40,405,67"/>
+<area shape="rect" id="node37" href="$glsl__parser__extras_8cpp.html#a74891ca02755401e5fe592b393531943" title="_mesa_glsl_warning" alt="" coords="454,124,594,151"/>
+<area shape="rect" id="node40" href="$classir__variable.html#a207a481c9ff8510ba52065acec05f122" title="Get the string value for the interpolation qualifier." alt="" coords="219,157,378,198"/>
+<area shape="rect" id="node42" href="$ast__to__hir_8cpp.html#a52f4df6e85d4535c4e17bba8b5c7f15f" title="Determine whether a toplevel variable declaration declares a varying." alt="" coords="245,223,352,249"/>
+<area shape="rect" id="node44" href="$ast__to__hir_8cpp.html#a70147494517b1e7ea96ce67e2d417224" title="Matrix layout qualifiers are only allowed on certain types." alt="" coords="223,91,375,133"/>
+<area shape="rect" id="node5" href="$glsl__parser__extras_8cpp.html#aa25ddbf1acbfec0effb16f27e01ddc7c" title="_mesa_glsl_msg" alt="" coords="643,99,763,125"/>
+<area shape="rect" id="node7" href="$ralloc_8c.html#a6db914c76a6e476346878a922a7bccfd" title="ralloc_asprintf_append" alt="" coords="811,23,963,49"/>
+<area shape="rect" id="node9" href="$ralloc_8c.html#ae3bc4f24688f337ee843c8be6d7d4970" title="Append formatted text to the supplied string, given a va_list." alt="" coords="1011,73,1170,100"/>
+<area shape="rect" id="node28" href="$standalone__scaffolding_8cpp.html#ae0f2f300f0644093c2bb7dd4a0e4a328" title="_mesa_shader_debug" alt="" coords="812,124,961,151"/>
+<area shape="rect" id="node30" href="$ralloc_8c.html#a81efd739143e83e06e3f6b3da7f943bf" title="Concatenate two strings, allocating the necessary space." alt="" coords="1044,168,1137,195"/>
+<area shape="rect" id="node11" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="1219,99,1399,125"/>
+<area shape="rect" id="node13" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="1449,55,1559,81"/>
+<area shape="rect" id="node15" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="1608,105,1701,132"/>
+<area shape="rect" id="node24" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="1475,156,1533,183"/>
+<area shape="rect" id="node17" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="1613,55,1697,81"/>
+<area shape="rect" id="node19" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="1750,131,1837,157"/>
+<area shape="rect" id="node21" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="1755,55,1832,81"/>
+<area shape="rect" id="node32" href="$ralloc_8c.html#aafc50d975c2ed969ac72872a4be70144" title="cat" alt="" coords="1289,161,1329,188"/>
+</map>

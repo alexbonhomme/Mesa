@@ -1,0 +1,8 @@
+<map id="stencil.h" name="stencil.h">
+<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node5" href="$attrib_8c.html" title="attrib.c" alt="" coords="115,80,177,107"/>
+<area shape="rect" id="node7" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="202,80,277,107"/>
+<area shape="rect" id="node9" href="$get_8c.html" title="get.c" alt="" coords="303,80,353,107"/>
+<area shape="rect" id="node11" href="$state_8c.html" title="State management." alt="" coords="378,80,440,107"/>
+<area shape="rect" id="node13" href="$stencil_8c.html" title="Stencil operations." alt="" coords="465,80,535,107"/>
+</map>

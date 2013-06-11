@@ -1,0 +1,6 @@
+<map id="do_ndc_cliptest" name="do_ndc_cliptest">
+<area shape="rect" id="node3" href="$t__context_8h.html#a3e70381663fac89d879cad7675056b27" title="tnl_clip_prepare" alt="" coords="169,5,282,32"/>
+<area shape="rect" id="node7" href="$t__vb__program_8c.html#ac3de5517a2f218b780926ad20de62d7a" title="userclip" alt="" coords="192,56,259,83"/>
+<area shape="rect" id="node5" href="math.tag$m__clip__tmp_8h.html#ac490d8e88908e0104ff7783052bd5b8e" title="init_c_cliptest" alt="" coords="331,5,434,32"/>
+<area shape="rect" id="node9" href="swrast.tag$s__aatritemp_8h.html#a6a7f3388e983283d96ef4d919f416b30" title="for" alt="" coords="363,56,402,83"/>
+</map>

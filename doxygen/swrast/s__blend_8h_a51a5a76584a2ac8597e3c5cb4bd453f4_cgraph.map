@@ -1,0 +1,17 @@
+<map id="_swrast_choose_blend_func" name="_swrast_choose_blend_func">
+<area shape="rect" id="node3" href="$s__blend_8c.html#acf1b37cd55a99d5a890be5c57bc862f6" title="Add src and dest: glBlendFunc(GL_ONE, GL_ONE)." alt="" coords="275,81,357,108"/>
+<area shape="rect" id="node7" href="$s__blend_8c.html#aa185a37314e9cbeecede564645cae7b6" title="Do any blending operation, any chanType." alt="" coords="265,31,367,57"/>
+<area shape="rect" id="node15" href="$s__blend_8c.html#a49f0403cbf234919d0bb104f5200e3ac" title="Blend max function." alt="" coords="273,132,359,159"/>
+<area shape="rect" id="node18" href="$s__blend_8c.html#ac789c328412cfd1b4d91024b6fdfaa30" title="Blend min function." alt="" coords="275,183,357,209"/>
+<area shape="rect" id="node21" href="$s__blend_8c.html#a736176d2bb8709a95555db9aaf6c9546" title="Modulate: result = src * dest Any chanType ok." alt="" coords="259,233,373,260"/>
+<area shape="rect" id="node24" href="$s__blend_8c.html#a8919b00bee669542fe66a0fa6035d38c" title="Special case for glBlendFunc(GL_ZERO, GL_ONE)." alt="" coords="272,284,360,311"/>
+<area shape="rect" id="node27" href="$s__blend_8c.html#a9cbe03a7ba1f1ce7fb0772153cad65ba" title="Special case for glBlendFunc(GL_ONE, GL_ZERO) Any chanType ok." alt="" coords="265,335,367,361"/>
+<area shape="rect" id="node30" href="$s__blend_8c.html#a95aa994e654ebaafc705160111db0824" title="blend_transparency\l_float" alt="" coords="249,386,383,427"/>
+<area shape="rect" id="node33" href="$s__blend_8c.html#ac33a269c8f9261badee7b6d9cc2a1797" title="Common transparency blending mode: glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)." alt="" coords="249,451,383,493"/>
+<area shape="rect" id="node36" href="$s__blend_8c.html#aa69cafa63e9945c77bf383d938f5c6a1" title="blend_transparency\l_ushort" alt="" coords="249,517,383,558"/>
+<area shape="rect" id="node39" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="241,583,391,609"/>
+<area shape="rect" id="node5" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="485,284,531,311"/>
+<area shape="rect" id="node9" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="461,5,555,32"/>
+<area shape="rect" id="node11" href="$s__blend_8c.html#a691cd433b780f86e2f1cc51fd064706e" title="Do any blending operation, using floating point." alt="" coords="441,56,575,83"/>
+<area shape="rect" id="node13" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="624,56,739,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="gl_renderbuffer" name="gl_renderbuffer">
+<area shape="rect" id="node2" href="$structgl__texture__image.html" title="Texture image state." alt="" coords="91,96,212,123"/>
+<area shape="rect" id="node4" href="$structgl__texture__object.html" title="Texture object state." alt="" coords="211,187,332,213"/>
+<area shape="rect" id="node6" href="$structgl__buffer__object.html" title="GL_ARB_vertex/pixel_buffer_object buffer object." alt="" coords="263,96,377,123"/>
+<area shape="rect" id="node9" href="$structgl__sampler__object.html" title="Sampler object state." alt="" coords="402,96,528,123"/>
+<area shape="rect" id="node11" href="$uniongl__color__union.html" title="Used for storing clear color, texture border color, etc." alt="" coords="413,5,517,32"/>
+</map>

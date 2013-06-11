@@ -1,0 +1,13 @@
+<map id="check_index_bounds" name="check_index_bounds">
+<area shape="rect" id="node3" href="$errors_8c.html#abf6b2d27cc17bae887812e7012fc31f9" title="Report a warning (a recoverable error condition) to stderr if either DEBUG is defined or the MESA_DEB..." alt="" coords="226,81,339,108"/>
+<area shape="rect" id="node26" href="vbo.tag$vbo_8h.html#abfebf1e9d6eeeaeb1fc32af4088dba90" title="vbo_get_minmax_indices" alt="" coords="198,132,367,159"/>
+<area shape="rect" id="node5" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="465,5,511,32"/>
+<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="429,56,547,83"/>
+<area shape="rect" id="node9" href="$errors_8c.html#a634227a0754c75445a4ae71cb4a86397" title="When a new type of error is recorded, print a message describing previous errors which were accumulat..." alt="" coords="417,107,559,133"/>
+<area shape="rect" id="node20" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="643,157,757,184"/>
+<area shape="rect" id="node11" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="842,107,953,133"/>
+<area shape="rect" id="node13" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="608,56,792,83"/>
+<area shape="rect" id="node15" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="840,5,955,32"/>
+<area shape="rect" id="node17" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="856,56,939,83"/>
+<area shape="rect" id="node22" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="844,157,951,184"/>
+</map>

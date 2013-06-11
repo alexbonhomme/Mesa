@@ -1,0 +1,5 @@
+<map id="pack_float_RG_FLOAT16" name="pack_float_RG_FLOAT16">
+<area shape="rect" id="node3" href="$imports_8c.html#a98ba06d3da86d8ca3cb0122fbc96de0b" title="Convert a 4&#45;byte float to a 2&#45;byte half float." alt="" coords="227,5,365,32"/>
+<area shape="rect" id="node5" href="$imports_8c.html#aee0063bcfc77c5f5f568f3174f211e1d" title="_mesa_round_to_even" alt="" coords="414,5,567,32"/>
+<area shape="rect" id="node7" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="617,5,693,32"/>
+</map>

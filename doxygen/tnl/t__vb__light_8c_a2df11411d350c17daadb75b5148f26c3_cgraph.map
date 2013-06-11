@@ -1,0 +1,12 @@
+<map id="init_lighting_tables" name="init_lighting_tables">
+<area shape="rect" id="node3" href="$t__vb__lighttmp_8h.html#ab04b98f0ebfb83d8bd137aed90a28e7f" title="init_light_tab" alt="" coords="185,81,279,108"/>
+<area shape="rect" id="node5" href="$t__vb__lighttmp_8h.html#a8c3e082b6c4fc41bf3704809e6d07d15" title="light_rgba" alt="" coords="363,107,442,133"/>
+<area shape="rect" id="node17" href="$t__vb__lighttmp_8h.html#a704371290e91f42ba227b54052f68d62" title="light_fast_rgba" alt="" coords="349,157,456,184"/>
+<area shape="rect" id="node21" href="$t__vb__lighttmp_8h.html#a8c729e417dafa5d2ea7f115402c2324b" title="light_fast_rgba_single" alt="" coords="329,5,477,32"/>
+<area shape="rect" id="node25" href="$t__vb__lighttmp_8h.html#a009847e0ceba993aed0d6a70f173d724" title="light_rgba_spec" alt="" coords="346,56,459,83"/>
+<area shape="rect" id="node7" href="$t__vb__light_8c.html#af10096671efdc8043bd53b66d261ae4b" title="In the case of colormaterial, the effected material attributes should already have been bound to poin..." alt="" coords="526,56,647,83"/>
+<area shape="rect" id="node15" href="$t__vb__light_8c.html#a6a0f4f0d57f7e74b657c29dc78793747" title="lookup_shininess" alt="" coords="525,107,648,133"/>
+<area shape="rect" id="node9" href="main.tag$light_8c.html#a1f2fb690c9664825ec9db5dfc0dd6195" title="_mesa_update_material" alt="" coords="696,27,856,53"/>
+<area shape="rect" id="node11" href="$t__vb__light_8c.html#ae31c4157619f6b7e98560ea5b781c1be" title="_tnl_validate_shine\l_tables" alt="" coords="709,78,843,119"/>
+<area shape="rect" id="node13" href="$t__vb__light_8c.html#aed5a42b36c5f32cad49b981576fd67ab" title="validate_shine_table" alt="" coords="905,85,1045,112"/>
+</map>
