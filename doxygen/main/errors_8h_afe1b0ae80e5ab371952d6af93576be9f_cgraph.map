@@ -1,7 +1,0 @@
-<map id="_mesa_init_errors" name="_mesa_init_errors">
-<area shape="rect" id="node3" href="$hash_8c.html#a8cd33e0da80ca5155d02868bf9bbd615" title="Create a new hash table." alt="" coords="179,85,338,112"/>
-<area shape="rect" id="node5" href="$hash__table_8c.html#ab3018b5a56654eb0bff2dee80890dbd7" title="_mesa_hash_table_create" alt="" coords="387,5,562,32"/>
-<area shape="rect" id="node7" href="$hash_8c.html#a5249fec81e8642d249fbd5f77f7588ee" title="uint_key_compare" alt="" coords="411,56,539,83"/>
-<area shape="rect" id="node9" href="$hash__table_8c.html#a865c5b0053360794104bcd6bacfcbe49" title="Sets the value of the key pointer used for deleted entries in the table." alt="" coords="397,107,553,149"/>
-<area shape="rect" id="node11" href="$hash_8c.html#a74d0f9f21dc0f67829f9e9699fe88dc2" title="uint_key" alt="" coords="439,173,510,200"/>
-</map>

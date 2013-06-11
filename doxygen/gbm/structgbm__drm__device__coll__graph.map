@@ -1,6 +1,0 @@
-<map id="gbm_drm_device" name="gbm_drm_device">
-<area shape="rect" id="node2" href="$structgbm__device.html" title="The device used for the memory allocation." alt="" coords="153,5,244,32"/>
-<area shape="rect" id="node5" href="$structgbm__surface.html" title="gbm_surface" alt="" coords="150,139,247,165"/>
-<area shape="rect" id="node8" href="$structgbm__bo.html" title="The allocated buffer object." alt="" coords="346,139,413,165"/>
-<area shape="rect" id="node11" href="$uniongbm__bo__handle.html" title="Abstraction representing the handle to a buffer allocated by the manager." alt="" coords="466,5,579,32"/>
-</map>

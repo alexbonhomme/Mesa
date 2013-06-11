@@ -1,9 +1,0 @@
-<map id="_mesa_destroy_shader_compiler" name="_mesa_destroy_shader_compiler">
-<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html#a4fa5fd481a04d953f5d7137b2039ad8e" title="Releases compiler caches to trade off performance for memory." alt="" coords="211,49,368,90"/>
-<area shape="rect" id="node15" href="$glsl__types_8cpp.html#ad706d4cb66de3ccf06fdfd0d5ad446db" title="_mesa_glsl_release\l_types" alt="" coords="221,114,358,155"/>
-<area shape="rect" id="node5" href="$builtin__function_8cpp.html#a832b79de8aac88f62a965aaabf0b739c" title="_mesa_glsl_release\l_functions" alt="" coords="417,49,554,90"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="603,56,685,83"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="738,5,825,32"/>
-<area shape="rect" id="node11" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="734,56,829,83"/>
-<area shape="rect" id="node13" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="736,107,827,133"/>
-</map>

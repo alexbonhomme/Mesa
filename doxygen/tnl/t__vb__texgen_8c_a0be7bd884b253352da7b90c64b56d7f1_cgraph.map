@@ -1,8 +1,0 @@
-<map id="validate_texgen_stage" name="validate_texgen_stage">
-<area shape="rect" id="node3" href="$t__vb__texgen_8c.html#a79af72a76fdf3a40d0e059a84e798d44" title="texgen" alt="" coords="263,5,324,32"/>
-<area shape="rect" id="node7" href="$t__vb__texgen_8c.html#a1a1e78e94c99a64cafa42e3c0aade1fd" title="texgen_normal_map_nv" alt="" coords="213,56,373,83"/>
-<area shape="rect" id="node11" href="$t__vb__texgen_8c.html#a95d1d2e3d1310ff4078e744d4d72f2a2" title="texgen_reflection_map_nv" alt="" coords="206,107,381,133"/>
-<area shape="rect" id="node13" href="$t__vb__texgen_8c.html#a637dca61013d938b783963409cfc3180" title="texgen_sphere_map" alt="" coords="224,157,363,184"/>
-<area shape="rect" id="node5" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="429,5,544,32"/>
-<area shape="rect" id="node9" href="swrast.tag$s__aatritemp_8h.html#a6a7f3388e983283d96ef4d919f416b30" title="for" alt="" coords="467,56,506,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="_mesa_get_read_renderbuffer_for_format" name="_mesa_get_read_renderbuffer_for_format">
-<area shape="rect" id="node3" href="$glformats_8c.html#a7665bd788fd157a5b098b9c71cd46e7b" title="Test if the given image format is a color/RGBA format (i.e., not color index, depth, stencil, etc)." alt="" coords="251,5,408,32"/>
-<area shape="rect" id="node5" href="$glformats_8c.html#a6e677e7f062f6c2ab33b0f6dba3613cb" title="Test if the given image format is a depth component format." alt="" coords="249,56,410,83"/>
-<area shape="rect" id="node7" href="$glformats_8c.html#a62a10ba7f6b8193098c14c69f95592bb" title="Test if the given image format is a depth+stencil format." alt="" coords="252,107,407,149"/>
-</map>

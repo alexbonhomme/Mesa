@@ -1,7 +1,0 @@
-<map id="shaderapi.h" name="shaderapi.h">
-<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node5" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="115,80,172,107"/>
-<area shape="rect" id="node7" href="$shaderapi_8c.html" title="shaderapi.c" alt="" coords="197,80,285,107"/>
-<area shape="rect" id="node9" href="$transformfeedback_8c.html" title="transformfeedback.c" alt="" coords="311,80,452,107"/>
-<area shape="rect" id="node11" href="$uniforms_8c.html" title="Functions related to GLSL uniform variables." alt="" coords="476,80,559,107"/>
-</map>

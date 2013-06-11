@@ -1,9 +1,0 @@
-<map id="link_uniform_block_active_visitor::visit_enter" name="link_uniform_block_active_visitor::visit_enter">
-<area shape="rect" id="node3" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="245,5,363,46"/>
-<area shape="rect" id="node5" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="229,70,379,111"/>
-<area shape="rect" id="node7" href="$classir__constant.html#a61870754f1ae19accf360e70682996c4" title="ir_constant::get_uint\l_component" alt="" coords="234,135,374,177"/>
-<area shape="rect" id="node9" href="$classir__variable.html#ac8b51bfcdfb9fa232adee5cbe9816089" title="Determine whether or not a variable is part of a uniform block." alt="" coords="246,201,362,242"/>
-<area shape="rect" id="node11" href="$classir__variable.html#a01193dbe271559cdbe2f951ed17de8eb" title="Determine whether or not a variable is the declaration of an interface block." alt="" coords="427,310,583,351"/>
-<area shape="rect" id="node13" href="$linker_8cpp.html#af2ae63b42d06c5aeeced547b1568e917" title="linker_error" alt="" coords="261,317,347,344"/>
-<area shape="rect" id="node15" href="$link__uniform__block__active__visitor_8cpp.html#ac814db4bf050ed491c44497686b5e081" title="process_block" alt="" coords="251,368,357,395"/>
-</map>

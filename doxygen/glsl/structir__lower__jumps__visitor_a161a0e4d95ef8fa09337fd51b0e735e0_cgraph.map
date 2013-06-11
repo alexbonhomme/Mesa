@@ -1,8 +1,0 @@
-<map id="ir_lower_jumps_visitor::lower_final_breaks" name="ir_lower_jumps_visitor::lower_final_breaks">
-<area shape="rect" id="node3" href="$classir__instruction.html#ab535e6cbf92548da00fdfe821bcceffb" title="ir_instruction::as_if" alt="" coords="237,5,369,32"/>
-<area shape="rect" id="node5" href="$structir__lower__jumps__visitor.html#a360f4a41b203c84e147f4df7cddcd049" title="If the given instruction is a break, lower it to an instruction that sets the break flag..." alt="" coords="206,57,399,98"/>
-<area shape="rect" id="node7" href="$structir__lower__jumps__visitor.html#a75f69bf501da4cc337feb13966e9feb5" title="Create the necessary instruction to replace a break instruction." alt="" coords="448,23,605,65"/>
-<area shape="rect" id="node11" href="$structir__lower__jumps__visitor.html#a573f9504d6213f992a5e747b9ff27317" title="ir_lower_jumps_visitor\l::get_jump_strength" alt="" coords="451,89,602,130"/>
-<area shape="rect" id="node9" href="$structloop__record.html#ad9f2aded1de5b6597069b352cf9bb6c9" title="loop_record::get_break_flag" alt="" coords="654,31,837,57"/>
-<area shape="rect" id="node13" href="$loop__unroll_8cpp.html#ae56350583ca7c5cf46440b16c0f86632" title="is_break" alt="" coords="710,96,781,123"/>
-</map>

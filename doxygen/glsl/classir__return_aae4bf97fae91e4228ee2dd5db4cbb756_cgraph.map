@@ -1,7 +1,0 @@
-<map id="ir_return::accept" name="ir_return::accept">
-<area shape="rect" id="node3" href="$classir__rvalue.html#aa7255bfef22661a246fb7aa71d5d8e0a" title="ir_rvalue::accept" alt="" coords="183,5,302,32"/>
-<area shape="rect" id="node7" href="$classir__return.html#a677aa1b7934dcbd3f6ced7729a6ef20c" title="ir_return::get_value" alt="" coords="176,56,309,83"/>
-<area shape="rect" id="node9" href="$classir__hierarchical__visitor.html#aae81cf3ea5ca8c4972c9e2b9bac7c7d2" title="ir_hierarchical_visitor\l::visit_enter" alt="" coords="171,107,315,149"/>
-<area shape="rect" id="node11" href="$classir__hierarchical__visitor.html#ab9411593ed527e989b98de953944a112" title="ir_hierarchical_visitor\l::visit_leave" alt="" coords="171,173,315,214"/>
-<area shape="rect" id="node5" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="363,5,466,32"/>
-</map>

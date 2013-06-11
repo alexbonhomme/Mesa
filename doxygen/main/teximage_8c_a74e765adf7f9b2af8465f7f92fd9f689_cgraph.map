@@ -1,6 +1,0 @@
-<map id="is_renderable_texture_format" name="is_renderable_texture_format">
-<area shape="rect" id="node3" href="$fbobject_8c.html#a48fd4cda3fda066413ca3184eb2eb3f2" title="Given an internal format token for a render buffer, return the corresponding base format (one of GL_R..." alt="" coords="200,56,365,83"/>
-<area shape="rect" id="node5" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="414,5,562,32"/>
-<area shape="rect" id="node7" href="$context_8h.html#a1981837f60254d23442c54c89565b3f4" title="Checks if the context is for any GLES version." alt="" coords="433,56,543,83"/>
-<area shape="rect" id="node9" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="430,107,546,133"/>
-</map>

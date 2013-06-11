@@ -1,5 +1,0 @@
-<map id="_mesa_init_debug" name="_mesa_init_debug">
-<area shape="rect" id="node3" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="192,5,299,32"/>
-<area shape="rect" id="node5" href="$debug_8c.html#adbfa92e71b5eab0aa44604e1fd928042" title="Set debugging flags." alt="" coords="187,56,304,83"/>
-<area shape="rect" id="node7" href="$debug_8c.html#a326cf2214040a614a295d94c2fadc9dd" title="Set verbose logging flags." alt="" coords="181,107,309,133"/>
-</map>

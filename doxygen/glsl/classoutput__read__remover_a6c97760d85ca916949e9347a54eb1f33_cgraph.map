@@ -1,5 +1,0 @@
-<map id="output_read_remover::visit_leave" name="output_read_remover::visit_leave">
-<area shape="rect" id="node3" href="$lower__output__reads_8cpp.html#aa3ce089bba750cec67edc7f17b2de2b2" title="Insert a copy&#45;back assignment at the end of the main() function." alt="" coords="211,5,328,32"/>
-<area shape="rect" id="node7" href="$group__IR.html#ga23274dc074035d8faac3940802f4c088" title="Get the name of the function for which this is a signature." alt="" coords="198,57,341,98"/>
-<area shape="rect" id="node5" href="$lower__output__reads_8cpp.html#a868ffcce37285cb21a04515725125d50" title="Create an assignment to copy a temporary value back to the actual output." alt="" coords="389,5,440,32"/>
-</map>

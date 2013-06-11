@@ -1,8 +1,0 @@
-<map id="has_recursion_visitor" name="has_recursion_visitor">
-<area shape="rect" id="node2" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="5,285,149,312"/>
-<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="83,128,179,155"/>
-<area shape="rect" id="node11" href="$classir__function__signature.html" title="The representation of a function instance; may be the full definition or simply a prototype..." alt="" coords="111,233,253,260"/>
-<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="149,7,235,33"/>
-<area shape="rect" id="node14" href="$structexec__list.html" title="exec_list" alt="" coords="203,128,277,155"/>
-<area shape="rect" id="node9" href="$classfunction.html" title="function" alt="" coords="149,336,216,363"/>
-</map>

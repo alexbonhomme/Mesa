@@ -1,6 +1,0 @@
-<map id="link_uniform_block_active_visitor::visit" name="link_uniform_block_active_visitor::visit">
-<area shape="rect" id="node3" href="$classir__variable.html#ac8b51bfcdfb9fa232adee5cbe9816089" title="Determine whether or not a variable is part of a uniform block." alt="" coords="193,5,309,46"/>
-<area shape="rect" id="node5" href="$classir__variable.html#a01193dbe271559cdbe2f951ed17de8eb" title="Determine whether or not a variable is the declaration of an interface block." alt="" coords="358,114,514,155"/>
-<area shape="rect" id="node7" href="$linker_8cpp.html#af2ae63b42d06c5aeeced547b1568e917" title="linker_error" alt="" coords="207,121,294,148"/>
-<area shape="rect" id="node9" href="$link__uniform__block__active__visitor_8cpp.html#ac814db4bf050ed491c44497686b5e081" title="process_block" alt="" coords="197,172,304,199"/>
-</map>

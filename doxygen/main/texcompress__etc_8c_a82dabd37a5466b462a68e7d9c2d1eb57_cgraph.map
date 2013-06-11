@@ -1,7 +1,0 @@
-<map id="etc2_unpack_signed_rg11" name="etc2_unpack_signed_rg11">
-<area shape="rect" id="node3" href="$texcompress__etc_8c.html#a1069ab5376d93a873f91569878853d81" title="etc2_r11_parse_block" alt="" coords="229,5,379,32"/>
-<area shape="rect" id="node7" href="$texcompress__etc_8c.html#a0c45ba7252051cc2828a61143673d04d" title="etc2_signed_r11_fetch\l_texel" alt="" coords="227,57,381,98"/>
-<area shape="rect" id="node5" href="$texcompress__etc_8c.html#abe57ffd64d8594f8cb367ed33bd42096" title="etc2_alpha8_parse_block" alt="" coords="430,5,599,32"/>
-<area shape="rect" id="node9" href="$texcompress__etc_8c.html#a4fec87b53a1ec2611c0bfd871cd6319d" title="etc2_clamp3" alt="" coords="467,60,563,87"/>
-<area shape="rect" id="node11" href="$texcompress__etc_8c.html#afd5fa403fb435c2879304ee9a72ba4e4" title="etc2_get_pixel_index" alt="" coords="443,111,587,137"/>
-</map>

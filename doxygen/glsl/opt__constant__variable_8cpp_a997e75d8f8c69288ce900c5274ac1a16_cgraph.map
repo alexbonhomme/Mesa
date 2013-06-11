@@ -1,4 +1,0 @@
-<map id="do_constant_variable_unlinked" name="do_constant_variable_unlinked">
-<area shape="rect" id="node3" href="$classir__instruction.html#a8ad7b88149bc9f028f7bf7f52f48e7c3" title="ir_instruction::as\l_function" alt="" coords="214,5,333,46"/>
-<area shape="rect" id="node5" href="$ir__optimization_8h.html#acc78e89f83fda8a3c7cf4b5ef6f922dd" title="Does a copy propagation pass on the code present in the instruction stream." alt="" coords="201,71,346,97"/>
-</map>

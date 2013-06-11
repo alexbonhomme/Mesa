@@ -1,7 +1,0 @@
-<map id="ir_print_visitor::visit" name="ir_print_visitor::visit">
-<area shape="rect" id="node3" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="191,5,334,32"/>
-<area shape="rect" id="node5" href="$classir__variable.html#a078208613a7151aa3a47908efe7b1208" title="ir_variable::accept" alt="" coords="199,56,327,83"/>
-<area shape="rect" id="node9" href="$classir__print__visitor.html#a8fc2684b911d49598892620d7179b988" title="ir_print_visitor::indent" alt="" coords="189,107,336,133"/>
-<area shape="rect" id="node11" href="$ir__print__visitor_8cpp.html#ad77016797b270992d2c6428003dd4d72" title="print_type" alt="" coords="223,157,302,184"/>
-<area shape="rect" id="node7" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="385,56,487,83"/>
-</map>

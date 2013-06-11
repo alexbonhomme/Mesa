@@ -1,6 +1,0 @@
-<map id="_mesa_convert_colors" name="_mesa_convert_colors">
-<area shape="rect" id="node3" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="232,31,347,57"/>
-<area shape="rect" id="node9" href="$colormac_8h.html#a4de278245e572697e8793ae33afece0d" title="Convert four float values in [0,1] to ubytes in [0,255] with clamping." alt="" coords="208,82,371,123"/>
-<area shape="rect" id="node5" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="419,5,538,32"/>
-<area shape="rect" id="node7" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="455,56,502,83"/>
-</map>

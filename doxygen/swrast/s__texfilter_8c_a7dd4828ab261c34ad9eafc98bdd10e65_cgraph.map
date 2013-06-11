@@ -1,9 +1,0 @@
-<map id="sample_linear_rect" name="sample_linear_rect">
-<area shape="rect" id="node3" href="$s__texfilter_8c.html#a55ff0a5a6a7201481f3531716364fe61" title="As above, but GL_LINEAR filtering." alt="" coords="184,5,347,32"/>
-<area shape="rect" id="node7" href="$s__texfilter_8c.html#aaee001ef378582d01d8e2f363c908f05" title="When we sample the border color, it must be interpreted according to the base texture format..." alt="" coords="206,56,325,83"/>
-<area shape="rect" id="node9" href="$s__texfilter_8c.html#a41a405eccf4aa67cf9307ae72165c2df" title="Do bilinear interpolation of colors." alt="" coords="217,107,313,133"/>
-<area shape="rect" id="node13" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="190,158,341,199"/>
-<area shape="rect" id="node15" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="242,224,289,251"/>
-<area shape="rect" id="node5" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="395,5,509,32"/>
-<area shape="rect" id="node11" href="$s__texfilter_8c.html#a15eedbaa0188ce45b6b458c6aa567360" title="Do 2D/biliner interpolation of float values." alt="" coords="420,107,484,133"/>
-</map>

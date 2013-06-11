@@ -1,7 +1,0 @@
-<map id="loop_terminator" name="loop_terminator">
-<area shape="rect" id="node2" href="$structexec__node.html" title="exec_node" alt="" coords="89,7,175,33"/>
-<area shape="rect" id="node7" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="84,128,180,155"/>
-<area shape="rect" id="node13" href="$structexec__list.html" title="exec_list" alt="" coords="193,179,268,205"/>
-<area shape="rect" id="node5" href="$classir__if.html" title="IR instruction representing high&#45;level if&#45;statements." alt="" coords="91,323,133,349"/>
-<area shape="rect" id="node10" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="117,231,187,257"/>
-</map>

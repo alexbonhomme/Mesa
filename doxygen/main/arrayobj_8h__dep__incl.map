@@ -1,9 +1,0 @@
-<map id="arrayobj.h" name="arrayobj.h">
-<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node5" href="$arrayobj_8c.html" title="Functions for the GL_APPLE_vertex_array_object extension." alt="" coords="115,80,193,107"/>
-<area shape="rect" id="node7" href="$attrib_8c.html" title="attrib.c" alt="" coords="218,80,280,107"/>
-<area shape="rect" id="node9" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="305,80,380,107"/>
-<area shape="rect" id="node11" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="405,80,461,107"/>
-<area shape="rect" id="node13" href="$state_8c.html" title="State management." alt="" coords="486,80,548,107"/>
-<area shape="rect" id="node15" href="$varray_8c.html" title="varray.c" alt="" coords="573,80,643,107"/>
-</map>

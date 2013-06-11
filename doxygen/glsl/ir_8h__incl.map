@@ -1,7 +1,0 @@
-<map id="ir.h" name="ir.h">
-<area shape="rect" id="node7" href="$ralloc_8h.html" title="ralloc: a recursive memory allocator" alt="" coords="245,155,309,181"/>
-<area shape="rect" id="node17" href="$glsl__types_8h.html" title="glsl_types.h" alt="" coords="431,80,523,107"/>
-<area shape="rect" id="node25" href="$list_8h.html" title="Doubly&#45;linked list abstract container type." alt="" coords="356,80,407,107"/>
-<area shape="rect" id="node30" href="$ir__visitor_8h.html" title="ir_visitor.h" alt="" coords="599,80,681,107"/>
-<area shape="rect" id="node32" href="$ir__hierarchical__visitor_8h.html" title="ir_hierarchical_visitor.h" alt="" coords="705,80,860,107"/>
-</map>

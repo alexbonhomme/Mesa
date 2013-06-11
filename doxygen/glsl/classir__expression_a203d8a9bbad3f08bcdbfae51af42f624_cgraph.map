@@ -1,6 +1,0 @@
-<map id="ir_expression::clone" name="ir_expression::clone">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="229,5,339,32"/>
-<area shape="rect" id="node7" href="$classir__expression.html#abc7ed6c5f2e7c7a27d70142c5daf0737" title="Determine the number of operands used by an expression." alt="" coords="433,78,559,119"/>
-<area shape="rect" id="node9" href="$classir__expression.html#a8cf4f59ac5382873af7e398f6a128f5a" title="ir_expression::ir_expression" alt="" coords="192,107,376,133"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="425,5,567,32"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="ir_set_program_inouts_visitor::visit_enter" name="ir_set_program_inouts_visitor::visit_enter">
-<area shape="rect" id="node3" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="221,5,339,46"/>
-<area shape="rect" id="node5" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="205,70,355,111"/>
-<area shape="rect" id="node7" href="$ir__set__program__inouts_8cpp.html#a154a34402b617ad97f3a9ef6d5f35c14" title="is_shader_inout" alt="" coords="223,136,337,163"/>
-<area shape="rect" id="node9" href="$ir__set__program__inouts_8cpp.html#ae77bd1f969033c17d4dc973f429c1b28" title="mark" alt="" coords="255,187,305,213"/>
-</map>

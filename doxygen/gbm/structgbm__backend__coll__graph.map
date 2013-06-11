@@ -1,6 +1,0 @@
-<map id="gbm_backend" name="gbm_backend">
-<area shape="rect" id="node2" href="$structgbm__device.html" title="The device used for the memory allocation." alt="" coords="186,5,277,32"/>
-<area shape="rect" id="node5" href="$structgbm__surface.html" title="gbm_surface" alt="" coords="158,139,255,165"/>
-<area shape="rect" id="node8" href="$structgbm__bo.html" title="The allocated buffer object." alt="" coords="379,139,447,165"/>
-<area shape="rect" id="node11" href="$uniongbm__bo__handle.html" title="Abstraction representing the handle to a buffer allocated by the manager." alt="" coords="499,5,612,32"/>
-</map>

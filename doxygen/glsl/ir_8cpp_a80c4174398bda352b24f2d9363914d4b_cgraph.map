@@ -1,7 +1,0 @@
-<map id="try_max_zero" name="try_max_zero">
-<area shape="rect" id="node3" href="$classir__instruction.html#a3bb172722273de2b95867300882e7498" title="ir_instruction::as\l_expression" alt="" coords="157,5,275,46"/>
-<area shape="rect" id="node5" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="163,71,269,97"/>
-<area shape="rect" id="node11" href="$classir__rvalue.html#adafe7846de3a8508c8b47d8001a3355d" title="Determine if an r&#45;value has the value zero." alt="" coords="155,121,277,148"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="325,71,421,97"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="470,71,557,97"/>
-</map>

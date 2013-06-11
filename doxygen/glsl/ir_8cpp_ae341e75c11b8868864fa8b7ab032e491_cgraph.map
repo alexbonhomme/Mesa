@@ -1,8 +1,0 @@
-<map id="steal_memory" name="steal_memory">
-<area shape="rect" id="node3" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="158,5,277,46"/>
-<area shape="rect" id="node5" href="$classir__instruction.html#a142617682155660c72f57b637f5f580c" title="ir_instruction::as\l_variable" alt="" coords="158,70,277,111"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a8a5d6cd015f1bb09e1ffc6413ab4a326" title="&quot;Steal&quot; memory from one context, changing it to another." alt="" coords="173,136,261,163"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="330,85,417,112"/>
-<area shape="rect" id="node11" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="326,136,421,163"/>
-<area shape="rect" id="node13" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="335,187,412,213"/>
-</map>

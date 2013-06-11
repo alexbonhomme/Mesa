@@ -1,9 +1,0 @@
-<map id="free_array_attrib_data" name="free_array_attrib_data">
-<area shape="rect" id="node3" href="$arrayobj_8c.html#abeca8cef2c26faddb3cae2ea3bb09f53" title="Delete an array object." alt="" coords="203,57,341,98"/>
-<area shape="rect" id="node5" href="$bufferobj_8h.html#afdfddff858082fd61d4776583997ed40" title="_mesa_reference_buffer\l_object" alt="" coords="611,75,773,117"/>
-<area shape="rect" id="node11" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1231,7,1278,33"/>
-<area shape="rect" id="node15" href="$arrayobj_8c.html#aa872c0f28dd04a6755b2b905065a76ba" title="For all the vertex arrays in the array object, unbind any pointers to any buffer objects (VBOs)..." alt="" coords="389,93,563,120"/>
-<area shape="rect" id="node7" href="$bufferobj_8c.html#a7bf958a4212f187195e01a949aa400c0" title="Set ptr to bufObj w/ reference counting." alt="" coords="821,65,984,106"/>
-<area shape="rect" id="node9" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="1032,64,1147,91"/>
-<area shape="rect" id="node13" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="1195,64,1314,91"/>
-</map>

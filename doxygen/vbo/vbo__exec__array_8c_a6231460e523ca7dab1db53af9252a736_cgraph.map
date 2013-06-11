@@ -1,5 +1,0 @@
-<map id="recalculate_input_bindings" name="recalculate_input_bindings">
-<area shape="rect" id="node3" href="main.tag$state_8c.html#a5effa322de7d372e8ed298d8d3ca441d" title="_mesa_set_varying_vp\l_inputs" alt="" coords="230,5,386,46"/>
-<area shape="rect" id="node5" href="$vbo__context_8h.html#aaf664a10bf7bc6ab5ffc7325c30b80d2" title="Return VP_x token to indicate whether we&#39;re running fixed&#45;function vertex transformation, an NV vertex program or ARB vertex program/shader." alt="" coords="241,71,375,97"/>
-<area shape="rect" id="node7" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="261,121,355,148"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="buffers.h" name="buffers.h">
-<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node5" href="$attrib_8c.html" title="attrib.c" alt="" coords="115,80,177,107"/>
-<area shape="rect" id="node7" href="$buffers_8c.html" title="glReadBuffer, DrawBuffer functions." alt="" coords="202,80,275,107"/>
-<area shape="rect" id="node9" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="299,80,375,107"/>
-<area shape="rect" id="node11" href="$fbobject_8c.html" title="fbobject.c" alt="" coords="399,80,477,107"/>
-<area shape="rect" id="node13" href="$framebuffer_8c.html" title="framebuffer.c" alt="" coords="503,80,601,107"/>
-<area shape="rect" id="node15" href="$transformfeedback_8c.html" title="transformfeedback.c" alt="" coords="625,80,767,107"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="_mesa_override_gl_version" name="_mesa_override_gl_version">
-<area shape="rect" id="node3" href="$version_8c.html#abaffb2ac3c739ca4789e64833e97a24d" title="Builds the MESA version string." alt="" coords="235,5,381,32"/>
-<area shape="rect" id="node7" href="$version_8c.html#a68f34f38c1e4373ab5a7af6f587c9e66" title="Returns the gl override data." alt="" coords="253,56,363,83"/>
-<area shape="rect" id="node5" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="437,5,547,32"/>
-<area shape="rect" id="node9" href="$version_8c.html#abcb7df1905e4a4f20e5e043e6a094fb9" title="Scans &#39;string&#39; to see if it ends with &#39;ending&#39;." alt="" coords="430,56,554,83"/>
-</map>

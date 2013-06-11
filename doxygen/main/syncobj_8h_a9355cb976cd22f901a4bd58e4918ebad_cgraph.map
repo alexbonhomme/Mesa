@@ -1,8 +1,0 @@
-<map id="_mesa_unref_sync_object" name="_mesa_unref_sync_object">
-<area shape="rect" id="node3" href="$hash__table_8h.html#a04635d634590af3029afc0bbf00832f0" title="_mesa_hash_pointer" alt="" coords="230,5,373,32"/>
-<area shape="rect" id="node7" href="$set_8c.html#a41ff91dd681ccffa20674bd2dc007d33" title="This function deletes the given hash table entry." alt="" coords="233,56,369,83"/>
-<area shape="rect" id="node9" href="$set_8c.html#a8068be9d424969b8b7599382c9627b0b" title="Finds a set entry with the given key and hash of that key." alt="" coords="235,107,367,133"/>
-<area shape="rect" id="node5" href="$hash__table_8c.html#a92f5a55f6602a6623d8ea6e1974bf6fa" title="Quick FNV&#45;1 hash implementation based on: http://www.isthe.com/chongo/tech/comp/fnv/." alt="" coords="421,5,549,32"/>
-<area shape="rect" id="node11" href="$set_8c.html#a73b0aee0f56ab8ad543195b6f28fcd06" title="entry_is_free" alt="" coords="437,81,534,108"/>
-<area shape="rect" id="node13" href="$set_8c.html#af651330a9d9fd19349766e5547685f33" title="entry_is_present" alt="" coords="426,132,545,159"/>
-</map>

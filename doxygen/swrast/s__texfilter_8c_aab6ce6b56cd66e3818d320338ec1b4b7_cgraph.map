@@ -1,7 +1,0 @@
-<map id="sample_3d_nearest" name="sample_3d_nearest">
-<area shape="rect" id="node3" href="$s__texfilter_8c.html#aaee001ef378582d01d8e2f363c908f05" title="When we sample the border color, it must be interpreted according to the base texture format..." alt="" coords="206,5,325,32"/>
-<area shape="rect" id="node5" href="$s__texfilter_8c.html#a39698b8d3f582dbd637c1ba529fbf808" title="Used to compute texel location for nearest sampling." alt="" coords="189,56,341,83"/>
-<area shape="rect" id="node9" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="390,99,541,141"/>
-<area shape="rect" id="node12" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="242,157,289,184"/>
-<area shape="rect" id="node7" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="408,48,523,75"/>
-</map>

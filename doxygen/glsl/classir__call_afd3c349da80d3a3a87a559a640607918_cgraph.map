@@ -1,6 +1,0 @@
-<map id="ir_call::clone" name="ir_call::clone">
-<area shape="rect" id="node3" href="$classir__instruction.html#a315bec609dd390e1c6e35335af7f1e81" title="ir_instruction::clone" alt="" coords="161,5,295,32"/>
-<area shape="rect" id="node5" href="$classir__dereference__variable.html#a370f67b3358604b90930687b99f3a71c" title="ir_dereference_variable\l::clone" alt="" coords="150,57,306,98"/>
-<area shape="rect" id="node9" href="$classir__call.html#a1846732715d8c3bbd6381e1cd05a6b8e" title="ir_call::ir_call" alt="" coords="179,123,277,149"/>
-<area shape="rect" id="node7" href="$classir__dereference__variable.html#a52233a3c37127be3b81d1a0cc56ca7c6" title="ir_dereference_variable\l::ir_dereference_variable" alt="" coords="355,57,519,98"/>
-</map>

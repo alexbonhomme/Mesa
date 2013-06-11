@@ -1,5 +1,0 @@
-<map id="target_enum_to_index" name="target_enum_to_index">
-<area shape="rect" id="node3" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="206,5,354,32"/>
-<area shape="rect" id="node5" href="$context_8h.html#a1981837f60254d23442c54c89565b3f4" title="Checks if the context is for any GLES version." alt="" coords="225,56,335,83"/>
-<area shape="rect" id="node7" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="222,107,338,133"/>
-</map>

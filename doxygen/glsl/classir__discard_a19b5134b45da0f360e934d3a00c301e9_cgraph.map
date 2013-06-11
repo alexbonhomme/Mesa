@@ -1,5 +1,0 @@
-<map id="ir_discard::clone" name="ir_discard::clone">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="187,5,298,32"/>
-<area shape="rect" id="node7" href="$classir__discard.html#a0a9146ad93eef7350fb76146cf6ebc79" title="ir_discard::ir_discard" alt="" coords="171,56,314,83"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="363,5,506,32"/>
-</map>

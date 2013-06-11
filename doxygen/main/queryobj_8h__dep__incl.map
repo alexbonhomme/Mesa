@@ -1,7 +1,0 @@
-<map id="queryobj.h" name="queryobj.h">
-<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node5" href="$condrender_8c.html" title="Conditional rendering functions." alt="" coords="115,80,212,107"/>
-<area shape="rect" id="node7" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="237,80,312,107"/>
-<area shape="rect" id="node9" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="337,80,393,107"/>
-<area shape="rect" id="node11" href="$queryobj_8c.html" title="queryobj.c" alt="" coords="419,80,501,107"/>
-</map>

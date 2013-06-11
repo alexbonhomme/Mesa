@@ -1,8 +1,0 @@
-<map id="unbind_texobj_from_texunits" name="unbind_texobj_from_texunits">
-<area shape="rect" id="node3" href="$texobj_8h.html#a8a6496e44427aa05c44fe1a5e2287059" title="_mesa_reference_texobj" alt="" coords="190,22,354,49"/>
-<area shape="rect" id="node5" href="$texobj_8c.html#a8ab948cb414b721b2ee44e4ca97db5aa" title="Reference (or unreference) a texture object." alt="" coords="403,22,573,49"/>
-<area shape="rect" id="node7" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="808,22,923,49"/>
-<area shape="rect" id="node11" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="1007,73,1054,100"/>
-<area shape="rect" id="node13" href="$texobj_8c.html#aeec6f9d2a6e060dd2ce76c5b0da941c1" title="Check if the given texture object is valid by examining its Target field." alt="" coords="621,22,760,49"/>
-<area shape="rect" id="node9" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="971,22,1090,49"/>
-</map>

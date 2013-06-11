@@ -1,5 +1,0 @@
-<map id="ir_variable_refcount.h" name="ir_variable_refcount.h">
-<area shape="rect" id="node3" href="$ir__variable__refcount_8cpp.html" title="Provides a visitor which produces a list of variables referenced, how many times they were referenced..." alt="" coords="5,80,165,107"/>
-<area shape="rect" id="node5" href="$opt__dead__code_8cpp.html" title="Eliminates dead assignments and variable declarations from the code." alt="" coords="190,80,324,107"/>
-<area shape="rect" id="node7" href="$opt__tree__grafting_8cpp.html" title="Takes assignments to variables that are dereferenced only once and pastes the RHS expression into whe..." alt="" coords="349,80,493,107"/>
-</map>

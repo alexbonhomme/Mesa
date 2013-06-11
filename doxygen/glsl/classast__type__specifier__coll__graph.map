@@ -1,7 +1,0 @@
-<map id="ast_type_specifier" name="ast_type_specifier">
-<area shape="rect" id="node2" href="$classast__node.html" title="Base class of all abstract syntax tree nodes." alt="" coords="17,128,92,155"/>
-<area shape="rect" id="node7" href="$classast__expression.html" title="Representation of any sort of expression." alt="" coords="182,219,292,245"/>
-<area shape="rect" id="node14" href="$classast__struct__specifier.html" title="ast_struct_specifier" alt="" coords="21,219,157,245"/>
-<area shape="rect" id="node4" href="$structexec__node.html" title="exec_node" alt="" coords="67,7,152,33"/>
-<area shape="rect" id="node11" href="$structexec__list.html" title="exec_list" alt="" coords="116,128,191,155"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="ir_if::clone" name="ir_if::clone">
-<area shape="rect" id="node3" href="$classir__instruction.html#a315bec609dd390e1c6e35335af7f1e81" title="ir_instruction::clone" alt="" coords="137,5,271,32"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="149,56,259,83"/>
-<area shape="rect" id="node9" href="$classir__if.html#a5839a5008fafdbbe094f1077d04f4670" title="ir_if::ir_if" alt="" coords="168,107,240,133"/>
-<area shape="rect" id="node7" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="321,56,463,83"/>
-</map>

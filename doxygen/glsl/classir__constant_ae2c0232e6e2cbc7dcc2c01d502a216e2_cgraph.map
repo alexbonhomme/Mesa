@@ -1,6 +1,0 @@
-<map id="ir_constant::copy_masked_offset" name="ir_constant::copy_masked_offset">
-<area shape="rect" id="node3" href="$classir__constant.html#a2fe8dbc5ede6c1a0e13aa26df45675d8" title="Get a particular component of a constant as a specific type." alt="" coords="230,5,373,46"/>
-<area shape="rect" id="node5" href="$classir__constant.html#a9775efe63b3c66b0ea3a9083aae7dc22" title="ir_constant::get_float\l_component" alt="" coords="229,70,373,111"/>
-<area shape="rect" id="node7" href="$classir__constant.html#a8527a836b37d506b01907a6514f2315a" title="ir_constant::get_int\l_component" alt="" coords="235,135,368,177"/>
-<area shape="rect" id="node9" href="$classir__constant.html#a61870754f1ae19accf360e70682996c4" title="ir_constant::get_uint\l_component" alt="" coords="231,201,371,242"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="call_node" name="call_node">
-<area shape="rect" id="node2" href="$structexec__node.html" title="exec_node" alt="" coords="56,7,141,33"/>
-<area shape="rect" id="node9" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="51,128,147,155"/>
-<area shape="rect" id="node12" href="$structexec__list.html" title="exec_list" alt="" coords="171,128,245,155"/>
-<area shape="rect" id="node5" href="$classfunction.html" title="function" alt="" coords="82,325,149,352"/>
-<area shape="rect" id="node7" href="$classir__function__signature.html" title="The representation of a function instance; may be the full definition or simply a prototype..." alt="" coords="45,233,187,260"/>
-</map>

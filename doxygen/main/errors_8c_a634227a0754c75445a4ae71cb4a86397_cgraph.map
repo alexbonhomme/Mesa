@@ -1,8 +1,0 @@
-<map id="flush_delayed_errors" name="flush_delayed_errors">
-<area shape="rect" id="node3" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="197,56,381,83"/>
-<area shape="rect" id="node7" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="431,107,542,133"/>
-<area shape="rect" id="node12" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="232,157,347,184"/>
-<area shape="rect" id="node5" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="429,5,544,32"/>
-<area shape="rect" id="node9" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="445,56,528,83"/>
-<area shape="rect" id="node14" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="433,157,540,184"/>
-</map>

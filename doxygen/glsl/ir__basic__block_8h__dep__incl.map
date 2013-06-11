@@ -1,8 +1,0 @@
-<map id="ir_basic_block.h" name="ir_basic_block.h">
-<area shape="rect" id="node3" href="$ir__basic__block_8cpp.html" title="Basic block analysis of instruction streams." alt="" coords="5,88,136,115"/>
-<area shape="rect" id="node5" href="$opt__constant__propagation_8cpp.html" title="Tracks assignments of constants to channels of variables, and usage of those constant channels with d..." alt="" coords="161,88,356,115"/>
-<area shape="rect" id="node7" href="$opt__copy__propagation_8cpp.html" title="Moves usage of recently&#45;copied variables to the previous copy of the variable." alt="" coords="381,88,555,115"/>
-<area shape="rect" id="node9" href="$opt__copy__propagation__elements_8cpp.html" title="Replaces usage of recently&#45;copied components of variables with the previous copy of the variable..." alt="" coords="580,81,729,122"/>
-<area shape="rect" id="node11" href="$opt__dead__code__local_8cpp.html" title="Eliminates local dead assignments from the code." alt="" coords="754,88,923,115"/>
-<area shape="rect" id="node13" href="$opt__tree__grafting_8cpp.html" title="Takes assignments to variables that are dereferenced only once and pastes the RHS expression into whe..." alt="" coords="948,88,1092,115"/>
-</map>

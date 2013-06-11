@@ -1,5 +1,0 @@
-<map id="_mesa_get_attachment" name="_mesa_get_attachment">
-<area shape="rect" id="node3" href="$context_8h.html#a0fa07e8fc79bfb2abd160b1276312ba1" title="Checks if the context is for Desktop GL (Compatibility or Core)" alt="" coords="214,5,362,32"/>
-<area shape="rect" id="node5" href="$context_8h.html#a642b4d0bf4f97aa60222a993b6d4cab4" title="Checks if the context is for GLES 3.x." alt="" coords="230,56,346,83"/>
-<area shape="rect" id="node7" href="$fbobject_8h.html#a97df2933946ce460854b6bbcf50b997b" title="Is the given FBO a user&#45;created FBO?" alt="" coords="221,107,355,133"/>
-</map>

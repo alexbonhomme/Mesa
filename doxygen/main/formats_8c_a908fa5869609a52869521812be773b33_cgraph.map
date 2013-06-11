@@ -1,6 +1,0 @@
-<map id="_mesa_test_formats" name="_mesa_test_formats">
-<area shape="rect" id="node3" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="195,5,354,32"/>
-<area shape="rect" id="node5" href="$formats_8c.html#a968a5abef118a010c82c3be1c86bfc81" title="Debug/test: check that all formats are handled in the _mesa_format_to_type_and_comps() function..." alt="" coords="199,57,350,98"/>
-<area shape="rect" id="node9" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="251,123,298,149"/>
-<area shape="rect" id="node7" href="$formats_8h.html#af697b1fa1695671f5812e260d6003364" title="_mesa_format_to_type\l_and_comps" alt="" coords="403,57,557,98"/>
-</map>

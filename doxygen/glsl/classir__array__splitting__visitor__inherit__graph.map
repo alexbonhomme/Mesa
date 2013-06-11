@@ -1,5 +1,0 @@
-<map id="ir_array_splitting_visitor" name="ir_array_splitting_visitor">
-<area shape="rect" id="node2" href="$classir__rvalue__visitor.html" title="ir_rvalue_visitor" alt="" coords="22,155,135,181"/>
-<area shape="rect" id="node4" href="$classir__rvalue__base__visitor.html" title="ir_rvalue_base_visitor" alt="" coords="5,80,152,107"/>
-<area shape="rect" id="node6" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="7,5,151,32"/>
-</map>

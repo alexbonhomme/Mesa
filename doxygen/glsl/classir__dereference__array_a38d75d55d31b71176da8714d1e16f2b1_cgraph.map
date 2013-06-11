@@ -1,8 +1,0 @@
-<map id="ir_dereference_array::constant_referenced" name="ir_dereference_array::constant_referenced">
-<area shape="rect" id="node3" href="$classir__instruction.html#a8a801e831b211df2714a86f344d092c0" title="ir_instruction::as\l_dereference" alt="" coords="225,5,343,46"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#a85187845a3fde87f8951bc6b2dcf3c76" title="ir_rvalue::constant\l_expression_value" alt="" coords="219,70,349,111"/>
-<area shape="rect" id="node7" href="$classir__dereference.html#ac308fcea388de8f26b9954de1e8eecd3" title="Get the constant that is ultimately referenced by an r&#45;value, in a constant expression evaluation con..." alt="" coords="203,135,365,177"/>
-<area shape="rect" id="node9" href="$classir__constant.html#a24340e4be22d6ef838cd418f71db1fb8" title="ir_constant::get_array\l_element" alt="" coords="210,201,358,242"/>
-<area shape="rect" id="node11" href="$classir__constant.html#a8527a836b37d506b01907a6514f2315a" title="ir_constant::get_int\l_component" alt="" coords="217,266,351,307"/>
-<area shape="rect" id="node13" href="$classir__constant.html#a61870754f1ae19accf360e70682996c4" title="ir_constant::get_uint\l_component" alt="" coords="214,331,354,373"/>
-</map>

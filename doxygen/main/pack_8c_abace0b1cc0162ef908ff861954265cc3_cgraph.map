@@ -1,5 +1,0 @@
-<map id="clamp_half_to_uint" name="clamp_half_to_uint">
-<area shape="rect" id="node3" href="$imports_8c.html#a061acde1a3714ab2452ed34c02ebe70a" title="Convert a 2&#45;byte half float to a 4&#45;byte float." alt="" coords="184,5,323,32"/>
-<area shape="rect" id="node5" href="$imports_8h.html#aad7b5069338c9d8111ef042e60e5c9bc" title="Convert float to int using a fast method." alt="" coords="220,56,287,83"/>
-<area shape="rect" id="node7" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="371,56,447,83"/>
-</map>

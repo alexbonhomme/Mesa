@@ -1,6 +1,0 @@
-<map id="vbo_exec_bind_arrays" name="vbo_exec_bind_arrays">
-<area shape="rect" id="node3" href="main.tag$state_8c.html#a5effa322de7d372e8ed298d8d3ca441d" title="_mesa_set_varying_vp\l_inputs" alt="" coords="221,5,377,46"/>
-<area shape="rect" id="node5" href="$vbo__context_8h.html#aaf664a10bf7bc6ab5ffc7325c30b80d2" title="Return VP_x token to indicate whether we&#39;re running fixed&#45;function vertex transformation, an NV vertex program or ARB vertex program/shader." alt="" coords="232,71,365,97"/>
-<area shape="rect" id="node7" href="$vbo__context_8h.html#af16a8c0e5eee63aa492af19a60168d7c" title="Return if format is integer." alt="" coords="205,121,392,148"/>
-<area shape="rect" id="node9" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="252,172,345,199"/>
-</map>

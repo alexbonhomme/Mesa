@@ -1,5 +1,0 @@
-<map id="interpolate_int_colors" name="interpolate_int_colors">
-<area shape="rect" id="node3" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="205,5,320,32"/>
-<area shape="rect" id="node5" href="$s__span_8c.html#afa7a24f86a2bf7ced5b36f28488becb5" title="Interpolate the active attributes (and&#39;d with attrMask) to fill in span&#45;&gt;array&#45;&gt;attribs[]." alt="" coords="201,57,325,98"/>
-<area shape="rect" id="node7" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="374,64,525,91"/>
-</map>

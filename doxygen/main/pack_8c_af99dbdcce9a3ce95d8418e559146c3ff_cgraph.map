@@ -1,4 +1,0 @@
-<map id="clamp_float_to_uint" name="clamp_float_to_uint">
-<area shape="rect" id="node3" href="$imports_8h.html#aad7b5069338c9d8111ef042e60e5c9bc" title="Convert float to int using a fast method." alt="" coords="189,5,256,32"/>
-<area shape="rect" id="node5" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="305,5,381,32"/>
-</map>

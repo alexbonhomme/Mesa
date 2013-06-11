@@ -1,8 +1,0 @@
-<map id="lower_clip_distance_visitor::visit" name="lower_clip_distance_visitor::visit">
-<area shape="rect" id="node3" href="$classir__variable.html#a7e051d333749b712caf01a880b1ea767" title="Duplicate an IR variable." alt="" coords="189,80,309,107"/>
-<area shape="rect" id="node10" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="555,105,651,132"/>
-<area shape="rect" id="node12" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="201,181,297,208"/>
-<area shape="rect" id="node5" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="369,29,495,56"/>
-<area shape="rect" id="node8" href="$classir__variable.html#ad128688a9c892e6e06d67e2c1bb85530" title="ir_variable::ir_variable" alt="" coords="358,80,506,107"/>
-<area shape="rect" id="node14" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="389,181,475,208"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="pack_float_ARGB8888" name="pack_float_ARGB8888">
-<area shape="rect" id="node3" href="$colormac_8h.html#a4de278245e572697e8793ae33afece0d" title="Convert four float values in [0,1] to ubytes in [0,255] with clamping." alt="" coords="208,5,371,46"/>
-<area shape="rect" id="node5" href="$format__pack_8c.html#a8b35dfe0b2e1eae7b802ab887ace1160" title="pack_ubyte_ARGB8888" alt="" coords="208,71,371,97"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="delete_displaylist_cb" name="delete_displaylist_cb">
-<area shape="rect" id="node3" href="$dlist_8c.html#ab319f7fd55d653655c84a2ec016bf806" title="Delete the named display list, but don&#39;t remove from hash table." alt="" coords="198,31,325,57"/>
-<area shape="rect" id="node5" href="$dlist_8c.html#a746b12c8d54a8444f957a7839fdc33d4" title="Destroy an extended opcode instruction." alt="" coords="373,5,512,32"/>
-<area shape="rect" id="node7" href="$dlist_8c.html#afa78c9111d15aa8657992199431145e1" title="Is the given opcode an extension code?" alt="" coords="389,56,496,83"/>
-</map>

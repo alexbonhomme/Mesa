@@ -1,6 +1,0 @@
-<map id="do_comparison" name="do_comparison">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="199,8,310,35"/>
-<area shape="rect" id="node7" href="$ast__to__hir_8cpp.html#af59315ba19aa94a3e0e81205682c7e05" title="mark_whole_array_access" alt="" coords="166,60,343,87"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="395,5,538,32"/>
-<area shape="rect" id="node9" href="$classir__instruction.html#add7ea08d0e74a9555ba1cfc35aae13dd" title="ir_instruction::as\l_dereference_variable" alt="" coords="392,57,541,98"/>
-</map>

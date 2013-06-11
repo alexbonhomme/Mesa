@@ -1,5 +1,0 @@
-<map id="set_rehash" name="set_rehash">
-<area shape="rect" id="node3" href="$set_8c.html#a25389e534702acc15417d18d3cd854ad" title="Inserts the key with the given hash into the table." alt="" coords="141,5,256,32"/>
-<area shape="rect" id="node7" href="$set_8c.html#af651330a9d9fd19349766e5547685f33" title="entry_is_present" alt="" coords="305,56,423,83"/>
-<area shape="rect" id="node5" href="$set_8c.html#a5df6585a948a7a8eac0403e49599c528" title="entry_is_deleted" alt="" coords="305,5,423,32"/>
-</map>

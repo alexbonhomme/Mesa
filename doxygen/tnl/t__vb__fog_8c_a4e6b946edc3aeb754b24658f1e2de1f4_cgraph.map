@@ -1,5 +1,0 @@
-<map id="run_fog_stage" name="run_fog_stage">
-<area shape="rect" id="node3" href="math.tag$m__vector_8c.html#a259b6290b5d106719c8f1d4c0ca4a9ae" title="_mesa_vector4f_clean_elem" alt="" coords="158,5,346,32"/>
-<area shape="rect" id="node5" href="$t__vb__fog_8c.html#adecc547f504105e568b93610a697a874" title="Compute per&#45;vertex fog blend factors from fog coordinates by evaluating the GL_LINEAR, GL_EXP or GL_EXP2 fog function." alt="" coords="161,56,343,83"/>
-<area shape="rect" id="node7" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="395,56,509,83"/>
-</map>

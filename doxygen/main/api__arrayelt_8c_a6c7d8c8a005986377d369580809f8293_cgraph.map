@@ -1,7 +1,0 @@
-<map id="_ae_update_state" name="_ae_update_state">
-<area shape="rect" id="node3" href="$api__arrayelt_8c.html#ad5b800985e438ee139f7f092ee71d933" title="Cast wrapper." alt="" coords="179,5,290,32"/>
-<area shape="rect" id="node5" href="$api__arrayelt_8c.html#ac59b1bada310a9a303b5952b030b8104" title="Check if the given vertex buffer object exists and is not mapped." alt="" coords="192,56,277,83"/>
-<area shape="rect" id="node11" href="$api__arrayelt_8c.html#a28e07f129a6701240ee09031095468e0" title="TYPE_IDX" alt="" coords="191,107,278,133"/>
-<area shape="rect" id="node7" href="$bufferobj_8h.html#ab72eda6d90203d1498c1a56f04cdaec7" title="Is the given buffer object a user&#45;created buffer object? Mesa uses default buffer objects in several ..." alt="" coords="357,31,491,57"/>
-<area shape="rect" id="node9" href="$bufferobj_8h.html#a4e7902cd5fe928214b14ba8bfea23fa5" title="Is the given buffer object currently mapped?" alt="" coords="339,81,509,108"/>
-</map>

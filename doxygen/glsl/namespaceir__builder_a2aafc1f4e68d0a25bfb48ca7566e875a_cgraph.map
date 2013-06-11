@@ -1,5 +1,0 @@
-<map id="ir_builder::u2f" name="ir_builder::u2f">
-<area shape="rect" id="node3" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="155,5,261,32"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="309,5,405,32"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="454,5,541,32"/>
-</map>

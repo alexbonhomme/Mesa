@@ -1,8 +1,0 @@
-<map id="_mesa_print_framebuffer" name="_mesa_print_framebuffer">
-<area shape="rect" id="node3" href="$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="Return string name of format (for debugging)" alt="" coords="229,19,398,45"/>
-<area shape="rect" id="node7" href="$enums_8c.html#abdb18dc3b4f04477f7716a84b3b0cf82" title="_mesa_lookup_enum_by_nr" alt="" coords="221,95,405,121"/>
-<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="454,5,613,32"/>
-<area shape="rect" id="node9" href="$imports_8c.html#af71e5842b33d803bf28145856440e318" title="Wrapper for bsearch()." alt="" coords="476,56,591,83"/>
-<area shape="rect" id="node11" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="478,107,589,133"/>
-<area shape="rect" id="node13" href="$enums_8c.html#af22d874430f32bf82b02cfdf09b229f1" title="Compare a key enum value to an element in the all_enums array." alt="" coords="492,157,575,184"/>
-</map>

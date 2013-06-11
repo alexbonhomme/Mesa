@@ -1,5 +1,0 @@
-<map id="import_prototype_visitor::visit_enter" name="import_prototype_visitor::visit_enter">
-<area shape="rect" id="node3" href="$structglsl__symbol__table.html#a9e8a838227bb930e8cba5a8bf0945f77" title="glsl_symbol_table::\ladd_function" alt="" coords="217,5,351,46"/>
-<area shape="rect" id="node7" href="$structglsl__symbol__table.html#acfe17374339f5019abc415ac4160e051" title="glsl_symbol_table::\lget_function" alt="" coords="217,70,351,111"/>
-<area shape="rect" id="node5" href="$structglsl__symbol__table.html#a494ef5725a41f9e21fdb112005cda79a" title="Determine whether a name was declared at the current scope." alt="" coords="401,5,581,46"/>
-</map>

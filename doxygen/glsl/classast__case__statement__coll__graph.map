@@ -1,6 +1,0 @@
-<map id="ast_case_statement" name="ast_case_statement">
-<area shape="rect" id="node2" href="$classast__node.html" title="Base class of all abstract syntax tree nodes." alt="" coords="7,128,81,155"/>
-<area shape="rect" id="node7" href="$classast__case__label__list.html" title="ast_case_label_list" alt="" coords="21,219,155,245"/>
-<area shape="rect" id="node4" href="$structexec__node.html" title="exec_node" alt="" coords="56,7,141,33"/>
-<area shape="rect" id="node10" href="$structexec__list.html" title="exec_list" alt="" coords="105,128,180,155"/>
-</map>

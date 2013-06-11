@@ -1,7 +1,0 @@
-<map id="loop_analysis.h" name="loop_analysis.h">
-<area shape="rect" id="node3" href="$glsl__parser__extras_8cpp.html" title="glsl_parser_extras.cpp" alt="" coords="5,80,157,107"/>
-<area shape="rect" id="node5" href="$loop__analysis_8cpp.html" title="loop_analysis.cpp" alt="" coords="182,80,308,107"/>
-<area shape="rect" id="node7" href="$loop__controls_8cpp.html" title="loop_controls.cpp" alt="" coords="333,80,456,107"/>
-<area shape="rect" id="node9" href="$loop__unroll_8cpp.html" title="loop_unroll.cpp" alt="" coords="481,80,591,107"/>
-<area shape="rect" id="node11" href="$main_8cpp.html" title="This file is the main() routine and scaffolding for producing builtin_compiler (which doesn&#39;t include..." alt="" coords="615,80,689,107"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="fxt1_quantize_CHROMA" name="fxt1_quantize_CHROMA">
-<area shape="rect" id="node3" href="$texcompress__fxt1_8c.html#abcb0edf2d66d557950e7334118fa8899" title="fxt1_bestcol" alt="" coords="363,5,456,32"/>
-<area shape="rect" id="node5" href="$texcompress__fxt1_8c.html#a43be7d0cbcd01741c534d0be50110a54" title="fxt1_choose" alt="" coords="221,31,315,57"/>
-<area shape="rect" id="node7" href="$texcompress__fxt1_8c.html#a29e5399c5b7109b9de50a870e1eab2f2" title="fxt1_lloyd" alt="" coords="229,81,307,108"/>
-<area shape="rect" id="node10" href="$texcompress__fxt1_8c.html#ab1836ecb36b73701390da63724447b1e" title="fxt1_worst" alt="" coords="368,81,451,108"/>
-</map>

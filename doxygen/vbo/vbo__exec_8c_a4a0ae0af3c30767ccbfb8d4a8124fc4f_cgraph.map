@@ -1,6 +1,0 @@
-<map id="vbo_exec_destroy" name="vbo_exec_destroy">
-<area shape="rect" id="node3" href="main.tag$api__arrayelt_8c.html#aecb8968edf2d62c0ec70b7bf078ca522" title="_ae_destroy_context" alt="" coords="187,5,330,32"/>
-<area shape="rect" id="node5" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="212,56,305,83"/>
-<area shape="rect" id="node7" href="$vbo__exec_8h.html#a17b509d8818c90e3237ec3099c421e88" title="vbo_exec_vtx_destroy" alt="" coords="182,107,335,133"/>
-<area shape="rect" id="node9" href="main.tag$imports_8c.html#abdb17f722da04091adffe547f2f45485" title="_mesa_align_free" alt="" coords="385,107,509,133"/>
-</map>

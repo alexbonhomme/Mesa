@@ -1,6 +1,0 @@
-<map id="ir_builder::deref" name="ir_builder::deref">
-<area shape="rect" id="node2" href="$classir__dereference.html" title="ir_dereference" alt="" coords="8,240,112,267"/>
-<area shape="rect" id="node4" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="25,163,95,189"/>
-<area shape="rect" id="node6" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="12,85,108,112"/>
-<area shape="rect" id="node8" href="$structexec__node.html" title="exec_node" alt="" coords="17,7,103,33"/>
-</map>

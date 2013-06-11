@@ -1,9 +1,0 @@
-<map id="sample_3d_nearest_mipmap_nearest" name="sample_3d_nearest_mipmap_nearest">
-<area shape="rect" id="node3" href="$s__texfilter_8c.html#a9f4c9a7708d060fda656652873d38e32" title="Compute the nearest mipmap level to take texels from." alt="" coords="243,31,395,57"/>
-<area shape="rect" id="node5" href="$s__texfilter_8c.html#aab6ce6b56cd66e3818d320338ec1b4b7" title="Return the texture sample for coordinate (s,t,r) using GL_NEAREST filter." alt="" coords="251,81,386,108"/>
-<area shape="rect" id="node7" href="$s__texfilter_8c.html#aaee001ef378582d01d8e2f363c908f05" title="When we sample the border color, it must be interpreted according to the base texture format..." alt="" coords="459,5,578,32"/>
-<area shape="rect" id="node9" href="$s__texfilter_8c.html#a39698b8d3f582dbd637c1ba529fbf808" title="Used to compute texel location for nearest sampling." alt="" coords="443,56,595,83"/>
-<area shape="rect" id="node13" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="643,99,794,141"/>
-<area shape="rect" id="node16" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="495,157,542,184"/>
-<area shape="rect" id="node11" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="661,48,776,75"/>
-</map>

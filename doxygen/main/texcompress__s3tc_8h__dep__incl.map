@@ -1,6 +1,0 @@
-<map id="texcompress_s3tc.h" name="texcompress_s3tc.h">
-<area shape="rect" id="node3" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="5,80,80,107"/>
-<area shape="rect" id="node5" href="$texcompress_8c.html" title="Helper functions for texture compression." alt="" coords="105,80,212,107"/>
-<area shape="rect" id="node7" href="$texcompress__s3tc_8c.html" title="GL_EXT_texture_compression_s3tc support." alt="" coords="237,80,376,107"/>
-<area shape="rect" id="node9" href="$texstore_8c.html" title="texstore.c" alt="" coords="401,80,481,107"/>
-</map>

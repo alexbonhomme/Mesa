@@ -1,5 +1,0 @@
-<map id="compressed_tex_size" name="compressed_tex_size">
-<area shape="rect" id="node3" href="$formats_8c.html#aac2766d7a4190133b4b87ae7be599979" title="Return number of bytes needed to store an image of the given size in the given format." alt="" coords="217,5,396,32"/>
-<area shape="rect" id="node7" href="$texcompress_8c.html#a13d1f1a96a724429124b7d4cd0a05b76" title="Convert a compressed MESA_FORMAT_x to a GLenum." alt="" coords="203,57,410,98"/>
-<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="459,5,618,32"/>
-</map>

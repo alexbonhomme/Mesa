@@ -1,5 +1,0 @@
-<map id="ir_loop_jump" name="ir_loop_jump">
-<area shape="rect" id="node2" href="$classir__jump.html" title="ir_jump" alt="" coords="21,163,85,189"/>
-<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="5,85,101,112"/>
-<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="11,7,96,33"/>
-</map>

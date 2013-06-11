@@ -1,6 +1,0 @@
-<map id="ir_dereference_record::clone" name="ir_dereference_record::clone">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="222,5,333,32"/>
-<area shape="rect" id="node7" href="$classir__dereference__record.html#a848678e214acbff9c54d491a28e69a7e" title="ir_dereference_record\l::ir_dereference_record" alt="" coords="200,57,355,98"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="403,5,546,32"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="427,64,523,91"/>
-</map>

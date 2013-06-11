@@ -1,5 +1,0 @@
-<map id="ir_lower_jumps_visitor::lower_return_unconditionally" name="ir_lower_jumps_visitor::lower_return_unconditionally">
-<area shape="rect" id="node3" href="$structir__lower__jumps__visitor.html#a573f9504d6213f992a5e747b9ff27317" title="ir_lower_jumps_visitor\l::get_jump_strength" alt="" coords="250,5,401,46"/>
-<area shape="rect" id="node7" href="$structir__lower__jumps__visitor.html#ac58fd6af73a557cafa1b1852450a5a95" title="Insert the instructions necessary to lower a return statement, before the given return instruction..." alt="" coords="248,70,403,111"/>
-<area shape="rect" id="node5" href="$loop__unroll_8cpp.html#ae56350583ca7c5cf46440b16c0f86632" title="is_break" alt="" coords="451,12,522,39"/>
-</map>

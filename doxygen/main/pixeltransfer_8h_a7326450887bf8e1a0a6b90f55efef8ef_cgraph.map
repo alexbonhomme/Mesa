@@ -1,5 +1,0 @@
-<map id="_mesa_apply_ci_transfer_ops" name="_mesa_apply_ci_transfer_ops">
-<area shape="rect" id="node3" href="$pixeltransfer_8c.html#a86b2e65af4a3427566b3330670b65d34" title="_mesa_shift_and_offset_ci" alt="" coords="248,5,427,32"/>
-<area shape="rect" id="node5" href="$imports_8h.html#aad7b5069338c9d8111ef042e60e5c9bc" title="Convert float to int using a fast method." alt="" coords="304,56,371,83"/>
-<area shape="rect" id="node7" href="$imports_8h.html#a0d1134ea6c35da1e617533ad43be69bf" title="Convert float to int by rounding to nearest integer, away from zero." alt="" coords="475,56,551,83"/>
-</map>

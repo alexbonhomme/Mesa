@@ -1,6 +1,0 @@
-<map id="texture_combine" name="texture_combine">
-<area shape="rect" id="node3" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="202,5,297,32"/>
-<area shape="rect" id="node5" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="192,56,307,83"/>
-<area shape="rect" id="node7" href="$s__texcombine_8c.html#acf49f75d8ace66d37374ee481e1fc82e" title="Return array of texels for given unit." alt="" coords="194,107,305,133"/>
-<area shape="rect" id="node9" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="174,157,325,184"/>
-</map>

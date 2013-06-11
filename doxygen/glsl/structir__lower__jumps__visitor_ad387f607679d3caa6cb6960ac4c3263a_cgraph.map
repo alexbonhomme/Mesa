@@ -1,7 +1,0 @@
-<map id="ir_lower_jumps_visitor::visit" name="ir_lower_jumps_visitor::visit">
-<area shape="rect" id="node3" href="$group__IR.html#ga23274dc074035d8faac3940802f4c088" title="Get the name of the function for which this is a signature." alt="" coords="210,5,353,46"/>
-<area shape="rect" id="node5" href="$structir__lower__jumps__visitor.html#a573f9504d6213f992a5e747b9ff27317" title="ir_lower_jumps_visitor\l::get_jump_strength" alt="" coords="206,70,357,111"/>
-<area shape="rect" id="node9" href="$structir__lower__jumps__visitor.html#a452428f7cf6b45505b0af7d809c1a377" title="ir_lower_jumps_visitor\l::visit_block" alt="" coords="206,135,357,177"/>
-<area shape="rect" id="node7" href="$loop__unroll_8cpp.html#ae56350583ca7c5cf46440b16c0f86632" title="is_break" alt="" coords="438,77,509,104"/>
-<area shape="rect" id="node11" href="$structblock__record.html#a303cfcafc236f49f516badf874185a2f" title="block_record::block\l_record" alt="" coords="406,135,541,177"/>
-</map>

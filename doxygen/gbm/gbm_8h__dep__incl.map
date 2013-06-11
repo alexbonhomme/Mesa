@@ -1,8 +1,0 @@
-<map id="gbm.h" name="gbm.h">
-<area shape="rect" id="node3" href="$gbmint_8h.html" title="Internal implementation details of gbm." alt="" coords="176,80,248,107"/>
-<area shape="rect" id="node9" href="$gbm_8c.html" title="gbm.c" alt="" coords="112,229,171,256"/>
-<area shape="rect" id="node5" href="$backend_8h.html" title="backend.h" alt="" coords="13,155,96,181"/>
-<area shape="rect" id="node11" href="$common_8c.html" title="common.c" alt="" coords="171,155,253,181"/>
-<area shape="rect" id="node13" href="$common__drm_8h.html" title="common_drm.h" alt="" coords="277,155,389,181"/>
-<area shape="rect" id="node7" href="$backend_8c.html" title="backend.c" alt="" coords="5,229,88,256"/>
-</map>

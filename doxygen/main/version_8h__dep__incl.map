@@ -1,6 +1,0 @@
-<map id="version.h" name="version.h">
-<area shape="rect" id="node3" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="5,80,80,107"/>
-<area shape="rect" id="node5" href="$errors_8c.html" title="Mesa debugging and error handling functions." alt="" coords="105,80,172,107"/>
-<area shape="rect" id="node7" href="$imports_8c.html" title="Standard C library function wrappers." alt="" coords="197,80,272,107"/>
-<area shape="rect" id="node9" href="$version_8c.html" title="version.c" alt="" coords="297,80,372,107"/>
-</map>

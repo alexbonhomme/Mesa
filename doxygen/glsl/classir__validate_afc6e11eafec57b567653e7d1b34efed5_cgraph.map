@@ -1,5 +1,0 @@
-<map id="ir_validate::visit_enter" name="ir_validate::visit_enter">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a0dba70a20fff220bec0d555de5931df7" title="ir_rvalue::is_lvalue" alt="" coords="168,5,299,32"/>
-<area shape="rect" id="node5" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="169,56,298,83"/>
-<area shape="rect" id="node7" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="347,56,490,83"/>
-</map>

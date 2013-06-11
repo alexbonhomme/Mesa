@@ -1,5 +1,0 @@
-<map id="_mesa_test_proxy_teximage" name="_mesa_test_proxy_teximage">
-<area shape="rect" id="node3" href="$formats_8c.html#a4a70c919ac21d4406d67b8d70a2215fc" title="Same as _mesa_format_image_size() but returns a 64&#45;bit value to accomodate very large textures..." alt="" coords="248,5,395,46"/>
-<area shape="rect" id="node7" href="$texobj_8h.html#af04d60999c3609f5e128bdf8e36f5b28" title="Return number of faces for a texture target." alt="" coords="243,71,400,97"/>
-<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="449,12,607,39"/>
-</map>

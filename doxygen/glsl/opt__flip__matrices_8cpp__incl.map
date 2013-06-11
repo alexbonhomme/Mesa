@@ -1,9 +1,0 @@
-<map id="opt_flip_matrices.cpp" name="opt_flip_matrices.cpp">
-<area shape="rect" id="node3" href="$ir_8h.html" title="ir.h" alt="" coords="409,80,449,107"/>
-<area shape="rect" id="node37" href="$ir__optimization_8h.html" title="Prototypes for optimization passes to be called by the compiler and drivers." alt="" coords="473,80,591,107"/>
-<area shape="rect" id="node9" href="$ralloc_8h.html" title="ralloc: a recursive memory allocator" alt="" coords="245,229,309,256"/>
-<area shape="rect" id="node19" href="$glsl__types_8h.html" title="glsl_types.h" alt="" coords="431,155,523,181"/>
-<area shape="rect" id="node27" href="$list_8h.html" title="Doubly&#45;linked list abstract container type." alt="" coords="356,155,407,181"/>
-<area shape="rect" id="node32" href="$ir__visitor_8h.html" title="ir_visitor.h" alt="" coords="599,155,681,181"/>
-<area shape="rect" id="node34" href="$ir__hierarchical__visitor_8h.html" title="ir_hierarchical_visitor.h" alt="" coords="705,155,860,181"/>
-</map>

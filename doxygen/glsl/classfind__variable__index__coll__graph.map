@@ -1,8 +1,0 @@
-<map id="find_variable_index" name="find_variable_index">
-<area shape="rect" id="node2" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="5,227,149,253"/>
-<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="69,85,165,112"/>
-<area shape="rect" id="node13" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="134,176,204,203"/>
-<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="75,7,160,33"/>
-<area shape="rect" id="node9" href="$classir__dereference__array.html" title="ir_dereference_array" alt="" coords="115,357,255,384"/>
-<area shape="rect" id="node11" href="$classir__dereference.html" title="ir_dereference" alt="" coords="261,279,365,305"/>
-</map>

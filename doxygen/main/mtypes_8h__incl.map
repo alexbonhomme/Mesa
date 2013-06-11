@@ -1,8 +1,0 @@
-<map id="mtypes.h" name="mtypes.h">
-<area shape="rect" id="node3" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="450,155,564,181"/>
-<area shape="rect" id="node9" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="24,80,123,107"/>
-<area shape="rect" id="node13" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="263,80,383,107"/>
-<area shape="rect" id="node15" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="408,80,534,107"/>
-<area shape="rect" id="node17" href="$formats_8h.html" title="main/formats.h" alt="" coords="588,155,698,181"/>
-<area shape="rect" id="node20" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="558,80,604,107"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="texstore.h" name="texstore.h">
-<area shape="rect" id="node3" href="$mtypes_8h.html" title="Main Mesa data structures." alt="" coords="356,80,431,107"/>
-<area shape="rect" id="node19" href="$formats_8h.html" title="main/formats.h" alt="" coords="630,155,739,181"/>
-<area shape="rect" id="node5" href="$glheader_8h.html" title="Wrapper for GL/gl.h and GL/glext.h." alt="" coords="525,229,639,256"/>
-<area shape="rect" id="node11" href="$config_8h.html" title="Tunable configuration parameters." alt="" coords="24,155,123,181"/>
-<area shape="rect" id="node15" href="math.tag$m__matrix_8h.html" title="math/m_matrix.h" alt="" coords="263,155,383,181"/>
-<area shape="rect" id="node17" href="$simple__list_8h.html" title="Simple macros for type&#45;safe, intrusive lists." alt="" coords="408,155,534,181"/>
-<area shape="rect" id="node22" href="$dd_8h.html" title="Device driver interfaces." alt="" coords="559,155,605,181"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="ir_assignment::set_lhs" name="ir_assignment::set_lhs">
-<area shape="rect" id="node3" href="$classir__instruction.html#a8a801e831b211df2714a86f344d092c0" title="ir_instruction::as\l_dereference" alt="" coords="218,5,337,46"/>
-<area shape="rect" id="node5" href="$classir__instruction.html#abfc61f081e506819dde374e80c8658a5" title="ir_instruction::as\l_swizzle" alt="" coords="218,70,337,111"/>
-<area shape="rect" id="node7" href="$ir_8cpp.html#ad9db89f09faed45063573d2dbd4abf18" title="Modify the swizzle make to move one component to another." alt="" coords="209,136,346,163"/>
-</map>

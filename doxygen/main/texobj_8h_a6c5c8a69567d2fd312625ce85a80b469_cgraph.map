@@ -1,8 +1,0 @@
-<map id="_mesa_total_texture_memory" name="_mesa_total_texture_memory">
-<area shape="rect" id="node3" href="$hash_8c.html#ac1bdad8d2699172748a47f240ab357e2" title="Walk over all entries in a hash table, calling callback function for each." alt="" coords="195,5,325,32"/>
-<area shape="rect" id="node5" href="$texobj_8c.html#a756dee10b99147a8f09374d6e4c0864d" title="Callback called from _mesa_HashWalk()" alt="" coords="205,56,315,83"/>
-<area shape="rect" id="node7" href="$texobj_8c.html#a5ab6e44206589c648d33ccce2cabe5b9" title="Compute the size of the given texture object, in bytes." alt="" coords="373,81,467,108"/>
-<area shape="rect" id="node9" href="$formats_8c.html#aac2766d7a4190133b4b87ae7be599979" title="Return number of bytes needed to store an image of the given size in the given format." alt="" coords="515,56,693,83"/>
-<area shape="rect" id="node13" href="$texobj_8h.html#af04d60999c3609f5e128bdf8e36f5b28" title="Return number of faces for a texture target." alt="" coords="525,107,683,133"/>
-<area shape="rect" id="node11" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="742,56,901,83"/>
-</map>

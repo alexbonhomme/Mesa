@@ -1,9 +1,0 @@
-<map id="vector_insert_visitor" name="vector_insert_visitor">
-<area shape="rect" id="node2" href="$classir__rvalue__visitor.html" title="ir_rvalue_visitor" alt="" coords="22,373,135,400"/>
-<area shape="rect" id="node4" href="$classir__rvalue__base__visitor.html" title="ir_rvalue_base_visitor" alt="" coords="5,283,152,309"/>
-<area shape="rect" id="node6" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="27,205,171,232"/>
-<area shape="rect" id="node8" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="71,85,167,112"/>
-<area shape="rect" id="node10" href="$structexec__node.html" title="exec_node" alt="" coords="136,7,221,33"/>
-<area shape="rect" id="node15" href="$structexec__list.html" title="exec_list" alt="" coords="177,283,252,309"/>
-<area shape="rect" id="node13" href="$classir__builder_1_1ir__factory.html" title="ir_builder::ir_factory" alt="" coords="327,373,463,400"/>
-</map>

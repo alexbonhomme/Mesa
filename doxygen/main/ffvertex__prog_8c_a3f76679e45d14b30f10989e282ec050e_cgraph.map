@@ -1,6 +1,0 @@
-<map id="get_identity_param" name="get_identity_param">
-<area shape="rect" id="node3" href="$ffvertex__prog_8c.html#a149fe5f21d74617c34372cff42ec8cde" title="is_undef" alt="" coords="209,5,279,32"/>
-<area shape="rect" id="node5" href="$ffvertex__prog_8c.html#aecb9cb99b98ce90842ed89fe0c26ba18" title="register_const4f" alt="" coords="187,56,301,83"/>
-<area shape="rect" id="node7" href="$ffvertex__prog_8c.html#a2111246f8a618571f75908d2352e15fc" title="swizzle" alt="" coords="360,31,427,57"/>
-<area shape="rect" id="node9" href="$ffvertex__prog_8c.html#a410b66cff3b6e9e97804daf7b3055c28" title="make_ureg" alt="" coords="350,81,437,108"/>
-</map>

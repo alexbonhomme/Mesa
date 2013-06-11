@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classir__visitor.html" title="Abstract base class of visitors of IR instruction trees." alt="" coords="6,31,77,57"/>
-<area shape="rect" id="node3" href="$classir__control__flow__visitor.html" title="ir_control_flow_visitor" alt="" coords="126,5,274,32"/>
-<area shape="rect" id="node7" href="$classir__print__visitor.html" title="Abstract base class of visitors of IR instruction trees." alt="" coords="149,56,251,83"/>
-<area shape="rect" id="node5" href="$structir__lower__jumps__visitor.html" title="ir_lower_jumps_visitor" alt="" coords="323,5,474,32"/>
-</map>

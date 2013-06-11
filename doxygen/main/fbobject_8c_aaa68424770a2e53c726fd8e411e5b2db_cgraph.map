@@ -1,5 +1,0 @@
-<map id="compatible_resolve_formats" name="compatible_resolve_formats">
-<area shape="rect" id="node3" href="$glformats_8c.html#abb00c571e03074238f54bb3f51d16be6" title="Convert an sRGB internal format to linear." alt="" coords="189,5,400,32"/>
-<area shape="rect" id="node5" href="$glformats_8c.html#a77a26636c590fac8bf61d161d4c7183d" title="Return the equivalent non&#45;generic internal format." alt="" coords="217,57,373,98"/>
-<area shape="rect" id="node7" href="$formats_8c.html#a8de37ddf1bdc6c7e29a67d5e67153e70" title="For an sRGB format, return the corresponding linear color space format." alt="" coords="213,122,376,163"/>
-</map>

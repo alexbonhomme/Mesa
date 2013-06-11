@@ -1,9 +1,0 @@
-<map id="fetch_rgba_dxt5" name="fetch_rgba_dxt5">
-<area shape="rect" id="node3" href="$texcompress__s3tc_8c.html#ade98625724136ee47e1fb2dfe8f838c7" title="Report problem with dxt texture decompression, once." alt="" coords="169,56,237,83"/>
-<area shape="rect" id="node5" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="286,56,389,83"/>
-<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="438,5,557,32"/>
-<area shape="rect" id="node9" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="440,56,555,83"/>
-<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="474,107,521,133"/>
-<area shape="rect" id="node11" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="608,31,715,57"/>
-<area shape="rect" id="node13" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="606,81,717,108"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="put_s8_values" name="put_s8_values">
-<area shape="rect" id="node3" href="main.tag$format__pack_8c.html#a2cf0cd42a31bff9431ebb853d3071a79" title="_mesa_get_pack_ubyte\l_stencil_func" alt="" coords="160,5,320,46"/>
-<area shape="rect" id="node5" href="$s__context_8h.html#a52ee360f385598e7861b6a5bb45b532b" title="Return the address of a pixel value in a mapped renderbuffer." alt="" coords="163,71,317,97"/>
-<area shape="rect" id="node7" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="369,45,538,72"/>
-<area shape="rect" id="node9" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="385,96,522,123"/>
-</map>

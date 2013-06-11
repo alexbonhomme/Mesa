@@ -1,5 +1,0 @@
-<map id="ir_dereference_record::ir_dereference_record" name="ir_dereference_record::ir_dereference_record">
-<area shape="rect" id="node3" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="208,5,304,32"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="208,56,304,83"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="353,5,439,32"/>
-</map>

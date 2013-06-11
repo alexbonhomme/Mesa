@@ -1,8 +1,0 @@
-<map id="ir_vec_index_to_swizzle_visitor::visit_enter" name="ir_vec_index_to_swizzle_visitor::visit_enter">
-<area shape="rect" id="node3" href="$classir__vec__index__to__swizzle__visitor.html#a39a5848cdfc47d4e1990f27cc4850170" title="ir_vec_index_to_swizzle\l_visitor::convert_vector\l_extract_to_swizzle" alt="" coords="219,92,383,148"/>
-<area shape="rect" id="node5" href="$classir__instruction.html#a3bb172722273de2b95867300882e7498" title="ir_instruction::as\l_expression" alt="" coords="438,5,557,46"/>
-<area shape="rect" id="node7" href="$classir__rvalue.html#a85187845a3fde87f8951bc6b2dcf3c76" title="ir_rvalue::constant\l_expression_value" alt="" coords="432,70,563,111"/>
-<area shape="rect" id="node9" href="$namespaceir__builder.html#a048b56be6e086b54f02bd81c55e1320d" title="ir_builder::expr" alt="" coords="444,136,551,163"/>
-<area shape="rect" id="node11" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="611,161,707,188"/>
-<area shape="rect" id="node13" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="755,161,842,188"/>
-</map>

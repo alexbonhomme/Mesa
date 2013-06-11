@@ -1,7 +1,0 @@
-<map id="sample_2d_linear_repeat" name="sample_2d_linear_repeat">
-<area shape="rect" id="node3" href="$s__texfilter_8c.html#a41a405eccf4aa67cf9307ae72165c2df" title="Do bilinear interpolation of colors." alt="" coords="249,5,345,32"/>
-<area shape="rect" id="node7" href="$s__texfilter_8c.html#a4c124daec69ecb5b5e79ff99c3c776a9" title="linear_repeat_texel\l_location" alt="" coords="232,57,363,98"/>
-<area shape="rect" id="node9" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="222,122,373,163"/>
-<area shape="rect" id="node11" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="274,188,321,215"/>
-<area shape="rect" id="node5" href="$s__texfilter_8c.html#a15eedbaa0188ce45b6b458c6aa567360" title="Do 2D/biliner interpolation of float values." alt="" coords="421,5,485,32"/>
-</map>

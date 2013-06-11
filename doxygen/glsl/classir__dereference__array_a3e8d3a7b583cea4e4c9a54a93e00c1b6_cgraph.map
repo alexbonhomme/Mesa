@@ -1,5 +1,0 @@
-<map id="ir_dereference_array::clone" name="ir_dereference_array::clone">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="214,5,325,32"/>
-<area shape="rect" id="node7" href="$classir__dereference__array.html#af2918c014f907ac817d14dcc79132b76" title="ir_dereference_array\l::ir_dereference_array" alt="" coords="195,57,343,98"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="393,5,535,32"/>
-</map>

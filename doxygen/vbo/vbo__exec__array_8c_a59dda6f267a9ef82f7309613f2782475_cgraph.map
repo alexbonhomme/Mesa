@@ -1,5 +1,0 @@
-<map id="vbo_get_minmax_indices" name="vbo_get_minmax_indices">
-<area shape="rect" id="node3" href="$vbo__exec__array_8c.html#a32bc08d75b50eb40967b4d211e2eda2f" title="Compute min and max elements by scanning the index buffer for glDraw[Range]Elements() calls..." alt="" coords="225,41,383,68"/>
-<area shape="rect" id="node5" href="main.tag$varray_8c.html#a79f982b5c961f5df7a849c3234676da6" title="_mesa_primitive_restart\l_index" alt="" coords="433,5,594,46"/>
-<area shape="rect" id="node7" href="$vbo_8h.html#a2b210ac8168d440371a8dd6186444b83" title="vbo_sizeof_ib_type" alt="" coords="446,71,581,97"/>
-</map>

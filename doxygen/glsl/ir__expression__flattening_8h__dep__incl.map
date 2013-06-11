@@ -1,6 +1,0 @@
-<map id="ir_expression_flattening.h" name="ir_expression_flattening.h">
-<area shape="rect" id="node3" href="$ir__expression__flattening_8cpp.html" title="Takes the leaves of expression trees and makes them dereferences of assignments of the leaves to temp..." alt="" coords="5,80,189,107"/>
-<area shape="rect" id="node5" href="$lower__mat__op__to__vec_8cpp.html" title="Breaks matrix operation expressions down to a series of vector operations." alt="" coords="214,80,388,107"/>
-<area shape="rect" id="node7" href="$opt__dead__functions_8cpp.html" title="Eliminates unused functions from the linked program." alt="" coords="413,80,573,107"/>
-<area shape="rect" id="node9" href="$opt__function__inlining_8cpp.html" title="Replaces calls to functions with the body of the function." alt="" coords="597,80,763,107"/>
-</map>

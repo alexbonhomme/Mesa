@@ -1,8 +1,0 @@
-<map id="dump_texture" name="dump_texture">
-<area shape="rect" id="node3" href="$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="Return string name of format (for debugging)" alt="" coords="155,5,325,32"/>
-<area shape="rect" id="node7" href="$debug_8c.html#ad06f2cb2e050150dd4720f02ec56d47e" title="tex_target_name" alt="" coords="181,56,299,83"/>
-<area shape="rect" id="node9" href="$debug_8c.html#a6bbae33a9309a1e584991d75b6de4fc3" title="Write a texture image to a ppm file." alt="" coords="171,107,309,133"/>
-<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="374,5,533,32"/>
-<area shape="rect" id="node11" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="398,81,509,108"/>
-<area shape="rect" id="node13" href="$debug_8c.html#a5b5055e3e22beceabe9f0fc4d960c0f6" title="write_ppm" alt="" coords="412,132,495,159"/>
-</map>

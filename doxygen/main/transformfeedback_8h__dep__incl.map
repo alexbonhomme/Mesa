@@ -1,9 +1,0 @@
-<map id="transformfeedback.h" name="transformfeedback.h">
-<area shape="rect" id="node3" href="$api__exec_8c.html" title="Initialize dispatch table." alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node5" href="$api__validate_8c.html" title="api_validate.c" alt="" coords="115,80,217,107"/>
-<area shape="rect" id="node7" href="$bufferobj_8c.html" title="Functions for the GL_ARB_vertex/pixel_buffer_object extensions." alt="" coords="243,80,325,107"/>
-<area shape="rect" id="node9" href="$context_8c.html" title="Mesa context/visual/framebuffer management functions." alt="" coords="350,80,425,107"/>
-<area shape="rect" id="node11" href="$dlist_8c.html" title="Display lists management functions." alt="" coords="450,80,507,107"/>
-<area shape="rect" id="node13" href="$shaderapi_8c.html" title="shaderapi.c" alt="" coords="531,80,620,107"/>
-<area shape="rect" id="node15" href="$transformfeedback_8c.html" title="transformfeedback.c" alt="" coords="645,80,787,107"/>
-</map>

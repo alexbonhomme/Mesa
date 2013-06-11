@@ -1,4 +1,0 @@
-<map id="initialize_context" name="initialize_context">
-<area shape="rect" id="node3" href="$builtin__function_8cpp.html#a167d722df1056642076cfc949682c56b" title="_mesa_new_shader" alt="" coords="173,5,312,32"/>
-<area shape="rect" id="node5" href="$standalone__scaffolding_8cpp.html#a8dc2928df05557a1956ee64d16a3df77" title="Initialize the given gl_context structure to a reasonable set of defaults representing the minimum ca..." alt="" coords="183,57,302,98"/>
-</map>

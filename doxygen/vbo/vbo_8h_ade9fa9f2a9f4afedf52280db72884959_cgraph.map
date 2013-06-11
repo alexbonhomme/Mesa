@@ -1,8 +1,0 @@
-<map id="vbo_bind_arrays" name="vbo_bind_arrays">
-<area shape="rect" id="node3" href="main.tag$state_8c.html#a3301225e22fcaa49441fdc750c090313" title="_mesa_update_state" alt="" coords="187,5,330,32"/>
-<area shape="rect" id="node5" href="$vbo__exec__array_8c.html#a6231460e523ca7dab1db53af9252a736" title="Set the vbo&#45;&gt;exec&#45;&gt;inputs[] pointers to point to the enabled vertex arrays." alt="" coords="171,107,346,133"/>
-<area shape="rect" id="node7" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="427,56,520,83"/>
-<area shape="rect" id="node14" href="$vbo__context_8h.html#a9b5d7d49acd805180833d1939d486688" title="This is called by glBegin, glDrawArrays and glDrawElements (and variations of those calls)..." alt="" coords="195,157,323,184"/>
-<area shape="rect" id="node9" href="$vbo__context_8h.html#aaf664a10bf7bc6ab5ffc7325c30b80d2" title="Return VP_x token to indicate whether we&#39;re running fixed&#45;function vertex transformation, an NV vertex program or ARB vertex program/shader." alt="" coords="407,107,540,133"/>
-<area shape="rect" id="node11" href="main.tag$state_8c.html#a5effa322de7d372e8ed298d8d3ca441d" title="_mesa_set_varying_vp\l_inputs" alt="" coords="395,158,551,199"/>
-</map>

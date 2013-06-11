@@ -1,6 +1,0 @@
-<map id="_swrast_clear_depth_stencil_buffer" name="_swrast_clear_depth_stencil_buffer">
-<area shape="rect" id="node3" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="235,5,330,32"/>
-<area shape="rect" id="node5" href="main.tag$formats_8c.html#a144eb82fb6821c98ee86c0d6d59b9013" title="_mesa_get_format_name" alt="" coords="198,56,367,83"/>
-<area shape="rect" id="node7" href="main.tag$format__pack_8c.html#ab45f24a73021d2cc0c3ebb6f8e177f33" title="_mesa_pack_float_z_row" alt="" coords="197,107,368,133"/>
-<area shape="rect" id="node9" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="225,157,340,184"/>
-</map>

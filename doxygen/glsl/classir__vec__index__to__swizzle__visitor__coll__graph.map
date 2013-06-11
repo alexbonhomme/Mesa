@@ -1,5 +1,0 @@
-<map id="ir_vec_index_to_swizzle_visitor" name="ir_vec_index_to_swizzle_visitor">
-<area shape="rect" id="node2" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="15,176,159,203"/>
-<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="39,85,135,112"/>
-<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="44,7,129,33"/>
-</map>

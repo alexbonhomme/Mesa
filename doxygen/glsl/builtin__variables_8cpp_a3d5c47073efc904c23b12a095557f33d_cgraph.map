@@ -1,5 +1,0 @@
-<map id="generate_ARB_shader_stencil_export_variables" name="generate_ARB_shader_stencil_export_variables">
-<area shape="rect" id="node3" href="$builtin__variables_8cpp.html#af4c824c8d43fbdf4db386acb0d595fc6" title="add_variable" alt="" coords="225,12,319,39"/>
-<area shape="rect" id="node5" href="$structglsl__symbol__table.html#a4e6616fba10268abcdb8634522746c1f" title="glsl_symbol_table::\ladd_variable" alt="" coords="369,5,503,46"/>
-<area shape="rect" id="node7" href="$structglsl__symbol__table.html#a494ef5725a41f9e21fdb112005cda79a" title="Determine whether a name was declared at the current scope." alt="" coords="553,5,733,46"/>
-</map>

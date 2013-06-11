@@ -1,6 +1,0 @@
-<map id="choose_emit_func" name="choose_emit_func">
-<area shape="rect" id="node3" href="$t__vertex_8h.html#a9c4c29ce7ff248fd8e861a8d8a027c99" title="_tnl_generate_hardwired_emit" alt="" coords="181,5,376,32"/>
-<area shape="rect" id="node5" href="$t__vertex_8h.html#ab2cbdbdeb80e85d0617e6fe9765fd760" title="_tnl_generic_emit" alt="" coords="217,56,341,83"/>
-<area shape="rect" id="node7" href="$t__vertex_8c.html#a156c6b6d7a95eec47de3f3392774ad5f" title="search_fastpath_emit" alt="" coords="205,107,352,133"/>
-<area shape="rect" id="node9" href="$t__vertex_8c.html#a0b2b3c5e568c1912a6eb1ec989133be9" title="match_fastpath" alt="" coords="424,107,536,133"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="fetch_texel_deriv" name="fetch_texel_deriv">
-<area shape="rect" id="node3" href="$s__span_8c.html#a7343b7351767f8a9f56968832b9d1a51" title="Compute mipmap LOD from partial derivatives." alt="" coords="177,5,351,32"/>
-<area shape="rect" id="node5" href="$s__fragprog_8c.html#ac8bb994c71b60e3d3af32b4f01efb394" title="Apply texture object&#39;s swizzle (X/Y/Z/W/0/1) to incoming &#39;texel&#39; and return results in &#39;colorOut&#39;..." alt="" coords="213,56,315,83"/>
-<area shape="rect" id="node7" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="189,107,339,133"/>
-<area shape="rect" id="node9" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="189,158,339,199"/>
-</map>

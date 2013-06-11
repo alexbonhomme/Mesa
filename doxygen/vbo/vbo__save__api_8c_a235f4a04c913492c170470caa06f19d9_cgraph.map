@@ -1,9 +1,0 @@
-<map id="_save_OBE_DrawArrays" name="_save_OBE_DrawArrays">
-<area shape="rect" id="node3" href="main.tag$api__arrayelt_8c.html#a72c4424a0774661e4c1d3aecebd660ac" title="_ae_map_vbos" alt="" coords="258,5,369,32"/>
-<area shape="rect" id="node5" href="main.tag$api__arrayelt_8c.html#ade4acf3c6bf94e0550c860984cdfa997" title="_ae_unmap_vbos" alt="" coords="251,56,375,83"/>
-<area shape="rect" id="node7" href="main.tag$dlist_8c.html#ae016d2129ffd891dc7e95c3714b95adb" title="_mesa_compile_error" alt="" coords="240,107,387,133"/>
-<area shape="rect" id="node9" href="main.tag$api__validate_8c.html#a5c87fac373d5469f704fa229689a1a87" title="_mesa_is_valid_prim_mode" alt="" coords="222,157,405,184"/>
-<area shape="rect" id="node11" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="476,208,569,235"/>
-<area shape="rect" id="node13" href="$vbo__save_8h.html#ad9cfca39189c1007f2cd05db6c17fe05" title="Called via ctx&#45;&gt;Driver.NotifySaveBegin() when a glBegin is getting compiled into a display list..." alt="" coords="237,259,390,285"/>
-<area shape="rect" id="node15" href="main.tag$vtxfmt_8c.html#ae345e0f57720a7d8c8c3dc1f29ae45b8" title="_mesa_install_save\l_vtxfmt" alt="" coords="454,259,591,301"/>
-</map>

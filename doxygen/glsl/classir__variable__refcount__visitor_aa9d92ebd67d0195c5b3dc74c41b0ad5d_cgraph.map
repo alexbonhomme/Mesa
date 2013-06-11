@@ -1,4 +1,0 @@
-<map id="ir_variable_refcount_visitor::visit_leave" name="ir_variable_refcount_visitor::visit_leave">
-<area shape="rect" id="node3" href="$classir__variable__refcount__visitor.html#a720f25a89d5adf97fcdc5791197124bd" title="ir_variable_refcount\l_visitor::get_variable_entry" alt="" coords="189,5,368,46"/>
-<area shape="rect" id="node5" href="$classir__dereference.html#a6e7d1a6d61675f85f95c5bb5631d82d3" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="200,70,357,111"/>
-</map>

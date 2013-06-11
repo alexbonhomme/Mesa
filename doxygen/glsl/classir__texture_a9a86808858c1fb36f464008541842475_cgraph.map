@@ -1,6 +1,0 @@
-<map id="ir_texture::clone" name="ir_texture::clone">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a18f98a604976cec292b4eff0d5e2141c" title="ir_rvalue::clone" alt="" coords="185,5,295,32"/>
-<area shape="rect" id="node7" href="$classir__dereference.html#a1afbd2387a38b8af22320ab07ccf1f74" title="ir_dereference::clone" alt="" coords="169,56,311,83"/>
-<area shape="rect" id="node9" href="$classir__texture.html#aa4528cb91624fa808af6fee7c810e00e" title="ir_texture::ir_texture" alt="" coords="171,107,309,133"/>
-<area shape="rect" id="node5" href="$classir__rvalue.html#af49d4fa1d1c38a862c3a39fe1a709c0c" title="Return a generic value of error_type." alt="" coords="361,5,503,32"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="call_for_basic_blocks" name="call_for_basic_blocks">
-<area shape="rect" id="node3" href="$classir__instruction.html#ab9b5054185adf8b60331bdc919462633" title="ir_instruction::as_call" alt="" coords="399,5,545,32"/>
-<area shape="rect" id="node5" href="$classir__instruction.html#a8ad7b88149bc9f028f7bf7f52f48e7c3" title="ir_instruction::as\l_function" alt="" coords="413,71,531,113"/>
-<area shape="rect" id="node7" href="$classir__instruction.html#ab535e6cbf92548da00fdfe821bcceffb" title="ir_instruction::as_if" alt="" coords="406,167,538,193"/>
-<area shape="rect" id="node9" href="$classir__instruction.html#af63dce16af60db5d94f764428b7d8a28" title="ir_instruction::as_jump" alt="" coords="395,224,549,251"/>
-<area shape="rect" id="node11" href="$classir__instruction.html#a052b6aadaec22eaa9bd32db993f3dd9f" title="ir_instruction::as_loop" alt="" coords="397,275,547,301"/>
-<area shape="rect" id="node13" href="$ir__basic__block_8cpp.html#a3f98f9cf58c30c2edcb7c02149fa8821" title="Calls a user function for every basic block in the instruction stream." alt="" coords="200,127,347,153"/>
-</map>

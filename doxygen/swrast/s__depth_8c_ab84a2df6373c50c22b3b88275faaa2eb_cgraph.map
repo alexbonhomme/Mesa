@@ -1,6 +1,0 @@
-<map id="get_z32_values" name="get_z32_values">
-<area shape="rect" id="node3" href="main.tag$formats_8c.html#a07312a9ce9250ab108cd90d05966fbf7" title="_mesa_get_format_bytes" alt="" coords="398,55,567,82"/>
-<area shape="rect" id="node5" href="main.tag$format__unpack_8c.html#aa936324a446cb2898d160193f4085b06" title="_mesa_unpack_uint_z_row" alt="" coords="169,30,349,57"/>
-<area shape="rect" id="node7" href="$s__context_8h.html#a52ee360f385598e7861b6a5bb45b532b" title="Return the address of a pixel value in a mapped renderbuffer." alt="" coords="181,81,336,107"/>
-<area shape="rect" id="node10" href="$s__context_8h.html#ae72cfd5aa519a7be7cdaa2d92edd6b9d" title="cast wrapper" alt="" coords="414,118,551,145"/>
-</map>

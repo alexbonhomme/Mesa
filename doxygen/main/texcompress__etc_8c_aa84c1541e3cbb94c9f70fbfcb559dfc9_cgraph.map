@@ -1,9 +1,0 @@
-<map id="fetch_etc1_rgb8" name="fetch_etc1_rgb8">
-<area shape="rect" id="node3" href="$texcompress__etc__tmp_8h.html#a23f52bcf2a0fef2396f0d517195ba393" title="etc1_fetch_texel" alt="" coords="171,31,290,57"/>
-<area shape="rect" id="node7" href="$texcompress__etc__tmp_8h.html#a399446f9bed4a85f2cd9e3a912e8010a" title="etc1_parse_block" alt="" coords="169,107,293,133"/>
-<area shape="rect" id="node5" href="$texcompress__etc__tmp_8h.html#ade74ca5c6725e998d1ffccc48e25deb5" title="etc1_clamp" alt="" coords="377,5,466,32"/>
-<area shape="rect" id="node9" href="$texcompress__etc__tmp_8h.html#af5733f43a0ad0c51ba31853607d5909e" title="etc1_base_color_diff_hi" alt="" coords="342,56,501,83"/>
-<area shape="rect" id="node11" href="$texcompress__etc__tmp_8h.html#aaf24bc4d410f236db5cdd5e1662df240" title="etc1_base_color_diff_lo" alt="" coords="342,107,501,133"/>
-<area shape="rect" id="node13" href="$texcompress__etc__tmp_8h.html#aa40caad577a097c065b526fcedb75741" title="etc1_base_color_ind_hi" alt="" coords="342,157,501,184"/>
-<area shape="rect" id="node15" href="$texcompress__etc__tmp_8h.html#af9626af0112c2277f019f0fc78ef279e" title="etc1_base_color_ind_lo" alt="" coords="342,208,501,235"/>
-</map>

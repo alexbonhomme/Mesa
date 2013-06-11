@@ -1,8 +1,0 @@
-<map id="ast_struct_specifier::ast_struct_specifier" name="ast_struct_specifier::ast_struct_specifier">
-<area shape="rect" id="node3" href="$ralloc_8c.html#a59d30deb8469f39591e3edb73c7b3709" title="ralloc_asprintf" alt="" coords="198,31,301,57"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="350,31,461,57"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="509,5,603,32"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="514,56,598,83"/>
-<area shape="rect" id="node11" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="656,31,733,57"/>
-<area shape="rect" id="node13" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="651,81,738,108"/>
-</map>

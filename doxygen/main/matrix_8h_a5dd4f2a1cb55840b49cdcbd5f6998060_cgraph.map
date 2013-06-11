@@ -1,7 +1,0 @@
-<map id="_mesa_update_modelview_project" name="_mesa_update_modelview_project">
-<area shape="rect" id="node3" href="math.tag$m__matrix_8c.html#a2dbf9ed3e4980c01f46b5cd373e061c9" title="_math_matrix_analyse" alt="" coords="450,71,603,97"/>
-<area shape="rect" id="node5" href="$matrix_8c.html#af8c12f90796c2da00ee5ca2f6a2225ac" title="Calculate the combined modelview&#45;projection matrix." alt="" coords="229,5,392,46"/>
-<area shape="rect" id="node10" href="$matrix_8c.html#a816e124df62bff9cb9488d7b9e07f0b9" title="Update the projection matrix stack." alt="" coords="249,121,373,148"/>
-<area shape="rect" id="node8" href="math.tag$m__matrix_8c.html#ab0a51de0408c7005807f5004abdf89d1" title="_math_matrix_mul_matrix" alt="" coords="441,12,613,39"/>
-<area shape="rect" id="node13" href="math.tag$m__matrix_8c.html#a76107f653a970333c78b6285ce3ede9e" title="_mesa_transform_vector" alt="" coords="443,121,610,148"/>
-</map>

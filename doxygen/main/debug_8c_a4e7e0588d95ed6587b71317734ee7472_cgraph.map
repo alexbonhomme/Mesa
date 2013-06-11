@@ -1,8 +1,0 @@
-<map id="_mesa_print_state" name="_mesa_print_state">
-<area shape="rect" id="node3" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="185,56,287,83"/>
-<area shape="rect" id="node5" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="337,5,455,32"/>
-<area shape="rect" id="node7" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="339,56,453,83"/>
-<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="373,107,419,133"/>
-<area shape="rect" id="node9" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="507,31,613,57"/>
-<area shape="rect" id="node11" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="505,81,615,108"/>
-</map>

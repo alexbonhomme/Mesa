@@ -1,5 +1,0 @@
-<map id="ir_builder::swizzle_z" name="ir_builder::swizzle_z">
-<area shape="rect" id="node3" href="$namespaceir__builder.html#a559a4ac16831f7343a7216cd3f94ca76" title="ir_builder::swizzle" alt="" coords="195,5,322,32"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="371,5,467,32"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="515,5,602,32"/>
-</map>

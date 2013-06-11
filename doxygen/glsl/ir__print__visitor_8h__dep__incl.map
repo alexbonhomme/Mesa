@@ -1,9 +1,0 @@
-<map id="ir_print_visitor.h" name="ir_print_visitor.h">
-<area shape="rect" id="node3" href="$ir__print__visitor_8cpp.html" title="ir_print_visitor.cpp" alt="" coords="5,80,133,107"/>
-<area shape="rect" id="node5" href="$ir__rvalue__visitor_8cpp.html" title="Generic class to implement the common pattern we have of wanting to visit each ir_rvalue * and possib..." alt="" coords="157,80,296,107"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="This file is the main() routine and scaffolding for producing builtin_compiler (which doesn&#39;t include..." alt="" coords="320,80,395,107"/>
-<area shape="rect" id="node9" href="$opt__array__splitting_8cpp.html" title="If an array is always dereferenced with a constant index, then split it apart into its elements..." alt="" coords="419,80,572,107"/>
-<area shape="rect" id="node11" href="$opt__noop__swizzle_8cpp.html" title="If a swizzle doesn&#39;t change the order or count of components, then remove the swizzle so that other o..." alt="" coords="597,80,747,107"/>
-<area shape="rect" id="node13" href="$opt__structure__splitting_8cpp.html" title="If a structure is only ever referenced by its components, then split those components out to individu..." alt="" coords="771,80,945,107"/>
-<area shape="rect" id="node15" href="$test__optpass_8cpp.html" title="Standalone test for optimization passes." alt="" coords="971,80,1093,107"/>
-</map>

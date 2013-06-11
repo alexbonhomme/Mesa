@@ -1,6 +1,0 @@
-<map id="_mesa_WindowPos2iv" name="_mesa_WindowPos2iv">
-<area shape="rect" id="node3" href="$rastpos_8c.html#a85e8b488524d8027b239bc6497ed144d" title="window_pos4f" alt="" coords="209,31,314,57"/>
-<area shape="rect" id="node5" href="$rastpos_8c.html#ad5c6949847a653e242944d2724e68649" title="All glWindowPosMESA and glWindowPosARB commands call this function to update the current raster posit..." alt="" coords="363,31,469,57"/>
-<area shape="rect" id="node7" href="$feedback_8c.html#aa6b638d2aaa5dba8ce3c86743187e00d" title="Update the hit flag and the maximum and minimum depth values." alt="" coords="517,5,667,32"/>
-<area shape="rect" id="node9" href="$macros_8h.html#ab026e58126c71e24a89c9f50413d3da7" title="Copy a 4&#45;element float vector." alt="" coords="547,56,637,83"/>
-</map>

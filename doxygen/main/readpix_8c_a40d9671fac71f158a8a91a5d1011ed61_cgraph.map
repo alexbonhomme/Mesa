@@ -1,7 +1,0 @@
-<map id="read_pixels_es3_error_check" name="read_pixels_es3_error_check">
-<area shape="rect" id="node3" href="$formats_8c.html#a3ffef8fc5049d798ddfa4d6f2eb54753" title="Return the data type (or more specifically, the data representation) for the given format..." alt="" coords="203,5,389,32"/>
-<area shape="rect" id="node7" href="$glformats_8c.html#a7665bd788fd157a5b098b9c71cd46e7b" title="Test if the given image format is a color/RGBA format (i.e., not color index, depth, stencil, etc)." alt="" coords="217,56,375,83"/>
-<area shape="rect" id="node9" href="$glformats_8c.html#ac1e084cf779e95616577d1025b746335" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="215,107,377,149"/>
-<area shape="rect" id="node11" href="$glformats_8c.html#a4cee69245a886dbf9ed7be8533ffcedf" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="215,173,377,214"/>
-<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="438,5,597,32"/>
-</map>

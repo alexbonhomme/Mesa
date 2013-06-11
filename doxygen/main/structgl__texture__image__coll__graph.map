@@ -1,6 +1,0 @@
-<map id="gl_texture_image" name="gl_texture_image">
-<area shape="rect" id="node2" href="$structgl__texture__object.html" title="Texture object state." alt="" coords="113,187,233,213"/>
-<area shape="rect" id="node4" href="$structgl__buffer__object.html" title="GL_ARB_vertex/pixel_buffer_object buffer object." alt="" coords="164,96,279,123"/>
-<area shape="rect" id="node7" href="$structgl__sampler__object.html" title="Sampler object state." alt="" coords="303,96,429,123"/>
-<area shape="rect" id="node9" href="$uniongl__color__union.html" title="Used for storing clear color, texture border color, etc." alt="" coords="314,5,419,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="function::operator new" name="function::operator new">
-<area shape="rect" id="node3" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="206,31,290,57"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="344,5,421,32"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="339,56,426,83"/>
-</map>

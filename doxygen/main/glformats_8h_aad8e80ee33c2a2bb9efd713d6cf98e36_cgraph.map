@@ -1,6 +1,0 @@
-<map id="_mesa_is_enum_format_or_type_integer" name="_mesa_is_enum_format_or_type_integer">
-<area shape="rect" id="node3" href="$glformats_8c.html#afff83fe89a1a782a0a429094628de922" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="217,38,378,79"/>
-<area shape="rect" id="node9" href="$glformats_8c.html#aa127d32ef6c09459fc6a4ae814202f43" title="Test if the given type is an integer (non&#45;normalized) format." alt="" coords="219,104,375,131"/>
-<area shape="rect" id="node5" href="$glformats_8c.html#ac1e084cf779e95616577d1025b746335" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="427,5,589,46"/>
-<area shape="rect" id="node7" href="$glformats_8c.html#a4cee69245a886dbf9ed7be8533ffcedf" title="Test if the given format is an integer (non&#45;normalized) format." alt="" coords="427,70,589,111"/>
-</map>

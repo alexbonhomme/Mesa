@@ -1,6 +1,0 @@
-<map id="etc1_parse_block" name="etc1_parse_block">
-<area shape="rect" id="node3" href="$texcompress__etc__tmp_8h.html#af5733f43a0ad0c51ba31853607d5909e" title="etc1_base_color_diff_hi" alt="" coords="179,5,338,32"/>
-<area shape="rect" id="node5" href="$texcompress__etc__tmp_8h.html#aaf24bc4d410f236db5cdd5e1662df240" title="etc1_base_color_diff_lo" alt="" coords="179,56,338,83"/>
-<area shape="rect" id="node7" href="$texcompress__etc__tmp_8h.html#aa40caad577a097c065b526fcedb75741" title="etc1_base_color_ind_hi" alt="" coords="179,107,338,133"/>
-<area shape="rect" id="node9" href="$texcompress__etc__tmp_8h.html#af9626af0112c2277f019f0fc78ef279e" title="etc1_base_color_ind_lo" alt="" coords="179,157,338,184"/>
-</map>

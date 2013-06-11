@@ -1,8 +1,0 @@
-<map id="_swrast_texture_span" name="_swrast_texture_span">
-<area shape="rect" id="node3" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="402,5,497,32"/>
-<area shape="rect" id="node5" href="$s__texcombine_8c.html#acf49f75d8ace66d37374ee481e1fc82e" title="Return array of texels for given unit." alt="" coords="394,56,505,83"/>
-<area shape="rect" id="node7" href="$s__texcombine_8c.html#a1a3a790e46cd269dba35947581c0848d" title="Apply X/Y/Z/W/0/1 swizzle to an array of colors/texels." alt="" coords="211,208,319,235"/>
-<area shape="rect" id="node9" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="374,157,525,184"/>
-<area shape="rect" id="node11" href="$s__texcombine_8c.html#a12e0e8f2e372b2338d236e98ec88e29c" title="Do texture application for: GL_EXT_texture_env_combine GL_ARB_texture_env_combine GL_EXT_texture_env_..." alt="" coords="206,107,325,133"/>
-<area shape="rect" id="node16" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="392,107,507,133"/>
-</map>

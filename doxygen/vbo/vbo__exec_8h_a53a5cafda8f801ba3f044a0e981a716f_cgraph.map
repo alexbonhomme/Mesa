@@ -1,8 +1,0 @@
-<map id="vbo_exec_BeginVertices" name="vbo_exec_BeginVertices">
-<area shape="rect" id="node3" href="$vbo__context_8h.html#ad2565177b844c6d6807efd2db35f18b9" title="vbo_context" alt="" coords="243,13,336,40"/>
-<area shape="rect" id="node5" href="$vbo__exec_8h.html#a5156ff396b59e14a648a32c712eeb7fe" title="Map the vertex buffer to begin storing glVertex, glColor, etc data." alt="" coords="222,64,357,91"/>
-<area shape="rect" id="node7" href="main.tag$errors_8c.html#aeb37ff435d2815d8cb8e33013596dcb2" title="_mesa_error" alt="" coords="447,5,542,32"/>
-<area shape="rect" id="node9" href="main.tag$vtxfmt_8c.html#ada919957d13ab359106779b35155dd64" title="_mesa_install_exec\l_vtxfmt" alt="" coords="426,57,563,98"/>
-<area shape="rect" id="node11" href="$vbo__noop_8c.html#aada96e4881ad5e498548f2b084b419a2" title="Is the given dispatch table using the no&#45;op functions?" alt="" coords="405,123,584,149"/>
-<area shape="rect" id="node13" href="$vbo__noop_8c.html#a42c4221fb3cb8f106ce9300f9208002c" title="_mesa_noop_Begin" alt="" coords="632,123,768,149"/>
-</map>

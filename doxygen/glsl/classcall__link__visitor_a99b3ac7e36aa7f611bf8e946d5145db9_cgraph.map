@@ -1,6 +1,0 @@
-<map id="call_link_visitor::visit" name="call_link_visitor::visit">
-<area shape="rect" id="node3" href="$classir__variable.html#a7e051d333749b712caf01a880b1ea767" title="Duplicate an IR variable." alt="" coords="173,43,293,69"/>
-<area shape="rect" id="node5" href="$classir__variable.html#ad128688a9c892e6e06d67e2c1bb85530" title="ir_variable::ir_variable" alt="" coords="342,5,490,32"/>
-<area shape="rect" id="node9" href="$classir__constant.html#a87070a45c2509f35c49c4e33de4735f5" title="ir_constant::clone" alt="" coords="353,80,479,107"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="539,5,635,32"/>
-</map>

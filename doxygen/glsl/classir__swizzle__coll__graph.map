@@ -1,6 +1,0 @@
-<map id="ir_swizzle" name="ir_swizzle">
-<area shape="rect" id="node2" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="18,163,88,189"/>
-<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="5,85,101,112"/>
-<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="11,7,96,33"/>
-<area shape="rect" id="node9" href="$structir__swizzle__mask.html" title="ir_swizzle_mask" alt="" coords="113,163,231,189"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="ast_node::operator new" name="ast_node::operator new">
-<area shape="rect" id="node3" href="$ralloc_8c.html#a04d6d49f08bc3721b2c5dd1faac23a1c" title="Allocate zero&#45;initialized memory chained off of the given context." alt="" coords="213,31,304,57"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="353,31,437,57"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="491,5,568,32"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="486,56,573,83"/>
-</map>

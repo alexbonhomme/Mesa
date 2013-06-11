@@ -1,8 +1,0 @@
-<map id="run_lighting" name="run_lighting">
-<area shape="rect" id="node3" href="math.tag$m__translate_8c.html#a44b1700a11af202be4160c23644eb54c" title="_math_trans_4f" alt="" coords="180,5,292,32"/>
-<area shape="rect" id="node5" href="math.tag$m__vector_8c.html#a259b6290b5d106719c8f1d4c0ca4a9ae" title="_mesa_vector4f_clean_elem" alt="" coords="142,56,330,83"/>
-<area shape="rect" id="node7" href="$t__vb__light_8c.html#a203d3536861107ce73a57975da8fd2b2" title="Prepare things prior to running the lighting stage." alt="" coords="173,107,299,133"/>
-<area shape="rect" id="node9" href="main.tag$light_8c.html#a1f2fb690c9664825ec9db5dfc0dd6195" title="_mesa_update_material" alt="" coords="379,77,539,104"/>
-<area shape="rect" id="node11" href="$t__vb__light_8c.html#ae31c4157619f6b7e98560ea5b781c1be" title="_tnl_validate_shine\l_tables" alt="" coords="392,129,525,170"/>
-<area shape="rect" id="node13" href="$t__vb__light_8c.html#aed5a42b36c5f32cad49b981576fd67ab" title="validate_shine_table" alt="" coords="587,136,727,163"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="get_copy_tex_image_source" name="get_copy_tex_image_source">
-<area shape="rect" id="node3" href="$formats_8c.html#ae2c7110b16bdbb90dc5c36b123db9f0a" title="Return bits per component for the given format." alt="" coords="198,31,357,57"/>
-<area shape="rect" id="node5" href="$formats_8c.html#aeeebdbd6c93cf68d1f96e270c7e7bfd1" title="_mesa_get_format_info" alt="" coords="406,5,565,32"/>
-<area shape="rect" id="node7" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="428,56,543,83"/>
-<area shape="rect" id="node9" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="614,31,733,57"/>
-<area shape="rect" id="node11" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="650,81,697,108"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="reralloc_array_size" name="reralloc_array_size">
-<area shape="rect" id="node3" href="$ralloc_8c.html#a3a1adf0ae73bf982e8aceff21b47959c" title="Resize a piece of ralloc&#45;managed memory, preserving data." alt="" coords="185,56,279,83"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="334,5,418,32"/>
-<area shape="rect" id="node11" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="328,56,424,83"/>
-<area shape="rect" id="node14" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="347,107,405,133"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="477,5,555,32"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="473,56,559,83"/>
-</map>

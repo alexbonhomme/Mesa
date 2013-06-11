@@ -1,4 +1,0 @@
-<map id="find_assignment_visitor::visit_enter" name="find_assignment_visitor::visit_enter">
-<area shape="rect" id="node3" href="$classir__rvalue.html#a436c1224d5c546da6bc0622f8d504ee1" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="230,5,354,46"/>
-<area shape="rect" id="node5" href="$classir__dereference__variable.html#a105775a493b68b02535f74b4f5517fea" title="Get the variable that is ultimately referenced by an r&#45;value." alt="" coords="214,70,370,111"/>
-</map>

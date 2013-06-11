@@ -1,4 +1,0 @@
-<map id="bytes_per_pixel" name="bytes_per_pixel">
-<area shape="rect" id="node3" href="$glformats_8c.html#ac81b82fc7cf6fe0a47ae51278f917118" title="Same as _mesa_sizeof_type() but also accepting the packed pixel format data types." alt="" coords="168,5,352,32"/>
-<area shape="rect" id="node5" href="$glformats_8c.html#a3b4be71f46708425107d4c8e20024ce1" title="_mesa_type_is_packed" alt="" coords="181,56,339,83"/>
-</map>

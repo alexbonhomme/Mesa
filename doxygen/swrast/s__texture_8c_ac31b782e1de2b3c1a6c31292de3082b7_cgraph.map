@@ -1,9 +1,0 @@
-<map id="_swrast_alloc_texture_image_buffer" name="_swrast_alloc_texture_image_buffer">
-<area shape="rect" id="node3" href="main.tag$imports_8c.html#a4aeeec2342e0d371c407e6577a139db9" title="_mesa_align_malloc" alt="" coords="222,5,362,32"/>
-<area shape="rect" id="node5" href="main.tag$formats_8c.html#aac2766d7a4190133b4b87ae7be599979" title="_mesa_format_image_size" alt="" coords="203,56,381,83"/>
-<area shape="rect" id="node7" href="main.tag$formats_8c.html#a5a683c691d0eb768f27c83fd69913861" title="_mesa_format_row_stride" alt="" coords="206,107,378,133"/>
-<area shape="rect" id="node9" href="$s__texture_8c.html#a8a03254b727c36b6d3c6e2a71a5729f8" title="Code that overrides ctx&#45;&gt;Driver.AllocTextureImageBuffer may use this to initialize the fields of swra..." alt="" coords="223,209,361,250"/>
-<area shape="rect" id="node11" href="$s__context_8h.html#aaa0ef1d5da815b257ef77066ed9b3572" title="cast wrapper" alt="" coords="430,189,581,216"/>
-<area shape="rect" id="node13" href="$s__texture_8c.html#af93e2e9fabba0efefc082ccb8e6addc3" title="texture_slices" alt="" coords="454,244,557,271"/>
-<area shape="rect" id="node15" href="$s__context_8h.html#a657b32e268a8e439edbb0b2b3c705120" title="_swrast_teximage_slice\l_height" alt="" coords="211,326,373,367"/>
-</map>

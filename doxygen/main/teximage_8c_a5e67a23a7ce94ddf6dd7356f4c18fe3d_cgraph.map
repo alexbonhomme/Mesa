@@ -1,8 +1,0 @@
-<map id="mutable_tex_object" name="mutable_tex_object">
-<area shape="rect" id="node3" href="$teximage_8c.html#ab9ba4f3758cb63af8ed533290a39ca25" title="Return pointer to texture object for given target on current texture unit." alt="" coords="190,23,349,65"/>
-<area shape="rect" id="node5" href="$texstate_8h.html#a292b9f1a55d8fcd2faa1ef1971d7eed1" title="Return pointer to current texture unit." alt="" coords="397,5,584,32"/>
-<area shape="rect" id="node7" href="$teximage_8c.html#af2d8533d07e7e956d03b163c97fbccad" title="Get the texture object that corresponds to the target of the given texture unit." alt="" coords="405,56,576,83"/>
-<area shape="rect" id="node9" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="632,56,747,83"/>
-<area shape="rect" id="node11" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="795,31,914,57"/>
-<area shape="rect" id="node13" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="831,81,878,108"/>
-</map>

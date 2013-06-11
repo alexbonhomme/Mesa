@@ -1,8 +1,0 @@
-<map id="_mesa_update_fetch_functions" name="_mesa_update_fetch_functions">
-<area shape="rect" id="node3" href="main.tag$teximage_8c.html#a3ff240d6e223fa125174b21ee4c18f69" title="_mesa_get_texture_dimensions" alt="" coords="198,27,405,53"/>
-<area shape="rect" id="node5" href="$s__texfetch_8c.html#aa024d85827481ead23a3cd7df4711372" title="Initialize the texture image&#39;s FetchTexel methods." alt="" coords="233,77,369,104"/>
-<area shape="rect" id="node13" href="$s__context_8h.html#aaa0ef1d5da815b257ef77066ed9b3572" title="cast wrapper" alt="" coords="226,128,377,155"/>
-<area shape="rect" id="node7" href="main.tag$texcompress_8c.html#a30d0c528ce0bdb217b8e397353708b0d" title="_mesa_get_compressed\l_fetch_func" alt="" coords="454,5,618,46"/>
-<area shape="rect" id="node9" href="main.tag$formats_8c.html#a888ff5083e9e654a6e9895f204596246" title="_mesa_get_format_color\l_encoding" alt="" coords="453,70,619,111"/>
-<area shape="rect" id="node11" href="main.tag$formats_8c.html#a8de37ddf1bdc6c7e29a67d5e67153e70" title="_mesa_get_srgb_format\l_linear" alt="" coords="455,135,617,177"/>
-</map>

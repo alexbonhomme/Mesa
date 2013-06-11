@@ -1,5 +1,0 @@
-<map id="set_fetch_functions" name="set_fetch_functions">
-<area shape="rect" id="node3" href="main.tag$texcompress_8c.html#a30d0c528ce0bdb217b8e397353708b0d" title="_mesa_get_compressed\l_fetch_func" alt="" coords="190,5,354,46"/>
-<area shape="rect" id="node5" href="main.tag$formats_8c.html#a888ff5083e9e654a6e9895f204596246" title="_mesa_get_format_color\l_encoding" alt="" coords="189,70,355,111"/>
-<area shape="rect" id="node7" href="main.tag$formats_8c.html#a8de37ddf1bdc6c7e29a67d5e67153e70" title="_mesa_get_srgb_format\l_linear" alt="" coords="191,135,353,177"/>
-</map>

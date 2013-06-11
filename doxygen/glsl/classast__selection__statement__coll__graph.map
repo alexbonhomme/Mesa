@@ -1,6 +1,0 @@
-<map id="ast_selection_statement" name="ast_selection_statement">
-<area shape="rect" id="node2" href="$classast__node.html" title="Base class of all abstract syntax tree nodes." alt="" coords="59,128,133,155"/>
-<area shape="rect" id="node7" href="$classast__expression.html" title="Representation of any sort of expression." alt="" coords="206,220,316,247"/>
-<area shape="rect" id="node4" href="$structexec__node.html" title="exec_node" alt="" coords="108,7,193,33"/>
-<area shape="rect" id="node11" href="$structexec__list.html" title="exec_list" alt="" coords="195,128,269,155"/>
-</map>

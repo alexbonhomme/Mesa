@@ -1,5 +1,0 @@
-<map id="ir_if_to_cond_assign_visitor" name="ir_if_to_cond_assign_visitor">
-<area shape="rect" id="node2" href="$classir__hierarchical__visitor.html" title="Base class of hierarchical visitors of IR instruction trees." alt="" coords="5,176,149,203"/>
-<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="29,85,125,112"/>
-<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="35,7,120,33"/>
-</map>

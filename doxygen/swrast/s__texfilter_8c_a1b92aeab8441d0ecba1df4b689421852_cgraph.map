@@ -1,7 +1,0 @@
-<map id="sample_nearest_rect" name="sample_nearest_rect">
-<area shape="rect" id="node3" href="$s__texfilter_8c.html#aec6d956b99a3722447e6bdbf2ecb4b77" title="Do clamp/wrap for a texture rectangle coord, GL_NEAREST filter mode." alt="" coords="198,5,373,32"/>
-<area shape="rect" id="node7" href="$s__texfilter_8c.html#aaee001ef378582d01d8e2f363c908f05" title="When we sample the border color, it must be interpreted according to the base texture format..." alt="" coords="226,56,345,83"/>
-<area shape="rect" id="node9" href="$s__context_8h.html#a253be66057d28ca519d831e71c906f9d" title="cast wrapper" alt="" coords="210,107,361,149"/>
-<area shape="rect" id="node11" href="$s__context_8h.html#adf1a5cb872a1adf2dfb2508cea0489d5" title="void" alt="" coords="262,173,309,200"/>
-<area shape="rect" id="node5" href="main.tag$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="_mesa_problem" alt="" coords="421,5,536,32"/>
-</map>

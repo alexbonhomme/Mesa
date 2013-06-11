@@ -1,9 +1,0 @@
-<map id="ralloc_vasprintf_append" name="ralloc_vasprintf_append">
-<area shape="rect" id="node3" href="$ralloc_8c.html#ab178df8162cda12a67ffeaf4c588da19" title="Rewrite the tail of an existing string, starting at a given index." alt="" coords="214,56,394,83"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a06fbe0c25dc86de1f27c42e1d1c0dd74" title="Print to a string, given a va_list." alt="" coords="443,56,554,83"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0d69b86f0cf5203cc5bf729b0f171bbe" title="printf_length" alt="" coords="603,5,696,32"/>
-<area shape="rect" id="node16" href="$ralloc_8c.html#ab9a56787f0f0d1421c708a57383eae25" title="resize" alt="" coords="470,107,527,133"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#a03d668aa9fce8d82182c2bfbd3f2a4e3" title="Allocate memory chained off of the given context." alt="" coords="607,56,691,83"/>
-<area shape="rect" id="node11" href="$ralloc_8c.html#a903391903c44abede7014caadd9c0c43" title="add_child" alt="" coords="749,56,827,83"/>
-<area shape="rect" id="node13" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="745,107,831,133"/>
-</map>

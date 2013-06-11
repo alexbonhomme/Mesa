@@ -1,6 +1,0 @@
-<map id="is_extended_swizzle" name="is_extended_swizzle">
-<area shape="rect" id="node3" href="$classir__instruction.html#af8b2cfcfb5b990ca05c49ab7fac8d4b3" title="ir_instruction::as\l_constant" alt="" coords="233,5,351,46"/>
-<area shape="rect" id="node5" href="$classir__constant.html#a876fbbbff801667e7f0a7aad2187faf8" title="Determine if an r&#45;value has the value negative one." alt="" coords="198,71,386,97"/>
-<area shape="rect" id="node7" href="$classir__constant.html#a118812d0345965dbf33026ab82bf6d4d" title="Determine if an r&#45;value has the value one." alt="" coords="226,121,358,148"/>
-<area shape="rect" id="node9" href="$classir__constant.html#a882932d5d0aa9840a56b6f047f66ef7a" title="Determine if an r&#45;value has the value zero." alt="" coords="224,172,360,199"/>
-</map>

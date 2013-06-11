@@ -1,9 +1,0 @@
-<map id="_mesa_PolygonOffsetx" name="_mesa_PolygonOffsetx">
-<area shape="rect" id="node3" href="$polygon_8c.html#ad339e439ffb51b217de66cec01160302" title="_mesa_PolygonOffset" alt="" coords="214,56,365,83"/>
-<area shape="rect" id="node5" href="$errors_8c.html#afc8dce020d84d78f5e31e2bde5e22676" title="Report debug information." alt="" coords="414,56,517,83"/>
-<area shape="rect" id="node7" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="566,5,685,32"/>
-<area shape="rect" id="node9" href="$errors_8c.html#a4e3abb78312a861aefc122c780e11343" title="output_if_debug" alt="" coords="568,56,683,83"/>
-<area shape="rect" id="node15" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="602,107,649,133"/>
-<area shape="rect" id="node11" href="$imports_8c.html#ab1387268262efa3dbc8e6e76ffeefade" title="Wrapper for getenv()." alt="" coords="736,31,843,57"/>
-<area shape="rect" id="node13" href="$imports_8c.html#ab27b032d57adc8918190019c2c6c012d" title="Wrapper around vsnprintf()" alt="" coords="734,81,845,108"/>
-</map>

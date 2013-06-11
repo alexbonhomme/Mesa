@@ -1,5 +1,0 @@
-<map id="_mesa_add_renderbuffer" name="_mesa_add_renderbuffer">
-<area shape="rect" id="node3" href="$fbobject_8h.html#a97df2933946ce460854b6bbcf50b997b" title="Is the given FBO a user&#45;created FBO?" alt="" coords="251,5,386,32"/>
-<area shape="rect" id="node5" href="$renderbuffer_8h.html#af3b5b421d4be4b46b08d366247030bc8" title="_mesa_reference_renderbuffer" alt="" coords="219,56,418,83"/>
-<area shape="rect" id="node7" href="$renderbuffer_8c.html#a60e1a31525785fbd87b23d75ce6c23f7" title="Set *ptr to point to rb." alt="" coords="467,56,672,83"/>
-</map>

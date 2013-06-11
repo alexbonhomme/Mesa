@@ -1,5 +1,0 @@
-<map id="_mesa_init_sampler_object_functions" name="_mesa_init_sampler_object_functions">
-<area shape="rect" id="node3" href="$samplerobj_8c.html#a036d7c7421e28b30d6a9034e233e998f" title="Fallback for ctx&#45;&gt;Driver.DeleteSamplerObject();." alt="" coords="207,5,363,46"/>
-<area shape="rect" id="node5" href="$samplerobj_8c.html#a1c1e960f220c61e760a336735d75d9b6" title="Fallback for ctx&#45;&gt;Driver.NewSamplerObject();." alt="" coords="192,71,379,97"/>
-<area shape="rect" id="node7" href="$samplerobj_8c.html#ac12ad4bd59653f2c4c7bf535fe557262" title="Initialize the fields of the given sampler object." alt="" coords="427,63,565,105"/>
-</map>

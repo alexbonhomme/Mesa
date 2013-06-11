@@ -1,5 +1,0 @@
-<map id="ir_swizzle::create" name="ir_swizzle::create">
-<area shape="rect" id="node3" href="$classir__swizzle.html#ae65b8b2f324fee29f61fbeec8faa8b82" title="ir_swizzle::ir_swizzle" alt="" coords="179,5,325,32"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a9f820b482c39fab77bf884a420aeb4f2" title="Return the given pointer&#39;s ralloc context." alt="" coords="204,56,300,83"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="374,56,461,83"/>
-</map>

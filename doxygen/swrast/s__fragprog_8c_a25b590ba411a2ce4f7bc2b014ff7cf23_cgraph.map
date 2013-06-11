@@ -1,4 +1,0 @@
-<map id="fetch_texel_lod" name="fetch_texel_lod">
-<area shape="rect" id="node3" href="$s__fragprog_8c.html#ac8bb994c71b60e3d3af32b4f01efb394" title="Apply texture object&#39;s swizzle (X/Y/Z/W/0/1) to incoming &#39;texel&#39; and return results in &#39;colorOut&#39;..." alt="" coords="191,5,292,32"/>
-<area shape="rect" id="node5" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="166,56,317,83"/>
-</map>

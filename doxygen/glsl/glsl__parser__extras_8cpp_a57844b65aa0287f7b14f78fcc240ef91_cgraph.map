@@ -1,5 +1,0 @@
-<map id="ast_opt_array_size_print" name="ast_opt_array_size_print">
-<area shape="rect" id="node3" href="$classast__expression.html#a54c4f67d8ecdbe12d04123db8d949dfe" title="Print an AST node in something approximating the original GLSL code." alt="" coords="187,41,330,68"/>
-<area shape="rect" id="node6" href="$classast__expression.html#afd10e8c4b45f74e57eb6f4670d778ae5" title="ast_expression::operator\l_string" alt="" coords="379,5,544,46"/>
-<area shape="rect" id="node8" href="$classast__node.html#a447585e5c8768d4c395eae09e285494b" title="Print an AST node in something approximating the original GLSL code." alt="" coords="407,71,515,97"/>
-</map>

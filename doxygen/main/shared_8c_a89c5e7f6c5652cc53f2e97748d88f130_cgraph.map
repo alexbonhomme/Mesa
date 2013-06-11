@@ -1,7 +1,0 @@
-<map id="delete_sampler_object_cb" name="delete_sampler_object_cb">
-<area shape="rect" id="node3" href="$samplerobj_8h.html#ac8ced71742bbedefe926819e9f441d74" title="_mesa_reference_sampler\l_object" alt="" coords="227,23,402,65"/>
-<area shape="rect" id="node5" href="$samplerobj_8c.html#a891dda6c151a97d179ff6e28355924fb" title="Handle reference counting." alt="" coords="451,23,626,65"/>
-<area shape="rect" id="node7" href="$errors_8c.html#ac1c2de47e4a8c905e1b94ca3191f38c0" title="Report an internal implementation problem." alt="" coords="675,31,789,57"/>
-<area shape="rect" id="node9" href="$imports_8c.html#ac35ac70335a2eba350cfb3631dd10351" title="Needed due to #ifdef&#39;s, above." alt="" coords="838,5,957,32"/>
-<area shape="rect" id="node11" href="$dispatch_8h.html#aaea0b9e83a003070f151f6152d0e9e43" title="void" alt="" coords="874,56,921,83"/>
-</map>

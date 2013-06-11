@@ -1,9 +1,0 @@
-<map id="ubo_visitor::process" name="ubo_visitor::process">
-<area shape="rect" id="node3" href="$classprogram__resource__visitor.html#aad94aa68248077ec74df085aadbd0a13" title="Begin processing a variable." alt="" coords="192,99,360,141"/>
-<area shape="rect" id="node5" href="$ralloc_8c.html#a280f5ecb6525a10e479c0b7c4ff89690" title="Free a piece of ralloc&#45;managed memory." alt="" coords="451,56,533,83"/>
-<area shape="rect" id="node13" href="$ralloc_8c.html#a0565a6a6f82e3ca9fbae2ede2ee8ac39" title="Duplicate a string, allocating the memory from the given context." alt="" coords="444,107,540,133"/>
-<area shape="rect" id="node15" href="$classprogram__resource__visitor.html#abb1ff14993a4a7f48e7a748642a5c240" title="Method invoked for each leaf of the variable." alt="" coords="408,158,576,199"/>
-<area shape="rect" id="node7" href="$ralloc_8c.html#a0fc43c6a4cfbe7313285d0fd1d265e9c" title="get_header" alt="" coords="629,5,715,32"/>
-<area shape="rect" id="node9" href="$ralloc_8c.html#aa9f5466d1f5d3f1d2e706fd1b7f46b0a" title="unlink_block" alt="" coords="625,56,719,83"/>
-<area shape="rect" id="node11" href="$ralloc_8c.html#a839faa4b9da078e336f8d5e6b211eb2c" title="unsafe_free" alt="" coords="627,107,717,133"/>
-</map>

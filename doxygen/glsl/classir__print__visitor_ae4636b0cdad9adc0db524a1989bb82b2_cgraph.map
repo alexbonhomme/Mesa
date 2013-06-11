@@ -1,5 +1,0 @@
-<map id="ir_print_visitor::visit" name="ir_print_visitor::visit">
-<area shape="rect" id="node3" href="$classir__rvalue.html#aa7255bfef22661a246fb7aa71d5d8e0a" title="ir_rvalue::accept" alt="" coords="197,5,315,32"/>
-<area shape="rect" id="node7" href="$classir__return.html#a677aa1b7934dcbd3f6ced7729a6ef20c" title="ir_return::get_value" alt="" coords="189,56,323,83"/>
-<area shape="rect" id="node5" href="$classir__visitor.html#a630947956cc72466e9eb7524ea8147ee" title="ir_visitor::visit" alt="" coords="371,5,474,32"/>
-</map>

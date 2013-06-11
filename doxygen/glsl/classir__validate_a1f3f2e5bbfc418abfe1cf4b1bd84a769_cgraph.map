@@ -1,7 +1,0 @@
-<map id="ir_validate::visit_enter" name="ir_validate::visit_enter">
-<area shape="rect" id="node3" href="$classir__function__signature.html#a85a78d00edc7c78623ff73eb7f06bba3" title="Get a handle to the function for which this is a signature." alt="" coords="171,5,314,46"/>
-<area shape="rect" id="node5" href="$group__IR.html#ga23274dc074035d8faac3940802f4c088" title="Get the name of the function for which this is a signature." alt="" coords="171,70,314,111"/>
-<area shape="rect" id="node7" href="$classir__validate.html#a0b2ba2e198b63e631c27fe9aa2cb043d" title="ir_validate::validate_ir" alt="" coords="169,136,317,163"/>
-<area shape="rect" id="node9" href="$classir__instruction.html#a3f96a6435c5fc8f0fb06a776d729a1c2" title="ir_print_visitor helper for debugging." alt="" coords="366,136,495,163"/>
-<area shape="rect" id="node11" href="$classir__instruction.html#aa797356958ce35850f057499c48a572c" title="ir_instruction::accept" alt="" coords="545,136,687,163"/>
-</map>

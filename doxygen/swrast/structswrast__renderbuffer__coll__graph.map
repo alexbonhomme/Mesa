@@ -1,8 +1,0 @@
-<map id="swrast_renderbuffer" name="swrast_renderbuffer">
-<area shape="rect" id="node2" href="main.tag$structgl__renderbuffer.html" title="gl_renderbuffer" alt="" coords="19,187,127,213"/>
-<area shape="rect" id="node4" href="main.tag$structgl__texture__image.html" title="gl_texture_image" alt="" coords="106,96,227,123"/>
-<area shape="rect" id="node6" href="main.tag$structgl__texture__object.html" title="gl_texture_object" alt="" coords="226,187,347,213"/>
-<area shape="rect" id="node8" href="main.tag$structgl__buffer__object.html" title="gl_buffer_object" alt="" coords="277,96,392,123"/>
-<area shape="rect" id="node11" href="main.tag$structgl__sampler__object.html" title="gl_sampler_object" alt="" coords="417,96,543,123"/>
-<area shape="rect" id="node13" href="main.tag$uniongl__color__union.html" title="gl_color_union" alt="" coords="427,5,532,32"/>
-</map>

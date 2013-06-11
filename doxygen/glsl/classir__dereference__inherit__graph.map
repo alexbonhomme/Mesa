@@ -1,8 +1,0 @@
-<map id="ir_dereference" name="ir_dereference">
-<area shape="rect" id="node9" href="$classir__dereference__array.html" title="ir_dereference_array" alt="" coords="5,304,144,331"/>
-<area shape="rect" id="node11" href="$classir__dereference__record.html" title="ir_dereference_record" alt="" coords="169,304,316,331"/>
-<area shape="rect" id="node13" href="$classir__dereference__variable.html" title="ir_dereference_variable" alt="" coords="341,304,496,331"/>
-<area shape="rect" id="node2" href="$classir__rvalue.html" title="The base class for all &quot;values&quot;/expression trees." alt="" coords="207,155,277,181"/>
-<area shape="rect" id="node4" href="$classir__instruction.html" title="Base class of all IR instructions." alt="" coords="195,80,291,107"/>
-<area shape="rect" id="node6" href="$structexec__node.html" title="exec_node" alt="" coords="200,5,285,32"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="etc2_rgba8_fetch_texel" name="etc2_rgba8_fetch_texel">
-<area shape="rect" id="node3" href="$texcompress__etc_8c.html#a29871576344add23bf6a41da97d24716" title="etc2_alpha8_fetch_texel" alt="" coords="211,56,373,83"/>
-<area shape="rect" id="node9" href="$texcompress__etc_8c.html#a17a126fe5a3dcf201ca0a028e127deda" title="etc2_rgb8_fetch_texel" alt="" coords="217,5,367,32"/>
-<area shape="rect" id="node5" href="$texcompress__etc_8c.html#a8760b43eeb3dac9ea9480dc14dbbcb2a" title="etc2_clamp" alt="" coords="449,5,538,32"/>
-<area shape="rect" id="node7" href="$texcompress__etc_8c.html#afd5fa403fb435c2879304ee9a72ba4e4" title="etc2_get_pixel_index" alt="" coords="421,56,565,83"/>
-</map>

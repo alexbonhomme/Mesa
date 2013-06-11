@@ -1,5 +1,0 @@
-<map id="handle_sample_op" name="handle_sample_op">
-<area shape="rect" id="node3" href="$s__atifragshader_8c.html#abc8d71add25dcc6b6cba637df555ddfe" title="apply_swizzle" alt="" coords="184,5,288,32"/>
-<area shape="rect" id="node5" href="$s__atifragshader_8c.html#a1bf96e803d55b0661219a5799a1d16db" title="Fetch a texel." alt="" coords="193,56,279,83"/>
-<area shape="rect" id="node7" href="$s__context_8h.html#a48e6b9c0839ec987882abd636701d56d" title="Return SWcontext for the given struct gl_context." alt="" coords="337,56,487,83"/>
-</map>
