@@ -73,6 +73,8 @@
 #include "link_varyings.h"
 #include "ir_optimization.h"
 
+#include "ir_uniform.h"
+
 extern "C" {
 #include "main/shaderobj.h"
 }
@@ -1948,4 +1950,18 @@ done:
    }
 
    ralloc_free(mem_ctx);
+
+   //DEBUG Alex
+   printf("\nShader program name/ID : %i\n", prog->Name);
+   printf("Number of shader linked : %i\n", prog->NumShaders);
+   printf("Info log : %s\n", prog->InfoLog);
+   printf("\nuniform storage number : %i \n", prog->NumUserUniformStorage);
+   if( prog->UniformStorage != NULL) {
+     printf("uniform storage name : %s \n", prog->UniformStorage->name);
+     printf("uniform storage nb element : %i\n", prog->UniformStorage->array_elements);
+   }
+   printf("\nuniform blocks number : %i \n", prog->NumUniformBlocks);
+   if( prog->UniformBlocks != NULL) {
+     printf("uniform storage name : %s \n", prog->UniformBlocks->Name);
+   }
 }

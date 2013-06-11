@@ -617,11 +617,11 @@ gallivm_compile_module(struct gallivm_state *gallivm)
 #endif
 
    /* Dump byte code to a file */
-   if (0) {
+#if 0 //DEBUG Alex
       LLVMWriteBitcodeToFile(gallivm->module, "llvmpipe.bc");
       debug_printf("llvmpipe.bc written\n");
       debug_printf("Invoke as \"llc -o - llvmpipe.bc\"\n");
-   }
+#endif
 
 #if USE_MCJIT
    assert(!gallivm->engine);

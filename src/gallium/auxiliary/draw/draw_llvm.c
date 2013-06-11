@@ -559,6 +559,10 @@ draw_llvm_create_variant(struct draw_llvm *llvm,
                          unsigned num_inputs,
                          const struct draw_llvm_variant_key *key)
 {
+#if 1 //DEBUG Alex
+    printf("draw_llvm_create_variant()");
+#endif
+
    struct draw_llvm_variant *variant;
    struct llvm_vertex_shader *shader =
       llvm_vertex_shader(llvm->draw->vs.vertex_shader);
@@ -1454,10 +1458,6 @@ static void
 draw_llvm_generate(struct draw_llvm *llvm, struct draw_llvm_variant *variant,
                    boolean elts)
 {
-    FILE* fd = fopen("/home/alex/mesa.log", "a");
-    fprintf(fd, "draw_llvm_generate()\n");
-    fclose(fd);
-
    struct gallivm_state *gallivm = variant->gallivm;
    LLVMContextRef context = gallivm->context;
    LLVMTypeRef int32_type = LLVMInt32TypeInContext(context);
@@ -1477,6 +1477,10 @@ draw_llvm_generate(struct draw_llvm *llvm, struct draw_llvm_variant *variant,
    LLVMValueRef one = lp_build_const_int32(gallivm, 1);
    struct draw_context *draw = llvm->draw;
    const struct tgsi_shader_info *vs_info = &draw->vs.vertex_shader->info;
+#if 1 //DEBUG Alex
+   printf("\ndraw_llvm_generate()\n");
+#endif
+
    unsigned i, j;
    struct lp_build_context bld;
    struct lp_build_loop_state lp_loop;
