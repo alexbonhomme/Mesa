@@ -347,7 +347,7 @@ llvm_pipeline_generic( struct draw_pt_middle_end *middle,
    unsigned opt = fpme->opt;
    unsigned clipped = 0;
 
-   printf("\nllvm_pipeline_generic()\n");
+//   printf("\nllvm_pipeline_generic()\n");
 
    llvm_vert_info.count = fetch_info->count;
    llvm_vert_info.vertex_size = fpme->vertex_size;

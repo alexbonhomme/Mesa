@@ -41,6 +41,8 @@
 #include <llvm-c/Transforms/Scalar.h>
 #include <llvm-c/BitWriter.h>
 
+#include "tracetools.h"
+
 
 /**
  * AVX is supported in:
@@ -137,10 +139,15 @@ create_pass_manager(struct gallivm_state *gallivm)
    assert(gallivm->target);
 
    gallivm->passmgr = LLVMCreateFunctionPassManager(gallivm->provider);
+
    if (!gallivm->passmgr)
       return FALSE;
 
    LLVMAddTargetData(gallivm->target, gallivm->passmgr);
+
+   //DEBUG Alex
+  // LLVMAddFunctionInfoPrinterPass(gallivm->passmgr);
+   LLVMAddFunctionDisplayInputsPass(gallivm->passmgr);
 
    if ((gallivm_debug & GALLIVM_DEBUG_NO_OPT) == 0) {
       /* These are the passes currently listed in llvm-c/Transforms/Scalar.h,
@@ -571,6 +578,7 @@ gallivm_optimize_function(struct gallivm_state *gallivm,
    assert(gallivm->passmgr);
 
    /* Apply optimizations to LLVM IR */
+   LLVMInitializeFunctionPassManager(gallivm->passmgr); // doInitialization
    LLVMRunFunctionPassManager(gallivm->passmgr, func);
 
    if (0) {
@@ -640,6 +648,7 @@ func_pointer
 gallivm_jit_function(struct gallivm_state *gallivm,
                      LLVMValueRef func)
 {
+    printf("gallivm_jit_function()\n");
    void *code;
    func_pointer jit_func;
 
@@ -650,9 +659,11 @@ gallivm_jit_function(struct gallivm_state *gallivm,
    assert(code);
    jit_func = pointer_to_func(code);
 
-   if (gallivm_debug & GALLIVM_DEBUG_ASM) {
+#if 0
+//   if (gallivm_debug & GALLIVM_DEBUG_ASM) {
       lp_disassemble(func, code);
-   }
+//   }
+#endif
 
 #if defined(PROFILE)
    lp_profile(func, code);

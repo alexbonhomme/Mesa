@@ -5437,3 +5437,5 @@ configure
 configure.ac
 libtool
 SConstruct
+src/gallium/auxiliary/gallivm/tracetools.h
+src/gallium/auxiliary/gallivm/tracetools.cpp
