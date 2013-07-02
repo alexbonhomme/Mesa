@@ -73,6 +73,7 @@ void FunctionInfoPrinter::displayReturnVarNames(Function &F, raw_ostream &stream
     }
 }
 
+
 /**
  *
  */
@@ -83,9 +84,6 @@ struct FunctionDisplayInputs : public FunctionPass {
 
     Function *PrintfFunc;
     Module *M;
-
-    GlobalVariable *gvInputsStr;
-    GlobalVariable *gvOutputsStr;
 
     bool doInitialization(Module &M) {
         errs() << "\n--- Initialization ---\n";
@@ -103,77 +101,27 @@ struct FunctionDisplayInputs : public FunctionPass {
         errs() << "\n--- Adds code to display inputs ---\n";
         errs() << "Function name: " << F.getName().str() << '\n';
 
-        //! Build string base for print I/O
-        std::string printStr = "\nFUNCTION NAME: " + F.getName().str() + "\n";
-        std::string printBase = buildPrintIOString(F);
-        std::string inPrintStr = printStr + "INPUTS:\n" + printBase;
-        gvInputsStr = getGlobalFromString(F, inPrintStr);
-        gvInputsStr->setName("inputs_str");
-
-        std::string outPrintStr = "OUTPUTS\n" + printBase;
-        gvOutputsStr = getGlobalFromString(F, outPrintStr);
-        gvOutputsStr->setName("outputs_str");
-
         // Get first block & first instruction
         BasicBlock &entryBB = F.getEntryBlock();
         Instruction *insertPos = entryBB.begin();
 
-        /* Build printf() arguments */
-        std::vector<Value*> PrintfArgs;
-        PrintfArgs.push_back(gvInputsStr);
-
-        // get args values
+        // Display input values
         Function::arg_iterator it = F.arg_begin();
         Function::arg_iterator ite = F.arg_end();
         for ( ; it != ite; ++it) {
             Argument *arg = it;
-            PrintfArgs.push_back(arg);
-
-//            if (arg->isDereferenceablePointer()) {
-            if (arg->getType()->isPointerTy()) {
-//                Type *ptrElemType = ((PointerType *) arg->getType())->getPointerElementType();
-//                if (!ptrElemType->isIntegerTy()) {
-//                    continue;
-//                }
-
-                //GetElementPtrInst *GEP = GetElementPtrInst::Create(ptr,  int32_i_02_0, "get_element_ptr", insertPos);
-                LoadInst *loadValue = new LoadInst(arg, "load", insertPos);
-                PrintfArgs.push_back(loadValue->getPointerOperand());
-
-                errs() << "Code added : ";
-                loadValue->dump();
-                errs() << '\n';
-            }
+            addInstToDisplayValue(F, arg, insertPos);
         }
-
-        /* insert printf() call */
-//        std::stringstream tmp;
-//        tmp << PrintfArgs.size()-1 << " : ";
-//        errs() << tmp.str();
-//        gvInputsStr->dump();
-//        errs() << '\n';
-
-//        std::vector<Value*>::iterator value_it = PrintfArgs.begin();
-//        std::vector<Value*>::iterator value_ite = PrintfArgs.end();
-//        for ( ; value_it != value_ite; ++value_it) {
-//            if (*value_it == NULL) {
-//                continue;
-//            }
-//            ((Value *) *value_it)->dump();
-//        }
-
-        CallInst::Create(PrintfFunc, PrintfArgs, "print_args", insertPos);
-
-        //        // Useless to return a void value
-        //        if (F.getReturnType()->isVoidTy()) {
-        //            return true;
-        //        }
 
         /* Print return value */
         std::string printReturnValueStr = "RETURN: %d\n"; // %d only ?!
         GlobalVariable *globalReturnValueStr = getGlobalFromString(F, printReturnValueStr);
         globalReturnValueStr->setName("print_return_value_str");
 
+        /*
+         * We are just listing every blocks to find a terminal instruction
+         * and get outputs/return values.
+         */
         Function::iterator bb_it = F.begin();
         Function::iterator bb_ite = F.end();
         for ( ; bb_it != bb_ite; ++bb_it) {
@@ -188,35 +136,13 @@ struct FunctionDisplayInputs : public FunctionPass {
                 continue;
             }
 
-            // Display outputs values
-            std::vector<Value*> outputs;
-            outputs.push_back(gvOutputsStr);
-
             // get args values
             Function::arg_iterator it = F.arg_begin();
             Function::arg_iterator ite = F.arg_end();
             for ( ; it != ite; ++it) {
                 Value *arg = it;
-                outputs.push_back(arg);
-
-                if (arg->getType()->isPointerTy()) {
-                    Type *ptrElemType = ((PointerType *) arg->getType())->getPointerElementType();
-                    if (!ptrElemType->isIntegerTy()) {
-                        continue;
-                    }
-
-                    LoadInst *loadValue = new LoadInst(arg, "load", insertPos);
-                    outputs.push_back(loadValue->getPointerOperand());
-
-#if 0
-                    errs() << "Code added DUMP : ";
-                    loadValue->dump();
-                    errs() << '\n';
-#endif
-                }
+                addInstToDisplayValue(F, arg, termInst);
             }
-
-            CallInst::Create(PrintfFunc, outputs, "print_outputs", termInst);
 
             // return value ?
             Value *retVal = ((ReturnInst *) termInst)->getReturnValue();
@@ -242,6 +168,8 @@ struct FunctionDisplayInputs : public FunctionPass {
 
     std::string buildPrintIOString(Function &F);
     GlobalVariable *getGlobalFromString(Function &F, std::string &str);
+    void addInstToDisplayValue(Function &F, Value *value, Instruction *insertPos);
+
 };
 
 char FunctionDisplayInputs::ID = 0;
@@ -263,48 +191,150 @@ std::string getPrintfCodeFor(Type *type) {
         return "%p (array)";
     case Type::PointerTyID:
         return "%p (pointer)";
+    case Type::StructTyID:
+        return "%p (structure)";
+    case Type::VectorTyID:
+        return "%p (vector)";
 
     default:
-        return "%p";
+        return "%p (other)";
     }
 }
 
-std::string getPrintfCodeFor(Value *value) {
-    errs().write_escaped(value->getName()) << ": ";
-    value->getType()->dump();
-    errs() << '\n';
+LoadInst *pointerDereferencing(std::string *strToDisplay, std::vector<Value*> *valuesToDisplay, Value *ptr, Instruction *insertPos) {
+    LoadInst *loadInstPtr = new LoadInst(ptr, "load_ptr", insertPos);
+    *strToDisplay += " -> " + getPrintfCodeFor(loadInstPtr->getType());
+    valuesToDisplay->push_back(loadInstPtr->getPointerOperand());
 
-//    if (value->isDereferenceablePointer()) {
-    if (value->getType()->isPointerTy()) {
-        Type *ptrElemType = ((PointerType *) value->getType())->getPointerElementType();
-
-//        if (ptrElemType->isIntegerTy()) {
-            return "%p : " + getPrintfCodeFor(ptrElemType);
-//        }
-    }
-
-    return getPrintfCodeFor(value->getType());
+    return loadInstPtr;
 }
 
 /**
- * @brief buildPrintString
- * @param F
- * @return
+ * @brief The PrintValues class
  */
-std::string FunctionDisplayInputs::buildPrintIOString(Function &F) {
-    std::stringstream streamMsg;
-
-    Function::arg_iterator it = F.arg_begin();
-    Function::arg_iterator ite = F.arg_end();
-    for ( ; it != ite; ++it) {
-        Value *arg = it;
-
-        streamMsg << '\t' << arg->getName().str()
-                  << ": " << getPrintfCodeFor(arg)
-                  << '\n';
+class PrintValues {
+public:
+    PrintValues(Function *PrintFunc, Function *F) {
+        this->PrintFunc = PrintFunc;
+        this->F = F;
     }
 
-    return streamMsg.str();
+    void add(Value *value) {
+        patternsVec.push_back(getPrintfCodeFor(value->getType()));
+        valuesVec.push_back(value);
+    }
+
+    void printInline(Instruction *insertBefore) {
+        if (patternsVec.size() <= 0) {
+            return;
+        }
+
+        // Formated string construction
+        std::string strFormat;
+        strFormat += patternsVec[0];
+        for (unsigned i = 1; i < patternsVec.size(); ++i) {
+            strFormat += " -> " + patternsVec[i];
+        }
+
+        print(strFormat, insertBefore);
+    }
+
+    void printArray() { }
+    void printStruct() { }
+
+private:
+    /**
+     * @brief getGlobalFromString
+     * @param F
+     * @param str
+     * @return
+     */
+    GlobalVariable *getGlobalFromString(Function &F, std::string &str) {
+        // Get constant from string
+        Constant *constStr = ConstantDataArray::getString(F.getContext(),
+                                                          StringRef(str));
+
+        // Turn the marker string into a global variable
+        return new GlobalVariable(*(F.getParent()), constStr->getType(),
+                                  true, GlobalValue::PrivateLinkage,
+                                  constStr);
+    }
+
+    /**
+     * @brief print
+     * @param strFormat
+     * @param insertBefore
+     */
+    void print(std::string &strFormat, Instruction *insertBefore) {
+        std::vector<Value *> args;
+        args.push_back(getGlobalFromString(*F, strFormat));
+
+        for (unsigned i = 0; i < valuesVec.size(); ++i) {
+            args.push_back(valuesVec[i]);
+        }
+
+        CallInst::Create(PrintFunc, args, "print", insertBefore);
+    }
+
+    /*
+     *
+     */
+    Function *PrintFunc;
+    Function *F;
+    std::vector<std::string> patternsVec;
+    std::vector<Value *> valuesVec;
+};
+
+/**
+ * @brief FunctionDisplayInputs::addInstToDisplayValue
+ * @param F
+ * @param value
+ * @param insertPos
+ */
+void FunctionDisplayInputs::addInstToDisplayValue(Function &F, Value *value, Instruction *insertPos) {
+//#define DUMP
+#ifdef DUMP
+    errs().write_escaped(value->getName()) << ": ";
+    value->getType()->dump();
+    errs() << '\n';
+#endif
+
+    std::string strFormat = value->getName().str() + ": ";
+    std::vector<Value*> valuesToDisplay;
+
+    strFormat += getPrintfCodeFor(value->getType());
+    valuesToDisplay.push_back(value);
+
+    if (value->getType()->isPointerTy()) {
+        LoadInst *loadInstPtr = pointerDereferencing(&strFormat, &valuesToDisplay,
+                                                     value, insertPos);
+
+#ifdef DUMP
+        errs() << "Code added : ";
+        loadInstPtr->dump();
+        errs() << "LoadInst retun type: ";
+        loadInstPtr->getType()->dump();
+        errs() << '\n';
+#endif
+
+        // We just limit to two levels of dereferencing
+        if (loadInstPtr->getType()->isPointerTy()) {
+            LoadInst *loadInstPtrPtr = pointerDereferencing(&strFormat, &valuesToDisplay,
+                                                            loadInstPtr, insertPos);
+
+#ifdef DUMP
+            errs() << "Code added : ";
+            loadInstPtrPtr->dump();
+            errs() << "LoadInst retun type: ";
+            loadInstPtrPtr->getType()->dump();
+            errs() << '\n';
+#endif
+        }
+    }
+
+    strFormat += "\n";
+    valuesToDisplay.insert(valuesToDisplay.begin(), getGlobalFromString(F, strFormat));
+    CallInst::Create(PrintfFunc, valuesToDisplay, "print_value", insertPos);
 }
 
 /**
