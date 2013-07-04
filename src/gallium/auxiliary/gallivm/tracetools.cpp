@@ -332,25 +332,23 @@ void FunctionDisplayInputs::displayStructureValues(Function &F, Value *structure
  * @param insertBefore
  */
 void FunctionDisplayInputs::displayValue(Function &F, Value *value, const std::string valueName, Instruction *insertBefore) {
-    //dereferencing ptr
+
     if (value->getType()->isPointerTy()) {
         LoadInst *loadInstPtr = new LoadInst(value, "load_ptr", insertBefore);
 
-        if (loadInstPtr->getType()->isPointerTy()) {
+        //TODO DEBUG
+        Type *elementPtr = ((PointerType *) value->getType())->getPointerElementType();
+        if (elementPtr->isVectorTy() ||
+                elementPtr->isPointerTy()) {
             displayValue(F, loadInstPtr, valueName, insertBefore);
-
-            return;
+        } else {
+            displayValue(F, loadInstPtr->getPointerOperand(), valueName, insertBefore);
         }
-
-        Value *valuePtr = (Value *) loadInstPtr;
-        valuePtr->setName(StringRef(valueName.c_str()));
-
-        displayValue(F, valuePtr, valueName, insertBefore);
 
         return;
     }
 
-    //#define DUMP_VECTOR
+#define DUMP_VECTOR
 #ifdef DUMP_VECTOR
     if (value->getType()->isVectorTy()) {
         displayVectorValues(F, value, valueName, insertBefore);
@@ -377,7 +375,7 @@ void FunctionDisplayInputs::displayValue(Function &F, Value *value, const std::s
     }
 #endif
 
-#define DUMP_SINGLE
+//#define DUMP_SINGLE
 #ifdef DUMP_SINGLE
     displaySingleValue(F, value, valueName, insertBefore);
 #endif
