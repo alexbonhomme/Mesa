@@ -5439,3 +5439,5 @@ libtool
 SConstruct
 src/gallium/auxiliary/gallivm/tracetools.h
 src/gallium/auxiliary/gallivm/tracetools.cpp
+src/gallium/auxiliary/gallivm/printvalues.h
+src/gallium/auxiliary/gallivm/printvalues.cpp

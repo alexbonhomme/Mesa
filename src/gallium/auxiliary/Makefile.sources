@@ -199,4 +199,5 @@ GALLIVM_SOURCES := \
 GALLIVM_CPP_SOURCES := \
 	gallivm/lp_bld_debug.cpp \
 	gallivm/lp_bld_misc.cpp \
-	gallivm/tracetools.cpp
+	gallivm/tracetools.cpp \
+	gallivm/printvalues.cpp
