@@ -108,15 +108,19 @@ struct FunctionDisplayInputs : public FunctionPass {
         BasicBlock &entryBB = F.getEntryBlock();
         Instruction *insertPos = entryBB.begin();
 
+        PrintValues printConst = PrintValues(PrintfFunc, &F);
+        printConst.printConstString("\n- " + F.getName().str() + " -\n- INPUTS -\n", insertPos);
+
         // Display input values
         Function::arg_iterator it = F.arg_begin();
         Function::arg_iterator ite = F.arg_end();
         for ( ; it != ite; ++it) {
             Argument *arg = it;
-            addInstToDisplayValue(F, arg, insertPos);
+//            addInstToDisplayValue(F, arg, insertPos);
+            addInstToDisplayPositionAndColorValue(F, arg, insertPos);
         }
 
-//#define DUMP_RETURN
+        //#define DUMP_RETURN
 #ifdef DUMP_RETURN
         /* Print return value */
         std::string printReturnValueStr = "RETURN: %d\n"; // %d only ?!
@@ -142,12 +146,15 @@ struct FunctionDisplayInputs : public FunctionPass {
                 continue;
             }
 
+            printConst.printConstString("\n- OUTPUTS -\n", insertPos);
+
             // get args values
             Function::arg_iterator it = F.arg_begin();
             Function::arg_iterator ite = F.arg_end();
             for ( ; it != ite; ++it) {
                 Value *arg = it;
-                addInstToDisplayValue(F, arg, termInst);
+//                addInstToDisplayValue(F, arg, termInst);
+                addInstToDisplayPositionAndColorValue(F, arg, termInst);
             }
 
 #ifdef DUMP_RETURN
@@ -171,17 +178,26 @@ struct FunctionDisplayInputs : public FunctionPass {
 #endif
         }
 
+#define DUMP_LLVM_FUNC_CODE
+#ifdef DUMP_LLVM_FUNC_CODE
+        errs() << "\n -- START DUMP FUNCTION --\n";
+        errs().write_escaped(F.getName()) << ":\n";
+        F.dump();
+        errs() << " -- END DUMP FUNCTION --\n";
+#endif
+
         return true; // modified function
     }
 
     void displayValue(Function &F, Value *value, const std::string valuename, Instruction *insertBefore);
-    void displaySingleValue(Function &F, Value *value, const std::string valueName, Instruction *insertBefore);
-    void displaySingleValue(Function &F, Value *value, Instruction *insertBefore);
+    void displayScalarValue(Function &F, Value *value, const std::string valueName, Instruction *insertBefore);
+    void displayScalarValue(Function &F, Value *value, Instruction *insertBefore);
     void displayVectorValues(Function &F, Value *vector, const std::string vectorName, Instruction *insertBefore);
     void displayArrayValues(Function &F, Value *array, const std::string arrayName, Instruction *insertBefore);
     void displayStructureValues(Function &F, Value *structure, const std::string structName, Instruction *insertBefore);
 
     void addInstToDisplayValue(Function &F, Value *value, Instruction *insertBefore);
+    void addInstToDisplayPositionAndColorValue(Function &F, Value *value, Instruction *insertBefore);
 
 };
 
@@ -199,13 +215,13 @@ static RegisterPass<FunctionDisplayInputs> Y("display-func-input",
  * @param value
  * @param insertBefore
  */
-void FunctionDisplayInputs::displaySingleValue(Function &F, Value *value, Instruction *insertBefore) {
+void FunctionDisplayInputs::displayScalarValue(Function &F, Value *value, Instruction *insertBefore) {
     std::string valueName = "";
     if (value->hasName()) {
         valueName = value->getName().str();
     }
 
-    displaySingleValue(F, value, valueName, insertBefore);
+    displayScalarValue(F, value, valueName, insertBefore);
 }
 
 /**
@@ -215,7 +231,7 @@ void FunctionDisplayInputs::displaySingleValue(Function &F, Value *value, Instru
  * @param valueName
  * @param insertBefore
  */
-void FunctionDisplayInputs::displaySingleValue(Function &F, Value *value, const std::string valueName, Instruction *insertBefore) {
+void FunctionDisplayInputs::displayScalarValue(Function &F, Value *value, const std::string valueName, Instruction *insertBefore) {
     PrintValues *printValue = new PrintValues(PrintfFunc, &F);
     printValue->setName(valueName);
     printValue->add(value);
@@ -231,9 +247,7 @@ void FunctionDisplayInputs::displaySingleValue(Function &F, Value *value, const 
  * @param insertBefore
  */
 void FunctionDisplayInputs::displayVectorValues(Function &F, Value *vector, const std::string vectorName, Instruction *insertBefore) {
-
     PrintValues *printVec = new PrintValues(PrintfFunc, &F);
-    //        printVec->setName("Vector content");
     printVec->setName(vectorName);
 
     Type *elemType = vector->getType()->getVectorElementType();
@@ -246,7 +260,7 @@ void FunctionDisplayInputs::displayVectorValues(Function &F, Value *vector, cons
             std::stringstream vectorNameSstm;
             vectorNameSstm << vectorName << "[" << i << "]";
 
-            displaySingleValue(F, extractInst, vectorNameSstm.str(), insertBefore);
+            displayValue(F, extractInst, vectorNameSstm.str(), insertBefore);
         }
     }
 
@@ -332,21 +346,21 @@ void FunctionDisplayInputs::displayStructureValues(Function &F, Value *structure
  * @param insertBefore
  */
 void FunctionDisplayInputs::displayValue(Function &F, Value *value, const std::string valueName, Instruction *insertBefore) {
-
+#define DUMP_POINTER
+#ifdef DUMP_POINTER
     if (value->getType()->isPointerTy()) {
         LoadInst *loadInstPtr = new LoadInst(value, "load_ptr", insertBefore);
 
-        //TODO DEBUG
-        Type *elementPtr = ((PointerType *) value->getType())->getPointerElementType();
-        if (elementPtr->isVectorTy() ||
-                elementPtr->isPointerTy()) {
-            displayValue(F, loadInstPtr, valueName, insertBefore);
-        } else {
-            displayValue(F, loadInstPtr->getPointerOperand(), valueName, insertBefore);
-        }
+#if 0
+        errs() << "loadInstPtr: ";
+        loadInstPtr->getType()->dump();
+        errs() << '\n';
+#endif
+        displayValue(F, loadInstPtr, valueName, insertBefore);
 
         return;
     }
+#endif
 
 #define DUMP_VECTOR
 #ifdef DUMP_VECTOR
@@ -357,7 +371,7 @@ void FunctionDisplayInputs::displayValue(Function &F, Value *value, const std::s
     }
 #endif
 
-    //#define DUMP_ARRAY
+#define DUMP_ARRAY
 #ifdef DUMP_ARRAY
     if (value->getType()->isArrayTy()) {
         displayArrayValues(F, value, valueName, insertBefore);
@@ -366,7 +380,7 @@ void FunctionDisplayInputs::displayValue(Function &F, Value *value, const std::s
     }
 #endif
 
-    //#define DUMP_STRUCT
+//#define DUMP_STRUCT
 #ifdef DUMP_STRUCT
     if (value->getType()->isStructTy()) {
         displayStructureValues(F, value, valueName, insertBefore);
@@ -375,9 +389,14 @@ void FunctionDisplayInputs::displayValue(Function &F, Value *value, const std::s
     }
 #endif
 
-//#define DUMP_SINGLE
-#ifdef DUMP_SINGLE
-    displaySingleValue(F, value, valueName, insertBefore);
+#define DUMP_SCALAR
+#ifdef DUMP_SCALAR
+    if (value->getType()->isIntegerTy() ||
+            value->getType()->isFloatingPointTy()) {
+        displayScalarValue(F, value, valueName, insertBefore);
+
+        return;
+    }
 #endif
 }
 
@@ -401,6 +420,46 @@ void FunctionDisplayInputs::addInstToDisplayValue(Function &F, Value *value, Ins
     }
 
     displayValue(F, value, valueName, insertBefore);
+}
+
+/**
+ * Display x, y and color_ptr_ptr values
+ * @brief FunctionDisplayInputs::addInstToDisplayPositionAndColorValue
+ * @param F
+ * @param value
+ * @param insertBefore
+ */
+void FunctionDisplayInputs::addInstToDisplayPositionAndColorValue(Function &F, Value *value, Instruction *insertBefore) {
+    if (!value->hasName()) {
+        return;
+    }
+
+    std::string valueName = value->getName().str();
+
+    /* Position
+     *
+     * x: i32
+     * y: i32
+     */
+    if (valueName.compare("x") == 0 ||
+            valueName.compare("y") == 0) {
+        displayScalarValue(F, value, valueName, insertBefore);
+
+        return;
+    }
+
+    /* Color vector
+     *
+     * color_ptr_ptr : <16 x i8>**
+     */
+    if (valueName.compare("color_ptr_ptr") == 0) {
+        LoadInst *loadPtrPtr = new LoadInst(value, "load_ptr_ptr", insertBefore);
+        LoadInst *loadPtr = new LoadInst(loadPtrPtr, "load_ptr", insertBefore);
+
+        displayVectorValues(F, loadPtr, valueName, insertBefore);
+
+        return;
+    }
 }
 
 //----------------------- MODULE --------------------------//

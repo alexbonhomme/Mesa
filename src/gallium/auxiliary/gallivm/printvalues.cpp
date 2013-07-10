@@ -25,7 +25,7 @@ GlobalVariable *PrintValues::getGlobalFromString(Function &F, std::string &str) 
 std::string PrintValues::getPrintfCodeFor(Type *type) {
     switch (type->getTypeID()) {
     case Type::IntegerTyID:
-        return "%d";
+        return "%i";
     case Type::FloatTyID:
         return "%f";
     case Type::DoubleTyID:
@@ -66,7 +66,18 @@ void PrintValues::printInline(Instruction *insertBefore) {
     for (unsigned i = 1; i < patternsVec.size(); ++i) {
         strFormat += " -> " + patternsVec[i];
     }
-    strFormat += '\n';
+    strFormat += "\n";
+
+    print(strFormat, insertBefore);
+}
+
+void PrintValues::printSingleValue(Instruction *insertBefore) {
+    if (patternsVec.size() <= 0) {
+        return;
+    }
+
+    // Formated string construction
+    std::string strFormat = name + ": " + patternsVec[0] + "\n";
 
     print(strFormat, insertBefore);
 }
@@ -86,6 +97,7 @@ void PrintValues::printArray(Instruction *insertBefore) {
 
     print(strFormat, insertBefore);
 }
+
 void PrintValues::printStruct(Instruction *insertBefore) {
     if (patternsVec.size() <= 0) {
         return;
@@ -100,4 +112,14 @@ void PrintValues::printStruct(Instruction *insertBefore) {
     strFormat += "}\n";
 
     print(strFormat, insertBefore);
+}
+
+void PrintValues::printConstString(std::string message, Instruction *insertBefore) {
+    std::string str = name.empty() ? message :
+                                     name + ": " + message;
+
+    std::vector<Value *> args;
+    args.push_back(getGlobalFromString(*F, str));
+
+    CallInst::Create(PrintFunc, args, "print_const_string", insertBefore);
 }

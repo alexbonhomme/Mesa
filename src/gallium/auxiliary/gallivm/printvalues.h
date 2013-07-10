@@ -34,13 +34,17 @@ public:
         valuesVec.push_back(value);
     }
 
-    /**
-     * @brief printInline
-     * @param insertBefore
-     */
     void printInline(Instruction *insertBefore);
+    void printSingleValue(Instruction *insertBefore);
     void printArray(Instruction *insertBefore);
     void printStruct(Instruction *insertBefore);
+
+    /**
+     * @brief printConstString
+     * @param str
+     * @param insertBefore
+     */
+    void printConstString(std::string message, Instruction *insertBefore);
 
     /**
      * @brief PrintValues::getPrintfCodeFor
@@ -56,6 +60,7 @@ public:
      * @return
      */
     static GlobalVariable *getGlobalFromString(Function &F, std::string &str);
+
 private:
 
     /**
