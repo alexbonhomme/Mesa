@@ -5442,8 +5442,6 @@ src/gallium/auxiliary/gallivm/tracetools.cpp
 src/gallium/auxiliary/gallivm/printvalues.h
 src/gallium/auxiliary/gallivm/printvalues.cpp
 src/gallium/auxiliary/gallivm/function_info_printer.h
-src/gallium/auxiliary/gallivm/function_info_printer.cpp
 src/gallium/auxiliary/gallivm/module_info_printer.h
-src/gallium/auxiliary/gallivm/module_info_printer.cpp
 src/gallium/auxiliary/gallivm/function_display_fragments.h
-src/gallium/auxiliary/gallivm/function_display_fragments.cpp
+src/gallium/auxiliary/gallivm/function_display_arguments_value.h

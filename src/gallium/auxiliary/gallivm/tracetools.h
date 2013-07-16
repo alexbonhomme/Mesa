@@ -8,7 +8,8 @@ extern "C" {
 #endif
 
 void LLVMAddFunctionInfoPrinterPass(LLVMPassManagerRef PM);
-void LLVMAddFunctionDisplayInputsPass(LLVMPassManagerRef PM);
+void LLVMAddFunctionDisplayFragmentsPass(LLVMPassManagerRef PM);
+void LLVMAddFunctionDisplayArgumentsPass(LLVMPassManagerRef PM);
 void LLVMAddModuleInfoPrinterPass(LLVMPassManagerRef PM);
 
 #ifdef __cplusplus

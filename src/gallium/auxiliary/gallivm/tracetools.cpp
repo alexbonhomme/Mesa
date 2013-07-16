@@ -1,5 +1,6 @@
 #include "function_info_printer.h"
 #include "function_display_fragments.h"
+#include "function_display_arguments_value.h"
 #include "module_info_printer.h"
 #include "tracetools.h"
 
@@ -7,8 +8,12 @@ void LLVMAddFunctionInfoPrinterPass(LLVMPassManagerRef PM) {
     unwrap(PM)->add(createFunctionInfoPrinter());
 }
 
-void LLVMAddFunctionDisplayInputsPass(LLVMPassManagerRef PM) {
+void LLVMAddFunctionDisplayFragmentsPass(LLVMPassManagerRef PM) {
     unwrap(PM)->add(createFunctionDisplayFragments());
+}
+
+void LLVMAddFunctionDisplayArgumentsPass(LLVMPassManagerRef PM) {
+    unwrap(PM)->add(createFunctionDisplayArguments());
 }
 
 void LLVMAddModuleInfoPrinterPass(LLVMPassManagerRef PM) {

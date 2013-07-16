@@ -39,6 +39,10 @@
 #include "tgsi/tgsi_util.h"
 #include "util/u_memory.h"
 
+#include "lp_bld_printf.h"
+
+#include <stdio.h>
+
 /* The user is responsible for freeing list->instructions */
 unsigned lp_bld_tgsi_list_init(struct lp_build_tgsi_context * bld_base)
 {
@@ -273,6 +277,7 @@ lp_build_tgsi_inst_llvm(
    if (info->num_dst > 0) {
       bld_base->emit_store(bld_base, inst, info, emit_data.output);
    }
+
    return TRUE;
 }
 
@@ -420,6 +425,10 @@ lp_build_emit_fetch_texoffset(
                                    off->SwizzleX);
    }
 
+   //DEBUG Alex
+   // Display llvm generated code
+   LLVMDumpValue(res);
+
    return res;
 
 }
@@ -467,9 +476,17 @@ lp_build_tgsi_llvm(
       }
    }
 
+   // tgsi inst -> llvm inst
    while (bld_base->pc != -1) {
       struct tgsi_full_instruction *instr = bld_base->instructions +
 							bld_base->pc;
+
+#if 1
+         //XXX
+//         emit_data.output[emit_data.chan] = lp_build_printf(bld_base->base.gallivm, "DEBUG Instr\n");
+
+#endif
+
       const struct tgsi_opcode_info *opcode_info =
          tgsi_get_opcode_info(instr->Instruction.Opcode);
       if (!lp_build_tgsi_inst_llvm(bld_base, instr)) {
