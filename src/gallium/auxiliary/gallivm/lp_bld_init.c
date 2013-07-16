@@ -146,7 +146,7 @@ create_pass_manager(struct gallivm_state *gallivm)
    LLVMAddTargetData(gallivm->target, gallivm->passmgr);
 
    //DEBUG Alex
-//   LLVMAddFunctionInfoPrinterPass(gallivm->passmgr);
+   LLVMAddFunctionInfoPrinterPass(gallivm->passmgr);
    LLVMAddFunctionDisplayInputsPass(gallivm->passmgr);
 
    if ((gallivm_debug & GALLIVM_DEBUG_NO_OPT) == 0) {
@@ -578,9 +578,9 @@ gallivm_optimize_function(struct gallivm_state *gallivm,
    assert(gallivm->passmgr);
 
    // Analyse module
-   LLVMPassManagerRef modulePassManager = LLVMCreatePassManager();
-   LLVMAddModuleInfoPrinterPass(modulePassManager);
-   LLVMRunPassManager(modulePassManager,gallivm->module);
+//   LLVMPassManagerRef modulePassManager = LLVMCreatePassManager();
+//   LLVMAddModuleInfoPrinterPass(modulePassManager);
+//   LLVMRunPassManager(modulePassManager,gallivm->module);
 
    /* Apply optimizations to LLVM IR */
    LLVMInitializeFunctionPassManager(gallivm->passmgr); // doInitialization
