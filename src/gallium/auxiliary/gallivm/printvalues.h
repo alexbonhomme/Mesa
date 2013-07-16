@@ -34,6 +34,13 @@ public:
         valuesVec.push_back(value);
     }
 
+    void clear() {
+        patternsVec.clear();
+        valuesVec.clear();
+        name.clear();
+    }
+
+    void printSimpleInline(Instruction *insertBefore);
     void printInline(Instruction *insertBefore);
     void printSingleValue(Instruction *insertBefore);
     void printArray(Instruction *insertBefore);

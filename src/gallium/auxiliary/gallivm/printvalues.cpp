@@ -55,6 +55,26 @@ void PrintValues::print(std::string &strFormat, Instruction *insertBefore) {
     CallInst::Create(PrintFunc, args, "print", insertBefore);
 }
 
+void PrintValues::printSimpleInline(Instruction *insertBefore) {
+    if (patternsVec.size() <= 0) {
+        return;
+    }
+
+    // Formated string construction
+    std::string strFormat;
+    if (!name.empty()) {
+        strFormat += name + ": ";
+    }
+
+    strFormat += patternsVec[0];
+    for (unsigned i = 1; i < patternsVec.size(); ++i) {
+        strFormat += " " + patternsVec[i];
+    }
+    strFormat += "\n";
+
+    print(strFormat, insertBefore);
+}
+
 void PrintValues::printInline(Instruction *insertBefore) {
     if (patternsVec.size() <= 0) {
         return;

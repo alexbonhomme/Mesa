@@ -10,7 +10,18 @@
 
 using namespace llvm;
 
-#define GET_INT(x) ConstantInt::get(Type::getInt32Ty(llvm::getGlobalContext()), x)
+#define GET_INT8(x) ConstantInt::get(Type::getInt8Ty(llvm::getGlobalContext()), x)
+#define GET_INT16(x) ConstantInt::get(Type::getInt16Ty(llvm::getGlobalContext()), x)
+#define GET_INT32(x) ConstantInt::get(Type::getInt32Ty(llvm::getGlobalContext()), x)
+#define GET_INT64(x) ConstantInt::get(Type::getInt64Ty(llvm::getGlobalContext()), x)
+
+#ifdef __i386__
+#define GET_INT GET_INT32
+#elif __x86_64__
+#define GET_INT GET_INT64
+#else
+#define GET_INT GET_INT32
+#endif
 
 /**
  *
@@ -109,17 +120,19 @@ struct FunctionDisplayInputs : public FunctionPass {
         Instruction *insertPos = entryBB.begin();
 
         PrintValues printConst = PrintValues(PrintfFunc, &F);
+#if 1
         printConst.printConstString("\n- " + F.getName().str() + " -\n- INPUTS -\n", insertPos);
 
-        // Display input values
-        Function::arg_iterator it = F.arg_begin();
-        Function::arg_iterator ite = F.arg_end();
-        for ( ; it != ite; ++it) {
-            Argument *arg = it;
-//            addInstToDisplayValue(F, arg, insertPos);
-            addInstToDisplayPositionAndColorValue(F, arg, insertPos);
-        }
-
+//        // Display input values
+//        Function::arg_iterator it = F.arg_begin();
+//        Function::arg_iterator ite = F.arg_end();
+//        for ( ; it != ite; ++it) {
+//            Argument *arg = it;
+////            addInstToDisplayValue(F, arg, insertPos);
+//            addInstToDisplayPositionAndColorValue(F, arg, insertPos);
+//        }
+        addInstToDisplayPixelsColorValue(F, insertPos);
+#endif
         //#define DUMP_RETURN
 #ifdef DUMP_RETURN
         /* Print return value */
@@ -145,17 +158,19 @@ struct FunctionDisplayInputs : public FunctionPass {
             if (!ReturnInst::classof( termInst )) { // Sounds good...
                 continue;
             }
-
+#if 1
             printConst.printConstString("\n- OUTPUTS -\n", insertPos);
 
             // get args values
-            Function::arg_iterator it = F.arg_begin();
-            Function::arg_iterator ite = F.arg_end();
-            for ( ; it != ite; ++it) {
-                Value *arg = it;
-//                addInstToDisplayValue(F, arg, termInst);
-                addInstToDisplayPositionAndColorValue(F, arg, termInst);
-            }
+//            Function::arg_iterator it = F.arg_begin();
+//            Function::arg_iterator ite = F.arg_end();
+//            for ( ; it != ite; ++it) {
+//                Value *arg = it;
+////                addInstToDisplayValue(F, arg, termInst);
+//                addInstToDisplayPositionAndColorValue(F, arg, termInst);
+//            }
+            addInstToDisplayPixelsColorValue(F, termInst);
+#endif
 
 #ifdef DUMP_RETURN
             // return value ?
@@ -198,6 +213,7 @@ struct FunctionDisplayInputs : public FunctionPass {
 
     void addInstToDisplayValue(Function &F, Value *value, Instruction *insertBefore);
     void addInstToDisplayPositionAndColorValue(Function &F, Value *value, Instruction *insertBefore);
+    void addInstToDisplayPixelsColorValue(Function &F, Instruction *insertBefore);
 
 };
 
@@ -253,15 +269,18 @@ void FunctionDisplayInputs::displayVectorValues(Function &F, Value *vector, cons
     Type *elemType = vector->getType()->getVectorElementType();
     for (unsigned i = 0; i < vector->getType()->getVectorNumElements(); ++i) {
         ExtractElementInst* extractInst = ExtractElementInst::Create(vector, GET_INT(i), "extract_inst", insertBefore);
+//        SExtInst* sextInst = new SExtInst(extractInst, Type::getInt32Ty(getGlobalContext()), "sext_inst", insertBefore);
 
-        printVec->add(extractInst, extractInst->getType());
+//        printVec->add(sextInst, Type::getInt32Ty(getGlobalContext()));
+//        printVec->add(extractInst, "0x%x");
+        printVec->add(extractInst, "%d");
 
-        if (elemType->isPointerTy()) {
-            std::stringstream vectorNameSstm;
-            vectorNameSstm << vectorName << "[" << i << "]";
+//        if (elemType->isPointerTy()) {
+//            std::stringstream vectorNameSstm;
+//            vectorNameSstm << vectorName << "[" << i << "]";
 
-            displayValue(F, extractInst, vectorNameSstm.str(), insertBefore);
-        }
+//            displayValue(F, extractInst, vectorNameSstm.str(), insertBefore);
+//        }
     }
 
     printVec->printArray(insertBefore);
@@ -448,17 +467,147 @@ void FunctionDisplayInputs::addInstToDisplayPositionAndColorValue(Function &F, V
         return;
     }
 
+    if (valueName.compare("stride_ptr") == 0) {
+        GetElementPtrInst *gep = GetElementPtrInst::Create(value, GET_INT(0), "gep_inst", insertBefore);
+        LoadInst *load = new LoadInst(gep, "load_inst", false, 4, insertBefore);
+
+        displayScalarValue(F, load, valueName, insertBefore);
+
+        return;
+    }
+
     /* Color vector
      *
      * color_ptr_ptr : <16 x i8>**
      */
     if (valueName.compare("color_ptr_ptr") == 0) {
-        LoadInst *loadPtrPtr = new LoadInst(value, "load_ptr_ptr", insertBefore);
-        LoadInst *loadPtr = new LoadInst(loadPtrPtr, "load_ptr", insertBefore);
+        GetElementPtrInst *gep = GetElementPtrInst::Create(value, GET_INT(0), "gep_inst", insertBefore);
+        LoadInst *vector_ptr = new LoadInst(gep, "load_ptr_inst", false, 4, insertBefore);
 
-        displayVectorValues(F, loadPtr, valueName, insertBefore);
+        for (unsigned v = 0; v < 4; ++v) {
+            PrintValues *printVec = new PrintValues(PrintfFunc, &F);
+            printVec->setName("color");
+
+            std::vector<Value *> idx;
+            idx.push_back(GET_INT(0));
+            idx.push_back(GET_INT(v * 256));
+            GetElementPtrInst *vector_gep = GetElementPtrInst::Create(vector_ptr, idx, "gep_inst", insertBefore);
+            BitCastInst *vector = new BitCastInst(vector_gep, vector_ptr->getType(), "cast_inst", insertBefore);
+
+            for (unsigned i = 0; i < 16; ++i) {
+                std::vector<Value *> idx_elem;
+                idx_elem.push_back(GET_INT(0));
+                idx_elem.push_back(GET_INT8(i));
+                GetElementPtrInst *element_gep = GetElementPtrInst::Create(vector, idx_elem, "gep_inst", insertBefore);
+
+                LoadInst *element = new LoadInst(element_gep, "load_inst", insertBefore);
+                printVec->add(element, "%d");
+            }
+
+            printVec->printArray(insertBefore);
+
+        }
 
         return;
+    }
+}
+
+void FunctionDisplayInputs::addInstToDisplayPixelsColorValue(Function &F, Instruction *insertBefore) {
+    if (F.arg_size() <= 0) {
+        return;
+    }
+
+    Value *stride=NULL, *x, *y, *color_ptr_ptr;
+
+    Function::arg_iterator it = F.arg_begin();
+    Function::arg_iterator ite = F.arg_end();
+    for ( ; it != ite; ++it) {
+        Value *arg = it;
+
+        if (!arg->hasName()) {
+            continue;
+        }
+
+        std::string argName = arg->getName().str();
+        if (argName.compare("stride_ptr") == 0) {
+            GetElementPtrInst *gep = GetElementPtrInst::Create(arg, GET_INT(0), "gep_inst", insertBefore);
+            LoadInst *stride_load = new LoadInst(gep, "load_inst", false, 4, insertBefore);
+
+            stride = stride_load; // we need this value to deal with color_ptr_ptr
+        }
+        else if (argName.compare("x") == 0) {
+            x = arg;
+        }
+        else if (argName.compare("y") == 0) {
+            y = arg;
+        }
+        else if (argName.compare("color_ptr_ptr") == 0) {
+            color_ptr_ptr = arg;
+        }
+    }
+
+    if (stride == NULL) {
+        return;
+    }
+
+    // get color for each pixels
+    GetElementPtrInst *gep = GetElementPtrInst::Create(color_ptr_ptr, GET_INT(0), "gep_inst", insertBefore);
+    LoadInst *color_ptr = new LoadInst(gep, "load_ptr_inst", false, 4, insertBefore);
+
+
+    for (unsigned v = 0; v < 4; ++v) {
+        Constant *yLoopIndice = GET_INT(v);
+        BinaryOperator *ySum = BinaryOperator::CreateNSWAdd(y, yLoopIndice, "y_add_idx", insertBefore);
+        BinaryOperator *stride_value = BinaryOperator::CreateNSWMul(stride, yLoopIndice, "stride_mul_idx", insertBefore);
+
+        std::vector<Value *> idx;
+        idx.push_back( GET_INT(0) );
+        idx.push_back( stride_value );
+        GetElementPtrInst *vector_gep = GetElementPtrInst::Create(color_ptr, idx, "gep_inst", insertBefore);
+        BitCastInst *vector = new BitCastInst(vector_gep, color_ptr->getType(), "cast_inst", insertBefore);
+
+        for (unsigned i = 0; i < 4; ++i) {
+            int shift = i * 4;
+
+            Constant *xLoopIndice = GET_INT(i);
+            BinaryOperator *xSum = BinaryOperator::CreateNSWAdd(x, xLoopIndice, "x_add_idx", insertBefore);
+
+            std::vector<Value *> idx_elem;
+            idx_elem.push_back( GET_INT(0) );
+            idx_elem.push_back( GET_INT8(0 + shift) );
+            GetElementPtrInst *blue_gep = GetElementPtrInst::Create(vector, idx_elem, "blue_gep", insertBefore);
+            LoadInst *blue = new LoadInst(blue_gep, "blue_value", insertBefore);
+
+            idx_elem.clear();
+            idx_elem.push_back( GET_INT(0) );
+            idx_elem.push_back( GET_INT8(1 + shift) );
+            GetElementPtrInst *green_gep = GetElementPtrInst::Create(vector, idx_elem, "green_gep", insertBefore);
+            LoadInst *green = new LoadInst(green_gep, "green_value", insertBefore);
+
+            idx_elem.clear();
+            idx_elem.push_back( GET_INT(0) );
+            idx_elem.push_back( GET_INT8(2 + shift) );
+            GetElementPtrInst *red_gep = GetElementPtrInst::Create(vector, idx_elem, "red_gep", insertBefore);
+            LoadInst *red = new LoadInst(red_gep, "red_value", insertBefore);
+
+            idx_elem.clear();
+            idx_elem.push_back( GET_INT(0) );
+            idx_elem.push_back( GET_INT8(3 + shift) );
+            GetElementPtrInst *alpha_gep = GetElementPtrInst::Create(vector, idx_elem, "alpha_gep", insertBefore);
+            LoadInst *alpha = new LoadInst(alpha_gep, "alpha_value", insertBefore);
+
+            // rgba format
+            PrintValues *printColor = new PrintValues(PrintfFunc, &F);
+            printColor->add(xSum, "%d");
+            printColor->add(ySum, "%d");
+            printColor->add(red, "%.3d");
+            printColor->add(green, "%.3d");
+            printColor->add(blue, "%.3d");
+            printColor->add(alpha, "%.3d");
+            printColor->printSimpleInline(insertBefore);
+
+            free(printColor);
+        }
     }
 }
 
