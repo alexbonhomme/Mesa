@@ -38,6 +38,8 @@
 #include "util/u_math.h"
 #include "util/u_bitmask.h"
 
+#include "stdio.h"
+
 union tgsi_any_token {
    struct tgsi_header header;
    struct tgsi_processor processor;
@@ -198,6 +200,9 @@ static void tokens_expand( struct ureg_tokens *tokens,
 {
    unsigned old_size = tokens->size * sizeof(unsigned);
 
+   printf("tokens_expand() : count: %d - old_size: %d\n", count, old_size);
+   printf("tokens_expand() : tokens->size: %d\n", tokens->size);
+
    if (tokens->tokens == error_tokens) {
       return;
    }
@@ -212,6 +217,8 @@ static void tokens_expand( struct ureg_tokens *tokens,
    if (tokens->tokens == NULL) {
       tokens_error(tokens);
    }
+
+    printf("tokens_expand() : tokens->size: %d\n", tokens->size);
 }
 
 static void set_bad( struct ureg_program *ureg )

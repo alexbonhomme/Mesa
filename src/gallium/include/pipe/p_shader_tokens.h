@@ -475,8 +475,23 @@ struct tgsi_instruction
    unsigned Predicate  : 1;  /* BOOL */
    unsigned Label      : 1;
    unsigned Texture    : 1;
-   unsigned Padding    : 1;
+//   unsigned Padding    : 1;
+   unsigned Tag : 1;
+
+//TODO
+//   unsigned SourceIndice : 8;
+//   unsigned SourceLineIndice : 32;
+//   unsigned SourceColumnIndice : 32;
+
+//   unsigned Padding    : 25;
 };
+
+//struct tgsi_instruction_tag
+//{
+//    unsigned SourceIndice : 6;
+//    unsigned SourceLineIndice : 16;
+//    unsigned SourceColumnIndice : 10;
+//};
 
 /*
  * If tgsi_instruction::Label is TRUE, tgsi_instruction_label follows.

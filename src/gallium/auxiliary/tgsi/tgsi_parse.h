@@ -94,6 +94,15 @@ struct tgsi_full_instruction
    struct tgsi_full_dst_register       Dst[TGSI_FULL_MAX_DST_REGISTERS];
    struct tgsi_full_src_register       Src[TGSI_FULL_MAX_SRC_REGISTERS];
    struct tgsi_texture_offset          TexOffsets[TGSI_FULL_MAX_TEX_OFFSETS];
+
+//   /**
+//    * Source location
+//    */
+//   struct {
+//      unsigned source;    /**< GLSL source number. */
+//      unsigned line;      /**< Line number within the source string. */
+//      unsigned column;    /**< Column in the line. */
+//   } location;
 };
 
 union tgsi_full_token

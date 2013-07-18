@@ -600,11 +600,6 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
       }
    }
 
-   //DEBUG Alex
-//   inst->location.source = ir->location.source;
-//   inst->location.line = ir->location.line;
-//   inst->location.column = ir->location.column;
-
    this->instructions.push_tail(inst);
 
    if (native_integers)
