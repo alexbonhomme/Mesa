@@ -245,6 +245,15 @@ public:
    int dead_mask; /**< Used in dead code elimination */
 
    class function_entry *function; /* Set on TGSI_OPCODE_CAL or TGSI_OPCODE_BGNSUB */
+
+   /**
+    * Source location
+    */
+   struct {
+      unsigned source;    /**< GLSL source number. */
+      unsigned line;      /**< Line number within the source string. */
+      unsigned column;    /**< Column in the line. */
+   } location;
 };
 
 class variable_storage : public exec_node {
@@ -590,6 +599,11 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
          }
       }
    }
+
+   //DEBUG Alex
+//   inst->location.source = ir->location.source;
+//   inst->location.line = ir->location.line;
+//   inst->location.column = ir->location.column;
 
    this->instructions.push_tail(inst);
 
@@ -4376,6 +4390,8 @@ compile_tgsi_instruction(struct st_translate *t,
                          const glsl_to_tgsi_instruction *inst,
                          bool clamp_dst_color_output)
 {
+    printf("compile_tgsi_instruction();\n");
+
    struct ureg_program *ureg = t->ureg;
    GLuint i;
    struct ureg_dst dst[1];

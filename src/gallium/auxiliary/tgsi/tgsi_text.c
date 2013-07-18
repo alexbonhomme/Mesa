@@ -39,6 +39,8 @@
 #include "tgsi_util.h"
 #include "tgsi_dump.h"
 
+#include "stdio.h"
+
 static boolean is_alpha_underscore( const char *cur )
 {
    return

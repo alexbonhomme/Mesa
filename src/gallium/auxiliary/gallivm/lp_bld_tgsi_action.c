@@ -48,6 +48,9 @@
 #include "lp_bld_gather.h"
 #include "lp_bld_logic.h"
 
+#include "lp_bld_printf.h"
+#include "stdio.h"
+
 #include "tgsi/tgsi_exec.h"
 
 /* XXX: The CPU only defaults should be repaced by generic ones.  In most
@@ -91,7 +94,7 @@ add_emit(
    struct lp_build_tgsi_context * bld_base,
    struct lp_build_emit_data * emit_data)
 {
-   emit_data->output[emit_data->chan] = LLVMBuildFAdd(
+    emit_data->output[emit_data->chan] = LLVMBuildFAdd(
                                 bld_base->base.gallivm->builder,
                                 emit_data->args[0], emit_data->args[1], "");
 }
@@ -580,7 +583,7 @@ mul_emit(
    struct lp_build_tgsi_context * bld_base,
    struct lp_build_emit_data * emit_data)
 {
-   emit_data->output[emit_data->chan] = LLVMBuildFMul(
+    emit_data->output[emit_data->chan] = LLVMBuildFMul(
                                    bld_base->base.gallivm->builder,
                                    emit_data->args[0], emit_data->args[1], "");
 }
@@ -722,7 +725,7 @@ sub_emit(
    struct lp_build_tgsi_context * bld_base,
    struct lp_build_emit_data * emit_data)
 {
-	emit_data->output[emit_data->chan] = LLVMBuildFSub(
+    emit_data->output[emit_data->chan] = LLVMBuildFSub(
 				bld_base->base.gallivm->builder,
 				emit_data->args[0],
 				emit_data->args[1], "");
@@ -849,6 +852,8 @@ const struct lp_build_tgsi_action xpd_action = {
 void
 lp_set_default_actions(struct lp_build_tgsi_context * bld_base)
 {
+    printf("lp_set_default_actions()\n");
+
    bld_base->op_actions[TGSI_OPCODE_DP2] = dp2_action;
    bld_base->op_actions[TGSI_OPCODE_DP3] = dp3_action;
    bld_base->op_actions[TGSI_OPCODE_DP4] = dp4_action;
@@ -1699,6 +1704,8 @@ void
 lp_set_default_actions_cpu(
    struct lp_build_tgsi_context * bld_base)
 {
+    printf("lp_set_default_actions_cpu()\n");
+
    lp_set_default_actions(bld_base);
    bld_base->op_actions[TGSI_OPCODE_ABS].emit = abs_emit_cpu;
    bld_base->op_actions[TGSI_OPCODE_ADD].emit = add_emit_cpu;

@@ -36,6 +36,7 @@
 #include "ir_hierarchical_visitor.h"
 #include "main/mtypes.h"
 
+
 /**
  * \defgroup IR Intermediate representation nodes
  *
@@ -88,6 +89,15 @@ enum ir_node_type {
 class ir_instruction : public exec_node {
 public:
    enum ir_node_type ir_type;
+
+   /**
+    * Source location
+    */
+   struct {
+      unsigned source;    /**< GLSL source number. */
+      unsigned line;      /**< Line number within the source string. */
+      unsigned column;    /**< Column in the line. */
+   } location;
 
    /**
     * GCC 4.7+ and clang warn when deleting an ir_instruction unless

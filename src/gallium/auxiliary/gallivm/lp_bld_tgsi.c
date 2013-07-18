@@ -202,6 +202,17 @@ lp_build_tgsi_inst_llvm(
    unsigned chan_index;
    LLVMValueRef val;
 
+#if 1 //DEBUG Alex
+   char str_opcode_name[100];
+   sprintf(str_opcode_name, "Instruction infos :\n"
+           "\tName: %s\n"
+           "\tLine: %d\n",
+           info->mnemonic,
+           0);//inst->Instruction.location.line);
+   //printf("Instruction name: %s\n", opcode_name);
+   lp_build_printf(bld_base->base.gallivm, str_opcode_name);
+#endif
+
    bld_base->pc++;
 
    /* Ignore deprecated instructions */
@@ -425,12 +436,7 @@ lp_build_emit_fetch_texoffset(
                                    off->SwizzleX);
    }
 
-   //DEBUG Alex
-   // Display llvm generated code
-   LLVMDumpValue(res);
-
    return res;
-
 }
 
 
@@ -480,13 +486,6 @@ lp_build_tgsi_llvm(
    while (bld_base->pc != -1) {
       struct tgsi_full_instruction *instr = bld_base->instructions +
 							bld_base->pc;
-
-#if 1
-         //XXX
-//         emit_data.output[emit_data.chan] = lp_build_printf(bld_base->base.gallivm, "DEBUG Instr\n");
-
-#endif
-
       const struct tgsi_opcode_info *opcode_info =
          tgsi_get_opcode_info(instr->Instruction.Opcode);
       if (!lp_build_tgsi_inst_llvm(bld_base, instr)) {

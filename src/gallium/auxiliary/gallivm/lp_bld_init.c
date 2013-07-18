@@ -146,7 +146,7 @@ create_pass_manager(struct gallivm_state *gallivm)
    LLVMAddTargetData(gallivm->target, gallivm->passmgr);
 
    //DEBUG Alex
-   LLVMAddFunctionInfoPrinterPass(gallivm->passmgr);
+//   LLVMAddFunctionInfoPrinterPass(gallivm->passmgr);
    LLVMAddFunctionDisplayFragmentsPass(gallivm->passmgr);
 
    if ((gallivm_debug & GALLIVM_DEBUG_NO_OPT) == 0) {
