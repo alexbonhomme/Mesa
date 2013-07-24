@@ -556,16 +556,18 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
    inst->function = NULL;
    
    //DEBUG Alex
-//   assert(ir != NULL);
+   if (ir != NULL) {
+       inst->location.source = ir->location.source;
+       inst->location.line = ir->location.line;
+       inst->location.column = ir->location.column;
 
-//   inst->location.source = ir->location.source;
-//   inst->location.line = ir->location.line;
-//   inst->location.column = ir->location.column;
-
-//   printf("source: %d, line: %d, column: %d\n",
-//          inst->location.source,
-//          inst->location.line,
-//          inst->location.column);
+       ir->print();
+       printf("\nIR(%p) source: %d, line: %d, column: %d\n",
+              ir,
+              ir->location.source,
+              ir->location.line,
+              ir->location.column);
+   }
 
    if (op == TGSI_OPCODE_ARL || op == TGSI_OPCODE_UARL)
       this->num_address_regs = 1;

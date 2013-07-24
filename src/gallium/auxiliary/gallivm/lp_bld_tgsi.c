@@ -206,10 +206,12 @@ lp_build_tgsi_inst_llvm(
    char str_opcode_name[100];
    sprintf(str_opcode_name, "Instruction infos :\n"
            "\tName: %s\n"
-           "\tLine: %d\n",
+           "\tSource: %d, Line: %d, Column: %d\n",
            info->mnemonic,
-           inst->Location.line);
-   //printf("Instruction name: %s\n", opcode_name);
+           inst->Location.source,
+           inst->Location.line,
+           inst->Location.column);
+
    lp_build_printf(bld_base->base.gallivm, str_opcode_name);
 #endif
 
@@ -487,8 +489,8 @@ lp_build_tgsi_llvm(
       struct tgsi_full_instruction *instr = bld_base->instructions +
 							bld_base->pc;
 
-      printf("pc: %d\n", bld_base->pc);
-      printf("bld_base->info->loc_instructions: %p\n", bld_base->info->loc_instructions);
+//      printf("pc: %d\n", bld_base->pc);
+//      printf("bld_base->info->loc_instructions: %p\n", bld_base->info->loc_instructions);
       instr->Location.source = bld_base->info->loc_instructions[bld_base->pc].source;
       instr->Location.line = bld_base->info->loc_instructions[bld_base->pc].line;
       instr->Location.column = bld_base->info->loc_instructions[bld_base->pc].column;
