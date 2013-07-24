@@ -33,6 +33,8 @@
 #include "pipe/p_state.h"
 #include "pipe/p_shader_tokens.h"
 
+#include "tgsi_ureg.h"
+
 /**
  * Shader summary info
  */
@@ -59,6 +61,8 @@ struct tgsi_shader_info
    int file_max[TGSI_FILE_COUNT];  /**< highest index of declared registers */
 
    uint immediate_count; /**< number of immediates declared */
+
+   const struct glsl_instruction_location *loc_instructions;
    uint num_instructions;
 
    uint opcode_count[TGSI_OPCODE_LAST];  /**< opcode histogram */

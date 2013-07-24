@@ -180,6 +180,8 @@ struct ureg_program
    unsigned nr_instructions;
 
    struct ureg_tokens domain[2];
+
+   struct glsl_instruction_location *loc_instructions;
 };
 
 static union tgsi_any_token error_tokens[32];
@@ -200,9 +202,6 @@ static void tokens_expand( struct ureg_tokens *tokens,
 {
    unsigned old_size = tokens->size * sizeof(unsigned);
 
-   printf("tokens_expand() : count: %d - old_size: %d\n", count, old_size);
-   printf("tokens_expand() : tokens->size: %d\n", tokens->size);
-
    if (tokens->tokens == error_tokens) {
       return;
    }
@@ -217,8 +216,6 @@ static void tokens_expand( struct ureg_tokens *tokens,
    if (tokens->tokens == NULL) {
       tokens_error(tokens);
    }
-
-    printf("tokens_expand() : tokens->size: %d\n", tokens->size);
 }
 
 static void set_bad( struct ureg_program *ureg )
@@ -1700,6 +1697,9 @@ void *ureg_create_shader( struct ureg_program *ureg,
    if(!state.tokens)
       return NULL;
 
+   //TODO memcpy ?
+   state.locations = ureg->loc_instructions;
+
    if (so)
       state.stream_output = *so;
    else
@@ -1799,4 +1799,75 @@ void ureg_destroy( struct ureg_program *ureg )
    util_bitmask_destroy(ureg->decl_temps);
 
    FREE(ureg);
+}
+
+/**
+ * @brief ureg_alloc_insn_loc
+ * @param ureg
+ * @param nr_insn
+ */
+void
+ureg_alloc_insn_loc(struct ureg_program *ureg,
+                    unsigned nr_insn)
+{
+    ureg->loc_instructions = (struct glsl_instruction_location *) malloc(sizeof(struct glsl_instruction_location) * nr_insn);
+}
+
+/**
+ * @brief ureg_realloc_insn_loc
+ * @param ureg
+ * @param nr_insn
+ */
+void
+ureg_realloc_insn_loc(struct ureg_program *ureg,
+                      unsigned nr_insn)
+{
+    ureg->loc_instructions =
+            (struct glsl_instruction_location *) realloc(ureg->loc_instructions,
+                                                         sizeof(struct glsl_instruction_location) * nr_insn);
+}
+
+/**
+ * @brief ureg_set_insn_loc
+ * @param ureg
+ * @param loc
+ * @param count
+ */
+void
+ureg_set_insn_loc(struct ureg_program *ureg,
+                  const struct glsl_instruction_location *loc,
+                  unsigned count)
+{
+    memcpy(&ureg->loc_instructions[count], loc, sizeof(struct glsl_instruction_location));
+}
+
+/**
+ * @brief ureg_get_insn_loc
+ * @param ureg
+ * @return
+ */
+const struct glsl_instruction_location *
+ureg_get_insn_loc(struct ureg_program *ureg) {
+    const struct glsl_instruction_location *locations;
+
+    locations = ureg->loc_instructions;
+    printf("locations: %p\n", locations);
+
+    return locations;
+}
+
+/**
+ * @brief copy_insn_loc
+ * @param loc
+ * @param nr
+ * @return
+ */
+struct glsl_instruction_location *
+copy_insn_loc(const struct glsl_instruction_location *loc,
+              unsigned nr) {
+
+    struct glsl_instruction_location *locations = NULL;
+    memcpy(locations, loc, nr * sizeof(struct glsl_instruction_location));
+
+    return locations;
 }

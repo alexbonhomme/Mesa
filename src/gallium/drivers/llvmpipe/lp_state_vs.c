@@ -55,6 +55,9 @@ llvmpipe_create_vs_state(struct pipe_context *pipe,
    if (state->shader.tokens == NULL)
       goto fail;
 
+   //TODO: memcpy ?
+   state->shader.locations = templ->locations;
+
    state->draw_data = draw_create_vertex_shader(llvmpipe->draw, templ);
    if (state->draw_data == NULL) 
       goto fail;

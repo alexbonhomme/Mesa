@@ -98,6 +98,9 @@ draw_create_vs_llvm(struct draw_context *draw,
 
    tgsi_scan_shader(state->tokens, &vs->base.info);
 
+   //TODO: do a memcpy ?
+   vs->base.state.locations = state->locations;
+
    vs->variant_key_size = 
       draw_llvm_variant_key_size(
          vs->base.info.file_max[TGSI_FILE_INPUT]+1,

@@ -91,6 +91,15 @@ struct ureg_dst
 
 struct pipe_context;
 
+/**
+ * Source location
+ */
+struct glsl_instruction_location {
+    unsigned source;    /**< GLSL source number. */
+    unsigned line;      /**< Line number within the source string. */
+    unsigned column;    /**< Column in the line. */
+};
+
 struct ureg_program *
 ureg_create( unsigned processor );
 
@@ -510,6 +519,25 @@ ureg_label_insn(struct ureg_program *ureg,
                 unsigned nr_src,
                 unsigned *label);
 
+void
+ureg_alloc_insn_loc(struct ureg_program *ureg,
+                    unsigned nr_insn);
+
+void
+ureg_realloc_insn_loc(struct ureg_program *ureg,
+                      unsigned nr_insn);
+
+void
+ureg_set_insn_loc(struct ureg_program *ureg,
+                  const struct glsl_instruction_location *loc,
+                  unsigned count);
+
+const struct glsl_instruction_location *
+ureg_get_insn_loc(struct ureg_program *ureg);
+
+struct glsl_instruction_location *
+copy_insn_loc(const struct glsl_instruction_location *loc,
+              unsigned nr);
 
 /***********************************************************************
  * Internal instruction helpers, don't call these directly:
@@ -1269,7 +1297,6 @@ ureg_dst_is_undef( struct ureg_dst dst )
 {
    return dst.File == TGSI_FILE_NULL;
 }
-
 
 #ifdef __cplusplus
 }

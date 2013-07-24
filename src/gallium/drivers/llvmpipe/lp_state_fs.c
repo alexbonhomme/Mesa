@@ -2256,6 +2256,9 @@ llvmpipe_create_fs_state(struct pipe_context *pipe,
    /* we need to keep a local copy of the tokens */
    shader->base.tokens = tgsi_dup_tokens(templ->tokens);
 
+   //TODO use memcpy instead ?
+   shader->info.base.loc_instructions = templ->locations;
+
    shader->draw_data = draw_create_fragment_shader(llvmpipe->draw, templ);
    if (shader->draw_data == NULL) {
       FREE((void *) shader->base.tokens);

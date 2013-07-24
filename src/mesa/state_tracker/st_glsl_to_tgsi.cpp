@@ -244,16 +244,12 @@ public:
    unsigned tex_offset_num_offset;
    int dead_mask; /**< Used in dead code elimination */
 
-   class function_entry *function; /* Set on TGSI_OPCODE_CAL or TGSI_OPCODE_BGNSUB */
+    class function_entry *function; /* Set on TGSI_OPCODE_CAL or TGSI_OPCODE_BGNSUB */
 
-   /**
-    * Source location
-    */
-   struct {
-      unsigned source;    /**< GLSL source number. */
-      unsigned line;      /**< Line number within the source string. */
-      unsigned column;    /**< Column in the line. */
-   } location;
+    /**
+     * Source location
+     */
+    struct glsl_instruction_location location;
 };
 
 class variable_storage : public exec_node {
@@ -394,8 +390,8 @@ public:
    exec_list function_signatures;
    int next_signature_id;
 
-   /** List of glsl_to_tgsi_instruction */
-   exec_list instructions;
+    /** List of glsl_to_tgsi_instruction */
+    exec_list instructions;
 
    glsl_to_tgsi_instruction *emit(ir_instruction *ir, unsigned op);
 
@@ -527,7 +523,7 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
 {
    glsl_to_tgsi_instruction *inst = new(mem_ctx) glsl_to_tgsi_instruction();
    int num_reladdr = 0, i;
-   
+
    op = get_opcode(ir, op, dst, src0, src1);
 
    /* If we have to do relative addressing, we want to load the ARL
@@ -559,6 +555,18 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
 
    inst->function = NULL;
    
+   //DEBUG Alex
+//   assert(ir != NULL);
+
+//   inst->location.source = ir->location.source;
+//   inst->location.line = ir->location.line;
+//   inst->location.column = ir->location.column;
+
+//   printf("source: %d, line: %d, column: %d\n",
+//          inst->location.source,
+//          inst->location.line,
+//          inst->location.column);
+
    if (op == TGSI_OPCODE_ARL || op == TGSI_OPCODE_UARL)
       this->num_address_regs = 1;
    
@@ -3005,7 +3013,7 @@ glsl_to_tgsi_visitor::visit(ir_if *ir)
 
    if_inst = emit(ir->condition, if_opcode, undef_dst, this->result);
 
-   this->instructions.push_tail(if_inst);
+    this->instructions.push_tail(if_inst);
 
    visit_exec_list(&ir->then_instructions, this);
 
@@ -3019,22 +3027,22 @@ glsl_to_tgsi_visitor::visit(ir_if *ir)
 
 glsl_to_tgsi_visitor::glsl_to_tgsi_visitor()
 {
-   result.file = PROGRAM_UNDEFINED;
-   next_temp = 1;
-   next_array = 0;
-   next_signature_id = 1;
-   num_immediates = 0;
-   current_function = NULL;
-   num_address_regs = 0;
-   samplers_used = 0;
-   indirect_addr_consts = false;
-   glsl_version = 0;
-   native_integers = false;
-   mem_ctx = ralloc_context(NULL);
-   ctx = NULL;
-   prog = NULL;
-   shader_program = NULL;
-   options = NULL;
+    result.file = PROGRAM_UNDEFINED;
+    next_temp = 1;
+    next_array = 0;
+    next_signature_id = 1;
+    num_immediates = 0;
+    current_function = NULL;
+    num_address_regs = 0;
+    samplers_used = 0;
+    indirect_addr_consts = false;
+    glsl_version = 0;
+    native_integers = false;
+    mem_ctx = ralloc_context(NULL);
+    ctx = NULL;
+    prog = NULL;
+    shader_program = NULL;
+    options = NULL;
 }
 
 glsl_to_tgsi_visitor::~glsl_to_tgsi_visitor()
@@ -4387,79 +4395,79 @@ compile_tgsi_instruction(struct st_translate *t,
 {
     printf("compile_tgsi_instruction();\n");
 
-   struct ureg_program *ureg = t->ureg;
-   GLuint i;
-   struct ureg_dst dst[1];
-   struct ureg_src src[4];
-   struct tgsi_texture_offset texoffsets[MAX_GLSL_TEXTURE_OFFSET];
+    struct ureg_program *ureg = t->ureg;
+    GLuint i;
+    struct ureg_dst dst[1];
+    struct ureg_src src[4];
+    struct tgsi_texture_offset texoffsets[MAX_GLSL_TEXTURE_OFFSET];
 
-   unsigned num_dst;
-   unsigned num_src;
-   unsigned tex_target;
+    unsigned num_dst;
+    unsigned num_src;
+    unsigned tex_target;
 
-   num_dst = num_inst_dst_regs(inst->op);
-   num_src = num_inst_src_regs(inst->op);
+    num_dst = num_inst_dst_regs(inst->op);
+    num_src = num_inst_src_regs(inst->op);
 
-   if (num_dst) 
-      dst[0] = translate_dst(t, 
-                             &inst->dst,
-                             inst->saturate,
-                             clamp_dst_color_output);
+    if (num_dst)
+        dst[0] = translate_dst(t,
+                               &inst->dst,
+                               inst->saturate,
+                               clamp_dst_color_output);
 
-   for (i = 0; i < num_src; i++) 
-      src[i] = translate_src(t, &inst->src[i]);
+    for (i = 0; i < num_src; i++)
+        src[i] = translate_src(t, &inst->src[i]);
 
-   switch(inst->op) {
-   case TGSI_OPCODE_BGNLOOP:
-   case TGSI_OPCODE_CAL:
-   case TGSI_OPCODE_ELSE:
-   case TGSI_OPCODE_ENDLOOP:
-   case TGSI_OPCODE_IF:
-   case TGSI_OPCODE_UIF:
-      assert(num_dst == 0);
-      ureg_label_insn(ureg,
+    switch(inst->op) {
+    case TGSI_OPCODE_BGNLOOP:
+    case TGSI_OPCODE_CAL:
+    case TGSI_OPCODE_ELSE:
+    case TGSI_OPCODE_ENDLOOP:
+    case TGSI_OPCODE_IF:
+    case TGSI_OPCODE_UIF:
+        assert(num_dst == 0);
+        ureg_label_insn(ureg,
+                        inst->op,
+                        src, num_src,
+                        get_label(t,
+                                  inst->op == TGSI_OPCODE_CAL ? inst->function->sig_id : 0));
+        return;
+
+    case TGSI_OPCODE_TEX:
+    case TGSI_OPCODE_TXB:
+    case TGSI_OPCODE_TXD:
+    case TGSI_OPCODE_TXL:
+    case TGSI_OPCODE_TXP:
+    case TGSI_OPCODE_TXQ:
+    case TGSI_OPCODE_TXF:
+    case TGSI_OPCODE_TEX2:
+    case TGSI_OPCODE_TXB2:
+    case TGSI_OPCODE_TXL2:
+        src[num_src++] = t->samplers[inst->sampler];
+        for (i = 0; i < inst->tex_offset_num_offset; i++) {
+            texoffsets[i] = translate_tex_offset(t, &inst->tex_offsets[i]);
+        }
+        tex_target = st_translate_texture_target(inst->tex_target, inst->tex_shadow);
+
+        ureg_tex_insn(ureg,
                       inst->op,
-                      src, num_src,
-                      get_label(t, 
-                                inst->op == TGSI_OPCODE_CAL ? inst->function->sig_id : 0));
-      return;
+                      dst, num_dst,
+                      tex_target,
+                      texoffsets, inst->tex_offset_num_offset,
+                      src, num_src);
+        return;
 
-   case TGSI_OPCODE_TEX:
-   case TGSI_OPCODE_TXB:
-   case TGSI_OPCODE_TXD:
-   case TGSI_OPCODE_TXL:
-   case TGSI_OPCODE_TXP:
-   case TGSI_OPCODE_TXQ:
-   case TGSI_OPCODE_TXF:
-   case TGSI_OPCODE_TEX2:
-   case TGSI_OPCODE_TXB2:
-   case TGSI_OPCODE_TXL2:
-      src[num_src++] = t->samplers[inst->sampler];
-      for (i = 0; i < inst->tex_offset_num_offset; i++) {
-         texoffsets[i] = translate_tex_offset(t, &inst->tex_offsets[i]);
-      }
-      tex_target = st_translate_texture_target(inst->tex_target, inst->tex_shadow);
+    case TGSI_OPCODE_SCS:
+        dst[0] = ureg_writemask(dst[0], TGSI_WRITEMASK_XY);
+        ureg_insn(ureg, inst->op, dst, num_dst, src, num_src);
+        break;
 
-      ureg_tex_insn(ureg,
-                    inst->op,
-                    dst, num_dst,
-                    tex_target,
-                    texoffsets, inst->tex_offset_num_offset,
-                    src, num_src);
-      return;
-
-   case TGSI_OPCODE_SCS:
-      dst[0] = ureg_writemask(dst[0], TGSI_WRITEMASK_XY);
-      ureg_insn(ureg, inst->op, dst, num_dst, src, num_src);
-      break;
-
-   default:
-      ureg_insn(ureg,
-                inst->op,
-                dst, num_dst,
-                src, num_src);
-      break;
-   }
+    default:
+        ureg_insn(ureg,
+                  inst->op,
+                  dst, num_dst,
+                  src, num_src);
+        break;
+    }
 }
 
 /**
@@ -4948,11 +4956,21 @@ st_translate_program(
    }
 
    /* Emit each instruction in turn:
-    */
+   */
    foreach_iter(exec_list_iterator, iter, program->instructions) {
-      set_insn_start(t, ureg_get_instruction_number(ureg));
-      compile_tgsi_instruction(t, (glsl_to_tgsi_instruction *)iter.get(),
-                               clamp_color);
+       unsigned count = ureg_get_instruction_number(ureg);
+       set_insn_start(t, count);
+
+       glsl_to_tgsi_instruction *inst = (glsl_to_tgsi_instruction *)iter.get();
+       compile_tgsi_instruction(t, inst, clamp_color);
+
+       /* Allocate some memory for instructions location
+        * This is not really optimize, but work for now
+        */
+       ureg_realloc_insn_loc(ureg, count + 1);
+       ureg_set_insn_loc(ureg, &inst->location, count);
+//        printf("count=%d\n", count);
+       printf("source: %d\n", inst->location.source);
    }
 
    /* Fix up all emitted labels:

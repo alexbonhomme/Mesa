@@ -631,6 +631,9 @@ generate_vs(struct draw_llvm_variant *variant,
    if (llvm->draw->num_sampler_views && llvm->draw->num_samplers)
       sampler = draw_sampler;
 
+   // copy location to shader info
+   llvm->draw->vs.vertex_shader->info.loc_instructions = llvm->draw->vs.vertex_shader->state.locations;
+
    lp_build_tgsi_soa(variant->gallivm,
                      tokens,
                      vs_type,
@@ -1572,7 +1575,6 @@ draw_llvm_generate(struct draw_llvm *llvm, struct draw_llvm_variant *variant,
    /*
     * Function body
     */
-
    block = LLVMAppendBasicBlockInContext(gallivm->context, variant_func, "entry");
    builder = gallivm->builder;
    LLVMPositionBuilderAtEnd(builder, block);

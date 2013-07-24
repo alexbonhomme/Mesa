@@ -30,6 +30,7 @@
 
 #include "pipe/p_compiler.h"
 #include "pipe/p_shader_tokens.h"
+#include "tgsi_ureg.h"
 
 #if defined __cplusplus
 extern "C" {
@@ -95,14 +96,7 @@ struct tgsi_full_instruction
    struct tgsi_full_src_register       Src[TGSI_FULL_MAX_SRC_REGISTERS];
    struct tgsi_texture_offset          TexOffsets[TGSI_FULL_MAX_TEX_OFFSETS];
 
-//   /**
-//    * Source location
-//    */
-//   struct {
-//      unsigned source;    /**< GLSL source number. */
-//      unsigned line;      /**< Line number within the source string. */
-//      unsigned column;    /**< Column in the line. */
-//   } location;
+   struct glsl_instruction_location    Location;
 };
 
 union tgsi_full_token

@@ -377,6 +377,9 @@ st_translate_vertex_program(struct st_context *st,
    if (!vpv->tgsi.tokens)
       goto fail;
 
+   //TODO memcpy ?
+   vpv->tgsi.locations = ureg_get_insn_loc( ureg );
+
    ureg_destroy( ureg );
 
    if (stvp->glsl_to_tgsi) {
@@ -762,6 +765,7 @@ st_translate_fragment_program(struct st_context *st,
                                 key->clamp_color);
 
    variant->tgsi.tokens = ureg_get_tokens( ureg, NULL );
+   variant->tgsi.locations = ureg_get_insn_loc( ureg );
    ureg_destroy( ureg );
 
    /* fill in variant */

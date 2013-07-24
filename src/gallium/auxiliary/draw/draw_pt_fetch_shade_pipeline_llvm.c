@@ -73,15 +73,6 @@ llvm_middle_end_prepare_gs(struct llvm_middle_end *fpme)
    char store[DRAW_GS_LLVM_MAX_VARIANT_KEY_SIZE];
    unsigned i;
 
-#if 0  //DEBUG Alex
-   printf("\n\nllvm_middle_end_prepare_gs()\n\n");
-   printf("Geometry Shader Infos : \n");
-   printf("Token num : %d\n", gs->info.num_tokens);
-   printf("Number of inputs : %d\n", gs->info.num_inputs);
-   printf("Number of outputs : %d\n", gs->info.num_outputs);
-   printf("Number of instructions : %d\n", gs->info.num_instructions);
-#endif
-
    key = draw_gs_llvm_make_variant_key(fpme->llvm, store);
 
    /* Search shader's list of variants for the key */

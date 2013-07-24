@@ -58,29 +58,29 @@
  * types, this allows writing very straightforward, readable code.
  */
 enum ir_node_type {
-   /**
+    /**
     * Zero is unused so that the IR validator can detect cases where
     * \c ir_instruction::ir_type has not been initialized.
     */
-   ir_type_unset,
-   ir_type_variable,
-   ir_type_assignment,
-   ir_type_call,
-   ir_type_constant,
-   ir_type_dereference_array,
-   ir_type_dereference_record,
-   ir_type_dereference_variable,
-   ir_type_discard,
-   ir_type_expression,
-   ir_type_function,
-   ir_type_function_signature,
-   ir_type_if,
-   ir_type_loop,
-   ir_type_loop_jump,
-   ir_type_return,
-   ir_type_swizzle,
-   ir_type_texture,
-   ir_type_max /**< maximum ir_type enum number, for validation */
+    ir_type_unset,
+    ir_type_variable,
+    ir_type_assignment,
+    ir_type_call,
+    ir_type_constant,
+    ir_type_dereference_array,
+    ir_type_dereference_record,
+    ir_type_dereference_variable,
+    ir_type_discard,
+    ir_type_expression,
+    ir_type_function,
+    ir_type_function_signature,
+    ir_type_if,
+    ir_type_loop,
+    ir_type_loop_jump,
+    ir_type_return,
+    ir_type_swizzle,
+    ir_type_texture,
+    ir_type_max /**< maximum ir_type enum number, for validation */
 };
 
 /**
@@ -105,50 +105,54 @@ public:
     * universally use ralloc for our memory management of
     * ir_instructions, the destructor doesn't need to do any work.
     */
-   virtual ~ir_instruction()
-   {
-   }
+    virtual ~ir_instruction()
+    {
+    }
 
-   /** ir_print_visitor helper for debugging. */
-   void print(void) const;
+    /** ir_print_visitor helper for debugging. */
+    void print(void) const;
 
-   virtual void accept(ir_visitor *) = 0;
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *) = 0;
-   virtual ir_instruction *clone(void *mem_ctx,
-				 struct hash_table *ht) const = 0;
+    virtual void accept(ir_visitor *) = 0;
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *) = 0;
+    virtual ir_instruction *clone(void *mem_ctx,
+                                  struct hash_table *ht) const = 0;
 
-   /**
+    /**
     * \name IR instruction downcast functions
     *
     * These functions either cast the object to a derived class or return
     * \c NULL if the object's type does not match the specified derived class.
     * Additional downcast functions will be added as needed.
     */
-   /*@{*/
-   virtual class ir_variable *          as_variable()         { return NULL; }
-   virtual class ir_function *          as_function()         { return NULL; }
-   virtual class ir_dereference *       as_dereference()      { return NULL; }
-   virtual class ir_dereference_array *	as_dereference_array() { return NULL; }
-   virtual class ir_dereference_variable *as_dereference_variable() { return NULL; }
-   virtual class ir_dereference_record *as_dereference_record() { return NULL; }
-   virtual class ir_expression *        as_expression()       { return NULL; }
-   virtual class ir_rvalue *            as_rvalue()           { return NULL; }
-   virtual class ir_loop *              as_loop()             { return NULL; }
-   virtual class ir_assignment *        as_assignment()       { return NULL; }
-   virtual class ir_call *              as_call()             { return NULL; }
-   virtual class ir_return *            as_return()           { return NULL; }
-   virtual class ir_if *                as_if()               { return NULL; }
-   virtual class ir_swizzle *           as_swizzle()          { return NULL; }
-   virtual class ir_constant *          as_constant()         { return NULL; }
-   virtual class ir_discard *           as_discard()          { return NULL; }
-   virtual class ir_jump *              as_jump()             { return NULL; }
-   /*@}*/
+    /*@{*/
+    virtual class ir_variable *          as_variable()         { return NULL; }
+    virtual class ir_function *          as_function()         { return NULL; }
+    virtual class ir_dereference *       as_dereference()      { return NULL; }
+    virtual class ir_dereference_array *	as_dereference_array() { return NULL; }
+    virtual class ir_dereference_variable *as_dereference_variable() { return NULL; }
+    virtual class ir_dereference_record *as_dereference_record() { return NULL; }
+    virtual class ir_expression *        as_expression()       { return NULL; }
+    virtual class ir_rvalue *            as_rvalue()           { return NULL; }
+    virtual class ir_loop *              as_loop()             { return NULL; }
+    virtual class ir_assignment *        as_assignment()       { return NULL; }
+    virtual class ir_call *              as_call()             { return NULL; }
+    virtual class ir_return *            as_return()           { return NULL; }
+    virtual class ir_if *                as_if()               { return NULL; }
+    virtual class ir_swizzle *           as_swizzle()          { return NULL; }
+    virtual class ir_constant *          as_constant()         { return NULL; }
+    virtual class ir_discard *           as_discard()          { return NULL; }
+    virtual class ir_jump *              as_jump()             { return NULL; }
+    /*@}*/
 
 protected:
-   ir_instruction()
-   {
-      ir_type = ir_type_unset;
-   }
+    ir_instruction()
+    {
+        ir_type = ir_type_unset;
+
+        location.source = 0;
+        location.line = 0;
+        location.column = 0;
+    }
 };
 
 
@@ -157,41 +161,41 @@ protected:
  */
 class ir_rvalue : public ir_instruction {
 public:
-   const struct glsl_type *type;
+    const struct glsl_type *type;
 
-   virtual ir_rvalue *clone(void *mem_ctx, struct hash_table *) const;
+    virtual ir_rvalue *clone(void *mem_ctx, struct hash_table *) const;
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual ir_rvalue * as_rvalue()
-   {
-      return this;
-   }
+    virtual ir_rvalue * as_rvalue()
+    {
+        return this;
+    }
 
-   ir_rvalue *as_rvalue_to_saturate();
+    ir_rvalue *as_rvalue_to_saturate();
 
-   virtual bool is_lvalue() const
-   {
-      return false;
-   }
+    virtual bool is_lvalue() const
+    {
+        return false;
+    }
 
-   /**
+    /**
     * Get the variable that is ultimately referenced by an r-value
     */
-   virtual ir_variable *variable_referenced() const
-   {
-      return NULL;
-   }
+    virtual ir_variable *variable_referenced() const
+    {
+        return NULL;
+    }
 
 
-   /**
+    /**
     * If an r-value is a reference to a whole variable, get that variable
     *
     * \return
@@ -200,12 +204,12 @@ public:
     * entire variable (i.e., it's just one array element, struct field), \c NULL
     * is returned.
     */
-   virtual ir_variable *whole_variable_referenced()
-   {
-      return NULL;
-   }
+    virtual ir_variable *whole_variable_referenced()
+    {
+        return NULL;
+    }
 
-   /**
+    /**
     * Determine if an r-value has the value zero
     *
     * The base implementation of this function always returns \c false.  The
@@ -216,9 +220,9 @@ public:
     * \sa ir_constant::has_value, ir_rvalue::is_one, ir_rvalue::is_negative_one,
     *     ir_constant::is_basis
     */
-   virtual bool is_zero() const;
+    virtual bool is_zero() const;
 
-   /**
+    /**
     * Determine if an r-value has the value one
     *
     * The base implementation of this function always returns \c false.  The
@@ -229,7 +233,7 @@ public:
     * \sa ir_constant::has_value, ir_rvalue::is_zero, ir_rvalue::is_negative_one,
     *     ir_constant::is_basis
     */
-   virtual bool is_one() const;
+    virtual bool is_one() const;
 
    /**
     * Determine if an r-value has the value negative one
@@ -362,15 +366,15 @@ public:
     */
    glsl_interp_qualifier determine_interpolation_mode(bool flat_shade);
 
-   /**
+    /**
     * Determine whether or not a variable is part of a uniform block.
     */
-   inline bool is_in_uniform_block() const
-   {
-      return this->mode == ir_var_uniform && this->interface_type != NULL;
-   }
+    inline bool is_in_uniform_block() const
+    {
+        return this->mode == ir_var_uniform && this->interface_type != NULL;
+    }
 
-   /**
+    /**
     * Determine whether or not a variable is the declaration of an interface
     * block
     *
@@ -414,7 +418,7 @@ public:
     */
    unsigned max_array_access;
 
-   /**
+    /**
     * Is the variable read-only?
     *
     * This is set for variables declared as \c const, shader inputs,
@@ -502,15 +506,15 @@ public:
     * component of this variable is actually stored in component y of the
     * location specified by \c location.
     */
-   unsigned location_frac:2;
+    unsigned location_frac:2;
 
-   /**
+    /**
     * \brief Layout qualifier for gl_FragDepth.
     *
     * This is not equal to \c ir_depth_layout_none if and only if this
     * variable is \c gl_FragDepth and a layout qualifier is specified.
     */
-   ir_depth_layout depth_layout;
+    ir_depth_layout depth_layout;
 
    /**
     * Storage location of the base of this variable
@@ -546,22 +550,22 @@ public:
     * If the variable is not a uniform, \c num_state_slots will be zero and
     * \c state_slots will be \c NULL.
     */
-   /*@{*/
-   unsigned num_state_slots;    /**< Number of state slots used */
-   ir_state_slot *state_slots;  /**< State descriptors. */
-   /*@}*/
+    /*@{*/
+    unsigned num_state_slots;    /**< Number of state slots used */
+    ir_state_slot *state_slots;  /**< State descriptors. */
+    /*@}*/
 
-   /**
+    /**
     * Emit a warning if this variable is accessed.
     */
-   const char *warn_extension;
+    const char *warn_extension;
 
-   /**
+    /**
     * Value assigned in the initializer of a variable declared "const"
     */
-   ir_constant *constant_value;
+    ir_constant *constant_value;
 
-   /**
+    /**
     * Constant expression assigned in the initializer of the variable
     *
     * \warning
@@ -569,15 +573,15 @@ public:
     * refer to constants with the same value, they must point to separate
     * objects.
     */
-   ir_constant *constant_initializer;
+    ir_constant *constant_initializer;
 
-   /**
+    /**
     * For variables that are in an interface block or are an instance of an
     * interface block, this is the \c GLSL_TYPE_INTERFACE type for that block.
     *
     * \sa ir_variable::location
     */
-   const glsl_type *interface_type;
+    const glsl_type *interface_type;
 };
 
 
@@ -587,37 +591,37 @@ public:
  * simply a prototype.
  */
 class ir_function_signature : public ir_instruction {
-   /* An ir_function_signature will be part of the list of signatures in
+    /* An ir_function_signature will be part of the list of signatures in
     * an ir_function.
     */
 public:
-   ir_function_signature(const glsl_type *return_type);
+    ir_function_signature(const glsl_type *return_type);
 
-   virtual ir_function_signature *clone(void *mem_ctx,
-					struct hash_table *ht) const;
-   ir_function_signature *clone_prototype(void *mem_ctx,
-					  struct hash_table *ht) const;
+    virtual ir_function_signature *clone(void *mem_ctx,
+                                         struct hash_table *ht) const;
+    ir_function_signature *clone_prototype(void *mem_ctx,
+                                           struct hash_table *ht) const;
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   /**
+    /**
     * Attempt to evaluate this function as a constant expression,
     * given a list of the actual parameters and the variable context.
     * Returns NULL for non-built-ins.
     */
-   ir_constant *constant_expression_value(exec_list *actual_parameters, struct hash_table *variable_context);
+    ir_constant *constant_expression_value(exec_list *actual_parameters, struct hash_table *variable_context);
 
-   /**
+    /**
     * Get the name of the function for which this is a signature
     */
-   const char *function_name() const;
+    const char *function_name() const;
 
-   /**
+    /**
     * Get a handle to the function for which this is a signature
     *
     * There is no setter function, this function returns a \c const pointer,
@@ -629,59 +633,59 @@ public:
     *
     * \sa ir_function::add_signature
     */
-   inline const class ir_function *function() const
-   {
-      return this->_function;
-   }
+    inline const class ir_function *function() const
+    {
+        return this->_function;
+    }
 
-   /**
+    /**
     * Check whether the qualifiers match between this signature's parameters
     * and the supplied parameter list.  If not, returns the name of the first
     * parameter with mismatched qualifiers (for use in error messages).
     */
-   const char *qualifiers_match(exec_list *params);
+    const char *qualifiers_match(exec_list *params);
 
-   /**
+    /**
     * Replace the current parameter list with the given one.  This is useful
     * if the current information came from a prototype, and either has invalid
     * or missing parameter names.
     */
-   void replace_parameters(exec_list *new_params);
+    void replace_parameters(exec_list *new_params);
 
-   /**
+    /**
     * Function return type.
     *
     * \note This discards the optional precision qualifier.
     */
-   const struct glsl_type *return_type;
+    const struct glsl_type *return_type;
 
-   /**
+    /**
     * List of ir_variable of function parameters.
     *
     * This represents the storage.  The paramaters passed in a particular
     * call will be in ir_call::actual_paramaters.
     */
-   struct exec_list parameters;
+    struct exec_list parameters;
 
-   /** Whether or not this function has a body (which may be empty). */
-   unsigned is_defined:1;
+    /** Whether or not this function has a body (which may be empty). */
+    unsigned is_defined:1;
 
-   /** Whether or not this function signature is a built-in. */
-   unsigned is_builtin:1;
+    /** Whether or not this function signature is a built-in. */
+    unsigned is_builtin:1;
 
-   /** Body of instructions in the function. */
-   struct exec_list body;
+    /** Body of instructions in the function. */
+    struct exec_list body;
 
 private:
-   /** Function of which this signature is one overload. */
-   class ir_function *_function;
+    /** Function of which this signature is one overload. */
+    class ir_function *_function;
 
-   /** Function signature of which this one is a prototype clone */
-   const ir_function_signature *origin;
+    /** Function signature of which this one is a prototype clone */
+    const ir_function_signature *origin;
 
-   friend class ir_function;
+    friend class ir_function;
 
-   /**
+    /**
     * Helper function to run a list of instructions for constant
     * expression evaluation.
     *
@@ -692,9 +696,9 @@ private:
     * Returns false if the expression is not constant, true otherwise,
     * and the value in *result if result is non-NULL.
     */
-   bool constant_expression_evaluate_expression_list(const struct exec_list &body,
-						     struct hash_table *variable_context,
-						     ir_constant **result);
+    bool constant_expression_evaluate_expression_list(const struct exec_list &body,
+                                                      struct hash_table *variable_context,
+                                                      ir_constant **result);
 };
 
 
@@ -705,72 +709,72 @@ private:
  */
 class ir_function : public ir_instruction {
 public:
-   ir_function(const char *name);
+    ir_function(const char *name);
 
-   virtual ir_function *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_function *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   virtual ir_function *as_function()
-   {
-      return this;
-   }
+    virtual ir_function *as_function()
+    {
+        return this;
+    }
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   void add_signature(ir_function_signature *sig)
-   {
-      sig->_function = this;
-      this->signatures.push_tail(sig);
-   }
+    void add_signature(ir_function_signature *sig)
+    {
+        sig->_function = this;
+        this->signatures.push_tail(sig);
+    }
 
-   /**
+    /**
     * Get an iterator for the set of function signatures
     */
-   exec_list_iterator iterator()
-   {
-      return signatures.iterator();
-   }
+    exec_list_iterator iterator()
+    {
+        return signatures.iterator();
+    }
 
-   /**
+    /**
     * Find a signature that matches a set of actual parameters, taking implicit
     * conversions into account.  Also flags whether the match was exact.
     */
-   ir_function_signature *matching_signature(const exec_list *actual_param,
-					     bool *match_is_exact);
+    ir_function_signature *matching_signature(const exec_list *actual_param,
+                                              bool *match_is_exact);
 
-   /**
+    /**
     * Find a signature that matches a set of actual parameters, taking implicit
     * conversions into account.
     */
-   ir_function_signature *matching_signature(const exec_list *actual_param);
+    ir_function_signature *matching_signature(const exec_list *actual_param);
 
-   /**
+    /**
     * Find a signature that exactly matches a set of actual parameters without
     * any implicit type conversions.
     */
-   ir_function_signature *exact_matching_signature(const exec_list *actual_ps);
+    ir_function_signature *exact_matching_signature(const exec_list *actual_ps);
 
-   /**
+    /**
     * Name of the function.
     */
-   const char *name;
+    const char *name;
 
-   /** Whether or not this function has a signature that isn't a built-in. */
-   bool has_user_signature();
+    /** Whether or not this function has a signature that isn't a built-in. */
+    bool has_user_signature();
 
-   /**
+    /**
     * List of ir_function_signature for each overloaded function with this name.
     */
-   struct exec_list signatures;
+    struct exec_list signatures;
 };
 
 inline const char *ir_function_signature::function_name() const
 {
-   return this->_function->name;
+    return this->_function->name;
 }
 /*@}*/
 
@@ -780,31 +784,31 @@ inline const char *ir_function_signature::function_name() const
  */
 class ir_if : public ir_instruction {
 public:
-   ir_if(ir_rvalue *condition)
-      : condition(condition)
-   {
-      ir_type = ir_type_if;
-   }
+    ir_if(ir_rvalue *condition)
+        : condition(condition)
+    {
+        ir_type = ir_type_if;
+    }
 
-   virtual ir_if *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_if *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   virtual ir_if *as_if()
-   {
-      return this;
-   }
+    virtual ir_if *as_if()
+    {
+        return this;
+    }
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   ir_rvalue *condition;
-   /** List of ir_instruction for the body of the then branch */
-   exec_list  then_instructions;
-   /** List of ir_instruction for the body of the else branch */
-   exec_list  else_instructions;
+    ir_rvalue *condition;
+    /** List of ir_instruction for the body of the then branch */
+    exec_list  then_instructions;
+    /** List of ir_instruction for the body of the else branch */
+    exec_list  else_instructions;
 };
 
 
@@ -813,34 +817,34 @@ public:
  */
 class ir_loop : public ir_instruction {
 public:
-   ir_loop();
+    ir_loop();
 
-   virtual ir_loop *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_loop *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   virtual ir_loop *as_loop()
-   {
-      return this;
-   }
+    virtual ir_loop *as_loop()
+    {
+        return this;
+    }
 
-   /**
+    /**
     * Get an iterator for the instructions of the loop body
     */
-   exec_list_iterator iterator()
-   {
-      return body_instructions.iterator();
-   }
+    exec_list_iterator iterator()
+    {
+        return body_instructions.iterator();
+    }
 
-   /** List of ir_instruction that make up the body of the loop. */
-   exec_list body_instructions;
+    /** List of ir_instruction that make up the body of the loop. */
+    exec_list body_instructions;
 
-   /**
+    /**
     * \name Loop counter and controls
     *
     * Represents a loop like a FORTRAN \c do-loop.
@@ -848,59 +852,59 @@ public:
     * \note
     * If \c from and \c to are the same value, the loop will execute once.
     */
-   /*@{*/
-   ir_rvalue *from;             /** Value of the loop counter on the first
-				 * iteration of the loop.
-				 */
-   ir_rvalue *to;               /** Value of the loop counter on the last
-				 * iteration of the loop.
-				 */
-   ir_rvalue *increment;
-   ir_variable *counter;
+    /*@{*/
+    ir_rvalue *from;             /** Value of the loop counter on the first
+                 * iteration of the loop.
+                 */
+    ir_rvalue *to;               /** Value of the loop counter on the last
+                 * iteration of the loop.
+                 */
+    ir_rvalue *increment;
+    ir_variable *counter;
 
-   /**
+    /**
     * Comparison operation in the loop terminator.
     *
     * If any of the loop control fields are non-\c NULL, this field must be
     * one of \c ir_binop_less, \c ir_binop_greater, \c ir_binop_lequal,
     * \c ir_binop_gequal, \c ir_binop_equal, or \c ir_binop_nequal.
     */
-   int cmp;
-   /*@}*/
+    int cmp;
+    /*@}*/
 };
 
 
 class ir_assignment : public ir_instruction {
 public:
-   ir_assignment(ir_rvalue *lhs, ir_rvalue *rhs, ir_rvalue *condition = NULL);
+    ir_assignment(ir_rvalue *lhs, ir_rvalue *rhs, ir_rvalue *condition = NULL);
 
-   /**
+    /**
     * Construct an assignment with an explicit write mask
     *
     * \note
     * Since a write mask is supplied, the LHS must already be a bare
     * \c ir_dereference.  The cannot be any swizzles in the LHS.
     */
-   ir_assignment(ir_dereference *lhs, ir_rvalue *rhs, ir_rvalue *condition,
-		 unsigned write_mask);
+    ir_assignment(ir_dereference *lhs, ir_rvalue *rhs, ir_rvalue *condition,
+                  unsigned write_mask);
 
-   virtual ir_assignment *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_assignment *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   virtual ir_assignment * as_assignment()
-   {
-      return this;
-   }
+    virtual ir_assignment * as_assignment()
+    {
+        return this;
+    }
 
-   /**
+    /**
     * Get a whole variable written by an assignment
     *
     * If the LHS of the assignment writes a whole variable, the variable is
@@ -912,33 +916,33 @@ public:
     *  - Whole array (or matrix) assignment
     *  - Whole structure assignment
     */
-   ir_variable *whole_variable_written();
+    ir_variable *whole_variable_written();
 
-   /**
+    /**
     * Set the LHS of an assignment
     */
-   void set_lhs(ir_rvalue *lhs);
+    void set_lhs(ir_rvalue *lhs);
 
-   /**
+    /**
     * Left-hand side of the assignment.
     *
     * This should be treated as read only.  If you need to set the LHS of an
     * assignment, use \c ir_assignment::set_lhs.
     */
-   ir_dereference *lhs;
+    ir_dereference *lhs;
 
-   /**
+    /**
     * Value being assigned
     */
-   ir_rvalue *rhs;
+    ir_rvalue *rhs;
 
-   /**
+    /**
     * Optional condition for the assignment.
     */
-   ir_rvalue *condition;
+    ir_rvalue *condition;
 
 
-   /**
+    /**
     * Component mask written
     *
     * For non-vector types in the LHS, this field will be zero.  For vector
@@ -953,119 +957,119 @@ public:
     *     (var_ref gl_FragColor)
     *     (swiz xyw (var_ref color)))
     */
-   unsigned write_mask:4;
+    unsigned write_mask:4;
 };
 
 /* Update ir_expression::get_num_operands() and operator_strs when
  * updating this list.
  */
 enum ir_expression_operation {
-   ir_unop_bit_not,
-   ir_unop_logic_not,
-   ir_unop_neg,
-   ir_unop_abs,
-   ir_unop_sign,
-   ir_unop_rcp,
-   ir_unop_rsq,
-   ir_unop_sqrt,
-   ir_unop_exp,         /**< Log base e on gentype */
-   ir_unop_log,	        /**< Natural log on gentype */
-   ir_unop_exp2,
-   ir_unop_log2,
-   ir_unop_f2i,         /**< Float-to-integer conversion. */
-   ir_unop_f2u,         /**< Float-to-unsigned conversion. */
-   ir_unop_i2f,         /**< Integer-to-float conversion. */
-   ir_unop_f2b,         /**< Float-to-boolean conversion */
-   ir_unop_b2f,         /**< Boolean-to-float conversion */
-   ir_unop_i2b,         /**< int-to-boolean conversion */
-   ir_unop_b2i,         /**< Boolean-to-int conversion */
-   ir_unop_u2f,         /**< Unsigned-to-float conversion. */
-   ir_unop_i2u,         /**< Integer-to-unsigned conversion. */
-   ir_unop_u2i,         /**< Unsigned-to-integer conversion. */
-   ir_unop_bitcast_i2f, /**< Bit-identical int-to-float "conversion" */
-   ir_unop_bitcast_f2i, /**< Bit-identical float-to-int "conversion" */
-   ir_unop_bitcast_u2f, /**< Bit-identical uint-to-float "conversion" */
-   ir_unop_bitcast_f2u, /**< Bit-identical float-to-uint "conversion" */
-   ir_unop_any,
+    ir_unop_bit_not,
+    ir_unop_logic_not,
+    ir_unop_neg,
+    ir_unop_abs,
+    ir_unop_sign,
+    ir_unop_rcp,
+    ir_unop_rsq,
+    ir_unop_sqrt,
+    ir_unop_exp,         /**< Log base e on gentype */
+    ir_unop_log,	        /**< Natural log on gentype */
+    ir_unop_exp2,
+    ir_unop_log2,
+    ir_unop_f2i,         /**< Float-to-integer conversion. */
+    ir_unop_f2u,         /**< Float-to-unsigned conversion. */
+    ir_unop_i2f,         /**< Integer-to-float conversion. */
+    ir_unop_f2b,         /**< Float-to-boolean conversion */
+    ir_unop_b2f,         /**< Boolean-to-float conversion */
+    ir_unop_i2b,         /**< int-to-boolean conversion */
+    ir_unop_b2i,         /**< Boolean-to-int conversion */
+    ir_unop_u2f,         /**< Unsigned-to-float conversion. */
+    ir_unop_i2u,         /**< Integer-to-unsigned conversion. */
+    ir_unop_u2i,         /**< Unsigned-to-integer conversion. */
+    ir_unop_bitcast_i2f, /**< Bit-identical int-to-float "conversion" */
+    ir_unop_bitcast_f2i, /**< Bit-identical float-to-int "conversion" */
+    ir_unop_bitcast_u2f, /**< Bit-identical uint-to-float "conversion" */
+    ir_unop_bitcast_f2u, /**< Bit-identical float-to-uint "conversion" */
+    ir_unop_any,
 
-   /**
+    /**
     * \name Unary floating-point rounding operations.
     */
-   /*@{*/
-   ir_unop_trunc,
-   ir_unop_ceil,
-   ir_unop_floor,
-   ir_unop_fract,
-   ir_unop_round_even,
-   /*@}*/
+    /*@{*/
+    ir_unop_trunc,
+    ir_unop_ceil,
+    ir_unop_floor,
+    ir_unop_fract,
+    ir_unop_round_even,
+    /*@}*/
 
-   /**
+    /**
     * \name Trigonometric operations.
     */
-   /*@{*/
-   ir_unop_sin,
-   ir_unop_cos,
-   ir_unop_sin_reduced,    /**< Reduced range sin. [-pi, pi] */
-   ir_unop_cos_reduced,    /**< Reduced range cos. [-pi, pi] */
-   /*@}*/
+    /*@{*/
+    ir_unop_sin,
+    ir_unop_cos,
+    ir_unop_sin_reduced,    /**< Reduced range sin. [-pi, pi] */
+    ir_unop_cos_reduced,    /**< Reduced range cos. [-pi, pi] */
+    /*@}*/
 
-   /**
+    /**
     * \name Partial derivatives.
     */
-   /*@{*/
-   ir_unop_dFdx,
-   ir_unop_dFdy,
-   /*@}*/
+    /*@{*/
+    ir_unop_dFdx,
+    ir_unop_dFdy,
+    /*@}*/
 
-   /**
+    /**
     * \name Floating point pack and unpack operations.
     */
-   /*@{*/
-   ir_unop_pack_snorm_2x16,
-   ir_unop_pack_snorm_4x8,
-   ir_unop_pack_unorm_2x16,
-   ir_unop_pack_unorm_4x8,
-   ir_unop_pack_half_2x16,
-   ir_unop_unpack_snorm_2x16,
-   ir_unop_unpack_snorm_4x8,
-   ir_unop_unpack_unorm_2x16,
-   ir_unop_unpack_unorm_4x8,
-   ir_unop_unpack_half_2x16,
-   /*@}*/
+    /*@{*/
+    ir_unop_pack_snorm_2x16,
+    ir_unop_pack_snorm_4x8,
+    ir_unop_pack_unorm_2x16,
+    ir_unop_pack_unorm_4x8,
+    ir_unop_pack_half_2x16,
+    ir_unop_unpack_snorm_2x16,
+    ir_unop_unpack_snorm_4x8,
+    ir_unop_unpack_unorm_2x16,
+    ir_unop_unpack_unorm_4x8,
+    ir_unop_unpack_half_2x16,
+    /*@}*/
 
-   /**
+    /**
     * \name Lowered floating point unpacking operations.
     *
     * \see lower_packing_builtins_visitor::split_unpack_half_2x16
     */
-   /*@{*/
-   ir_unop_unpack_half_2x16_split_x,
-   ir_unop_unpack_half_2x16_split_y,
-   /*@}*/
+    /*@{*/
+    ir_unop_unpack_half_2x16_split_x,
+    ir_unop_unpack_half_2x16_split_y,
+    /*@}*/
 
-   /**
+    /**
     * \name Bit operations, part of ARB_gpu_shader5.
     */
-   /*@{*/
-   ir_unop_bitfield_reverse,
-   ir_unop_bit_count,
-   ir_unop_find_msb,
-   ir_unop_find_lsb,
-   /*@}*/
+    /*@{*/
+    ir_unop_bitfield_reverse,
+    ir_unop_bit_count,
+    ir_unop_find_msb,
+    ir_unop_find_lsb,
+    /*@}*/
 
-   ir_unop_noise,
+    ir_unop_noise,
 
-   /**
+    /**
     * A sentinel marking the last of the unary operations.
     */
-   ir_last_unop = ir_unop_noise,
+    ir_last_unop = ir_unop_noise,
 
-   ir_binop_add,
-   ir_binop_sub,
-   ir_binop_mul,
-   ir_binop_div,
+    ir_binop_add,
+    ir_binop_sub,
+    ir_binop_mul,
+    ir_binop_div,
 
-   /**
+    /**
     * Takes one of two combinations of arguments:
     *
     * - mod(vecN, vecN)
@@ -1073,157 +1077,157 @@ enum ir_expression_operation {
     *
     * Does not take integer types.
     */
-   ir_binop_mod,
+    ir_binop_mod,
 
-   /**
+    /**
     * \name Binary comparison operators which return a boolean vector.
     * The type of both operands must be equal.
     */
-   /*@{*/
-   ir_binop_less,
-   ir_binop_greater,
-   ir_binop_lequal,
-   ir_binop_gequal,
-   ir_binop_equal,
-   ir_binop_nequal,
-   /**
+    /*@{*/
+    ir_binop_less,
+    ir_binop_greater,
+    ir_binop_lequal,
+    ir_binop_gequal,
+    ir_binop_equal,
+    ir_binop_nequal,
+    /**
     * Returns single boolean for whether all components of operands[0]
     * equal the components of operands[1].
     */
-   ir_binop_all_equal,
-   /**
+    ir_binop_all_equal,
+    /**
     * Returns single boolean for whether any component of operands[0]
     * is not equal to the corresponding component of operands[1].
     */
-   ir_binop_any_nequal,
-   /*@}*/
+    ir_binop_any_nequal,
+    /*@}*/
 
-   /**
+    /**
     * \name Bit-wise binary operations.
     */
-   /*@{*/
-   ir_binop_lshift,
-   ir_binop_rshift,
-   ir_binop_bit_and,
-   ir_binop_bit_xor,
-   ir_binop_bit_or,
-   /*@}*/
+    /*@{*/
+    ir_binop_lshift,
+    ir_binop_rshift,
+    ir_binop_bit_and,
+    ir_binop_bit_xor,
+    ir_binop_bit_or,
+    /*@}*/
 
-   ir_binop_logic_and,
-   ir_binop_logic_xor,
-   ir_binop_logic_or,
+    ir_binop_logic_and,
+    ir_binop_logic_xor,
+    ir_binop_logic_or,
 
-   ir_binop_dot,
-   ir_binop_min,
-   ir_binop_max,
+    ir_binop_dot,
+    ir_binop_min,
+    ir_binop_max,
 
-   ir_binop_pow,
+    ir_binop_pow,
 
-   /**
+    /**
     * \name Lowered floating point packing operations.
     *
     * \see lower_packing_builtins_visitor::split_pack_half_2x16
     */
-   /*@{*/
-   ir_binop_pack_half_2x16_split,
-   /*@}*/
+    /*@{*/
+    ir_binop_pack_half_2x16_split,
+    /*@}*/
 
-   /**
+    /**
     * \name First half of a lowered bitfieldInsert() operation.
     *
     * \see lower_instructions::bitfield_insert_to_bfm_bfi
     */
-   /*@{*/
-   ir_binop_bfm,
-   /*@}*/
+    /*@{*/
+    ir_binop_bfm,
+    /*@}*/
 
-   /**
+    /**
     * Load a value the size of a given GLSL type from a uniform block.
     *
     * operand0 is the ir_constant uniform block index in the linked shader.
     * operand1 is a byte offset within the uniform block.
     */
-   ir_binop_ubo_load,
+    ir_binop_ubo_load,
 
-   /**
+    /**
     * Extract a scalar from a vector
     *
     * operand0 is the vector
     * operand1 is the index of the field to read from operand0
     */
-   ir_binop_vector_extract,
+    ir_binop_vector_extract,
 
-   /**
+    /**
     * A sentinel marking the last of the binary operations.
     */
-   ir_last_binop = ir_binop_vector_extract,
+    ir_last_binop = ir_binop_vector_extract,
 
-   ir_triop_lrp,
+    ir_triop_lrp,
 
-   /**
+    /**
     * \name Second half of a lowered bitfieldInsert() operation.
     *
     * \see lower_instructions::bitfield_insert_to_bfm_bfi
     */
-   /*@{*/
-   ir_triop_bfi,
-   /*@}*/
+    /*@{*/
+    ir_triop_bfi,
+    /*@}*/
 
-   ir_triop_bitfield_extract,
+    ir_triop_bitfield_extract,
 
-   /**
+    /**
     * Generate a value with one field of a vector changed
     *
     * operand0 is the vector
     * operand1 is the value to write into the vector result
     * operand2 is the index in operand0 to be modified
     */
-   ir_triop_vector_insert,
+    ir_triop_vector_insert,
 
-   /**
+    /**
     * A sentinel marking the last of the ternary operations.
     */
-   ir_last_triop = ir_triop_vector_insert,
+    ir_last_triop = ir_triop_vector_insert,
 
-   ir_quadop_bitfield_insert,
+    ir_quadop_bitfield_insert,
 
-   ir_quadop_vector,
+    ir_quadop_vector,
 
-   /**
+    /**
     * A sentinel marking the last of the ternary operations.
     */
-   ir_last_quadop = ir_quadop_vector,
+    ir_last_quadop = ir_quadop_vector,
 
-   /**
+    /**
     * A sentinel marking the last of all operations.
     */
-   ir_last_opcode = ir_quadop_vector
+    ir_last_opcode = ir_quadop_vector
 };
 
 class ir_expression : public ir_rvalue {
 public:
-   ir_expression(int op, const struct glsl_type *type,
-                 ir_rvalue *op0, ir_rvalue *op1 = NULL,
-                 ir_rvalue *op2 = NULL, ir_rvalue *op3 = NULL);
+    ir_expression(int op, const struct glsl_type *type,
+                  ir_rvalue *op0, ir_rvalue *op1 = NULL,
+                  ir_rvalue *op2 = NULL, ir_rvalue *op3 = NULL);
 
-   /**
+    /**
     * Constructor for unary operation expressions
     */
-   ir_expression(int op, ir_rvalue *);
+    ir_expression(int op, ir_rvalue *);
 
-   /**
+    /**
     * Constructor for binary operation expressions
     */
-   ir_expression(int op, ir_rvalue *op0, ir_rvalue *op1);
+    ir_expression(int op, ir_rvalue *op0, ir_rvalue *op1);
 
-   virtual ir_expression *as_expression()
-   {
-      return this;
-   }
+    virtual ir_expression *as_expression()
+    {
+        return this;
+    }
 
-   virtual ir_expression *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_expression *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   /**
+    /**
     * Attempt to constant-fold the expression
     *
     * The "variable_context" hash table links ir_variable * to ir_constant *
@@ -1233,47 +1237,47 @@ public:
     * If the expression cannot be constant folded, this method will return
     * \c NULL.
     */
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   /**
+    /**
     * Determine the number of operands used by an expression
     */
-   static unsigned int get_num_operands(ir_expression_operation);
+    static unsigned int get_num_operands(ir_expression_operation);
 
-   /**
+    /**
     * Determine the number of operands used by an expression
     */
-   unsigned int get_num_operands() const
-   {
-      return (this->operation == ir_quadop_vector)
-	 ? this->type->vector_elements : get_num_operands(operation);
-   }
+    unsigned int get_num_operands() const
+    {
+        return (this->operation == ir_quadop_vector)
+                ? this->type->vector_elements : get_num_operands(operation);
+    }
 
-   /**
+    /**
     * Return a string representing this expression's operator.
     */
-   const char *operator_string();
+    const char *operator_string();
 
-   /**
+    /**
     * Return a string representing this expression's operator.
     */
-   static const char *operator_string(ir_expression_operation);
+    static const char *operator_string(ir_expression_operation);
 
 
-   /**
+    /**
     * Do a reverse-lookup to translate the given string into an operator.
     */
-   static ir_expression_operation get_operator(const char *);
+    static ir_expression_operation get_operator(const char *);
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   ir_expression_operation operation;
-   ir_rvalue *operands[4];
+    ir_expression_operation operation;
+    ir_rvalue *operands[4];
 };
 
 
@@ -1283,71 +1287,71 @@ public:
  */
 class ir_call : public ir_instruction {
 public:
-   ir_call(ir_function_signature *callee,
-	   ir_dereference_variable *return_deref,
-	   exec_list *actual_parameters)
-      : return_deref(return_deref), callee(callee)
-   {
-      ir_type = ir_type_call;
-      assert(callee->return_type != NULL);
-      actual_parameters->move_nodes_to(& this->actual_parameters);
-      this->use_builtin = callee->is_builtin;
-   }
+    ir_call(ir_function_signature *callee,
+            ir_dereference_variable *return_deref,
+            exec_list *actual_parameters)
+        : return_deref(return_deref), callee(callee)
+    {
+        ir_type = ir_type_call;
+        assert(callee->return_type != NULL);
+        actual_parameters->move_nodes_to(& this->actual_parameters);
+        this->use_builtin = callee->is_builtin;
+    }
 
-   virtual ir_call *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_call *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual ir_call *as_call()
-   {
-      return this;
-   }
+    virtual ir_call *as_call()
+    {
+        return this;
+    }
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   /**
+    /**
     * Get an iterator for the set of acutal parameters
     */
-   exec_list_iterator iterator()
-   {
-      return actual_parameters.iterator();
-   }
+    exec_list_iterator iterator()
+    {
+        return actual_parameters.iterator();
+    }
 
-   /**
+    /**
     * Get the name of the function being called.
     */
-   const char *callee_name() const
-   {
-      return callee->function_name();
-   }
+    const char *callee_name() const
+    {
+        return callee->function_name();
+    }
 
-   /**
+    /**
     * Generates an inline version of the function before @ir,
     * storing the return value in return_deref.
     */
-   void generate_inline(ir_instruction *ir);
+    void generate_inline(ir_instruction *ir);
 
-   /**
+    /**
     * Storage for the function's return value.
     * This must be NULL if the return type is void.
     */
-   ir_dereference_variable *return_deref;
+    ir_dereference_variable *return_deref;
 
-   /**
+    /**
     * The specific function signature being called.
     */
-   ir_function_signature *callee;
+    ir_function_signature *callee;
 
-   /* List of ir_rvalue of paramaters passed in this call. */
-   exec_list actual_parameters;
+    /* List of ir_rvalue of paramaters passed in this call. */
+    exec_list actual_parameters;
 
-   /** Should this call only bind to a built-in function? */
-   bool use_builtin;
+    /** Should this call only bind to a built-in function? */
+    bool use_builtin;
 };
 
 
@@ -1359,52 +1363,52 @@ public:
 /*@{*/
 class ir_jump : public ir_instruction {
 protected:
-   ir_jump()
-   {
-      ir_type = ir_type_unset;
-   }
+    ir_jump()
+    {
+        ir_type = ir_type_unset;
+    }
 
 public:
-   virtual ir_jump *as_jump()
-   {
-      return this;
-   }
+    virtual ir_jump *as_jump()
+    {
+        return this;
+    }
 };
 
 class ir_return : public ir_jump {
 public:
-   ir_return()
-      : value(NULL)
-   {
-      this->ir_type = ir_type_return;
-   }
+    ir_return()
+        : value(NULL)
+    {
+        this->ir_type = ir_type_return;
+    }
 
-   ir_return(ir_rvalue *value)
-      : value(value)
-   {
-      this->ir_type = ir_type_return;
-   }
+    ir_return(ir_rvalue *value)
+        : value(value)
+    {
+        this->ir_type = ir_type_return;
+    }
 
-   virtual ir_return *clone(void *mem_ctx, struct hash_table *) const;
+    virtual ir_return *clone(void *mem_ctx, struct hash_table *) const;
 
-   virtual ir_return *as_return()
-   {
-      return this;
-   }
+    virtual ir_return *as_return()
+    {
+        return this;
+    }
 
-   ir_rvalue *get_value() const
-   {
-      return value;
-   }
+    ir_rvalue *get_value() const
+    {
+        return value;
+    }
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   ir_rvalue *value;
+    ir_rvalue *value;
 };
 
 
@@ -1418,38 +1422,38 @@ public:
  */
 class ir_loop_jump : public ir_jump {
 public:
-   enum jump_mode {
-      jump_break,
-      jump_continue
-   };
+    enum jump_mode {
+        jump_break,
+        jump_continue
+    };
 
-   ir_loop_jump(jump_mode mode)
-   {
-      this->ir_type = ir_type_loop_jump;
-      this->mode = mode;
-   }
+    ir_loop_jump(jump_mode mode)
+    {
+        this->ir_type = ir_type_loop_jump;
+        this->mode = mode;
+    }
 
-   virtual ir_loop_jump *clone(void *mem_ctx, struct hash_table *) const;
+    virtual ir_loop_jump *clone(void *mem_ctx, struct hash_table *) const;
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   bool is_break() const
-   {
-      return mode == jump_break;
-   }
+    bool is_break() const
+    {
+        return mode == jump_break;
+    }
 
-   bool is_continue() const
-   {
-      return mode == jump_continue;
-   }
+    bool is_continue() const
+    {
+        return mode == jump_continue;
+    }
 
-   /** Mode selector for the jump instruction. */
-   enum jump_mode mode;
+    /** Mode selector for the jump instruction. */
+    enum jump_mode mode;
 };
 
 /**
@@ -1457,33 +1461,33 @@ public:
  */
 class ir_discard : public ir_jump {
 public:
-   ir_discard()
-   {
-      this->ir_type = ir_type_discard;
-      this->condition = NULL;
-   }
+    ir_discard()
+    {
+        this->ir_type = ir_type_discard;
+        this->condition = NULL;
+    }
 
-   ir_discard(ir_rvalue *cond)
-   {
-      this->ir_type = ir_type_discard;
-      this->condition = cond;
-   }
+    ir_discard(ir_rvalue *cond)
+    {
+        this->ir_type = ir_type_discard;
+        this->condition = cond;
+    }
 
-   virtual ir_discard *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_discard *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   virtual ir_discard *as_discard()
-   {
-      return this;
-   }
+    virtual ir_discard *as_discard()
+    {
+        return this;
+    }
 
-   ir_rvalue *condition;
+    ir_rvalue *condition;
 };
 /*@}*/
 
@@ -1492,14 +1496,14 @@ public:
  * Texture sampling opcodes used in ir_texture
  */
 enum ir_texture_opcode {
-   ir_tex,		/**< Regular texture look-up */
-   ir_txb,		/**< Texture look-up with LOD bias */
-   ir_txl,		/**< Texture look-up with explicit LOD */
-   ir_txd,		/**< Texture look-up with partial derivatvies */
-   ir_txf,		/**< Texel fetch with explicit LOD */
-   ir_txf_ms,           /**< Multisample texture fetch */
-   ir_txs,		/**< Texture size */
-   ir_lod		/**< Texture lod query */
+    ir_tex,		/**< Regular texture look-up */
+    ir_txb,		/**< Texture look-up with LOD bias */
+    ir_txl,		/**< Texture look-up with explicit LOD */
+    ir_txd,		/**< Texture look-up with partial derivatvies */
+    ir_txf,		/**< Texel fetch with explicit LOD */
+    ir_txf_ms,           /**< Multisample texture fetch */
+    ir_txs,		/**< Texture size */
+    ir_lod		/**< Texture lod query */
 };
 
 
@@ -1527,323 +1531,323 @@ enum ir_texture_opcode {
  */
 class ir_texture : public ir_rvalue {
 public:
-   ir_texture(enum ir_texture_opcode op)
-      : op(op), sampler(NULL), coordinate(NULL), projector(NULL),
-        shadow_comparitor(NULL), offset(NULL)
-   {
-      this->ir_type = ir_type_texture;
-   }
+    ir_texture(enum ir_texture_opcode op)
+        : op(op), sampler(NULL), coordinate(NULL), projector(NULL),
+          shadow_comparitor(NULL), offset(NULL)
+    {
+        this->ir_type = ir_type_texture;
+    }
 
-   virtual ir_texture *clone(void *mem_ctx, struct hash_table *) const;
+    virtual ir_texture *clone(void *mem_ctx, struct hash_table *) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   /**
+    /**
     * Return a string representing the ir_texture_opcode.
     */
-   const char *opcode_string();
+    const char *opcode_string();
 
-   /** Set the sampler and type. */
-   void set_sampler(ir_dereference *sampler, const glsl_type *type);
+    /** Set the sampler and type. */
+    void set_sampler(ir_dereference *sampler, const glsl_type *type);
 
-   /**
+    /**
     * Do a reverse-lookup to translate a string into an ir_texture_opcode.
     */
-   static ir_texture_opcode get_opcode(const char *);
+    static ir_texture_opcode get_opcode(const char *);
 
-   enum ir_texture_opcode op;
+    enum ir_texture_opcode op;
 
-   /** Sampler to use for the texture access. */
-   ir_dereference *sampler;
+    /** Sampler to use for the texture access. */
+    ir_dereference *sampler;
 
-   /** Texture coordinate to sample */
-   ir_rvalue *coordinate;
+    /** Texture coordinate to sample */
+    ir_rvalue *coordinate;
 
-   /**
+    /**
     * Value used for projective divide.
     *
     * If there is no projective divide (the common case), this will be
     * \c NULL.  Optimization passes should check for this to point to a constant
     * of 1.0 and replace that with \c NULL.
     */
-   ir_rvalue *projector;
+    ir_rvalue *projector;
 
-   /**
+    /**
     * Coordinate used for comparison on shadow look-ups.
     *
     * If there is no shadow comparison, this will be \c NULL.  For the
     * \c ir_txf opcode, this *must* be \c NULL.
     */
-   ir_rvalue *shadow_comparitor;
+    ir_rvalue *shadow_comparitor;
 
-   /** Texel offset. */
-   ir_rvalue *offset;
+    /** Texel offset. */
+    ir_rvalue *offset;
 
-   union {
-      ir_rvalue *lod;		/**< Floating point LOD */
-      ir_rvalue *bias;		/**< Floating point LOD bias */
-      ir_rvalue *sample_index;  /**< MSAA sample index */
-      struct {
-	 ir_rvalue *dPdx;	/**< Partial derivative of coordinate wrt X */
-	 ir_rvalue *dPdy;	/**< Partial derivative of coordinate wrt Y */
-      } grad;
-   } lod_info;
+    union {
+        ir_rvalue *lod;		/**< Floating point LOD */
+        ir_rvalue *bias;		/**< Floating point LOD bias */
+        ir_rvalue *sample_index;  /**< MSAA sample index */
+        struct {
+            ir_rvalue *dPdx;	/**< Partial derivative of coordinate wrt X */
+            ir_rvalue *dPdy;	/**< Partial derivative of coordinate wrt Y */
+        } grad;
+    } lod_info;
 };
 
 
 struct ir_swizzle_mask {
-   unsigned x:2;
-   unsigned y:2;
-   unsigned z:2;
-   unsigned w:2;
+    unsigned x:2;
+    unsigned y:2;
+    unsigned z:2;
+    unsigned w:2;
 
-   /**
+    /**
     * Number of components in the swizzle.
     */
-   unsigned num_components:3;
+    unsigned num_components:3;
 
-   /**
+    /**
     * Does the swizzle contain duplicate components?
     *
     * L-value swizzles cannot contain duplicate components.
     */
-   unsigned has_duplicates:1;
+    unsigned has_duplicates:1;
 };
 
 
 class ir_swizzle : public ir_rvalue {
 public:
-   ir_swizzle(ir_rvalue *, unsigned x, unsigned y, unsigned z, unsigned w,
-              unsigned count);
+    ir_swizzle(ir_rvalue *, unsigned x, unsigned y, unsigned z, unsigned w,
+               unsigned count);
 
-   ir_swizzle(ir_rvalue *val, const unsigned *components, unsigned count);
+    ir_swizzle(ir_rvalue *val, const unsigned *components, unsigned count);
 
-   ir_swizzle(ir_rvalue *val, ir_swizzle_mask mask);
+    ir_swizzle(ir_rvalue *val, ir_swizzle_mask mask);
 
-   virtual ir_swizzle *clone(void *mem_ctx, struct hash_table *) const;
+    virtual ir_swizzle *clone(void *mem_ctx, struct hash_table *) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual ir_swizzle *as_swizzle()
-   {
-      return this;
-   }
+    virtual ir_swizzle *as_swizzle()
+    {
+        return this;
+    }
 
-   /**
+    /**
     * Construct an ir_swizzle from the textual representation.  Can fail.
     */
-   static ir_swizzle *create(ir_rvalue *, const char *, unsigned vector_length);
+    static ir_swizzle *create(ir_rvalue *, const char *, unsigned vector_length);
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   bool is_lvalue() const
-   {
-      return val->is_lvalue() && !mask.has_duplicates;
-   }
+    bool is_lvalue() const
+    {
+        return val->is_lvalue() && !mask.has_duplicates;
+    }
 
-   /**
+    /**
     * Get the variable that is ultimately referenced by an r-value
     */
-   virtual ir_variable *variable_referenced() const;
+    virtual ir_variable *variable_referenced() const;
 
-   ir_rvalue *val;
-   ir_swizzle_mask mask;
+    ir_rvalue *val;
+    ir_swizzle_mask mask;
 
 private:
-   /**
+    /**
     * Initialize the mask component of a swizzle
     *
     * This is used by the \c ir_swizzle constructors.
     */
-   void init_mask(const unsigned *components, unsigned count);
+    void init_mask(const unsigned *components, unsigned count);
 };
 
 
 class ir_dereference : public ir_rvalue {
 public:
-   virtual ir_dereference *clone(void *mem_ctx, struct hash_table *) const = 0;
+    virtual ir_dereference *clone(void *mem_ctx, struct hash_table *) const = 0;
 
-   virtual ir_dereference *as_dereference()
-   {
-      return this;
-   }
+    virtual ir_dereference *as_dereference()
+    {
+        return this;
+    }
 
-   bool is_lvalue() const;
+    bool is_lvalue() const;
 
-   /**
+    /**
     * Get the variable that is ultimately referenced by an r-value
     */
-   virtual ir_variable *variable_referenced() const = 0;
+    virtual ir_variable *variable_referenced() const = 0;
 
-   /**
+    /**
     * Get the constant that is ultimately referenced by an r-value,
     * in a constant expression evaluation context.
     *
     * The offset is used when the reference is to a specific column of
     * a matrix.
     */
-  virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const = 0;
+    virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const = 0;
 };
 
 
 class ir_dereference_variable : public ir_dereference {
 public:
-   ir_dereference_variable(ir_variable *var);
+    ir_dereference_variable(ir_variable *var);
 
-   virtual ir_dereference_variable *clone(void *mem_ctx,
-					  struct hash_table *) const;
+    virtual ir_dereference_variable *clone(void *mem_ctx,
+                                           struct hash_table *) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual ir_dereference_variable *as_dereference_variable()
-   {
-      return this;
-   }
+    virtual ir_dereference_variable *as_dereference_variable()
+    {
+        return this;
+    }
 
-   /**
+    /**
     * Get the variable that is ultimately referenced by an r-value
     */
-   virtual ir_variable *variable_referenced() const
-   {
-      return this->var;
-   }
+    virtual ir_variable *variable_referenced() const
+    {
+        return this->var;
+    }
 
-   /**
+    /**
     * Get the constant that is ultimately referenced by an r-value,
     * in a constant expression evaluation context.
     *
     * The offset is used when the reference is to a specific column of
     * a matrix.
     */
-   virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const;
+    virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const;
 
-   virtual ir_variable *whole_variable_referenced()
-   {
-      /* ir_dereference_variable objects always dereference the entire
+    virtual ir_variable *whole_variable_referenced()
+    {
+        /* ir_dereference_variable objects always dereference the entire
        * variable.  However, if this dereference is dereferenced by anything
        * else, the complete deferefernce chain is not a whole-variable
        * dereference.  This method should only be called on the top most
        * ir_rvalue in a dereference chain.
        */
-      return this->var;
-   }
+        return this->var;
+    }
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   /**
+    /**
     * Object being dereferenced.
     */
-   ir_variable *var;
+    ir_variable *var;
 };
 
 
 class ir_dereference_array : public ir_dereference {
 public:
-   ir_dereference_array(ir_rvalue *value, ir_rvalue *array_index);
+    ir_dereference_array(ir_rvalue *value, ir_rvalue *array_index);
 
-   ir_dereference_array(ir_variable *var, ir_rvalue *array_index);
+    ir_dereference_array(ir_variable *var, ir_rvalue *array_index);
 
-   virtual ir_dereference_array *clone(void *mem_ctx,
-				       struct hash_table *) const;
+    virtual ir_dereference_array *clone(void *mem_ctx,
+                                        struct hash_table *) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual ir_dereference_array *as_dereference_array()
-   {
-      return this;
-   }
+    virtual ir_dereference_array *as_dereference_array()
+    {
+        return this;
+    }
 
-   /**
+    /**
     * Get the variable that is ultimately referenced by an r-value
     */
-   virtual ir_variable *variable_referenced() const
-   {
-      return this->array->variable_referenced();
-   }
+    virtual ir_variable *variable_referenced() const
+    {
+        return this->array->variable_referenced();
+    }
 
-   /**
+    /**
     * Get the constant that is ultimately referenced by an r-value,
     * in a constant expression evaluation context.
     *
     * The offset is used when the reference is to a specific column of
     * a matrix.
     */
-   virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const;
+    virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const;
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   ir_rvalue *array;
-   ir_rvalue *array_index;
+    ir_rvalue *array;
+    ir_rvalue *array_index;
 
 private:
-   void set_array(ir_rvalue *value);
+    void set_array(ir_rvalue *value);
 };
 
 
 class ir_dereference_record : public ir_dereference {
 public:
-   ir_dereference_record(ir_rvalue *value, const char *field);
+    ir_dereference_record(ir_rvalue *value, const char *field);
 
-   ir_dereference_record(ir_variable *var, const char *field);
+    ir_dereference_record(ir_variable *var, const char *field);
 
-   virtual ir_dereference_record *clone(void *mem_ctx,
-					struct hash_table *) const;
+    virtual ir_dereference_record *clone(void *mem_ctx,
+                                         struct hash_table *) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual ir_dereference_record *as_dereference_record()
-   {
-      return this;
-   }
+    virtual ir_dereference_record *as_dereference_record()
+    {
+        return this;
+    }
 
-   /**
+    /**
     * Get the variable that is ultimately referenced by an r-value
     */
-   virtual ir_variable *variable_referenced() const
-   {
-      return this->record->variable_referenced();
-   }
+    virtual ir_variable *variable_referenced() const
+    {
+        return this->record->variable_referenced();
+    }
 
-   /**
+    /**
     * Get the constant that is ultimately referenced by an r-value,
     * in a constant expression evaluation context.
     *
     * The offset is used when the reference is to a specific column of
     * a matrix.
     */
-   virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const;
+    virtual void constant_referenced(struct hash_table *variable_context, ir_constant *&store, int &offset) const;
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   ir_rvalue *record;
-   const char *field;
+    ir_rvalue *record;
+    const char *field;
 };
 
 
@@ -1851,27 +1855,27 @@ public:
  * Data stored in an ir_constant
  */
 union ir_constant_data {
-      unsigned u[16];
-      int i[16];
-      float f[16];
-      bool b[16];
+    unsigned u[16];
+    int i[16];
+    float f[16];
+    bool b[16];
 };
 
 
 class ir_constant : public ir_rvalue {
 public:
-   ir_constant(const struct glsl_type *type, const ir_constant_data *data);
-   ir_constant(bool b);
-   ir_constant(unsigned int u);
-   ir_constant(int i);
-   ir_constant(float f);
+    ir_constant(const struct glsl_type *type, const ir_constant_data *data);
+    ir_constant(bool b);
+    ir_constant(unsigned int u);
+    ir_constant(int i);
+    ir_constant(float f);
 
-   /**
+    /**
     * Construct an ir_constant from a list of ir_constant values
     */
-   ir_constant(const struct glsl_type *type, exec_list *values);
+    ir_constant(const struct glsl_type *type, exec_list *values);
 
-   /**
+    /**
     * Construct an ir_constant from a scalar component of another ir_constant
     *
     * The new \c ir_constant inherits the type of the component from the
@@ -1881,48 +1885,48 @@ public:
     * In the case of a matrix constant, the new constant is a scalar, \b not
     * a vector.
     */
-   ir_constant(const ir_constant *c, unsigned i);
+    ir_constant(const ir_constant *c, unsigned i);
 
-   /**
+    /**
     * Return a new ir_constant of the specified type containing all zeros.
     */
-   static ir_constant *zero(void *mem_ctx, const glsl_type *type);
+    static ir_constant *zero(void *mem_ctx, const glsl_type *type);
 
-   virtual ir_constant *clone(void *mem_ctx, struct hash_table *) const;
+    virtual ir_constant *clone(void *mem_ctx, struct hash_table *) const;
 
-   virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
+    virtual ir_constant *constant_expression_value(struct hash_table *variable_context = NULL);
 
-   virtual ir_constant *as_constant()
-   {
-      return this;
-   }
+    virtual ir_constant *as_constant()
+    {
+        return this;
+    }
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
-   /**
+    /**
     * Get a particular component of a constant as a specific type
     *
     * This is useful, for example, to get a value from an integer constant
     * as a float or bool.  This appears frequently when constructors are
     * called with all constant parameters.
     */
-   /*@{*/
-   bool get_bool_component(unsigned i) const;
-   float get_float_component(unsigned i) const;
-   int get_int_component(unsigned i) const;
-   unsigned get_uint_component(unsigned i) const;
-   /*@}*/
+    /*@{*/
+    bool get_bool_component(unsigned i) const;
+    float get_float_component(unsigned i) const;
+    int get_int_component(unsigned i) const;
+    unsigned get_uint_component(unsigned i) const;
+    /*@}*/
 
-   ir_constant *get_array_element(unsigned i) const;
+    ir_constant *get_array_element(unsigned i) const;
 
-   ir_constant *get_record_field(const char *name);
+    ir_constant *get_record_field(const char *name);
 
-   /**
+    /**
     * Copy the values on another constant at a given offset.
     *
     * The offset is ignored for array or struct copies, it's only for
@@ -1932,9 +1936,9 @@ public:
     * without creating a new object.
     */
 
-   void copy_offset(ir_constant *src, int offset);
+    void copy_offset(ir_constant *src, int offset);
 
-   /**
+    /**
     * Copy the values on another constant at a given offset and
     * following an assign-like mask.
     *
@@ -1945,41 +1949,41 @@ public:
     * destination.
     */
 
-   void copy_masked_offset(ir_constant *src, int offset, unsigned int mask);
+    void copy_masked_offset(ir_constant *src, int offset, unsigned int mask);
 
-   /**
+    /**
     * Determine whether a constant has the same value as another constant
     *
     * \sa ir_constant::is_zero, ir_constant::is_one,
     * ir_constant::is_negative_one, ir_constant::is_basis
     */
-   bool has_value(const ir_constant *) const;
+    bool has_value(const ir_constant *) const;
 
-   virtual bool is_zero() const;
-   virtual bool is_one() const;
-   virtual bool is_negative_one() const;
-   virtual bool is_basis() const;
+    virtual bool is_zero() const;
+    virtual bool is_one() const;
+    virtual bool is_negative_one() const;
+    virtual bool is_basis() const;
 
-   /**
+    /**
     * Value of the constant.
     *
     * The field used to back the values supplied by the constant is determined
     * by the type associated with the \c ir_instruction.  Constants may be
     * scalars, vectors, or matrices.
     */
-   union ir_constant_data value;
+    union ir_constant_data value;
 
-   /* Array elements */
-   ir_constant **array_elements;
+    /* Array elements */
+    ir_constant **array_elements;
 
-   /* Structure fields */
-   exec_list components;
+    /* Structure fields */
+    exec_list components;
 
 private:
-   /**
+    /**
     * Parameterless constructor only used by the clone method
     */
-   ir_constant(void);
+    ir_constant(void);
 };
 
 /*@}*/
@@ -2007,7 +2011,7 @@ struct gl_shader_program;
  */
 void
 detect_recursion_unlinked(struct _mesa_glsl_parse_state *state,
-			  exec_list *instructions);
+                          exec_list *instructions);
 
 /**
  * Detect whether a linked shader contains static recursion
@@ -2019,7 +2023,7 @@ detect_recursion_unlinked(struct _mesa_glsl_parse_state *state,
  */
 void
 detect_recursion_linked(struct gl_shader_program *prog,
-			exec_list *instructions);
+                        exec_list *instructions);
 
 /**
  * Make a clone of each IR instruction in a list
@@ -2032,7 +2036,7 @@ clone_ir_list(void *mem_ctx, exec_list *out, const exec_list *in);
 
 extern void
 _mesa_glsl_initialize_variables(exec_list *instructions,
-				struct _mesa_glsl_parse_state *state);
+                                struct _mesa_glsl_parse_state *state);
 
 extern void
 _mesa_glsl_initialize_functions(_mesa_glsl_parse_state *state);
@@ -2047,7 +2051,7 @@ struct glsl_symbol_table;
 
 extern void
 import_prototypes(const exec_list *source, exec_list *dest,
-		  struct glsl_symbol_table *symbols, void *mem_ctx);
+                  struct glsl_symbol_table *symbols, void *mem_ctx);
 
 extern bool
 ir_has_call(ir_instruction *ir);
@@ -2058,6 +2062,6 @@ do_set_program_inouts(exec_list *instructions, struct gl_program *prog,
 
 extern char *
 prototype_string(const glsl_type *return_type, const char *name,
-		 exec_list *parameters);
+                 exec_list *parameters);
 
 #endif /* IR_H */
