@@ -320,9 +320,9 @@ ir_texture::clone(void *mem_ctx, struct hash_table *ht) const
         break;
     }
 
-    new_tex->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+//    new_tex->set_location(this->source_location.source,
+//                          this->source_location.line,
+//                          this->source_location.column);
 
     return new_tex;
 }

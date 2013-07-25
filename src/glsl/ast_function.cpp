@@ -1535,10 +1535,10 @@ ast_function_expression::hir(exec_list *instructions,
         if (all_parameters_are_constant) {
             ir_constant *new_const =
                     new(ctx) ir_constant(constructor_type, &actual_parameters);
-            //DEBUG Alex
-            new_const->set_location(((ir_rvalue *) actual_parameters.head)->source_location.source,
-                                    ((ir_rvalue *) actual_parameters.head)->source_location.line,
-                                    ((ir_rvalue *) actual_parameters.head)->source_location.column);
+//            //DEBUG Alex
+//            new_const->set_location(((ir_rvalue *) actual_parameters.head)->source_location.source,
+//                                    ((ir_rvalue *) actual_parameters.head)->source_location.line,
+//                                    ((ir_rvalue *) actual_parameters.head)->source_location.column);
             return new_const;
         } else if (constructor_type->is_scalar()) {
             return dereference_component((ir_rvalue *) actual_parameters.head,

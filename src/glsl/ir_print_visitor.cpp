@@ -144,7 +144,7 @@ void ir_print_visitor::visit(ir_rvalue *ir)
 void ir_print_visitor::visit(ir_variable *ir)
 {
     //DEBUG Alex
-    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
 
     printf("(declare ");
 
@@ -229,7 +229,7 @@ void ir_print_visitor::visit(ir_function *ir)
 void ir_print_visitor::visit(ir_expression *ir)
 {
     //DEBUG Alex
-    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
 
     printf("(expression ");
 
@@ -322,7 +322,7 @@ void ir_print_visitor::visit(ir_swizzle *ir)
     };
 
     //DEBUG Alex
-    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
 
     printf("(swiz ");
     for (unsigned i = 0; i < ir->mask.num_components; i++) {
@@ -339,7 +339,7 @@ void ir_print_visitor::visit(ir_dereference_variable *ir)
     ir_variable *var = ir->variable_referenced();
 
     //DEBUG Alex
-    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
 
     printf("(var_ref %s) ", unique_name(var));
 }
@@ -365,7 +365,7 @@ void ir_print_visitor::visit(ir_dereference_record *ir)
 void ir_print_visitor::visit(ir_assignment *ir)
 {
     //DEBUG Alex
-    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
 
     printf("(assign ");
 
@@ -397,7 +397,7 @@ void ir_print_visitor::visit(ir_assignment *ir)
 void ir_print_visitor::visit(ir_constant *ir)
 {
     //DEBUG Alex
-    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
 
     printf("(constant ");
     print_type(ir->type);

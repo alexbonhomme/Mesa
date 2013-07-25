@@ -1851,7 +1851,6 @@ ureg_get_insn_loc(struct ureg_program *ureg) {
     const struct glsl_instruction_location *locations;
 
     locations = ureg->loc_instructions;
-    printf("locations: %p\n", locations);
 
     return locations;
 }

@@ -307,20 +307,6 @@ lp_build_emit_fetch(
    LLVMValueRef res;
    enum tgsi_opcode_type stype = tgsi_opcode_infer_src_type(inst->Instruction.Opcode);
 
-#if 0 //DEBUG Alex
-   const char *inst_name = tgsi_get_opcode_name(inst->Instruction.Opcode);
-   char str_opcode_name[100];
-   sprintf(str_opcode_name, "Instruction infos :\n"
-           "\tName: %s\n"
-           "\tSource: %d, Line: %d, Column: %d\n",
-           inst_name,
-           inst->Location.source,
-           inst->Location.line,
-           inst->Location.column);
-
-   lp_build_printf(bld_base->base.gallivm, str_opcode_name);
-#endif
-
    if (chan_index == LP_CHAN_ALL) {
       swizzle = ~0;
    } else {
@@ -410,20 +396,6 @@ lp_build_emit_fetch_texoffset(
    unsigned swizzle;
    LLVMValueRef res;
    enum tgsi_opcode_type stype = TGSI_TYPE_SIGNED;
-
-#if 0 //DEBUG Alex
-   const char *inst_name = tgsi_get_opcode_name(inst->Instruction.Opcode);
-   char str_opcode_name[100];
-   sprintf(str_opcode_name, "Instruction infos :\n"
-           "\tName: %s\n"
-           "\tSource: %d, Line: %d, Column: %d\n",
-           inst_name,
-           inst->Location.source,
-           inst->Location.line,
-           inst->Location.column);
-
-   lp_build_printf(bld_base->base.gallivm, str_opcode_name);
-#endif
 
    /* convert offset "register" to ordinary register so can use normal emit funcs */
    memset(&reg, 0, sizeof(reg));
