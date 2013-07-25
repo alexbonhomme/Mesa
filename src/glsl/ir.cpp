@@ -172,9 +172,17 @@ ir_assignment::ir_assignment(ir_dereference *lhs, ir_rvalue *rhs,
 
     // This is arbitrary.
     // if they don't are on the same line, we take the left value
-    this->set_location(lhs->source_location.source,
-                       lhs->source_location.line,
-                       lhs->source_location.column);
+    // This is arbitrary.
+    // if they don't are on the same line, we take the left value
+    if (lhs->source_location.line <= 0) {
+        this->set_location(rhs->source_location.source,
+                           rhs->source_location.line,
+                           rhs->source_location.column);
+    } else {
+        this->set_location(lhs->source_location.source,
+                           lhs->source_location.line,
+                           lhs->source_location.column);
+    }
 }
 
 ir_assignment::ir_assignment(ir_rvalue *lhs, ir_rvalue *rhs,
@@ -202,9 +210,15 @@ ir_assignment::ir_assignment(ir_rvalue *lhs, ir_rvalue *rhs,
 
     // This is arbitrary.
     // if they don't are on the same line, we take the left value
-    this->set_location(lhs->source_location.source,
-                       lhs->source_location.line,
-                       lhs->source_location.column);
+    if (lhs->source_location.line <= 0) {
+        this->set_location(rhs->source_location.source,
+                           rhs->source_location.line,
+                           rhs->source_location.column);
+    } else {
+        this->set_location(lhs->source_location.source,
+                           lhs->source_location.line,
+                           lhs->source_location.column);
+    }
 }
 
 ir_expression::ir_expression(int op, const struct glsl_type *type,
@@ -224,39 +238,7 @@ ir_expression::ir_expression(int op, const struct glsl_type *type,
         assert(this->operands[i] == NULL);
     }
 #endif
-#if 1
-    if (op0 != NULL) {
-        fprintf(stderr, "ir_expression() : op0\n"
-               "source: %d, line: %d, column: %d\n",
-               op0->source_location.source,
-               op0->source_location.line,
-               op0->source_location.column);
-    }
-    if (op1 != NULL) {
-        fprintf(stderr, "ir_expression() : op1\n"
-               "source: %d, line: %d, column: %d\n",
-               op1->source_location.source,
-               op1->source_location.line,
-               op1->source_location.column);
-    }
-    if (op2 != NULL) {
-        fprintf(stderr, "ir_expression() : op2\n"
-               "source: %d, line: %d, column: %d\n\n",
-               op2->source_location.source,
-               op2->source_location.line,
-               op2->source_location.column);
-    }
-    if (op3 != NULL) {
-        fprintf(stderr, "ir_expression() : op3\n"
-               "source: %d, line: %d, column: %d\n\n",
-               op3->source_location.source,
-               op3->source_location.line,
-               op3->source_location.column);
-    }
 
-#endif
-
-    //This is discutable
 #ifdef NDEBUG
     int num_operands = get_num_operands(this->operation);
 #endif
@@ -265,13 +247,11 @@ ir_expression::ir_expression(int op, const struct glsl_type *type,
             continue;
         }
 
-        if (this->operands[i]->source_location.line > 0 &&
-                this->operands[i]->source_location.column > 0) {
+        //This is discutable
+        if (this->operands[i]->source_location.line > 0) {
             this->set_location(this->operands[i]->source_location.source,
                                this->operands[i]->source_location.line,
                                this->operands[i]->source_location.column);
-
-            fprintf(stderr, "i: %d\n", i);
             break;
         }
     }
@@ -381,13 +361,7 @@ ir_expression::ir_expression(int op, ir_rvalue *op0)
         this->type = op0->type;
         break;
     }
-#if 1
-    fprintf(stderr, "ir_expression() : op0\n"
-           "source: %d, line: %d, column: %d\n",
-           op0->source_location.source,
-           op0->source_location.line,
-           op0->source_location.column);
-#endif
+
     this->set_location(op0->source_location.source,
                        op0->source_location.line,
                        op0->source_location.column);
@@ -481,22 +455,10 @@ ir_expression::ir_expression(int op, ir_rvalue *op0, ir_rvalue *op1)
         assert(!"not reached: missing automatic type setup for ir_expression");
         this->type = glsl_type::float_type;
     }
-#if 1
-    fprintf(stderr, "ir_expression() : op0\n"
-           "source: %d, line: %d, column: %d\n",
-           op0->source_location.source,
-           op0->source_location.line,
-           op0->source_location.column);
-    fprintf(stderr, "ir_expression() : op1\n"
-           "source: %d, line: %d, column: %d\n",
-           op1->source_location.source,
-           op1->source_location.line,
-           op1->source_location.column);
-#endif
+
     // This is arbitrary.
     // if they don't are on the same line, we take the left value
-    if (op0->source_location.line <= 0 &&
-            op0->source_location.column) {
+    if (op0->source_location.line <= 0) {
         this->set_location(op1->source_location.source,
                            op1->source_location.line,
                            op1->source_location.column);

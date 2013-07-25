@@ -94,9 +94,9 @@ ir_swizzle::clone(void *mem_ctx, struct hash_table *ht) const
 {
     ir_swizzle *new_swizz = new(mem_ctx) ir_swizzle(this->val->clone(mem_ctx, ht),
                                                     this->mask);
-//    new_swizz->set_location(this->source_location.source,
-//                            this->source_location.line,
-//                            this->source_location.column);
+    //    new_swizz->set_location(this->source_location.source,
+    //                            this->source_location.line,
+    //                            this->source_location.column);
 
     return new_swizz;
 }
@@ -127,8 +127,8 @@ ir_discard::clone(void *mem_ctx, struct hash_table *ht) const
 
     ir_discard *new_disc = new(mem_ctx) ir_discard(new_condition);
     new_disc->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                           this->source_location.line,
+                           this->source_location.column);
 
     return new_disc;
 }
@@ -140,8 +140,8 @@ ir_loop_jump::clone(void *mem_ctx, struct hash_table *ht) const
 
     ir_loop_jump *new_loop_jump = new(mem_ctx) ir_loop_jump(this->mode);
     new_loop_jump->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                                this->source_location.line,
+                                this->source_location.column);
 
     return new_loop_jump;
 }
@@ -162,8 +162,8 @@ ir_if::clone(void *mem_ctx, struct hash_table *ht) const
     }
 
     new_if->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                         this->source_location.line,
+                         this->source_location.column);
 
     return new_if;
 }
@@ -188,8 +188,8 @@ ir_loop::clone(void *mem_ctx, struct hash_table *ht) const
 
     new_loop->cmp = this->cmp;
     new_loop->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                           this->source_location.line,
+                           this->source_location.column);
 
     return new_loop;
 }
@@ -212,8 +212,8 @@ ir_call::clone(void *mem_ctx, struct hash_table *ht) const
                                              new_return_ref,
                                              &new_parameters);
     new_call->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                           this->source_location.line,
+                           this->source_location.column);
 
     return new_call;
 }
@@ -231,8 +231,8 @@ ir_expression::clone(void *mem_ctx, struct hash_table *ht) const
     ir_expression *new_expr = new(mem_ctx) ir_expression(this->operation, this->type,
                                                          op[0], op[1], op[2], op[3]);
     new_expr->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                           this->source_location.line,
+                           this->source_location.column);
 
     return new_expr;
 }
@@ -261,8 +261,8 @@ ir_dereference_array::clone(void *mem_ctx, struct hash_table *ht) const
                                               this->array_index->clone(mem_ctx,
                                                                        ht));
     new_deref_array->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                                  this->source_location.line,
+                                  this->source_location.column);
 
     return new_deref_array;
 
@@ -275,8 +275,8 @@ ir_dereference_record::clone(void *mem_ctx, struct hash_table *ht) const
             new(mem_ctx) ir_dereference_record(this->record->clone(mem_ctx, ht),
                                                this->field);
     new_deref_record->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                                   this->source_location.line,
+                                   this->source_location.column);
 
     return new_deref_record;
 }
@@ -340,8 +340,8 @@ ir_assignment::clone(void *mem_ctx, struct hash_table *ht) const
                                                           new_condition,
                                                           this->write_mask);
     new_assig->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                            this->source_location.line,
+                            this->source_location.column);
 
     return new_assig;
 }
@@ -364,8 +364,8 @@ ir_function::clone(void *mem_ctx, struct hash_table *ht) const
     }
 
     copy->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                       this->source_location.line,
+                       this->source_location.column);
     return copy;
 }
 
@@ -386,8 +386,8 @@ ir_function_signature::clone(void *mem_ctx, struct hash_table *ht) const
     }
 
     copy->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                       this->source_location.line,
+                       this->source_location.column);
 
     return copy;
 }
@@ -414,8 +414,8 @@ ir_function_signature::clone_prototype(void *mem_ctx, struct hash_table *ht) con
     }
 
     copy->set_location(this->source_location.source,
-                          this->source_location.line,
-                          this->source_location.column);
+                       this->source_location.line,
+                       this->source_location.column);
 
     return copy;
 }
@@ -433,40 +433,47 @@ ir_constant::clone(void *mem_ctx, struct hash_table *ht) const
         ir_constant *c =
                 new(mem_ctx) ir_constant(this->type, &this->value);
         c->set_location(this->source_location.source,
-                              this->source_location.line,
-                              this->source_location.column);
+                        this->source_location.line,
+                        this->source_location.column);
 
         return c;
     }
 
     case GLSL_TYPE_STRUCT: {
         ir_constant *c = new(mem_ctx) ir_constant;
+        c->set_location(this->source_location.source,
+                        this->source_location.line,
+                        this->source_location.column);
 
         c->type = this->type;
         for (exec_node *node = this->components.head
              ; !node->is_tail_sentinel()
              ; node = node->next) {
             ir_constant *const orig = (ir_constant *) node;
+//            orig->set_location(this->source_location.source,
+//                               this->source_location.line,
+//                               this->source_location.column);
 
             c->components.push_tail(orig->clone(mem_ctx, NULL));
         }
-        c->set_location(this->source_location.source,
-                                this->source_location.line,
-                                this->source_location.column);
+
         return c;
     }
 
     case GLSL_TYPE_ARRAY: {
         ir_constant *c = new(mem_ctx) ir_constant;
+        c->set_location(this->source_location.source,
+                        this->source_location.line,
+                        this->source_location.column);
 
         c->type = this->type;
         c->array_elements = ralloc_array(c, ir_constant *, this->type->length);
         for (unsigned i = 0; i < this->type->length; i++) {
             c->array_elements[i] = this->array_elements[i]->clone(mem_ctx, NULL);
+//            c->array_elements[i]->set_location(this->source_location.source,
+//                                               this->source_location.line,
+//                                               0);
         }
-        c->set_location(this->source_location.source,
-                              this->source_location.line,
-                              this->source_location.column);
 
         return c;
     }
