@@ -554,20 +554,6 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
    inst->dead_mask = 0;
 
    inst->function = NULL;
-   
-   //DEBUG Alex
-   if (ir != NULL) {
-       inst->location.source = ir->location.source;
-       inst->location.line = ir->location.line;
-       inst->location.column = ir->location.column;
-
-       ir->print();
-       printf("\nIR(%p) source: %d, line: %d, column: %d\n",
-              ir,
-              ir->location.source,
-              ir->location.line,
-              ir->location.column);
-   }
 
    if (op == TGSI_OPCODE_ARL || op == TGSI_OPCODE_UARL)
       this->num_address_regs = 1;
@@ -610,7 +596,23 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
       }
    }
 
+   //DEBUG Alex
+   if (ir != NULL) {
+       inst->location.source = ir->source_location.source;
+       inst->location.line = ir->source_location.line;
+       inst->location.column = ir->source_location.column;
+
+       printf("\n");
+       ir->print();
+       printf("\nIR(%p) source: %d, line: %d, column: %d\n",
+              ir,
+              ir->source_location.source,
+              ir->source_location.line,
+              ir->source_location.column);
+   }
+
    this->instructions.push_tail(inst);
+
 
    if (native_integers)
       try_emit_float_set(ir, op, dst);
@@ -4971,8 +4973,19 @@ st_translate_program(
         */
        ureg_realloc_insn_loc(ureg, count + 1);
        ureg_set_insn_loc(ureg, &inst->location, count);
-//        printf("count=%d\n", count);
-       printf("source: %d\n", inst->location.source);
+
+       printf("\nIR:");
+       if (inst->ir != NULL) {
+           inst->ir->print();
+       } else {
+           printf("(null)");
+       }
+       printf("\nType: %s", tgsi_get_opcode_info(inst->op)->mnemonic);
+
+       printf("\nTGSI source: %d, line: %d, column: %d\n\n",
+              inst->location.source,
+              inst->location.line,
+              inst->location.column);
    }
 
    /* Fix up all emitted labels:

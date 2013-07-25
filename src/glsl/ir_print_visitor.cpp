@@ -226,7 +226,7 @@ void ir_print_visitor::visit(ir_function *ir)
 void ir_print_visitor::visit(ir_expression *ir)
 {
     //DEBUG Alex
-    printf("[l. %d - c. %d] ", ir->location.line, ir->location.column);
+//    printf("[l. %d - c. %d] ", ir->location.line, ir->location.column);
 
     printf("(expression ");
 

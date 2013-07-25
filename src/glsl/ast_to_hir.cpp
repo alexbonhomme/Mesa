@@ -779,6 +779,10 @@ do_assignment(exec_list *instructions, struct _mesa_glsl_parse_state *state,
     */
    ir_variable *var = new(ctx) ir_variable(rhs->type, "assignment_tmp",
 					   ir_var_temporary);
+   var->set_location(rhs->source_location.source,
+                     rhs->source_location.line,
+                     rhs->source_location.column);
+
    ir_dereference_variable *deref_var = new(ctx) ir_dereference_variable(var);
    instructions->push_tail(var);
    instructions->push_tail(new(ctx) ir_assignment(deref_var, rhs));
@@ -1652,16 +1656,17 @@ ast_expression::hir(exec_list *instructions,
       _mesa_glsl_error(& loc, state, "type mismatch");
 
    //DEBUG Alex
-   result->location.source = loc.source;
-   result->location.line = loc.first_line;
-   result->location.column = loc.first_column;
+   result->source_location.source = loc.source;
+   result->source_location.line = loc.first_line;
+   result->source_location.column = loc.first_column;
 
+   printf("\n");
    result->print();
    printf("\nIR(%p) Source: %d, Line: %d, Column: %d\n",
           result,
-          result->location.source,
-          result->location.line,
-          result->location.column);
+          result->source_location.source,
+          result->source_location.line,
+          result->source_location.column);
 
    return result;
 }

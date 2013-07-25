@@ -88,18 +88,32 @@ enum ir_node_type {
  */
 class ir_instruction : public exec_node {
 public:
-   enum ir_node_type ir_type;
+    enum ir_node_type ir_type;
 
-   /**
+    /**
     * Source location
     */
-   struct {
-      unsigned source;    /**< GLSL source number. */
-      unsigned line;      /**< Line number within the source string. */
-      unsigned column;    /**< Column in the line. */
-   } location;
+    struct {
+        unsigned source;    /**< GLSL source number. */
+        unsigned line;      /**< Line number within the source string. */
+        unsigned column;    /**< Column in the line. */
+    } source_location;
 
-   /**
+    /**
+    * @brief set_location
+    * @param source
+    * @param line
+    * @param column
+    */
+    inline void set_location(unsigned source,
+                             unsigned line,
+                             unsigned column) {
+        this->source_location.source = source;
+        this->source_location.line = line;
+        this->source_location.column = column;
+    }
+
+    /**
     * GCC 4.7+ and clang warn when deleting an ir_instruction unless
     * there's a virtual destructor present.  Because we almost
     * universally use ralloc for our memory management of
@@ -149,9 +163,7 @@ protected:
     {
         ir_type = ir_type_unset;
 
-        location.source = 0;
-        location.line = 0;
-        location.column = 0;
+        set_location(0, 0, 0);
     }
 };
 
@@ -235,7 +247,7 @@ public:
     */
     virtual bool is_one() const;
 
-   /**
+    /**
     * Determine if an r-value has the value negative one
     *
     * The base implementation of this function always returns \c false.  The
@@ -246,9 +258,9 @@ public:
     * \sa ir_constant::has_value, ir_rvalue::is_zero, ir_rvalue::is_one
     *     ir_constant::is_basis
     */
-   virtual bool is_negative_one() const;
+    virtual bool is_negative_one() const;
 
-   /**
+    /**
     * Determine if an r-value is a basis vector
     *
     * The base implementation of this function always returns \c false.  The
@@ -260,18 +272,18 @@ public:
     * \sa ir_constant::has_value, ir_rvalue::is_zero, ir_rvalue::is_one,
     *     is_constant::is_negative_one
     */
-   virtual bool is_basis() const;
+    virtual bool is_basis() const;
 
 
-   /**
+    /**
     * Return a generic value of error_type.
     *
     * Allocation will be performed with 'mem_ctx' as ralloc owner.
     */
-   static ir_rvalue *error_value(void *mem_ctx);
+    static ir_rvalue *error_value(void *mem_ctx);
 
 protected:
-   ir_rvalue();
+    ir_rvalue();
 };
 
 
@@ -279,17 +291,17 @@ protected:
  * Variable storage classes
  */
 enum ir_variable_mode {
-   ir_var_auto = 0,     /**< Function local variables and globals. */
-   ir_var_uniform,      /**< Variable declared as a uniform. */
-   ir_var_shader_in,
-   ir_var_shader_out,
-   ir_var_function_in,
-   ir_var_function_out,
-   ir_var_function_inout,
-   ir_var_const_in,	/**< "in" param that must be a constant expression */
-   ir_var_system_value, /**< Ex: front-face, instance-id, etc. */
-   ir_var_temporary,	/**< Temporary variable generated during compilation. */
-   ir_var_mode_count	/**< Number of variable modes */
+    ir_var_auto = 0,     /**< Function local variables and globals. */
+    ir_var_uniform,      /**< Variable declared as a uniform. */
+    ir_var_shader_in,
+    ir_var_shader_out,
+    ir_var_function_in,
+    ir_var_function_out,
+    ir_var_function_inout,
+    ir_var_const_in,	/**< "in" param that must be a constant expression */
+    ir_var_system_value, /**< Ex: front-face, instance-id, etc. */
+    ir_var_temporary,	/**< Temporary variable generated during compilation. */
+    ir_var_mode_count	/**< Number of variable modes */
 };
 
 /**
@@ -318,30 +330,30 @@ depth_layout_string(ir_depth_layout layout);
  * \sa ir_variable::state_slots
  */
 struct ir_state_slot {
-   int tokens[5];
-   int swizzle;
+    int tokens[5];
+    int swizzle;
 };
 
 class ir_variable : public ir_instruction {
 public:
-   ir_variable(const struct glsl_type *, const char *, ir_variable_mode);
+    ir_variable(const struct glsl_type *, const char *, ir_variable_mode);
 
-   virtual ir_variable *clone(void *mem_ctx, struct hash_table *ht) const;
+    virtual ir_variable *clone(void *mem_ctx, struct hash_table *ht) const;
 
-   virtual ir_variable *as_variable()
-   {
-      return this;
-   }
+    virtual ir_variable *as_variable()
+    {
+        return this;
+    }
 
-   virtual void accept(ir_visitor *v)
-   {
-      v->visit(this);
-   }
+    virtual void accept(ir_visitor *v)
+    {
+        v->visit(this);
+    }
 
-   virtual ir_visitor_status accept(ir_hierarchical_visitor *);
+    virtual ir_visitor_status accept(ir_hierarchical_visitor *);
 
 
-   /**
+    /**
     * Get the string value for the interpolation qualifier
     *
     * \return The string that would be used in a shader to specify \c
@@ -353,9 +365,9 @@ public:
     *
     * This function should only be used on a shader input or output variable.
     */
-   const char *interpolation_string() const;
+    const char *interpolation_string() const;
 
-   /**
+    /**
     * Determine how this variable should be interpolated based on its
     * interpolation qualifier (if present), whether it is gl_Color or
     * gl_SecondaryColor, and whether flatshading is enabled in the current GL
@@ -364,7 +376,7 @@ public:
     * The return value will always be either INTERP_QUALIFIER_SMOOTH,
     * INTERP_QUALIFIER_NOPERSPECTIVE, or INTERP_QUALIFIER_FLAT.
     */
-   glsl_interp_qualifier determine_interpolation_mode(bool flat_shade);
+    glsl_interp_qualifier determine_interpolation_mode(bool flat_shade);
 
     /**
     * Determine whether or not a variable is part of a uniform block.
@@ -393,30 +405,30 @@ public:
     *     float f;
     * };
     */
-   inline bool is_interface_instance() const
-   {
-      const glsl_type *const t = this->type;
+    inline bool is_interface_instance() const
+    {
+        const glsl_type *const t = this->type;
 
-      return (t == this->interface_type)
-         || (t->is_array() && t->fields.array == this->interface_type);
+        return (t == this->interface_type)
+                || (t->is_array() && t->fields.array == this->interface_type);
     }
 
-   /**
+    /**
     * Declared type of the variable
     */
-   const struct glsl_type *type;
+    const struct glsl_type *type;
 
-   /**
+    /**
     * Declared name of the variable
     */
-   const char *name;
+    const char *name;
 
-   /**
+    /**
     * Highest element accessed with a constant expression array index
     *
     * Not used for non-array variables.
     */
-   unsigned max_array_access;
+    unsigned max_array_access;
 
     /**
     * Is the variable read-only?
@@ -424,11 +436,11 @@ public:
     * This is set for variables declared as \c const, shader inputs,
     * and uniforms.
     */
-   unsigned read_only:1;
-   unsigned centroid:1;
-   unsigned invariant:1;
+    unsigned read_only:1;
+    unsigned centroid:1;
+    unsigned invariant:1;
 
-   /**
+    /**
     * Has this variable been used for reading or writing?
     *
     * Several GLSL semantic checks require knowledge of whether or not a
@@ -438,9 +450,9 @@ public:
     * This is only maintained in the ast_to_hir.cpp path, not in
     * Mesa's fixed function or ARB program paths.
     */
-   unsigned used:1;
+    unsigned used:1;
 
-   /**
+    /**
     * Has this variable been statically assigned?
     *
     * This answers whether the variable was assigned in any path of
@@ -448,58 +460,58 @@ public:
     * still written after dead code removal, nor is it maintained in
     * non-ast_to_hir.cpp (GLSL parsing) paths.
     */
-   unsigned assigned:1;
+    unsigned assigned:1;
 
-   /**
+    /**
     * Storage class of the variable.
     *
     * \sa ir_variable_mode
     */
-   unsigned mode:4;
+    unsigned mode:4;
 
-   /**
+    /**
     * Interpolation mode for shader inputs / outputs
     *
     * \sa ir_variable_interpolation
     */
-   unsigned interpolation:2;
+    unsigned interpolation:2;
 
-   /**
+    /**
     * \name ARB_fragment_coord_conventions
     * @{
     */
-   unsigned origin_upper_left:1;
-   unsigned pixel_center_integer:1;
-   /*@}*/
+    unsigned origin_upper_left:1;
+    unsigned pixel_center_integer:1;
+    /*@}*/
 
-   /**
+    /**
     * Was the location explicitly set in the shader?
     *
     * If the location is explicitly set in the shader, it \b cannot be changed
     * by the linker or by the API (e.g., calls to \c glBindAttribLocation have
     * no effect).
     */
-   unsigned explicit_location:1;
-   unsigned explicit_index:1;
+    unsigned explicit_location:1;
+    unsigned explicit_index:1;
 
-   /**
+    /**
     * Does this variable have an initializer?
     *
     * This is used by the linker to cross-validiate initializers of global
     * variables.
     */
-   unsigned has_initializer:1;
+    unsigned has_initializer:1;
 
-   /**
+    /**
     * Is this variable a generic output or input that has not yet been matched
     * up to a variable in another stage of the pipeline?
     *
     * This is used by the linker as scratch storage while assigning locations
     * to generic inputs and outputs.
     */
-   unsigned is_unmatched_generic_inout:1;
+    unsigned is_unmatched_generic_inout:1;
 
-   /**
+    /**
     * If non-zero, then this variable may be packed along with other variables
     * into a single varying slot, so this offset should be applied when
     * accessing components.  For example, an offset of 1 means that the x
@@ -516,7 +528,7 @@ public:
     */
     ir_depth_layout depth_layout;
 
-   /**
+    /**
     * Storage location of the base of this variable
     *
     * The precise meaning of this field depends on the nature of the variable.
@@ -532,14 +544,14 @@ public:
     * If the variable is a uniform, shader input, or shader output, and the
     * slot has not been assigned, the value will be -1.
     */
-   int location;
+    int location;
 
-   /**
+    /**
     * output index for dual source blending.
     */
-   int index;
+    int index;
 
-   /**
+    /**
     * Built-in state that backs this uniform
     *
     * Once set at variable creation, \c state_slots must remain invariant.
