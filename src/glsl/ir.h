@@ -36,7 +36,6 @@
 #include "ir_hierarchical_visitor.h"
 #include "main/mtypes.h"
 
-
 /**
  * \defgroup IR Intermediate representation nodes
  *
@@ -94,9 +93,13 @@ public:
     * Source location
     */
     struct {
-        unsigned source;    /**< GLSL source number. */
-        unsigned line;      /**< Line number within the source string. */
-        unsigned column;    /**< Column in the line. */
+       unsigned source;    /**< GLSL source number. */
+ //      unsigned line;      /**< Line number within the source string. */
+ //      unsigned column;    /**< Column in the line. */
+       unsigned first_line;
+       unsigned last_line;
+       unsigned first_column;
+       unsigned last_column;
     } source_location;
 
     /**
@@ -106,11 +109,33 @@ public:
     * @param column
     */
     inline void set_location(unsigned source,
-                             unsigned line,
-                             unsigned column) {
+                             unsigned first_line,
+                             unsigned first_column) {
         this->source_location.source = source;
-        this->source_location.line = line;
-        this->source_location.column = column;
+        this->source_location.first_line =
+            this->source_location.last_line = first_line;
+        this->source_location.first_column =
+            this->source_location.last_column = first_column;
+    }
+
+    /**
+     * @brief set_location
+     * @param source
+     * @param first_line
+     * @param last_line
+     * @param first_column
+     * @param last_column
+     */
+    inline void set_location(unsigned source,
+                             unsigned first_line,
+                             unsigned last_line,
+                             unsigned first_column,
+                             unsigned last_column) {
+        this->source_location.source = source;
+        this->source_location.first_line = first_line;
+        this->source_location.last_line = last_line;
+        this->source_location.first_column = first_column;
+        this->source_location.last_column = last_column;
     }
 
     /**
@@ -163,7 +188,7 @@ protected:
     {
         ir_type = ir_type_unset;
 
-        set_location(0, 0, 0);
+        set_location(0, 0, 0, 0, 0);
     }
 };
 

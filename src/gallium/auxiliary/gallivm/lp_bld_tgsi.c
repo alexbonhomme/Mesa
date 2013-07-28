@@ -206,11 +206,13 @@ lp_build_tgsi_inst_llvm(
    char str_opcode_name[100];
    sprintf(str_opcode_name, "Instruction infos :\n"
            "\tName: %s\n"
-           "\tSource: %d, Line: %d, Column: %d\n",
+           "\tSource: %d, Line: %d to %d, Column: %d to %d\n",
            info->mnemonic,
            inst->Location.source,
-           inst->Location.line,
-           inst->Location.column);
+           inst->Location.first_line,
+           inst->Location.last_line,
+           inst->Location.first_column,
+           inst->Location.last_column);
 
    lp_build_printf(bld_base->base.gallivm, str_opcode_name);
 #endif
@@ -492,8 +494,10 @@ lp_build_tgsi_llvm(
 //      printf("pc: %d\n", bld_base->pc);
 //      printf("bld_base->info->loc_instructions: %p\n", bld_base->info->loc_instructions);
       instr->Location.source = bld_base->info->loc_instructions[bld_base->pc].source;
-      instr->Location.line = bld_base->info->loc_instructions[bld_base->pc].line;
-      instr->Location.column = bld_base->info->loc_instructions[bld_base->pc].column;
+      instr->Location.first_line = bld_base->info->loc_instructions[bld_base->pc].first_line;
+      instr->Location.last_line = bld_base->info->loc_instructions[bld_base->pc].last_line;
+      instr->Location.first_column = bld_base->info->loc_instructions[bld_base->pc].first_column;
+      instr->Location.last_column = bld_base->info->loc_instructions[bld_base->pc].last_column;
 
       if (!lp_build_tgsi_inst_llvm(bld_base, instr)) {
          _debug_printf("warning: failed to translate tgsi opcode %s to LLVM\n",

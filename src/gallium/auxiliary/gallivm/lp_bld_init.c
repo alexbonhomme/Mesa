@@ -147,7 +147,7 @@ create_pass_manager(struct gallivm_state *gallivm)
 
    //DEBUG Alex
 //   LLVMAddFunctionInfoPrinterPass(gallivm->passmgr);
-   LLVMAddFunctionDisplayFragmentsPass(gallivm->passmgr);
+//   LLVMAddFunctionDisplayFragmentsPass(gallivm->passmgr);
 
    if ((gallivm_debug & GALLIVM_DEBUG_NO_OPT) == 0) {
       /* These are the passes currently listed in llvm-c/Transforms/Scalar.h,

@@ -599,16 +599,18 @@ glsl_to_tgsi_visitor::emit(ir_instruction *ir, unsigned op,
    //DEBUG Alex
    if (ir != NULL) {
        inst->location.source = ir->source_location.source;
-       inst->location.line = ir->source_location.line;
-       inst->location.column = ir->source_location.column;
+       inst->location.first_line = ir->source_location.first_line;
+       inst->location.last_line = ir->source_location.last_line;
+       inst->location.first_column = ir->source_location.first_column;
+       inst->location.last_column = ir->source_location.last_column;
 
-       printf("\n");
-       ir->print();
-       printf("\nIR(%p) source: %d, line: %d, column: %d\n",
-              ir,
-              ir->source_location.source,
-              ir->source_location.line,
-              ir->source_location.column);
+//       printf("\n");
+//       ir->print();
+//       printf("\nIR(%p) source: %d, line: %d, column: %d\n",
+//              ir,
+//              ir->source_location.source,
+//              ir->source_location.first_line,
+//              ir->source_location.column);
    }
 
    this->instructions.push_tail(inst);
@@ -4982,10 +4984,12 @@ st_translate_program(
        }
        printf("\nType: %s", tgsi_get_opcode_info(inst->op)->mnemonic);
 
-       printf("\nTGSI source: %d, line: %d, column: %d\n\n",
+       printf("\nTGSI source: %d, line: %d to %d, column: %d to %d\n\n",
               inst->location.source,
-              inst->location.line,
-              inst->location.column);
+              inst->location.first_line,
+              inst->location.last_line,
+              inst->location.first_column,
+              inst->location.last_column);
    }
 
    /* Fix up all emitted labels:

@@ -96,8 +96,12 @@ struct pipe_context;
  */
 struct glsl_instruction_location {
     unsigned source;    /**< GLSL source number. */
-    unsigned line;      /**< Line number within the source string. */
-    unsigned column;    /**< Column in the line. */
+//      unsigned line;      /**< Line number within the source string. */
+//      unsigned column;    /**< Column in the line. */
+    unsigned first_line;
+    unsigned last_line;
+    unsigned first_column;
+    unsigned last_column;
 };
 
 struct ureg_program *

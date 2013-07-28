@@ -92,10 +92,12 @@ public:
       struct YYLTYPE locp;
 
       locp.source = this->location.source;
-      locp.first_line = this->location.line;
-      locp.first_column = this->location.column;
-      locp.last_line = locp.first_line;
-      locp.last_column = locp.first_column;
+      locp.first_line = this->location.first_line;
+      locp.first_column = this->location.first_column;
+//      locp.last_line = locp.first_line;
+//      locp.last_column = locp.first_column;
+      locp.last_line = this->location.last_line;
+      locp.last_column = this->location.last_column;
 
       return locp;
    }
@@ -108,8 +110,12 @@ public:
    void set_location(const struct YYLTYPE &locp)
    {
       this->location.source = locp.source;
-      this->location.line = locp.first_line;
-      this->location.column = locp.first_column;
+//      this->location.line = locp.first_line;
+//      this->location.column = locp.first_column;
+       this->location.first_line = locp.first_line;
+       this->location.last_line = locp.last_line;
+       this->location.first_column = locp.first_column;
+       this->location.last_column = locp.last_column;
    }
 
    /**
@@ -117,8 +123,12 @@ public:
     */
    struct {
       unsigned source;    /**< GLSL source number. */
-      unsigned line;      /**< Line number within the source string. */
-      unsigned column;    /**< Column in the line. */
+//      unsigned line;      /**< Line number within the source string. */
+//      unsigned column;    /**< Column in the line. */
+      unsigned first_line;
+      unsigned last_line;
+      unsigned first_column;
+      unsigned last_column;
    } location;
 
    exec_node link;

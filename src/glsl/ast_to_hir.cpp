@@ -87,8 +87,9 @@ _mesa_ast_to_hir(exec_list *instructions, struct _mesa_glsl_parse_state *state)
     */
     state->symbols->push_scope();
 
-    foreach_list_typed (ast_node, ast, link, & state->translation_unit)
-            ast->hir(instructions, state);
+    foreach_list_typed (ast_node, ast, link, & state->translation_unit) {
+        ast->hir(instructions, state);
+    }
 
     detect_recursion_unlinked(state, instructions);
     detect_conflicting_assignments(state, instructions);
@@ -688,9 +689,9 @@ do_assignment(exec_list *instructions, struct _mesa_glsl_parse_state *state,
             } else {
                 rhs = new(ctx) ir_expression(ir_triop_vector_insert,
                                              expr->operands[0]->type,
-                                             expr->operands[0],
-                                             new_rhs,
-                                             expr->operands[1]);
+                        expr->operands[0],
+                        new_rhs,
+                        expr->operands[1]);
                 lhs = expr->operands[0]->clone(ctx, NULL);
             }
         }
@@ -780,8 +781,10 @@ do_assignment(exec_list *instructions, struct _mesa_glsl_parse_state *state,
     ir_variable *var = new(ctx) ir_variable(rhs->type, "assignment_tmp",
                                             ir_var_temporary);
     var->set_location(rhs->source_location.source,
-                      rhs->source_location.line,
-                      rhs->source_location.column);
+                      rhs->source_location.first_line,
+                      rhs->source_location.last_line,
+                      rhs->source_location.first_column,
+                      rhs->source_location.last_column);
 
     ir_dereference_variable *deref_var = new(ctx) ir_dereference_variable(var);
     instructions->push_tail(var);
@@ -803,8 +806,10 @@ get_lvalue_copy(exec_list *instructions, ir_rvalue *lvalue)
     var = new(ctx) ir_variable(lvalue->type, "_post_incdec_tmp",
                                ir_var_temporary);
     var->set_location(lvalue->source_location.source,
-                      lvalue->source_location.line,
-                      lvalue->source_location.column);
+                      lvalue->source_location.first_line,
+                      lvalue->source_location.last_line,
+                      lvalue->source_location.first_column,
+                      lvalue->source_location.last_column);
     instructions->push_tail(var);
     var->mode = ir_var_auto;
 
@@ -977,8 +982,6 @@ check_builtin_array_max_size(const char *name, unsigned size,
 static ir_rvalue *
 constant_one_for_inc_dec(void *ctx, const glsl_type *type)
 {
-    printf("constant_one_for_inc_dec()\n");
-
     switch (type->base_type) {
     case GLSL_TYPE_UINT:
         return new(ctx) ir_constant((unsigned) 1);
@@ -1022,8 +1025,8 @@ ast_expression::hir(exec_list *instructions,
         ir_unop_logic_not,
 
         /* Note: The following block of expression types actually convert
-           * to multiple IR instructions.
-           */
+                       * to multiple IR instructions.
+                       */
         ir_binop_mul,     /* ast_mul_assign */
         ir_binop_div,     /* ast_div_assign */
         ir_binop_mod,     /* ast_mod_assign */
@@ -1065,8 +1068,8 @@ ast_expression::hir(exec_list *instructions,
 
         result = do_assignment(instructions, state,
                                this->subexpressions[0]->non_lvalue_description,
-                               op[0], op[1], false,
-                               this->subexpressions[0]->get_location());
+                op[0], op[1], false,
+                this->subexpressions[0]->get_location());
         error_emitted = result->type->is_error();
         break;
     }
@@ -1616,21 +1619,21 @@ ast_expression::hir(exec_list *instructions,
 
         foreach_list_typed (ast_node, ast, link, &this->expressions) {
             /* If one of the operands of comma operator does not generate any
-      * code, we want to emit a warning.  At each pass through the loop
-      * previous_tail_pred will point to the last instruction in the
-      * stream *before* processing the previous operand.  Naturally,
-      * instructions->tail_pred will point to the last instruction in the
-      * stream *after* processing the previous operand.  If the two
-      * pointers match, then the previous operand had no effect.
-      *
-      * The warning behavior here differs slightly from GCC.  GCC will
-      * only emit a warning if none of the left-hand operands have an
-      * effect.  However, it will emit a warning for each.  I believe that
-      * there are some cases in C (especially with GCC extensions) where
-      * it is useful to have an intermediate step in a sequence have no
-      * effect, but I don't think these cases exist in GLSL.  Either way,
-      * it would be a giant hassle to replicate that behavior.
-      */
+              * code, we want to emit a warning.  At each pass through the loop
+              * previous_tail_pred will point to the last instruction in the
+              * stream *before* processing the previous operand.  Naturally,
+              * instructions->tail_pred will point to the last instruction in the
+              * stream *after* processing the previous operand.  If the two
+              * pointers match, then the previous operand had no effect.
+              *
+              * The warning behavior here differs slightly from GCC.  GCC will
+              * only emit a warning if none of the left-hand operands have an
+              * effect.  However, it will emit a warning for each.  I believe that
+              * there are some cases in C (especially with GCC extensions) where
+              * it is useful to have an intermediate step in a sequence have no
+              * effect, but I don't think these cases exist in GLSL.  Either way,
+              * it would be a giant hassle to replicate that behavior.
+              */
             if (previous_tail_pred == instructions->tail_pred) {
                 _mesa_glsl_warning(&previous_operand_loc, state,
                                    "left-hand operand of comma expression has "
@@ -1638,10 +1641,10 @@ ast_expression::hir(exec_list *instructions,
             }
 
             /* tail_pred is directly accessed instead of using the get_tail()
-      * method for performance reasons.  get_tail() has extra code to
-      * return NULL when the list is empty.  We don't care about that
-      * here, so using tail_pred directly is fine.
-      */
+              * method for performance reasons.  get_tail() has extra code to
+              * return NULL when the list is empty.  We don't care about that
+              * here, so using tail_pred directly is fine.
+              */
             previous_tail_pred = instructions->tail_pred;
             previous_operand_loc = ast->get_location();
 
@@ -1662,16 +1665,20 @@ ast_expression::hir(exec_list *instructions,
 
     //DEBUG Alex
     result->source_location.source = loc.source;
-    result->source_location.line = loc.first_line;
-    result->source_location.column = loc.first_column;
+    result->source_location.first_line = loc.first_line;
+    result->source_location.last_line = loc.last_line;
+    result->source_location.first_column = loc.first_column;
+    result->source_location.last_column = loc.last_column;
 
     printf("\n");
     result->print();
-    printf("\nIR(%p) Source: %d, Line: %d, Column: %d\n",
+    printf("\nIR(%p) Source: %d, Line: %d to %d, Column: %d to %d\n",
            result,
            result->source_location.source,
-           result->source_location.line,
-           result->source_location.column);
+           result->source_location.first_line,
+           result->source_location.last_line,
+           result->source_location.first_column,
+           result->source_location.last_column);
 
     return result;
 }
@@ -2431,9 +2438,13 @@ process_initializer(ir_variable *var, ast_declaration *decl,
     }
 
     //DEBUG Alex
-    result->set_location(initializer_loc.source,
-                         initializer_loc.first_line,
-                         initializer_loc.last_column);
+    if (result != NULL) {
+        result->set_location(initializer_loc.source,
+                             initializer_loc.first_line,
+                             initializer_loc.last_line,
+                             initializer_loc.first_column,
+                             initializer_loc.last_column);
+    }
 
     return result;
 }
@@ -2576,7 +2587,9 @@ ast_declarator_list::hir(exec_list *instructions,
         var = new(ctx) ir_variable(var_type, decl->identifier, ir_var_auto);
         var->set_location(decl->get_location().source,
                           decl->get_location().first_line,
-                          decl->get_location().first_column);
+                          decl->get_location().last_line,
+                          decl->get_location().first_column,
+                          decl->get_location().last_column);
 
         /* From page 22 (page 28 of the PDF) of the GLSL 1.10 specification;
        *
@@ -3059,7 +3072,9 @@ ast_parameter_declarator::hir(exec_list *instructions,
     //TODO: really ?
     var->set_location(this->get_location().source,
                       this->get_location().first_line,
-                      this->get_location().first_column);
+                      this->get_location().last_line,
+                      this->get_location().first_column,
+                      this->get_location().last_column);
 
     /* Apply any specified qualifiers to the parameter declaration.  Note that
     * for function parameters the default mode is 'in'.
@@ -3844,7 +3859,6 @@ ast_iteration_statement::hir(exec_list *instructions,
                              struct _mesa_glsl_parse_state *state)
 {
     void *ctx = state;
-
     /* For-loops and while-loops start a new scope, but do-while loops do not.
     */
     if (mode != ast_do_while)
@@ -4257,7 +4271,9 @@ ast_interface_block::hir(exec_list *instructions,
         }
         var->set_location(this->get_location().source,
                           this->get_location().first_line,
-                          this->get_location().first_column);
+                          this->get_location().last_line,
+                          this->get_location().first_column,
+                          this->get_location().last_column);
         var->interface_type = block_type;
         state->symbols->add_variable(var);
         instructions->push_tail(var);
@@ -4276,7 +4292,9 @@ ast_interface_block::hir(exec_list *instructions,
             //DEBUG Alex
             var->set_location(this->get_location().source,
                               this->get_location().first_line,
-                              this->get_location().first_column);
+                              this->get_location().last_line,
+                              this->get_location().first_column,
+                              this->get_location().last_column);
 
             state->symbols->add_variable(var);
             instructions->push_tail(var);

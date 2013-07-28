@@ -430,6 +430,7 @@ match_function_by_name(const char *name,
         }
     }
 
+
 done:
     if (sig != NULL) {
         /* If the match is from a linked built-in shader, import the prototype. */
@@ -787,7 +788,7 @@ emit_inline_vector_constructor(const glsl_type *type,
     // but it's still a problem with column position...
     ir_rvalue *head = (ir_rvalue *) parameters->head;
     var->set_location(head->source_location.source,
-                      head->source_location.line,
+                      head->source_location.first_line,
                       0);
     instructions->push_tail(var);
 
@@ -905,8 +906,10 @@ emit_inline_vector_constructor(const glsl_type *type,
                 ir_instruction *inst =
                         new(ctx) ir_assignment(lhs, rhs, NULL, write_mask);
                 inst->set_location(param->source_location.source,
-                                   param->source_location.line,
-                                   param->source_location.column);
+                                   param->source_location.first_line,
+                                   param->source_location.last_line,
+                                   param->source_location.first_column,
+                                   param->source_location.last_column);
 
                 instructions->push_tail(inst);
             }
@@ -1277,6 +1280,13 @@ ast_function_expression::hir(exec_list *instructions,
                              struct _mesa_glsl_parse_state *state)
 {
     void *ctx = state;
+
+//    printf("ast_function_expression::hir()\n");
+//    printf("AST: "); this->print();
+//    printf("\nLine: %d ; Columns: %d\n",
+//           this->get_location().first_line,
+//           this->get_location().first_column);
+
     /* There are three sorts of function calls.
     *
     * 1. constructors - The first subexpression is an ast_type_specifier.

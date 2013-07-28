@@ -144,8 +144,6 @@ lower_instructions(exec_list *instructions, unsigned what_to_lower)
 void
 lower_instructions_visitor::sub_to_add_neg(ir_expression *ir)
 {
-    printf("sub_to_add_neg();\n");
-
    ir->operation = ir_binop_add;
    ir->operands[1] = new(ir) ir_expression(ir_unop_neg, ir->operands[1]->type,
 					   ir->operands[1], NULL);

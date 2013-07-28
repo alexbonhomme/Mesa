@@ -427,15 +427,19 @@ ir_expression::constant_expression_value(struct hash_table *variable_context)
         case ir_binop_all_equal: {
             ir_constant *new_const = new(ctx) ir_constant(op[0]->has_value(op[1]));
             new_const->set_location(this->source_location.source,
-                                    this->source_location.line,
-                                    this->source_location.column);
+                                    this->source_location.first_line,
+                                    this->source_location.last_line,
+                                    this->source_location.first_column,
+                                    this->source_location.last_column);
             return new_const;
         }
         case ir_binop_any_nequal: {
             ir_constant *new_const = new(ctx) ir_constant(!op[0]->has_value(op[1]));
             new_const->set_location(this->source_location.source,
-                                    this->source_location.line,
-                                    this->source_location.column);
+                                    this->source_location.first_line,
+                                    this->source_location.last_line,
+                                    this->source_location.first_column,
+                                    this->source_location.last_column);
             return new_const;
         }
         default:
@@ -1475,8 +1479,10 @@ ir_expression::constant_expression_value(struct hash_table *variable_context)
 
     ir_constant *new_const = new(ctx) ir_constant(this->type, &data);
     new_const->set_location(this->source_location.source,
-                            this->source_location.line,
-                            this->source_location.column);
+                            this->source_location.first_line,
+                            this->source_location.last_line,
+                            this->source_location.first_column,
+                            this->source_location.last_column);
 
     return new_const;
 }
@@ -1516,8 +1522,10 @@ ir_swizzle::constant_expression_value(struct hash_table *variable_context)
 
         ir_constant *new_const = new(ctx) ir_constant(this->type, &data);
         new_const->set_location(this->source_location.source,
-                                this->source_location.line,
-                                this->source_location.column);
+                                this->source_location.first_line,
+                                this->source_location.last_line,
+                                this->source_location.first_column,
+                                this->source_location.last_column);
         return new_const;
     }
     return NULL;
@@ -1660,16 +1668,20 @@ ir_dereference_array::constant_expression_value(struct hash_table *variable_cont
             }
             ir_constant *new_const = new(ctx) ir_constant(column_type, &data);
             new_const->set_location(this->source_location.source,
-                                    this->source_location.line,
-                                    this->source_location.column);
+                                    this->source_location.first_line,
+                                    this->source_location.last_line,
+                                    this->source_location.first_column,
+                                    this->source_location.last_column);
             return new_const;
         } else if (array->type->is_vector()) {
             const unsigned component = idx->value.u[0];
 
             ir_constant *new_const = new(ctx) ir_constant(array, component);
             new_const->set_location(this->source_location.source,
-                                    this->source_location.line,
-                                    this->source_location.column);
+                                    this->source_location.first_line,
+                                    this->source_location.last_line,
+                                    this->source_location.first_column,
+                                    this->source_location.last_column);
             return new_const;
         } else {
             const unsigned index = idx->value.u[0];
