@@ -93,6 +93,10 @@ ir_reader::read(exec_list *instructions, const char *src, bool scan_for_protos)
             return;
     }
 
+    printf("\n");
+    expr->print();
+    printf("\n");
+
     read_instructions(instructions, expr, NULL);
     ralloc_free(sx_mem_ctx);
 
@@ -158,6 +162,8 @@ ir_reader::read_type(s_expression *expr)
 void
 ir_reader::scan_for_prototypes(exec_list *instructions, s_expression *expr)
 {
+    printf("scan_for_prototypes()\n");
+
     s_list *list = SX_AS_LIST(expr);
     if (list == NULL) {
         ir_read_error(expr, "Expected (<instruction> ...); found an atom.");
@@ -176,6 +182,7 @@ ir_reader::scan_for_prototypes(exec_list *instructions, s_expression *expr)
         ir_function *f = read_function(sub, true);
         if (f == NULL)
             return;
+
         instructions->push_tail(f);
     }
 }
@@ -183,6 +190,8 @@ ir_reader::scan_for_prototypes(exec_list *instructions, s_expression *expr)
 ir_function *
 ir_reader::read_function(s_expression *expr, bool skip_body)
 {
+    printf("\nread_function()\n");
+
     bool added = false;
     s_symbol *name;
 
@@ -242,7 +251,6 @@ ir_reader::read_function_sig(ir_function *f, s_expression *expr, bool skip_body)
         ir_variable *var = read_declaration((s_expression *) it.get());
         if (var == NULL)
             return;
-
         hir_parameters.push_tail(var);
     }
 
@@ -292,6 +300,9 @@ void
 ir_reader::read_instructions(exec_list *instructions, s_expression *expr,
                              ir_loop *loop_ctx)
 {
+    printf("read_instructions();");
+    expr->print();
+
     // Read in a list of instructions
     s_list *list = SX_AS_LIST(expr);
     if (list == NULL) {
@@ -340,6 +351,9 @@ ir_reader::read_instruction(s_expression *expr, ir_loop *loop_ctx)
         return NULL;
     }
 
+    printf("\n-- s_list\n");
+    list->print();
+
     ir_instruction *inst = NULL;
     if (strcmp(tag->value(), "declare") == 0) {
         inst = read_declaration(list);
@@ -360,6 +374,9 @@ ir_reader::read_instruction(s_expression *expr, ir_loop *loop_ctx)
         if (inst == NULL)
             ir_read_error(NULL, "when reading instruction");
     }
+
+    printf(" \n-- ir_function\n");
+    inst->print();
     return inst;
 }
 
@@ -886,21 +903,21 @@ ir_reader::read_dereference(s_expression *expr)
             return NULL;
         }
 
-        ir_rvalue *idx = read_rvalue(s_index);
-        if (subject == NULL) {
-            ir_read_error(NULL, "when reading the index of an array_ref");
-            return NULL;
-        }
-        return new(mem_ctx) ir_dereference_array(subject, idx);
-    } else if (MATCH(expr, record_pat)) {
-        ir_rvalue *subject = read_rvalue(s_subject);
-        if (subject == NULL) {
-            ir_read_error(NULL, "when reading the subject of a record_ref");
-            return NULL;
-        }
-        return new(mem_ctx) ir_dereference_record(subject, s_field->value());
-    }
-    return NULL;
+      ir_rvalue *idx = read_rvalue(s_index);
+      if (idx == NULL) {
+	 ir_read_error(NULL, "when reading the index of an array_ref");
+	 return NULL;
+      }
+      return new(mem_ctx) ir_dereference_array(subject, idx);
+   } else if (MATCH(expr, record_pat)) {
+      ir_rvalue *subject = read_rvalue(s_subject);
+      if (subject == NULL) {
+	 ir_read_error(NULL, "when reading the subject of a record_ref");
+	 return NULL;
+      }
+      return new(mem_ctx) ir_dereference_record(subject, s_field->value());
+   }
+   return NULL;
 }
 
 ir_texture *

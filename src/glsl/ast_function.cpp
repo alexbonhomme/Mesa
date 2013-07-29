@@ -686,12 +686,13 @@ process_array_constructor(exec_list *instructions,
             }
         }
 
-        if (result->type != constructor_type->element_type()) {
-            _mesa_glsl_error(loc, state, "type error in array constructor: "
-                             "expected: %s, found %s",
-                             constructor_type->element_type()->name,
-                             result->type->name);
-        }
+      if (result->type != constructor_type->element_type()) {
+	 _mesa_glsl_error(loc, state, "type error in array constructor: "
+			  "expected: %s, found %s",
+			  constructor_type->element_type()->name,
+			  result->type->name);
+         return ir_rvalue::error_value(ctx);
+      }
 
         /* Attempt to convert the parameter to a constant valued expression.
        * After doing so, track whether or not all the parameters to the
@@ -780,7 +781,7 @@ emit_inline_vector_constructor(const glsl_type *type,
 {
     assert(!parameters->is_empty());
 
-    ir_variable *var = new(ctx) ir_variable(type, "vec_ctor", ir_var_temporary);
+   ir_variable *var = new(ctx) ir_variable(type, "vec_ctor", ir_var_temporary);
 
     //DEBUG Alex
     //HACK:

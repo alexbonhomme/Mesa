@@ -143,25 +143,22 @@ void ir_print_visitor::visit(ir_rvalue *ir)
 
 void ir_print_visitor::visit(ir_variable *ir)
 {
-    //DEBUG Alex
-//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+   printf("(declare ");
 
-    printf("(declare ");
+   const char *const cent = (ir->centroid) ? "centroid " : "";
+   const char *const inv = (ir->invariant) ? "invariant " : "";
+   const char *const mode[] = { "", "uniform ", "shader_in ", "shader_out ",
+                                "in ", "out ", "inout ",
+			        "const_in ", "sys ", "temporary " };
+   STATIC_ASSERT(ARRAY_SIZE(mode) == ir_var_mode_count);
+   const char *const interp[] = { "", "smooth", "flat", "noperspective" };
+   STATIC_ASSERT(ARRAY_SIZE(interp) == INTERP_QUALIFIER_COUNT);
 
-    const char *const cent = (ir->centroid) ? "centroid " : "";
-    const char *const inv = (ir->invariant) ? "invariant " : "";
-    const char *const mode[] = { "", "uniform ", "shader_in ", "shader_out ",
-                                 "in ", "out ", "inout ",
-                                 "const_in ", "sys ", "temporary " };
-    STATIC_ASSERT(ARRAY_SIZE(mode) == ir_var_mode_count);
-    const char *const interp[] = { "", "smooth", "flat", "noperspective" };
-    STATIC_ASSERT(ARRAY_SIZE(interp) == INTERP_QUALIFIER_COUNT);
+   printf("(%s%s%s%s) ",
+	  cent, inv, mode[ir->mode], interp[ir->interpolation]);
 
-    printf("(%s%s%s%s) ",
-           cent, inv, mode[ir->mode], interp[ir->interpolation]);
-
-    print_type(ir->type);
-    printf(" %s)", unique_name(ir));
+   print_type(ir->type);
+   printf(" %s)", unique_name(ir));
 }
 
 
@@ -228,20 +225,17 @@ void ir_print_visitor::visit(ir_function *ir)
 
 void ir_print_visitor::visit(ir_expression *ir)
 {
-    //DEBUG Alex
-//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+   printf("(expression ");
 
-    printf("(expression ");
+   print_type(ir->type);
 
-    print_type(ir->type);
+   printf(" %s ", ir->operator_string());
 
-    printf(" %s ", ir->operator_string());
+   for (unsigned i = 0; i < ir->get_num_operands(); i++) {
+      ir->operands[i]->accept(this);
+   }
 
-    for (unsigned i = 0; i < ir->get_num_operands(); i++) {
-        ir->operands[i]->accept(this);
-    }
-
-    printf(") ");
+   printf(") ");
 }
 
 
@@ -336,12 +330,8 @@ void ir_print_visitor::visit(ir_swizzle *ir)
 
 void ir_print_visitor::visit(ir_dereference_variable *ir)
 {
-    ir_variable *var = ir->variable_referenced();
-
-    //DEBUG Alex
-//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
-
-    printf("(var_ref %s) ", unique_name(var));
+   ir_variable *var = ir->variable_referenced();
+   printf("(var_ref %s) ", unique_name(var));
 }
 
 
@@ -364,71 +354,65 @@ void ir_print_visitor::visit(ir_dereference_record *ir)
 
 void ir_print_visitor::visit(ir_assignment *ir)
 {
-    //DEBUG Alex
-//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+   printf("(assign ");
 
-    printf("(assign ");
+   if (ir->condition)
+      ir->condition->accept(this);
 
-    if (ir->condition)
-        ir->condition->accept(this);
+   char mask[5];
+   unsigned j = 0;
 
-    char mask[5];
-    unsigned j = 0;
+   for (unsigned i = 0; i < 4; i++) {
+      if ((ir->write_mask & (1 << i)) != 0) {
+	 mask[j] = "xyzw"[i];
+	 j++;
+      }
+   }
+   mask[j] = '\0';
 
-    for (unsigned i = 0; i < 4; i++) {
-        if ((ir->write_mask & (1 << i)) != 0) {
-            mask[j] = "xyzw"[i];
-            j++;
-        }
-    }
-    mask[j] = '\0';
+   printf(" (%s) ", mask);
 
-    printf(" (%s) ", mask);
+   ir->lhs->accept(this);
 
-    ir->lhs->accept(this);
+   printf(" ");
 
-    printf(" ");
-
-    ir->rhs->accept(this);
-    printf(") ");
+   ir->rhs->accept(this);
+   printf(") ");
 }
 
 
 void ir_print_visitor::visit(ir_constant *ir)
 {
-    //DEBUG Alex
-//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
+   printf("(constant ");
+   print_type(ir->type);
+   printf(" (");
 
-    printf("(constant ");
-    print_type(ir->type);
-    printf(" (");
+   if (ir->type->is_array()) {
+      for (unsigned i = 0; i < ir->type->length; i++)
+	 ir->get_array_element(i)->accept(this);
+   } else if (ir->type->is_record()) {
+      ir_constant *value = (ir_constant *) ir->components.get_head();
+      for (unsigned i = 0; i < ir->type->length; i++) {
+	 printf("(%s ", ir->type->fields.structure[i].name);
+	 value->accept(this);
+	 printf(")");
 
-    if (ir->type->is_array()) {
-        for (unsigned i = 0; i < ir->type->length; i++)
-            ir->get_array_element(i)->accept(this);
-    } else if (ir->type->is_record()) {
-        ir_constant *value = (ir_constant *) ir->components.get_head();
-        for (unsigned i = 0; i < ir->type->length; i++) {
-            printf("(%s ", ir->type->fields.structure[i].name);
-            value->accept(this);
-            printf(")");
-
-            value = (ir_constant *) value->next;
-        }
-    } else {
-        for (unsigned i = 0; i < ir->type->components(); i++) {
-            if (i != 0)
-                printf(" ");
-            switch (ir->type->base_type) {
-            case GLSL_TYPE_UINT:  printf("%u", ir->value.u[i]); break;
-            case GLSL_TYPE_INT:   printf("%d", ir->value.i[i]); break;
-            case GLSL_TYPE_FLOAT: printf("%f", ir->value.f[i]); break;
-            case GLSL_TYPE_BOOL:  printf("%d", ir->value.b[i]); break;
-            default: assert(0);
-            }
-        }
-    }
-    printf(")) ");
+	 value = (ir_constant *) value->next;
+      }
+   } else {
+      for (unsigned i = 0; i < ir->type->components(); i++) {
+	 if (i != 0)
+	    printf(" ");
+	 switch (ir->type->base_type) {
+	 case GLSL_TYPE_UINT:  printf("%u", ir->value.u[i]); break;
+	 case GLSL_TYPE_INT:   printf("%d", ir->value.i[i]); break;
+	 case GLSL_TYPE_FLOAT: printf("%f", ir->value.f[i]); break;
+	 case GLSL_TYPE_BOOL:  printf("%d", ir->value.b[i]); break;
+	 default: assert(0);
+	 }
+      }
+   }
+   printf(")) ");
 }
 
 
