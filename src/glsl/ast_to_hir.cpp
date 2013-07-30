@@ -1670,16 +1670,6 @@ ast_expression::hir(exec_list *instructions,
     result->source_location.first_column = loc.first_column;
     result->source_location.last_column = loc.last_column;
 
-    printf("\n");
-    result->print();
-    printf("\nIR(%p) Source: %d, Line: %d to %d, Column: %d to %d\n",
-           result,
-           result->source_location.source,
-           result->source_location.first_line,
-           result->source_location.last_line,
-           result->source_location.first_column,
-           result->source_location.last_column);
-
     return result;
 }
 

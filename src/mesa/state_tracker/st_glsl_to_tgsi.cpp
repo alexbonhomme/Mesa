@@ -4975,21 +4975,6 @@ st_translate_program(
         */
        ureg_realloc_insn_loc(ureg, count + 1);
        ureg_set_insn_loc(ureg, &inst->location, count);
-
-       printf("\nIR:");
-       if (inst->ir != NULL) {
-           inst->ir->print();
-       } else {
-           printf("(null)");
-       }
-       printf("\nType: %s", tgsi_get_opcode_info(inst->op)->mnemonic);
-
-       printf("\nTGSI source: %d, line: %d to %d, column: %d to %d\n\n",
-              inst->location.source,
-              inst->location.first_line,
-              inst->location.last_line,
-              inst->location.first_column,
-              inst->location.last_column);
    }
 
    /* Fix up all emitted labels:

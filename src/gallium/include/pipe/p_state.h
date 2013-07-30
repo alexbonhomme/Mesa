@@ -209,8 +209,8 @@ struct pipe_stream_output_info
 struct pipe_shader_state
 {
    const struct tgsi_token *tokens;
-   const struct glsl_instruction_location *locations;
    struct pipe_stream_output_info stream_output;
+   const struct glsl_instruction_location *locations;
 };
 
 

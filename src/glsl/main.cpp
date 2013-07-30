@@ -164,8 +164,6 @@ compile_shader(struct gl_context *ctx, struct gl_shader *shader)
 
     shader->ir = new(shader) exec_list;
     if (!state->error && !state->translation_unit.is_empty()) {
-        printf("\n-- AST to HIR --\n");
-
         _mesa_ast_to_hir(shader->ir, state);
     }
 
@@ -177,8 +175,6 @@ compile_shader(struct gl_context *ctx, struct gl_shader *shader)
 
     /* Optimization passes */
     if (!state->error && !shader->ir->is_empty()) {
-        printf("\n-- HIR to LIR --\n");
-
         const struct gl_shader_compiler_options *opts =
                 &ctx->ShaderCompilerOptions[_mesa_shader_type_to_index(shader->Type)];
         bool progress;

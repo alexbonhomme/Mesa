@@ -205,10 +205,9 @@ parameter_lists_match_exact(const exec_list *list_a, const exec_list *list_b)
 ir_function_signature *
 ir_function::exact_matching_signature(const exec_list *actual_parameters)
 {
-    printf("exact_matching_signature()\n");
    foreach_iter(exec_list_iterator, iter, signatures) {
       ir_function_signature *const sig =
-	 (ir_function_signature *) iter.get();
+     (ir_function_signature *) iter.get();
 
       if (parameter_lists_match_exact(&sig->parameters, actual_parameters))
 	 return sig;

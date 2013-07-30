@@ -409,6 +409,9 @@ match_function_by_name(const char *name,
         if (builtin == NULL)
             continue;
 
+        printf("built in function : ");
+        builtin->print(); printf("\n");
+
         bool is_exact = false;
         ir_function_signature *builtin_sig =
                 builtin->matching_signature(actual_parameters, &is_exact);

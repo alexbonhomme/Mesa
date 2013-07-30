@@ -96,9 +96,11 @@ ir_swizzle::clone(void *mem_ctx, struct hash_table *ht) const
 {
     ir_swizzle *new_swizz = new(mem_ctx) ir_swizzle(this->val->clone(mem_ctx, ht),
                                                     this->mask);
-    //    new_swizz->set_location(this->source_location.source,
-    //                            this->source_location.line,
-    //                            this->source_location.column);
+    new_swizz->set_location(this->source_location.source,
+                            this->source_location.first_line,
+                            this->source_location.last_line,
+                            this->source_location.first_column,
+                            this->source_location.last_column);
 
     return new_swizz;
 }
@@ -339,9 +341,11 @@ ir_texture::clone(void *mem_ctx, struct hash_table *ht) const
         break;
     }
 
-//    new_tex->set_location(this->source_location.source,
-//                          this->source_location.line,
-//                          this->source_location.column);
+    new_tex->set_location(this->source_location.source,
+                          this->source_location.first_line,
+                          this->source_location.last_line,
+                          this->source_location.first_column,
+                          this->source_location.last_column);
 
     return new_tex;
 }
