@@ -144,15 +144,6 @@ llvm_middle_end_prepare( struct draw_pt_middle_end *middle,
    const unsigned out_prim = gs ? gs->output_primitive :
       u_assembled_prim(in_prim);
 
-#if 0   //DEBUG Alex
-   printf("\n\nllvm_middle_end_prepare()\n\n");
-   printf("Vertex Shader Infos : \n");
-   printf("Token num : %d\n", vs->info.num_tokens);
-   printf("Number of inputs : %d\n", vs->info.num_inputs);
-   printf("Number of outputs : %d\n", vs->info.num_outputs);
-   printf("Number of instructions : %d\n", vs->info.num_instructions);
-#endif
-
    /* Add one to num_outputs because the pipeline occasionally tags on
     * an additional texcoord, eg for AA lines.
     */
@@ -337,8 +328,6 @@ llvm_pipeline_generic( struct draw_pt_middle_end *middle,
    boolean free_prim_info = FALSE;
    unsigned opt = fpme->opt;
    unsigned clipped = 0;
-
-//   printf("\nllvm_pipeline_generic()\n");
 
    llvm_vert_info.count = fetch_info->count;
    llvm_vert_info.vertex_size = fpme->vertex_size;

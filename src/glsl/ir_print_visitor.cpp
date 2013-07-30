@@ -315,9 +315,6 @@ void ir_print_visitor::visit(ir_swizzle *ir)
         ir->mask.w,
     };
 
-    //DEBUG Alex
-//    printf("[l. %d - c. %d] ", ir->source_location.line, ir->source_location.column);
-
     printf("(swiz ");
     for (unsigned i = 0; i < ir->mask.num_components; i++) {
         printf("%c", "xyzw"[swiz[i]]);

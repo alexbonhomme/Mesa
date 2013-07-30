@@ -409,8 +409,8 @@ match_function_by_name(const char *name,
         if (builtin == NULL)
             continue;
 
-        printf("built in function : ");
-        builtin->print(); printf("\n");
+//        printf("built in function : ");
+//        builtin->print(); printf("\n");
 
         bool is_exact = false;
         ir_function_signature *builtin_sig =
@@ -793,7 +793,8 @@ emit_inline_vector_constructor(const glsl_type *type,
     ir_rvalue *head = (ir_rvalue *) parameters->head;
     var->set_location(head->source_location.source,
                       head->source_location.first_line,
-                      0);
+                      head->source_location.last_line,
+                      0, 0);
     instructions->push_tail(var);
 
     /* There are two kinds of vector constructors.
@@ -1284,13 +1285,6 @@ ast_function_expression::hir(exec_list *instructions,
                              struct _mesa_glsl_parse_state *state)
 {
     void *ctx = state;
-
-//    printf("ast_function_expression::hir()\n");
-//    printf("AST: "); this->print();
-//    printf("\nLine: %d ; Columns: %d\n",
-//           this->get_location().first_line,
-//           this->get_location().first_column);
-
     /* There are three sorts of function calls.
     *
     * 1. constructors - The first subexpression is an ast_type_specifier.
@@ -1550,9 +1544,12 @@ ast_function_expression::hir(exec_list *instructions,
             ir_constant *new_const =
                     new(ctx) ir_constant(constructor_type, &actual_parameters);
 //            //DEBUG Alex
-//            new_const->set_location(((ir_rvalue *) actual_parameters.head)->source_location.source,
-//                                    ((ir_rvalue *) actual_parameters.head)->source_location.line,
-//                                    ((ir_rvalue *) actual_parameters.head)->source_location.column);
+            ir_rvalue *tmp_loc = (ir_rvalue *) actual_parameters.head;
+            new_const->set_location(tmp_loc->source_location.source,
+                                    tmp_loc->source_location.first_line,
+                                    tmp_loc->source_location.last_line,
+                                    tmp_loc->source_location.first_column,
+                                    tmp_loc->source_location.last_column);
             return new_const;
         } else if (constructor_type->is_scalar()) {
             return dereference_component((ir_rvalue *) actual_parameters.head,

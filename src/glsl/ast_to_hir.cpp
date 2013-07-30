@@ -780,11 +780,11 @@ do_assignment(exec_list *instructions, struct _mesa_glsl_parse_state *state,
     */
     ir_variable *var = new(ctx) ir_variable(rhs->type, "assignment_tmp",
                                             ir_var_temporary);
-    var->set_location(rhs->source_location.source,
-                      rhs->source_location.first_line,
-                      rhs->source_location.last_line,
-                      rhs->source_location.first_column,
-                      rhs->source_location.last_column);
+//    var->set_location(rhs->source_location.source,
+//                      rhs->source_location.first_line,
+//                      rhs->source_location.last_line,
+//                      rhs->source_location.first_column,
+//                      rhs->source_location.last_column);
 
     ir_dereference_variable *deref_var = new(ctx) ir_dereference_variable(var);
     instructions->push_tail(var);
@@ -3060,11 +3060,11 @@ ast_parameter_declarator::hir(exec_list *instructions,
     ir_variable *var = new(ctx)
             ir_variable(type, this->identifier, ir_var_function_in);
     //TODO: really ?
-    var->set_location(this->get_location().source,
-                      this->get_location().first_line,
-                      this->get_location().last_line,
-                      this->get_location().first_column,
-                      this->get_location().last_column);
+//    var->set_location(this->get_location().source,
+//                      this->get_location().first_line,
+//                      this->get_location().last_line,
+//                      this->get_location().first_column,
+//                      this->get_location().last_column);
 
     /* Apply any specified qualifiers to the parameter declaration.  Note that
     * for function parameters the default mode is 'in'.
@@ -3348,9 +3348,10 @@ ast_function_definition::hir(exec_list *instructions,
     foreach_iter(exec_list_iterator, iter, signature->parameters) {
         ir_variable *const var = ((ir_instruction *) iter.get())->as_variable();
         //DEBUG Alex
-        var->set_location(this->get_location().source,
-                          this->get_location().first_line,
-                          0);
+//        var->set_location(this->get_location().source,
+//                          this->get_location().first_line,
+//                          this->get_location().last_line,
+//                          0, 0);
 
         assert(var != NULL);
 
@@ -4259,11 +4260,11 @@ ast_interface_block::hir(exec_list *instructions,
                                          this->instance_name,
                                          var_mode);
         }
-        var->set_location(this->get_location().source,
-                          this->get_location().first_line,
-                          this->get_location().last_line,
-                          this->get_location().first_column,
-                          this->get_location().last_column);
+        var->set_location(loc.source,
+                          loc.first_line,
+                          loc.last_line,
+                          loc.first_column,
+                          loc.last_column);
         var->interface_type = block_type;
         state->symbols->add_variable(var);
         instructions->push_tail(var);
@@ -4280,11 +4281,11 @@ ast_interface_block::hir(exec_list *instructions,
                                            var_mode);
             var->interface_type = block_type;
             //DEBUG Alex
-            var->set_location(this->get_location().source,
-                              this->get_location().first_line,
-                              this->get_location().last_line,
-                              this->get_location().first_column,
-                              this->get_location().last_column);
+            var->set_location(loc.source,
+                              loc.first_line,
+                              loc.last_line,
+                              loc.first_column,
+                              loc.last_column);
 
             state->symbols->add_variable(var);
             instructions->push_tail(var);

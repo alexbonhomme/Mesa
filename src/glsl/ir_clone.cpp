@@ -485,9 +485,11 @@ ir_constant::clone(void *mem_ctx, struct hash_table *ht) const
              ; !node->is_tail_sentinel()
              ; node = node->next) {
             ir_constant *const orig = (ir_constant *) node;
-//            orig->set_location(this->source_location.source,
-//                               this->source_location.line,
-//                               this->source_location.column);
+            orig->set_location(this->source_location.source,
+                               this->source_location.first_line,
+                               this->source_location.last_line,
+                               this->source_location.first_column,
+                               this->source_location.last_column);
 
             c->components.push_tail(orig->clone(mem_ctx, NULL));
         }
@@ -507,9 +509,10 @@ ir_constant::clone(void *mem_ctx, struct hash_table *ht) const
         c->array_elements = ralloc_array(c, ir_constant *, this->type->length);
         for (unsigned i = 0; i < this->type->length; i++) {
             c->array_elements[i] = this->array_elements[i]->clone(mem_ctx, NULL);
-//            c->array_elements[i]->set_location(this->source_location.source,
-//                                               this->source_location.line,
-//                                               0);
+            c->array_elements[i]->set_location(this->source_location.source,
+                                               this->source_location.first_line,
+                                               this->source_location.last_line,
+                                               0, 0);
         }
 
         return c;
