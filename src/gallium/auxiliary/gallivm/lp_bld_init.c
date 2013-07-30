@@ -654,7 +654,6 @@ func_pointer
 gallivm_jit_function(struct gallivm_state *gallivm,
                      LLVMValueRef func)
 {
-   printf("gallivm_jit_function()\n");
    void *code;
    func_pointer jit_func;
 
@@ -665,11 +664,9 @@ gallivm_jit_function(struct gallivm_state *gallivm,
    assert(code);
    jit_func = pointer_to_func(code);
 
-#if 0
-//   if (gallivm_debug & GALLIVM_DEBUG_ASM) {
+   if (gallivm_debug & GALLIVM_DEBUG_ASM) {
       lp_disassemble(func, code);
-//   }
-#endif
+   }
 
 #if defined(PROFILE)
    lp_profile(func, code);

@@ -2981,6 +2981,10 @@ static void emit_prologue(struct lp_build_tgsi_context * bld_base)
     struct lp_build_tgsi_soa_context * bld = lp_soa_context(bld_base);
     struct gallivm_state * gallivm = bld_base->base.gallivm;
 
+#if 1
+    lp_build_printf(gallivm, "PROLOGUE\n");
+#endif
+
     if (bld->indirect_files & (1 << TGSI_FILE_TEMPORARY)) {
         LLVMValueRef array_size =
                 lp_build_const_int32(gallivm,
@@ -3091,6 +3095,10 @@ static void emit_epilogue(struct lp_build_tgsi_context * bld_base)
     } else {
         gather_outputs(bld);
     }
+
+#if 1
+    lp_build_printf(bld_base->base.gallivm, "EPILOGUE\n");
+#endif
 }
 
 void

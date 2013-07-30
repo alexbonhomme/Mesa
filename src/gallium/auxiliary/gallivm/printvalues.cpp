@@ -135,8 +135,8 @@ void PrintValues::printStruct(Instruction *insertBefore) {
 }
 
 void PrintValues::printConstString(std::string message, Instruction *insertBefore) {
-    std::string str = name.empty() ? message :
-                                     name + ": " + message;
+    std::string str = name.empty() ? message
+                                   : name + ": " + message;
 
     std::vector<Value *> args;
     args.push_back(getGlobalFromString(*F, str));

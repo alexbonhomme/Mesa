@@ -7,6 +7,7 @@
 #include <llvm/IR/Instructions.h>
 #include <llvm/IR/Module.h>
 #include <sstream>
+#include "../util/u_debug.h"
 
 #include "printvalues.h"
 
@@ -17,7 +18,7 @@ struct FunctionDisplayStartEnd : public FunctionPass {
     static char ID; // Pass identification, replacement for typeid
     FunctionDisplayStartEnd() : FunctionPass(ID) { }
 
-    Function *PrintfFunc;
+    Function *PrintFunc;
     Module *M;
 
     bool doInitialization(Module &M) {
@@ -27,7 +28,7 @@ struct FunctionDisplayStartEnd : public FunctionPass {
 
         //! Set the printf function reference
         Constant *c = M.getOrInsertFunction("printf", Type::getVoidTy(M.getContext()), (Type*)0);
-        PrintfFunc = cast<Function>(c);
+        PrintFunc = cast<Function>(c);
 
         return false;
     }
@@ -41,12 +42,18 @@ struct FunctionDisplayStartEnd : public FunctionPass {
         Instruction *insertPos = entryBB.begin();
 
         // function name & address
-        PrintValues printer = PrintValues(PrintfFunc, &F);
+        PrintValues printer = PrintValues(PrintFunc, &F);
         printer.setName("START " + F.getName().str());
         printer.add(&F, "%p");
         printer.printSingleValue(insertPos);
 
         printer.clear(); //to print end of function
+
+//        std::string msg;
+//        std::vector<Value *> args;
+//        args.push_back(getGlobalFromString(&F, str));
+
+//        CallInst::Create(PrintFunc, args, "print_const_string", insertBefore);
 
         /*
          * We are just listing every blocks to find a terminal instruction
@@ -65,7 +72,6 @@ struct FunctionDisplayStartEnd : public FunctionPass {
             if (!ReturnInst::classof( termInst )) { // Sounds good...
                 continue;
             }
-
 
             printer.printConstString("END " + F.getName().str() + "\n", termInst);
         }

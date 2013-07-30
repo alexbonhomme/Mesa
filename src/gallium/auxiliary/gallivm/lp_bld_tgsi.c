@@ -499,8 +499,8 @@ lp_build_tgsi_llvm(
 							bld_base->pc;
 
       if (bld_base->info->loc_instructions == NULL) {
-          fprintf(stderr, "bld_base->info->loc_instructions == NULL\n");
-          fprintf(stderr, "instr: %s\n", tgsi_get_opcode_name(instr->Instruction.Opcode));
+          _debug_printf("bld_base->info->loc_instructions == NULL\n");
+          _debug_printf("instr: %s\n", tgsi_get_opcode_name(instr->Instruction.Opcode));
       } else {
           instr->Location.source = bld_base->info->loc_instructions[bld_base->pc].source;
           instr->Location.first_line = bld_base->info->loc_instructions[bld_base->pc].first_line;

@@ -852,8 +852,6 @@ const struct lp_build_tgsi_action xpd_action = {
 void
 lp_set_default_actions(struct lp_build_tgsi_context * bld_base)
 {
-    printf("lp_set_default_actions()\n");
-
    bld_base->op_actions[TGSI_OPCODE_DP2] = dp2_action;
    bld_base->op_actions[TGSI_OPCODE_DP3] = dp3_action;
    bld_base->op_actions[TGSI_OPCODE_DP4] = dp4_action;
@@ -1704,8 +1702,6 @@ void
 lp_set_default_actions_cpu(
    struct lp_build_tgsi_context * bld_base)
 {
-    printf("lp_set_default_actions_cpu()\n");
-
    lp_set_default_actions(bld_base);
    bld_base->op_actions[TGSI_OPCODE_ABS].emit = abs_emit_cpu;
    bld_base->op_actions[TGSI_OPCODE_ADD].emit = add_emit_cpu;

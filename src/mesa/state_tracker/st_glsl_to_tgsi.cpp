@@ -4399,8 +4399,6 @@ compile_tgsi_instruction(struct st_translate *t,
                          const glsl_to_tgsi_instruction *inst,
                          bool clamp_dst_color_output)
 {
-    printf("compile_tgsi_instruction();\n");
-
     struct ureg_program *ureg = t->ureg;
     GLuint i;
     struct ureg_dst dst[1];
