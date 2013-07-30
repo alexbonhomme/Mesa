@@ -5089,10 +5089,6 @@ get_mesa_program(struct gl_context *ctx,
       foreach_iter(exec_list_iterator, iter, v->function_signatures) {
          function_entry *entry = (function_entry *)iter.get();
 
-#if 1    /* DEBUG Alex */
-         printf("On rentre dans la fonction : %s\n", entry->sig->function_name());
-#endif
-
          if (!entry->bgn_inst) {
             v->current_function = entry;
 

@@ -5445,3 +5445,4 @@ src/gallium/auxiliary/gallivm/function_info_printer.h
 src/gallium/auxiliary/gallivm/module_info_printer.h
 src/gallium/auxiliary/gallivm/function_display_fragments.h
 src/gallium/auxiliary/gallivm/function_display_arguments_value.h
+src/gallium/auxiliary/gallivm/function_display_start_end.h

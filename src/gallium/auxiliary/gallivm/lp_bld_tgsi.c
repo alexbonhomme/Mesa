@@ -204,9 +204,16 @@ lp_build_tgsi_inst_llvm(
 
 #if 1 //DEBUG Alex
    char str_opcode_name[100];
-   sprintf(str_opcode_name, "Instruction infos :\n"
-           "\tName: %s\n"
-           "\tSource: %d, Line: %d to %d, Column: %d to %d\n",
+//   sprintf(str_opcode_name, "Instruction infos :\n"
+//           "\tName: %s\n"
+//           "\tSource: %d, Line: %d to %d, Column: %d to %d\n",
+//           info->mnemonic,
+//           inst->Location.source,
+//           inst->Location.first_line,
+//           inst->Location.last_line,
+//           inst->Location.first_column,
+//           inst->Location.last_column);
+   sprintf(str_opcode_name, "%s %d %d-%d %d-%d\n",
            info->mnemonic,
            inst->Location.source,
            inst->Location.first_line,
