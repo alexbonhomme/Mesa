@@ -1214,6 +1214,10 @@ do_common_optimization(exec_list *ir, bool linked,
                        unsigned max_unroll_iterations,
                        const struct gl_shader_compiler_options *options)
 {
+    IF_NO_OPT {
+        return GL_FALSE;
+    }
+
     GLboolean progress = GL_FALSE;
 
     progress = lower_instructions(ir, SUB_TO_ADD_NEG) || progress;

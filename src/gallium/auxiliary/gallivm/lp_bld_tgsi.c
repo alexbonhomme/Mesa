@@ -40,6 +40,7 @@
 #include "util/u_memory.h"
 
 #include "lp_bld_printf.h"
+#include "lp_bld_flow.h"
 
 #include <stdio.h>
 
@@ -202,28 +203,6 @@ lp_build_tgsi_inst_llvm(
    unsigned chan_index;
    LLVMValueRef val;
 
-#if 1 //DEBUG Alex
-   char str_opcode_name[100];
-//   sprintf(str_opcode_name, "Instruction infos :\n"
-//           "\tName: %s\n"
-//           "\tSource: %d, Line: %d to %d, Column: %d to %d\n",
-//           info->mnemonic,
-//           inst->Location.source,
-//           inst->Location.first_line,
-//           inst->Location.last_line,
-//           inst->Location.first_column,
-//           inst->Location.last_column);
-   sprintf(str_opcode_name, "%s %d %d-%d %d-%d\n",
-           info->mnemonic,
-           inst->Location.source,
-           inst->Location.first_line,
-           inst->Location.last_line,
-           inst->Location.first_column,
-           inst->Location.last_column);
-
-   lp_build_printf(bld_base->base.gallivm, str_opcode_name);
-#endif
-
    bld_base->pc++;
 
    /* Ignore deprecated instructions */
@@ -272,7 +251,15 @@ lp_build_tgsi_inst_llvm(
          } else {
              action->fetch_args(bld_base, &emit_data);
          }
+
          action->emit(action, bld_base, &emit_data);
+
+         //DEBUG Alex
+         #define TRACE_INST
+         #ifdef TRACE_INST
+            lp_bld_insert_trace_inst(bld_base, inst, chan_index);
+         #endif
+
       }
    } else {
       emit_data.chan = LP_CHAN_ALL;
@@ -284,7 +271,13 @@ lp_build_tgsi_inst_llvm(
       if (info->output_mode != TGSI_OUTPUT_CHAN_DEPENDENT) {
          emit_data.chan = 0;
       }
+
       action->emit(action, bld_base, &emit_data);
+
+//DEBUG Alex
+#ifdef TRACE_INST
+      lp_bld_insert_trace_inst(bld_base, inst, chan_index);
+#endif
 
       /* Replicate the output values */
       if (info->output_mode == TGSI_OUTPUT_REPLICATE && bld_base->soa) {
@@ -525,4 +518,80 @@ lp_build_tgsi_llvm(
    }
 
    return TRUE;
+}
+
+/**
+ * @brief lp_bld_insert_trace_inst
+ * @param bld_base
+ * @param inst
+ * @param chan_index
+ */
+void
+lp_bld_insert_trace_inst(struct lp_build_tgsi_context *bld_base,
+                         const struct tgsi_full_instruction *inst,
+                         const unsigned chan_index) {
+    struct lp_build_tgsi_soa_context *bld = lp_soa_context(bld_base);
+    struct gallivm_state *gallivm = bld_base->base.gallivm;
+    struct lp_exec_mask *mask = &bld->exec_mask;
+    const struct tgsi_opcode_info * info =
+            tgsi_get_opcode_info(inst->Instruction.Opcode);
+
+    char str_trace_instr[100];
+    sprintf(str_trace_instr, "%s %d %d %d-%d %d-%d\n",
+            info->mnemonic,
+            chan_index,
+            inst->Location.source,
+            inst->Location.first_line,
+            inst->Location.last_line,
+            inst->Location.first_column,
+            inst->Location.last_column);
+
+
+    if (mask->cond_stack_size == 0) {
+        lp_build_dprintf(gallivm, 3, str_trace_instr);
+    } else {
+        LLVMTypeRef reg_type = LLVMIntTypeInContext(
+                    gallivm->context,
+                    mask->bld->type.width *
+                    mask->bld->type.length);
+
+        LLVMBasicBlockRef current_block =
+                LLVMGetInsertBlock(gallivm->builder);
+        LLVMValueRef function =
+                LLVMGetBasicBlockParent(current_block);
+        LLVMBasicBlockRef print_block =
+                LLVMAppendBasicBlockInContext(gallivm->context, function, "");
+        LLVMBasicBlockRef after_block =
+                LLVMAppendBasicBlockInContext(gallivm->context, function, "");
+
+        // if mask is not set to zero we print trace
+        // else we just jump print instruction
+        LLVMValueRef cond = LLVMBuildICmp(
+                            gallivm->builder,
+                            LLVMIntNE,
+                            LLVMBuildBitCast(gallivm->builder,
+                                             mask->cond_mask,
+                                             reg_type, ""),
+                            LLVMConstNull(reg_type),
+                            "cond");
+
+        LLVMBuildCondBr(gallivm->builder,
+                        cond,
+                        print_block,
+                        after_block);
+
+        // Print_block
+        LLVMPositionBuilderAtEnd(gallivm->builder, print_block);
+#if 0
+        lp_build_dprintf_value(gallivm,
+                               3,
+                               "cond_mask",
+                               mask->cond_mask);
+#endif
+        lp_build_dprintf(gallivm, 3, str_trace_instr);
+
+        // go to next block
+        LLVMBuildBr(gallivm->builder, after_block);
+        LLVMPositionBuilderAtEnd(gallivm->builder, after_block);
+    }
 }

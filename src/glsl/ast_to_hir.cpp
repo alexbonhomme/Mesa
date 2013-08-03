@@ -780,11 +780,7 @@ do_assignment(exec_list *instructions, struct _mesa_glsl_parse_state *state,
     */
     ir_variable *var = new(ctx) ir_variable(rhs->type, "assignment_tmp",
                                             ir_var_temporary);
-//    var->set_location(rhs->source_location.source,
-//                      rhs->source_location.first_line,
-//                      rhs->source_location.last_line,
-//                      rhs->source_location.first_column,
-//                      rhs->source_location.last_column);
+    var->set_location(rhs);
 
     ir_dereference_variable *deref_var = new(ctx) ir_dereference_variable(var);
     instructions->push_tail(var);
@@ -805,11 +801,7 @@ get_lvalue_copy(exec_list *instructions, ir_rvalue *lvalue)
 
     var = new(ctx) ir_variable(lvalue->type, "_post_incdec_tmp",
                                ir_var_temporary);
-    var->set_location(lvalue->source_location.source,
-                      lvalue->source_location.first_line,
-                      lvalue->source_location.last_line,
-                      lvalue->source_location.first_column,
-                      lvalue->source_location.last_column);
+    var->set_location(lvalue);
     instructions->push_tail(var);
     var->mode = ir_var_auto;
 
@@ -4260,11 +4252,11 @@ ast_interface_block::hir(exec_list *instructions,
                                          this->instance_name,
                                          var_mode);
         }
-        var->set_location(loc.source,
-                          loc.first_line,
-                          loc.last_line,
-                          loc.first_column,
-                          loc.last_column);
+//        var->set_location(loc.source,
+//                          loc.first_line,
+//                          loc.last_line,
+//                          loc.first_column,
+//                          loc.last_column);
         var->interface_type = block_type;
         state->symbols->add_variable(var);
         instructions->push_tail(var);
@@ -4281,11 +4273,11 @@ ast_interface_block::hir(exec_list *instructions,
                                            var_mode);
             var->interface_type = block_type;
             //DEBUG Alex
-            var->set_location(loc.source,
-                              loc.first_line,
-                              loc.last_line,
-                              loc.first_column,
-                              loc.last_column);
+//            var->set_location(loc.source,
+//                              loc.first_line,
+//                              loc.last_line,
+//                              loc.first_column,
+//                              loc.last_column);
 
             state->symbols->add_variable(var);
             instructions->push_tail(var);

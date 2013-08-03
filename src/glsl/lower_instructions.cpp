@@ -145,8 +145,11 @@ void
 lower_instructions_visitor::sub_to_add_neg(ir_expression *ir)
 {
    ir->operation = ir_binop_add;
-   ir->operands[1] = new(ir) ir_expression(ir_unop_neg, ir->operands[1]->type,
-					   ir->operands[1], NULL);
+   ir_expression *tmp_expr =
+           new(ir) ir_expression(ir_unop_neg, ir->operands[1]->type, ir->operands[1], NULL);
+   tmp_expr->set_location(ir->operands[1]);
+   ir->operands[1] =tmp_expr;
+
    this->progress = true;
 }
 

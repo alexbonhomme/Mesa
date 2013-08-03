@@ -1340,7 +1340,8 @@ create_new_program(struct gl_context *ctx, struct state_key *key)
       &ctx->ShaderCompilerOptions[MESA_SHADER_FRAGMENT];
 
    while (do_common_optimization(p.shader->ir, false, false, 32, options))
-      ;
+       ;
+
    reparent_ir(p.shader->ir, p.shader->ir);
 
    p.shader->CompileStatus = true;

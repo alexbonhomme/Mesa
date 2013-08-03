@@ -409,9 +409,6 @@ match_function_by_name(const char *name,
         if (builtin == NULL)
             continue;
 
-//        printf("built in function : ");
-//        builtin->print(); printf("\n");
-
         bool is_exact = false;
         ir_function_signature *builtin_sig =
                 builtin->matching_signature(actual_parameters, &is_exact);
@@ -432,7 +429,6 @@ match_function_by_name(const char *name,
             sig = builtin_sig;
         }
     }
-
 
 done:
     if (sig != NULL) {
@@ -790,11 +786,11 @@ emit_inline_vector_constructor(const glsl_type *type,
     //HACK:
     // We consider all the vector components over the same line
     // but it's still a problem with column position...
-    ir_rvalue *head = (ir_rvalue *) parameters->head;
-    var->set_location(head->source_location.source,
-                      head->source_location.first_line,
-                      head->source_location.last_line,
-                      0, 0);
+//    ir_rvalue *tmp_loc = (ir_rvalue *) parameters->head;
+//    var->set_location(tmp_loc->source_location.source,
+//                      tmp_loc->source_location.first_line,
+//                      tmp_loc->source_location.last_line,
+//                      0, 0);
     instructions->push_tail(var);
 
     /* There are two kinds of vector constructors.
@@ -910,11 +906,6 @@ emit_inline_vector_constructor(const glsl_type *type,
 
                 ir_instruction *inst =
                         new(ctx) ir_assignment(lhs, rhs, NULL, write_mask);
-                inst->set_location(param->source_location.source,
-                                   param->source_location.first_line,
-                                   param->source_location.last_line,
-                                   param->source_location.first_column,
-                                   param->source_location.last_column);
 
                 instructions->push_tail(inst);
             }
@@ -1545,11 +1536,7 @@ ast_function_expression::hir(exec_list *instructions,
                     new(ctx) ir_constant(constructor_type, &actual_parameters);
 //            //DEBUG Alex
             ir_rvalue *tmp_loc = (ir_rvalue *) actual_parameters.head;
-            new_const->set_location(tmp_loc->source_location.source,
-                                    tmp_loc->source_location.first_line,
-                                    tmp_loc->source_location.last_line,
-                                    tmp_loc->source_location.first_column,
-                                    tmp_loc->source_location.last_column);
+            new_const->set_location(tmp_loc);
             return new_const;
         } else if (constructor_type->is_scalar()) {
             return dereference_component((ir_rvalue *) actual_parameters.head,

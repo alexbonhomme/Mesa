@@ -43,6 +43,7 @@
 
 #include "tracetools.h"
 
+#define IF_OPT if(getenv("NO_OPT") == NULL)
 
 /**
  * AVX is supported in:
@@ -150,7 +151,8 @@ create_pass_manager(struct gallivm_state *gallivm)
 //   LLVMAddFunctionDisplayFragmentsPass(gallivm->passmgr);
    LLVMAddFunctionDisplayStartEndPass(gallivm->passmgr);
 
-   if ((gallivm_debug & GALLIVM_DEBUG_NO_OPT) == 0) {
+   //DEBUG Alex
+   if (/*(gallivm_debug & GALLIVM_DEBUG_NO_OPT) ==*/ 0) {
       /* These are the passes currently listed in llvm-c/Transforms/Scalar.h,
        * but there are more on SVN.
        * TODO: Add more passes.
@@ -579,21 +581,29 @@ gallivm_optimize_function(struct gallivm_state *gallivm,
    assert(gallivm->passmgr);
 
    // Analyse module
-//   LLVMPassManagerRef modulePassManager = LLVMCreatePassManager();
-//   LLVMAddModuleInfoPrinterPass(modulePassManager);
-//   LLVMRunPassManager(modulePassManager,gallivm->module);
+   LLVMPassManagerRef modulePassManager = LLVMCreatePassManager();
+   LLVMAddModuleInfoPrinterPass(modulePassManager);
+   LLVMRunPassManager(modulePassManager,gallivm->module);
+
+//   if (gallivm_debug & GALLIVM_DEBUG_IR) {
+   debug_printf("\n-- DUMP LLVM IR before optimizations --\n");
+      /* Print the LLVM IR to stderr */
+      lp_debug_dump_value(func);
+      debug_printf("\n");
+//   }
 
    /* Apply optimizations to LLVM IR */
    LLVMInitializeFunctionPassManager(gallivm->passmgr); // doInitialization
    LLVMRunFunctionPassManager(gallivm->passmgr, func);
 
-   if (0) {
-      if (gallivm_debug & GALLIVM_DEBUG_IR) {
+//   if (0) {
+//      if (gallivm_debug & GALLIVM_DEBUG_IR) {
+   debug_printf("\n-- DUMP LLVM IR after optimizations --\n");
          /* Print the LLVM IR to stderr */
          lp_debug_dump_value(func);
          debug_printf("\n");
-      }
-   }
+//      }
+//   }
 }
 
 

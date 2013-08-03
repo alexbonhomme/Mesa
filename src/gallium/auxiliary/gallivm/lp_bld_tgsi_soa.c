@@ -2982,7 +2982,7 @@ static void emit_prologue(struct lp_build_tgsi_context * bld_base)
     struct gallivm_state * gallivm = bld_base->base.gallivm;
 
 #if 1
-    lp_build_printf(gallivm, "PROLOGUE\n");
+    lp_build_dprintf(gallivm, 3, "PROLOGUE\n");
 #endif
 
     if (bld->indirect_files & (1 << TGSI_FILE_TEMPORARY)) {
@@ -3097,7 +3097,7 @@ static void emit_epilogue(struct lp_build_tgsi_context * bld_base)
     }
 
 #if 1
-    lp_build_printf(bld_base->base.gallivm, "EPILOGUE\n");
+    lp_build_dprintf(bld_base->base.gallivm, 3, "EPILOGUE\n");
 #endif
 }
 
@@ -3227,19 +3227,18 @@ lp_build_tgsi_soa(struct gallivm_state *gallivm,
 
     lp_build_tgsi_llvm(&bld.bld_base, tokens);
 
-#if 0
-    LLVMBasicBlockRef block = LLVMGetInsertBlock(gallivm->builder);
-    LLVMValueRef function = LLVMGetBasicBlockParent(block);
-    debug_printf("11111111111111111111111111111 \n");
-    tgsi_dump(tokens, 0);
-    lp_debug_dump_value(function);
-    debug_printf("2222222222222222222222222222 \n");
-#endif
+//    if (0) {
+//        LLVMBasicBlockRef block = LLVMGetInsertBlock(gallivm->builder);
+//        LLVMValueRef function = LLVMGetBasicBlockParent(block);
+        debug_printf("\n-- START DUMP TGSI IR --\n");
+        tgsi_dump(tokens, 0);
+        debug_printf("\n-- END DUMP TGSI IR --\n");
+//        lp_debug_dump_value(function);
+//    }
 
-#if 0
-    LLVMModuleRef module = LLVMGetGlobalParent(
-                LLVMGetBasicBlockParent(LLVMGetInsertBlock(gallivm->builder)));
-    LLVMDumpModule(module);
-
-#endif
+    if (0) {
+        LLVMModuleRef module = LLVMGetGlobalParent(
+                    LLVMGetBasicBlockParent(LLVMGetInsertBlock(gallivm->builder)));
+        LLVMDumpModule(module);
+    }
 }

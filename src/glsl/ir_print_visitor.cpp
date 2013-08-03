@@ -225,6 +225,8 @@ void ir_print_visitor::visit(ir_function *ir)
 
 void ir_print_visitor::visit(ir_expression *ir)
 {
+    //DEBUG Alex
+   dprintf(4, "[expr l. %d] ", ir->source_location.first_line);
    printf("(expression ");
 
    print_type(ir->type);
@@ -308,6 +310,9 @@ void ir_print_visitor::visit(ir_texture *ir)
 
 void ir_print_visitor::visit(ir_swizzle *ir)
 {
+    //DEBUG Alex
+   dprintf(4, "[swiz l. %d] ", ir->source_location.first_line);
+
     const unsigned swiz[4] = {
         ir->mask.x,
         ir->mask.y,
@@ -328,6 +333,9 @@ void ir_print_visitor::visit(ir_swizzle *ir)
 void ir_print_visitor::visit(ir_dereference_variable *ir)
 {
    ir_variable *var = ir->variable_referenced();
+   //DEBUG Alex
+   dprintf(4, "[var_ref l. %d] ", var->source_location.first_line);
+
    printf("(var_ref %s) ", unique_name(var));
 }
 
@@ -351,6 +359,9 @@ void ir_print_visitor::visit(ir_dereference_record *ir)
 
 void ir_print_visitor::visit(ir_assignment *ir)
 {
+    //DEBUG Alex
+   dprintf(4, "[assign l. %d] ", ir->source_location.first_line);
+
    printf("(assign ");
 
    if (ir->condition)
@@ -380,6 +391,9 @@ void ir_print_visitor::visit(ir_assignment *ir)
 
 void ir_print_visitor::visit(ir_constant *ir)
 {
+    //DEBUG Alex
+   dprintf(4, "[const l. %d] ", ir->source_location.first_line);
+
    printf("(constant ");
    print_type(ir->type);
    printf(" (");

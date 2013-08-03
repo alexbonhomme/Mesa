@@ -30,6 +30,15 @@ struct ModuleInfoPrinter : public ModulePass {
 
                 errs() << '\t';
                 errs().write_escaped(f->getName()) << '\n';
+                errs() << "viewCFG()\n";
+                f->viewCFG();
+//#define DUMP
+#ifdef DUMP
+                errs() << "\n-- START DUMP --\n";
+                f->dump();
+                errs() << "\n-- END DUMP --\n";
+#endif
+
             }
         }
 
@@ -41,7 +50,12 @@ struct ModuleInfoPrinter : public ModulePass {
                 const GlobalVariable *gv = gv_it;
 
                 errs() << '\t';
-                errs().write_escaped(gv->getName()) << '\n';
+                errs().write_escaped(gv->getName());// << '\n';
+//#ifdef DUMP
+//                errs() << "\n-- START DUMP --\n";
+                gv->dump();
+//                errs() << "\n-- END DUMP --\n";
+//#endif
             }
         }
 
@@ -54,6 +68,11 @@ struct ModuleInfoPrinter : public ModulePass {
 
                 errs() << '\t';
                 errs().write_escaped(a->getName()) << '\n';
+#ifdef DUMP
+                errs() << "\n-- START DUMP --\n";
+                a->dump();
+                errs() << "\n-- END DUMP --\n";
+#endif
             }
         }
 
@@ -66,13 +85,20 @@ struct ModuleInfoPrinter : public ModulePass {
 
                 errs() << '\t';
                 errs().write_escaped(nm->getName()) << '\n';
+#ifdef DUMP
+                errs() << "\n-- START DUMP --\n";
+                nm->dump();
+                errs() << "\n-- END DUMP --\n";
+#endif
             }
         }
 
-        //#define DUMP_MODULE
-#if DUMP_MODULE
+//#define DUMP_MODULE
+#ifdef DUMP_MODULE
         // Dump the current module to stderr
+        errs() << "\n-- START DUMP MODULE --\n";
         M.dump();
+        errs() << "\n-- END DUMP MODULE --\n";
 #endif
         errs() << "--- End Module Analyse ---\n";
 

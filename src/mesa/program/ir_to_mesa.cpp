@@ -3021,49 +3021,50 @@ _mesa_ir_link_shader(struct gl_context *ctx, struct gl_shader_program *prog)
         exec_list *ir = prog->_LinkedShaders[i]->ir;
         const struct gl_shader_compiler_options *options =
                 &ctx->ShaderCompilerOptions[_mesa_shader_type_to_index(prog->_LinkedShaders[i]->Type)];
+//        IF_OPT {
+            do {
+                progress = false;
 
-        do {
-            progress = false;
+                /* Lowering */
+                do_mat_op_to_vec(ir);
+                lower_instructions(ir, (MOD_TO_FRACT | DIV_TO_MUL_RCP | EXP_TO_EXP2
+                                        | LOG_TO_LOG2 | INT_DIV_TO_MUL_RCP
+                                        | ((options->EmitNoPow) ? POW_TO_EXP2 : 0)));
 
-            /* Lowering */
-            do_mat_op_to_vec(ir);
-            lower_instructions(ir, (MOD_TO_FRACT | DIV_TO_MUL_RCP | EXP_TO_EXP2
-                                    | LOG_TO_LOG2 | INT_DIV_TO_MUL_RCP
-                                    | ((options->EmitNoPow) ? POW_TO_EXP2 : 0)));
+                progress = do_lower_jumps(ir, true, true, options->EmitNoMainReturn, options->EmitNoCont, options->EmitNoLoops) || progress;
 
-            progress = do_lower_jumps(ir, true, true, options->EmitNoMainReturn, options->EmitNoCont, options->EmitNoLoops) || progress;
-
-            progress = do_common_optimization(ir, true, true,
-                                              options->MaxUnrollIterations,
-                                              options)
-                    || progress;
-
-            progress = lower_quadop_vector(ir, true) || progress;
-
-            if (options->MaxIfDepth == 0)
-                progress = lower_discard(ir) || progress;
-
-            progress = lower_if_to_cond_assign(ir, options->MaxIfDepth) || progress;
-
-            if (options->EmitNoNoise)
-                progress = lower_noise(ir) || progress;
-
-            /* If there are forms of indirect addressing that the driver
-      * cannot handle, perform the lowering pass.
-      */
-            if (options->EmitNoIndirectInput || options->EmitNoIndirectOutput
-                    || options->EmitNoIndirectTemp || options->EmitNoIndirectUniform)
-                progress =
-                        lower_variable_index_to_cond_assign(ir,
-                                                            options->EmitNoIndirectInput,
-                                                            options->EmitNoIndirectOutput,
-                                                            options->EmitNoIndirectTemp,
-                                                            options->EmitNoIndirectUniform)
+                progress = do_common_optimization(ir, true, true,
+                                                  options->MaxUnrollIterations,
+                                                  options)
                         || progress;
 
-            progress = do_vec_index_to_cond_assign(ir) || progress;
-            progress = lower_vector_insert(ir, true) || progress;
-        } while (progress);
+                progress = lower_quadop_vector(ir, true) || progress;
+
+                if (options->MaxIfDepth == 0)
+                    progress = lower_discard(ir) || progress;
+
+                progress = lower_if_to_cond_assign(ir, options->MaxIfDepth) || progress;
+
+                if (options->EmitNoNoise)
+                    progress = lower_noise(ir) || progress;
+
+                /* If there are forms of indirect addressing that the driver
+      * cannot handle, perform the lowering pass.
+      */
+                if (options->EmitNoIndirectInput || options->EmitNoIndirectOutput
+                        || options->EmitNoIndirectTemp || options->EmitNoIndirectUniform)
+                    progress =
+                            lower_variable_index_to_cond_assign(ir,
+                                                                options->EmitNoIndirectInput,
+                                                                options->EmitNoIndirectOutput,
+                                                                options->EmitNoIndirectTemp,
+                                                                options->EmitNoIndirectUniform)
+                            || progress;
+
+                progress = do_vec_index_to_cond_assign(ir) || progress;
+                progress = lower_vector_insert(ir, true) || progress;
+            } while (progress);
+//        }
 
         validate_ir_tree(ir);
     }
@@ -3148,8 +3149,10 @@ _mesa_glsl_compile_shader(struct gl_context *ctx, struct gl_shader *shader)
         /* Do some optimization at compile time to reduce shader IR size
        * and reduce later work if the same shader is linked multiple times
        */
+//        IF_OPT {
         while (do_common_optimization(shader->ir, false, false, 32, options))
             ;
+//        }
 
         validate_ir_tree(shader->ir);
     }

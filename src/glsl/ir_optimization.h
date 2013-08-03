@@ -21,6 +21,8 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
+#define IF_OPT if(getenv("NO_OPT") == NULL)
+#define IF_NO_OPT if(getenv("NO_OPT") != NULL)
 
 /**
  * \file ir_optimization.h

@@ -43,5 +43,17 @@ lp_build_print_value(struct gallivm_state *gallivm,
                      const char *msg,
                      LLVMValueRef value);
 
+//DEBUG Alex
+LLVMValueRef
+lp_build_dprintf(struct gallivm_state *gallivm,
+                 unsigned stream,
+                 const char *fmt, ...);
+
+LLVMValueRef
+lp_build_dprintf_value(struct gallivm_state *gallivm,
+                       unsigned stream,
+                       const char *msg,
+                       LLVMValueRef value);
+
 #endif
 

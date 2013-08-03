@@ -50,7 +50,6 @@
 extern "C" {
 #endif
 
-
 #ifdef DEBUG
 extern unsigned gallivm_debug;
 #else

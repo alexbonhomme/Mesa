@@ -5263,6 +5263,7 @@ st_link_shader(struct gl_context *ctx, struct gl_shader_program *prog)
          lower_packing_builtins(ir, lower_inst);
       }
 
+
       do_mat_op_to_vec(ir);
       lower_instructions(ir,
                          MOD_TO_FRACT |
@@ -5278,21 +5279,22 @@ st_link_shader(struct gl_context *ctx, struct gl_shader_program *prog)
       lower_quadop_vector(ir, false);
       lower_noise(ir);
       if (options->MaxIfDepth == 0) {
-         lower_discard(ir);
+          lower_discard(ir);
       }
-
+//IF_OPT {
       do {
-         progress = false;
+          progress = false;
 
-         progress = do_lower_jumps(ir, true, true, options->EmitNoMainReturn, options->EmitNoCont, options->EmitNoLoops) || progress;
+          progress = do_lower_jumps(ir, true, true, options->EmitNoMainReturn, options->EmitNoCont, options->EmitNoLoops) || progress;
 
-         progress = do_common_optimization(ir, true, true,
-					   options->MaxUnrollIterations, options)
-	   || progress;
+          progress = do_common_optimization(ir, true, true,
+                                            options->MaxUnrollIterations, options)
+                  || progress;
 
-         progress = lower_if_to_cond_assign(ir, options->MaxIfDepth) || progress;
+          progress = lower_if_to_cond_assign(ir, options->MaxIfDepth) || progress;
 
       } while (progress);
+//   }
 
       validate_ir_tree(ir);
    }

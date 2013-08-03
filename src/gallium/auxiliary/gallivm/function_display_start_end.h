@@ -13,6 +13,19 @@
 
 using namespace llvm;
 
+#define GET_INT8(x) ConstantInt::get(Type::getInt8Ty(llvm::getGlobalContext()), x)
+#define GET_INT16(x) ConstantInt::get(Type::getInt16Ty(llvm::getGlobalContext()), x)
+#define GET_INT32(x) ConstantInt::get(Type::getInt32Ty(llvm::getGlobalContext()), x)
+#define GET_INT64(x) ConstantInt::get(Type::getInt64Ty(llvm::getGlobalContext()), x)
+
+#ifdef __i386__
+#define GET_INT GET_INT32
+#elif __x86_64__
+#define GET_INT GET_INT64
+#else
+#define GET_INT GET_INT32
+#endif
+
 namespace {
 struct FunctionDisplayStartEnd : public FunctionPass {
     static char ID; // Pass identification, replacement for typeid
@@ -27,7 +40,7 @@ struct FunctionDisplayStartEnd : public FunctionPass {
         this->M = &M;
 
         //! Set the printf function reference
-        Constant *c = M.getOrInsertFunction("printf", Type::getVoidTy(M.getContext()), (Type*)0);
+        Constant *c = M.getOrInsertFunction("dprintf", Type::getVoidTy(M.getContext()), (Type*)0);
         PrintFunc = cast<Function>(c);
 
         return false;
@@ -42,18 +55,20 @@ struct FunctionDisplayStartEnd : public FunctionPass {
         Instruction *insertPos = entryBB.begin();
 
         // function name & address
-        PrintValues printer = PrintValues(PrintFunc, &F);
-        printer.setName("START " + F.getName().str());
-        printer.add(&F, "%p");
-        printer.printSingleValue(insertPos);
+        std::vector<Value *> args;
+        args.push_back(GET_INT(3));
+        std::string msg_str = "START " + F.getName().str() + " (%p)\n";
+        args.push_back(PrintValues::getGlobalFromString(F, msg_str));
+        args.push_back(&F);
 
-        printer.clear(); //to print end of function
+        CallInst::Create(PrintFunc, args, "dprintf(3, ...)", insertPos);
 
-//        std::string msg;
-//        std::vector<Value *> args;
-//        args.push_back(getGlobalFromString(&F, str));
+        //vector cleaning
+        args.pop_back();
+        args.pop_back();
 
-//        CallInst::Create(PrintFunc, args, "print_const_string", insertBefore);
+        msg_str = "END " + F.getName().str() + "\n";
+        args.push_back(PrintValues::getGlobalFromString(F, msg_str));
 
         /*
          * We are just listing every blocks to find a terminal instruction
@@ -73,16 +88,10 @@ struct FunctionDisplayStartEnd : public FunctionPass {
                 continue;
             }
 
-            printer.printConstString("END " + F.getName().str() + "\n", termInst);
-        }
 
-//#define DUMP_LLVM_FUNC_CODE
-#ifdef DUMP_LLVM_FUNC_CODE
-        errs() << "\n -- START DUMP FUNCTION --\n";
-        errs().write_escaped(F.getName()) << ":\n";
-        F.dump();
-        errs() << " -- END DUMP FUNCTION --\n";
-#endif
+            CallInst::Create(PrintFunc, args, "dprintf(3, ...)", termInst);
+    }
+
 
         return true; // modified function
     }

@@ -170,23 +170,33 @@ ir_assignment::ir_assignment(ir_dereference *lhs, ir_rvalue *rhs,
         assert(lhs_components == this->rhs->type->vector_elements);
     }
 
-    // This is arbitrary.
-    // if they don't are on the same line, we take the left value
-    // This is arbitrary.
-    // if they don't are on the same line, we take the left value
-    if (lhs->source_location.first_line <= 0) {
-        this->set_location(rhs->source_location.source,
-                           rhs->source_location.first_line,
-                           rhs->source_location.last_line,
-                           rhs->source_location.first_column,
-                           rhs->source_location.last_column);
-    } else {
-        this->set_location(lhs->source_location.source,
-                           lhs->source_location.first_line,
-                           lhs->source_location.last_line,
-                           lhs->source_location.first_column,
-                           lhs->source_location.last_column);
-    }
+    // That could be OK if LHS & RHS have correct locations
+//    this->set_location(lhs->source_location.source,
+//                       lhs->source_location.first_line,
+//                       rhs->source_location.last_line,
+//                       lhs->source_location.first_column,
+//                       rhs->source_location.last_column);
+    //FIXME
+    //Unfortunatly that's not the case...
+    unsigned first_line = 0, last_line = 0,
+             first_column = 0, last_column = 0,
+             source = 0;
+
+    source = lhs->source_location.source > 0 ? lhs->source_location.source
+                                             : rhs->source_location.source;
+    first_line = lhs->source_location.first_line > 0 ? lhs->source_location.first_line
+                                                     : rhs->source_location.first_line;
+    last_line = rhs->source_location.last_line > 0 ? rhs->source_location.last_line
+                                                   : lhs->source_location.last_line;
+    first_column = lhs->source_location.first_column > 0 ? lhs->source_location.first_column
+                                                         : rhs->source_location.first_column;
+    last_column = rhs->source_location.last_column > 0 ? rhs->source_location.last_column
+                                                       : lhs->source_location.last_column;
+    this->set_location(source,
+                       first_line,
+                       last_line,
+                       first_column,
+                       last_column);
 }
 
 ir_assignment::ir_assignment(ir_rvalue *lhs, ir_rvalue *rhs,
@@ -212,21 +222,31 @@ ir_assignment::ir_assignment(ir_rvalue *lhs, ir_rvalue *rhs,
 
     this->set_lhs(lhs);
 
-    // This is arbitrary.
-    // if they don't are on the same line, we take the left value
-    if (lhs->source_location.first_line <= 0) {
-        this->set_location(rhs->source_location.source,
-                           rhs->source_location.first_line,
-                           rhs->source_location.last_line,
-                           rhs->source_location.first_column,
-                           rhs->source_location.last_column);
-    } else {
-        this->set_location(lhs->source_location.source,
-                           lhs->source_location.first_line,
-                           lhs->source_location.last_line,
-                           lhs->source_location.first_column,
-                           lhs->source_location.last_column);
-    }
+    // That could be OK if LHS & RHS have correct locations
+    //FIXME
+//    this->set_location(lhs->source_location.source,
+//                       lhs->source_location.first_line,
+//                       rhs->source_location.last_line,
+//                       lhs->source_location.first_column,
+//                       rhs->source_location.last_column);
+    unsigned first_line = 0, last_line = 0,
+             first_column = 0, last_column = 0,
+             source = 0;
+    source = lhs->source_location.source > 0 ? lhs->source_location.source
+                                             : rhs->source_location.source;
+    first_line = lhs->source_location.first_line > 0 ? lhs->source_location.first_line
+                                                     : rhs->source_location.first_line;
+    last_line = rhs->source_location.last_line > 0 ? rhs->source_location.last_line
+                                                   : lhs->source_location.last_line;
+    first_column = lhs->source_location.first_column > 0 ? lhs->source_location.first_column
+                                                         : rhs->source_location.first_column;
+    last_column = rhs->source_location.last_column > 0 ? rhs->source_location.last_column
+                                                       : lhs->source_location.last_column;
+    this->set_location(source,
+                       first_line,
+                       last_line,
+                       first_column,
+                       last_column);
 }
 
 ir_expression::ir_expression(int op, const struct glsl_type *type,
@@ -250,22 +270,40 @@ ir_expression::ir_expression(int op, const struct glsl_type *type,
 #ifdef NDEBUG
     int num_operands = get_num_operands(this->operation);
 #endif
-    for (int i = num_operands; i < 4; i++) {
-        if (this->operands[i] == NULL) {
-            continue;
+
+    // Compute range position
+    unsigned first_line = 0, last_line = 0,
+             first_column = 0, last_column = 0,
+             source = 0;
+    for (int i = 0; i < num_operands; i++) {
+        if (this->operands[i]->source_location.first_line > 0 &&
+                this->operands[i]->source_location.first_line < first_line) {
+            first_line = this->operands[i]->source_location.first_line;
         }
 
-        //This is discutable
-        if (this->operands[i]->source_location.first_line > 0) {
-            this->set_location(this->operands[i]->source_location.source,
-                               this->operands[i]->source_location.first_line,
-                               this->operands[i]->source_location.last_line,
-                               this->operands[i]->source_location.first_column,
-                               this->operands[i]->source_location.last_column);
-            break;
+        if (this->operands[i]->source_location.first_column > 0 &&
+                this->operands[i]->source_location.first_column < first_column) {
+            first_column = this->operands[i]->source_location.first_column;
+        }
+
+        if (this->operands[i]->source_location.first_line > last_line) {
+            last_line = this->operands[i]->source_location.last_line;
+        }
+
+        if (this->operands[i]->source_location.first_column > last_column) {
+            last_column = this->operands[i]->source_location.last_column;
+        }
+
+        if (this->operands[i]->source_location.source > 0) {
+            source = this->operands[i]->source_location.source;
         }
     }
 
+    this->set_location(source,
+                       first_line,
+                       last_line,
+                       first_column,
+                       last_column);
 }
 
 ir_expression::ir_expression(int op, ir_rvalue *op0)
@@ -372,11 +410,7 @@ ir_expression::ir_expression(int op, ir_rvalue *op0)
         break;
     }
 
-    this->set_location(op0->source_location.source,
-                       op0->source_location.first_line,
-                       op0->source_location.last_line,
-                       op0->source_location.first_column,
-                       op0->source_location.last_column);
+    this->set_location(op0);
 }
 
 ir_expression::ir_expression(int op, ir_rvalue *op0, ir_rvalue *op1)
@@ -468,21 +502,39 @@ ir_expression::ir_expression(int op, ir_rvalue *op0, ir_rvalue *op1)
         this->type = glsl_type::float_type;
     }
 
-    // This is arbitrary.
-    // if they don't are on the same line, we take the left value
-    if (op0->source_location.first_line <= 0) {
-        this->set_location(op1->source_location.source,
-                           op1->source_location.first_line,
-                           op1->source_location.last_line,
-                           op1->source_location.first_column,
-                           op1->source_location.last_column);
-    } else {
-        this->set_location(op0->source_location.source,
-                           op0->source_location.first_line,
-                           op0->source_location.last_line,
-                           op0->source_location.first_column,
-                           op0->source_location.last_column);
+    //Compute location range
+    unsigned first_line = 0, last_line = 0,
+             first_column = 0, last_column = 0,
+             source = 0;
+    for (int i = 0; i < 2; i++) {
+        if (this->operands[i]->source_location.first_line > 0 &&
+                this->operands[i]->source_location.first_line < first_line) {
+            first_line = this->operands[i]->source_location.first_line;
+        }
+
+        if (this->operands[i]->source_location.first_column > 0 &&
+                this->operands[i]->source_location.first_column < first_column) {
+            first_column = this->operands[i]->source_location.first_column;
+        }
+
+        if (this->operands[i]->source_location.first_line > last_line) {
+            last_line = this->operands[i]->source_location.last_line;
+        }
+
+        if (this->operands[i]->source_location.first_column > last_column) {
+            last_column = this->operands[i]->source_location.last_column;
+        }
+
+        if (this->operands[i]->source_location.source > 0) {
+            source = this->operands[i]->source_location.source;
+        }
     }
+
+    this->set_location(source,
+                       first_line,
+                       last_line,
+                       first_column,
+                       last_column);
 }
 
 unsigned int
@@ -651,7 +703,7 @@ ir_constant::ir_constant(const struct glsl_type *type,
 
     this->ir_type = ir_type_constant;
     this->type = type;
-    memcpy(& this->value, data, sizeof(this->value));
+    memcpy(&this->value, data, sizeof(this->value));
 }
 
 ir_constant::ir_constant(float f)
@@ -707,11 +759,7 @@ ir_constant::ir_constant(const ir_constant *c, unsigned i)
     default:              assert(!"Should not get here."); break;
     }
 
-    this->set_location(c->source_location.source,
-                       c->source_location.first_line,
-                       c->source_location.last_line,
-                       c->source_location.first_column,
-                       c->source_location.last_column);
+    this->set_location(c);
 }
 
 ir_constant::ir_constant(const struct glsl_type *type, exec_list *value_list)
@@ -1316,11 +1364,7 @@ ir_dereference_variable::ir_dereference_variable(ir_variable *var)
     this->var = var;
     this->type = var->type;
 
-    this->set_location(var->source_location.source,
-                       var->source_location.first_line,
-                       var->source_location.last_line,
-                       var->source_location.first_column,
-                       var->source_location.last_column);
+    this->set_location(var);
 }
 
 
@@ -1332,11 +1376,11 @@ ir_dereference_array::ir_dereference_array(ir_rvalue *value,
     this->set_array(value);
 
     //TODO: this is a good idea ?
-    this->set_location(value->source_location.source,
-                       value->source_location.first_line,
-                       value->source_location.last_line,
-                       value->source_location.first_column,
-                       value->source_location.last_column);
+//    this->set_location(value->source_location.source,
+//                       value->source_location.first_line,
+//                       value->source_location.last_line,
+//                       value->source_location.first_column,
+//                       value->source_location.last_column);
 }
 
 
@@ -1349,11 +1393,7 @@ ir_dereference_array::ir_dereference_array(ir_variable *var,
     this->array_index = array_index;
     this->set_array(new(ctx) ir_dereference_variable(var));
 
-    this->set_location(var->source_location.source,
-                       var->source_location.first_line,
-                       var->source_location.last_line,
-                       var->source_location.first_column,
-                       var->source_location.last_column);
+//    this->set_location(var);
 }
 
 
@@ -1374,11 +1414,7 @@ ir_dereference_array::set_array(ir_rvalue *value)
         type = vt->get_base_type();
     }
 
-    this->set_location(value->source_location.source,
-                       value->source_location.first_line,
-                       value->source_location.last_line,
-                       value->source_location.first_column,
-                       value->source_location.last_column);
+//    this->set_location(value);
 }
 
 
@@ -1392,11 +1428,7 @@ ir_dereference_record::ir_dereference_record(ir_rvalue *value,
     this->field = ralloc_strdup(this, field);
     this->type = this->record->type->field_type(field);
 
-    this->set_location(value->source_location.source,
-                       value->source_location.first_line,
-                       value->source_location.last_line,
-                       value->source_location.first_column,
-                       value->source_location.last_column);
+    this->set_location(value);
 }
 
 
@@ -1410,11 +1442,7 @@ ir_dereference_record::ir_dereference_record(ir_variable *var,
     this->field = ralloc_strdup(this, field);
     this->type = this->record->type->field_type(field);
 
-    this->set_location(var->source_location.source,
-                       var->source_location.first_line,
-                       var->source_location.last_line,
-                       var->source_location.first_column,
-                       var->source_location.last_column);
+    this->set_location(var);
 }
 
 bool
@@ -1534,11 +1562,8 @@ ir_swizzle::ir_swizzle(ir_rvalue *val, unsigned x, unsigned y, unsigned z,
     this->ir_type = ir_type_swizzle;
     this->init_mask(components, count);
 
-    this->set_location(val->source_location.source,
-                       val->source_location.first_line,
-                       val->source_location.last_line,
-                       val->source_location.first_column,
-                       val->source_location.last_column);
+    //FIXME:
+    this->set_location(val);
 }
 
 ir_swizzle::ir_swizzle(ir_rvalue *val, const unsigned *comp,
@@ -1548,11 +1573,7 @@ ir_swizzle::ir_swizzle(ir_rvalue *val, const unsigned *comp,
     this->ir_type = ir_type_swizzle;
     this->init_mask(comp, count);
 
-    this->set_location(val->source_location.source,
-                       val->source_location.first_line,
-                       val->source_location.last_line,
-                       val->source_location.first_column,
-                       val->source_location.last_column);
+    this->set_location(val);
 }
 
 ir_swizzle::ir_swizzle(ir_rvalue *val, ir_swizzle_mask mask)
@@ -1563,11 +1584,7 @@ ir_swizzle::ir_swizzle(ir_rvalue *val, ir_swizzle_mask mask)
     this->type = glsl_type::get_instance(val->type->base_type,
                                          mask.num_components, 1);
 
-    this->set_location(val->source_location.source,
-                       val->source_location.first_line,
-                       val->source_location.last_line,
-                       val->source_location.first_column,
-                       val->source_location.last_column);
+    this->set_location(val);
 }
 
 #define X 1

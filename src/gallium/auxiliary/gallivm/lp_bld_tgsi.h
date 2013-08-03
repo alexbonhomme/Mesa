@@ -637,4 +637,10 @@ lp_build_tgsi_llvm(
    struct lp_build_tgsi_context * bld_base,
    const struct tgsi_token *tokens);
 
+//DEBUG Alex
+void
+lp_bld_insert_trace_inst(struct lp_build_tgsi_context *bld_base,
+                         const struct tgsi_full_instruction *inst,
+                         const unsigned chan_index);
+
 #endif /* LP_BLD_TGSI_H */

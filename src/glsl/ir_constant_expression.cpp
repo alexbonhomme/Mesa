@@ -1667,21 +1667,13 @@ ir_dereference_array::constant_expression_value(struct hash_table *variable_cont
                 break;
             }
             ir_constant *new_const = new(ctx) ir_constant(column_type, &data);
-            new_const->set_location(this->source_location.source,
-                                    this->source_location.first_line,
-                                    this->source_location.last_line,
-                                    this->source_location.first_column,
-                                    this->source_location.last_column);
+            new_const->set_location(this);
             return new_const;
         } else if (array->type->is_vector()) {
             const unsigned component = idx->value.u[0];
 
             ir_constant *new_const = new(ctx) ir_constant(array, component);
-            new_const->set_location(this->source_location.source,
-                                    this->source_location.first_line,
-                                    this->source_location.last_line,
-                                    this->source_location.first_column,
-                                    this->source_location.last_column);
+            new_const->set_location(this);
             return new_const;
         } else {
             const unsigned index = idx->value.u[0];

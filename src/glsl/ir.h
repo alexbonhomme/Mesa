@@ -139,6 +139,18 @@ public:
     }
 
     /**
+     * @brief set_location
+     * @param value
+     */
+    inline void set_location(const ir_instruction *value) {
+        this->source_location.source = value->source_location.source;
+        this->source_location.first_line = value->source_location.first_line;
+        this->source_location.last_line = value->source_location.last_line;
+        this->source_location.first_column = value->source_location.first_column;
+        this->source_location.last_column = value->source_location.last_column;
+    }
+
+    /**
     * GCC 4.7+ and clang warn when deleting an ir_instruction unless
     * there's a virtual destructor present.  Because we almost
     * universally use ralloc for our memory management of
